@@ -32,6 +32,14 @@ import sys
 if os.path.dirname(os.path.abspath(__file__)) not in sys.path:
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from utils import get_consumer_project
+# Proposal identity/id live in a stdlib-only module so the local review UI can
+# share them without importing this agent's GCP/ADK runtime. Re-exported here so
+# `agent._proposal_id` etc. keep working for existing callers and tests.
+from proposal_id import (  # noqa: F401
+    _canonical_asset_name,
+    _proposal_id,
+    _proposal_identity,
+)
 
 consumer_project = get_consumer_project()
 
@@ -234,7 +242,7 @@ def _fetch_and_group(
             datetime.now(timezone.utc) - timedelta(days=days_ago)
         ).isoformat()
         filter_str = _reasoning_engine_filter(re_id, start_time_str, end_time)
-    entries = list(client.list_entries(filter_=filter_str, order_by=cloud_logging.DESCENDING))
+    entries = list(client.list_entries(filter_=filter_str, order_by=cloud_logging.DESCENDING, page_size=1000))
     return entries, _group_by_conversation(entries)
 
 
@@ -268,7 +276,7 @@ def get_agent_trajectories(
         if conversation_id:
             output.append(f"--- Fetching Conversation: {conversation_id} ---")
             filter_str = _conversation_filter(conversation_id)
-            entries = list(client.list_entries(filter_=filter_str, order_by=cloud_logging.DESCENDING))
+            entries = list(client.list_entries(filter_=filter_str, order_by=cloud_logging.DESCENDING, page_size=1000))
 
             output.append("--- Chat History ---")
 
@@ -294,7 +302,7 @@ def get_agent_trajectories(
             re_id = reasoning_engine_id.split("/")[-1]
             filter_str = _reasoning_engine_filter(re_id, start_time_str, end_time)
 
-            entries = list(client.list_entries(filter_=filter_str, order_by=cloud_logging.DESCENDING))
+            entries = list(client.list_entries(filter_=filter_str, order_by=cloud_logging.DESCENDING, page_size=1000))
 
             if not entries:
                 output.append("No messages found for this Reasoning Engine in the specified time range.")
@@ -539,6 +547,8 @@ ORCHESTRATOR_INSTRUCTION = (
     "- If given a Reasoning Engine id (or full resource path) and a time filter, "
     "pass `reasoning_engine_id` plus either `days_ago` or `start_time`/`end_time` "
     "(ISO 8601).\n"
+    "- If the user asks for proposal IDs (e.g. 'with ids' / 'stable ids'), pass "
+    "`include_ids=true` (it defaults to false).\n"
     "Then report the tool's returned summary verbatim to the user. Do not call "
     "the tool more than once and do not call any other tools."
 )
@@ -646,25 +656,12 @@ def _judge_conversation_sync(conversation_id: str, transcript: str) -> List[Dict
 def _aggregate_proposals(proposals: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """Deduplicates proposals across conversations (lightweight aggregation pass).
 
-    Proposals targeting the same asset (type + normalized name) with the same
-    gap_type are treated as the same learning; the highest-confidence instance is
-    kept. A blank asset name (e.g. uncataloged-asset discoveries) falls back to a
-    hash of the enrichment instruction so genuinely distinct finds are not merged.
+    Proposals with the same identity (see _proposal_identity) are treated as the
+    same learning; the highest-confidence instance is kept.
     """
-    import hashlib
-    by_key: Dict[tuple, Dict[str, Any]] = {}
+    by_key: Dict[Tuple, Dict[str, Any]] = {}
     for p in proposals:
-        asset = p.get("target_asset") or {}
-        atype = asset.get("type", "")
-        name = (asset.get("name") or "").strip().lower()
-        gap = (p.get("classification") or {}).get("gap_type", "")
-        if name:
-            key = (atype, name, gap)
-        else:
-            instr = p.get("enrichment_agent_instruction") or json.dumps(
-                p.get("proposed_enrichment", ""), sort_keys=True
-            )
-            key = (atype, gap, hashlib.sha1(instr.encode()).hexdigest()[:12])
+        key = _proposal_identity(p)
         existing = by_key.get(key)
         if existing is None or (p.get("confidence_grade") or 0) > (existing.get("confidence_grade") or 0):
             by_key[key] = p
@@ -678,6 +675,7 @@ async def generate_learnings(
     start_time: Optional[str] = None,
     end_time: Optional[str] = None,
     project_id: str = consumer_project,
+    include_ids: bool = False,
 ) -> str:
     """Analyzes agent conversation trajectories and saves enrichment proposals.
 
@@ -692,6 +690,8 @@ async def generate_learnings(
         start_time: ISO 8601 start of an explicit time window.
         end_time: ISO 8601 end of an explicit time window.
         project_id: Google Cloud Project ID.
+        include_ids: When True, attach a deterministic, run-stable ``id`` to each
+            saved proposal (derived from its identity; see _proposal_id).
 
     Returns:
         A human-readable summary of what was analyzed and saved.
@@ -742,6 +742,8 @@ async def generate_learnings(
     results = await asyncio.gather(*[_judge(c, t) for c, t in transcripts.items()])
     raw_proposals = [p for sub in results for p in sub]
     deduped = _aggregate_proposals(raw_proposals)
+    if include_ids:
+        deduped = [{"id": _proposal_id(p), **p} for p in deduped]
 
     save_trajectory_analysis_result(json.dumps({"proposals": deduped}))
 
