@@ -1,4 +1,4 @@
-# Dharma OKF — Open Knowledge Format for Sanskrit Non-Translatables
+# Dharma OKF — Open Knowledge Format for Dharma / Vedic concepts (Sanskrit Non-Translatables)
 
 A structured, machine-readable knowledge base of Sanskrit concepts that
 
