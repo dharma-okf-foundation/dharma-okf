@@ -15,8 +15,8 @@ tags:
 resource: "https://github.com/dharma-okf-foundation/dharma-okf"
 timestamp: "2026-06-18"
 authors:
-  - name: "KDS Champions"
-    url: "https://kdschampions.com"
+  - name: "Dharma-OKF"
+    url: "www.DharmaOKF.foundation"
 sources:
   - "Rajiv Malhotra — Sanskrit Non-Translatables (2020)"
   - "Prashānt Parikh — Lost in Translation series"
