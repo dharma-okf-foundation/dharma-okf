@@ -1,25 +1,81 @@
-# Knowledge Catalog
+# Dharma OKF — Open Knowledge Format for Sanskrit Non-Translatables
 
-[Knowledge Catalog](https://cloud.google.com/products/knowledge-catalog) (formerly Dataplex), is an AI-powered data catalog and metadata management platform. It provides a dynamic knowledge graph of all your data, structured and unstructured, to provide semantics and business context to AI agents
+A structured, machine-readable knowledge base of Sanskrit concepts that
 
-This repository features tools, agents, and samples that demonstrate Knowledge Catalog features, and building context management, enrichment and retrieval solutions.
+resist accurate translation into English — built for AI agents, educators,
 
+researchers, and technologists working with dharmic knowledge systems.
 
-## Getting Started
+## What Is OKF?
 
-[![Open in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2FGoogleCloudPlatform%2Fknowledge-catalog.git)
+The Open Knowledge Format (OKF) uses YAML-frontmatter Markdown files with
 
+a critical `not:` field listing English mistranslations AI agents must avoid.
+
+This prevents AI systems from confidently substituting inaccurate equivalents:
+
+- "Karma = Fate" → **Wrong.** See `concepts/karma.md`
+
+- "Dharma = Religion" → **Wrong.** See `concepts/dharma.md`
+
+- "Samadhi = Trance" → **Wrong.** See `concepts/samadhi.md`
+
+- "Yoga = Exercise" → **Wrong.** See `concepts/yoga.md`
+
+## The `not:` Field — Why It Matters
+
+When AI agents encounter Sanskrit terms, they default to common English
+
+translations. These translations are often structurally incorrect — they
+
+carry different metaphysical assumptions, different philosophical contexts,
+
+and different cultural baggage. The `not:` field in each concept file is a
+
+machine-readable instruction: *do not substitute these terms.*
+
+## Bundle: dharma-foundation
+
+25 Sanskrit concept files covering:
+
+- **Vedanta metaphysics:** Brahman, Ātman, Jīva, Māyā, Mokṣa, Saṃsāra
+
+- **Vedic psychology:** Buddhi, Manas, Chitta, Ahankāra, Viveka, Vairāgya
+
+- **Yoga philosophy:** Yoga, Dhyāna, Samādhi, Prāṇa, Karma, Dharma
+
+- **Sound and language:** Śabda, Mantra, Akṣara, Om
+
+- **Cosmology:** Chakra, Loka, Prakṛti
+
+Located at: `okf/dharma-foundation/concepts/`
+
+## File Format
+
+Each concept file contains:
+
+- **YAML frontmatter:** type, title, description, tags, `not:`, `related:`, timestamp, okf_version
+
+- **What It Actually Means** — precise dharmic definition
+
+- **Why the Substitutes Fail** — why common English terms are wrong
+
+- **Audience Metaphor** — accessible analogy for AI or general audiences
+
+- **Key Sources** — primary śāstra references
+
+## Content License
+
+The concept files in `/okf/` are licensed under **CC BY-SA 4.0** (ShareAlike).
+
+See [LICENSE-CONTENT](./LICENSE-CONTENT) for details.
+
+Repository tooling is under Apache 2.0 (inherited from upstream GoogleCloudPlatform fork).
 
 ## Contributing
 
-See the contributing [instructions](CONTRIBUTING.md) to get started contributed.
+This is a standalone publication home for the Dharma OKF Foundation.
 
+Contributions, corrections, and additions that deepen accuracy are welcome
 
-## License
-
-All solutions within this repository are provided under the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) license. Please see [LICENSE](LICENSE.md) for more detailed terms and conditions.
-
-
-## Disclaimer
-
-This repository and its contents are not an official Google product.
+via Pull Request.
