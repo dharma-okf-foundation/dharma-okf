@@ -7,11 +7,18 @@ tags:
   - antahkarana
   - Samkhya
   - non-translatable
+darshana:
+  - Sāṃkhya
 not:
-  - Ego (Freudian)
-  - Self-identity
-  - Pride
-  - Narcissism
+  - term: "Ego (Freudian)"
+    why: "Freud's ego is a developmental construct mediating id and reality; Ahankāra is a cosmological evolute of Prakṛti present from embodiment, the very mechanism sustaining saṃsāra."
+    instead: "Keep Ahankāra untranslated; gloss as the I-making principle."
+  - term: "Self-identity"
+    why: "A neutral psychological term; Ahankāra is specifically the act of stamping I and mine onto every experience."
+  - term: "Pride"
+    why: "Names one symptom; Ahankāra is the prior I-making principle, present even in humility."
+  - term: "Narcissism"
+    why: "A pathology; Ahankāra is a universal faculty every sentient being is born with, not a disorder."
 related:
   - /concepts/manas.md
   - /concepts/buddhi.md
@@ -42,8 +49,8 @@ Freud's ego is a developmental, psychological construct that mediates instinct a
 
 Ahankāra is like the watermark on every photo your phone takes — it stamps "MY PHOTO" on every image, whether you asked it to or not. You start believing you ARE the photographer. [Mokṣa](/concepts/moksha.md) is realizing the light was always just passing through the lens; the watermark was added after the fact.
 
-## Key Sources
+## Citations
 
-- Sāṃkhya Kārikā of Īśvarakṛṣṇa
-- Bhagavad Gītā 3.27, 7.4, 13.5
-- Vivekacūḍāmaṇi of Ādi Śaṅkarācārya
+1. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa
+2. [Bhagavad Gītā](/references/bhagavad-gita.md) 3.27, 7.4, 13.5
+3. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) of Ādi Śaṅkarācārya
