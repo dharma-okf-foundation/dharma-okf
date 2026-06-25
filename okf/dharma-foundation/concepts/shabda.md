@@ -8,10 +8,18 @@ tags:
   - language
   - Vedanta
   - non-translatable
+darshana:
+  - Mīmāṃsā
+  - Vyākaraṇa
+  - Advaita Vedānta
 not:
-  - Word
-  - Sound (physical)
-  - Verbal testimony (reductive)
+  - term: "Word"
+    why: "A word is an arbitrary symbol in structural linguistics; Śabda is a cosmic principle where sound and meaning are undifferentiated at their source."
+    instead: "Keep Śabda untranslated; gloss as sound as pramāṇa and as cosmic vibration."
+  - term: "Sound (physical)"
+    why: "Reduces Śabda to acoustic waves; it spans all levels from audible sound to unmanifest vibration identical with consciousness."
+  - term: "Verbal testimony (reductive)"
+    why: "Western testimony depends on human credibility; Śabda as pramāṇa is the apauruṣeya (authorless) testimony of the Vedas."
 related:
   - /concepts/om.md
   - /concepts/mantra.md
@@ -50,9 +58,13 @@ This is why Sanskrit is fundamentally different from all other languages in dhar
 
 "Word" is an arbitrary symbol in structural linguistics. Śabda is a cosmic principle — the idea that the universe is built on a foundation of meaningful vibration. "Sound" (physical) reduces Śabda to acoustic waves. Śabda encompasses all levels from gross audible sound to the subtlest unmanifest vibration identical with consciousness.
 
-## Key Sources
+## Audience Metaphor
 
-- Bhartṛhari's *Vākyapadīya*
-- Pāṇini's Aṣṭādhyāyī
-- Brahma Sūtras 1.3.28 (*Śabda as pramāṇa*)
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+Western linguistics studies language the way you would study ripples on the surface of a pond — the audible *Vaikharī* layer. Śabda points to the whole water column beneath: the still depth (*Parā*) where the disturbance originates, and every intermediate layer the ripple passes through on its way up. Translation only ever copies the surface ripples — it cannot carry the depth that produced them.
+
+## Citations
+
+1. Bhartṛhari's *Vākyapadīya*
+2. Pāṇini's Aṣṭādhyāyī
+3. [Brahma Sūtras](/references/brahma-sutras.md) 1.3.28 (*Śabda as pramāṇa*)
+4. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

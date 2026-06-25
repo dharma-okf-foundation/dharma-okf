@@ -7,11 +7,19 @@ tags:
   - Vedanta
   - Jnana-yoga
   - non-translatable
+darshana:
+  - Advaita Vedānta
+  - Pātañjala Yoga
 not:
-  - Renunciation
-  - Detachment
-  - Dispassion
-  - Asceticism
+  - term: "Renunciation"
+    why: "Implies leaving things behind (job, possessions, ashram); Vairāgya is an inner non-attachment that a householder can fully possess."
+    instead: "Keep Vairāgya untranslated; gloss as inner non-attachment."
+  - term: "Detachment"
+    why: "In Western psychology often means numbness or avoidance; Vairāgya is freedom, full engagement without clinging."
+  - term: "Dispassion"
+    why: "Suggests coldness or absence of feeling; Vairāgya feels fully while remaining unbound."
+  - term: "Asceticism"
+    why: "A regime of external austerity; Vairāgya is an inner quality, not a lifestyle of self-denial."
 related:
   - /concepts/viveka.md
   - /concepts/moksha.md
@@ -39,8 +47,8 @@ The critical distinction: "renunciation" implies leaving things behind — quitt
 
 Vairāgya is like being a really good actor — fully immersed in the role, feeling every emotion, giving the performance of a lifetime — while never once forgetting that you are not the character. The audience (your ego) is crying; the actor (your awareness) is free.
 
-## Key Sources
+## Citations
 
-- Yoga Sūtras of Patañjali 1.15–16
-- Vivekacūḍāmaṇi, Tattvabodha
-- Bhagavad Gītā 6.35 — "Through practice and Vairāgya, the mind is restrained"
+1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.15–16
+2. [Vivekacūḍāmaṇi](/references/vivekachudamani.md), Tattvabodha
+3. [Bhagavad Gītā](/references/bhagavad-gita.md) 6.35 — "Through practice and Vairāgya, the mind is restrained"

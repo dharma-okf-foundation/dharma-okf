@@ -7,10 +7,16 @@ tags:
   - transmigration
   - Vedanta
   - non-translatable
+darshana:
+  - Pan-dharmic
 not:
-  - Reincarnation (Western New Age)
-  - The wheel of life (simplified)
-  - Worldly existence (dismissive)
+  - term: "Reincarnation (Western New Age)"
+    why: "Implies a fixed personal identity moving to a new body; saṃsāra carries the subtle body and saṃskāras, an evolving pattern, not a fixed personality."
+    instead: "Keep Saṃsāra untranslated; gloss as the beginningless cycle of transmigration."
+  - term: "The wheel of life (simplified)"
+    why: "A flattened folk image; saṃsāra is a precise mechanism driven by karma and sustained by avidyā across all fourteen lokas."
+  - term: "Worldly existence (dismissive)"
+    why: "Treats it as mere mundane life; saṃsāra is the beginningless condition of transmigration, neutral, ending only with mokṣa."
 related:
   - /concepts/karma.md
   - /concepts/moksha.md
@@ -38,7 +44,7 @@ Saṃsāra is not "bad" in a moral sense — it is a natural condition that pers
 
 Saṃsāra is like switching between characters in an infinite video game — each character has different attributes, different levels, different challenges. The player (Ātman) is always the same, but keeps getting absorbed into each new character, forgetting they're playing. Mokṣa is putting down the controller.
 
-## Key Sources
+## Citations
 
-- Bhagavad Gītā 2.22 — "As a person discards worn-out clothes and puts on new ones"
-- Bṛhadāraṇyaka Upaniṣad 4.4.1–6
+1. [Bhagavad Gītā](/references/bhagavad-gita.md) 2.22 — "As a person discards worn-out clothes and puts on new ones"
+2. [Bṛhadāraṇyaka Upaniṣad](/references/brihadaranyaka-upanishad.md) 4.4.1–6

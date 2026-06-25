@@ -8,11 +8,18 @@ tags:
   - Patanjali
   - non-translatable
   - liberation
+darshana:
+  - Pātañjala Yoga
 not:
-  - Trance
-  - Ecstasy
-  - Altered state
-  - Deep meditation
+  - term: "Trance"
+    why: "A tāmasika state of diminished, distorted awareness; Samādhi is the peak of awareness beyond the subject-object split."
+    instead: "Keep Samādhi untranslated; gloss as the eighth limb, subject-object unity."
+  - term: "Ecstasy"
+    why: "Implies emotional rapture; Samādhi is the collapse of meditator, object, and act into unity."
+  - term: "Altered state"
+    why: "A vague catch-all; Samādhi is the precise eighth limb of Yoga with defined sub-types."
+  - term: "Deep meditation"
+    why: "Names intensity of Dhyāna; Samādhi is a distinct stage where subject-object distinction dissolves."
 related:
   - /concepts/yoga.md
   - /concepts/dhyana.md
@@ -37,8 +44,12 @@ Two broad types: *Samprajñāta samādhi* (with an object of consciousness — s
 
 Trance is "merely a *tāmasika* state with a distorted vision of reality" (RM). Samādhi gives mastery over the forces of nature. "Nobody in a bewildered and confused state of trance can attain knowledge of the entire cosmos." Trance diminishes awareness; Samādhi is the peak of awareness — hyper-alertness beyond the subject-object split.
 
-## Key Sources
+## Audience Metaphor
 
-- Yoga Sūtras of Patañjali 1.17–18, 3.3
-- Vivekacūḍāmaṇi
-- Māṇḍūkya Upaniṣad
+In ordinary perception there is always a gap: a seer, a thing seen, and the act of seeing between them. Samādhi is like a perfectly still lake and the sky it reflects becoming one image — no longer two things plus a reflection, just a single seamless expanse. A trance dims the lights to get there; Samādhi turns them all the way up, until the seer, the seen, and the seeing are one blaze of awareness.
+
+## Citations
+
+1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.17–18, 3.3
+2. [Vivekacūḍāmaṇi](/references/vivekachudamani.md)
+3. [Māṇḍūkya Upaniṣad](/references/mandukya-upanishad.md)

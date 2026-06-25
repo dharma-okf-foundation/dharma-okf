@@ -7,12 +7,21 @@ tags:
   - Vedanta
   - cosmology
   - non-translatable
+darshana:
+  - Advaita Vedānta
+  - Bhāgavata
 not:
-  - Illusion
-  - Delusion
-  - Fantasy
-  - The Matrix
-  - A mistake
+  - term: "Illusion"
+    why: "Implies the world is fake like a hallucination; Māyā is a real Śakti, and the world is real at the transactional (vyāvahārika) level, lacking only independent absolute reality."
+    instead: "Keep Māyā untranslated; gloss as the real concealing-projecting Śakti of Brahman."
+  - term: "Delusion"
+    why: "Locates the error in a defective mind; Māyā is the cosmic power that enables both misperception and its correction, not a personal mistake."
+  - term: "Fantasy"
+    why: "Suggests something invented and unreal; Māyā is the measuring, producing power (root mā) of Brahman."
+  - term: "The Matrix"
+    why: "Implies a malicious architect and a purely deceptive prison; Māyā has no malice and serves a redemptive purpose, turning jīvas back toward the source."
+  - term: "A mistake"
+    why: "Māyā is purposeful, not an error; it impels activity and ultimately brings bound jīvas home."
 related:
   - /concepts/brahman.md
   - /concepts/atman.md
@@ -26,7 +35,7 @@ okf_version: "0.1"
 
 # Māyā
 
-**Not:** Illusion, Delusion, Fantasy, The Matrix
+**Not:** Illusion, Delusion, Fantasy, The Matrix, A mistake
 
 ## What It Actually Means
 
@@ -77,9 +86,9 @@ In Sāṃkhya and Śaiva Siddhānta, Māyā is identified with Prakṛti — the
 
 Māyā is like VR goggles that have been on so long you forgot they're there. The VR world is real *as experience* — you feel, react, suffer, and celebrate within it. But it has no independent existence apart from the consciousness generating it. Removing the goggles (= Self-knowledge) doesn't destroy the VR world — it reveals what was always behind it.
 
-## Key Sources
+## Citations
 
-- Vivekacūḍāmaṇi of Ādi Śaṅkarācārya
-- Māṇḍūkya Upaniṣad with Gauḍapāda's Kārikā
-- Bhagavad Gītā 7.14 — "This divine Māyā of mine is difficult to cross"
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+1. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) of Ādi Śaṅkarācārya
+2. [Māṇḍūkya Upaniṣad](/references/mandukya-upanishad.md) with Gauḍapāda's Kārikā
+3. [Bhagavad Gītā](/references/bhagavad-gita.md) 7.14 — "This divine Māyā of mine is difficult to cross"
+4. Rajiv Malhotra, *Sanskrit Non-Translatabl

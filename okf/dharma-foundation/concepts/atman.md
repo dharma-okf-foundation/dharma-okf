@@ -8,12 +8,21 @@ tags:
   - Vedanta
   - Upanishads
   - non-translatable
+darshana:
+  - Advaita Vedānta
+  - Bhāgavata
 not:
-  - Soul
-  - Self (capitalized Western usage)
-  - Spirit
-  - Inner being
-  - Higher self
+  - term: "Soul"
+    why: "Imports the Abrahamic frame: created by God, judged after one life, eternal heaven or hell. Ātman is uncreated, transmigrates across countless lives, and includes all life, not only humans."
+    instead: "Keep Ātman untranslated; gloss as witness-consciousness (sākṣī-caitanya)."
+  - term: "Self (capitalized Western usage)"
+    why: "In Western philosophy denotes personal identity or ego, which is exactly what Ātman is not; risks confusing Ātman with ahaṃkāra."
+  - term: "Spirit"
+    why: "Implies something ghostly and personal; Ātman is impersonal consciousness, the same in every being."
+  - term: "Inner being"
+    why: "Suggests a private psychological interior; Ātman is not a part of the person but the all-pervading witness."
+  - term: "Higher self"
+    why: "A New Age framing implying a better version of the ego; Ātman is not an upgraded self but what remains when all self-identity is removed."
 related:
   - /concepts/brahman.md
   - /concepts/jiva.md
@@ -65,9 +74,9 @@ The Kaṭha Upaniṣad (1.3.3) maps the inner architecture: Ātman is the rider 
 
 Think of Ātman as the screen in a movie theater. Every character, every scene, every emotion plays across it — but the screen is never burned by fire in the movie, never wet from rain, never aged by movie-time. You've been watching the movie so intently you forgot you ARE the screen.
 
-## Key Sources
+## Citations
 
-- Bṛhadāraṇyaka Upaniṣad, Kaṭha Upaniṣad, Māṇḍūkya Upaniṣad
-- Bhagavad Gītā 2.17–25 (Ātman's indestructibility)
-- Vivekacūḍāmaṇi of Ādi Śaṅkarācārya
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+1. [Bṛhadāraṇyaka Upaniṣad](/references/brihadaranyaka-upanishad.md), [Kaṭha Upaniṣad](/references/katha-upanishad.md), [Māṇḍūkya Upaniṣad](/references/mandukya-upanishad.md)
+2. [Bhagavad Gītā](/references/bhagavad-gita.md) 2.17–25 (Ātman's indestructibility)
+3. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) of Ādi Śaṅkarācārya
+4. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

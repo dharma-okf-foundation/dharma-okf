@@ -7,12 +7,20 @@ tags:
   - practice
   - Patanjali
   - non-translatable
+darshana:
+  - Pātañjala Yoga
 not:
-  - Exercise
-  - Stretching
-  - Wellness practice
-  - Meditation (generic)
-  - Workout
+  - term: "Exercise"
+    why: "Reduces an eight-limbed science to physical activity; āsana is one part of one limb."
+    instead: "Keep Yoga untranslated; gloss as the eight-limbed science of union."
+  - term: "Stretching"
+    why: "Names a bodily movement; Yoga is chitta-vṛtti-nirodha, the cessation of mental modifications."
+  - term: "Wellness practice"
+    why: "A modern lifestyle category; Yoga aims at union with the source, not at wellbeing as an end."
+  - term: "Meditation (generic)"
+    why: "Meditation is one stage (Dhyāna, the seventh limb), not the whole system."
+  - term: "Workout"
+    why: "A fitness goal; Yoga's goal is liberation, with the body as foundation, not target."
 related:
   - /concepts/dhyana.md
   - /concepts/samadhi.md
@@ -56,8 +64,8 @@ Every English substitute reduces an eight-limbed science to one of its minor phy
 
 Imagine a smartphone. The global fitness industry took the flashlight app, called it "the phone," and sells courses on how to use it — while ignoring the operating system, the processor, the network, and every other app. That flashlight app is āsana. The full phone is Yoga.
 
-## Key Sources
+## Citations
 
-- Yoga Sūtras of Patañjali (complete text)
-- Bhagavad Gītā chapters 2, 3, 6, 12, 18
-- Haṭha Yoga Pradīpikā
+1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) (complete text)
+2. [Bhagavad Gītā](/references/bhagavad-gita.md) chapters 2, 3, 6, 12, 18
+3. Haṭha Yoga Pradīpikā

@@ -7,11 +7,19 @@ tags:
   - antahkarana
   - Yoga
   - non-translatable
+darshana:
+  - Pātañjala Yoga
+  - Sāṃkhya
 not:
-  - Unconscious mind
-  - Subconscious
-  - Memory
-  - Psyche
+  - term: "Unconscious mind"
+    why: "The Freudian or Jungian unconscious is one life long and shaped by childhood; Chitta is a trans-life storehouse of saṃskāras within the framework of karma."
+    instead: "Keep Chitta untranslated; gloss as the trans-life storehouse of saṃskāras."
+  - term: "Subconscious"
+    why: "Implies a lower layer of a single psyche; Chitta persists across births and can be read or modified by accomplished yogīs."
+  - term: "Memory"
+    why: "Memory is recall within one life; Chitta stores karmic impressions that ripen across lifetimes."
+  - term: "Psyche"
+    why: "A general Western term for the mind or soul; Chitta is a specific component of the antaḥkaraṇa, the medium of karma."
 related:
   - /concepts/manas.md
   - /concepts/buddhi.md
@@ -43,8 +51,8 @@ The Freudian/Jungian unconscious is (1) limited to one lifetime, (2) shaped prim
 
 Chitta is your cloud storage — synced across every device (lifetime) you've ever used. Every file (saṃskāra) you've ever saved is there, even from devices you no longer remember owning. [Yoga](/concepts/yoga.md) practice is learning to access, organize, and eventually clear that storage.
 
-## Key Sources
+## Citations
 
-- Yoga Sūtras of Patañjali 1.2 — *yogash chitta vṛtti nirodhaḥ*
-- Sāṃkhya Kārikā
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.2 — *yogash chitta vṛtti nirodhaḥ*
+2. [Sāṃkhya Kārikā](/references/samkhya-karika.md)
+3. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

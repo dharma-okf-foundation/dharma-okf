@@ -8,12 +8,20 @@ tags:
   - transmigration
   - Vedanta
   - non-translatable
+darshana:
+  - Pan-dharmic
 not:
-  - Fate
-  - Destiny
-  - Cosmic justice
-  - "What goes around comes around"
-  - Punishment/reward
+  - term: "Fate"
+    why: "Implies predetermination with no agency; karma preserves free will, since current action (kriyamāna) shapes the future."
+    instead: "Keep Karma untranslated; gloss as the impersonal law of action and consequence across lives."
+  - term: "Destiny"
+    why: "Suggests a fixed appointed end; karma is an open, ongoing ledger, not a sealed outcome."
+  - term: "Cosmic justice"
+    why: "Implies an external judge dispensing reward and punishment; karma is an impersonal law, like gravity, with no judge."
+  - term: "What goes around comes around"
+    why: "Trivializes a precise multi-life mechanism into a slogan and wrongly implies same-life return."
+  - term: "Punishment/reward"
+    why: "Frames consequence morally; a burnt hand is not punished by fire, it meets a natural consequence; karma works the same way."
 related:
   - /concepts/dharma.md
   - /concepts/samsara.md
@@ -26,7 +34,7 @@ okf_version: "0.1"
 
 # Karma
 
-**Not:** Fate, Destiny, Cosmic justice, "What goes around comes around," Punishment/reward
+**Not:** Fate, Destiny, Cosmic justice, "What goes around comes around", Punishment/reward
 
 ## What It Actually Means
 
@@ -46,9 +54,9 @@ Karma is NOT sin. Sin in Abrahamic theology is a moral offense against God requi
 
 Karma is like compound interest on a cosmic bank account — every action is a deposit or withdrawal. The balance carries over when you "close" one account (death) and "open" another (rebirth). *Prārabdha* is this life's opening balance. *Kriyamāna* is what you're depositing right now. [Mokṣa](/concepts/moksha.md) is closing the account permanently.
 
-## Key Sources
+## Citations
 
-- Bhagavad Gītā 4.17 — "The way of karma is unfathomable"
-- Bṛhadāraṇyaka Upaniṣad 4.4.5
-- Yoga Sūtras of Patañjali (2.12–14)
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+1. [Bhagavad Gītā](/references/bhagavad-gita.md) 4.17 — "The way of karma is unfathomable"
+2. [Bṛhadāraṇyaka Upaniṣad](/references/brihadaranyaka-upanishad.md) 4.4.5
+3. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) (2.12–14)
+4. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

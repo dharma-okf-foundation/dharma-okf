@@ -8,13 +8,23 @@ tags:
   - Upanishads
   - non-translatable
   - ultimate-reality
+darshana:
+  - Advaita Vedānta
+  - Bhāgavata
 not:
-  - God
-  - The Absolute (philosophical)
-  - Universal consciousness
-  - The Divine
-  - Monotheism
-  - Pantheism
+  - term: "God"
+    why: "The Abrahamic God is a personal creator separate from and judging creation; Brahman is not separate from creation but the reality that appears as it."
+    instead: "Keep Brahman untranslated; gloss as non-dual Sat-Chit-Ānanda, the ground of all."
+  - term: "The Absolute (philosophical)"
+    why: "A bloodless abstraction; Brahman is the most concrete reality there is (sarvam khalv idam brahma)."
+  - term: "Universal consciousness"
+    why: "Implies a cosmic mind among other things; Brahman is the non-dual ground, not one entity within the universe."
+  - term: "The Divine"
+    why: "Vaguely theistic; collapses the precise Sat-Chit-Ānanda definition into sentiment."
+  - term: "Monotheism"
+    why: "A theological category positing one God separate from creation; Brahman is non-dual (advaya), not a single separate deity."
+  - term: "Pantheism"
+    why: "Exhausts the divine in immanence; Brahman remains fully transcendent even as it is immanent."
 related:
   - /concepts/atman.md
   - /concepts/maya.md
@@ -27,7 +37,7 @@ okf_version: "0.1"
 
 # Brahman
 
-**Not:** God, The Absolute, Universal consciousness, The Divine
+**Not:** God, The Absolute, Universal consciousness, The Divine, Monotheism, Pantheism
 
 ## What It Actually Means
 
@@ -68,9 +78,9 @@ The universe was not created *ex nihilo* (from nothing). The Vedāntic principle
 
 Brahman is the ocean. Every wave (individual being) rises from it, appears separate for a moment, and returns. The wave was never NOT the ocean — it just temporarily appeared to have a separate identity. [Mokṣa](/concepts/moksha.md) is the wave recognizing it was always the ocean.
 
-## Key Sources
+## Citations
 
-- Chāndogya Upaniṣad, Bṛhadāraṇyaka Upaniṣad, Taittirīya Upaniṣad
-- Brahma Sūtras of Bādarāyaṇa
-- Vivekacūḍāmaṇi of Ādi Śaṅkarācārya
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+1. [Chāndogya Upaniṣad](/references/chandogya-upanishad.md), [Bṛhadāraṇyaka Upaniṣad](/references/brihadaranyaka-upanishad.md), [Taittirīya Upaniṣad](/references/taittiriya-upanishad.md)
+2. [Brahma Sūtras](/references/brahma-sutras.md) of Bādarāyaṇa
+3. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) of Ādi Śaṅkarācārya
+4. Rajiv Malhotra, *Sanskrit Non

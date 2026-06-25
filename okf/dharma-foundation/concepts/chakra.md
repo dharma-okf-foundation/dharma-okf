@@ -8,10 +8,16 @@ tags:
   - Tantra
   - Yoga
   - non-translatable
+darshana:
+  - Tantra
 not:
-  - Energy center
-  - Spiritual vortex
-  - Metaphorical concept
+  - term: "Energy center"
+    why: "Energy is a material, insentient quantity; a Chakra is a center of consciousness, each corresponding to an entire Loka."
+    instead: "Keep Chakra untranslated; gloss as a center of consciousness tied to a Loka."
+  - term: "Spiritual vortex"
+    why: "A vague New Age image; a Chakra's petals are specific Akṣara vibrations summing to its Mantra."
+  - term: "Metaphorical concept"
+    why: "Treats Chakras as mere symbols; they are precise loci bridging Loka cosmology, Mantra, and the physiology of consciousness."
 related:
   - /concepts/loka.md
   - /concepts/prana.md
@@ -56,9 +62,9 @@ The ascent moves from Mūlādhāra (earth element, instinct, base consciousness)
 
 Each Chakra is like a different app on your consciousness — each with its own interface, capabilities, and connection to a different dimension of reality. The Western "energy center" interpretation is like describing your phone as "a rectangle with a battery." Technically true, profoundly insufficient.
 
-## Key Sources
+## Citations
 
-- Ṣaṭ-Cakra-Nirūpaṇa
-- Śiva Saṃhitā
-- Sir John Woodroffe (Arthur Avalon), *The Serpent Power*
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+1. Ṣaṭ-Cakra-Nirūpaṇa
+2. Śiva Saṃhitā
+3. Sir John Woodroffe (Arthur Avalon), *The Serpent Power*
+4. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

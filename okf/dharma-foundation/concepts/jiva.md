@@ -7,11 +7,19 @@ tags:
   - vedic-psychology
   - Vedanta
   - non-translatable
+darshana:
+  - Advaita Vedānta
+  - Bhāgavata
 not:
-  - Soul
-  - Individual soul
-  - Person
-  - Living being (biological)
+  - term: "Soul"
+    why: "The Abrahamic soul is created, judged once, and destined for eternal heaven or hell; Jīva is uncreated, ultimately identical with Brahman, and transmigrates."
+    instead: "Keep Jīva untranslated; gloss as Ātman conditioned by embodiment."
+  - term: "Individual soul"
+    why: "Reifies the jīva as a permanently separate entity; it is Ātman appearing conditioned by Māyā, not a distinct substance."
+  - term: "Person"
+    why: "Names the body-mind personality; Jīva is the conscious being wrongly identified with that personality."
+  - term: "Living being (biological)"
+    why: "A biological category; Jīva is a metaphysical status (embodied consciousness), not an organism classification."
 related:
   - /concepts/atman.md
   - /concepts/brahman.md
@@ -66,9 +74,9 @@ The jīva forgets its true nature and wrongly identifies with the body, manas, a
 
 Jīva is like a wave that thinks it's separate from the ocean. It has a shape, a size, a location, a birth moment, and a death moment — all real at the wave level. But at the ocean level, it was never anything other than water. The wave's "liberation" isn't becoming the ocean — it's recognizing it always was.
 
-## Key Sources
+## Citations
 
-- Vivekacūḍāmaṇi of Ādi Śaṅkarācārya
-- Brahma Sūtras 2.3.43–53
-- Bhagavad Gītā 15.7 — "The Jīva is an eternal fragment of Myself"
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+1. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) of Ādi Śaṅkarācārya
+2. [Brahma Sūtras](/references/brahma-sutras.md) 2.3.43–53
+3. [Bhagavad Gītā](/references/bhagavad-gita.md) 15.7 — "The Jīva is an eternal fragment of Myself"
+4. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

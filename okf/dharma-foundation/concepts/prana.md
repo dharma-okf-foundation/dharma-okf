@@ -7,11 +7,19 @@ tags:
   - cosmology
   - Yoga
   - non-translatable
+darshana:
+  - Pātañjala Yoga
+  - Vedānta
 not:
-  - Breath
-  - Energy
-  - Life force (vague)
-  - Chi/Qi (similar but distinct tradition)
+  - term: "Breath"
+    why: "Reduces prāṇa to one physical function; it also governs digestion, circulation, speech, thought, and the process of death."
+    instead: "Keep Prāṇa untranslated; gloss as the five-fold vital force."
+  - term: "Energy"
+    why: "Western energy is a measurable material quantity; prāṇa is subtler, the bridge between consciousness and matter."
+  - term: "Life force (vague)"
+    why: "A loose gloss; prāṇa is precise, operating in five differentiated forms (pañca-prāṇa)."
+  - term: "Chi/Qi (similar but distinct tradition)"
+    why: "A related concept from a different lineage with its own framework; resemblance is not identity."
 related:
   - /concepts/mantra.md
   - /concepts/yoga.md
@@ -52,8 +60,8 @@ Prāṇāyāma (the 4th limb of [Yoga](/concepts/yoga.md)) works at the Adhyātm
 
 Prāṇa is like bandwidth in a network — it flows through different channels (the five forms), powers different applications (breathing, digestion, movement, speech, thought), and the system crashes when it's insufficient. [Yoga](/concepts/yoga.md) practice is upgrading your bandwidth.
 
-## Key Sources
+## Citations
 
-- Praśna Upaniṣad (dedicated entirely to Prāṇa)
-- Haṭha Yoga Pradīpikā
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+1. [Praśna Upaniṣad](/references/prashna-upanishad.md) (dedicated entirely to Prāṇa)
+2. Haṭha Yoga Pradīpikā
+3. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

@@ -7,11 +7,18 @@ tags:
   - Yoga
   - Patanjali
   - non-translatable
+darshana:
+  - Pātañjala Yoga
 not:
-  - Meditation (generic)
-  - Mindfulness
-  - Contemplation
-  - Relaxation
+  - term: "Meditation (generic)"
+    why: "Popular meditation covers everything from visualization to body scans; Dhyāna is one precise stage between dhāraṇā and samādhi."
+    instead: "Keep Dhyāna untranslated; gloss as the seventh limb, unbroken absorption."
+  - term: "Mindfulness"
+    why: "A present-moment attentional technique; Dhyāna is unbroken flow of attention on a single object within Aṣṭāṅga Yoga."
+  - term: "Contemplation"
+    why: "Implies discursive reflection; Dhyāna is sustained non-discursive absorption."
+  - term: "Relaxation"
+    why: "A calm-down practice; Dhyāna is heightened one-pointed concentration, not rest."
 related:
   - /concepts/yoga.md
   - /concepts/samadhi.md
@@ -39,7 +46,7 @@ The word "meditation" is used indiscriminately to denote the latter five limbs o
 
 If the eight limbs of Yoga are levels in a game, Dhyāna is Level 7 — you can only reach it by clearing Levels 1–6. Calling any calm-sitting-with-eyes-closed "meditation" is like saying you're on Level 7 when you haven't installed the game.
 
-## Key Sources
+## Citations
 
-- Yoga Sūtras of Patañjali 3.2
-- Bhagavad Gītā chapter 6
+1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 3.2
+2. [Bhagavad Gītā](/references/bhagavad-gita.md) chapter 6

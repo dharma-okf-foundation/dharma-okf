@@ -7,11 +7,19 @@ tags:
   - antahkarana
   - Samkhya
   - non-translatable
+darshana:
+  - Sāṃkhya
+  - Advaita Vedānta
 not:
-  - Intellect
-  - Reason
-  - Intelligence (general)
-  - Wisdom
+  - term: "Intellect"
+    why: "Implies analytical reasoning only; Buddhi also includes determination (adhyavasāya) and, at its height, Viveka, discrimination of the eternal from the transient."
+    instead: "Keep Buddhi untranslated; gloss as the deciding-discriminating faculty."
+  - term: "Reason"
+    why: "Names one function; Buddhi is the deciding faculty whose highest development is spiritual discernment, which reason lacks."
+  - term: "Intelligence (general)"
+    why: "Too broad and trait-like; Buddhi is a specific evolute of Prakṛti (Mahat) and a stage in the cognitive sequence."
+  - term: "Wisdom"
+    why: "An outcome word; Buddhi is the faculty, not the accumulated quality."
 related:
   - /concepts/manas.md
   - /concepts/ahankara.md
@@ -44,8 +52,8 @@ Practical teaching point: "What's the difference between *knowing* something and
 
 If [Manas](/concepts/manas.md) is the notification system, Buddhi is the decision engine — it processes the alert, pulls up relevant history, and outputs a verdict: "act" or "don't act," "real" or "not real."
 
-## Key Sources
+## Citations
 
-- Sāṃkhya Kārikā of Īśvarakṛṣṇa
-- Kaṭha Upaniṣad 1.3.3 (Buddhi as charioteer)
-- Bhagavad Gītā 3.42 — "Buddhi is superior to Manas"
+1. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa
+2. [Kaṭha Upaniṣad](/references/katha-upanishad.md) 1.3.3 (Buddhi as charioteer)
+3. [Bhagavad Gītā](/references/bhagavad-gita.md) 3.42 — "Buddhi is superior to Manas"

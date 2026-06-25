@@ -7,11 +7,18 @@ tags:
   - consciousness
   - Vedanta
   - non-translatable
+darshana:
+  - Purāṇic
 not:
-  - Planet
-  - World
-  - Dimension
-  - Realm (fantasy)
+  - term: "Planet"
+    why: "Implies a physical body in space reachable by spacecraft; a Loka is a plane of consciousness accessed by awareness."
+    instead: "Keep Loka untranslated; gloss as a plane of consciousness."
+  - term: "World"
+    why: "A geographic or physical place; Lokas are states of consciousness mapped in the fourteen-loka model."
+  - term: "Dimension"
+    why: "A spatial or physics term; Lokas are reached by karma and spiritual development, not spatial coordinates."
+  - term: "Realm (fantasy)"
+    why: "A fictional-world image; Lokas are a precise map of consciousness states with Bhūloka as the hub."
 related:
   - /concepts/chakra.md
   - /concepts/karma.md
@@ -41,8 +48,8 @@ These terms imply physical geographic locations you could travel to in a spacesh
 
 Lokas are like different channels on a radio — they all broadcast simultaneously, but you only hear the one you're tuned to. [Yoga](/concepts/yoga.md) and spiritual practice are tuning the dial. Your body stays in Bhūloka (the default channel); your consciousness can tune to higher or lower frequencies.
 
-## Key Sources
+## Citations
 
-- Viṣṇu Purāṇa (14-Loka cosmology)
-- Bhāgavata Purāṇa
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+1. Viṣṇu Purāṇa (14-Loka cosmology)
+2. Bhāgavata Purāṇa
+3. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

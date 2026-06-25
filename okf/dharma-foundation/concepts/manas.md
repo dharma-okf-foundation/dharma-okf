@@ -7,10 +7,17 @@ tags:
   - antahkarana
   - Samkhya
   - non-translatable
+darshana:
+  - Sāṃkhya
+  - Advaita Vedānta
 not:
-  - Mind
-  - Emotional mind
-  - Heart (metaphorical)
+  - term: "Mind"
+    why: "English mind lumps perception, reason, memory, and emotion together; Vedic psychology distributes these across four instruments, of which Manas is only the feeling-doubting interface."
+    instead: "Keep Manas untranslated; gloss as the feeling-doubting sensory interface."
+  - term: "Emotional mind"
+    why: "Too narrow and too modern; Manas is the sensory coordinator that tags input with like or dislike before analysis, not the seat of emotion as such."
+  - term: "Heart (metaphorical)"
+    why: "Romantic-Western shorthand; Manas is a technical faculty (the eleventh indriya), not the metaphorical heart."
 related:
   - /concepts/buddhi.md
   - /concepts/ahankara.md
@@ -41,8 +48,8 @@ Critically, Manas is *insentient* (*jaḍa*) by nature. It does not generate con
 
 Manas is like the notification system on your phone — it flags everything as either "want" or "don't want" before you even open the app. It's fast, reactive, and binary. [Buddhi](/concepts/buddhi.md) is the part that actually reads the notification and decides what to do.
 
-## Key Sources
+## Citations
 
-- Kaṭha Upaniṣad 1.3.3–4 (chariot analogy)
-- Sāṃkhya Kārikā
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+1. [Kaṭha Upaniṣad](/references/katha-upanishad.md) 1.3.3–4 (chariot analogy)
+2. [Sāṃkhya Kārikā](/references/samkhya-karika.md)
+3. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

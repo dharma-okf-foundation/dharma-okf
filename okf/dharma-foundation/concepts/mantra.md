@@ -8,13 +8,23 @@ tags:
   - Tantra
   - Vedas
   - non-translatable
+darshana:
+  - Tantra
+  - Mīmāṃsā
 not:
-  - Chant
-  - Prayer
-  - Spell
-  - Sacred syllable
-  - Incantation
-  - Affirmation
+  - term: "Chant"
+    why: "Implies mere repetition of words; a Mantra's efficacy depends on correct utterance and the vibrational properties of Sanskrit phonemes, not on recitation alone."
+    instead: "Keep Mantra untranslated; gloss as vibration from the subtlest levels of existence."
+  - term: "Prayer"
+    why: "A request to an external God; a Mantra works on the practitioner's own consciousness through vibration, with no intermediary."
+  - term: "Spell"
+    why: "Implies magical coercion of outcomes; a Mantra reorients the practitioner toward its source."
+  - term: "Sacred syllable"
+    why: "Names the surface form; a Mantra is a vibration originating in the subtlest levels of existence."
+  - term: "Incantation"
+    why: "A ritual formula to produce an effect; a Mantra's benefit accrues to the chanter and to the cosmos at large."
+  - term: "Affirmation"
+    why: "A self-talk statement working through conscious meaning; a Mantra works below conceptual meaning through sound itself."
 related:
   - /concepts/om.md
   - /concepts/shabda.md
@@ -47,8 +57,12 @@ Prayer is a request to an external God. Mantra operates on the practitioner's ow
 
 Nobel laureate T.S. Eliot, who studied Sanskrit and the Upaniṣads at Harvard, described what scholars recognize as the mantra principle: "...syllable and rhythm, penetrating far below the conscious level of thought and feeling... It works through meanings, certainly, or not without meanings in the ordinary sense..."
 
-## Key Sources
+## Audience Metaphor
 
-- Sri Aurobindo on Mantra (multiple passages)
-- Yoga Sūtras of Patañjali
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+A mantra is less like a sentence and more like a tuning fork. Striking the right fork does not *describe* the note — it makes everything nearby vibrate at that frequency. You do not have to understand the physics for the resonance to happen; you only have to strike it correctly and repeatedly. Over time the repetition tunes your whole instrument to the source the sound came from. Treating a mantra as a "chant" or "affirmation" is like reading the label on the tuning fork instead of striking it.
+
+## Citations
+
+1. Sri Aurobindo on Mantra (multiple passages)
+2. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md)
+3. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

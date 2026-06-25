@@ -8,12 +8,20 @@ tags:
   - social-order
   - Vedanta
   - non-translatable
+darshana:
+  - Pan-dharmic
 not:
-  - Religion
-  - Duty
-  - Righteousness
-  - Law
-  - Morality
+  - term: "Religion"
+    why: "Implies a belief system with founder, book, and creed; Dharma has no founder, predates any text, and is discovered, not converted to."
+    instead: "Keep Dharma untranslated; gloss per context (cosmic order, svadharma, inherent nature)."
+  - term: "Duty"
+    why: "Strips the cosmic and metaphysical dimensions, reducing Dharma to social obligation; duty is imposed, Dharma is inherent."
+  - term: "Righteousness"
+    why: "Imports Christian moral absolutes; Dharma is context-sensitive, shifting with role, circumstance, and consequence."
+  - term: "Law"
+    why: "Suggests external legislation; Dharma (ṛta) is the inherent ordering principle of reality, not a rule imposed from outside."
+  - term: "Morality"
+    why: "Reduces Dharma to ethics; it also denotes the inherent nature of a thing (the dharma of fire is to burn)."
 related:
   - /concepts/karma.md
   - /concepts/moksha.md
@@ -51,9 +59,9 @@ Dharma also means the inherent property of a thing — the dharma of fire is to 
 
 Dharma is like gravity — it's the fundamental force that keeps everything in its orbit. You don't choose to follow gravity; you can only align with it or fight it. Fighting it doesn't break the law — it breaks you.
 
-## Key Sources
+## Citations
 
-- Bhagavad Gītā (especially chapters 2–3, 18)
-- Mahābhārata — Śānti Parva
-- Manusmṛti (with Dharmic interpretive tradition)
-- Rajiv Malhotra, *Being Different* (2011)
+1. [Bhagavad Gītā](/references/bhagavad-gita.md) (especially chapters 2–3, 18)
+2. Mahābhārata — Śānti Parva
+3. Manusmṛti (with Dharmic interpretive tradition)
+4. Rajiv Malhotra, *Being Different* (2011)

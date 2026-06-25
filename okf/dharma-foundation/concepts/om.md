@@ -8,11 +8,19 @@ tags:
   - mantra
   - Vedas
   - non-translatable
+darshana:
+  - Advaita Vedānta
+  - Tantra
 not:
-  - Amen
-  - Ameen
-  - Universal sound
-  - Sacred syllable (reductive)
+  - term: "Amen"
+    why: "Said to mean so be it at the end of prayers; its Sanskrit equivalent is Tathastu, not Om. Chanting Om alone is said to lead to mokṣa."
+    instead: "Keep Om untranslated; gloss as the primordial sound A-U-M, Śabda Brahman."
+  - term: "Ameen"
+    why: "The Islamic counterpart of Amen, a minor affirmation; equating it with Om equates the minor with the paramount."
+  - term: "Universal sound"
+    why: "A generic New Age label; Om is specifically A-U-M, Śabda Brahman, the root of the Vedas."
+  - term: "Sacred syllable (reductive)"
+    why: "Names only the form; Om is the primordial sonic consciousness identical with Brahman."
 related:
   - /concepts/shabda.md
   - /concepts/mantra.md
@@ -24,7 +32,7 @@ okf_version: "0.1"
 
 # Om / Praṇava / Omkāra
 
-**Not:** Amen, Ameen, Any "universal sound" equivalent
+**Not:** Amen, Ameen, Any "universal sound" equivalent, Sacred syllable (reductive)
 
 ## What It Actually Means
 
@@ -38,8 +46,12 @@ Amen is uttered at the end of Abrahamic prayers to mean "so be it" — its Sansk
 
 **Key rule:** Similarity in pronunciation does not imply equivalence of meaning, purpose, evolution, or function. "It is wholly unreasonable and erroneous to equate something of paramount importance in one tradition with one of minor importance in another."
 
-## Key Sources
+## Audience Metaphor
 
-- Māṇḍūkya Upaniṣad (dedicated analysis of Om)
-- Bhagavad Gītā 8.13, 17.23
-- Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+Om is not so much a word you say as the carrier wave underneath all words — like the steady tone the line hums before any particular call connects. Every other sacred utterance is a message sent over the line; Om is the line itself. Treating it as just another "sacred syllable" mistakes the carrier for one of the messages it carries.
+
+## Citations
+
+1. [Māṇḍūkya Upaniṣad](/references/mandukya-upanishad.md) (dedicated analysis of Om)
+2. [Bhagavad Gītā](/references/bhagavad-gita.md) 8.13, 17.23
+3. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

@@ -8,12 +8,21 @@ tags:
   - Vedanta
   - non-translatable
   - purushartha
+darshana:
+  - Advaita Vedānta
+  - Bhāgavata
 not:
-  - Salvation
-  - Heaven
-  - Enlightenment (New Age)
-  - Nirvana (though related in Buddhism)
-  - Kaivalya (Kaivalya is a specific type of mokṣa, not a synonym)
+  - term: "Salvation"
+    why: "Implies rescue by an external savior from a fallen state; in Vedānta you are not fallen but Brahman appearing limited, and no one saves you."
+    instead: "Keep Mokṣa untranslated; gloss as liberation, the recognition that Ātman was never bound."
+  - term: "Heaven"
+    why: "A temporary reward destination; even Svarga is exhausted and one returns. Mokṣa is beyond all lokas and permanent."
+  - term: "Enlightenment (New Age)"
+    why: "A vague experiential glow; Mokṣa is the precise, permanent cessation of saṃsāra through recognition that Ātman is Brahman."
+  - term: "Nirvana (though related in Buddhism)"
+    why: "Belongs to a different darśana with different metaphysics; a family resemblance, not a synonym."
+  - term: "Kaivalya (Kaivalya is a specific type of mokṣa, not a synonym)"
+    why: "Kaivalya is one type of liberation (isolation from Prakṛti, or merger into Brahman), not liberation as a whole."
 related:
   - /concepts/atman.md
   - /concepts/brahman.md
@@ -27,7 +36,7 @@ okf_version: "0.1"
 
 # Mokṣa
 
-**Not:** Salvation, Heaven, Enlightenment (New Age usage), Nirvana (though related)
+**Not:** Salvation, Heaven, Enlightenment (New Age usage), Nirvana (related but distinct — Buddhism), Kaivalya (a specific type of mokṣa — not a synonym)
 
 ## What It Actually Means
 
@@ -39,25 +48,17 @@ Mokṣa is the fourth and ultimate *puruṣārtha* (aim of human life) — the p
 
 ### The Five Types of Mukti
 
-Liberation is not one-size-fits-all. Hindu mokṣa śāstra-s describe five types:
-
-**Impersonal Mukti (Jñāna Mārga):**
-
-| Type | Description |
-|---|---|
-| **Brahman Sāyujya (Kaivalya Mukti)** | The jīva stops identifying with body/ego, realizes identity with Brahman, and merges into Universal Consciousness. Individuality dissolves. |
-
-**Personal Mukti (Bhakti Mārga)** — in all four, the jīva retains individuality and reaches the divine abode of Bhagavān:
+Liberation is not one-size-fits-all. The mokṣa śāstra-s describe **five** types (*pañca-mukti*). The first four are forms of *personal* liberation in which the jīva retains its individuality and reaches the divine abode of Bhagavān (Bhakti Mārga); the fifth, *sāyujya* (union), is read two ways depending on darśana:
 
 | Type | Description |
 |---|---|
 | **Sālokya** | Residing in the same loka (*abode*) as Bhagavān |
 | **Sāmīpya** | Attaining eternal proximity to Bhagavān |
 | **Sārūpya** | Attaining the same form as Bhagavān |
-| **Sārṣṭi** | Attaining the same opulence as Bhagavān |
-| **Īśvara Sāyujya** | Complete oneness with Bhagavān — the highest personal liberation |
+| **Sārṣṭi** | Attaining the same opulence and powers as Bhagavān |
+| **Sāyujya** | Union / merger, read two ways: **Brahman Sāyujya** (*Kaivalya*, Jñāna Mārga) — the jīva drops body/ego identification, realizes identity with Brahman, and individuality dissolves into Universal Consciousness; **Īśvara Sāyujya** (Bhakti Mārga) — complete oneness with Bhagavān with the loving relationship retained. |
 
-The five types honor different temperaments: some seek dissolution into pure consciousness, others seek loving eternal relationship. Both paths are valid.
+The five honor different temperaments: some seek dissolution into pure consciousness (*Kaivalya*), others seek loving eternal relationship with Bhagavān. Both paths are valid.
 
 Mokṣa is NOT earned — it is recognized. [Karma](/concepts/karma.md) cannot produce Mokṣa because Mokṣa is the nature of Ātman, which is already free. Karma can only remove obstacles (ignorance) that prevent recognition. The rope was never a snake; you just need to see clearly.
 
@@ -73,9 +74,9 @@ Mokṣa is NOT earned — it is recognized. [Karma](/concepts/karma.md) cannot p
 
 Mokṣa is like waking up from a dream. In the dream, you ran, suffered, fought, loved — all of it felt absolutely real. Waking up doesn't "fix" the dream or "reward" you for dream-behavior. It simply reveals that you were always the dreamer, safe in bed, never actually in danger.
 
-## Key Sources
+## Citations
 
-- Vivekacūḍāmaṇi, Kaṭha Upaniṣad, Muṇḍaka Upaniṣad
-- Brahma Sūtras 4.4 (on liberation)
-- Bhagavad Gītā chapters 2, 13, 18
-- Srimad Bhāgavatam 11.9.18 (Bhagavān as Kaivalya personified)
+1. [Vivekacūḍāmaṇi](/references/vivekachudamani.md), [Kaṭha Upaniṣad](/references/katha-upanishad.md), [Muṇḍaka Upaniṣad](/references/mundaka-upanishad.md)
+2. [Brahma Sūtras](/references/brahma-sutras.md) 4.4 (on liberation)
+3. [Bhagavad Gītā](/references/bhagavad-gita.md) chapters 2, 13, 18
+4. Srimad Bhāgavatam 11.9.18 (Bhagavān as Kaivalya personified)

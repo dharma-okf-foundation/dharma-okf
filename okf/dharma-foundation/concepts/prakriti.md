@@ -7,11 +7,19 @@ tags:
   - Samkhya
   - cosmology
   - non-translatable
+darshana:
+  - Sāṃkhya
+  - Pātañjala Yoga
 not:
-  - Nature
-  - Matter
-  - The material world
-  - Mother Nature
+  - term: "Nature"
+    why: "In English means the physical environment; Prakṛti also includes mind, intellect, and ego, your thoughts and emotions are Prakṛti."
+    instead: "Keep Prakṛti untranslated; gloss as the tri-guṇa substrate including mind and matter."
+  - term: "Matter"
+    why: "Implies inert physical-only substance; Prakṛti is dynamic, intelligent through sattva, and includes the whole psycho-physical apparatus."
+  - term: "The material world"
+    why: "Names only the manifest result; Prakṛti is the unmanifest substrate from which the manifest evolves."
+  - term: "Mother Nature"
+    why: "A personified earth-deity image; Prakṛti is the precise tri-guṇa substrate of Sāṃkhya, not a nurturing figure."
 related:
   - /concepts/brahman.md
   - /concepts/maya.md
@@ -55,8 +63,8 @@ The Vedic śāstra-s were cognized by ṛṣi-s who transcended Prakṛti in Sam
 
 Prakṛti is like the complete hardware-and-software stack of a computer — motherboard, RAM, storage, operating system, applications, display. ALL of it. The user-awareness observing the screen (Puruṣa/Ātman) is the one thing that is NOT part of the stack.
 
-## Key Sources
+## Citations
 
-- Sāṃkhya Kārikā of Īśvarakṛṣṇa
-- Bhagavad Gītā 13.19–23
-- Yoga Sūtras of Patañjali (on Prakṛti and Puruṣa)
+1. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa
+2. [Bhagavad Gītā](/references/bhagavad-gita.md) 13.19–23
+3. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) (on Prakṛti and Puruṣa)
