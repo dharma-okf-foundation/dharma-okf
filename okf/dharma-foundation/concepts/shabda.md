@@ -26,7 +26,7 @@ related:
   - /concepts/akshara.md
   - /concepts/brahman.md
 timestamp: "2026-06-18"
-okf_version: "0.1"
+okf_version: "0.2"
 ---
 
 # Śabda

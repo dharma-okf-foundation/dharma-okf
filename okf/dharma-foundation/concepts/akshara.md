@@ -23,7 +23,7 @@ related:
   - /concepts/om.md
   - /concepts/mantra.md
 timestamp: "2026-06-18"
-okf_version: "0.1"
+okf_version: "0.2"
 ---
 
 # Akṣara

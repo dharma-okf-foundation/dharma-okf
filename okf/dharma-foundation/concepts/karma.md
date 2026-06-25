@@ -29,7 +29,7 @@ related:
   - /concepts/jiva.md
   - /concepts/chitta.md
 timestamp: "2026-06-18"
-okf_version: "0.1"
+okf_version: "0.2"
 ---
 
 # Karma
