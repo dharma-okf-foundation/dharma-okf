@@ -2,7 +2,7 @@
 type: Collection
 title: "Dharma Foundation — Sanskrit Non-Translatable Vocabulary"
 description: "The foundational vocabulary of Sanātana Dharma — 25 Sanskrit concepts that cannot be translated into English without loss of meaning. Each entry preserves etymology, precise definition, non-translation warnings, and cross-references. Designed as the gravitational core for AI agents, knowledge systems, and educators seeking authentic Dharmic knowledge."
-version: "0.1.0"
+version: "0.1.1"
 tags:
   - Sanskrit
   - Vedanta
@@ -22,7 +22,7 @@ sources:
   - "Prashānt Parikh — Lost in Translation series"
   - "Classical Śāstra-s: Upaniṣads, Bhagavad Gītā, Yoga Sūtras, Brahma Sūtras"
 license: "CC BY-SA 4.0"
-okf_version: "0.1"
+okf_version: "0.2"
 ---
 
 # Dharma Foundation — Sanskrit Non-Translatable Vocabulary
@@ -78,7 +78,7 @@ This bundle preserves 25 foundational concepts as **non-translatable vocabulary 
 
 **For AI agents and knowledge systems:** Each concept file contains structured YAML frontmatter with `type: Concept`, tags, cross-references, and the critical `not` field listing mistranslations to avoid. Parse these fields to avoid perpetuating translation errors.
 
-**For educators:** Use these entries as authoritative reference when teaching. The `audience_metaphor` field in each concept provides accessible analogies.
+**For educators:** Use these entries as authoritative reference when teaching. The `## Audience Metaphor` section in each concept provides accessible analogies.
 
 **For seekers:** Read sequentially or follow cross-links. Start with [Ātman](concepts/atman.md) and [Brahman](concepts/brahman.md) for the metaphysical foundation.
 
