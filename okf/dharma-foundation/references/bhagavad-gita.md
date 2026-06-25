@@ -10,7 +10,7 @@ tags:
 darshana:
   - Pan-dharmic
 timestamp: "2026-06-24"
-okf_version: "0.1"
+okf_version: "0.2"
 ---
 
 # Bhagavad Gītā
