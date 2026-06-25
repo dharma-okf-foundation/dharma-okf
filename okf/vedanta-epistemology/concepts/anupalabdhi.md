@@ -115,7 +115,7 @@ Of these, anupalabdhi is most clearly operative for pradhvaṃsabhāva (you look
 - [Pramāṇa](pramana.md) — anupalabdhi is the sixth and final pramāṇa in the Advaita list
 - [Pratyakṣa](pratyaksha.md) — the pramāṇa to which Nyāya reduces anupalabdhi; Advaita/Mīmāṃsā maintain the distinction
 - [Arthāpatti](arthapatti.md) — the fifth pramāṇa; also frequently debated as reducible vs. independent
-- [Avidyā (epistemological)](avidya-epistemological.md) — the ignorance whose absence in liberation is cognized via anupalabdhi
+- [Avidyā (epistemological)](avidya.md) — the ignorance whose absence in liberation is cognized via anupalabdhi
 - [Bādha / Bādhita](badha-badhita.md) — sublation; the related operation by which a prior cognition is overridden by a new one; anupalabdhi can establish the absence of what was previously cognized
 - [Adhyāsa](adhyasa.md) — superimposition; avidyā in its operative form; the thing whose anupalabdhi is relevant to liberation
 

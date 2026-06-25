@@ -38,7 +38,7 @@ related:
   - /concepts/adhyasa.md
   - /concepts/mithya.md
   - /concepts/shabda-pramana.md
-  - /concepts/svataḥpramanya.md
+  - /concepts/svatahpramanya.md
   - /concepts/badha-badhita.md
   - /concepts/pratyaksha.md
 timestamp: "2026-06-20"
@@ -111,7 +111,7 @@ After the bādha:
 
 ## The Self-Validating Character
 
-Aparokṣa-anubhūti is *svataḥprāmāṇya* — self-validating. Its authority does not come from external confirmation (a teacher's certificate, a philosophical argument that the recognition was correct, a repeated occurrence). The recognition carries its validity intrinsically because what is recognized is Brahman — which is trikālābādhita, never sublated (see svataḥpramanya.md). A Mahāvākya-produced aparokṣa-anubhūti does not need to be verified by further inquiry; its self-validating quality is precisely what distinguishes it from the preparatory parokṣa stages.
+Aparokṣa-anubhūti is *svataḥprāmāṇya* — self-validating. Its authority does not come from external confirmation (a teacher's certificate, a philosophical argument that the recognition was correct, a repeated occurrence). The recognition carries its validity intrinsically because what is recognized is Brahman — which is trikālābādhita, never sublated (see svatahpramanya.md). A Mahāvākya-produced aparokṣa-anubhūti does not need to be verified by further inquiry; its self-validating quality is precisely what distinguishes it from the preparatory parokṣa stages.
 
 ## The Jīvanmukta: Life After Aparokṣa-anubhūti
 
@@ -129,7 +129,7 @@ The jīvanmukta (liberated while alive) has had aparokṣa-anubhūti. What chang
 - [Adhyāsa](adhyasa.md) — aparokṣa-anubhūti is the cognitive event that removes adhyāsa; the two are causally paired: adhyāsa is what is removed; aparokṣa-anubhūti is what removes it
 - [Mithyā](mithya.md) — aparokṣa-anubhūti reveals the mithyā status of the jīva's individuality and the world's independent reality; the Vivekacūḍāmaṇi triple-definition (brahma satyam, jagan mithyā, jīvo brahmaiva) is the content of what aparokṣa-anubhūti recognizes
 - [Śabda / Āgama (pramāṇa)](shabda-pramana.md) — Mahāvākyas are the pramāṇa that initiates and catalyzes the path to aparokṣa-anubhūti; without śravaṇa of the Mahāvākya, nididhyāsana has no object to contemplate
-- [Svataḥprāmāṇya](svataḥpramanya.md) — aparokṣa-anubhūti is self-validating; its authority requires no external confirmation because what it recognizes is Brahman, which is trikālābādhita
+- [Svataḥprāmāṇya](svatahpramanya.md) — aparokṣa-anubhūti is self-validating; its authority requires no external confirmation because what it recognizes is Brahman, which is trikālābādhita
 - [Bādha / Bādhita](badha-badhita.md) — aparokṣa-anubhūti is the cognitive event that produces the highest bādha: the sublation of the fundamental adhyāsa; the bādhita object is the jīva's apparent separate reality; what persists is Brahman
 - [Pratyakṣa](pratyaksha.md) — ordinary direct perception is the model for understanding the 'directness' quality (a-parokṣatva) of aparokṣa-anubhūti; but the two differ in that pratyakṣa involves subject-object contact while aparokṣa-anubhūti dissolves that structure
 

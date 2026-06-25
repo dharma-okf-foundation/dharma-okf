@@ -112,7 +112,7 @@ The technical term: *bādha* (sublation — see badha-badhita.md). The world is 
 
 ## Cross-References
 - [Mithyā](mithya.md) — the ontological status of which vyāvahārika is the primary level; the world is mithyā precisely because it is vyāvahārika rather than pāramārthika
-- [Pāramārthika](paramarithika.md) — the absolute level; what vyāvahārika is not; Brahman alone
+- [Pāramārthika](paramarthika.md) — the absolute level; what vyāvahārika is not; Brahman alone
 - [Prātibhāsika](pratibhasika.md) — the apparent level; lower than vyāvahārika; the snake in the rope, the dream-world
 - [Pramāṇa](pramana.md) — all pramāṇas operate at the vyāvahārika level; their validity is real within this frame
 - [Bādha / Bādhita](badha-badhita.md) — the sublation of the vyāvahārika frame by brahma-jñāna

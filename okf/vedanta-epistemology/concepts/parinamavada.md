@@ -143,7 +143,7 @@ If pariṇāmavāda is correct for the Brahman→world relation, the world is re
 ## Cross-References
 - [Vivartavāda](vivartavada.md) — the Advaita rival; the theory that the world is an appearance rather than a real transformation of Brahman; build with this file as rival_view_pair
 - [Mithyā](mithya.md) — what the world is if vivartavāda is correct; what it is NOT if pariṇāmavāda is correct; the ontological stake of the rival pair
-- [Pāramārthika](paramarithika.md) — the level at which Brahman alone exists; only vivartavāda is compatible with Brahman alone being pāramārthika; pariṇāmavāda implies the world shares real status with Brahman
+- [Pāramārthika](paramarthika.md) — the level at which Brahman alone exists; only vivartavāda is compatible with Brahman alone being pāramārthika; pariṇāmavāda implies the world shares real status with Brahman
 - [Vyāvahārika](vyavaharika.md) — in both Viśiṣṭādvaita and Sāṃkhya, the world is at minimum vyāvahārika-real; in Advaita, vyāvahārika reality is compatible with mithyātva (real-as-appearance) — the level itself is not the dispute
 - [Adhyāsa](adhyasa.md) — in Advaita, what makes the world appear at all is adhyāsa (superimposition); in pariṇāmavāda, there is no adhyāsa — the world is really there because it really came from a real transformation
 - [Bādha / Bādhita](badha-badhita.md) — the sublation mechanism; sublation (bādha) is appropriate to mithyā (the vivartavāda world); in pariṇāmavāda, liberation is not sublation of the world but either isolation (Sāṃkhya) or recognition of the ātman-śarīra relationship (Viśiṣṭādvaita) — the mechanism differs fundamentally

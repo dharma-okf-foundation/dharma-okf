@@ -35,7 +35,7 @@ related:
   - /concepts/shabda-pramana.md
   - /concepts/pratyaksha.md
   - /concepts/anumana.md
-  - /concepts/svataḥpramanya.md
+  - /concepts/svatahpramanya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -112,7 +112,7 @@ Advaita does not formally adopt sphoṭavāda as a required position, but the ph
 - [Śabda / Āgama (pramāṇa)](shabda-pramana.md) — the epistemological use of linguistic testimony as a pramāṇa; sphoṭavāda provides one philosophical account of why śabda-entities (Vedic words) have an eternal, non-derived character that grounds their apauruṣeya status
 - [Pratyakṣa](pratyaksha.md) — direct perception; in the sphoṭa theory, the cognition of sphoṭa is sometimes described as having the immediacy of pratyakṣa (the listener "sees" the word, not infers it) — though the philosophical status of this claim is debated
 - [Anumāna](anumana.md) — inference; the sphoṭavāda debate partly turns on whether the unitary word (sphoṭa) needs to be inferred from the sequential dhvanis or is directly cognized; Bhartṛhari's pratibhā-account favors direct cognition rather than inference
-- [Svataḥprāmāṇya](svataḥpramanya.md) — the self-validating authority of cognitions; the sphoṭa-theory supports the self-validating character of Vedic śabda-knowledge by explaining why the eternal Vedic word (sphoṭa-Brahman) carries its own authority and does not derive it from a human speaker's intention
+- [Svataḥprāmāṇya](svatahpramanya.md) — the self-validating authority of cognitions; the sphoṭa-theory supports the self-validating character of Vedic śabda-knowledge by explaining why the eternal Vedic word (sphoṭa-Brahman) carries its own authority and does not derive it from a human speaker's intention
 
 ## Audience Metaphor
 

@@ -38,7 +38,7 @@ related:
   - /concepts/pramata.md
   - /concepts/prameya.md
   - /concepts/anubhava.md
-  - /concepts/svataḥpramanya.md
+  - /concepts/svatahpramanya.md
   - /concepts/badha-badhita.md
   - /concepts/adhyasa.md
   - /concepts/avidya.md
@@ -84,7 +84,7 @@ The Vedāntaparibhāṣā Ch.1 builds the Advaita definition of pramā from thre
 
 ## Pramā and Svataḥprāmāṇya
 
-The Advaita-Mīmāṃsā position (see svataḥpramanya.md) holds that pramā is self-validating (*svataḥprāmāṇya*): the validity of a pramā is intrinsic to the cognition itself, not dependent on external confirmation. When a pramā arises (say, the cognition "this is fire"), its validity is not produced by a subsequent meta-cognition ("my cognition of fire is valid"); the fire-cognition is self-warranted by its arising.
+The Advaita-Mīmāṃsā position (see svatahpramanya.md) holds that pramā is self-validating (*svataḥprāmāṇya*): the validity of a pramā is intrinsic to the cognition itself, not dependent on external confirmation. When a pramā arises (say, the cognition "this is fire"), its validity is not produced by a subsequent meta-cognition ("my cognition of fire is valid"); the fire-cognition is self-warranted by its arising.
 
 This is in contrast to the Nyāya position (parataḥprāmāṇya): that the validity of a cognition requires external confirmation — a subsequent checking-cognition or the track record of the instrument. The Advaita-Mīmāṃsā argument: if validity required an external validator, that validator would itself require validation, producing an infinite regress; svataḥprāmāṇya blocks the regress.
 
@@ -126,7 +126,7 @@ The vyāvahārika pramās remain; the adhyāsic metadata that surrounded them is
 - [Pramātṛ](pramata.md) — the knowing subject; pramā is produced by the operation of pramāṇa by pramātṛ on prameya; pramātṛ is the subject-element of the triad
 - [Prameya](prameya.md) — the object known; pramā is the cognition of the prameya; what makes a cognition pramā is that it corresponds to the prameya as it actually is
 - [Anubhava](anubhava.md) — the broader category: anubhava is any non-mnemonic cognition (valid or invalid); pramā is the subset of anubhava that is yathārtha (object-corresponding) and non-sublated
-- [Svataḥprāmāṇya](svataḥpramanya.md) — the Advaita-Mīmāṃsā position that pramā's validity is intrinsic and does not require external validation; the theory that grounds why pramā does not require justification beyond itself
+- [Svataḥprāmāṇya](svatahpramanya.md) — the Advaita-Mīmāṃsā position that pramā's validity is intrinsic and does not require external validation; the theory that grounds why pramā does not require justification beyond itself
 - [Bādha / Bādhita](badha-badhita.md) — the sublation that retroactively reveals a cognition as apramā (the rope-cognition bādhita-s the snake-cognition); brahma-jñāna as the trikālābādhita pramā — the cognition that is never sublated
 - [Adhyāsa](adhyasa.md) — the mechanism that produces apramā; adhyāsa generates cognitions of the self-as-body-mind and world-as-independently-real that are systematically apramā; brahma-jñāna is the pramā that removes the root adhyāsa
 - [Avidyā](avidya.md) — the deeper condition that makes adhyāsa-produced apramā possible; avidyā as the epistemic condition that surrounds all vyāvahārika cognition with the superimposed context of separate-self reality

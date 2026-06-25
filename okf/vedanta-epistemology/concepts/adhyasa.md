@@ -112,11 +112,11 @@ The technical term for this removal is *bādha* (sublation — see badha-badhita
 
 ## Cross-References
 - [Mithyā](mithya.md) — the ontological status of what adhyāsa presents; the superimposed (silver, the empirical world) is mithyā — neither fully real nor fully non-existent; build with this file (CRITICAL_pairs)
-- [Avidyā (epistemological)](avidya-epistemological.md) — adhyāsa is avidyā in its operational, functional form; avidyā is the ignorance, adhyāsa is what that ignorance produces as cognitive-experiential structure
+- [Avidyā (epistemological)](avidya.md) — adhyāsa is avidyā in its operational, functional form; avidyā is the ignorance, adhyāsa is what that ignorance produces as cognitive-experiential structure
 - [Pratyakṣa](pratyaksha.md) — the pramāṇa within whose operation adhyāsa is most visible; all "perception of self as body" is adhyāsic; pratyakṣa operates within the adhyāsic frame
 - [Bādha / Bādhita](badha-badhita.md) — sublation; the cognitive event that removes adhyāsa; liberating knowledge (brahma-jñāna) is the bādha of the adhyāsa-cognition
 - [Śabda / Āgama (pramāṇa)](shabda-pramana.md) — the only pramāṇa capable of operating outside the adhyāsic frame (apauruṣeya); the instrument of adhyāsa-removal
-- [Aparokṣānubhūti](aparokshanubhuti.md) — the direct realization that removes adhyāsa; the terminal event in the Advaita epistemological path
+- [Aparokṣānubhūti](aparoksha-anubhuti.md) — the direct realization that removes adhyāsa; the terminal event in the Advaita epistemological path
 
 ## Audience Metaphor
 

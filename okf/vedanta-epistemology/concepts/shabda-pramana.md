@@ -41,7 +41,7 @@ not:
 related:
   - /concepts/pramana.md
   - /concepts/aptavakya.md
-  - /concepts/svataḥpramanya.md
+  - /concepts/svatahpramanya.md
   - /concepts/adhyasa.md
   - /concepts/anumana.md
 timestamp: "2026-06-20"
@@ -119,8 +119,8 @@ The school-scope matters here:
 ## Cross-References
 - [Pramāṇa](pramana.md) — śabda/āgama is the third pramāṇa in the Advaita list
 - [Āptavākya](aptavakya.md) — words of the reliable, competent speaker; the proximate mechanism of śabda-pramāṇa
-- [Svataḥprāmāṇya](svataḥpramanya.md) — the doctrine that Śruti's validity is intrinsic, not derived from external verification
-- [Aparokṣānubhūti](aparokshanubhuti.md) — direct realization of Brahman; what śabda-pramāṇa (as Śruti-instruction) aims to produce
+- [Svataḥprāmāṇya](svatahpramanya.md) — the doctrine that Śruti's validity is intrinsic, not derived from external verification
+- [Aparokṣānubhūti](aparoksha-anubhuti.md) — direct realization of Brahman; what śabda-pramāṇa (as Śruti-instruction) aims to produce
 - [Anumāna](anumana.md) — the pramāṇa that śabda supplements for Brahman-knowledge
 - *Śabda (dharma-foundation, v0.1)* — the ontological-sound category; NOT this file — cross-bundle distinction mandatory
 

@@ -129,7 +129,7 @@ The prātibhāsika level is the precise instrument that keeps Advaita from colla
 ## Cross-References
 - [Mithyā](mithya.md) — prātibhāsika objects are mithyā at the lowest level; the criterion bādhyatva (sulatability while substratum persists) is illustrated most vividly by prātibhāsika cases
 - [Vyāvahārika](vyavaharika.md) — the level above prātibhāsika; intersubjectively consistent; sublated only by brahma-jñāna, not by ordinary corrective cognition
-- [Pāramārthika](paramarithika.md) — the absolute level; the ultimate substratum of the vyāvahārika, which is itself the substratum of the prātibhāsika
+- [Pāramārthika](paramarthika.md) — the absolute level; the ultimate substratum of the vyāvahārika, which is itself the substratum of the prātibhāsika
 - [Bādha / Bādhita](badha-badhita.md) — the sublation event; prātibhāsika is the paradigm level at which bādha is most visible and immediate
 - [Adhyāsa](adhyasa.md) — prātibhāsika appearances are instances of adhyāsa at the most local level (snake-properties superimposed on the rope); Ātman-anātman adhyāsa operates at the vyāvahārika level with the same structure
 - [Pratyakṣa](pratyaksha.md) — the prātibhāsika level is where pratyakṣa "fails" — the perceptual instrument delivers a cognition (snake) that is immediately contradicted by better conditions; the analysis of pratyakṣa-error at this level informs the broader epistemology

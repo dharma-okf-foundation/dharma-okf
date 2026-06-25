@@ -108,7 +108,7 @@ A pramāṇa is valid only if it produces *pramā* — valid, non-erroneous, non
 
 ## Cross-References
 - [Pramā](prama.md) — the valid cognition produced by pramāṇa; the result, not the instrument
-- [Pramātā](pramatr.md) — the knowing subject; the agent in the pramāṇa triad
+- [Pramātā](pramata.md) — the knowing subject; the agent in the pramāṇa triad
 - [Prameya](prameya.md) — the knowable object; the domain of a given pramāṇa
 - [Pratyakṣa](pratyaksha.md) — direct-contact cognition; first and most basic pramāṇa
 - [Anumāna](anumana.md) — inferential cognition; second pramāṇa
@@ -116,7 +116,7 @@ A pramāṇa is valid only if it produces *pramā* — valid, non-erroneous, non
 - [Upamāna](upamana.md) — comparison-cognition; fourth pramāṇa
 - [Arthāpatti](arthapatti.md) — postulation; fifth pramāṇa
 - [Anupalabdhi](anupalabdhi.md) — non-cognition of the perceptible; sixth pramāṇa
-- [Svataḥprāmāṇya](svataḥpramanya.md) — Mīmāṃsā/Advaita doctrine that validity is intrinsic, not established by external verification
+- [Svataḥprāmāṇya](svatahpramanya.md) — Mīmāṃsā/Advaita doctrine that validity is intrinsic, not established by external verification
 
 ## Audience Metaphor
 

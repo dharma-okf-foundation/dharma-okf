@@ -85,7 +85,7 @@ Avidyā underlies all vyāvahārika cognition in a specific structural way:
 - The premeyas (objects of cognition) appear as independently real because avidyā's vikṣepa-śakti projects their apparent separateness.
 - Even the pramās (valid cognitions) produced by the six pramāṇas occur within the avidyā-frame: "this fire is hot" is a valid pramā at the vyāvahārika level, but it occurs within the context "and this fire is an independently-real entity facing me as a separate self" — which is the avidyā-generated context.
 
-The pramāṇas produce pramās that are valid within their domains (vyāvahārika validity — see svataḥpramanya.md). Avidyā does not make these pramās false at the vyāvahārika level. It is the *background context* — the frame within which all vyāvahārika pramā-generation occurs — that is itself the product of avidyā.
+The pramāṇas produce pramās that are valid within their domains (vyāvahārika validity — see svatahpramanya.md). Avidyā does not make these pramās false at the vyāvahārika level. It is the *background context* — the frame within which all vyāvahārika pramā-generation occurs — that is itself the product of avidyā.
 
 ## Removal of Avidyā: Brahma-Jñāna
 

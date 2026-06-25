@@ -117,7 +117,7 @@ This is why vivartavāda cannot be understood in isolation from mithyā (see mit
 ## Cross-References
 - [Pariṇāmavāda](parinamavada.md) — the rival theory; must be built together with this file; Sāṃkhya's and Viśiṣṭādvaita's real-transformation account
 - [Mithyā](mithya.md) — the ontological status of the vivarta-world; mithyā and vivartavāda are mutually entailing
-- [Pāramārthika](paramarithika.md) — the level at which only Brahman exists; vivartavāda is the explanation of how Brahman alone can be pāramārthika while a world appears
+- [Pāramārthika](paramarthika.md) — the level at which only Brahman exists; vivartavāda is the explanation of how Brahman alone can be pāramārthika while a world appears
 - [Vyāvahārika](vyavaharika.md) — the level at which the vivarta-world is real; vivartavāda does not deny vyāvahārika reality
 - [Prātibhāsika](pratibhasika.md) — the snake-rope example is prātibhāsika; the world is not prātibhāsika but vyāvahārika; the snake illustrates the structure of vivarta, not the level of the world
 - [Adhyāsa](adhyasa.md) — the cognitive mechanism that makes the vivarta-world appear; adhyāsa is how the snake "appears in" the rope; adhyāsa applied to Brahman-world is how the world "appears in" Brahman

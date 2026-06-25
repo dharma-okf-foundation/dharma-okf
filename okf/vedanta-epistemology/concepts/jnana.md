@@ -41,7 +41,7 @@ related:
   - /concepts/avidya.md
   - /concepts/mithya.md
   - /concepts/shabda-pramana.md
-  - /concepts/svataḥpramanya.md
+  - /concepts/svatahpramanya.md
   - /concepts/badha-badhita.md
   - /concepts/aparoksha-anubhuti.md
   - /concepts/prama.md
@@ -90,7 +90,7 @@ Brahma-jñāna exceeds this structure in a critical way:
 
 **Śabda as the unique instrument:** The one pramāṇa capable of delivering brahma-jñāna is *śabda* — specifically the Mahāvākyas of the apauruṣeya Upaniṣads. The Mahāvākyas do not describe Brahman as an object; they identify the listener's own self with Brahman: *tat tvam asi* (That you are), *aham brahmāsmi* (I am Brahman). The utterance produces not a new belief-about but a recognition-of — aparokṣa rather than parokṣa.
 
-**Why śabda can do what other pramāṇas cannot:** Śabda (Śruti) is *apauruṣeya* — not authored by any subject operating from within the vyāvahārika frame with its adhyāsic structure. Its authority is *svataḥprāmāṇya* — self-validating, not dependent on external verification. Because Mahāvākyas are not a finite subject's report about an object, they can point to the non-dual reality that no finite subject's report can reach (see svataḥpramanya.md and shabda-pramana.md).
+**Why śabda can do what other pramāṇas cannot:** Śabda (Śruti) is *apauruṣeya* — not authored by any subject operating from within the vyāvahārika frame with its adhyāsic structure. Its authority is *svataḥprāmāṇya* — self-validating, not dependent on external verification. Because Mahāvākyas are not a finite subject's report about an object, they can point to the non-dual reality that no finite subject's report can reach (see svatahpramanya.md and shabda-pramana.md).
 
 ## The Three-Stage Process
 
@@ -157,7 +157,7 @@ The Pātañjalayogasūtra tradition (Yogasūtra 2.26) identifies *viveka-khyāti
 - [Avidyā](avidya.md) — nescience; the root of adhyāsa; brahma-jñāna is specifically defined as the removal of avidyā; the epistemological focus (avidyā ≠ mere ignorance of a fact) is treated in avidya.md
 - [Mithyā](mithya.md) — brahma-jñāna reveals the mithyā status of the world and the jīva's apparent individuality; Vivekacūḍāmaṇi's triple-definition of brahma-jñāna is: Brahman is sat, world is mithyā, jīva is Brahman
 - [Śabda / Āgama (pramāṇa)](shabda-pramana.md) — the Mahāvākyas of the apauruṣeya Upaniṣads are the unique pramāṇa for brahma-jñāna; no other pramāṇa can reach Brahman-as-subject
-- [Svataḥprāmāṇya](svataḥpramanya.md) — Mahāvākyas are self-validating (svataḥprāmāṇya) because they are apauruṣeya; their authority to deliver brahma-jñāna is intrinsic
+- [Svataḥprāmāṇya](svatahpramanya.md) — Mahāvākyas are self-validating (svataḥprāmāṇya) because they are apauruṣeya; their authority to deliver brahma-jñāna is intrinsic
 - [Bādha / Bādhita](badha-badhita.md) — brahma-jñāna is the event that bādhita-s the vyāvahārika world's apparent independent reality; the highest bādha in the Advaita ontology
 - [Aparokṣa-anubhūti](aparoksha-anubhuti.md) — the immediate, non-mediated realization that constitutes brahma-jñāna proper; to be built next; the distinction parokṣa/aparokṣa defines when jñāna has actually occurred vs. when it is still conceptual
 - [Pramā](prama.md) — the result of an ordinary pramāṇa-event; veridical cognition at the vyāvahārika level; to be distinguished from brahma-jñāna, which transcends the pramāṇa-triad structure

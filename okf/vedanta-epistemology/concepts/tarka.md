@@ -36,7 +36,7 @@ related:
   - /concepts/anumana.md
   - /concepts/pramana.md
   - /concepts/shabda-pramana.md
-  - /concepts/svataḥpramanya.md
+  - /concepts/svatahpramanya.md
   - /concepts/aptavakya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
@@ -129,7 +129,7 @@ This echoes Kaṭhopaniṣad 1.2.9: *naiṣā tarkeṇa matir āpanīyā* — "t
 - [Anumāna](anumana.md) — inference; the pramāṇa that tarka supports; the tarka-anumāna relationship is the primary context in which tarka operates technically
 - [Pramāṇa](pramana.md) — the epistemological framework; tarka's status as not-a-pramāṇa but a pramāṇa-supporting device is basic to understanding it
 - [Śabda-pramāṇa](shabda-pramana.md) — Vedic testimony; the pramāṇa to which Advaita subordinates tarka; tarka is anuvāda-tarka (testimony-supporting) in the Advaita framework
-- [Svataḥprāmāṇya](svataḥpramanya.md) — self-validity; tarka plays a role in securing svataḥprāmāṇya by showing that challenges to a cognition's validity do not generate tenable alternatives
+- [Svataḥprāmāṇya](svatahpramanya.md) — self-validity; tarka plays a role in securing svataḥprāmāṇya by showing that challenges to a cognition's validity do not generate tenable alternatives
 - [Āpta-vākya](aptavakya.md) — testimony of a trustworthy person; the relation between tarka and āptavākya mirrors the Advaita relation between tarka and śabda-pramāṇa: tarka supports what the trusted testifier says, rather than replacing it
 
 ## Audience Metaphor

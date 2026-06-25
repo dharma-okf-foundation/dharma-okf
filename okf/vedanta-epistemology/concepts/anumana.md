@@ -120,7 +120,7 @@ This matters for AI: rendering "anumāna" as "inductive reasoning" imports the H
 - [Tarka](tarka.md) — hypothetical reasoning that supports but does not replace anumāna
 - [Arthāpatti](arthapatti.md) — postulation; related to but structurally distinct from anumāna
 - [Śabda / Āgama (pramāṇa)](shabda-pramana.md) — the pramāṇa that supplements anumāna for Brahman-knowledge; what inference cannot reach, Śruti addresses
-- [Vyāpti](vyapti.md) — [v0.9 nyāya-vaiśeṣika] — the invariable concomitance on which anumāna depends; Nyāya-specific analysis deferred to v0.9
+- Vyāpti — [v0.9 nyāya-vaiśeṣika] — the invariable concomitance on which anumāna depends; Nyāya-specific analysis deferred to v0.9
 
 ## Audience Metaphor
 

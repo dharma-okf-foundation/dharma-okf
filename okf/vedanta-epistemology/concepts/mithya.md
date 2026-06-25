@@ -160,7 +160,7 @@ The concept accomplishes four philosophical functions in Advaita:
 ## Cross-References
 - [Adhyāsa](adhyasa.md) — superimposition; the mechanism that produces the appearance of mithyā entities as independently real; mithyā is the status of what adhyāsa presents; build with this file (CRITICAL_pairs)
 - [Vyāvahārika](vyavaharika.md) — the empirical level of reality; the primary sub-level of mithyā applicable to the world of ordinary experience
-- [Pāramārthika](paramarithika.md) — the absolute level; Brahman; what is not mithyā; the adhiṣṭhāna on which mithyā depends
+- [Pāramārthika](paramarthika.md) — the absolute level; Brahman; what is not mithyā; the adhiṣṭhāna on which mithyā depends
 - [Prātibhāsika](pratibhasika.md) — the apparent level; the lower sub-level of mithyā, applicable to illusions, dreams, and error-objects
 - [Vivartavāda](vivartavada.md) — Advaita's causal theory; the world is a vivarta (apparent transformation) of Brahman, not a real transformation; vivartavāda is the causal-theory correlate of mithyātva
 - [Bādha / Bādhita](badha-badhita.md) — sublation; the defining criterion for mithyā is bādhyatva — susceptibility to sublation; bādha is how mithyā entities are cognized as mithyā after liberating knowledge

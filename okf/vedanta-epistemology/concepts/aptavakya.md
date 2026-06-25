@@ -37,7 +37,7 @@ not:
 related:
   - /concepts/shabda-pramana.md
   - /concepts/pramana.md
-  - /concepts/svataḥpramanya.md
+  - /concepts/svatahpramanya.md
   - /concepts/aparoksha-anubhuti.md
   - /concepts/tarka.md
   - /concepts/anumana.md
@@ -139,7 +139,7 @@ This layering — parataḥ qualification of the human transmitter, svataḥ aut
 
 ## Cross-References
 - [Śabda-pramāṇa](shabda-pramana.md) — verbal testimony as a pramāṇa; āpta-vākya is the Nyāya analysis of *why* verbal testimony can be a pramāṇa (because of the āpta-status of the testifier); śabda-pramāṇa is the broader category; āpta-vākya is the theoretical grounding for the pauruṣeya (person-authored) sub-type
-- [Svataḥprāmāṇya](svataḥpramanya.md) — the contrast between svataḥ (intrinsic) and parataḥ (externally established) validity is directly relevant to how āpta-vākya and apauruṣeya Vedic testimony differ in their epistemic grounding
+- [Svataḥprāmāṇya](svatahpramanya.md) — the contrast between svataḥ (intrinsic) and parataḥ (externally established) validity is directly relevant to how āpta-vākya and apauruṣeya Vedic testimony differ in their epistemic grounding
 - [Aparokṣa-anubhūti](aparoksha-anubhuti.md) — the direct realization that constitutes the guru's āpta-qualification in the domain of brahma-jñāna; the guru's āptatva for Brahman-knowledge requires aparokṣa-anubhūti (not mere parokṣa/conceptual knowledge)
 - [Pramāṇa](pramana.md) — the general epistemological framework; āpta-vākya situates within the śabda sub-category of the pramāṇa framework
 - [Tarka](tarka.md) — hypothetical reasoning that supports testimony; in Advaita's manana stage, tarka supports the āpta-guru's Mahāvākya transmission by removing doubts, just as it supports anumāna by securing vyāpti; the āpta's word and tarka work together, neither alone sufficient for aparokṣa-anubhūti

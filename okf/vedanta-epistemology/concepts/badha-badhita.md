@@ -41,7 +41,7 @@ related:
   - /concepts/vyavaharika.md
   - /concepts/paramarthika.md
   - /concepts/vivartavada.md
-  - /concepts/svataḥpramanya.md
+  - /concepts/svatahpramanya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -152,9 +152,9 @@ Three common confusions to block:
 - [Adhyāsa](adhyasa.md) — bādha is the removal of adhyāsa; paired concepts governing the structure of error and its correction in Advaita
 - [Prātibhāsika](pratibhasika.md) — the level at which bādha is most immediately visible; snake-rope is the paradigm bādha event
 - [Vyāvahārika](vyavaharika.md) — the level whose apparent independent reality is bādhita by brahma-jñāna; vyāvahārika reality persists after bādha as appearance
-- [Pāramārthika](paramarithika.md) — the trikālābādhita level; what bādha always reveals and what no bādha can touch
+- [Pāramārthika](paramarthika.md) — the trikālābādhita level; what bādha always reveals and what no bādha can touch
 - [Vivartavāda](vivartavada.md) — vivartavāda explains *why* the world is bādhya: because it is a vivarta (appearance) on an unchanged Brahman, not a real pariṇāma; bādha-structure requires vivartavāda as its cosmological ground
-- [Svataḥprāmāṇya](svataḥpramanya.md) — the self-validity of knowledge; in Advaita, the corrective cognition that produces bādha (brahma-jñāna) is itself svataḥprāmāṇya — self-certifying, not requiring external validation
+- [Svataḥprāmāṇya](svatahpramanya.md) — the self-validity of knowledge; in Advaita, the corrective cognition that produces bādha (brahma-jñāna) is itself svataḥprāmāṇya — self-certifying, not requiring external validation
 
 ## Audience Metaphor
 
