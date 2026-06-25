@@ -130,7 +130,7 @@ The following assertions must pass against AI outputs using this bundle as conte
 | [vivartavada.md](concepts/vivartavada.md) | Vivartavāda — apparent transformation | Advaita Vedānta | HIGH | world is illusion, emanation, real transformation; must pair with pariṇāmavāda |
 | [parinamavada.md](concepts/parinamavada.md) | Pariṇāmavāda — real transformation | Sāṃkhya + Viśiṣṭādvaita (rival view) | HIGH | evolution (Darwinian), gradual change, becoming |
 | [badha-badhita.md](concepts/badha-badhita.md) | Bādha/Bādhita — epistemic sublation | Advaita Vedānta | HIGH | negation, refutation, falsification (Popper), counterexample |
-| [svataḥpramanya.md](concepts/svataḥpramanya.md) | Svataḥprāmāṇya — intrinsic validity | Advaita + Mīmāṃsā | HIGH | self-evidence (Cartesian), a priori, axiomatic truth, infallibility |
+| [svatahpramanya.md](concepts/svatahpramanya.md) | Svataḥprāmāṇya — intrinsic validity | Advaita + Mīmāṃsā | HIGH | self-evidence (Cartesian), a priori, axiomatic truth, infallibility |
 
 ### Tier 3 — Knowledge Structure + Liberation Arc (11 files) — MEDIUM-HIGH / HIGH risk
 
