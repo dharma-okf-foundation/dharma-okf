@@ -340,7 +340,7 @@ first-class OKF concepts.
 
 ## 9. Conformance
 
-A bundle is **conformant** with OKF v0.1 if:
+A bundle is **conformant** with OKF v0.1 (and v0.2, additively) if:
 
 1. Every non-reserved `.md` file in the tree contains a parseable YAML
    frontmatter block.
