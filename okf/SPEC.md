@@ -1,6 +1,6 @@
 # Open Knowledge Format (OKF)
 
-**Version 0.1 — Draft**
+**Version 0.2 — Draft**
 
 OKF is an open, human- and agent-friendly format for representing
 *knowledge* — the metadata, context, and curated insight that surrounds
@@ -381,7 +381,7 @@ set of rules needed for interoperability without dictating tooling.
 
 ## 11. Versioning
 
-This document specifies OKF version **0.1**. Future revisions will be
+This document specifies OKF version **0.2**. Future revisions will be
 versioned in the form `<major>.<minor>`:
 
 - A **minor** version bump introduces backward-compatible additions
@@ -390,10 +390,47 @@ versioned in the form `<major>.<minor>`:
   fields, changing reserved filenames).
 
 Bundles MAY declare the OKF version they target by including
-`okf_version: "0.1"` in a bundle-root `index.md` frontmatter block (the
+`okf_version: "0.2"` in a bundle-root `index.md` frontmatter block (the
 only place frontmatter is permitted in an `index.md`). Consumers that
 do not understand the declared version SHOULD attempt best-effort
 consumption rather than refusing the bundle.
+
+---
+
+## 12. Version 0.2 additions (optional, backward-compatible)
+
+OKF v0.2 adds the following optional conventions. All are additive: a v0.1
+consumer ignores unknown frontmatter keys and reads a structured `not:` entry by
+its `term`, so v0.2 bundles remain consumable by v0.1 readers.
+
+### 12.1 `darshana` (provenance attribution)
+
+An optional frontmatter field naming the intellectual lineage or school a
+concept's framing belongs to, given as a string or a list of strings. It lets
+consumers preserve disagreement between schools instead of collapsing it. The
+generic idea is a `tradition` or `school` provenance field; `darshana` is the
+dharmic instantiation.
+
+### 12.2 Structured `not:`
+
+A `not:` list entry may be either a plain string (the v0.1 form) or a mapping
+with a required `term` and optional `why` and `instead`. The mapping form carries
+the reason a translation fails, not just the banned word. Consumers MUST accept a
+list that mixes strings and mappings, and MUST read `item.term` when an entry is a
+mapping.
+
+### 12.3 Bundle-root manifest
+
+The bundle-root `index.md` MAY carry a frontmatter block of bundle-level metadata
+(for example: title, description, version, license, authors, sources, tags,
+okf_version). Non-root `index.md` files remain frontmatter-free (see Section 6).
+
+### 12.4 Citations and `references/`
+
+Concepts SHOULD list sources under a `## Citations` heading. Citations MAY link
+into a `references/` sub-bundle whose entries are first-class OKF concepts
+(`type: Reference`) mirroring the cited primary sources, so citations become
+traversable within the bundle (see Section 8).
 
 ---
 
