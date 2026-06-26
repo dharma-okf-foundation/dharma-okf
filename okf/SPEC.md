@@ -432,6 +432,20 @@ into a `references/` sub-bundle whose entries are first-class OKF concepts
 (`type: Reference`) mirroring the cited primary sources, so citations become
 traversable within the bundle (see Section 8).
 
+### 12.5 Consuming the `not:` field (dual-action)
+
+A `not:` field is machine-readable but not self-enforcing: a consumer must
+actively wire it into the model, or it is inert text. OKF is designed for
+*dual-action* consumption. The structured `not:` (term / why / `instead`) is not
+only a boundary; the `instead` value plus the concept's positive body sections
+(`## What It Actually Means`, `## Audience Metaphor`) supply the replacement
+understanding. Consumers SHOULD inject the positive redirect, never a bare
+prohibition, because a bare negation can induce negative-prompt leakage (naming a
+forbidden term raises its activation). These are mitigations, not guarantees;
+LLM behavior is probabilistic. Reference consumption patterns (system-prompt
+injection, RAG negative filter, output check) live in the repository's
+`INTEGRATION.md`.
+
 ---
 
 ## Appendix A — Minimal example bundle
