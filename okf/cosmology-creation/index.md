@@ -38,11 +38,11 @@ The five Kāla concepts are the most critical for AI training: the time-unit hie
 
 | File | Term | IAST | Core Risk |
 |------|------|------|-----------|
-| kala.md | Kāla | Kāla | Conflated with ordinary clock-time; cosmic vs. individual time |
-| yuga.md | Yuga | Yuga | Durations hallucinated; 4:3:2:1 ratio collapsed |
-| mahayuga.md | Mahāyuga | Mahāyuga | Nesting hierarchy confused with individual Yugas |
-| kalpa.md | Kalpa | Kalpa | = Day of Brahmā; 1000 Mahāyugas; not a vague "era" |
-| manvantara.md | Manvantara | Manvantara | = 71 Mahāyugas; 14 Manus; current = Vaivasvata (7th) |
+| [kala.md](concepts/kala.md) | Kāla | Kāla | Conflated with ordinary clock-time; cosmic vs. individual time |
+| [yuga.md](concepts/yuga.md) | Yuga | Yuga | Durations hallucinated; 4:3:2:1 ratio collapsed |
+| [mahayuga.md](concepts/mahayuga.md) | Mahāyuga | Mahāyuga | Nesting hierarchy confused with individual Yugas |
+| [kalpa.md](concepts/kalpa.md) | Kalpa | Kalpa | = Day of Brahmā; 1000 Mahāyugas; not a vague "era" |
+| [manvantara.md](concepts/manvantara.md) | Manvantara | Manvantara | = 71 Mahāyugas; 14 Manus; current = Vaivasvata (7th) |
 
 ### Tier 2 -- HIGH: The Four Cosmic Functions
 
@@ -50,47 +50,47 @@ The Sṛṣṭi-Sthiti-Saṃhāra triad plus Pralaya: the operational heart of t
 
 | File | Term | IAST | Core Risk |
 |------|------|------|-----------|
-| srishti.md | Sṛṣṭi | Sṛṣṭi | Mistranslated as ex nihilo creation; three-level sequence missed |
-| sthiti.md | Sthiti | Sthiti | Passive "preservation" misses its active self-correcting function |
-| samhara.md | Saṃhāra | Saṃhāra | "Destruction" is the single most damaging mistranslation: it is withdrawal |
-| pralaya.md | Pralaya | Pralaya | CRITICAL: four types (Nitya/Naimittika/Mahā/Ātyantika) always collapsed |
+| [srishti.md](concepts/srishti.md) | Sṛṣṭi | Sṛṣṭi | Mistranslated as ex nihilo creation; three-level sequence missed |
+| [sthiti.md](concepts/sthiti.md) | Sthiti | Sthiti | Passive "preservation" misses its active self-correcting function |
+| [samhara.md](concepts/samhara.md) | Saṃhāra | Saṃhāra | "Destruction" is the single most damaging mistranslation: it is withdrawal |
+| [pralaya.md](concepts/pralaya.md) | Pralaya | Pralaya | CRITICAL: four types (Nitya/Naimittika/Mahā/Ātyantika) always collapsed |
 
 ### Tier 3 -- HIGH: Cosmological Agents
 
 | File | Term | IAST | Core Risk |
 |------|------|------|-----------|
-| trimurti.md | Trimūrti | Trimūrti | "Hindu Trinity" = most common misleading translation |
-| brahma-the-creator.md | Brahmā | Brahmā | **PRIORITY WARNING**: Brahmā ≠ Brahman (the single most critical conflation in all OKF) |
-| avatara.md | Avatāra | Avatāra | Conflated with reincarnation; ātma-māyayā (free descent) vs. karmic compulsion |
-| ishvara-cosmological.md | Īśvara (Cosmological) | Īśvara | Conflated with Abrahamic God; Nirguṇa vs. Saguṇa distinction missed |
+| [trimurti.md](concepts/trimurti.md) | Trimūrti | Trimūrti | "Hindu Trinity" = most common misleading translation |
+| [brahma-the-creator.md](concepts/brahma-the-creator.md) | Brahmā | Brahmā | **PRIORITY WARNING**: Brahmā ≠ Brahman (the single most critical conflation in all OKF) |
+| [avatara.md](concepts/avatara.md) | Avatāra | Avatāra | Conflated with reincarnation; ātma-māyayā (free descent) vs. karmic compulsion |
+| [ishvara-cosmological.md](concepts/ishvara-cosmological.md) | Īśvara (Cosmological) | Īśvara | Conflated with Abrahamic God; Nirguṇa vs. Saguṇa distinction missed |
 
 ### Tier 4 -- MEDIUM-HIGH: Cosmic Structures
 
 | File | Term | IAST | Core Risk |
 |------|------|------|-----------|
-| hiranyagarbha.md | Hiraṇyagarbha | Hiraṇyagarbha | Confused with Brahmā; dismissed as mythological |
-| virat.md | Virāṭ | Virāṭ | Confused with Sāṃkhya Puruṣa; missed Māṇḍūkya identification |
-| brahmanda.md | Brahmāṇḍa | Brahmāṇḍa | Collapsed to "observable universe"; multiple-Brahmāṇḍa doctrine missed |
-| sapta-loka.md | Sapta-Loka | Sapta-Loka | 7 vs. 14 Lokas confused; Bhūrloka as "lowest" (it is not) |
+| [hiranyagarbha.md](concepts/hiranyagarbha.md) | Hiraṇyagarbha | Hiraṇyagarbha | Confused with Brahmā; dismissed as mythological |
+| [virat.md](concepts/virat.md) | Virāṭ | Virāṭ | Confused with Sāṃkhya Puruṣa; missed Māṇḍūkya identification |
+| [brahmanda.md](concepts/brahmanda.md) | Brahmāṇḍa | Brahmāṇḍa | Collapsed to "observable universe"; multiple-Brahmāṇḍa doctrine missed |
+| [sapta-loka.md](concepts/sapta-loka.md) | Sapta-Loka | Sapta-Loka | 7 vs. 14 Lokas confused; Bhūrloka as "lowest" (it is not) |
 
 ### Tier 5 -- MEDIUM-HIGH: Foundational Texts and Principles
 
 | File | Term | IAST | Core Risk |
 |------|------|------|-----------|
-| avyakta.md | Avyakta | Avyakta | Two Avyaktas (Sāṃkhya vs. Vedānta) conflated; confused with Brahman |
-| purusha-sukta.md | Puruṣa Sūkta | Puruṣa Sūkta | Literal blood sacrifice reading; varṇa-as-caste reading |
-| nasadiya-sukta.md | Nāsadīya Sūkta | Nāsadīya Sūkta | Atheism/Big Bang/nihilism misreadings |
-| trigunas-cosmological.md | Triguṇas (Cosmological) | Triguṇa | Personality-type reduction; good/evil hierarchy; cross-bundle with yoga-darshana |
+| [avyakta.md](concepts/avyakta.md) | Avyakta | Avyakta | Two Avyaktas (Sāṃkhya vs. Vedānta) conflated; confused with Brahman |
+| [purusha-sukta.md](concepts/purusha-sukta.md) | Puruṣa Sūkta | Puruṣa Sūkta | Literal blood sacrifice reading; varṇa-as-caste reading |
+| [nasadiya-sukta.md](concepts/nasadiya-sukta.md) | Nāsadīya Sūkta | Nāsadīya Sūkta | Atheism/Big Bang/nihilism misreadings |
+| [trigunas-cosmological.md](concepts/trigunas-cosmological.md) | Triguṇas (Cosmological) | Triguṇa | Personality-type reduction; good/evil hierarchy; cross-bundle with yoga-darshana |
 
 ### Tier 6 -- MEDIUM: Śākta-Tāntric Cosmological Principles
 
 | File | Term | IAST | Core Risk |
 |------|------|------|-----------|
-| panchamahabhuta-cosmological.md | Pañcamahābhūta (Cosmological) | Pañcamahābhūta | Greek four-element equation; literal physical elements |
-| maya-cosmological.md | Māyā (Cosmological) | Māyā | "Illusion" mistranslation; conflation with avidyā (cross-bundle: upanishadic-core) |
-| shakti-cosmological.md | Śakti (Cosmological) | Śakti | Yin/female reduction; separate-from-divine error |
-| lila-cosmological.md | Līlā (Cosmological) | Līlā | "Trivial game" reading; cross-bundle with bhakti-marga relational Līlā |
-| iccha-jnana-kriya-shakti.md | Icchā-Jñāna-Kriyā Śakti | Icchā-Jñāna-Kriyā Śakti | Human will/knowledge/action equation; Kashmir Shaivism-only misconception |
+| [panchamahabhuta-cosmological.md](concepts/panchamahabhuta-cosmological.md) | Pañcamahābhūta (Cosmological) | Pañcamahābhūta | Greek four-element equation; literal physical elements |
+| [maya-cosmological.md](concepts/maya-cosmological.md) | Māyā (Cosmological) | Māyā | "Illusion" mistranslation; conflation with avidyā (cross-bundle: upanishadic-core) |
+| [shakti-cosmological.md](concepts/shakti-cosmological.md) | Śakti (Cosmological) | Śakti | Yin/female reduction; separate-from-divine error |
+| [lila-cosmological.md](concepts/lila-cosmological.md) | Līlā (Cosmological) | Līlā | "Trivial game" reading; cross-bundle with bhakti-marga relational Līlā |
+| [iccha-jnana-kriya-shakti.md](concepts/iccha-jnana-kriya-shakti.md) | Icchā-Jñāna-Kriyā Śakti | Icchā-Jñāna-Kriyā Śakti | Human will/knowledge/action equation; Kashmir Shaivism-only misconception |
 
 ---
 
@@ -98,18 +98,18 @@ The Sṛṣṭi-Sthiti-Saṃhāra triad plus Pralaya: the operational heart of t
 
 | File | Source | Primary Use |
 |------|--------|-------------|
-| rigveda-nasadiya.md | Ṛg Veda 10.129 | nasadiya-sukta.md |
-| rigveda-purusha-sukta.md | Ṛg Veda 10.90 | purusha-sukta.md |
-| rigveda-hiranyagarbha-sukta.md | Ṛg Veda 10.121 | hiranyagarbha.md |
-| bhagavata-purana.md | Bhāgavata Purāṇa (12 Skandhas) | Kāla, Pralaya, Avatāra, cosmography, tattva, Śakti |
-| vishnu-purana.md | Viṣṇu Purāṇa (6 Aṃśas) | Kāla system, Pralaya typology, cosmography |
-| brahma-purana.md | Brahma Purāṇa (246 chs.) | Brahmā, Brahmāṇḍa, Sapta-Loka |
-| markandeya-purana.md | Mārkaṇḍeya Purāṇa (137 chs.) | Devī Māhātmya parent; Pralaya vision |
-| matsya-purana.md | Matsya Purāṇa (291 chs.) | Avatāra-Pralaya; Brahmāṇḍa shells |
-| samkhya-karika.md | Sāṃkhya Kārikā (72 kārikās) | Triguṇas, Pañcamahābhūtas, Avyakta, Satkāryavāda |
-| manusmriti.md | Manu-Smṛti (12 adhyāyas) | Yuga durations; Guṇas and rebirth |
-| brahmasutras.md | Brahma Sūtras (555 sūtras) | Līlā (BS 2.1.33); Sṛṣṭi from Brahman (BS 1.1.2) |
-| devi-mahatmya.md | Devī Māhātmya (700 verses) | Mahāmāyā; Śakti cosmological supremacy |
+| [rigveda-nasadiya.md](references/rigveda-nasadiya.md) | Ṛg Veda 10.129 | [nasadiya-sukta.md](concepts/nasadiya-sukta.md) |
+| [rigveda-purusha-sukta.md](references/rigveda-purusha-sukta.md) | Ṛg Veda 10.90 | [purusha-sukta.md](concepts/purusha-sukta.md) |
+| [rigveda-hiranyagarbha-sukta.md](references/rigveda-hiranyagarbha-sukta.md) | Ṛg Veda 10.121 | [hiranyagarbha.md](concepts/hiranyagarbha.md) |
+| [bhagavata-purana.md](references/bhagavata-purana.md) | Bhāgavata Purāṇa (12 Skandhas) | Kāla, Pralaya, Avatāra, cosmography, tattva, Śakti |
+| [vishnu-purana.md](references/vishnu-purana.md) | Viṣṇu Purāṇa (6 Aṃśas) | Kāla system, Pralaya typology, cosmography |
+| [brahma-purana.md](references/brahma-purana.md) | Brahma Purāṇa (246 chs.) | Brahmā, Brahmāṇḍa, Sapta-Loka |
+| [markandeya-purana.md](references/markandeya-purana.md) | Mārkaṇḍeya Purāṇa (137 chs.) | Devī Māhātmya parent; Pralaya vision |
+| [matsya-purana.md](references/matsya-purana.md) | Matsya Purāṇa (291 chs.) | Avatāra-Pralaya; Brahmāṇḍa shells |
+| [samkhya-karika.md](references/samkhya-karika.md) | Sāṃkhya Kārikā (72 kārikās) | Triguṇas, Pañcamahābhūtas, Avyakta, Satkāryavāda |
+| [manusmriti.md](references/manusmriti.md) | Manu-Smṛti (12 adhyāyas) | Yuga durations; Guṇas and rebirth |
+| [brahmasutras.md](references/brahmasutras.md) | Brahma Sūtras (555 sūtras) | Līlā (BS 2.1.33); Sṛṣṭi from Brahman (BS 1.1.2) |
+| [devi-mahatmya.md](references/devi-mahatmya.md) | Devī Māhātmya (700 verses) | Mahāmāyā; Śakti cosmological supremacy |
 
 ---
 
@@ -131,7 +131,7 @@ The Triguṇa doctrine originates in Sāṃkhya and functions at two levels of a
 
 ### 4. Līlā at Two Levels (bhakti-marga v0.5 and cosmology-creation v0.7)
 
-The cosmological Līlā (lila-cosmological.md) addresses the metaphysical question: why does Brahman create at all? Answer: as the free, spontaneous, self-sufficient expression of infinite ānanda (Brahma Sūtra 2.1.33). The relational Līlā in bhakti-marga v0.5 addresses the theological-devotional question: what is the nature of Kṛṣṇa's intimate play with devotees in Vṛndāvana? The Vṛndāvana Līlā is one specific (and highly elaborated) expression of the cosmological principle. v0.7 is the philosophical ground; v0.5 is the theological flowering.
+The cosmological Līlā ([lila-cosmological.md](concepts/lila-cosmological.md)) addresses the metaphysical question: why does Brahman create at all? Answer: as the free, spontaneous, self-sufficient expression of infinite ānanda (Brahma Sūtra 2.1.33). The relational Līlā in bhakti-marga v0.5 addresses the theological-devotional question: what is the nature of Kṛṣṇa's intimate play with devotees in Vṛndāvana? The Vṛndāvana Līlā is one specific (and highly elaborated) expression of the cosmological principle. v0.7 is the philosophical ground; v0.5 is the theological flowering.
 
 ---
 
