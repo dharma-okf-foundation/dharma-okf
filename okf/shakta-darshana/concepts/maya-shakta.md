@@ -60,4 +60,4 @@ Māyā-tattva is a hypervisor: the layer that partitions one machine into many v
 
 1. Parāprāveśikā; Tantrāloka māyā-tattva analysis -- see [references/tantraloka.md](../references/tantraloka.md)
 2. Cross-bundle: maya.md (v0.1), avidya.md (v0.6), maya-cosmological.md (v0.7) -- the other three corners of the map
-3. Cross-bundle: vivartavada.md / parinamavada.md (vedanta-epistemology v0.3) -- the real-transformation vs appearance debate this tradition takes the p
+3. Cross-bundle: vivartavada.md / parinamavada.md (vedanta-epistemology v0.3) -- the real-transformation vs appearance debate; this tradition stands on the parinama-affirming side
