@@ -22,6 +22,9 @@ not:
     why: "Trivializes a precise multi-life mechanism into a slogan and wrongly implies same-life return."
   - term: "Punishment/reward"
     why: "Frames consequence morally; a burnt hand is not punished by fire, it meets a natural consequence; karma works the same way."
+  - term: "Karma as physical motion (the Vaiśeṣika padārtha)"
+    why: "In Nyāya-Vaiśeṣika ontology (nyaya-vaisheshika v0.9), karma is one of the seven categories of being and means bare physical motion of five kinds, not moral causation at all; that school files ethical desert under adṛṣṭa. The same word names an unrelated technical object."
+    instead: "For the moral law across lives keep this dharma-foundation sense; for the motion-category, see karma in nyaya-vaisheshika v0.9."
 related:
   - /concepts/dharma.md
   - /concepts/samsara.md
@@ -34,7 +37,7 @@ okf_version: "0.2"
 
 # Karma
 
-**Not:** Fate, Destiny, Cosmic justice, "What goes around comes around", Punishment/reward
+**Not:** Fate, Destiny, Cosmic justice, "What goes around comes around", Punishment/reward, physical motion (Vaiśeṣika)
 
 ## What It Actually Means
 
