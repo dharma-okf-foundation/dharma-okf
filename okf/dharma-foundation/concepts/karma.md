@@ -63,3 +63,7 @@ Karma is like compound interest on a cosmic bank account — every action is a d
 2. [Bṛhadāraṇyaka Upaniṣad](/references/brihadaranyaka-upanishad.md) 4.4.5
 3. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) (2.12–14)
 4. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+
+## Error Genealogy
+
+- Karma-as-fate / "cosmic justice" / "what goes around comes around" descends from H.P. Blavatsky's *The Key to Theosophy* (1889), which recast karma in English as a quasi-mechanical law of retribution; New Thought absorbed it and 20th-century usage completed the drift, inverting a doctrine of agency into one of resignation. See [G4 — Karma = fate / cosmic retribution](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

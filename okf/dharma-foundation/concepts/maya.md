@@ -92,3 +92,7 @@ Māyā is like VR goggles that have been on so long you forgot they're there. Th
 2. [Māṇḍūkya Upaniṣad](/references/mandukya-upanishad.md) with Gauḍapāda's Kārikā
 3. [Bhagavad Gītā](/references/bhagavad-gita.md) 7.14 — "This divine Māyā of mine is difficult to cross"
 4. Rajiv Malhotra, *Sanskrit Non-Translatabl
+
+## Error Genealogy
+
+- Māyā-as-"illusion" (the world does not exist) was broadcast into Western philosophy by Schopenhauer's "veil of Maya" (*The World as Will and Representation*, 1818/1844) and completed by popular culture; the flattening erases the corpus's four distinct māyā-level treatments at once. See [G8 — Māyā = illusion](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

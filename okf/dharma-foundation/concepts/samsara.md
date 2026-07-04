@@ -48,3 +48,9 @@ Saṃsāra is like switching between characters in an infinite video game — ea
 
 1. [Bhagavad Gītā](/references/bhagavad-gita.md) 2.22 — "As a person discards worn-out clothes and puts on new ones"
 2. [Bṛhadāraṇyaka Upaniṣad](/references/brihadaranyaka-upanishad.md) 4.4.1–6
+
+## Error Genealogy
+
+This term is a secondary node in a documented mistranslation chain (a partial genealogy):
+
+- Karma-as-fate / "cosmic justice" / "what goes around comes around" descends from H.P. Blavatsky's *The Key to Theosophy* (1889), which recast karma in English as a quasi-mechanical law of retribution; New Thought absorbed it and 20th-century usage completed the drift, inverting a doctrine of agency into one of resignation. See [G4 — Karma = fate / cosmic retribution](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

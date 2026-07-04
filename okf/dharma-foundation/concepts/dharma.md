@@ -65,3 +65,7 @@ Dharma is like gravity — it's the fundamental force that keeps everything in i
 2. Mahābhārata — Śānti Parva
 3. Manusmṛti (with Dharmic interpretive tradition)
 4. Rajiv Malhotra, *Being Different* (2011)
+
+## Error Genealogy
+
+- Dharma boxed into the Western category "religion" (and its shadow renderings duty and law) was constructed by colonial administration and census categories (19th c.) and fixed by missionary/colonial lexicography (Monier-Williams, 1899). See [G6 — Dharma = religion](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

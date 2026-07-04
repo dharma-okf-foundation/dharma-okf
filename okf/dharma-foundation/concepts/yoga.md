@@ -69,3 +69,7 @@ Imagine a smartphone. The global fitness industry took the flashlight app, calle
 1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) (complete text)
 2. [Bhagavad Gītā](/references/bhagavad-gita.md) chapters 2, 3, 6, 12, 18
 3. Haṭha Yoga Pradīpikā
+
+## Error Genealogy
+
+- Yoga-as-postural-exercise traces from Vivekananda's *Raja Yoga* (1896, sidelining āsana) → early-20th-century international physical culture → Krishnamacharya's Mysore synthesis (1930s) → global export as fitness (Singleton, *Yoga Body*, 2010). See [G5 — Yoga = postural exercise](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

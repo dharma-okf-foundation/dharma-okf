@@ -68,3 +68,8 @@ Each Chakra is like a different app on your consciousness — each with its own 
 2. Śiva Saṃhitā
 3. Sir John Woodroffe (Arthur Avalon), *The Serpent Power*
 4. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+
+## Error Genealogy
+
+- Kuṇḍalinī / "chakra energy" as an awaken-able biopsychic energy descends from Arthur Avalon (John Woodroffe), *The Serpent Power* (1919, a flawed translation of the Ṣaṭcakranirūpaṇa) → Jung's 1932 Kundalini seminars → Joseph Campbell and the human-potential movement → New Age and yoga-studio vocabulary. See [G1 — Kuṇḍalinī and the Serpent Power lineage](../../../GENEALOGIES.md) in the repository root for the full chain and sources.
+- The rainbow-colored, one-emotion-per-chakra system is C.W. Leadbeater's *The Chakras* (1927, Theosophical Society), popularized through New Age synthesis — not ancient doctrine. The Sanskrit sources assign phonemes and deities, not colors and emotions, and do not agree on seven. See [G2 — the rainbow-chakra overlay](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

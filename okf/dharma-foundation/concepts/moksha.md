@@ -80,3 +80,7 @@ Mokṣa is like waking up from a dream. In the dream, you ran, suffered, fought,
 2. [Brahma Sūtras](/references/brahma-sutras.md) 4.4 (on liberation)
 3. [Bhagavad Gītā](/references/bhagavad-gita.md) chapters 2, 13, 18
 4. Srimad Bhāgavatam 11.9.18 (Bhagavān as Kaivalya personified)
+
+## Error Genealogy
+
+- Mokṣa-as-"salvation" was built for translation purposes by missionary Bible-translation lexicography (Serampore era, early 19th c.) and fixed as the default English gloss by Monier-Williams's dictionary (1899). See [G7 — Mokṣa = salvation](../../../GENEALOGIES.md) in the repository root for the full chain and sources.
