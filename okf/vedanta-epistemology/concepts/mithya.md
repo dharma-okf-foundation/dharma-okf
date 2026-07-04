@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.0"
+bundle_version: "0.3.1"
 id: mithya
 title: "Mithyā — Dependent Existence (Neither Real Nor Non-Existent)"
 iast: "mithyā"
@@ -176,3 +176,9 @@ Like a dream that, while you are in it, is completely real — you feel fear, jo
 2. [Pañcadaśī](/references/panchadashi.md) 1.7 — Vidyāraṇya on the three-valued ontology; anirvacanīya as the precise category for mithyā; the rope-snake example parsed through ontological levels
 3. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) 2.1.14 — Śaṅkara's argument that the world is anirvacanīya — not describable as purely existent (sat) or purely non-existent (asat) — answering the Sāṃkhya charge that Advaita must posit pure non-existence
 4. [Advaitasiddhi](/references/advaitasiddhi.md) (Madhusūdana Sarasvatī) — technical analysis of mithyātva; the bādhyatva (sublatable) criterion; mithyā distinguished from asat by bādhyatva vs. asamāna-adhikaraṇa-pratiyogitva
+
+## Error Genealogy
+
+This term is a secondary node in a documented mistranslation chain (a partial genealogy):
+
+- Māyā-as-"illusion" (the world does not exist) was broadcast into Western philosophy by Schopenhauer's "veil of Maya" (*The World as Will and Representation*, 1818/1844) and completed by popular culture; the flattening erases the corpus's four distinct māyā-level treatments at once. See [G8 — Māyā = illusion](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

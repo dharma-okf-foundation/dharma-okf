@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.0"
+bundle_version: "0.3.1"
 id: anumana
 title: "Anumāna — Inferential Cognition"
 iast: "anumāna"
@@ -40,6 +40,7 @@ related:
   - /concepts/arthapatti.md
   - /concepts/tarka.md
   - /concepts/shabda-pramana.md
+  - ../../nyaya-vaisheshika/concepts/anumana.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -132,3 +133,7 @@ Like seeing smoke on a distant mountain and knowing there must be fire — not b
 2. [Vedāntaparibhāṣā](/references/vedantaparibhasha.md) Ch.3 — Dharmarāja Adhvarin's treatment of anumāna within Advaita epistemology, including its scope and limits relative to Brahman-knowledge
 3. Nyāyadarśana 1.1.5 — Gautama's definition of anumāna
 4. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) 2.1.6 — Śaṅkara on the limits of anumāna in establishing Brahman's nature
+
+## Cross-Darśana Note (Nyāya anumāna)
+
+The same term is treated from its source school in **nyaya-vaisheshika (v0.9)**, where anumāna is a full pramāṇa yielding certainty, five-membered, resting on a real vyāpti. Here in Advaita epistemology anumāna is finally subordinate to śabda and cannot by itself reach the non-dual. Same word, different darśana — this is school-contrast, not duplication. See [nyaya-vaisheshika anumāna](../../nyaya-vaisheshika/concepts/anumana.md).
