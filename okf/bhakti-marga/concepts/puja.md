@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.0"
+bundle_version: "0.4.1"
 id: puja
 title: "Pūjā — Ritual as Internalized Contemplation"
 iast: "pūjā"
@@ -73,3 +73,9 @@ Imagine the most beloved person in your life is coming to stay. You ready a room
 1. [Pāñcarātra Āgama](/references/pancaratra.md) — the codification of temple pūjā and the sequence of upacāras
 2. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) 7.5.23 — arcana as a limb of navadhā bhakti
 3. [Bhagavad Gītā](/references/bhagavad-gita.md) 9.26 — the leaf, flower, fruit, or water offered with devotion accepted by the Lord
+
+## Error Genealogy
+
+This term is a secondary node in a documented mistranslation chain (a partial genealogy):
+
+- Mūrti-as-"idol / graven image" carries a biblical idolatry frame imported by 18th–19th-century missionary polemic and reinforced by European art history's reading of Indian images (Partha Mitter, *Much Maligned Monsters*, 1977). See [G9 — Mūrti = idol](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

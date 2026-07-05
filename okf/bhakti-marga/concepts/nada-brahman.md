@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.0"
+bundle_version: "0.4.1"
 id: nada-brahman
 title: "Nāda Brahman — Sound as Brahman"
 iast: "nāda-brahman"
@@ -77,3 +77,9 @@ Think of how a loved one's voice on the phone is not a "representation" of them 
 1. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) — the glory and power of the holy Name; nāma-saṅkīrtana as the means for this age (e.g. 12.3.51)
 2. [Nārada Bhakti Sūtra](/references/narada-bhakti-sutra.md) — the constant utterance and hearing of the Lord's names and qualities as devotional practice
 3. [Pāñcarātra Āgama](/references/pancaratra.md) — mantra as charged sacred sound in the Āgamic devotional framework
+
+## Error Genealogy
+
+This term is a secondary node in a documented mistranslation chain (a partial genealogy):
+
+- "Vibration / raise your frequency" for spanda and Dharmic sound-metaphysics is New Thought drift: William Walker Atkinson's *Thought Vibration* (1906) → Theosophical "subtle energy" language → law-of-attraction media (*The Secret*, 2006). See [G13 — Vibration / frequency (drift)](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

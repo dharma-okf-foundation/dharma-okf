@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.0"
+bundle_version: "0.4.1"
 id: murti
 title: "Mūrti — The Deity's Accessible Form"
 iast: "mūrti"
@@ -76,3 +76,7 @@ Consider how a video call lets a parent be genuinely *present* to a child across
 1. [Pāñcarātra Āgama](/references/pancaratra.md) — the doctrine of arcā-avatāra and the rite of prāṇa-pratiṣṭhā
 2. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) 11.27 — the kriyā-yoga of worshipping the Lord in the consecrated form
 3. [Bhagavad Gītā](/references/bhagavad-gita.md) 12.5 — the embodied form is the more accessible refuge for embodied beings, against the harder path to the unmanifest
+
+## Error Genealogy
+
+- Mūrti-as-"idol / graven image" carries a biblical idolatry frame imported by 18th–19th-century missionary polemic and reinforced by European art history's reading of Indian images (Partha Mitter, *Much Maligned Monsters*, 1977). See [G9 — Mūrti = idol](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

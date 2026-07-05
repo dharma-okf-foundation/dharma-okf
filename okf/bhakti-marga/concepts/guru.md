@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.0"
+bundle_version: "0.4.1"
 id: guru
 title: "Guru — Remover of Darkness"
 iast: "guru"
@@ -73,3 +73,7 @@ The difference between a guru and a teacher is the difference between someone wh
 1. [Guru Gītā](/references/guru-gita.md) — the gu-ru etymology; the guru as the form of the Divine, to be revered, not merely consulted
 2. Muṇḍaka Upaniṣad 1.2.12 — the seeker is enjoined to approach a guru learned in scripture and established in Brahman (plain citation; no in-bundle reference entry)
 3. [Śvetāśvatara Upaniṣad](/references/shvetashvatara-upanishad.md) 6.23 — devotion to the guru placed parallel to devotion to God
+
+## Error Genealogy
+
+- Guru-as-charlatan / cult-leader is period-sourced drift: 1960s–70s Western guru movements created mass exposure and post-Jonestown (1978) / Rajneeshpuram (1985) media framing split English "guru" into ironic expert and sinister leader. See [G11 — Guru = cult leader (drift)](../../../GENEALOGIES.md) in the repository root for the full chain and sources.
