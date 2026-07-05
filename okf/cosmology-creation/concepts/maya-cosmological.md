@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.1"
 id: maya-cosmological
 title: "Māyā (Cosmological) — माया"
 iast: "Māyā"
@@ -80,3 +80,7 @@ Māyā (cosmological) is like the screen in a cinema. The screen itself is pure,
 2. Devī Māhātmya 1.55-78 (Mārkaṇḍeya Purāṇa) -- Mahāmāyā as the supreme Goddess; see references/markandeya-purana.md and references/devi-mahatmya.md
 3. Bhāgavata Purāṇa 2.5.18 -- Māyā-Śakti as the productive power of Brahman; see references/bhagavata-purana.md
 4. Bhagavad Gītā 7.25 -- Yogamāyā as Viṣṇu's veiling-and-creating power
+
+## Error Genealogy
+
+- Māyā-as-"illusion" (the world does not exist) was broadcast into Western philosophy by Schopenhauer's "veil of Maya" (*The World as Will and Representation*, 1818/1844) and completed by popular culture; the flattening erases the corpus's four distinct māyā-level treatments at once. See [G8 — Māyā = illusion](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.1"
 id: purusha-sukta
 title: "Puruṣa Sūkta — पुरुष सूक्त"
 iast: "Puruṣa Sūkta"
@@ -91,3 +91,7 @@ The Puruṣa Sūkta's cosmic sacrifice is like the sun emitting light: the sun d
 1. Ṛg Veda 10.90 -- the original Puruṣa Sūkta; 24 verses; see references/rigveda-purusha-sukta.md
 2. Śukla Yajurveda 31 -- the liturgically prevalent version; used in daily Vaiṣṇava ritual
 3. Bhāgavata Purāṇa 2.1.23-39 -- the cosmic body homology that parallels the Puruṣa Sūkta's structure; see references/bhagavata-purana.md
+
+## Error Genealogy
+
+- Reading Ṛg Veda 10.90 (and the varṇa verses) as the origin-charter of birth-based caste hardened via colonial ethnography and census operations (H.H. Risley, Census of India 1901), then projected backward onto the sūkta (Nicholas Dirks, *Castes of Mind*, 2001). See [G10 — Puruṣa Sūkta and the colonial construction of caste](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

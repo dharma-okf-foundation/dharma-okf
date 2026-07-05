@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.1"
 id: trimurti
 title: "Trimūrti — त्रिमूर्ति"
 iast: "Trimūrti"
@@ -82,3 +82,7 @@ The Trimūrti is like the three phases of a breath: inhalation (Sṛṣṭi/Brah
 1. Bhāgavata Purāṇa 1.2.23 -- three Guṇas mapped to three cosmic functions; foundational Trimūrti framework
 2. Kūrma Purāṇa 1.2 -- Trimūrti as three aspects of one cosmic principle
 3. Devī Māhātmya (Mārkaṇḍeya Purāṇa 81-93) -- Śākta reading of Trimūrti as instruments of the Goddess; see references/markandeya-purana.md
+
+## Error Genealogy
+
+- Trimūrti equated with the Christian Trinity is period-sourced drift: 18th–19th-century European comparative religion habitually mapped unfamiliar triads onto the Trinity, and the equation entered reference works. See [G12 — Trimūrti = the Hindu Trinity (drift)](../../../GENEALOGIES.md) in the repository root for the full chain and sources.
