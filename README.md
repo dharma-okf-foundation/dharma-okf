@@ -2,6 +2,8 @@
 
 A structured, machine-readable knowledge base of Sanskrit concepts that resist accurate translation into English, built for AI agents, educators, researchers, and technologists working with dharmic knowledge systems.
 
+**9 bundles · 213 concept files · 107 primary-source references — every file on canonical OKF v0.2, validated 0-fail.**
+
 ## What Is OKF?
 
 The Open Knowledge Format (OKF) uses YAML-frontmatter Markdown files. Each concept file does **two** jobs at once, a dual-action design:
@@ -16,6 +18,8 @@ So OKF does not merely tell a model what a term is **not**. It clears out the wr
 - "Samadhi = Trance" → **Wrong.** It is absorption / unified awareness. See `okf/dharma-foundation/concepts/samadhi.md`
 - "Yoga = Exercise" → **Wrong.** It is the discipline of stilling the mind. See `okf/dharma-foundation/concepts/yoga.md`
 
+**A non-translatable is school-relative.** The same Sanskrit word can be a *different technical object* in a different darśana, and the corpus preserves the distinction rather than flattening it: `karma` is moral action-and-consequence in dharma-foundation but the padārtha of **motion** in Nyāya-Vaiśeṣika; `anumāna` is a full pramāṇa yielding certainty in Nyāya but auxiliary-to-śabda in Advaita. Shared terms carry a `school_scope:` field, an index contrast note, and reciprocal cross-links — never a single "canonical" definition.
+
 ## Why this is an engineering problem, not only a cultural one
 
 A mistranslation changes the **category** a model reasons in, which changes its action space and therefore its output. A wellness bot that reads `yoga` as exercise recommends the squat rack; an advisor that reads `karma` as fate gives fatalistic, agency-removing advice. The metaphysical error *is* a logic bug.
@@ -26,21 +30,32 @@ See [`demos/failure-vs-success.md`](demos/failure-vs-success.md) for side-by-sid
 
 A `not:` list in a file is a "do not enter" sign on an unlocked door. The model still has to be told how to read and honor it, and a naive bare prohibition can *backfire* through negative-prompt leakage. [`INTEGRATION.md`](INTEGRATION.md) shows how to make the constraint functionally binding: a system-prompt template that injects the positive `instead` redirect (not a bare ban), a RAG negative-filter pattern, and a lightweight output-check, with honest caveats about what is and is not guaranteed.
 
-## Bundles — five live, all on canonical OKF v0.2
+## Bundles — nine live, all on canonical OKF v0.2
 
-| Bundle | Release | Concepts | Theme |
-|---|---|---|---|
-| `okf/dharma-foundation/` | v0.1.1 | 25 | Foundational Sanskrit non-translatable vocabulary |
-| `okf/yoga-darshana/` | v0.2.0 | 26 | Patañjali's Yoga Sūtra technical lexicon |
-| `okf/vedanta-epistemology/` | v0.3.0 | 27 | Pramāṇa-śāstra — Vedantic epistemology |
-| `okf/bhakti-marga/` | v0.4.0 | 15 (+9 refs) | The vocabulary of the devotional path |
-| `okf/dharmic-ethics/` | v0.5.0 | 15 (+6 refs) | Yama-Niyama and the ethical-social vocabulary |
+| Bundle | Release | Concepts | Refs | Theme |
+|---|---|---|---|---|
+| `okf/dharma-foundation/` | v0.1.2 | 25 | 13 | Foundational Sanskrit non-translatable vocabulary |
+| `okf/yoga-darshana/` | v0.2.0 | 26 | 7 | Patañjali's Yoga Sūtra technical lexicon |
+| `okf/vedanta-epistemology/` | v0.3.1 | 27 | 20 | Pramāṇa-śāstra — Vedantic epistemology |
+| `okf/bhakti-marga/` | v0.4.1 | 15 | 10 | The vocabulary of the devotional path |
+| `okf/dharmic-ethics/` | v0.5.1 | 15 | 7 | Yama–Niyama and the ethical-social vocabulary of dharma |
+| `okf/upanishadic-core/` | v0.6.0 | 26 | 16 | Core Upaniṣadic vocabulary across the Vedānta schools — mahāvākyas, Ātman–Brahman, self-knowledge |
+| `okf/cosmology-creation/` | v0.7.1 | 26 | 12 | Vedic & Purāṇic vocabulary of time, cosmos, and manifestation |
+| `okf/shakta-darshana/` | v0.8.0 | 26 | 12 | Śākta-Tāntric metaphysics of Śakti, Devī, and consciousness-power |
+| `okf/nyaya-vaisheshika/` | v0.9.0 | 27 | 10 | The science of inference and debate — Nyāya apparatus + Vaiśeṣika realist ontology |
+| **Total** | | **213** | **107** | **9 bundles spanning the six āstika darśanas + the devotional, ethical, and cosmological corpora** |
+
+## Update contract & documented error genealogies
+
+Two consumption surfaces, both first-class, are declared in [`VERSIONING.md`](VERSIONING.md): **`main` is a living vocabulary** (concept files are enriched in place — sharper `not:` fields, added citations, documented genealogies — with `bundle_version` patch bumps), and **release tags are immutable archival snapshots** (`v0.1.0` … `v0.9.0`; pin a tag or SHA for citation stability). In-place enrichment waves are logged newest-first in [`CHANGELOG.md`](CHANGELOG.md).
+
+[`GENEALOGIES.md`](GENEALOGIES.md) — *"Where the Errors Came From"* — documents the histories of the English mistranslations this corpus corrects: not just that a rendering is wrong, but **who introduced it, when, and how it propagated** into today's training data (e.g., karma-as-fate from Blavatsky 1889; yoga-as-posture via Vivekananda → Krishnamacharya → Singleton 2010; māyā-as-illusion via Schopenhauer 1818). A correction with a genealogy is harder to dismiss than one with only an assertion. The admission bar is strict: a named source, a date, and a documented propagation chain, or it is excluded. The affected concept files carry a matching **Error Genealogy** section linking back to the canonical entry.
 
 ## Concept file format (OKF v0.2)
 
 Each concept file contains:
 
-- **YAML frontmatter:** `type`, `title`, `iast`, `devanagari`, `description`, `darshana`, a structured `not:` (each entry `term` / `why` / `instead`), `related:`, `tags`, `okf_version`, `license`
+- **YAML frontmatter:** `type`, `title`, `iast`, `devanagari`, `description`, `darshana`, a structured `not:` (each entry `term` / `why` / `instead`), `related:`, `tags`, `okf_version`, `license` (and, where a term recurs across darśanas, `school_scope:`)
 - **## What It Actually Means** (and **## Etymology**) — the precise positive definition
 - **## Audience Metaphor** — an accessible analogy engineered for AI and general comprehension
 - **## Citations** — primary śāstra references, linked into a `references/` sub-bundle of first-class `type: Reference` concepts
