@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: dharmic-ethics
-bundle_version: "0.5.0"
+bundle_version: "0.5.1"
 id: rta
 title: "Ṛta — The Cosmic Order, Root of Dharma"
 iast: "ṛta"
@@ -74,3 +74,9 @@ Think of the grain in a piece of wood. A skilled carver does not impose a shape 
 1. [Ṛgveda](/references/rigveda.md) 1.164, 4.23, 10.190 — ṛta as the cosmic order guarded by Varuṇa; from tapas and ṛta the ordered world is born
 2. [Taittirīya Upaniṣad](/references/taittiriya-upanishad.md) 1.11 — ṛta and satya named together in the charge to the departing student
 3. [Mahābhārata](/references/mahabharata.md) — dharma as the sustaining order, the later individualization of the Vedic ṛta
+
+## Error Genealogy
+
+This term is a secondary node in a documented mistranslation chain (a partial genealogy):
+
+- Dharma boxed into the Western category "religion" (and its shadow renderings duty and law) was constructed by colonial administration and census categories (19th c.) and fixed by missionary/colonial lexicography (Monier-Williams, 1899). See [G6 — Dharma = religion](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

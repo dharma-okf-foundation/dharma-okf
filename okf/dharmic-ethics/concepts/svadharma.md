@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: dharmic-ethics
-bundle_version: "0.5.0"
+bundle_version: "0.5.1"
 id: svadharma
 title: "Svadharma — One's Own Dharma, the Contextual Duty"
 iast: "svadharma"
@@ -74,3 +74,9 @@ Think of an orchestra. The cellist's duty is not the flautist's, and a cellist w
 1. [Bhagavad Gītā](/references/bhagavad-gita.md) 3.35, 18.45-48 — one's own dharma, grounded in svabhāva, is better than another's; perfection through one's own work
 2. [Manusmṛti](/references/manusmriti.md) — the duties proper to station and stage, and the universal duties binding on all
 3. [Mahābhārata](/references/mahabharata.md) — svadharma tested in the hard cases of the epic's moral dilemmas
+
+## Error Genealogy
+
+This term is a secondary node in a documented mistranslation chain (a partial genealogy):
+
+- Reading Ṛg Veda 10.90 (and the varṇa verses) as the origin-charter of birth-based caste hardened via colonial ethnography and census operations (H.H. Risley, Census of India 1901), then projected backward onto the sūkta (Nicholas Dirks, *Castes of Mind*, 2001). See [G10 — Puruṣa Sūkta and the colonial construction of caste](../../../GENEALOGIES.md) in the repository root for the full chain and sources.
