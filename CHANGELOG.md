@@ -9,11 +9,8 @@ In-place change waves on `main`, newest first, per the contract in [VERSIONING.m
 - **Added this CHANGELOG.md.**
 - No concept files were modified in this wave.
 
-## Planned — The Genealogy Update, Phase 2 (retrofit wave, after the v0.9 concept-lock)
+## 2026-07 — The Genealogy Update, Phase 2 (retrofit wave)
 
-- The files in GENEALOGIES.md's reverse index receive genealogy summaries and links in their `not:` fields.
-- Every touched bundle gets a `bundle_version` patch bump (e.g., dharma-foundation 0.1.1 → 0.1.2) and an entry here.
+The reverse-index files in [GENEALOGIES.md](GENEALOGIES.md) received an **Error Genealogy** section (a documented summary — named source, date, propagation chain — plus a link to the canonical genealogy), back-porting v0.8 shakta-darshana's genealogy-native standard to the older bundles. 18 files across 5 bundles.
 
-## Prior history (pre-contract)
-
-Bundle releases v0.1.0 through v0.8.0 (2026-06-18 to 2026-07-02) and the adoption layer (INTEGRATION.md, demos; 2026-06-26) predate this changelog; their history lives in the release notes and git log.
+- **dharma-foundation (v0.1):** chakra (G1, G2), karma (G4), samsara (G4, partial), yoga (G5), dharma (G6), moksha (G7), maya (G8). This bundle predates the per-file `bund
