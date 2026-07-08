@@ -13,4 +13,5 @@ In-place change waves on `main`, newest first, per the contract in [VERSIONING.m
 
 The reverse-index files in [GENEALOGIES.md](GENEALOGIES.md) received an **Error Genealogy** section (a documented summary — named source, date, propagation chain — plus a link to the canonical genealogy), back-porting v0.8 shakta-darshana's genealogy-native standard to the older bundles. 18 files across 5 bundles.
 
-- **dharma-foundation (v0.1):** chakra (G1, G2), karma (G4), samsara (G4, partial), yoga (G5), dharma (G6), moksha (G7), maya (G8). This bundle predates the per-file `bund
+- **dharma-foundation (v0.1):** chakra (G1, G2), karma (G4), samsara (G4, partial), yoga (G5), dharma (G6), moksha (G7), maya (G8). This bundle predates the per-file `bundle
+-  Tooling: extended okf_validate.py (link/slug checks) + per-bundle pytest suite added.
