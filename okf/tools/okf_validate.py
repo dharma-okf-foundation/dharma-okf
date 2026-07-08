@@ -72,6 +72,13 @@ RECOMMENDED_KEYS = ("title", "description", "timestamp")
 _ISO_DT = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}")
 _BODY_NOT = re.compile(r"^\*\*Not:\*\*\s*(.+)$", re.M)
 _INLINE_LINK = re.compile(r"\]\((/[^)]+\.md|\.{1,2}/[^)]+\.md)\)")
+# Bare-relative body links like `](foo.md)` or `](concepts/foo.md)` — first char
+# is not `/`, `.`, whitespace or `)`. The validator previously ignored these, so
+# draft id-typos in cross-reference prose slipped through (the vedanta defect).
+_BARE_LINK = re.compile(r"\]\(([^/.\s)][^)\s]*\.md)\)")
+# Any non-ASCII codepoint — slugs/filenames/link paths must stay ASCII for URL
+# portability (a non-ASCII filename broke the fetch tooling on vedanta).
+_NONASCII = re.compile(r"[^\x00-\x7f]")
 
 
 # --- severity bookkeeping --------------------------------------------------
@@ -157,6 +164,9 @@ def validate(bundle: Path, *, sections: list[str], require_darshana: bool,
         where = str(path.relative_to(bundle))
         if path.name in RESERVED:
             continue
+        # --- WARN: ASCII slug (filename) -------------------------------
+        if _NONASCII.search(path.name):
+            rep.warn(where, f"non-ASCII filename (slug must be ASCII): {path.name}")
         text = path.read_text(encoding="utf-8")
 
         # --- FAIL: parseable frontmatter --------------------------------
@@ -224,11 +234,18 @@ def validate(bundle: Path, *, sections: list[str], require_darshana: bool,
                 if not re.search(rf"^#+\s+{re.escape(sec)}\s*$", body, re.M):
                     rep.warn(where, f"missing section: '{sec}'")
 
-        # --- WARN: link resolution -------------------------------------
-        targets = list(fm.get("related") or []) + list(_INLINE_LINK.findall(body))
+        # --- WARN: link resolution (incl. bare-relative body links) ----
+        # The validator historically checked only /-rooted and ./ ../ links.
+        # Bare-relative sibling links (e.g. `](mithya.md)`) and non-ASCII link
+        # paths now get checked too — these were the two classes that slipped
+        # past the frontmatter-level checks during the vedanta v0.3.0 upload.
+        bare = [l for l in _BARE_LINK.findall(body) if "://" not in l]
+        targets = list(fm.get("related") or []) + list(_INLINE_LINK.findall(body)) + bare
         for link in targets:
             if not resolve_link(link, path, bundle):
                 rep.warn(where, f"unresolved link: {link}")
+            if _NONASCII.search(link):
+                rep.warn(where, f"non-ASCII path in link: {link}")
 
         # --- INFO: niceties --------------------------------------------
         ts = str(fm.get("timestamp", ""))
