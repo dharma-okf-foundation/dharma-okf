@@ -43,6 +43,7 @@ A `not:` list in a file is a "do not enter" sign on an unlocked door. The model 
 | `okf/cosmology-creation/` | v0.7.1 | 26 | 12 | Vedic & Purāṇic vocabulary of time, cosmos, and manifestation |
 | `okf/shakta-darshana/` | v0.8.0 | 26 | 12 | Śākta-Tāntric metaphysics of Śakti, Devī, and consciousness-power |
 | `okf/nyaya-vaisheshika/` | v0.9.0 | 27 | 10 | The science of inference and debate — Nyāya apparatus + Vaiśeṣika realist ontology |
+| `okf/mimamsa-dharma/` | v0.10.0 | 25 | 7 | Mimamsa is one of the world's earliest systematic theories of language-as-action and self-validating knowledge |
 | **Total** | | **213** | **107** | **9 bundles spanning the six āstika darśanas + the devotional, ethical, and cosmological corpora** |
 
 ## Update contract & documented error genealogies
