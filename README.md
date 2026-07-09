@@ -2,7 +2,7 @@
 
 A structured, machine-readable knowledge base of Sanskrit concepts that resist accurate translation into English, built for AI agents, educators, researchers, and technologists working with dharmic knowledge systems.
 
-**10 bundles · 238 concept files · 114 primary-source references — every file on canonical OKF v0.2, validated 0-fail.**
+**11 bundles · 264 concept files · 122 primary-source references — every file on canonical OKF v0.2, validated 0-fail.**
 
 ## What Is OKF?
 
@@ -44,7 +44,8 @@ A `not:` list in a file is a "do not enter" sign on an unlocked door. The model 
 | `okf/shakta-darshana/` | v0.8.0 | 26 | 12 | Śākta-Tāntric metaphysics of Śakti, Devī, and consciousness-power |
 | `okf/nyaya-vaisheshika/` | v0.9.0 | 27 | 10 | The science of inference and debate — Nyāya apparatus + Vaiśeṣika realist ontology |
 | `okf/mimamsa-dharma/` | v0.10.0 | 25 | 7 | Mimamsa is one of the world's earliest systematic theories of language-as-action and self-validating knowledge |
-| **Total** | | **238** | **114** | **10 bundles spanning the six āstika darśanas + the devotional, ethical, and cosmological corpora** |
+| `okf/ayurveda-consciousness/` | v0.11.0 | 26 | 8 | school_scope: ayurveda on prakriti, guna, rasa |
+| **Total** | | **264** | **122** | **11 bundles spanning the six āstika darśanas + the devotional, ethical, and cosmological corpora** |
 
 ## Update contract & documented error genealogies
 
