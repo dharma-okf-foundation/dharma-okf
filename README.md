@@ -2,7 +2,7 @@
 
 A structured, machine-readable knowledge base of Sanskrit concepts that resist accurate translation into English, built for AI agents, educators, researchers, and technologists working with dharmic knowledge systems.
 
-**9 bundles · 213 concept files · 107 primary-source references — every file on canonical OKF v0.2, validated 0-fail.**
+**10 bundles · 238 concept files · 114 primary-source references — every file on canonical OKF v0.2, validated 0-fail.**
 
 ## What Is OKF?
 
