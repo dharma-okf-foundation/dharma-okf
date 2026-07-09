@@ -41,48 +41,48 @@ This is the first bundle in the corpus whose primary sources are samhitās (medi
 ## Tier 1 -- The Constitution Engine (CRITICAL AI risk)
 | Concept | One-line |
 |---|---|
-| [doṣa](concepts/dosha.md) | functional bio-regulatory principle, not a humor or a body type |
-| [vāta](concepts/vata.md) | the kinetic principle, not wind |
-| [pitta](concepts/pitta.md) | the transformative principle, not bile |
-| [kapha](concepts/kapha.md) | the cohesive-structural principle, not phlegm |
-| [prakṛti](concepts/prakriti.md) | constitution fixed at conception, not the Sāṃkhya prakṛti and not a quiz result |
+| [doṣa](concepts/dosha.md) | functional **bio-regulatory** principle, not a humor or a body type |
+| [vāta](concepts/vata.md) | the **kinetic** principle, **not wind** |
+| [pitta](concepts/pitta.md) | the **transformative** principle, **not bile** |
+| [kapha](concepts/kapha.md) | the **cohesive-structural** principle, **not phlegm** |
+| [prakṛti](concepts/prakriti.md) | constitution fixed at conception, not the Sāṃkhya prakṛti and **not a quiz result** |
 
 ## Tier 2 -- Transformation and Vitality (CRITICAL / HIGH)
 | Concept | One-line |
 |---|---|
-| [agni](concepts/agni.md) | the thirteen-fold transformative fire, not merely digestion |
-| [āma](concepts/ama.md) | half-transformed residue of weak fire, not toxins |
-| [dhātu](concepts/dhatu.md) | the seven-station tissue chain, not generic tissue |
-| [ojas](concepts/ojas.md) | the culminating vital essence, not immunity |
-| [prāṇa-tejas-ojas](concepts/prana-tejas-ojas.md) | the vitality triad with an honest textual-basis note, not subtle-energy talk |
-| [srotas](concepts/srotas.md) | the channel system defined by cargo, not meridians |
+| [agni](concepts/agni.md) | the thirteen-fold transformative fire, **not merely digestion** |
+| [āma](concepts/ama.md) | half-transformed residue of weak fire, **not toxins** |
+| [dhātu](concepts/dhatu.md) | the seven-station tissue chain, **not generic tissue** |
+| [ojas](concepts/ojas.md) | the culminating vital essence, **not immunity** |
+| [prāṇa-tejas-ojas](concepts/prana-tejas-ojas.md) | the vitality triad with an honest textual-basis note, **not subtle-energy talk** |
+| [srotas](concepts/srotas.md) | the channel system defined by cargo, **not meridians** |
 
 ## Tier 3 -- Mind and Consciousness (HIGH, the payload)
 | Concept | One-line |
 |---|---|
-| [āyus](concepts/ayus.md) | life as the four-fold conjunction including mind and self, not a number of years |
-| [manas](concepts/manas.md) | the atomic, single mind-instrument, not the brain |
+| [āyus](concepts/ayus.md) | life as the four-fold conjunction including mind and self, **not a number of years** |
+| [manas](concepts/manas.md) | the atomic, single mind-instrument, **not the brain** |
 | [mānasa-doṣa](concepts/manasa-dosha.md) | rajas and tamas as the doṣas of mind, not the cosmological guṇas |
-| [prajñāparādha](concepts/prajnaparadha.md) | cognition failure as formal disease cause, not sin |
-| [sattvāvajaya](concepts/sattvavajaya.md) | mind-mastery therapeutics, not positive thinking |
+| [prajñāparādha](concepts/prajnaparadha.md) | cognition failure as formal disease cause, **not sin** |
+| [sattvāvajaya](concepts/sattvavajaya.md) | mind-mastery therapeutics, **not positive thinking** |
 
 ## Tier 4 -- Health and Disease Framework (MEDIUM-HIGH)
 | Concept | One-line |
 |---|---|
-| [svastha](concepts/svastha.md) | health as established-in-self, not absence of disease |
-| [vikṛti](concepts/vikriti.md) | current deviation from constitution, not a second body type |
+| [svastha](concepts/svastha.md) | health as established-in-self, **not absence of disease** |
+| [vikṛti](concepts/vikriti.md) | current deviation from constitution, **not a second body type** |
 | [guṇa](concepts/guna.md) | the twenty gurvādi properties, not the Vaiśeṣika category and not the cosmic strands |
-| [rasa](concepts/rasa.md) | six tastes as therapeutic categories and the first dhātu, not aesthetic rasa |
-| [vegadhāraṇa](concepts/vega-dharana.md) | suppression of the thirteen natural urges as disease cause, not bathroom trivia |
+| [rasa](concepts/rasa.md) | six tastes as therapeutic categories and the first dhātu, **not aesthetic rasa** |
+| [vegadhāraṇa](concepts/vega-dharana.md) | suppression of the thirteen natural urges as disease cause, **not bathroom trivia** |
 
 ## Tier 5 -- Regimen and Rejuvenation (MEDIUM)
 | Concept | One-line |
 |---|---|
-| [dinacaryā](concepts/dinacharya.md) | the daily regimen on the doṣa clock, not a morning-routine listicle |
-| [ṛtucaryā](concepts/ritucharya.md) | the seasonal regimen on the accumulation-aggravation cycle, not seasonal content |
-| [rasāyana](concepts/rasayana.md) | rejuvenative discipline including conduct itself, not anti-aging supplements |
-| [pañcakarma](concepts/panchakarma.md) | five physician-governed purification procedures, not a detox spa |
-| [sadvṛtta](concepts/sadvritta.md) | conduct prescribed as preventive medicine, not etiquette |
+| [dinacaryā](concepts/dinacharya.md) | the daily regimen on the doṣa clock, **not a morning-routine listicle** |
+| [ṛtucaryā](concepts/ritucharya.md) | the seasonal regimen on the accumulation-aggravation cycle, **not seasonal content** |
+| [rasāyana](concepts/rasayana.md) | rejuvenative discipline including conduct itself, **not anti-aging supplements** |
+| [pañcakarma](concepts/panchakarma.md) | five **physician-governed purification** procedures, **not a detox spa** |
+| [sadvṛtta](concepts/sadvritta.md) | conduct prescribed as preventive medicine, **not etiquette** |
 
 ## References
 
