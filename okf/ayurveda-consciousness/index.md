@@ -21,7 +21,7 @@ This bundle is **descriptive** vocabulary, **not medical advice**. It documents 
 
 ## A Structural Note (first samhitā bundle)
 
-This is the first bundle in the corpus whose primary sources are samhitās (medical compendia), not darśana root-texts. Āyurveda borrows its metaphysical scaffolding from Sāṃkhya and Vaiśeṣika (Charaka Śārīrasthāna runs on Sāṃkhya categories); this bundle does **not** re-import that metaphysics. Cosmological prakṛti and the three guṇas live in **cosmology-creation (v0.7)**; Vaiśeṣika ontology lives in **nyaya-vaisheshika (v0.9)**. Here every term is taken in its medical role.
+This is the first bundle in the corpus whose primary sources are samhitās (medical compendia), not darśana root-texts. **Āyurveda borrows its metaphysical scaffolding from Sāṃkhya and Vaiśeṣika** (Charaka Śārīrasthāna runs on Sāṃkhya categories); this bundle does **not** re-import that metaphysics. Cosmological prakṛti and the three guṇas live in **cosmology-creation (v0.7)**; Vaiśeṣika ontology lives in **nyaya-vaisheshika (v0.9)**. Here every term is taken in its medical role.
 
 ## Cross-Bundle Warnings
 
