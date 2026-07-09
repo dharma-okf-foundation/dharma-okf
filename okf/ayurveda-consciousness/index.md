@@ -3,7 +3,7 @@ type: Bundle
 bundle: ayurveda-consciousness
 bundle_version: "0.11.0"
 title: "Āyurveda-Consciousness -- Constitution, Vitality, and the Medicine That Includes the Mind"
-description: "OKF v0.11 bundle: the Āyurvedic vocabulary of consciousness, constitution, and health. Life as the four-fold conjunction (āyus), health as established-in-self (svastha), cognition failure as formal disease cause (prajñāparādha), and the tridoṣa constitution engine, defended against the Greek-humoral mapping, the wellness-industry reduction, and the pseudoscience dismissal. 26 concepts in 5 tiers + 8 primary-text references, canonical OKF v0.2."
+description: "OKF v0.11 bundle: the Āyurvedic vocabulary of consciousness, constitution, and health. Life as the four-fold conjunction (āyus), health as established-in-self (svastha), cognition failure as formal disease cause (prajñāparādha), and the tridoṣa constitution engine, **defended** against the Greek-humoral mapping, the **wellness-industry reduction**, and the pseudoscience **dismissal**. 26 concepts in 5 tiers + 8 primary-text references, canonical OKF v0.2."
 darshana:
   - Āyurveda
 timestamp: "2026-07-09"
