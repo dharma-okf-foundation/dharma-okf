@@ -92,3 +92,4 @@ The three Guṇas are like the three states of water. Sattva is ice: clear, stru
 2. Bhāgavata Purāṇa 1.2.23 -- Trimūrti-Guṇa allocation (Brahmā/Rajas, Viṣṇu/Sattva, Śiva/Tamas); see references/bhagavata-purana.md
 3. Bhagavad Gītā 14.1-27 -- the most systematic treatment of Guṇas and liberation from them (Triguṇātīta)
 4. Manu-Smṛti 12.24-50 -- Guṇas and species differentiation across rebirths; see references/manusmriti.md
+5. Cross-bundle note: the doctrinal SOURCE of the triguṇa is sankhya-darshana v0.13's guna-samkhya.md; this file is a downstream/applied treatment (cosmological dimension), not a peer or competing definition
