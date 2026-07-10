@@ -57,3 +57,4 @@ If [Manas](/concepts/manas.md) is the notification system, Buddhi is the decisio
 1. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa
 2. [Kaṭha Upaniṣad](/references/katha-upanishad.md) 1.3.3 (Buddhi as charioteer)
 3. [Bhagavad Gītā](/references/bhagavad-gita.md) 3.42 — "Buddhi is superior to Manas"
+4. Cross-bundle note: the doctrinal source-school treatment of the Antaḥkaraṇa apparatus (Buddhi as Mahat, the first evolute of Prakṛti) is sankhya-darshana v0.13 — this file remains the canonical concept entry; v0.13 adds only school-source framing, no restatement

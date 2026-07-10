@@ -56,3 +56,4 @@ Chitta is your cloud storage — synced across every device (lifetime) you've ev
 1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.2 — *yogash chitta vṛtti nirodhaḥ*
 2. [Sāṃkhya Kārikā](/references/samkhya-karika.md)
 3. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+4. Cross-bundle note: the doctrinal source-school treatment of the Antaḥkaraṇa apparatus is sankhya-darshana v0.13 — this file remains the canonical concept entry; v0.13 adds only school-source framing, no restatement

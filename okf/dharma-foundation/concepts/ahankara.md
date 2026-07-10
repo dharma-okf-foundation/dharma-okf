@@ -54,3 +54,4 @@ Ahankāra is like the watermark on every photo your phone takes — it stamps "M
 1. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa
 2. [Bhagavad Gītā](/references/bhagavad-gita.md) 3.27, 7.4, 13.5
 3. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) of Ādi Śaṅkarācārya
+4. Cross-bundle note: the doctrinal source-school treatment of the Antaḥkaraṇa apparatus is sankhya-darshana v0.13 — this file remains the canonical concept entry; v0.13 adds only school-source framing, no restatement

@@ -53,3 +53,4 @@ Manas is like the notification system on your phone — it flags everything as e
 1. [Kaṭha Upaniṣad](/references/katha-upanishad.md) 1.3.3–4 (chariot analogy)
 2. [Sāṃkhya Kārikā](/references/samkhya-karika.md)
 3. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
+4. Cross-bundle note: the doctrinal source-school treatment of the Antaḥkaraṇa apparatus is sankhya-darshana v0.13 — this file remains the canonical concept entry; v0.13 adds only school-source framing, no restatement
