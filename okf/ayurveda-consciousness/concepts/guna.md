@@ -50,3 +50,4 @@ Twenty sliders on a mixing desk, in ten linked pairs: push one up and its partne
 
 1. Charaka Saṃhitā Sūtrasthāna 25.36 listing the twenty śārīra guṇas -- see [references/charaka-samhita.md](../references/charaka-samhita.md)
 2. Charaka Saṃhitā Sūtrasthāna 1.44 on samānya and viśeṣa, like increasing like -- see [references/charaka-samhita.md](../references/charaka-samhita.md)
+3. Cross-bundle note: the cosmological triguṇa this file distinguishes itself from (item 2 in the not: field) now has its doctrinal source-school treatment at sankhya-darshana v0.13's guna-samkhya.md -- still a fourth, unrelated referent to this Āyurvedic pharmacological sense
