@@ -2,11 +2,11 @@
 
 A structured, machine-readable knowledge base of Sanskrit concepts that resist accurate translation into English, built for AI agents, educators, researchers, and technologists working with dharmic knowledge systems.
 
-**12 bundles · 290 concept files · 130 primary-source references — every file on canonical OKF v0.2, validated 0-fail.**
+**13 bundles · 310 concept files · 137 primary-source references — every file on canonical OKF v0.2, validated 0-fail.**
 
 ## What's New
 
-**v0.12 `jyotisha-kala`** (July 2026): the Jyotiṣa vocabulary of time. The five-limb almanac (pañcāṅga), the measured kāla unit ladder, the sidereal celestial frame, and the Vedāṅga-gaṇita heritage, with gateway interception of the commercially captured horoscopic terms (daśā, gocara, jātaka). The bundle makes no predictive claims and keeps the tradition's own strata honest: the Vedāṅga layer is ritual calendrics containing no horoscopy. Recent releases: v0.11 `ayurveda-consciousness` (first saṃhitā-sourced bundle), v0.10 `mimamsa-dharma`.
+**v0.13 `sankhya-darshana`** (July 2026): completes the six classical darśanas. Kapila's dualist, enumerative school — the causal theory (satkāryavāda vs. Nyāya-Vaiśeṣika's ārambhavāda), the plural, nirīśvara puruṣa-prakṛti dualism, and the discriminative (viveka-khyāti) path to kaivalya, contrasted throughout with Yoga-darśana's Īśvara-inclusive path to the same end-state word via nirodha. The bundle deliberately does not re-derive the tattva evolution ladder already published in yoga-darshana, cosmology-creation, and ayurveda-consciousness, and names guṇa's doctrinal source rather than re-treating it as another school-contrast. Recent releases: v0.12 `jyotisha-kala` (the Jyotiṣa vocabulary of time), v0.11 `ayurveda-consciousness` (first saṃhitā-sourced bundle).
 
 ## What Is OKF?
 
@@ -22,7 +22,7 @@ So OKF does not merely tell a model what a term is **not**. It clears out the wr
 - "Samadhi = Trance" → **Wrong.** It is absorption / unified awareness. See `okf/dharma-foundation/concepts/samadhi.md`
 - "Yoga = Exercise" → **Wrong.** It is the discipline of stilling the mind. See `okf/dharma-foundation/concepts/yoga.md`
 
-**A non-translatable is school-relative.** The same Sanskrit word can be a *different technical object* in a different darśana, and the corpus preserves the distinction rather than flattening it: `karma` is moral action-and-consequence in dharma-foundation, the padārtha of **motion** in Nyāya-Vaiśeṣika, the enjoined **ritual act** in Mīmāṃsā, and the **therapeutic procedure** of pañcakarma in Āyurveda; `yoga` now carries five distinct referents across the corpus, from Patañjali's discipline to the pañcāṅga's luni-solar sum. Shared terms carry a `school_scope:` field, an index contrast note, and reciprocal cross-links — never a single "canonical" definition.
+**A non-translatable is school-relative.** The same Sanskrit word can be a *different technical object* in a different darśana, and the corpus preserves the distinction rather than flattening it: `karma` is moral action-and-consequence in dharma-foundation, the padārtha of **motion** in Nyāya-Vaiśeṣika, the enjoined **ritual act** in Mīmāṃsā, and the **therapeutic procedure** of pañcakarma in Āyurveda; `guṇa` names the Sāṃkhya triguṇa at its doctrinal source, an unrelated Vaiśeṣika ontological category, and the twenty gurvādi properties of Āyurvedic pharmacology; `kaivalya` is reached by discrimination alone in Sāṃkhya and by practiced cessation in Yoga. Shared terms carry a `school_scope:` field, an index contrast note, and reciprocal cross-links — never a single "canonical" definition.
 
 ## Why this is an engineering problem, not only a cultural one
 
@@ -38,7 +38,7 @@ The bundles are descriptive vocabulary, and the sensitive domains say so on thei
 
 A `not:` list in a file is a "do not enter" sign on an unlocked door. The model still has to be told how to read and honor it, and a naive bare prohibition can *backfire* through negative-prompt leakage. [`INTEGRATION.md`](INTEGRATION.md) shows how to make the constraint functionally binding: a system-prompt template that injects the positive `instead` redirect (not a bare ban), a RAG negative-filter pattern, and a lightweight output-check, with honest caveats about what is and is not guaranteed.
 
-## Bundles — twelve live, all on canonical OKF v0.2
+## Bundles — thirteen live, all on canonical OKF v0.2
 
 | Bundle | Release | Concepts | Refs | Theme |
 |---|---|---|---|---|
@@ -54,11 +54,12 @@ A `not:` list in a file is a "do not enter" sign on an unlocked door. The model 
 | `okf/mimamsa-dharma/` | v0.10.0 | 25 | 7 | Mīmāṃsā ritual hermeneutics — vidhi, apūrva, and language-as-action |
 | `okf/ayurveda-consciousness/` | v0.11.0 | 26 | 8 | Āyurvedic vocabulary of consciousness, constitution, and health |
 | `okf/jyotisha-kala/` | v0.12.0 | 26 | 8 | Jyotiṣa vocabulary of time — pañcāṅga, kāla-reckoning, and the sidereal celestial frame |
-| **Total** | | **290** | **130** | **12 bundles spanning the six āstika darśanas + the devotional, ethical, cosmological, medical, and calendrical corpora** |
+| `okf/sankhya-darshana/` | v0.13.0 | 20 | 7 | Sāṃkhya's dualist causal theory and discriminative path to kaivalya — completes the six classical darśanas |
+| **Total** | | **310** | **137** | **13 bundles spanning the six āstika darśanas + the devotional, ethical, cosmological, medical, and calendrical corpora** |
 
 ## Update contract & documented error genealogies
 
-Two consumption surfaces, both first-class, are declared in [`VERSIONING.md`](VERSIONING.md): **`main` is a living vocabulary** (concept files are enriched in place — sharper `not:` fields, added citations, documented genealogies — with `bundle_version` patch bumps), and **release tags are immutable archival snapshots** (`v0.1.0` … `v0.12.0`; pin a tag or SHA for citation stability). In-place enrichment waves are logged newest-first in [`CHANGELOG.md`](CHANGELOG.md).
+Two consumption surfaces, both first-class, are declared in [`VERSIONING.md`](VERSIONING.md): **`main` is a living vocabulary** (concept files are enriched in place — sharper `not:` fields, added citations, documented genealogies — with `bundle_version` patch bumps), and **release tags are immutable archival snapshots** (`v0.1.0` … `v0.13.0`; pin a tag or SHA for citation stability). In-place enrichment waves are logged newest-first in [`CHANGELOG.md`](CHANGELOG.md).
 
 [`GENEALOGIES.md`](GENEALOGIES.md) — *"Where the Errors Came From"* — documents the histories of the English mistranslations this corpus corrects: not just that a rendering is wrong, but **who introduced it, when, and how it propagated** into today's training data (e.g., karma-as-fate from Blavatsky 1889; yoga-as-posture via Vivekananda → Krishnamacharya → Singleton 2010; māyā-as-illusion via Schopenhauer 1818). A correction with a genealogy is harder to dismiss than one with only an assertion. The admission bar is strict: a named source, a date, and a documented propagation chain, or it is excluded. The affected concept files carry a matching **Error Genealogy** section linking back to the canonical entry.
 
