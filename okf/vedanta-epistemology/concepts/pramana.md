@@ -128,3 +128,4 @@ Like asking whether you learned something from reading (śabda), seeing it yours
 2. [Vedāntaparibhāṣā](/references/vedantaparibhasha.md) Ch.1 §1 — Dharmarāja Adhvarin on the six pramāṇas of Advaita Vedānta
 3. Nyāyadarśana 1.1.3 — Gautama's four-pramāṇa list with commentary
 4. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) 1.1.1 — Śaṅkara on Śruti as the only pramāṇa adequate to Brahman-knowledge
+5. Cross-bundle note: this file's own table already lists the Sāṃkhya-Yoga three-pramāṇa count; sankhya-darshana v0.13's pramana-samkhya.md is now the third school-scoped full treatment (after this Advaita-foregrounded entry and nyaya-vaisheshika v0.9's four-pramāṇa Nyāya treatment)
