@@ -123,3 +123,4 @@ Kaivalya is like the moment when you realize that what you took to be your refle
 2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 4.34
 3. [Tattvavaiśāradī](/references/tattvavaisharadi.md) of Vācaspatimiśra on YS 4.34
 4. Rajiv Malhotra — Being Different (2011), Ch. 3 (differences in liberation concepts)
+5. Cross-bundle warning: sankhya-darshana v0.13's kaivalya-samkhya.md treats the same end-state word reached via viveka-khyāti alone (no nirodha, no eight-limb path, no Īśvara) — school-scoped, not a duplicate of this entry
