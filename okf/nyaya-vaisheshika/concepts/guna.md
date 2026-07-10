@@ -51,3 +51,4 @@ Guṇa, quality, is the second Vaiśeṣika category: a property that inheres in
 1. Vaiśeṣika Sūtra 1.1.6 -- see [references/vaisheshika-sutra.md](../references/vaisheshika-sutra.md)
 2. Praśastapāda, Padārthadharmasaṃgraha (the twenty-four qualities) -- see [references/padarthadharmasamgraha.md](../references/padarthadharmasamgraha.md)
 3. Cross-bundle warning: triguṇa in dharma-foundation v0.1, yoga-darshana v0.2, cosmology-creation v0.7 -- a wholly different scheme; never merge
+4. Cross-bundle note: the triguṇa's doctrinal source-school treatment now has its own dedicated file, sankhya-darshana v0.13's guna-samkhya.md -- still unrelated to this Vaiśeṣika ontological category, shared word only
