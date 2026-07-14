@@ -14,6 +14,7 @@ _TYPE_PALETTE = {
     "BigQuery Dataset": "#8b5cf6",
     "BigQuery Table": "#3b82f6",
     "Reference": "#10b981",
+    "Concept": "#f59e0b",
 }
 _DEFAULT_NODE_COLOR = "#94a3b8"
 
@@ -51,10 +52,15 @@ def _extract_links(body: str, doc_dir: Path, bundle_root: Path) -> list[str]:
     bundle_root_resolved = bundle_root.resolve()
     for m in _LINK_RE.finditer(body):
         target = m.group(1)
-        if "://" in target or target.startswith("/"):
+        if "://" in target:
             continue
         try:
-            resolved = (doc_dir / target).resolve().relative_to(bundle_root_resolved)
+            if target.startswith("/"):
+                resolved = (bundle_root / target.lstrip("/")).resolve().relative_to(
+                    bundle_root_resolved
+                )
+            else:
+                resolved = (doc_dir / target).resolve().relative_to(bundle_root_resolved)
         except ValueError:
             continue
         rel = resolved.as_posix()
@@ -91,6 +97,21 @@ def _walk_concepts(bundle_root: Path) -> list[Concept]:
             body=doc.body or "",
             links_to=_extract_links(doc.body or "", md_path.parent, bundle_root),
         )
+        # dharma-okf extension: also draw edges from `related:` frontmatter.
+        related = fm.get("related") or []
+        if not isinstance(related, list):
+            related = [str(related)]
+        seen = set(concept.links_to)
+        for raw in related:
+            raw = str(raw).strip()
+            if not raw or "://" in raw:
+                continue
+            rel = raw.lstrip("/")
+            if rel.endswith(".md"):
+                rel = rel[:-3]
+            if rel and rel not in seen:
+                seen.add(rel)
+                concept.links_to.append(rel)
         concepts.append(concept)
     return concepts
 
