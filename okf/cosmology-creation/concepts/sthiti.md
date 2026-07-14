@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: sthiti
 title: "Sthiti — स्थिति"
 iast: "Sthiti"
@@ -32,7 +32,7 @@ license: "CC BY-SA 4.0"
 
 # Sthiti — स्थिति
 
-**Not:** stasis, conservation, passive preservation, opposition to dissolution
+**Not:** stasis / the status quo, preservation of the universe against destruction
 
 ## Sthiti as Active Upholding
 

@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: kala
 title: "Kāla — काल"
 iast: "Kāla"
@@ -27,6 +27,8 @@ related:
   - /concepts/kalpa.md
   - /concepts/pralaya.md
   - /concepts/mahayuga.md
+  - /concepts/avatara.md
+  - /concepts/sapta-loka.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -34,7 +36,7 @@ license: "CC BY-SA 4.0"
 
 # Kāla — काल
 
-**Not:** clock-time, linear duration, death-deity, Kali Yuga, goddess Kālī
+**Not:** time (clock / linear), Kāla = death / Yama, Kali (Kali Yuga / goddess Kālī)
 
 ## The Vedic Foundation
 

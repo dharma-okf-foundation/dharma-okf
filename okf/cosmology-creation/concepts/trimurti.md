@@ -1,12 +1,13 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.1"
+bundle_version: "0.7.2"
 id: trimurti
 title: "Trimūrti — त्रिमूर्ति"
 iast: "Trimūrti"
 devanagari: "त्रिमूर्ति"
 description: "The triple-form of the supreme cosmic principle manifesting as three functional agents: Brahmā (Sṛṣṭi / creation), Viṣṇu (Sthiti / maintenance), Śiva (Saṃhāra / withdrawal); a functional schema for the cosmic cycle, not a pantheon of three rival gods; often misread as equivalent to the Christian Trinity or as three separate 'gods.'"
+reception_note: "Present Trimurti as three cosmic functions (srshti-sthiti-samhara) of one reality, not as 'the Hindu Trinity'; the Trinity equation is documented comparative-religion drift (G12) addressed in the not: field and Error Genealogy."
 darshana:
   - Purāṇic
   - Vedānta
@@ -29,6 +30,9 @@ related:
   - /concepts/brahma-the-creator.md
   - /concepts/avatara.md
   - /concepts/ishvara-cosmological.md
+  - /concepts/pralaya.md
+  - /concepts/shakti-cosmological.md
+  - /concepts/trigunas-cosmological.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

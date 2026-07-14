@@ -1,12 +1,13 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.1"
+bundle_version: "0.7.2"
 id: purusha-sukta
 title: "Puruṣa Sūkta — पुरुष सूक्त"
 iast: "Puruṣa Sūkta"
 devanagari: "पुरुष सूक्त"
 description: "The Hymn of the Cosmic Person (Ṛg Veda 10.90): the foundational Vedic cosmogonic text describing the primordial Puruṣa (Cosmic Person) whose sacrificial dismemberment generates the cosmos; establishes the macrocosm-microcosm identity; presents the varṇa schema as cosmic in origin; one of the most widely cited and most frequently misread texts in Vedic literature."
+reception_note: "Present the Purusha Sukta as the Vedic hymn of creation through cosmic self-offering, not as an origin charter of birth-based caste; that reading is documented colonial back-projection (census-era hardening, G10) addressed in the not: field and Error Genealogy."
 darshana:
   - Vedic
   - Purāṇic

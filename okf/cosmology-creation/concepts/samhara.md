@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: samhara
 title: "Saṃhāra / Laya — संहार / लय"
 iast: "Saṃhāra"
@@ -35,7 +35,7 @@ license: "CC BY-SA 4.0"
 
 # Saṃhāra / Laya — संहार / लय
 
-**Not:** destruction, annihilation, evil function, equivalent to Pralaya
+**Not:** destruction / annihilation, Śiva as destroyer / evil deity, Pralaya (the same as Saṃhāra)
 
 ## Two Terms, One Function
 

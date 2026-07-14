@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: yuga
 title: "Yuga — युग"
 iast: "Yuga"
@@ -27,6 +27,8 @@ related:
   - /concepts/kalpa.md
   - /concepts/manvantara.md
   - /concepts/pralaya.md
+  - /concepts/avatara.md
+  - /concepts/trigunas-cosmological.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -34,7 +36,7 @@ license: "CC BY-SA 4.0"
 
 # Yuga — युग
 
-**Not:** historical era, archaeological period, equivalent to Kalpa, 2012-era timescales
+**Not:** historical period / archaeological era, 2012 = end of Kali Yuga, Yuga = Kalpa
 
 ## The Four Yugas
 

@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: mahayuga
 title: "Mahāyuga / Caturyuga — महायुग / चतुर्युग"
 iast: "Mahāyuga"
@@ -30,7 +30,7 @@ license: "CC BY-SA 4.0"
 
 # Mahāyuga / Caturyuga — महायुग
 
-**Not:** equivalent to a single Yuga; equivalent to a Kalpa
+**Not:** Yuga (singular), one Kalpa
 
 ## The Mathematical Structure
 

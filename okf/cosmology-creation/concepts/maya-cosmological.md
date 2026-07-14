@@ -1,12 +1,13 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.1"
+bundle_version: "0.7.2"
 id: maya-cosmological
 title: "Māyā (Cosmological) — माया"
 iast: "Māyā"
 devanagari: "माया"
 description: "The cosmic creative power of Brahman by which the unmanifest absolute appears as the differentiated manifest cosmos; Mahāmāyā operating at the level of Brahman's own nature; distinct from Māyā as individual veil (avidyā), which operates at the level of the individual jīva's ignorance; v0.7 treats the cosmological Māyā (Mahāmāyā); upanishadic-core v0.5 treats the individual Māyā/avidyā dimension."
+reception_note: "Present Mahamaya as the generative cosmological power this bundle documents (one of the corpus's four distinct maya-level treatments), not as 'the world is an illusion'; that flattening is the documented Schopenhauer chain (G8) addressed in the not: field and Error Genealogy."
 darshana:
   - Advaita Vedānta
   - Śākta
@@ -28,6 +29,8 @@ related:
   - /concepts/shakti-cosmological.md
   - /concepts/ishvara-cosmological.md
   - /concepts/trigunas-cosmological.md
+  - /concepts/iccha-jnana-kriya-shakti.md
+  - /concepts/lila-cosmological.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

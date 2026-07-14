@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: brahma-the-creator
 title: "Brahmā (The Creator) — ब्रह्मा"
 iast: "Brahmā"
@@ -26,7 +26,10 @@ related:
   - /concepts/srishti.md
   - /concepts/hiranyagarbha.md
   - /concepts/kalpa.md
-  - /concepts/brahma-sutras.md
+  - /references/brahmasutras.md
+  - /concepts/ishvara-cosmological.md
+  - /concepts/lila-cosmological.md
+  - /concepts/manvantara.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
