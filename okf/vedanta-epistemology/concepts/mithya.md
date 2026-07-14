@@ -1,12 +1,13 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.1"
+bundle_version: "0.3.2"
 id: mithya
 title: "Mithyā — Dependent Existence (Neither Real Nor Non-Existent)"
 iast: "mithyā"
 devanagari: "मिथ्या"
 description: "Dependent Existence (Neither Real Nor Non-Existent). Not false, not illusory."
+reception_note: "Present mithya as ontological dependency (neither absolutely real nor unreal), not as 'false' or 'illusion'; the illusion gloss is a secondary node of the Schopenhauer maya chain documented in the Error Genealogy."
 darshana:
   - Advaita Vedānta
 school_scope: "Advaita Vedānta (the ontological category is Advaita-specific; the three-valued ontology — sat/mithyā/asat — is Śaṅkara's framework; Viśiṣṭādvaita and Dvaita reject mithyātva of the world entirely)"
@@ -44,6 +45,12 @@ related:
   - /concepts/vivartavada.md
   - /concepts/badha-badhita.md
   - /concepts/pramana.md
+  - /concepts/aparoksha-anubhuti.md
+  - /concepts/avidya.md
+  - /concepts/jnana.md
+  - /concepts/parinamavada.md
+  - /concepts/prameya.md
+  - /concepts/pratyaksha.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
