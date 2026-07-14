@@ -1,7 +1,7 @@
 ---
 type: BundleIndex
 bundle: upanishadic-core
-bundle_version: "0.6.0"
+bundle_version: "0.6.1"
 release_tag: "v0.6.0"
 release_date: "2026-07-01"
 concept_count: 26
@@ -22,6 +22,15 @@ github: "https://github.com/dharma-okf-foundation/dharma-okf"
 The upanishadic-core bundle covers the foundational non-translatable terms of Advaita Vedānta as derived from the principal Upaniṣads and classical commentarial tradition. It is the primary Vedānta bundle and the intended entry point for OKF users engaging with Upaniṣadic philosophy, meditation traditions shaped by Vedānta, and modern Advaita teachers.
 
 ---
+
+## What This Bundle Does Not Claim
+
+Read this before consuming any concept file.
+
+1. **Not a meditation manual.** Śravaṇa, manana, and nididhyāsana are documented as the tradition's method; there is no technique instruction and no guidance for inducing turīya, samādhi, or any state.
+2. **Not an experience marketplace.** Turīya and sat-chit-ānanda name the nature of the Self as analyzed in the texts, not attainable "states of consciousness" to be packaged or sold; presenting them as products is the distortion, not the teaching.
+3. **Not psychological affirmation material.** The mahāvākyas are Śabda-pramāṇa, knowledge-sentences that work through understood meaning; they are not self-talk, and the `not:` fields ban that reading explicitly.
+4. **Not an adjudication between Vedāntas.** The bundle documents the Advaita reading as its stated lens; where Viśiṣṭādvaita and Dvaita read the same sentences differently, that fact is noted, not resolved.
 
 ## Cross-Bundle Warnings
 
