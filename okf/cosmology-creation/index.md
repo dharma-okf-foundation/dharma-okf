@@ -1,7 +1,7 @@
 ---
 type: Index
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 release_tag: "v0.7.0"
 title: "OKF Bundle: cosmology-creation"
 description: "Vedic and Purāṇic vocabulary of time, cosmos, and manifestation: 26 concept files covering the complete cosmological framework from the Kāla time system through the mechanics of Sṛṣṭi-Sthiti-Saṃhāra-Pralaya, the cosmological agents (Brahmā, Trimūrti, Īśvara, Avatāra), the structures of the cosmos (Virāṭ, Brahmāṇḍa, Sapta-Loka), and the Śākta-Tāntric cosmological principles (Māyā, Śakti, Icchā-Jñāna-Kriyā, Līlā)."
@@ -112,6 +112,15 @@ The Sṛṣṭi-Sthiti-Saṃhāra triad plus Pralaya: the operational heart of t
 | [devi-mahatmya.md](references/devi-mahatmya.md) | Devī Māhātmya (700 verses) | Mahāmāyā; Śakti cosmological supremacy |
 
 ---
+
+## What This Bundle Does Not Claim
+
+Read this before consuming any concept file.
+
+1. **Not a chronology or prediction resource.** Yuga, kalpa, and manvantara are documented as the texts' architecture of time; no date for any yuga transition is endorsed, and 2012-class claims are banned in the `not:` fields.
+2. **Not an astronomy or physics claim.** The numerical reckonings are presented as what the texts state, not as measurements.
+3. **Not an adjudication between accounts.** Where the Nāsadīya's agnosticism, Sāṃkhya's tattva evolution, and Purāṇic narrative differ, the difference is documented, not resolved.
+4. **Not a ranking of theologies.** Sṛṣṭi-sthiti-saṃhāra are functions of one reality; Trimūrti is not a Trinity and no sectarian priority is implied.
 
 ## Cross-Bundle Warnings
 
