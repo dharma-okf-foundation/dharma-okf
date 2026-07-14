@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: upanishadic-core
-bundle_version: "0.6.0"
+bundle_version: "0.6.1"
 id: mahavakya
 title: "Mahāvākya"
 iast: "Mahāvākya"
@@ -28,6 +28,10 @@ related:
   - /concepts/prajnanam-brahma.md
   - /concepts/ayam-atma-brahma.md
   - /concepts/shravana.md
+  - /concepts/laksana-brahman.md
+  - /concepts/manana.md
+  - /concepts/nididhyasana.md
+  - /concepts/nirguna-brahman.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -35,7 +39,7 @@ license: "CC BY-SA 4.0"
 
 # Mahāvākya — महावाक्य
 
-**Not:** axiom, proposition, mantra, sacred formula, interchangeable statements
+**Not:** axiom or theological proposition, sacred mantra or chant, four equivalent or interchangeable statements
 
 ## What It Actually Means
 

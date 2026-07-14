@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: upanishadic-core
-bundle_version: "0.6.0"
+bundle_version: "0.6.1"
 id: aham-brahmasmi
 title: "Ahaṃ Brahmāsmi"
 iast: "Ahaṃ Brahmāsmi"
@@ -23,11 +23,16 @@ not:
     why: "Popular spirituality treats this phrase as a mantra for self-empowerment. The Mahāvākya is Śabda-pramāṇa — valid testimony that delivers direct knowledge when received from a Guru. Repeating it without the preparatory discipline of Śravaṇa-Manana-Nididhyāsana produces verbal rehearsal, not recognition."
   - term: "Brahman as the physical cosmos"
     why: "The Bṛhadāraṇyaka context (1.4.10) is Prajāpati recognizing that all beings are Brahman — not that Brahman is matter. The identity is from the side of consciousness recognizing its own nature, not from the side of the world being declared divine."
+  - term: "mantra or chant to repeat"
+    why: "A mantra works through repetition and sound; a Mahāvākya works through understood meaning. Treating Ahaṃ Brahmāsmi as japa material converts Śabda-pramāṇa (knowledge-bearing testimony) into liturgical recitation and defers the recognition it exists to deliver. The body Not: line has carried this ban since authoring; this entry gives it the machine-readable counterpart."
+    instead: "Present it as a sentence to be understood through Śravaṇa-Manana-Nididhyāsana, not recited"
 related:
   - /concepts/mahavakya.md
   - /concepts/sakshin.md
   - /concepts/nirguna-brahman.md
   - /concepts/shravana.md
+  - /concepts/antaryamin.md
+  - /concepts/tat-tvam-asi.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -35,7 +40,7 @@ license: "CC BY-SA 4.0"
 
 # Ahaṃ Brahmāsmi — अहं ब्रह्मास्मि
 
-**Not:** "I am God," pantheism, cosmic self-identification, affirmation or mantra
+**Not:** I am God (personal theism), pantheism or 'everything is me', affirmation or positive self-talk, Brahman as the physical cosmos, mantra or chant to repeat
 
 ## Etymology and Source
 

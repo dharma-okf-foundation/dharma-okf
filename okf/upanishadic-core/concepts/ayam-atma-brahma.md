@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: upanishadic-core
-bundle_version: "0.6.0"
+bundle_version: "0.6.1"
 id: ayam-atma-brahma
 title: "Ayam Ātmā Brahma"
 iast: "Ayam Ātmā Brahma"
@@ -34,7 +34,7 @@ license: "CC BY-SA 4.0"
 
 # Ayam Ātmā Brahma — अयम् आत्मा ब्रह्म
 
-**Not:** "the self is God," identification of multiple selves, distant Brahman
+**Not:** the self is God (theistic reading), all individual selves are identical to each other, distant or abstract Brahman
 
 ## Source and Context
 

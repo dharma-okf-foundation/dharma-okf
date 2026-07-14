@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: upanishadic-core
-bundle_version: "0.6.0"
+bundle_version: "0.6.1"
 id: neti-neti
 title: "Neti Neti"
 iast: "Neti Neti"
@@ -25,9 +25,10 @@ not:
     why: "Neti Neti does not conclude that Brahman is beyond all knowledge. It concludes that Brahman cannot be known as an object. The distinction is critical: Brahman is known — through the Mahāvākya, through Śravaṇa — but known as the subject, not as an object of experience."
 related:
   - /concepts/nirguna-brahman.md
-  - /concepts/abheda.md
-  - /concepts/atmavichara.md
+  - /concepts/tat-tvam-asi.md
+  - /concepts/manana.md
   - /concepts/sakshin.md
+  - /concepts/pancha-kosha.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

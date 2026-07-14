@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: upanishadic-core
-bundle_version: "0.6.0"
+bundle_version: "0.6.1"
 id: sakshin
 title: "Sākṣin"
 iast: "Sākṣin"
@@ -27,8 +27,16 @@ related:
   - /concepts/turiya.md
   - /concepts/avastha-traya.md
   - /concepts/neti-neti.md
-  - /concepts/atmavichara.md
   - /concepts/upadhi.md
+  - /concepts/aham-brahmasmi.md
+  - /concepts/anandamaya-kosha.md
+  - /concepts/antaryamin.md
+  - /concepts/ayam-atma-brahma.md
+  - /concepts/brahmabhavana.md
+  - /concepts/jagrat.md
+  - /concepts/jivanmukti.md
+  - /concepts/pancha-kosha.md
+  - /concepts/sushupti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

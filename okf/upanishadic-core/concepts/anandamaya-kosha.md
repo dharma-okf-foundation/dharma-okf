@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: upanishadic-core
-bundle_version: "0.6.0"
+bundle_version: "0.6.1"
 id: anandamaya-kosha
 title: "Ānandamaya Kośa"
 iast: "Ānandamaya Kośa"
@@ -34,7 +34,7 @@ license: "CC BY-SA 4.0"
 
 # Ānandamaya Kośa — आनन्दमय कोश
 
-**Not:** the Ātman, Brahman's intrinsic Ānanda, the causal body as higher self
+**Not:** the Ātman or the true self, the same as Brahman's Ānanda (intrinsic bliss), the causal plane or higher causal body in New Age frameworks
 
 ## Etymology
 
