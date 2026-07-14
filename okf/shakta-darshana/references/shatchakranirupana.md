@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.1"
 id: shatchakranirupana
 title: "Ṣaṭcakranirūpaṇa — षट्चक्रनिरूपण"
 iast: "Ṣaṭcakranirūpaṇa"
@@ -36,3 +36,7 @@ license: "CC BY-SA 4.0"
 ## Editions
 
 Sanskrit in the Avalon series (with the 1919 translation as historical artifact); modern scholarly discussions of the text and its translation history are the corrective layer. This bundle's rule: cite the text's content from the Sanskrit tradition's own commentarial line, cite The Serpent Power as reception history.
+
+## Error Genealogy
+
+This reference is the primary source through which a documented mistranslation chain runs: Pūrṇānanda's Ṣaṭcakranirūpaṇa (16th c.) entered English through Arthur Avalon's *The Serpent Power* (1919), whose flawed rendering seeded the modern "kundalini energy" vocabulary (→ Jung 1932 → human-potential movement → New Age). See [G1 — Kuṇḍalinī and the Serpent Power lineage](../../../GENEALOGIES.md) in the repository root for the full chain and sources.
