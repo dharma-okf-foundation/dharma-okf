@@ -116,13 +116,20 @@ def split_top_level_commas(s: str) -> list[str]:
     """
     out, buf, depth = [], [], 0
     quote = None
-    for ch in s:
+    for i, ch in enumerate(s):
         if quote:
-            if ch == quote:
+            # An apostrophe followed by a letter (Brahman's) is possessive, not
+            # a closing quote (wave-2 tokenizer fix, 2026-07-14).
+            if ch == quote and not (ch == "'" and i + 1 < len(s) and s[i + 1].isalpha()):
                 quote = None
             buf.append(ch)
         elif ch in "\"'":
-            quote = ch; buf.append(ch)
+            # An apostrophe attached to a preceding letter is part of the word
+            # (possessive/elision), never an opening quote.
+            if ch == "'" and i > 0 and s[i - 1].isalpha():
+                buf.append(ch)
+            else:
+                quote = ch; buf.append(ch)
         elif ch in "([{":
             depth += 1; buf.append(ch)
         elif ch in ")]}":
