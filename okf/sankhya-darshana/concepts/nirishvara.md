@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: sankhya-darshana
-bundle_version: 0.13.0
+bundle_version: 0.13.2
 id: nirishvara
 title: Nirīśvara
 iast: Nirīśvara
@@ -15,7 +15,7 @@ tags:
 - samkhya
 - ishvara
 not:
-- term: a settled, monolithic position across all of Samkhya's history
+- term: a settled monolithic position across all of Samkhya's history
   why: 'Nirishvara is the position of classical Samkhya (as systematized in the Samkhya-Karika, c. 200 CE) and is textually argued at Samkhya-Pravacana-Sutra 1.92. But the historical picture has layers: most scholars hold Ishvara-adjacent language entered Samkhya-associated thought later, through contact with Yoga, Pasupata, and Bhagavata schools, and a theistic strand (Sesvara Samkhya) resurfaced in what is called ''Later Samkhya'' after the classical school''s decline (roughly post-8th century CE). Presenting nirishvara as an unchallenged, unlayered position across all periods would flatten this history.'
   instead: 'State the primary classical position (nirishvara) clearly, then name the strata briefly: Ishvara language entered later via school contact; a theistic strand (Sesvara Samkhya) resurfaced afterward. See sesvara-samkhya.md for the named-and-deferred pointer.'
 - term: Yoga-darshana's Ishvara-inclusive framing (v0.2)
@@ -24,6 +24,7 @@ related:
 - /concepts/purusha.md
 - /concepts/sesvara-samkhya.md
 - /concepts/samkhya-pravacana-sutra.md
+- /concepts/kaivalya-samkhya.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0
@@ -31,7 +32,7 @@ license: CC BY-SA 4.0
 
 # Nirīśvara -- निरीश्वर
 
-**Not:** a settled, monolithic position across all of Samkhya's history, Yoga-darshana's Ishvara-inclusive framing (v0.2)
+**Not:** a settled monolithic position across all of Samkhya's history, Yoga-darshana's Ishvara-inclusive framing (v0.2)
 
 ## What It Actually Means
 

@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: sankhya-darshana
-bundle_version: 0.13.0
+bundle_version: 0.13.2
 id: prakriti
 title: Prakṛti
 iast: Prakṛti
@@ -21,11 +21,15 @@ not:
   instead: Define prakriti as the unconscious, ever-active material substratum whose disturbed guna-equilibrium is the sole cause of cosmic and psychological manifestation.
 - term: a generic background sense of 'nature' (dharma-foundation v0.1)
   why: 'Where prakriti appears informally elsewhere in the corpus as shorthand for ''the natural order,'' this file is the doctrinal anchor: prakriti here names a specific, arguably the central, Samkhya category with an exact structure (avyakta/vyakta, triguna equilibrium, sole material cause), not a loose gesture.'
+- term: matter (in the Western mind-matter dichotomy)
+  why: "Prakriti's evolutes include buddhi, ahankara, and manas (Samkhya-Karika 22), so mind itself is prakriti. Rendering prakriti as 'matter' imports a dichotomy the school does not draw; Samkhya's line runs between consciousness (purusha) and everything else, mind included."
+  instead: "Keep prakriti untranslated; gloss as the unconscious pole of the dualism, comprising both the material and the mental"
 related:
 - /concepts/purusha.md
 - /concepts/vyakta-avyakta.md
 - /concepts/guna-samkhya.md
 - /concepts/satkaryavada.md
+- /concepts/parinamavada.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0
@@ -33,7 +37,7 @@ license: CC BY-SA 4.0
 
 # Prakṛti -- प्रकृति
 
-**Not:** 'Nature' in the ecological or romantic sense, a generic background sense of 'nature' (dharma-foundation v0.1)
+**Not:** 'Nature' in the ecological or romantic sense, a generic background sense of 'nature' (dharma-foundation v0.1), matter (in the Western mind-matter dichotomy)
 
 ## What It Actually Means
 
