@@ -42,6 +42,14 @@ This bundle provides AI-ready Open Knowledge Format (OKF) concept files for the 
 
 ---
 
+## What This Bundle Does Not Claim
+
+Read this before consuming any concept file.
+
+1. **Not a practice manual.** Entries describe what Patañjali's terms mean and how the tradition classifies them; there is no āsana, prāṇāyāma, or meditation instruction, and no guidance for inducing any state.
+2. **Not a health resource.** Modern postural yoga's therapeutic claims are outside this bundle's scope; the exercise framing itself is a documented distortion (see the `not:` fields here and yoga's Error Genealogy in dharma-foundation).
+3. **Not an adjudication between darśanas.** Where Yoga's Īśvara-inclusive frame diverges from Sāṃkhya's nirīśvara reading or Vedānta's, the divergence is documented, not resolved.
+
 ## Group 1 — Sāṃkhya Ontological Frame (6 concepts)
 
 The foundational dual ontology that Yoga shares with and builds upon Sāṃkhya.
