@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.1"
 id: spanda
 title: "Spanda — स्पन्द"
 iast: "Spanda"
@@ -26,6 +26,8 @@ related:
   - /concepts/cit-shakti.md
   - /concepts/shiva-shakti.md
   - /concepts/matrika.md
+  - /concepts/pratyabhijna.md
+  - /references/spanda-karikas.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -49,3 +51,7 @@ A film's frame rate. The story on screen has motion; the frame rate is not one o
 
 1. Spanda Kārikās 1.1-2, 1.22 (the extreme-states verse) with Kṣemarāja's Spanda-nirṇaya -- see [references/spanda-karikas.md](../references/spanda-karikas.md)
 2. Cross-bundle: shakti-cosmological.md (cosmology-creation v0.7) -- spanda as Śakti's cosmological dynamism
+
+## Error Genealogy
+
+- Spanda read as wellness "vibration / raise your frequency" descends from William Walker Atkinson, *Thought Vibration* (1906, New Thought) → Theosophical "subtle energy" language → law-of-attraction media (*The Secret*, 2006). See [G13 — "Vibration / frequency"](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

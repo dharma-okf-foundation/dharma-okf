@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.1"
 id: kundalini
 title: "Kuṇḍalinī — कुण्डलिनी"
 iast: "Kuṇḍalinī"
@@ -30,6 +30,7 @@ related:
   - /concepts/shaktipata.md
   - /concepts/bindu.md
   - /concepts/matrika.md
+  - /references/shatchakranirupana.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -63,3 +64,7 @@ Think of kuṇḍalinī the way you would think of "root access" in a system whe
 2. Haṭhayogapradīpikā 3 -- kuṇḍalinī in the haṭha corpus (inheriting Tāntric doctrine)
 3. Tantrāloka (Abhinavagupta), selective -- kuṇḍalinī within the Trika synthesis; see [references/tantraloka.md](../references/tantraloka.md)
 4. Jung, C. G., The Psychology of Kundalini Yoga (1932 seminars) -- documented as a stage in the Western reception, not as doctrine
+
+## Error Genealogy
+
+- Kuṇḍalinī-as-awakenable "chakra energy" descends from Arthur Avalon (Sir John Woodroffe), *The Serpent Power* (1919, an influential but flawed translation of the Ṣaṭcakranirūpaṇa) → C.G. Jung's Kundalini seminars (1932, psychologization) → Joseph Campbell and the human-potential movement → New Age and yoga-studio vocabulary. See [G1 — Kuṇḍalinī and the Serpent Power lineage](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.1"
 id: tantra
 title: "Tantra — तन्त्र"
 iast: "Tantra"
@@ -32,6 +32,9 @@ related:
   - /concepts/yantra.md
   - /concepts/vamachara-dakshinachara.md
   - /concepts/srividya.md
+  - /concepts/pancha-makara.md
+  - /references/kularnava-tantra.md
+  - /references/tantraloka.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -70,3 +73,7 @@ Specific ritual procedure, mantra deployment, and initiatory content are transmi
 3. Kulārṇava Tantra -- on dīkṣā, guru, and the restriction of left-current practice; see [references/kularnava-tantra.md](../references/kularnava-tantra.md)
 4. White, D. G., introduction to Tantra in Practice (Princeton) -- scholarly mapping of the category; critique of the modern sexualized reading
 5. Urban, H. -- Modernity and Neo-Tantra; The Cult of Ecstasy -- the documented commercial genealogy of Western "tantra"
+
+## Error Genealogy
+
+- Tantra-as-"sacred sexuality" descends from Victorian orientalist and missionary polemic (19th c., Tantra framed as sexual deviance and black magic) → Pierre Bernard's "Tantrik Order" in America (c. 1905, inverting the judgment while keeping the frame) → Osho-era neo-tantra fused with Western psychotherapy (1970s-80s) → a commercial "tantric sex" industry with no lineage connection (Hugh Urban 2003; David Gordon White 2003). See [G3 — Tantra = sex](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

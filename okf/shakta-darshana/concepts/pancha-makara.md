@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.1"
 id: pancha-makara
 title: "Pañca-Makāra — पञ्चमकार"
 iast: "Pañca-Makāra"
@@ -25,6 +25,7 @@ related:
   - /concepts/vamachara-dakshinachara.md
   - /concepts/tantra.md
   - /concepts/srividya.md
+  - /references/kularnava-tantra.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -53,3 +54,7 @@ Think of a contested passage in any scripture that one wing of a tradition reads
 1. Kulārṇava Tantra -- the regulated left-current locus classicus, including its own warnings; see [references/kularnava-tantra.md](../references/kularnava-tantra.md)
 2. Mahānirvāṇa Tantra -- the substitutional reading's classic statement
 3. Urban, H.; White, D. G. -- reception scholarship on how this category was inflated into "tantra" in the West (see tantra.md citations)
+
+## Error Genealogy
+
+This term is a secondary node in a documented mistranslation chain (a partial genealogy): the tantra-as-sex frame (Victorian polemic → Bernard c. 1905 → neo-tantra → commercial capture) reads the five makāras through that single lens, erasing the substitutional and initiation-gated readings the traditions themselves document. See [G3 — Tantra = sex](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

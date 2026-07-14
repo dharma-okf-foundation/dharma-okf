@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.1"
 id: vamachara-dakshinachara
 title: "Vāmācāra / Dakṣiṇācāra — वामाचार / दक्षिणाचार"
 iast: "Vāmācāra / Dakṣiṇācāra"
@@ -27,6 +27,7 @@ related:
   - /concepts/tantra.md
   - /concepts/kali.md
   - /concepts/srividya.md
+  - /references/kularnava-tantra.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -53,3 +54,7 @@ Consider how medical traditions differ over training with live pathogens: one sc
 1. Kulārṇava Tantra -- ācāra hierarchies and their internal ranking claims; see [references/kularnava-tantra.md](../references/kularnava-tantra.md)
 2. Mahānirvāṇa Tantra -- the reformist/substitutional position
 3. Urban, H. -- reception history of "left-hand path" in Western occultism (see tantra.md citations)
+
+## Error Genealogy
+
+This term is a secondary node in a documented mistranslation chain (a partial genealogy): the left-current / right-current distinction is flattened into the same tantra-as-sex frame (Victorian polemic → Bernard c. 1905 → neo-tantra → commercial capture), collapsing a classification of ritual method into a sexuality label. See [G3 — Tantra = sex](../../../GENEALOGIES.md) in the repository root for the full chain and sources.

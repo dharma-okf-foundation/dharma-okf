@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.1"
 id: chakra-tantra
 title: "Cakra (Tāntric) — चक्र"
 iast: "Cakra"
@@ -30,6 +30,7 @@ related:
   - /concepts/bindu.md
   - /concepts/yantra.md
   - /concepts/mantra-shastra.md
+  - /references/shatchakranirupana.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
@@ -57,3 +58,7 @@ The traditional cakra map is like a subway map: a functional schematic for a pra
 2. Kaulajñānanirṇaya; Netra Tantra -- alternate cakra schemes demonstrating textual plurality
 3. Leadbeater, C. W., The Chakras (1927) -- documented as the source layer of the modern color-psychology map, not as doctrine
 4. Base entry: chakra.md in dharma-foundation (v0.1) -- general concept; this file is the Tāntric technical treatment
+
+## Error Genealogy
+
+- The rainbow 7-chakra overlay (one color and one psychological theme per center, presented as ancient doctrine) descends from C.W. Leadbeater, *The Chakras* (1927, Theosophical Society) → New Age synthesis (colors, "blockages", healing vocabulary) → global yoga teacher trainings and wellness media; the Sanskrit sources assign phonemes and deities, not colors and emotions, and do not agree on seven. See [G2 — The rainbow-chakra overlay](../../../GENEALOGIES.md) in the repository root for the full chain and sources.
