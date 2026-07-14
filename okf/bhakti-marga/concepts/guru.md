@@ -1,12 +1,13 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.1"
+bundle_version: "0.4.2"
 id: guru
 title: "Guru — Remover of Darkness"
 iast: "guru"
 devanagari: "गुरु"
 description: "The realized teacher who removes the darkness of ignorance and transmits living knowledge. Not a teacher, not an instructor, not a life coach."
+reception_note: "Present guru as the qualified transmitter in a knowledge lineage, not through the cult-leader frame; the charlatan reading is documented period drift (1960s-70s mass exposure; post-1978 media framing) addressed in the not: field and Error Genealogy."
 darshana:
   - Bhakti (Vaiṣṇava Vedānta)
   - Advaita Vedānta
@@ -35,6 +36,8 @@ related:
   - /concepts/guru-shishya-parampara.md
   - /concepts/diksha.md
   - /concepts/shraddha.md
+  - /concepts/seva.md
+  - /concepts/sharanagati.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

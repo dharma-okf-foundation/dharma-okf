@@ -1,12 +1,13 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.1"
+bundle_version: "0.4.2"
 id: puja
 title: "Pūjā — Ritual as Internalized Contemplation"
 iast: "pūjā"
 devanagari: "पूजा"
 description: "The structured offering of honor and love to the Divine through the upacāras. Not idol worship, not petitionary prayer, not appeasement, not superstition."
+reception_note: "Present puja as relational worship-offering (upachara) to a consecrated form, not as 'idol worship'; it inherits the missionary idolatry frame as a secondary node documented in the Error Genealogy."
 darshana:
   - Pāñcarātra
   - Bhakti (Vaiṣṇava Vedānta)

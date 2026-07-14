@@ -1,12 +1,13 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.1"
+bundle_version: "0.4.2"
 id: nada-brahman
 title: "Nāda Brahman — Sound as Brahman"
 iast: "nāda-brahman"
 devanagari: "नाद-ब्रह्मन्"
 description: "The doctrine that ultimate reality is, or is reached through, sacred sound; the Divine as audible presence. Not music, not vibration loosely, not noise, not a magic spell."
+reception_note: "Present nada-brahman as the sound-metaphysics of its own texts, not as 'vibration' or 'frequency' wellness language; that framing is documented New Thought drift addressed in the not: field and Error Genealogy."
 darshana:
   - Bhakti (Vaiṣṇava Vedānta)
 school_scope: "The devotional-sonic theology: sound as a mode of the Lord's presence and a direct means of contact (nāma, mantra, kīrtana). Distinct from the linguistic-ontological śabda-brahman and the epistemological śabda-pramāṇa treated in other bundles."

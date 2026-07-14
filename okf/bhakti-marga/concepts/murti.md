@@ -1,12 +1,13 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.1"
+bundle_version: "0.4.2"
 id: murti
 title: "Mūrti — The Deity's Accessible Form"
 iast: "mūrti"
 devanagari: "मूर्ति"
 description: "The consecrated form through which the Divine makes itself worshipable and accessible (arcā). Not an idol, not a statue, not a graven image, not a representation."
+reception_note: "Present murti as consecrated embodiment for worship (arca), not as 'idol' or 'graven image'; the idolatry frame is a documented missionary import (18th-19th c. polemic) addressed in the not: field and Error Genealogy."
 darshana:
   - Pāñcarātra
   - Bhakti (Vaiṣṇava Vedānta)
