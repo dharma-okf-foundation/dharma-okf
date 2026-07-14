@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: sankhya-darshana
-bundle_version: 0.13.0
+bundle_version: 0.13.1
 id: kapila
 title: Kapila
 iast: Kapila
@@ -40,3 +40,4 @@ Kapila functions for Sāṃkhya somewhat like a discipline's founding figure who
 ## Citations
 
 1. Samkhya-Pravacana-Sutra, traditional attribution -- see [references/samkhya-pravacana-sutra.md](../references/samkhya-pravacana-sutra.md)
+2. Cross-bundle note: the Puranic Kapila-as-avatara this file excludes (see the not: field) has a named primary text -- Kapila Gita, Bhagavata Purana 3.24-33 -- identified and cited at sesvara-samkhya.md, not treated here

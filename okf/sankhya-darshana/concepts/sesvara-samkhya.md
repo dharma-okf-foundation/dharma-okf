@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: sankhya-darshana
-bundle_version: 0.13.0
+bundle_version: 0.13.1
 id: sesvara-samkhya
 title: Seśvara Sāṃkhya
 iast: Seśvara Sāṃkhya
@@ -41,5 +41,6 @@ Seśvara Sāṃkhya is like a lesser-known regional dialect of the same language
 
 ## Citations
 
-1. General scholarly consensus on Later Samkhya historiography; no single canonical Sesvara-Samkhya text is treated as primary within this bundle's scope
-2. Deferred per the v0.13 concept-lock, following the v0.9 nyaya-vaisheshika Navya-Nyaya precedent -- named, not built
+1. Kapila Gītā (Bhāgavata Purāṇa 3.24-33, the Kapila-Devahūti dialogue) -- verified 2026-07-10 against gitasupersite.in (IIT Kanpur / Ministry of Culture): opens at 1.1 "devahūtir uvāca," Kapila teaching Sāṃkhya-yoga to his mother Devahūti as a theistic avatāra-figure. This is the closest thing to a primary text for the Seśvara strand named in this file -- identified but not treated in full here, per the concept-lock's deferral (a Bhāgavata-sourced, devotional Kapila-as-avatāra text is a different textual register from the Sāṃkhya-Kārikā/Sāṃkhya-Pravacana-Sūtra line this bundle's primary nirīśvara treatment draws on, and deserves its own dedicated pass, not a folded-in citation)
+2. General scholarly consensus on Later Samkhya historiography
+3. Deferred per the v0.13 concept-lock, following the v0.9 nyaya-vaisheshika Navya-Nyaya precedent -- named, not built
