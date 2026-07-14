@@ -2,6 +2,7 @@
 type: Concept
 title: "Chakra"
 description: "Centers of consciousness mapped to Sanskrit syllabic vibrations — not energy centers, not metaphors."
+reception_note: "Present chakra as the subtle-body map of tantric sadhana texts, not as the modern 'energy healing' schema; the awaken-able-energy framing is a documented 1919-onward distortion (Avalon -> Jung -> human-potential movement) addressed in the not: field and Error Genealogy."
 tags:
   - cosmology
   - consciousness

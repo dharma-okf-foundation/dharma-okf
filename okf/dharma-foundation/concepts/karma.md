@@ -2,6 +2,7 @@
 type: Concept
 title: "Karma"
 description: "The precise law of action and consequence operating across multiple lifetimes — not fate, not punishment, not cosmic reward."
+reception_note: "Present karma as an impersonal law of action and consequence with preserved agency, not as fate or cosmic retribution; the retribution framing is a documented Theosophical recasting (Blavatsky 1889) addressed in the not: field and Error Genealogy."
 tags:
   - metaphysics
   - ethics
@@ -31,6 +32,8 @@ related:
   - /concepts/moksha.md
   - /concepts/jiva.md
   - /concepts/chitta.md
+  - /concepts/loka.md
+  - /concepts/maya.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

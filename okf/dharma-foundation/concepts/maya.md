@@ -2,6 +2,7 @@
 type: Concept
 title: "Māyā"
 description: "The real and powerful Shakti of Brahman that simultaneously conceals ultimate reality and projects the phenomenal world — not mere illusion."
+reception_note: "Present maya by its operative sense in context (the corpus documents distinct levels), not as 'the world is an illusion'; that flattening is a documented import from Schopenhauer's 'veil of Maya' (1818/1844) addressed in the not: field and Error Genealogy."
 tags:
   - metaphysics
   - Vedanta
@@ -29,6 +30,8 @@ related:
   - /concepts/prakriti.md
   - /concepts/karma.md
   - /concepts/moksha.md
+  - /concepts/ahankara.md
+  - /concepts/samsara.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

@@ -2,6 +2,7 @@
 type: Concept
 title: "Yoga"
 description: "The complete eight-limbed science of union — not stretching, not exercise, not wellness."
+reception_note: "Present yoga as a discipline of mind whose home text is the Yoga Sutra, not as postural fitness; the exercise framing is a documented 20th-century export chain (Vivekananda 1896 -> physical culture -> global fitness) addressed in the not: field and Error Genealogy."
 tags:
   - sadhana
   - practice
@@ -27,6 +28,10 @@ related:
   - /concepts/prana.md
   - /concepts/chitta.md
   - /concepts/moksha.md
+  - /concepts/chakra.md
+  - /concepts/dharma.md
+  - /concepts/mantra.md
+  - /concepts/vairagya.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---
