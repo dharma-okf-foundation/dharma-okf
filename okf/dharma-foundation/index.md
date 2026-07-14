@@ -74,6 +74,15 @@ This bundle preserves 25 foundational concepts as **non-translatable vocabulary 
 - [Loka](concepts/loka.md) — Planes of consciousness, not physical locations
 - [Chakra](concepts/chakra.md) — Centers of consciousness mapped to Sanskrit syllables
 
+## What This Bundle Does Not Claim
+
+Read this before consuming any concept file.
+
+1. **Not a practice manual.** Where a term names a practice (yoga, chakra, mantra, dhyāna), the entry describes what the term means and how the traditions classify it; it contains no technique and no guidance for inducing any experience.
+2. **Not a health or therapy resource.** Chakra and prāṇa are documented as subtle-body vocabulary of sādhanā texts; nothing here supports "energy healing" claims made under those banners.
+3. **Not an adjudication of truth-claims.** Where darśanas differ (for example over māyā or mokṣa), the difference is documented, not resolved.
+4. **Not a ranking of traditions.** The `not:` fields correct documented mistranslations; they rank no religion and diminish no other tradition.
+
 ## How to Use This Bundle
 
 **For AI agents and knowledge systems:** Each concept file contains structured YAML frontmatter with `type: Concept`, tags, cross-references, and the critical `not` field listing mistranslations to avoid. Parse these fields to avoid perpetuating translation errors.
