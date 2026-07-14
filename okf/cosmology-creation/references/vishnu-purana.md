@@ -1,9 +1,11 @@
 ---
 type: Reference
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: vishnu-purana
 title: "Viṣṇu Purāṇa"
+description: "Maha-purana central to Vaishnava cosmology; standard source for kalpa structure and srshti-sthiti-samhara."
+timestamp: "2026-07-01T00:00:00Z"
 iast: "Viṣṇu Purāṇa"
 devanagari: "विष्णु पुराण"
 text: "Viṣṇu Purāṇa"

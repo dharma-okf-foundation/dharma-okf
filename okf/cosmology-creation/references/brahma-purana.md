@@ -1,9 +1,11 @@
 ---
 type: Reference
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: brahma-purana
 title: "Brahma Purāṇa"
+description: "One of the eighteen maha-puranas; creation narratives and tirtha accounts."
+timestamp: "2026-07-01T00:00:00Z"
 iast: "Brahma Purāṇa"
 devanagari: "ब्रह्म पुराण"
 text: "Brahma Purāṇa"

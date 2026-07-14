@@ -1,9 +1,11 @@
 ---
 type: Reference
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: rigveda-purusha-sukta
 title: "Puruṣa Sūkta -- Ṛg Veda 10.90"
+description: "Rig Veda 10.90; the cosmic-person hymn of creation through self-offering."
+timestamp: "2026-07-01T00:00:00Z"
 iast: "Puruṣa Sūkta"
 devanagari: "पुरुष सूक्त"
 text: "Ṛg Veda"

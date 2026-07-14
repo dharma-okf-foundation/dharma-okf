@@ -1,9 +1,11 @@
 ---
 type: Reference
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: rigveda-hiranyagarbha-sukta
 title: "Hiraṇyagarbha Sūkta -- Ṛg Veda 10.121"
+description: "Rig Veda 10.121; the golden-embryo cosmogony hymn (kasmai devaya havisha vidhema)."
+timestamp: "2026-07-01T00:00:00Z"
 iast: "Hiraṇyagarbha Sūkta"
 devanagari: "हिरण्यगर्भ सूक्त"
 text: "Ṛg Veda"

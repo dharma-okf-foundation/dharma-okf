@@ -1,9 +1,11 @@
 ---
 type: Reference
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: manusmriti
 title: "Manu-Smṛti"
+description: "The dharmashastra of Manu; its cosmogony chapter grounds the time-cycle and creation vocabulary."
+timestamp: "2026-07-01T00:00:00Z"
 iast: "Manu-Smṛti"
 devanagari: "मनुस्मृति"
 text: "Manu-Smṛti (Mānavadharmaśāstra)"

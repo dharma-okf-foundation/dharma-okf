@@ -1,9 +1,11 @@
 ---
 type: Reference
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: markandeya-purana
 title: "Mārkaṇḍeya Purāṇa"
+description: "Early maha-purana; frame narratives, cosmology, and the Devi-Mahatmya within it."
+timestamp: "2026-07-01T00:00:00Z"
 iast: "Mārkaṇḍeya Purāṇa"
 devanagari: "मार्कण्डेय पुराण"
 text: "Mārkaṇḍeya Purāṇa"

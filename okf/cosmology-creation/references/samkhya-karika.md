@@ -1,9 +1,11 @@
 ---
 type: Reference
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: samkhya-karika
 title: "Sāṃkhya Kārikā"
+description: "Ishvarakrishna's root text of classical Samkhya; source of the tattva scaffolding the Puranas inherit."
+timestamp: "2026-07-01T00:00:00Z"
 iast: "Sāṃkhya Kārikā"
 devanagari: "सांख्य कारिका"
 text: "Sāṃkhya Kārikā"

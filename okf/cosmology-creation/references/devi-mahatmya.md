@@ -1,9 +1,11 @@
 ---
 type: Reference
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.2"
 id: devi-mahatmya
 title: "Devī Māhātmya (Durgā Saptaśatī)"
+description: "Markandeya Purana chapters 81-93; the Goddess as ultimate power, root text of Shakta theology."
+timestamp: "2026-07-01T00:00:00Z"
 iast: "Devī Māhātmya"
 devanagari: "देवी माहात्म्य"
 text: "Devī Māhātmya (within Mārkaṇḍeya Purāṇa, chapters 81-93)"
