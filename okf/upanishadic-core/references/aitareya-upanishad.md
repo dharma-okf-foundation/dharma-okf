@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: aitareya-upanishad
 title: "Aitareya Upaniṣad"
+description: "Rigvedic principal Upanishad; source of the mahavakya prajnanam brahma (consciousness is Brahman)."
 tradition: Ṛgveda
 language: Sanskrit
 approximate_date: "c. 600–500 BCE"

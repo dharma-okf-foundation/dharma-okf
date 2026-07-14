@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: mandukya-upanishad
 title: "Māṇḍūkya Upaniṣad"
+description: "Shortest principal Upanishad; the analysis of Om and the four states, source of ayam atma brahma."
 tradition: Atharvaveda
 language: Sanskrit
 approximate_date: "c. 200 BCE – 200 CE"

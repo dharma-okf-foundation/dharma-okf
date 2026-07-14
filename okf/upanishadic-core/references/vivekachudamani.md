@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: vivekachudamani
 title: "Vivekacūḍāmaṇi"
+description: "Advaita classic attributed to Shankara; discrimination (viveka) between the real and the unreal."
 tradition: Advaita Vedānta
 author: "Attributed to Śaṅkarācārya (c. 788–820 CE); authorship debated"
 language: Sanskrit

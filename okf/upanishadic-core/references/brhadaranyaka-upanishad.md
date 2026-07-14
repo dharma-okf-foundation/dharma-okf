@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: brhadaranyaka-upanishad
 title: "Bṛhadāraṇyaka Upaniṣad"
+description: "Oldest and largest principal Upanishad (Shukla Yajur Veda); source of aham brahmasmi and neti neti."
 tradition: Śukla Yajurveda (Śatapatha Brāhmaṇa)
 language: Sanskrit
 approximate_date: "c. 700–500 BCE (among the oldest Upaniṣads)"

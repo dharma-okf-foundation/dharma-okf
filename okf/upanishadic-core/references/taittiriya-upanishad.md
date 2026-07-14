@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: taittiriya-upanishad
 title: "Taittirīya Upaniṣad"
+description: "Krishna Yajur Veda principal Upanishad; source of the pancha-kosha analysis."
 tradition: Kṛṣṇa Yajurveda
 language: Sanskrit
 approximate_date: "c. 600–500 BCE"

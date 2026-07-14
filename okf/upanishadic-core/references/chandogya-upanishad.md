@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: chandogya-upanishad
 title: "Chāndogya Upaniṣad"
+description: "Sama Veda principal Upanishad; source of tat tvam asi in the Uddalaka-Shvetaketu dialogue."
 tradition: Sāmaveda
 language: Sanskrit
 approximate_date: "c. 700–500 BCE"

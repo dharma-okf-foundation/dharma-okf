@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: brahmasutra-bhashya
 title: "Brahmasūtra Bhāṣya"
+description: "Shankara's commentary on the Brahma Sutras; the systematic foundation of Advaita Vedanta."
 tradition: Advaita Vedānta
 author: "Śaṅkarācārya (c. 788–820 CE)"
 language: Sanskrit

@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: mundaka-upanishad
 title: "Muṇḍaka Upaniṣad"
+description: "Atharva Veda principal Upanishad; distinguishes higher and lower knowledge (para and apara vidya)."
 tradition: Vedānta (Atharva Veda)
 author: "Traditional; Atharva Veda lineage"
 language: Sanskrit

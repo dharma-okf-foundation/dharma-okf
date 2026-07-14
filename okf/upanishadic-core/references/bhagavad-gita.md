@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: bhagavad-gita
 title: "Bhagavad Gītā"
+description: "Krishna's teaching in the Mahabharata; synthesis of jnana, bhakti, and karma paths."
 tradition: Vedānta (Prasthāna Trayī)
 author: "Traditional; attributed to Vyāsa; Mahābhārata Book 6"
 language: Sanskrit

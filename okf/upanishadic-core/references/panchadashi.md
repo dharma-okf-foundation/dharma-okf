@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: panchadashi
 title: "Pañcadaśī"
+description: "Vidyaranya's fifteen-chapter Advaita compendium; discrimination of the Self across koshas and states."
 tradition: Advaita Vedānta
 author: "Vidyāraṇya (Mādhava Āraṇyaka, c. 1296–1386 CE)"
 language: Sanskrit

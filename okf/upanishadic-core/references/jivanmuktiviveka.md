@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: jivanmuktiviveka
 title: "Jīvanmuktiviveka"
+description: "Vidyaranya's treatise on liberation while living (jivanmukti) and the discipline that secures it."
 tradition: Advaita Vedānta
 author: "Vidyāraṇya (Mādhava Āraṇyaka, c. 1296–1386 CE)"
 language: Sanskrit

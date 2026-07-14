@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: upadesasahasri
 title: "Upadesasāhasrī"
+description: "Shankara's Thousand Teachings; his major authenticated non-commentarial work."
 tradition: Advaita Vedānta
 author: "Śaṅkarācārya (c. 788–820 CE) — authorship generally accepted"
 language: Sanskrit

@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: aparokshanubhuti
 title: "Aparokṣānubhūti"
+description: "Advaita manual attributed to Shankara on direct (aparoksha) realization through inquiry."
 tradition: Advaita Vedānta
 author: "Attributed to Śaṅkarācārya (c. 788–820 CE)"
 language: Sanskrit

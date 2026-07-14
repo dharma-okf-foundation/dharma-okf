@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: mandukya-karika
 title: "Māṇḍūkya Kārikā (Gauḍapādīya Kārikā)"
+description: "Gaudapada's verse commentary on the Mandukya Upanishad; earliest systematic Advaita text (ajativada)."
 tradition: Advaita Vedānta
 author: "Gauḍapāda (c. 6th century CE)"
 language: Sanskrit

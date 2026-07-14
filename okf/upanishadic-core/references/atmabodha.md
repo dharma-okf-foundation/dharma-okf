@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: atmabodha
 title: "Ātmabodha"
+description: "Short Advaita primer attributed to Shankara; self-knowledge as the sole means of liberation."
 tradition: Advaita Vedānta
 author: "Attributed to Śaṅkarācārya (c. 788–820 CE)"
 language: Sanskrit

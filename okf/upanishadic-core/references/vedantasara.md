@@ -3,6 +3,7 @@ type: Reference
 bundle: upanishadic-core
 id: vedantasara
 title: "Vedāntasāra"
+description: "Sadananda's standard Advaita primer; the adhyaropa-apavada method and the fourfold qualification."
 tradition: Advaita Vedānta
 author: "Sadānanda Yogīndra (c. 15th century CE)"
 language: Sanskrit
