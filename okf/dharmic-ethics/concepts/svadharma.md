@@ -1,12 +1,13 @@
 ---
 type: Concept
 bundle: dharmic-ethics
-bundle_version: "0.5.1"
+bundle_version: "0.5.2"
 id: svadharma
 title: "Svadharma — One's Own Dharma, the Contextual Duty"
 iast: "svadharma"
 devanagari: "स्वधर्म"
 description: "The duty proper to one's own nature, role, and stage of life, as distinct from another's; the contextual pole of dharmic ethics held alongside the universal. Not job or career, not self-interest, and not a caste-determined fate."
+reception_note: "Present svadharma as one's own dharma relative to capacity, context, and stage of life, not as a birth-caste assignment; the caste-charter reading is documented colonial hardening addressed in the not: field and Error Genealogy."
 darshana:
   - pan-dharmic (sādhāraṇa-dharma)
   - Bhakti (Vaiṣṇava Vedānta)

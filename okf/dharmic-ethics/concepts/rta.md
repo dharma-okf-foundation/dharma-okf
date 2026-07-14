@@ -1,12 +1,13 @@
 ---
 type: Concept
 bundle: dharmic-ethics
-bundle_version: "0.5.1"
+bundle_version: "0.5.2"
 id: rta
 title: "Ṛta — The Cosmic Order, Root of Dharma"
 iast: "ṛta"
 devanagari: "ऋत"
 description: "The Vedic cosmic-moral order, the truth-aligned course that the gods themselves obey; the pre-Vedic root from which dharma later individualizes. Not 'law' in the legislative sense, not fate, not nature as mere physics."
+reception_note: "Present rta as the cosmic order that dharma articulates, not through the religion-boxed dharma frame or as bare 'natural law'; it inherits the colonial dharma-boxing as a secondary node documented in the Error Genealogy."
 darshana:
   - Vedic (pre-darśana)
   - pan-dharmic (sādhāraṇa-dharma)
