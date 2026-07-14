@@ -68,6 +68,20 @@ except Exception:  # pragma: no cover - fallback keeps the tool standalone
 
 RESERVED = {"index.md", "log.md"}
 DEFAULT_SECTIONS = ["What It Actually Means", "Audience Metaphor", "Citations"]
+# Legacy scholarly body format (decision 2026-07-14, Traceable-Guardrail
+# Enrichment Pass wave 1, zero-content-churn ruling): these five bundles
+# predate the canonical body template. Their definitional content lives in
+# named scholarly sections (Etymology, per-text Definition headings, source
+# analyses) rather than under the literal 'What It Actually Means' heading.
+# For files in these bundles that one heading requirement is waived;
+# 'Audience Metaphor' and 'Citations' remain required. Bundles authored after
+# the canonical template (v0.8+) and all future bundles MUST carry the
+# canonical heading and are NOT in this set.
+LEGACY_BODY_FORMAT_BUNDLES = frozenset({
+    "yoga-darshana", "vedanta-epistemology", "bhakti-marga",
+    "upanishadic-core", "cosmology-creation",
+})
+LEGACY_WAIVED_SECTION = "What It Actually Means"
 RECOMMENDED_KEYS = ("title", "description", "timestamp")
 _ISO_DT = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}")
 _BODY_NOT = re.compile(r"^\*\*Not:\*\*\s*(.+)$", re.M)
@@ -230,7 +244,10 @@ def validate(bundle: Path, *, sections: list[str], require_darshana: bool,
 
         # --- WARN: required conventional sections (concepts only) ------
         if fm.get("type") == "Concept":
+            legacy = bundle.resolve().name in LEGACY_BODY_FORMAT_BUNDLES
             for sec in sections:
+                if legacy and sec == LEGACY_WAIVED_SECTION:
+                    continue
                 if not re.search(rf"^#+\s+{re.escape(sec)}\s*$", body, re.M):
                     rep.warn(where, f"missing section: '{sec}'")
 
