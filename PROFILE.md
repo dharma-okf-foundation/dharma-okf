@@ -2,8 +2,8 @@
 
 **Profile version:** `dharma-okf/1.0`
 **Base specification:** Open Knowledge Format **v0.2**, as specified at
-[`GoogleCloudPlatform/knowledge-catalog@780fe9d`](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/780fe9d30b5bbca8931256edf1d0290d6bda5462/okf/SPEC.md) (`okf/SPEC.md`)
-**Status:** Draft · **Date:** 2026-07-28 · **Maintainer:** Dharma OKF Foundation
+[`GoogleCloudPlatform/knowledge-catalog@3fcbb9f`](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md) (`okf/SPEC.md`)
+**Status:** Draft · **Date:** 2026-08-05 · **Maintainer:** Dharma OKF Foundation
 **Content licence:** CC BY-SA 4.0 (see `LICENSE-CONTENT`)
 
 ---
@@ -18,7 +18,9 @@ This is the same relationship DCAT-AP holds to W3C DCAT — a domain profile tha
 
 ### Why the base is pinned to a commit, not to `main`
 
-The base specification is a self-declared **Draft** whose §12 defers the runtime protocol, attester ABI, portability, sandboxing, and attestation caching to future revisions. A profile that tracked `main` would let upstream drift silently change what our bundles claim to be. Re-pinning is therefore a deliberate, dated act, recorded in §7 — not something that happens by itself.
+The base specification's own §12 defers the runtime protocol, attester ABI, portability, sandboxing, and attestation caching to future revisions. A profile that tracked `main` would let upstream drift silently change what our bundles claim to be. Re-pinning is therefore a deliberate, dated act, recorded in §7 — not something that happens by itself.
+
+The value of that discipline was demonstrated within two weeks of adopting it. This profile originally pinned `780fe9d`, the commit that introduced OKF v0.2. Two hours later upstream published `3fcbb9f`, which removed the word "(Draft)" from the version line — the same specification, now final rather than provisional. Under a `main`-tracking policy that reclassification would have altered what this profile claimed without anyone deciding anything. Instead it is §7 re-pinning decision **RP-001**, dated and recorded.
 
 > **Reader note (2026-07-28).** `raw.githubusercontent.com` is currently serving a mixed pre-/post-v0.2 state on upstream's `main` branch: `okf/src/reference_agent/bundle/document.py` returns the v0.1 file, while `okf/src/reference_agent/viewer/generator.py` returns the v0.2 file that imports symbols from it. Read the base at the pinned commit, not at `main`.
 
@@ -240,6 +242,14 @@ Four independent axes. Conflating them has caused real confusion in this project
 
 **Re-pinning the base.** Moving to a newer base revision is a deliberate, dated decision recorded in `CHANGELOG.md` — never automatic, and never a silent follow of `main`. A base minor bump does not oblige a profile revision; a profile revision does not oblige a base re-pin.
 
+### Re-pinning log
+
+| ID | Date | From → To | Reason |
+|---|---|---|---|
+| **RP-001** | 2026-08-05 | `780fe9d` → [`3fcbb9f`](https://github.com/GoogleCloudPlatform/knowledge-catalog/commit/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96) | Upstream removed "(Draft)" from the OKF v0.2 version line. Specification text otherwise unchanged — a one-line reclassification from provisional to final. Verified: `git diff 780fe9d..3fcbb9f -- okf/SPEC.md` is that single line. No profile rule is affected; no bundle requires revision. |
+
+**Upstream state at RP-001.** Two further commits exist on upstream `main` (`599a240`, `930b65f`, both 2026-08-04), confined to `toolbox/mdcode` — Semantic Model IR and BigQuery property-graph DDL. Neither touches `okf/SPEC.md` nor the reference viewer, so the §3.1 link-handling divergence stands unresolved as of this pin.
+
 **Watch item.** Upstream's `toolbox/mdcode/demo/README.md` references the format as `github.com/google/okf`, a repository that does not presently resolve. If the base specification relocates, the citation in this document is updated as a §7 re-pinning decision.
 
 ---
@@ -262,4 +272,4 @@ Base consumers need none of this. A bundle that fails every profile rule in §3 
 
 ---
 
-*Dharma OKF Foundation · profile `dharma-okf/1.0` · base OKF v0.2 @ `780fe9d` · 2026-07-28*
+*Dharma OKF Foundation · profile `dharma-okf/1.0` · base OKF v0.2 @ `3fcbb9f` · re-pinned 2026-08-05 (RP-001)*
