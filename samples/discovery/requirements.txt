@@ -1,3 +1,0 @@
-google-adk
-google-cloud-dataplex
-google-api-core

@@ -2,7 +2,7 @@
 
 A structured, machine-readable knowledge base of Sanskrit concepts that resist accurate translation into English, built for AI agents, educators, researchers, and technologists working with dharmic knowledge systems.
 
-**13 bundles · 310 concept files · 137 primary-source references — every file on canonical OKF v0.2, validated 0-fail.**
+**13 bundles · 310 concept documents · 132 primary-source reference documents — every file conformant with the Open Knowledge Format v0.2, validated 0-fail.**
 
 ## What's New
 
@@ -44,11 +44,11 @@ A `not:` list in a file is a "do not enter" sign on an unlocked door. The model 
 
 | Bundle | Release | Concepts | Refs | Theme | Viz |
 |---|---|---|---|---|---|
-| `okf/dharma-foundation/` | v0.1.3 | 25 | 13 | Foundational Sanskrit non-translatable vocabulary | [graph](okf/dharma-foundation/viz.html) |
-| `okf/yoga-darshana/` | v0.2.1 | 26 | 7 | Patañjali's Yoga Sūtra technical lexicon | [graph](okf/yoga-darshana/viz.html) |
-| `okf/vedanta-epistemology/` | v0.3.2 | 27 | 20 | Pramāṇa-śāstra — Vedantic epistemology | [graph](okf/vedanta-epistemology/viz.html) |
-| `okf/bhakti-marga/` | v0.4.2 | 15 | 10 | The vocabulary of the devotional path | [graph](okf/bhakti-marga/viz.html) |
-| `okf/dharmic-ethics/` | v0.5.2 | 15 | 7 | Yama–Niyama and the ethical-social vocabulary of dharma | [graph](okf/dharmic-ethics/viz.html) |
+| `okf/dharma-foundation/` | v0.1.3 | 25 | 12 | Foundational Sanskrit non-translatable vocabulary | [graph](okf/dharma-foundation/viz.html) |
+| `okf/yoga-darshana/` | v0.2.1 | 26 | 6 | Patañjali's Yoga Sūtra technical lexicon | [graph](okf/yoga-darshana/viz.html) |
+| `okf/vedanta-epistemology/` | v0.3.2 | 27 | 19 | Pramāṇa-śāstra — Vedantic epistemology | [graph](okf/vedanta-epistemology/viz.html) |
+| `okf/bhakti-marga/` | v0.4.2 | 15 | 9 | The vocabulary of the devotional path | [graph](okf/bhakti-marga/viz.html) |
+| `okf/dharmic-ethics/` | v0.5.2 | 15 | 6 | Yama–Niyama and the ethical-social vocabulary of dharma | [graph](okf/dharmic-ethics/viz.html) |
 | `okf/upanishadic-core/` | v0.6.1 | 26 | 16 | Core Upaniṣadic vocabulary across the Vedānta schools — mahāvākyas, Ātman–Brahman, self-knowledge | [graph](okf/upanishadic-core/viz.html) |
 | `okf/cosmology-creation/` | v0.7.1 | 26 | 12 | Vedic & Purāṇic vocabulary of time, cosmos, and manifestation | [graph](okf/cosmology-creation/viz.html) |
 | `okf/shakta-darshana/` | v0.8.0 | 26 | 12 | Śākta-Tāntric metaphysics of Śakti, Devī, and consciousness-power | [graph](okf/shakta-darshana/viz.html) |
@@ -57,7 +57,7 @@ A `not:` list in a file is a "do not enter" sign on an unlocked door. The model 
 | `okf/ayurveda-consciousness/` | v0.11.0 | 26 | 8 | Āyurvedic vocabulary of consciousness, constitution, and health | [graph](okf/ayurveda-consciousness/viz.html) |
 | `okf/jyotisha-kala/` | v0.12.0 | 26 | 8 | Jyotiṣa vocabulary of time — pañcāṅga, kāla-reckoning, and the sidereal celestial frame | [graph](okf/jyotisha-kala/viz.html) |
 | `okf/sankhya-darshana/` | v0.13.1 | 20 | 7 | Sāṃkhya's dualist causal theory and discriminative path to kaivalya — completes the six classical darśanas | [graph](okf/sankhya-darshana/viz.html) |
-| **Total** | | **310** | **137** | **13 bundles spanning the six āstika darśanas + the devotional, ethical, cosmological, medical, and calendrical corpora** |  |
+| **Total** | | **310** | **132** | **13 bundles spanning the six āstika darśanas + the devotional, ethical, cosmological, medical, and calendrical corpora** |  |
 
 ## Update contract & documented error genealogies
 
