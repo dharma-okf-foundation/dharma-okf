@@ -18,9 +18,25 @@ authors:
   - name: "Dharma-OKF"
     url: "www.DharmaOKF.foundation"
 sources:
-  - "Rajiv Malhotra — Sanskrit Non-Translatables (2020)"
-  - "Prashānt Parikh — Lost in Translation series"
-  - "Classical Śāstra-s: Upaniṣads, Bhagavad Gītā, Yoga Sūtras, Brahma Sūtras"
+
+  - id: malhotra-non-translatables
+
+    resource: "https://rajivmalhotra.com/books/sanskrit-non-translatables/"
+
+    title: "Sanskrit Non-Translatables (Rajiv Malhotra & Satyanarayana Dasa, 2020)"
+
+  - id: parikh-lost-in-translation
+
+    resource: "https://groups.google.com/g/dharmika-samvada/search?q=%22lost%20in%20translation%22"
+
+    title: "Lost in Translation series (Prashānt Parikh)"
+
+  - id: sastra-corpus
+
+    resource: references/index.md
+
+    title: "Classical śāstra-s cited across this bundle — Upaniṣads, Bhagavad Gītā, Yoga Sūtras, Brahma Sūtras"
+
 license: "CC BY-SA 4.0"
 okf_version: "0.2"
 ---
