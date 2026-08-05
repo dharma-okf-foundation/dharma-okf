@@ -219,13 +219,36 @@ Conformance is stated as levels, each independently checkable, with the corpus's
 
 ## 6. Provenance of the `not:` field
 
-Recorded to the same standard this project applies to error genealogies elsewhere (`GENEALOGIES.md`): named source, date, chain.
+Recorded to the standard this project applies to error genealogies elsewhere (`GENEALOGIES.md`): named source, date, chain, and evidence a reader can verify without trusting this document.
 
-The `not:` field with its `term` / `why` / `instead` structure, and the accompanying `**Not:**` body-echo convention, were defined in this project's canonical concept template on **2026-06-24** and published in the `dharma-foundation` bundle on **2026-06-18** (structured form ratified 2026-06-24), predating its appearance upstream.
+### The sequence
 
-The field is **not part of the base specification.** It appears in upstream's `okf/bundles/acme_retail/metrics/gross-margin.md`, added 2026-07-24 in [PR #227](https://github.com/GoogleCloudPlatform/knowledge-catalog/pull/227), carrying the same three keys and the same body-echo convention. The pull request describes that bundle as following a "dharma-style `not:` field."
+The `not:` field with its `term` / `why` / `instead` structure, and the accompanying `**Not:**` body-echo convention, were defined in this project's canonical concept template on **2026-06-24** and published in the `dharma-foundation` bundle on **2026-06-18** (structured form ratified 2026-06-24).
 
-This note records the sequence; it asserts no claim over the field and no obligation on anyone. `not:` is offered as a profile extension that any producer may adopt, and this project would welcome its standardization in a future base revision.
+### The evidence upstream
+
+`not:` is **not part of the base specification** and appears nowhere in `SPEC.md`. It appears in upstream's sample bundle, in two independent places.
+
+**1. The commit message.** Commit [`780fe9d30b5bbca8931256edf1d0290d6bda5462`](https://github.com/GoogleCloudPlatform/knowledge-catalog/commit/780fe9d30b5bbca8931256edf1d0290d6bda5462), 2026-07-24, describes the new `acme_retail` bundle verbatim as:
+
+> Structured to match conventions observed in public OKF bundles (kebab-case markdown filenames, top-level domain dirs, **dharma-style not: field on gross-margin**, saschb2b-style # Cited by on policy references).
+
+**2. The file itself.** `okf/bundles/acme_retail/metrics/gross-margin.md` carries the full three-key structure and the body echo:
+
+    not:
+      - term: "revenue minus product cost only"
+        why: "that is the pre-FY2026 definition (see gross-margin-legacy)…"
+        instead: "revenue minus full COGS (product cost + inbound fulfillment + …)"
+
+### Why this cites a commit hash rather than a pull request
+
+**Verified 2026-08-05:** commit `780fe9d` is served by multiple independent repositories — confirmed at `GoogleCloudPlatform/knowledge-catalog`, `inematds/okf`, and `Kosaki-1AE/KQI`. Repositories in a GitHub fork network share a git object store, so a content-addressed hash resolves at any member. If the origin repository were renamed, relocated or deleted, the object would persist.
+
+A pull-request URL does not. Upstream's own `toolbox/mdcode/demo/README.md` already references the format as `github.com/google/okf`, a repository that does not presently resolve — so a relocation appears to be contemplated. Were it to happen, a `/pull/227` link would break while the hash would not. **Cite the hash.**
+
+### What this note does and does not claim
+
+It records a sequence and points at verifiable artifacts. It asserts **no ownership of the field, no priority claim requiring anyone's acknowledgement, and no obligation on any party.** `not:` is offered as a profile extension that any producer may adopt freely, and this project would welcome its standardization in a future base revision.
 
 ---
 
