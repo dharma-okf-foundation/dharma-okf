@@ -32,6 +32,7 @@ Retained: `okf/tools/okf_validate.py`, the seven Dharma-OKF regression tests, `d
 ### Re-pinning RP-001 — 2026-08-05
 
 Base specification re-pinned `780fe9d` → [`3fcbb9f`](https://github.com/GoogleCloudPlatform/knowledge-catalog/commit/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96). Upstream removed "(Draft)" from the OKF v0.2 version line two hours after publishing it; the specification text is otherwise unchanged. Recorded as a dated decision rather than absorbed silently — which is the point of pinning. See `PROFILE.md` §7.
+
 ## 2026-07 — The Genealogy Update, Phase 1 (docs wave)
 
 - **Added [VERSIONING.md](VERSIONING.md):** the repository's declared update contract (living vocabulary on main; immutable release tags; patch-bump enrichment semantics). Declared before any known external consumer existed.

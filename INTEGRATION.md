@@ -119,4 +119,4 @@ For concrete failure-mode vs success-mode transcripts (a wellness bot reading `y
 
 ---
 
-*Part of the Dharma OKF project. Format spec: [`okf/SPEC.md`](okf/SPEC.md) (§12 covers the v0.2 structured `not:` with `instead`). Content CC BY-SA 4.0.*
+*Part of the Dharma OKF project. Base format: [Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md) at pinned commit `3fcbb9f`, profiled by [`PROFILE.md`](PROFILE.md) — §2.1 covers the structured `not:` with `instead`. Content CC BY-SA 4.0.*
