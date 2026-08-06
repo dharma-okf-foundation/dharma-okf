@@ -11,18 +11,21 @@ This repository deliberately offers two consumption surfaces, and both are first
 
 Nothing about in-place enrichment on main affects the meaning of a citation to a tag. That is the whole contract in one sentence.
 
-## Version Axes (three, kept distinct)
+## Version Axes (four, kept distinct)
 
 | Axis | Where | Means |
 |------|-------|-------|
-| **Release tag** | git tags (`v0.8.0`) | A snapshot event: a bundle's publication or a major corpus milestone |
-| **`bundle_version`** | each file's frontmatter (`"0.8.0"`) | That bundle's CONTENT revision. Patch bumps (`0.1.1` → `0.1.2`) signal in-place enrichment under this contract |
+| **Release tag** | git tags (`v0.8.0`) | A snapshot of the **whole repository** at a publication event, named after the bundle that occasioned it. **It does not isolate one bundle** — see Tag History below |
+| **`okf_profile`** | each file's frontmatter (`"dharma-okf/1.0"`) | The Dharma-OKF PROFILE version. See `PROFILE.md` §7 |
+| **`bundle_version`** | each file's frontmatter (`"0.8.0"`) | The bundle revision current **when that document was last edited**. Patch bumps (`0.1.1` → `0.1.2`) signal in-place enrichment. Because a wave touches a subset of files, one bundle may carry several values at once; the bundle-wide value is the one in its root `index.md` |
 | **`okf_version`** | each file's frontmatter (`"0.2"`) | The OKF FORMAT specification version. Changes only when the file format itself changes |
 
 ## Rules of Change
 
 1. **Corrections** (typos, broken links, factual errors): committed to main any time; noted in CHANGELOG.md if substantive.
-2. **Enrichments** (added genealogies, strengthened `not:` fields, new citations): committed to main in documented waves; every touched bundle gets a `bundle_version` patch bump; every wave gets a CHANGELOG.md entry naming the files and the nature of the change.
+2. **Enrichments** (added genealogies, strengthened `not:` fields, new citations): committed to main in documented waves; every **file touched** gets a `bundle_version` patch bump and the bundle's root `index.md` is bumped to match; every wave gets a CHANGELOG.md entry naming the files and the nature of the change.
+
+   > **Known gap, being closed.** This rule has not been applied consistently. At this revision seven bundle-root indexes trail their newest tag (`dharma-foundation` 0.1.1 vs v0.1.3; `yoga-darshana` 0.2.0 vs v0.2.1; `vedanta-epistemology` 0.3.0 vs v0.3.2; `bhakti-marga` 0.4.0 vs v0.4.2; `dharmic-ethics` 0.5.0 vs v0.5.2; `shakta-darshana` 0.8.0 vs v0.8.1; `sankhya-darshana` 0.13.0 vs v0.13.2), and **`dharma-foundation`'s 25 concept documents carry no `bundle_version` at all** — the bundle predates the key. Reconciliation and backfill are scheduled with the normalization pass.
 3. **New concepts or removals** within a live bundle: minor bump (`0.1.x` → `0.2.0` content version) + changelog + release note.
 4. **Tags never move.** A post-release fix means main advances; if the release must reference the fixed state, a new patch tag is created (`v0.8.1`); the old tag stays.
 5. **Slugs are permanent.** Concept filenames/IDs never change after publication (the bridge contract of the two-stack architecture). Disambiguation is done by suffix at creation time (`chakra-tantra`, `maya-shakta`), never by rename.
@@ -30,8 +33,24 @@ Nothing about in-place enrichment on main affects the meaning of a citation to a
 ## Guidance for Consumers
 
 - **RAG / training pipelines:** consume main for the best vocabulary; record the commit SHA you ingested for provenance.
-- **Academic citation:** cite a tag (e.g., `v0.8.0`) or SHA; the format is: Dharma-OKF Foundation, bundle name, version, year, URL.
-- **Diffing releases:** `git diff v0.7.0 v0.8.0 -- okf/` shows exactly what changed between snapshots.
+- **Academic citation — cite the bundle name and the commit SHA.** Format: *Dharma-OKF Foundation, `<bundle>`, `<bundle_version>`, commit `<sha>`, year, URL.* A tag may be cited **in addition**, never instead: tags do not uniquely identify a bundle (see Tag History below). Example: *Dharma-OKF Foundation, `yoga-darshana`, 0.2.1, commit `e5cc501`, 2026, https://github.com/dharma-okf-foundation/dharma-okf*.
+- **Diffing releases:** scope the diff to the bundle you care about — `git diff <sha-a> <sha-b> -- okf/<bundle>/`. **Do not diff two tags blind:** several tags share a commit, so `git diff v0.7.0 v0.8.0` returns empty. Resolve first with `git rev-parse v0.7.0^{commit}`.
+
+## Tag History — a disclosed defect, not repaired
+
+Tags mark repository-wide publication events. Where one commit published or enriched several bundles, several tags were applied to that one commit. **29 tags resolve to 18 distinct commits; 16 of the 29 share just 5:**
+
+| Commit | Tags |
+|---|---|
+| `fd71535` | `v0.1.2` · `v0.3.1` · `v0.4.1` · `v0.5.1` · `v0.7.1` |
+| `e5cc501` | `v0.1.3` · `v0.2.1` · `v0.3.2` |
+| `183effd` | `v0.4.2` · `v0.5.2` · `v0.6.1` |
+| `e90f60c` | `v0.6.0` · `v0.7.0` · `v0.8.0` |
+| `3a6d595` | `v0.7.2` · `v0.8.1` |
+
+**Why they are not being fixed.** Rule 4 says tags never move. Rewriting sixteen published tags to correct a naming defect would break the only guarantee this contract makes, in order to tidy a cosmetic one. The defect is disclosed instead.
+
+**Forward scheme, from the next release.** Per-bundle tags are namespaced `bundle/<name>/vX.Y.Z`, so a tag names exactly one bundle and cannot collide. Repository-wide milestones keep the bare `vX.Y.Z` form. Legacy tags remain valid citations when paired with a bundle name.
 
 ## Changelog
 

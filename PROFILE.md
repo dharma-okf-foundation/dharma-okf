@@ -3,7 +3,7 @@
 **Profile version:** `dharma-okf/1.0`
 **Base specification:** Open Knowledge Format **v0.2**, as specified at
 [`GoogleCloudPlatform/knowledge-catalog@3fcbb9f`](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md) (`okf/SPEC.md`)
-**Status:** Draft · **Date:** 2026-08-05 · **Maintainer:** Dharma OKF Foundation
+**Status:** Draft · **Date:** 2026-08-06 · **Maintainer:** Dharma OKF Foundation
 **Content licence:** CC BY-SA 4.0 (see `LICENSE-CONTENT`)
 
 ---
@@ -88,8 +88,9 @@ A list of mappings, each naming a specific mistranslation of the concept.
 | `id` | recommended | ASCII slug, stable across renames. |
 | `iast` | recommended on `Concept` | IAST transliteration. |
 | `devanagari` | recommended on `Concept` | Devanāgarī script form. |
-| `bundle`, `bundle_version` | recommended | Owning bundle and its content revision. Distinct from the base `okf_version` and from the git release tag — see §7. |
-| `related` | recommended | Bundle-relative paths to sibling concepts. **Advisory only** — see the traversal note in §3.1. |
+| `bundle` | recommended | The owning bundle. |
+| `bundle_version` | recommended | **The bundle revision current at the time this document was last edited** — a per-document marker, not a bundle-wide constant. Enrichment waves touch a subset of a bundle's files, so a single bundle legitimately carries two or three distinct values at once; `sankhya-darshana` currently spans `0.13.0`–`0.13.2`. The bundle-wide value is the one in that bundle's root `index.md`. Distinct from the base `okf_version` and from the git release tag — see §7. |
+| `related` | recommended | Paths to sibling concepts, **written in the bundle-absolute form** (`/concepts/karma.md`) — 1,074 of 1,075 entries at this revision. This is the form §3.1 requires bodies *not* to use; the inconsistency is real and is disclosed rather than relied upon. It is inert because `related:` is not traversed. **Advisory only** — see the traversal note in §3.1. |
 | `reception_note` | optional | How a term is distorted in contemporary reception, where that distortion is a documented historical construction rather than a simple mistranslation. Used in bundles covering commercially or politically captured vocabulary. |
 
 ### 2.4 Reference-document extensions
@@ -261,7 +262,32 @@ Four independent axes. Conflating them has caused real confusion in this project
 | Base format | `okf_version: "0.2"` | The **upstream** specification version this document targets, at the commit pinned above. Not a Dharma-OKF version. |
 | Profile | `okf_profile: "dharma-okf/1.0"` | This profile's version. |
 | Bundle content | `bundle_version` | A bundle's content revision. Patch-bumped on enrichment; see `VERSIONING.md`. |
-| Release | git tag (`v0.13.0`) | Per-bundle immutable snapshot. `main` is the living vocabulary; tags are frozen. |
+| Release | git tag (`v0.13.0`) | An immutable snapshot of the **whole repository** at a publication event, named after the bundle that occasioned it. `main` is the living vocabulary; tags are frozen. **A tag does not isolate one bundle — see §7.1.** |
+
+### 7.1 What a release tag does and does not identify — disclosed
+
+Earlier revisions of this document described a release tag as a *"per-bundle immutable snapshot."* **Measured against the remote, that is not what the tags are, and the description is withdrawn.**
+
+Tags here mark repository-wide publication events. When one commit published or enriched several bundles at once, several tags were applied to that single commit. **29 tags resolve to 18 distinct commits; 16 of the 29 share just 5 commits:**
+
+| Commit | Tags |
+|---|---|
+| `fd71535` | `v0.1.2` · `v0.3.1` · `v0.4.1` · `v0.5.1` · `v0.7.1` |
+| `e5cc501` | `v0.1.3` · `v0.2.1` · `v0.3.2` |
+| `183effd` | `v0.4.2` · `v0.5.2` · `v0.6.1` |
+| `e90f60c` | `v0.6.0` · `v0.7.0` · `v0.8.0` |
+| `3a6d595` | `v0.7.2` · `v0.8.1` |
+
+Two consequences a consumer must know:
+
+1. **A tag alone does not identify a bundle.** `v0.5.2` is the same git object as `v0.4.2` and `v0.6.1`. A citation reading "Dharma-OKF v0.5.2" is ambiguous unless the bundle is named alongside it.
+2. **Diffing two tags can return nothing.** `git diff v0.7.0 v0.8.0` is empty — they are the same commit. `VERSIONING.md` carried exactly that command as its worked example for comparing releases; it has been corrected.
+
+**These tags are not being repaired.** `VERSIONING.md` rule 4 states that tags never move, and rewriting sixteen published tags to fix a naming defect would break the one guarantee the contract actually makes. The defect is disclosed, the citation guidance is corrected to lead with the commit SHA, and the naming scheme changes going forward.
+
+**Forward scheme, from the next release.** Per-bundle tags are namespaced — `bundle/<name>/vX.Y.Z` — so a tag names exactly one bundle and cannot collide. Repository-wide milestones keep the bare `vX.Y.Z` form. Legacy tags stay exactly as they are and remain valid citations when paired with a bundle name.
+
+**How to cite this corpus.** Bundle name **and** commit SHA. The SHA is unambiguous across both schemes; a tag is not. See `VERSIONING.md` §Guidance for Consumers.
 
 **Re-pinning the base.** Moving to a newer base revision is a deliberate, dated decision recorded in `CHANGELOG.md` — never automatic, and never a silent follow of `main`. A base minor bump does not oblige a profile revision; a profile revision does not oblige a base re-pin.
 

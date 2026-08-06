@@ -2,6 +2,26 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
+## 2026-08-06 — Versioning contract correction (docs wave)
+
+No concept file touched; no release tag. Corrections to `PROFILE.md`, `VERSIONING.md` and `README.md` after an audit measured the tag namespace against the remote.
+
+**Withdrawn: "per-bundle immutable snapshot."** `PROFILE.md` §7 described a release tag that way. It is not accurate. Tags mark repository-wide publication events, and where one commit published or enriched several bundles, several tags were applied to that commit. **29 tags resolve to 18 distinct commits; 16 of the 29 share just 5.** `v0.5.2`, `v0.4.2` and `v0.6.1` are one git object; so are `v0.6.0`, `v0.7.0` and `v0.8.0`.
+
+**Corrected in `VERSIONING.md`:**
+
+- The worked example for comparing releases was `git diff v0.7.0 v0.8.0 -- okf/`. Those tags are the same commit, so the command returns **nothing**. Replaced with a SHA-scoped, per-bundle diff and a warning to resolve tags with `git rev-parse` first.
+- **Academic citation guidance now leads with the bundle name and commit SHA.** A tag may be cited in addition, never instead — a tag alone does not identify a bundle.
+- The axes table goes from three to four, adding `okf_profile` to match `PROFILE.md` §7.
+- `bundle_version` is redefined as what it has always actually been: **the bundle revision current when that document was last edited** — a per-document marker, not a bundle-wide constant. A wave touches a subset of files, so one bundle legitimately carries several values (`sankhya-darshana` spans 0.13.0–0.13.2). The bundle-wide value is the one in the bundle's root `index.md`.
+- Rule 2 now carries a **known-gap notice**: the patch-bump rule has not been applied consistently. Seven bundle-root indexes trail their newest tag, and `dharma-foundation`'s 25 concept documents carry no `bundle_version` at all. Reconciliation and backfill are scheduled.
+
+**Also corrected in `PROFILE.md` §2.3:** `related:` was described as carrying "bundle-relative paths." At this revision **1,074 of 1,075 entries use the bundle-absolute form** — the form §3.1 requires bodies not to use. Inert, because `related:` is not traversed, but disclosed rather than left misdescribed.
+
+**Corrected in `README.md`:** three rows of the bundle table listed a release older than that bundle's newest tag — `cosmology-creation` v0.7.1 → **v0.7.2**, `shakta-darshana` v0.8.0 → **v0.8.1**, `sankhya-darshana` v0.13.1 → **v0.13.2**. Banner figures (13 bundles · 310 concepts · 132 references) were re-measured and are correct.
+
+**Not repaired: the tags themselves.** `VERSIONING.md` rule 4 states tags never move. Rewriting sixteen published tags to fix a naming defect would break the contract's only real guarantee in order to tidy a cosmetic one. **Forward scheme from the next release:** per-bundle tags are namespaced `bundle/<name>/vX.Y.Z`; repository-wide milestones keep the bare `vX.Y.Z`. Legacy tags remain valid citations when paired with a bundle name.
+
 ## 2026-08 — Wave 0: de-fork and the `dharma-okf/1.0` profile (structural wave)
 
 Merge [`22b9701`](https://github.com/dharma-okf-foundation/dharma-okf/commit/22b9701) (PR #2, branch `bf5a9ed`) — **449 deletions, 5 additions/edits.** No release tag; no concept content changed.
@@ -42,7 +62,55 @@ Base specification re-pinned `780fe9d` → [`3fcbb9f`](https://github.com/Google
 
 ## 2026-07 — The Genealogy Update, Phase 2 (retrofit wave)
 
-The reverse-index files in [GENEALOGIES.md](GENEALOGIES.md) received an **Error Genealogy** section (a documented summary — named source, date, propagation chain — plus a link to the canonical genealogy), back-porting v0.8 shakta-darshana's genealogy-native standard to the older bundles. 18 files across 5 bundles.
+The files named in [GENEALOGIES.md](GENEALOGIES.md)'s Reverse Index received an **Error Genealogy** section — a documented summary (named source, date, propagation chain) plus a link to the canonical genealogy — back-porting v0.8 `shakta-darshana`'s genealogy-native standard to the older bundles.
 
-- **dharma-foundation (v0.1):** chakra (G1, G2), karma (G4), samsara (G4, partial), yoga (G5), dharma (G6), moksha (G7), maya (G8). This bundle predates the per-file `bundle
--  Tooling: extended okf_validate.py (link/slug checks) + per-bundle pytest suite added.
+**Retrofitted: 17 files across 5 bundles.**
+
+| Bundle | Files | Genealogies |
+|---|---|---|
+| `dharma-foundation` (v0.1) | chakra, karma, samsara *(partial)*, yoga, dharma, moksha, maya | G1, G2, G4, G5, G6, G7, G8 |
+| `bhakti-marga` (v0.4) | murti, puja *(partial)*, guru, nada-brahman *(partial)* | G9, G11, G13 |
+| `cosmology-creation` (v0.7) | maya-cosmological, purusha-sukta, trimurti | G8, G10, G12 |
+| `dharmic-ethics` (v0.5) | rta *(partial)*, svadharma *(partial)* | G6, G10 |
+| `vedanta-epistemology` (v0.3) | mithya *(partial)* | G8 |
+
+`shakta-darshana` (v0.8) was authored genealogy-native and needed no retrofit; its 7 genealogy-bearing files bring the corpus total carrying an Error Genealogy section to **24**.
+
+**Note on `dharma-foundation`.** This bundle predates the per-file `bundle_version` key and none of its 25 concept documents carry one, so its Phase 2 edits are recorded here rather than by a version bump. Backfilling `bundle_version` across the bundle is scheduled with the normalization pass; until then this log is the only revision record for those files.
+
+**Tooling in the same wave:** `okf/tools/okf_validate.py` extended with link-resolution and slug checks, and a per-bundle `pytest` suite added under `okf/tests/`.
+
+## 2026-06 — OKF v0.2: the structured `not:` field (format wave)
+
+The wave that gave the corpus its present shape. Recorded here because it is the dated provenance for `PROFILE.md` §2.1 and §6, and because it predates this CHANGELOG's first entry.
+
+### PR #1 — the structured-`not:` exemplar
+
+Merge [`dc137e5`](https://github.com/dharma-okf-foundation/dharma-okf/commit/dc137e5) (PR #1, branch `okf-0.2-audit`), **2026-06-24** — *"OKF v0.2: darshana, structured not, citations + references, validator"*.
+
+One file, **+15 / −8**: `okf/dharma-foundation/concepts/ahankara.md`. Small, and load-bearing — it is the first appearance in this repository of the conventions the profile is now built on:
+
+- **`not:` converted from a flat list of strings to the structured three-key form.** Before: `- Ego (Freudian)`, `- Self-identity`, `- Pride`, `- Narcissism`. After: each rejected rendering paired with a `why` explaining what the substitution imports or strips, and an `instead` giving the positive redirect. This is the `term` / `why` / `instead` structure specified in `PROFILE.md` §2.1.
+- **`darshana:` introduced** — `Sāṃkhya` on this document, the first school attribution in the corpus (§2.2).
+- **`## Key Sources` renamed `## Citations`**, with bare source names converted to links into `references/` — the body-link citation form that §2.5 records as the corpus's only source of graph edges.
+
+**Why this commit matters as provenance.** `PROFILE.md` §6 dates the structured form to 2026-06-24. `dc137e5` is that date as a git-timestamped, publicly verifiable artifact, and its diff shows both the before and the after state — evidence a reader can check without trusting this repository's own account. It is also the only change in the project's history merged through a pull request rather than committed directly to `main`, which is why a PR number exists to cite.
+
+**Scope, stated plainly:** this commit changed one document. It set the pattern; it did not roll it out.
+
+### Corpus-wide rollout, 2026-06-25 (direct to `main`)
+
+The pattern from PR #1 applied across the then-published bundles, in a sequence of direct commits: `70109d7` (bump concept `okf_version`), `181ab20` (13 reference documents; 12 receive `okf_version: 0.2`), [`f6f0f0c`](https://github.com/dharma-okf-foundation/dharma-okf/commit/f6f0f0c) (format ratification), `0420e0e` (index `okf_version` + bundle index at `0.1.1`). `yoga-darshana` and `vedanta-epistemology` were published in the same window, authored to the new form.
+
+Two disclosures about this rollout, both since acted on:
+
+- **It recorded the ratification by editing `okf/SPEC.md`** — upstream's file, vendored in this repository. That practice is what Wave 0 retired in favour of `PROFILE.md`; the edits no longer exist on `main`.
+- **The citation links it introduced use the bundle-relative absolute form** (`/references/samkhya-karika.md`), following base §6.1's recommendation. Upstream's reference viewer discards that form, so those links produce no graph edges — see `PROFILE.md` §3.1 and upstream issue [#201](https://github.com/GoogleCloudPlatform/knowledge-catalog/issues/201). This wave is the origin of the 400-link Level 2 gap, and normalising it is scheduled.
+
+### Adoption layer, 2026-06-26
+
+- **Added [INTEGRATION.md](INTEGRATION.md)** — how to make the `not:` constraint functionally binding rather than merely present: a system-prompt template injecting the positive `instead` redirect rather than a bare prohibition, a RAG negative-filter pattern, and an output check, with stated caveats about negative-prompt leakage.
+- **Added [demos/failure-vs-success.md](demos/failure-vs-success.md)** — side-by-side transcripts of downstream reasoning failures with and without the constraint applied.
+- **README reframed** around the dual-action design (boundary plus scaffold) and the v0.2 format.
+
+**Not recorded here:** the per-bundle publication history for v0.1 through v0.5. Those are the release tags' job, and duplicating them in this log would create a second record to keep in sync. See the tag list and `VERSIONING.md`.

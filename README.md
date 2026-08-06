@@ -50,13 +50,13 @@ A `not:` list in a file is a "do not enter" sign on an unlocked door. The model 
 | `okf/bhakti-marga/` | v0.4.2 | 15 | 9 | The vocabulary of the devotional path | [graph](okf/bhakti-marga/viz.html) |
 | `okf/dharmic-ethics/` | v0.5.2 | 15 | 6 | Yama–Niyama and the ethical-social vocabulary of dharma | [graph](okf/dharmic-ethics/viz.html) |
 | `okf/upanishadic-core/` | v0.6.1 | 26 | 16 | Core Upaniṣadic vocabulary across the Vedānta schools — mahāvākyas, Ātman–Brahman, self-knowledge | [graph](okf/upanishadic-core/viz.html) |
-| `okf/cosmology-creation/` | v0.7.1 | 26 | 12 | Vedic & Purāṇic vocabulary of time, cosmos, and manifestation | [graph](okf/cosmology-creation/viz.html) |
-| `okf/shakta-darshana/` | v0.8.0 | 26 | 12 | Śākta-Tāntric metaphysics of Śakti, Devī, and consciousness-power | [graph](okf/shakta-darshana/viz.html) |
+| `okf/cosmology-creation/` | v0.7.2 | 26 | 12 | Vedic & Purāṇic vocabulary of time, cosmos, and manifestation | [graph](okf/cosmology-creation/viz.html) |
+| `okf/shakta-darshana/` | v0.8.1 | 26 | 12 | Śākta-Tāntric metaphysics of Śakti, Devī, and consciousness-power | [graph](okf/shakta-darshana/viz.html) |
 | `okf/nyaya-vaisheshika/` | v0.9.0 | 27 | 10 | The science of inference and debate — Nyāya apparatus + Vaiśeṣika realist ontology | [graph](okf/nyaya-vaisheshika/viz.html) |
 | `okf/mimamsa-dharma/` | v0.10.0 | 25 | 7 | Mīmāṃsā ritual hermeneutics — vidhi, apūrva, and language-as-action | [graph](okf/mimamsa-dharma/viz.html) |
 | `okf/ayurveda-consciousness/` | v0.11.0 | 26 | 8 | Āyurvedic vocabulary of consciousness, constitution, and health | [graph](okf/ayurveda-consciousness/viz.html) |
 | `okf/jyotisha-kala/` | v0.12.0 | 26 | 8 | Jyotiṣa vocabulary of time — pañcāṅga, kāla-reckoning, and the sidereal celestial frame | [graph](okf/jyotisha-kala/viz.html) |
-| `okf/sankhya-darshana/` | v0.13.1 | 20 | 7 | Sāṃkhya's dualist causal theory and discriminative path to kaivalya — completes the six classical darśanas | [graph](okf/sankhya-darshana/viz.html) |
+| `okf/sankhya-darshana/` | v0.13.2 | 20 | 7 | Sāṃkhya's dualist causal theory and discriminative path to kaivalya — completes the six classical darśanas | [graph](okf/sankhya-darshana/viz.html) |
 | **Total** | | **310** | **132** | **13 bundles spanning the six āstika darśanas + the devotional, ethical, cosmological, medical, and calendrical corpora** |  |
 
 ## Update contract & documented error genealogies
