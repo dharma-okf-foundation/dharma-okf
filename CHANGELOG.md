@@ -2,6 +2,37 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
+## 2026-08-06 — Bundle-root index reconciliation (metadata wave)
+
+No concept document touched; no release tag. Closes the `bundle_version` half of the known gap that the versioning correction (below) had disclosed hours earlier.
+
+**Seven bundle-root `index.md` files carried a content revision older than their bundle's newest release tag.** Each is now reconciled:
+
+| Bundle | Was | Now |
+|---|---|---|
+| `dharma-foundation` | `version: "0.1.1"` | **`"0.1.3"`** |
+| `yoga-darshana` | `version: "0.2.0"` | **`"0.2.1"`** |
+| `vedanta-epistemology` | `version: "0.3.0"` | **`"0.3.2"`** |
+| `bhakti-marga` | `version: "0.4.0"` | **`"0.4.2"`** |
+| `dharmic-ethics` | `version: "0.5.0"` | **`"0.5.2"`** |
+| `shakta-darshana` | `version: "0.8.0"` | **`"0.8.1"`** |
+| `sankhya-darshana` | `bundle_version: 0.13.0` *(unquoted)* | **`"0.13.2"`** |
+
+`upanishadic-core` (0.6.1) and `cosmology-creation` (0.7.2) already matched; the four newest bundles have never had a patch bump. Every target was read from `git ls-remote --tags`, per the standing rule that versions are read from the remote and never from a planning document.
+
+**Each target was checked against post-tag history, not merely matched to the tag.** Where commits landed after a bundle's newest tag they were `viz.html` regenerations (a generated artifact) or the Wave 0 `sources:`-shape fix — corrections under `VERSIONING.md` rule 1, which owe no bump. No bundle was owed a *higher* number than its newest tag.
+
+> **`dharma-foundation` is `0.1.3`, deliberately not `0.1.4`.** `v0.1.4` is reserved for the forthcoming Level 3 retrofit of this bundle. Bumping the index into that number now would consume a planned tag and recreate the collision this project has already hit once.
+
+**Key names left as found.** Six bundles use `version:` and one uses `bundle_version:`. `PROFILE.md` §1.1 discloses the bundle-root frontmatter block by name and `version` appears in that published list, so renaming would falsify a disclosure to gain nothing — no tooling reads either key. Unifying the key name is deferred to the normalization pass, where §1.1 can be updated in the same wave.
+
+**Also fixed in `okf/dharma-foundation/index.md`,** two stale links open since Wave 0:
+
+- the OKF reference pointed at `github.com/google/open-knowledge-format`, which does not resolve. It now points at the **pinned-SHA specification URL already used by `PROFILE.md` and `README.md`**, so all three cite the base identically, at the pin and never at `main`.
+- the contributor line pointed at `github.com/kdschampions/dharma-okf-toolkit`, a different repository, contradicting the root `CONTRIBUTING.md` that Wave 0 added. It now points at `CONTRIBUTING.md`, `PROFILE.md`, and `okf/tools/`, in the relative form §3.1 requires.
+
+**Still open on this axis:** `dharma-foundation`'s 25 concept documents carry no `bundle_version` at all — the bundle predates the key. That backfill is scheduled with the normalization pass.
+
 ## 2026-08-06 — Versioning contract correction (docs wave)
 
 No concept file touched; no release tag. Corrections to `PROFILE.md`, `VERSIONING.md` and `README.md` after an audit measured the tag namespace against the remote.

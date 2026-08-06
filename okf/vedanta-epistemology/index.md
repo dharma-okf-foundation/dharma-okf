@@ -2,7 +2,7 @@
 type: Collection
 title: "Vedānta-Epistemology — Pramāṇa Śāstra Vocabulary"
 description: "The vocabulary of Vedantic epistemology (pramāṇa śāstra) — 27 concepts: the cross-darśana pramāṇas, the Advaita epistemological framework, and liberation-epistemology. Primary school Advaita Vedānta; cross-darśana pramāṇas shared with Nyāya and Mīmāṃsā."
-version: "0.3.0"
+version: "0.3.2"
 darshana:
   - Advaita Vedānta
   - Mīmāṃsā

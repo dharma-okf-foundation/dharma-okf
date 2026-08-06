@@ -2,7 +2,7 @@
 type: Collection
 title: "Dharma Foundation — Sanskrit Non-Translatable Vocabulary"
 description: "The foundational vocabulary of Sanātana Dharma — 25 Sanskrit concepts that cannot be translated into English without loss of meaning. Each entry preserves etymology, precise definition, non-translation warnings, and cross-references. Designed as the gravitational core for AI agents, knowledge systems, and educators seeking authentic Dharmic knowledge."
-version: "0.1.1"
+version: "0.1.3"
 tags:
   - Sanskrit
   - Vedanta
@@ -43,7 +43,7 @@ okf_version: "0.2"
 
 # Dharma Foundation — Sanskrit Non-Translatable Vocabulary
 
-The first open-standard vocabulary of Sanātana Dharma concepts published in [Open Knowledge Format (OKF)](https://github.com/google/open-knowledge-format).
+The first open-standard vocabulary of Sanātana Dharma concepts published in [Open Knowledge Format (OKF)](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md).
 
 ## Why This Exists
 
@@ -109,7 +109,7 @@ Read this before consuming any concept file.
 
 ## Contributing
 
-This is a living vocabulary. See the [dharma-okf-toolkit](https://github.com/kdschampions/dharma-okf-toolkit) for contributor guidelines, type taxonomy, and validation tools.
+This is a living vocabulary. See [CONTRIBUTING.md](../../CONTRIBUTING.md) for contributor guidelines and [PROFILE.md](../../PROFILE.md) for the type taxonomy and profile rules; validation tooling lives in [`okf/tools/`](../tools/).
 
 ## License
 

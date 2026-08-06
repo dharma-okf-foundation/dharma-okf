@@ -2,7 +2,7 @@
 type: Collection
 title: "Yoga Darśana — Pātañjala Yoga Vocabulary"
 description: "The technical lexicon of Patañjali Yoga Sūtras as a distinct darśana — 26 Sanskrit non-translatable concepts. Enforces the cross-darśana distinction: Kaivalya is not Mokṣa; Puruṣa is not Ātman/Brahman."
-version: "0.2.0"
+version: "0.2.1"
 darshana:
   - Pātañjala Yoga
   - Sāṃkhya

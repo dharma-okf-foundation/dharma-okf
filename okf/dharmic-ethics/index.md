@@ -2,7 +2,7 @@
 type: Collection
 title: "Dharmic-Ethics — Yama-Niyama and the Ethical-Social Vocabulary of Dharma"
 description: "The vocabulary of dharmic ethics: 15 concepts across three tiers — the five yamas (universal restraints), the five niyamas (inner observances), and dharma in action (the cosmic and social frame). Pan-dharmic (sādhāraṇa-dharma), anchored in Yoga Darśana, the Bhagavad Gītā, Dharmaśāstra, and the Vedic conception of ṛta. Ethics as alignment, not commandment."
-version: "0.5.0"
+version: "0.5.2"
 darshana:
   - pan-dharmic (sādhāraṇa-dharma)
   - Yoga Darśana

@@ -1,7 +1,7 @@
 ---
 type: Bundle
 bundle: shakta-darshana
-version: "0.8.0"
+version: "0.8.1"
 title: "Śākta Darśana — the vocabulary of Śakti, Devī, and the Tāntric metaphysics of consciousness-power"
 description: "26 concepts + 12 references covering the Śākta metaphysical vocabulary: Devī as ultimate reality, cit-śakti, spanda, pratyabhijñā, the 36 tattvas, and the gateway terms (tantra, kuṇḍalinī, cakra, śakti) that AI systems most confidently mistranslate."
 darshana:
