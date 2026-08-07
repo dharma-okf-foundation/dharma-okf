@@ -1,3 +1,10 @@
 .DS_Store
 node_modules/
 .venv/
+
+# Python — mirrors okf/.gitignore so bytecode cannot be committed from the repo root
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/

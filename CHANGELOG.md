@@ -2,6 +2,16 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
+## 2026-08-06 — Licensing scope and repository hygiene (docs wave)
+
+No concept document touched; no release tag.
+
+**Licensing stated by scope, not by inheritance.** `README.md` described the Apache licence as *"inherited from the upstream GoogleCloudPlatform fork."* That was inaccurate. `okf/tools/` has no counterpart in the upstream repository, and the validator imports the upstream parser *optionally* rather than embedding it — the code is this project's own work. The README now states both licences by scope: **CC BY-SA 4.0** for the corpus and the repository prose (`LICENSE-CONTENT`), **Apache 2.0 © Dharma OKF Foundation** for `okf/tools/` and `okf/tests/` (`LICENSE.md`, scope in the new `NOTICE`).
+
+**Added [NOTICE](NOTICE):** the copyright line and the licence-scope boundary, in the conventional place. `LICENSE.md` itself is unchanged — the Apache 2.0 text is reproduced verbatim, as it must be.
+
+**Removed committed bytecode.** `okf/tools/__pycache__/okf_validate.cpython-310.pyc` was tracked. `okf/.gitignore` already listed `__pycache__/`, but an ignore rule does not untrack an existing file. Deleted, and the **root `.gitignore`** now mirrors the Python ignores so bytecode cannot be committed from outside `okf/`.
+
 ## 2026-08-06 — Bundle-root index reconciliation (metadata wave)
 
 No concept document touched; no release tag. Closes the `bundle_version` half of the known gap that the versioning correction (below) had disclosed hours earlier.

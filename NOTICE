@@ -1,0 +1,22 @@
+Dharma-OKF
+Copyright 2026 Dharma OKF Foundation
+
+This repository carries two licences, by scope.
+
+CODE — Apache License 2.0 (see LICENSE.md)
+  okf/tools/   the OKF bundle validator
+  okf/tests/   the per-bundle regression suite
+
+  These are the Dharma OKF Foundation's own work. The validator imports the
+  upstream OKF reference parser (enrichment_agent.bundle.document) when it is
+  importable and falls back to an equivalent local parser when it is not; no
+  upstream source is embedded in this repository.
+
+CONTENT — Creative Commons Attribution-ShareAlike 4.0 (see LICENSE-CONTENT)
+  okf/<bundle>/   all 442 concept and reference documents, and the bundle indexes
+  *.md at the repository root   PROFILE, README, GENEALOGIES, VERSIONING,
+                                CHANGELOG, INTEGRATION, CONTRIBUTING, demos/
+
+The base specification this corpus profiles — the Open Knowledge Format, cited
+at a pinned commit in PROFILE.md — is the work of its own authors under its own
+licence and is neither vendored nor redistributed here.

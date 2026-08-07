@@ -76,11 +76,16 @@ Each concept file contains:
 
 Full specification: the base format is [Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md), pinned at commit `3fcbb9f`. This repository's extensions and stricter rules are documented in [`PROFILE.md`](PROFILE.md) — §2 covers `darshana` and the structured `not:` with `instead`, §2.5 per-claim attribution, §3.2 the required `references/` sub-bundle.
 
-## Content License
+## Licensing
 
-The concept files in `/okf/` are licensed under **CC BY-SA 4.0** (ShareAlike). See [LICENSE-CONTENT](./LICENSE-CONTENT) for details.
+Two licences, by scope. Nothing in this repository is licensed by inheritance.
 
-Repository tooling is under Apache 2.0 (inherited from the upstream GoogleCloudPlatform fork).
+| Scope | Licence | File |
+|---|---|---|
+| **The corpus** — every document under `okf/<bundle>/`, and the repository-root prose documents | **CC BY-SA 4.0** (ShareAlike) | [LICENSE-CONTENT](./LICENSE-CONTENT) |
+| **The code** — `okf/tools/` (the validator) and `okf/tests/` (the regression suite) | **Apache 2.0**, © Dharma OKF Foundation | [LICENSE.md](./LICENSE.md), scope stated in [NOTICE](./NOTICE) |
+
+An earlier revision of this section described the Apache licence as *"inherited from the upstream GoogleCloudPlatform fork."* That was inaccurate: `okf/tools/` has no counterpart upstream, and the validator imports the upstream parser optionally rather than embedding it. The code is this project's own work and is licensed deliberately, not by inheritance.
 
 ## Contributing
 
