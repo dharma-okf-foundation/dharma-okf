@@ -12,6 +12,44 @@ No concept document touched; no release tag.
 
 **Removed committed bytecode.** `okf/tools/__pycache__/okf_validate.cpython-310.pyc` was tracked. `okf/.gitignore` already listed `__pycache__/`, but an ignore rule does not untrack an existing file. Deleted, and the **root `.gitignore`** now mirrors the Python ignores so bytecode cannot be committed from outside `okf/`.
 
+## 2026-09-06 — The two-layer checker, and Level 2 re-specified (tooling + docs wave)
+
+No concept document touched; no release tag. Two commits: the checker (`852dd33`), then this documentation of what it measured.
+
+### The checker
+
+`okf/tools/okf_validate.py` gains a **profile layer**, answering §8's own commitment. It now reports **base conformance** (§1) and **profile conformance** (§5) separately, so a consumer can distinguish *"this is not OKF"* from *"this is OKF but not this profile."*
+
+**Layer 1 — `validate()` — is behaviourally unchanged.** Verified byte-identical output across all 13 bundles before and after. That is not caution: the two layers answer different questions and conflating them would make base conformance depend on profile rules, which is precisely what profiling exists to avoid.
+
+**Layer 2 adds three rules that no previous check carried**, each enforcing a §3 requirement that was until now unenforced:
+
+| Rule | Enforces | Found |
+|---|---|---|
+| link **form** | §3.1 — relative form in bodies | **400** bundle-absolute links across 5 bundles |
+| citation **integrity** | §2.5 — body links are the sole source of graph edges | **97** bracket-only `[x.md]` + **56** bare-path forms |
+| `index.md` **presence** | §3.4 — progressive disclosure | **21 of 39** directories |
+
+New flags: `--profile`, `--profile-strict`, `--require-level`, `--json`, `--corpus`. `okf/tests/test_profile_layer.py` locks every §5 figure so the table cannot drift without a test failing.
+
+### Level 2 re-specified — the presence floor
+
+The rule tested link **form** alone. **It therefore certified bundles that had no links to get wrong.** Two of the eight bundles previously scored conformant — `upanishadic-core` and `cosmology-creation` — contribute **no graph edges at all**: their citations are written `see [references/x.md]` or `see references/x.md`, neither of which is a markdown link. Meanwhile `dharma-foundation`, with the corpus's largest relationship graph, scored non-conformant on a mechanically fixable prefix.
+
+**Level 2 now requires all three:** (a) relative form, (b) **every `Concept` carries ≥1 resolvable body link**, (c) zero bracket-only or bare-path citation forms.
+
+**§5 re-scores Level 2 from 8/13 to 5/13.** Conformant: `ayurveda-consciousness`, `jyotisha-kala`, `mimamsa-dharma`, `nyaya-vaisheshika`, `shakta-darshana`.
+
+**This is a downward revision of a published claim, made deliberately.** Three bundles lose a level they were never entitled to. An honest 5 is worth more than an unearned 8, and a conformance table that cannot drop a bundle is not measuring anything.
+
+### §5 is now generated, not maintained
+
+The coverage table is emitted by `--json` and pasted without edit. It had been kept by hand and had drifted — the 8/13 above is what hand-maintenance produced. **A hand-maintained conformance table is a claim; a generated one is a measurement.**
+
+### Nothing in the corpus changed
+
+The 400 links, 21 missing indexes and 153 malformed citation forms are all still present. This wave builds the instrument and reports the reading. Repair is the normalization wave, which the checker now exists to verify.
+
 ## 2026-08-06 — Bundle-root index reconciliation (metadata wave)
 
 No concept document touched; no release tag. Closes the `bundle_version` half of the known gap that the versioning correction (below) had disclosed hours earlier.

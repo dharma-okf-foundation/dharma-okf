@@ -3,7 +3,7 @@
 **Profile version:** `dharma-okf/1.0`
 **Base specification:** Open Knowledge Format **v0.2**, as specified at
 [`GoogleCloudPlatform/knowledge-catalog@3fcbb9f`](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md) (`okf/SPEC.md`)
-**Status:** Draft · **Date:** 2026-08-06 · **Maintainer:** Dharma OKF Foundation
+**Status:** Draft · **Date:** 2026-09-06 · **Maintainer:** Dharma OKF Foundation
 **Content licence:** CC BY-SA 4.0 (see `LICENSE-CONTENT`)
 
 ---
@@ -166,7 +166,7 @@ Base §8 says an `index.md` **MAY** appear in any directory. This profile requir
 
 The reason is the corpus's primary consumer. An agent traversing a bundle one level at a time cannot see what a directory holds without an index; it must either load every file or guess. For a 442-document corpus intended for context-window-bounded consumption, progressive disclosure is not a nicety.
 
-**Measured state at this revision: 18 of 39 directories carry an `index.md`; 21 do not.** Every `concepts/` directory in all thirteen bundles is missing one, as are the `references/` directories in the eight bundles from `upanishadic-core` forward. The five earliest bundles carry `references/index.md` but not `concepts/index.md`.
+**Measured state at this revision (machine-checked, §8): 18 of 39 directories carry an `index.md`; 21 do not.** Every `concepts/` directory in all thirteen bundles is missing one, as are the `references/` directories in the eight bundles from `upanishadic-core` forward. The five earliest bundles carry `references/index.md` but not `concepts/index.md`.
 
 Bundle-root `index.md` files exist in all thirteen bundles and enumerate their concepts, so the corpus is navigable — but only from the root, in one hop, with no intermediate listing. Scheduled with the normalization work in §5.
 
@@ -198,17 +198,31 @@ Base §4.1 recommends `resource` as a URI for the underlying asset a concept des
 
 ## 5. Conformance levels and current coverage
 
-Conformance is stated as levels, each independently checkable, with the corpus's actual position at this revision. **This table is the honest state of the corpus, not an aspiration.** It is updated with each wave and is machine-checkable (§8).
+Conformance is stated as levels, each independently checkable, with the corpus's actual position at this revision. **This table is the honest state of the corpus, not an aspiration.**
+
+**It is generated, not maintained.** Every figure below is emitted by `okf/tools/okf_validate.py --corpus --profile --json` (§8) and pasted without edit. Until 2026-09-06 it was kept by hand and had drifted — Level 2 read 8/13 while two of those eight bundles had no relationship graph at all. A hand-maintained conformance table is a claim; a generated one is a measurement.
 
 | Level | Requirement | Bundles conformant |
 |---|---|---|
 | **0 — Base** | Satisfies base §11 (parseable frontmatter, non-empty `type`, §8/§9 reserved files) | **13 / 13** |
 | **1 — Profile core** | Every `Concept` carries `not:` and `darshana:`; a `references/` sub-bundle is present (§2.1, §2.2, §3.2) | **13 / 13** |
-| **2 — Graph interoperable** | Body links use the relative form only (§3.1) | **8 / 13** |
+| **2 — Graph interoperable** | **(a) form** — body links use the relative form only (§3.1) · **(b) presence** — every `Concept` carries ≥1 resolvable body link · **(c) integrity** — zero bracket-only or bare-path citation forms | **5 / 13** |
 | **2b — Progressive disclosure** | Every directory holding concepts carries a base §8 `index.md` (§3.4) | **0 / 13** |
 | **3 — Trust and provenance** | `generated:`, `verified: { by: human:… }`, `sources:` with footnote attribution, and `okf_profile:` present on every document (§2.5, §3.3) | **0 / 13** |
 
-**Level 2 gap (5 bundles, 400 links).** `dharma-foundation` (136 absolute links of 183), `vedanta-epistemology` (89), `yoga-darshana` (84), `bhakti-marga` (46), `dharmic-ethics` (45). All five predate the convention change at `upanishadic-core`; every bundle from that point on is already Level 2. Scheduled for a dedicated normalization wave.
+**Level 2 re-specified 2026-09-06 — the presence floor.** The rule previously tested link *form* alone. It therefore awarded Level 2 to bundles that had **no links to get wrong**, and withheld it from the bundle with the largest relationship graph. Two of the eight bundles then scored conformant — `upanishadic-core` and `cosmology-creation` — contribute **no graph edges whatsoever**. A rule that rewards absence over a fixable defect is measuring the wrong thing, and clause (b) is the correction: it is the same logic as the Level 3 pilot gate (*edge count ≥ 90% of resolvable body links*), applied one level down where it belongs.
+
+**Level 2 gap (8 bundles), by failure mode:**
+
+| Failure | Bundles | Measured |
+|---|---|---|
+| **(a) form** — bundle-absolute body links | `dharma-foundation` 136 · `vedanta-epistemology` 89 · `yoga-darshana` 84 · `bhakti-marga` 46 · `dharmic-ethics` 45 | **400 links** |
+| **(b) presence** — `Concept` documents with no resolvable body link | `upanishadic-core` 26 · `cosmology-creation` 23 · `sankhya-darshana` 1 | **50 concepts** |
+| **(c) integrity** — citation forms that render as literal text and produce no edge | `upanishadic-core` 97 bracket-only + 1 bare-path · `cosmology-creation` 55 bare-path | **153 forms** |
+
+**Conformant at Level 2:** `ayurveda-consciousness`, `jyotisha-kala`, `mimamsa-dharma`, `nyaya-vaisheshika`, `shakta-darshana`.
+
+The (a) gap is confined to the five bundles predating the convention change at `upanishadic-core`. The (b) and (c) gaps are a different and previously undisclosed defect: **a citation written `see [references/x.md]` or `see references/x.md` is not a link at all**, so §2.5's graph edges were never created. All three are mechanical and scheduled together in the normalization wave.
 
 **Level 2b gap (13 bundles, 21 directories).** No bundle is yet complete. The two gaps are inversely distributed — the five oldest bundles have `references/index.md` but absolute links; the eight newest have relative links but no sub-directory indexes. Both are mechanical and are scheduled together in the normalization wave, since they touch the same five-versus-eight split from opposite directions.
 
@@ -307,7 +321,20 @@ Two consequences a consumer must know:
 
 Profile conformance is machine-checkable, not merely asserted. A profile whose rules cannot be tested is a preference.
 
-`okf/tools/okf_validate.py` checks bundle integrity and link resolution today. It is being extended into a two-layer checker that reports **base conformance** (§1) and **profile conformance** (§5 levels 1–3) separately, so a consumer can tell "this is not OKF" from "this is OKF but not this profile."
+`okf/tools/okf_validate.py` **is** that two-layer checker, as of 2026-09-06. It reports **base conformance** (§1) and **profile conformance** (§5 levels 0–3) separately, so a consumer can tell "this is not OKF" from "this is OKF but not this profile."
+
+```bash
+python3 okf/tools/okf_validate.py <bundle>                      # Layer 1 — base only
+python3 okf/tools/okf_validate.py okf --corpus --profile        # Layer 2 — the §5 table
+python3 okf/tools/okf_validate.py okf --corpus --profile-strict --require-level 2
+python3 okf/tools/okf_validate.py okf --corpus --json report.json
+```
+
+**The layers are deliberately independent.** Layer 1's behaviour is unchanged by the addition of Layer 2 — a bundle that fails every profile rule still exits 0 on a base run, because base conformance is a separate question and this document's whole architecture depends on the two not being conflated.
+
+**Three rules Layer 1 does not carry**, each enforcing a §3 requirement that was previously unenforced: link **form** (§3.1), citation **integrity** — bracket-only `[x.md]` and bare-path forms that render as literal text and produce no graph edge — and `index.md` **presence** (§3.4). Their absence is why §3.1 and §3.4 were, by this section's own standard, preferences rather than rules until this revision.
+
+`okf/tests/test_profile_layer.py` locks every figure in §5 against the corpus, so the table cannot drift without a test failing.
 
 Base consumers need none of this. A bundle that fails every profile rule in §3 is still a conformant OKF bundle under base §11, and will still load, render, and be useful. That is the point of profiling rather than forking.
 
