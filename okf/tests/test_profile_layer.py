@@ -40,8 +40,9 @@ EXPECTED_TOTALS = {
     "concepts_without_links": 50,
     "dirs_missing_index": 21,
     "dirs_with_concepts": 26,
-    "related_absolute": 1074,
+    "related_absolute": 1499,
     "related_relative": 1,
+    "escaping_links": 28,
 }
 EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 5, "2b": 0, "3": 0}
 EXPECTED_CORPUS = {"bundles": 13, "concepts": 310, "references": 132, "documents": 442}
@@ -142,6 +143,44 @@ def test_level_2_presence_floor_drops_the_edgeless_bundles(report):
 def test_no_bundle_reaches_level_2b_or_3(report):
     assert not any(b["level_2b"] for b in report["bundles"])
     assert not any(b["level_3"] for b in report["bundles"])
+
+
+def test_related_parser_reads_unindented_lists(report):
+    """The 2026-09-06 checker defect, locked so it cannot come back.
+
+    `_related_entries` required an INDENTED list item. 124 of the 322 files
+    carrying `related:` write it flush against the margin, and five bundles
+    therefore reported zero entries while holding 425 between them. Those five
+    are the assertion: if the parser regresses, they go back to zero.
+    """
+    per = {b["bundle"]: b["links"]["related_absolute"] for b in report["bundles"]}
+    formerly_invisible = {
+        "ayurveda-consciousness": 97, "jyotisha-kala": 91, "mimamsa-dharma": 79,
+        "nyaya-vaisheshika": 110, "sankhya-darshana": 48,
+    }
+    assert {k: per[k] for k in formerly_invisible} == formerly_invisible
+    assert sum(per.values()) == 1499
+
+
+def test_escaping_links_are_reported_but_never_scored(report):
+    """§3.1 discloses that some body links leave the bundle root.
+
+    26 point at the repository-root GENEALOGIES.md; 2 are cross-bundle. A
+    base-conformant resolver may drop all of them (open-knowledge-format#14,
+    acceptance criterion 5). The profile permits them; the count is what keeps
+    the disclosure honest. It must never affect a level.
+    """
+    per = {b["bundle"]: b["links"]["escaping"]
+           for b in report["bundles"] if b["links"]["escaping"]}
+    assert per == {
+        "bhakti-marga": 4, "cosmology-creation": 3, "dharma-foundation": 8,
+        "dharmic-ethics": 2, "shakta-darshana": 9, "vedanta-epistemology": 2,
+    }
+    assert sum(per.values()) == 28
+    # scoring is untouched: five bundles still pass Level 2, and two of the
+    # bundles carrying escaping links are among them.
+    passing = {b["bundle"] for b in report["bundles"] if b["level_2"]}
+    assert passing == EXPECTED_LEVEL_2_PASS
 
 
 def test_no_unresolved_body_links(report):
