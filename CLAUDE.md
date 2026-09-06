@@ -2,7 +2,7 @@
 
 This repository publishes **Dharma-OKF**, a profile of the Open Knowledge Format. Read `PROFILE.md` before changing anything; it is normative and this file is its operational summary. Where the two disagree, `PROFILE.md` wins and this file is the bug.
 
-**Base spec:** OKF v0.2 at `GoogleCloudPlatform/knowledge-catalog@3fcbb9f`. **Profile:** `dharma-okf/1.0`.
+**Base spec:** OKF v0.2 at `GoogleCloudPlatform/open-knowledge-format@ad30107`. **Profile:** `dharma-okf/1.0`.
 **Corpus:** 442 concept documents in 13 bundles — 310 `type: Concept`, 132 `type: Reference`.
 
 ---
@@ -127,7 +127,7 @@ The mirror is the source of truth for what is published. Never push from a local
 
 ## Reading upstream
 
-Always read the base spec and its source **at the pinned commit `3fcbb9f`**, never at `main`.
+Always read the base spec and its source **at the pinned commit `ad30107`** in `GoogleCloudPlatform/open-knowledge-format`, never at `main`. The `okf/` directory in `GoogleCloudPlatform/knowledge-catalog` is a frozen snapshot upstream has declared unmaintained — do not read the spec there.
 
 > **Never press GitHub's "Sync fork" button on this repository.** Upstream has modified files this repo deleted (`okf/SPEC.md`, `toolbox/mdcode/*`), so a sync hits delete-vs-modify conflicts and GitHub's fallback offer is "Discard commits" — which discards *ours*, not theirs. Detaching the fork is an open follow-up; until then, the button is one click from losing the corpus.
 

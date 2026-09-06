@@ -74,7 +74,7 @@ Each concept file contains:
 - **## Audience Metaphor** — an accessible analogy engineered for AI and general comprehension
 - **## Citations** — primary śāstra references, linked into a `references/` sub-bundle of first-class `type: Reference` concepts
 
-Full specification: the base format is [Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md), pinned at commit `3fcbb9f`. This repository's extensions and stricter rules are documented in [`PROFILE.md`](PROFILE.md) — §2 covers `darshana` and the structured `not:` with `instead`, §2.5 per-claim attribution, §3.2 the required `references/` sub-bundle.
+Full specification: the base format is [Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md), pinned at commit `ad30107`. This repository's extensions and stricter rules are documented in [`PROFILE.md`](PROFILE.md) — §2 covers `darshana` and the structured `not:` with `instead`, §2.5 per-claim attribution, §3.2 the required `references/` sub-bundle.
 
 ## Licensing
 

@@ -2,7 +2,7 @@
 
 **Profile version:** `dharma-okf/1.0`
 **Base specification:** Open Knowledge Format **v0.2**, as specified at
-[`GoogleCloudPlatform/knowledge-catalog@3fcbb9f`](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md) (`okf/SPEC.md`)
+[`GoogleCloudPlatform/open-knowledge-format@ad30107`](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md) (`SPEC.md`)
 **Status:** Draft · **Date:** 2026-09-06 · **Maintainer:** Dharma OKF Foundation
 **Content licence:** CC BY-SA 4.0 (see `LICENSE-CONTENT`)
 
@@ -309,11 +309,18 @@ Two consequences a consumer must know:
 
 | ID | Date | From → To | Reason |
 |---|---|---|---|
+| **RP-002** | 2026-09-06 | `GoogleCloudPlatform/knowledge-catalog@3fcbb9f` → [`GoogleCloudPlatform/open-knowledge-format@ad30107`](https://github.com/GoogleCloudPlatform/open-knowledge-format/commit/ad30107c31c06aec8a7d5636e0d1058118604e6f) | **Upstream relocated the specification.** OKF moved to a dedicated repository on 2026-08-14; on 2026-08-21 the former location was declared a frozen snapshot, no longer maintained. Specification delta across the move is confined to a single change: every timestamp-valued key is stated as an ISO 8601 datetime with an explicit UTC offset (upstream `62432a0`). Verified `diff 3fcbb9f:okf/SPEC.md → ad30107:SPEC.md` = 19 removed / 22 added lines, all of it that change. §6 link forms, §11 conformance, and the type system are unchanged. Assessed as **descriptive, not normative**: the accompanying “not conformant” prose and the §11 consumer MUST were both removed upstream before publication. No behavioural effect on this corpus, which uses no `stale_after`, `usage_window`, or `last_modified`. No profile rule is affected; no bundle requires revision. |
 | **RP-001** | 2026-08-05 | `780fe9d` → [`3fcbb9f`](https://github.com/GoogleCloudPlatform/knowledge-catalog/commit/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96) | Upstream removed "(Draft)" from the OKF v0.2 version line. Specification text otherwise unchanged — a one-line reclassification from provisional to final. Verified: `git diff 780fe9d..3fcbb9f -- okf/SPEC.md` is that single line. No profile rule is affected; no bundle requires revision. |
+
+**Provenance note on RP-002 — a downgrade, recorded.** §6 argues that `780fe9d` persists independently of its origin because fork-network members share a git object store. **That argument does not transfer.** `open-knowledge-format` is a fresh repository with its own root commit (`81f3689`, 2026-08-14) and six commits total; it is not a fork of `knowledge-catalog`, and neither repository can resolve the other's objects — verified by `git cat-file` in both directions. The new pin is therefore held in one place, not many. This is a genuine reduction in citation durability and is accepted rather than glossed: the alternative is pinning to a location its own maintainers have declared unmaintained.
+
+**Upstream state at RP-002.** HEAD `ad30107` has not moved since 2026-08-21. Upstream issue [#201](https://github.com/GoogleCloudPlatform/knowledge-catalog/issues/201) — the viewer's handling of the very link form §6 recommends — remains **open and unanswered** after seven weeks, and `_extract_links` is **byte-identical** in the new repository. **The §3.1 divergence therefore stands, now verified against the canonical codebase rather than a frozen one.**
 
 **Upstream state at RP-001.** Two further commits exist on upstream `main` (`599a240`, `930b65f`, both 2026-08-04), confined to `toolbox/mdcode` — Semantic Model IR and BigQuery property-graph DDL. Neither touches `okf/SPEC.md` nor the reference viewer, so the §3.1 link-handling divergence stands unresolved as of this pin.
 
-**Watch item.** Upstream's `toolbox/mdcode/demo/README.md` references the format as `github.com/google/okf`, a repository that does not presently resolve. If the base specification relocates, the citation in this document is updated as a §7 re-pinning decision.
+**Watch item — fired 2026-09-06.** This section previously recorded that upstream referenced the format as `github.com/google/okf`, a repository that did not then resolve, and pre-committed the response: *"if the base specification relocates, the citation in this document is updated as a §7 re-pinning decision."*
+
+It relocated. `GoogleCloudPlatform/open-knowledge-format` was created 2026-08-14; on 2026-08-21 upstream's `okf/README.md` declared the former location **"a frozen snapshot, no longer maintained"** and directed readers to file issues and pull requests at the new repository. The citation is updated as **RP-002**, above.
 
 ---
 
@@ -348,4 +355,4 @@ Base consumers need none of this. A bundle that fails every profile rule in §3 
 
 ---
 
-*Dharma OKF Foundation · profile `dharma-okf/1.0` · base OKF v0.2 @ `3fcbb9f` · re-pinned 2026-08-05 (RP-001)*
+*Dharma OKF Foundation · profile `dharma-okf/1.0` · base OKF v0.2 @ `ad30107` · re-pinned 2026-09-06 (RP-002)*

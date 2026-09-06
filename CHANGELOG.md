@@ -2,15 +2,31 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
-## 2026-08-06 — Licensing scope and repository hygiene (docs wave)
+## 2026-09-06 — Base specification re-pinned to its new home (docs wave · RP-002)
 
 No concept document touched; no release tag.
 
-**Licensing stated by scope, not by inheritance.** `README.md` described the Apache licence as *"inherited from the upstream GoogleCloudPlatform fork."* That was inaccurate. `okf/tools/` has no counterpart in the upstream repository, and the validator imports the upstream parser *optionally* rather than embedding it — the code is this project's own work. The README now states both licences by scope: **CC BY-SA 4.0** for the corpus and the repository prose (`LICENSE-CONTENT`), **Apache 2.0 © Dharma OKF Foundation** for `okf/tools/` and `okf/tests/` (`LICENSE.md`, scope in the new `NOTICE`).
+**Upstream relocated OKF to a dedicated repository.** `GoogleCloudPlatform/open-knowledge-format` was created 2026-08-14. On 2026-08-21 upstream's `okf/README.md` gained a notice declaring the former location **"a frozen snapshot, no longer maintained,"** and directing readers to read the spec, file issues, and open pull requests at the new repository.
 
-**Added [NOTICE](NOTICE):** the copyright line and the licence-scope boundary, in the conventional place. `LICENSE.md` itself is unchanged — the Apache 2.0 text is reproduced verbatim, as it must be.
+This profile was pinned to that frozen copy. **The pin moves to `GoogleCloudPlatform/open-knowledge-format@ad30107`**, recorded as §7 re-pinning decision **RP-002**.
 
-**Removed committed bytecode.** `okf/tools/__pycache__/okf_validate.cpython-310.pyc` was tracked. `okf/.gitignore` already listed `__pycache__/`, but an ignore rule does not untrack an existing file. Deleted, and the **root `.gitignore`** now mirrors the Python ignores so bytecode cannot be committed from outside `okf/`.
+**§7 carried a watch item for exactly this.** It recorded that upstream referenced the format as `github.com/google/okf`, a repository that did not then resolve, and pre-committed the response: *"if the base specification relocates, the citation in this document is updated as a §7 re-pinning decision."* The item is marked fired.
+
+**What changed in the specification across the move — one thing.** `diff 3fcbb9f:okf/SPEC.md → ad30107:SPEC.md` is 19 removed / 22 added lines, and every line of it is the same change: *every timestamp-valued key is an ISO 8601 datetime with an explicit UTC offset* (upstream `62432a0`). §6's link forms, §11's conformance model, and the type system are unchanged.
+
+**Assessed as descriptive, not normative.** The change landed with a hard rule — *"a date-only value is not conformant, and consumers MUST ignore it"* — plus a matching §11 consumer bullet. Upstream **removed both** before publication (`6a2845d`, `0b87c52`). What the canonical specification states today is the format, with no MUST and no conformance bullet.
+
+**No behavioural effect on this corpus.** The one enforced behaviour is `is_stale()`, which now ignores a `stale_after` carrying no explicit offset. This corpus uses **no `stale_after`, no `usage_window`, and no `last_modified`** — the three keys the change re-typed. The corpus's 442 date-only `timestamp:` values are the legacy v0.1 key, and are unaffected. Aligning them is scheduled with the Level 3 trust retrofit, where `generated.at` and `verified.at` — the keys the rule unambiguously governs — are written for the first time.
+
+**One part of the change helps this corpus directly.** `62432a0` also replaced `yaml.safe_load` with a loader that drops PyYAML's YAML 1.1 timestamp resolver. Previously a parse/serialize round-trip silently rewrote author frontmatter (`2026-06-30T14:00:00Z` → `2026-06-30 14:00:00+00:00`). Under the new loader the authored text survives.
+
+**A provenance downgrade, recorded rather than glossed.** §6 argues that the old pin persists independently of its origin because fork-network members share a git object store. That does not transfer: `open-knowledge-format` is a fresh repository with its own root commit and no fork relationship to `knowledge-catalog`, and neither can resolve the other's objects. The new pin is held in one place. Accepted — the alternative is citing a location upstream has declared unmaintained.
+
+**§3.1 stands.** `_extract_links` is byte-identical in the new repository: it still discards the bundle-absolute link form that §6 recommends. Upstream issue [#201](https://github.com/GoogleCloudPlatform/knowledge-catalog/issues/201) remains open and unanswered after seven weeks. The divergence is now verified against the canonical codebase rather than a frozen one, and the normalization wave proceeds unchanged.
+
+**Citations updated:** `PROFILE.md` (header, §7 log, §7 watch item, footer), `README.md`, `INTEGRATION.md`, `CLAUDE.md`. `okf/dharma-foundation/index.md` also cites the old URL and is **deliberately left for the normalization wave**, which already revises that bundle — changing it here would force a bundle version bump and a release tag for a one-line URL edit.
+
+**Also corrected: this file's own ordering.** The `2026-09-06` two-layer-checker entry was appended *below* an older `2026-08-06` entry, contradicting this log's stated "newest first" contract. Moved to its correct position. No text in either entry changed.
 
 ## 2026-09-06 — The two-layer checker, and Level 2 re-specified (tooling + docs wave)
 
@@ -49,6 +65,16 @@ The coverage table is emitted by `--json` and pasted without edit. It had been k
 ### Nothing in the corpus changed
 
 The 400 links, 21 missing indexes and 153 malformed citation forms are all still present. This wave builds the instrument and reports the reading. Repair is the normalization wave, which the checker now exists to verify.
+
+## 2026-08-06 — Licensing scope and repository hygiene (docs wave)
+
+No concept document touched; no release tag.
+
+**Licensing stated by scope, not by inheritance.** `README.md` described the Apache licence as *"inherited from the upstream GoogleCloudPlatform fork."* That was inaccurate. `okf/tools/` has no counterpart in the upstream repository, and the validator imports the upstream parser *optionally* rather than embedding it — the code is this project's own work. The README now states both licences by scope: **CC BY-SA 4.0** for the corpus and the repository prose (`LICENSE-CONTENT`), **Apache 2.0 © Dharma OKF Foundation** for `okf/tools/` and `okf/tests/` (`LICENSE.md`, scope in the new `NOTICE`).
+
+**Added [NOTICE](NOTICE):** the copyright line and the licence-scope boundary, in the conventional place. `LICENSE.md` itself is unchanged — the Apache 2.0 text is reproduced verbatim, as it must be.
+
+**Removed committed bytecode.** `okf/tools/__pycache__/okf_validate.cpython-310.pyc` was tracked. `okf/.gitignore` already listed `__pycache__/`, but an ignore rule does not untrack an existing file. Deleted, and the **root `.gitignore`** now mirrors the Python ignores so bytecode cannot be committed from outside `okf/`.
 
 ## 2026-08-06 — Bundle-root index reconciliation (metadata wave)
 
