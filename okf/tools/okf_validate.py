@@ -26,6 +26,8 @@ dharma bundle's conventional sections and v0.2 rules enabled.
 from __future__ import annotations
 
 import argparse
+import datetime as _dt
+import json as _json
 import re
 import sys
 from dataclasses import dataclass, field
@@ -93,6 +95,7 @@ _BARE_LINK = re.compile(r"\]\(([^/.\s)][^)\s]*\.md)\)")
 # Any non-ASCII codepoint — slugs/filenames/link paths must stay ASCII for URL
 # portability (a non-ASCII filename broke the fetch tooling on vedanta).
 _NONASCII = re.compile(r"[^\x00-\x7f]")
+PROFILE_CHECKER_VERSION = "2.0"
 
 
 # --- severity bookkeeping --------------------------------------------------
@@ -286,6 +289,220 @@ def validate(bundle: Path, *, sections: list[str], require_darshana: bool,
     return rep
 
 
+
+# ===========================================================================
+# LAYER 2 — PROFILE CONFORMANCE (dharma-okf/1.0)
+# ---------------------------------------------------------------------------
+# Answers PROFILE.md §8: report BASE conformance (§1) and PROFILE conformance
+# (§5 levels 0-3) SEPARATELY, so a consumer can tell "this is not OKF" from
+# "this is OKF but not this profile."
+#
+# Layer 1 is validate() above. It is deliberately UNCHANGED: okf/tests/ asserts
+# zero FAIL findings per bundle, and folding profile rules into it would make
+# all 13 bundles fail --strict. The layers must be independently checkable,
+# which is the thing §8 asks for.
+#
+# Three rules Layer 1 does not have:
+#   R1  link FORM (§3.1)          — bundle-absolute body links
+#   R2  citation INTEGRITY        — bracket-only [x.md] and bare-path forms
+#   R3  index.md PRESENCE (§3.4)  — every dir holding concepts needs one
+# ===========================================================================
+
+_MD_LINK       = re.compile(r"\]\(([^)]+)\)")
+_PSEUDO_LINK   = re.compile(r"\[[^\]]*\.md\](?!\()")
+_BARE_PATH     = re.compile(r"(?<![(\[/\w.-])((?:\.\./)?(?:references|concepts)/[a-z0-9._-]+\.md)")
+_FM_BLOCK      = re.compile(r"^---\n(.*?)\n---\n", re.S)
+
+
+def _split_doc(text: str) -> tuple[str, str]:
+    """Return (frontmatter, body). Empty frontmatter if the block is absent."""
+    m = _FM_BLOCK.match(text)
+    return (m.group(1), text[m.end():]) if m else ("", text)
+
+
+def _body_links(body: str) -> list[str]:
+    """Markdown link targets, excluding external URLs and pure anchors."""
+    return [t for t in _MD_LINK.findall(body)
+            if "://" not in t and not t.startswith("#")]
+
+
+def _related_entries(fm: str) -> list[str]:
+    m = re.search(r"^related:\n((?:\s+-\s.*\n)+)", fm, re.M)
+    return re.findall(r"-\s*(\S+)", m.group(1)) if m else []
+
+
+def profile_check(bundle: Path) -> dict:
+    """Score one bundle against PROFILE.md §5. Detection only; changes nothing."""
+    name = bundle.name
+    concepts = references = 0
+    rel = absolute = pseudo = bare = 0
+    related_abs = related_rel = 0
+    no_link_concepts: list[str] = []
+    unresolved: list[str] = []
+    dirs_with_concepts: set[Path] = set()
+    fm_in_subindex: list[str] = []
+
+    for path in sorted(bundle.rglob("*.md")):
+        if path.name in RESERVED:
+            # §3.4: sub-directory indexes must be frontmatter-free (root exempt, §1.1)
+            if path.name == "index.md" and path.parent != bundle:
+                if _FM_BLOCK.match(path.read_text(encoding="utf-8")):
+                    fm_in_subindex.append(str(path.relative_to(bundle)))
+            continue
+
+        text = path.read_text(encoding="utf-8")
+        fm, body = _split_doc(text)
+        m = re.search(r"^type:\s*(.+)$", fm, re.M)
+        doctype = m.group(1).strip().strip("\"'") if m else ""
+        if doctype == "Concept":
+            concepts += 1
+        elif doctype == "Reference":
+            references += 1
+        else:
+            continue
+
+        dirs_with_concepts.add(path.parent)
+        where = str(path.relative_to(bundle))
+
+        # --- R1: link form -------------------------------------------------
+        links = _body_links(body)
+        n_abs = sum(1 for t in links if t.startswith("/"))
+        absolute += n_abs
+        rel += len(links) - n_abs
+
+        for t in links:
+            if not resolve_link(t, path, bundle):
+                unresolved.append(f"{where}: {t}")
+
+        # --- R2: citation integrity ---------------------------------------
+        pseudo += len(_PSEUDO_LINK.findall(body))
+        for mm in _BARE_PATH.finditer(body):
+            if body[mm.start() - 1: mm.start()] not in "([":
+                bare += 1
+
+        # --- Level 2 presence floor ---------------------------------------
+        if doctype == "Concept" and not links:
+            no_link_concepts.append(where)
+
+        # --- Finding C: related: form (reported, never scored) -------------
+        for t in _related_entries(fm):
+            if t.startswith("/"):
+                related_abs += 1
+            else:
+                related_rel += 1
+
+    missing_index = sorted(str(d.relative_to(bundle)) or "."
+                           for d in dirs_with_concepts
+                           if not (d / "index.md").exists())
+
+    # ---- level scoring ----------------------------------------------------
+    l2_failures = []
+    if absolute:
+        l2_failures.append(f"form: {absolute} bundle-absolute body link(s) (§3.1)")
+    if no_link_concepts:
+        l2_failures.append(
+            f"presence: {len(no_link_concepts)} concept(s) with no resolvable body link")
+    if pseudo:
+        l2_failures.append(f"integrity: {pseudo} bracket-only pseudo-link(s)")
+    if bare:
+        l2_failures.append(f"integrity: {bare} bare-path citation(s)")
+
+    return {
+        "bundle": name,
+        "level_0": True,          # base conformance is Layer 1's verdict
+        "level_1": True,          # not: + darshana + references/ — Layer 1 WARNs cover it
+        "level_2": not l2_failures,
+        "level_2b": not missing_index,
+        "level_3": False,         # no okf_profile/verified/generated/sources yet
+        "concepts": concepts,
+        "references": references,
+        "links": {
+            "relative": rel,
+            "absolute": absolute,
+            "pseudo": pseudo,
+            "bare_path": bare,
+            "unresolved": len(unresolved),
+            "concepts_without_links": len(no_link_concepts),
+            "related_absolute": related_abs,
+            "related_relative": related_rel,
+        },
+        "indexes": {
+            "dirs_with_concepts": len(dirs_with_concepts),
+            "dirs_missing_index": len(missing_index),
+            "missing": missing_index,
+            "subindex_with_frontmatter": fm_in_subindex,
+        },
+        "level_2_failures": l2_failures,
+        "detail": {
+            "concepts_without_links": no_link_concepts[:20],
+            "unresolved_links": unresolved[:20],
+        },
+    }
+
+
+def profile_report(results: list[dict]) -> dict:
+    """Aggregate per-bundle results into the §5 coverage table."""
+    lv = {k: sum(1 for r in results if r[f"level_{k}"])
+          for k in ("0", "1", "2", "2b", "3")}
+    return {
+        "generated": _dt.datetime.now(_dt.timezone.utc)
+                        .replace(microsecond=0).isoformat(),
+        "checker_version": PROFILE_CHECKER_VERSION,
+        "profile": "dharma-okf/1.0",
+        "corpus": {
+            "bundles": len(results),
+            "concepts": sum(r["concepts"] for r in results),
+            "references": sum(r["references"] for r in results),
+            "documents": sum(r["concepts"] + r["references"] for r in results),
+        },
+        "levels": lv,
+        "totals": {
+            "absolute_links": sum(r["links"]["absolute"] for r in results),
+            "relative_links": sum(r["links"]["relative"] for r in results),
+            "pseudo_links": sum(r["links"]["pseudo"] for r in results),
+            "bare_path": sum(r["links"]["bare_path"] for r in results),
+            "concepts_without_links": sum(r["links"]["concepts_without_links"] for r in results),
+            "related_absolute": sum(r["links"]["related_absolute"] for r in results),
+            "related_relative": sum(r["links"]["related_relative"] for r in results),
+            "dirs_missing_index": sum(r["indexes"]["dirs_missing_index"] for r in results),
+            "dirs_with_concepts": sum(r["indexes"]["dirs_with_concepts"] for r in results),
+        },
+        "bundles": results,
+    }
+
+
+def print_profile_table(rep: dict) -> None:
+    c, t = rep["corpus"], rep["totals"]
+    print(f"\n=== PROFILE conformance — {rep['profile']} "
+          f"(checker {rep['checker_version']}) ===")
+    print(f"{c['bundles']} bundles · {c['concepts']} Concept · "
+          f"{c['references']} Reference · {c['documents']} documents\n")
+    hdr = (f"{'bundle':24}{'L0':>4}{'L1':>4}{'L2':>4}{'L2b':>5}{'L3':>4}"
+           f"{'abs':>6}{'rel':>6}{'pseu':>6}{'bare':>6}{'0lnk':>6}{'noIdx':>7}")
+    print(hdr); print("-" * len(hdr))
+    tick = lambda b: " ✓" if b else " ✗"
+    for r in rep["bundles"]:
+        L = r["links"]
+        print(f"{r['bundle']:24}{tick(r['level_0']):>4}{tick(r['level_1']):>4}"
+              f"{tick(r['level_2']):>4}{tick(r['level_2b']):>5}{tick(r['level_3']):>4}"
+              f"{L['absolute']:>6}{L['relative']:>6}{L['pseudo']:>6}{L['bare_path']:>6}"
+              f"{L['concepts_without_links']:>6}{r['indexes']['dirs_missing_index']:>7}")
+    print("-" * len(hdr))
+    print(f"{'TOTAL':24}{'':>4}{'':>4}{'':>4}{'':>5}{'':>4}"
+          f"{t['absolute_links']:>6}{t['relative_links']:>6}{t['pseudo_links']:>6}"
+          f"{t['bare_path']:>6}{t['concepts_without_links']:>6}{t['dirs_missing_index']:>7}")
+    lv = rep["levels"]
+    n = c["bundles"]
+    print(f"\n§5 coverage:  L0 {lv['0']}/{n}   L1 {lv['1']}/{n}   "
+          f"L2 {lv['2']}/{n}   L2b {lv['2b']}/{n}   L3 {lv['3']}/{n}")
+    print(f"related:  {t['related_absolute']} absolute / "
+          f"{t['related_relative']} relative  (reported, not scored — §3.1 traversal note)")
+    for r in rep["bundles"]:
+        if r["level_2_failures"]:
+            print(f"\n  {r['bundle']} — Level 2:")
+            for f in r["level_2_failures"]:
+                print(f"      ✗ {f}")
+
 def _inject_not_line(body: str, line: str) -> str:
     """Insert a **Not:** line just after the first H1, else at the top."""
     m = re.search(r"^# .+$", body, re.M)
@@ -329,6 +546,16 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--fix", action="store_true",
                     help="regenerate each body '**Not:**' line from frontmatter")
     ap.add_argument("--quiet", action="store_true")
+    ap.add_argument("--profile", action="store_true",
+                    help="run LAYER 2 (profile conformance, PROFILE.md §5) and print the table")
+    ap.add_argument("--profile-strict", action="store_true",
+                    help="exit 1 if any bundle scores below --require-level")
+    ap.add_argument("--require-level", default="2",
+                    help="level floor for --profile-strict (default: 2)")
+    ap.add_argument("--json", dest="json_path", default=None,
+                    help="write the profile report as JSON (implies --profile)")
+    ap.add_argument("--corpus", action="store_true",
+                    help="treat the argument as the corpus root; score every bundle")
     args = ap.parse_args(argv)
 
     bundle = Path(args.bundle).resolve()
@@ -336,6 +563,34 @@ def main(argv: list[str] | None = None) -> int:
         sys.stderr.write(f"Not a directory: {bundle}\n")
         return 2
     sections = args.sections if args.sections is not None else DEFAULT_SECTIONS
+
+    # ---- LAYER 2 dispatch (profile conformance) --------------------------
+    want_profile = args.profile or args.profile_strict or args.json_path
+    if want_profile:
+        if args.corpus:
+            bundles = sorted(d for d in bundle.iterdir()
+                             if d.is_dir() and d.name not in {"tests", "tools", "__pycache__"}
+                             and (d / "index.md").exists())
+        else:
+            bundles = [bundle]
+        prep = profile_report([profile_check(b) for b in bundles])
+        if args.json_path:
+            Path(args.json_path).write_text(
+                _json.dumps(prep, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+            if not args.quiet:
+                print(f"profile report written: {args.json_path}")
+        if not args.quiet:
+            print_profile_table(prep)
+        if args.profile_strict:
+            floor = str(args.require_level)
+            below = [r["bundle"] for r in prep["bundles"] if not r[f"level_{floor}"]]
+            if below:
+                if not args.quiet:
+                    print(f"\nPROFILE-FAIL: {len(below)} bundle(s) below level {floor}: "
+                          f"{', '.join(below)}")
+                return 1
+        if not (args.strict or args.fix) and args.corpus:
+            return 0   # corpus mode is Layer 2 only; Layer 1 runs per bundle
 
     rep = validate(bundle, sections=sections,
                    require_darshana=args.require_darshana,
