@@ -95,7 +95,7 @@ _BARE_LINK = re.compile(r"\]\(([^/.\s)][^)\s]*\.md)\)")
 # Any non-ASCII codepoint — slugs/filenames/link paths must stay ASCII for URL
 # portability (a non-ASCII filename broke the fetch tooling on vedanta).
 _NONASCII = re.compile(r"[^\x00-\x7f]")
-PROFILE_CHECKER_VERSION = "2.0"
+PROFILE_CHECKER_VERSION = "2.1"
 
 
 # --- severity bookkeeping --------------------------------------------------
@@ -177,6 +177,29 @@ def resolve_link(link: str, concept_path: Path, bundle: Path) -> bool:
     else:
         target = (concept_path.parent / raw).resolve()
     return target.exists()
+
+
+def _escapes_bundle(link: str, concept_path: Path, bundle: Path) -> bool:
+    """True if a resolvable link lands OUTSIDE the bundle root.
+
+    resolve_link() asks only whether the target exists on disk. Upstream's
+    fixed `_extract_links` takes a `bundle_root` and rejects paths that escape
+    it (open-knowledge-format#14, acceptance criterion 5), so a link this
+    checker passes can still be dropped by a base-conformant resolver.
+    Reported, never scored: the profile permits these and discloses them
+    (PROFILE.md §3.1). Counting them is how the disclosure stays true.
+    """
+    raw = link.split("#", 1)[0]
+    if raw.startswith("/"):
+        return False
+    try:
+        target = (concept_path.parent / raw).resolve()
+        target.relative_to(bundle.resolve())
+    except ValueError:
+        return True
+    except OSError:
+        return False
+    return False
 
 
 def validate(bundle: Path, *, sections: list[str], require_darshana: bool,
@@ -327,7 +350,16 @@ def _body_links(body: str) -> list[str]:
 
 
 def _related_entries(fm: str) -> list[str]:
-    m = re.search(r"^related:\n((?:\s+-\s.*\n)+)", fm, re.M)
+    """Every `related:` list item, whether or not the list is indented.
+
+    The original pattern required `\\s+-\\s`, i.e. an INDENTED item. 124 of the
+    322 files carrying `related:` write the list flush against the margin —
+    valid YAML, and invisible to that pattern. Five bundles reported zero
+    entries while carrying 425 between them. Corrected 2026-09-06; the total
+    moved 1,074 -> 1,499. Scoring never depended on this (Finding C is
+    reported, never scored), but the normalize-or-amend decision did.
+    """
+    m = re.search(r"^related:[ \t]*\n((?:[ \t]*-[ \t].*\n)+)", fm, re.M)
     return re.findall(r"-\s*(\S+)", m.group(1)) if m else []
 
 
@@ -339,6 +371,7 @@ def profile_check(bundle: Path) -> dict:
     related_abs = related_rel = 0
     no_link_concepts: list[str] = []
     unresolved: list[str] = []
+    escaping: list[str] = []
     dirs_with_concepts: set[Path] = set()
     fm_in_subindex: list[str] = []
 
@@ -373,6 +406,8 @@ def profile_check(bundle: Path) -> dict:
         for t in links:
             if not resolve_link(t, path, bundle):
                 unresolved.append(f"{where}: {t}")
+            elif _escapes_bundle(t, path, bundle):
+                escaping.append(f"{where}: {t}")
 
         # --- R2: citation integrity ---------------------------------------
         pseudo += len(_PSEUDO_LINK.findall(body))
@@ -422,6 +457,7 @@ def profile_check(bundle: Path) -> dict:
             "pseudo": pseudo,
             "bare_path": bare,
             "unresolved": len(unresolved),
+            "escaping": len(escaping),
             "concepts_without_links": len(no_link_concepts),
             "related_absolute": related_abs,
             "related_relative": related_rel,
@@ -436,6 +472,7 @@ def profile_check(bundle: Path) -> dict:
         "detail": {
             "concepts_without_links": no_link_concepts[:20],
             "unresolved_links": unresolved[:20],
+            "escaping_links": escaping[:40],
         },
     }
 
@@ -462,6 +499,7 @@ def profile_report(results: list[dict]) -> dict:
             "pseudo_links": sum(r["links"]["pseudo"] for r in results),
             "bare_path": sum(r["links"]["bare_path"] for r in results),
             "concepts_without_links": sum(r["links"]["concepts_without_links"] for r in results),
+            "escaping_links": sum(r["links"]["escaping"] for r in results),
             "related_absolute": sum(r["links"]["related_absolute"] for r in results),
             "related_relative": sum(r["links"]["related_relative"] for r in results),
             "dirs_missing_index": sum(r["indexes"]["dirs_missing_index"] for r in results),
@@ -497,6 +535,8 @@ def print_profile_table(rep: dict) -> None:
           f"L2 {lv['2']}/{n}   L2b {lv['2b']}/{n}   L3 {lv['3']}/{n}")
     print(f"related:  {t['related_absolute']} absolute / "
           f"{t['related_relative']} relative  (reported, not scored — §3.1 traversal note)")
+    print(f"escaping: {t['escaping_links']} body link(s) resolve outside their bundle root "
+          f"(reported, not scored — §3.1 disclosure)")
     for r in rep["bundles"]:
         if r["level_2_failures"]:
             print(f"\n  {r['bundle']} — Level 2:")
