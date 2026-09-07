@@ -75,9 +75,9 @@ Think of how a loved one's voice on the phone is not a "representation" of them 
 
 ## Citations
 
-1. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) — the glory and power of the holy Name; nāma-saṅkīrtana as the means for this age (e.g. 12.3.51)
-2. [Nārada Bhakti Sūtra](/references/narada-bhakti-sutra.md) — the constant utterance and hearing of the Lord's names and qualities as devotional practice
-3. [Pāñcarātra Āgama](/references/pancaratra.md) — mantra as charged sacred sound in the Āgamic devotional framework
+1. [Bhāgavata Purāṇa](../references/bhagavata-purana.md) — the glory and power of the holy Name; nāma-saṅkīrtana as the means for this age (e.g. 12.3.51)
+2. [Nārada Bhakti Sūtra](../references/narada-bhakti-sutra.md) — the constant utterance and hearing of the Lord's names and qualities as devotional practice
+3. [Pāñcarātra Āgama](../references/pancaratra.md) — mantra as charged sacred sound in the Āgamic devotional framework
 
 ## Error Genealogy
 

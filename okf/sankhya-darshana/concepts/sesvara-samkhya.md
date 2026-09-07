@@ -33,7 +33,7 @@ license: CC BY-SA 4.0
 
 ## What It Actually Means
 
-Seśvara Sāṃkhya is a historically distinct, less prominent strand of Sāṃkhya thought that incorporates Īśvara, understood as a perfect, ideal Puruṣa rather than a creator, into an otherwise Sāṃkhya framework. It appears associated with earlier layers of Sāṃkhya-adjacent thought and resurfaces in what scholarship calls 'Later Sāṃkhya,' after the classical school's decline past roughly the eighth century CE. This file names the strand and its distinguishing feature honestly without developing it further -- a genuinely separate future-bundle undertaking, not a variant reading of the concepts built here.
+Seśvara Sāṃkhya is a historically distinct, less prominent strand of Sāṃkhya thought that incorporates Īśvara, understood as a perfect, ideal Puruṣa rather than a creator, into an otherwise Sāṃkhya framework -- the [nirīśvara](nirishvara.md) framing this bundle treats as primary. It appears associated with earlier layers of Sāṃkhya-adjacent thought and resurfaces in what scholarship calls 'Later Sāṃkhya,' after the classical school's decline past roughly the eighth century CE. This file names the strand and its distinguishing feature honestly without developing it further -- a genuinely separate future-bundle undertaking, not a variant reading of the concepts built here.
 
 ## Audience Metaphor
 

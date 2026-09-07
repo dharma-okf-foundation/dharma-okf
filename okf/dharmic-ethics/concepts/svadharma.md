@@ -72,9 +72,9 @@ Think of an orchestra. The cellist's duty is not the flautist's, and a cellist w
 
 ## Citations
 
-1. [Bhagavad Gītā](/references/bhagavad-gita.md) 3.35, 18.45-48 — one's own dharma, grounded in svabhāva, is better than another's; perfection through one's own work
-2. [Manusmṛti](/references/manusmriti.md) — the duties proper to station and stage, and the universal duties binding on all
-3. [Mahābhārata](/references/mahabharata.md) — svadharma tested in the hard cases of the epic's moral dilemmas
+1. [Bhagavad Gītā](../references/bhagavad-gita.md) 3.35, 18.45-48 — one's own dharma, grounded in svabhāva, is better than another's; perfection through one's own work
+2. [Manusmṛti](../references/manusmriti.md) — the duties proper to station and stage, and the universal duties binding on all
+3. [Mahābhārata](../references/mahabharata.md) — svadharma tested in the hard cases of the epic's moral dilemmas
 
 ## Error Genealogy
 

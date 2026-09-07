@@ -70,6 +70,6 @@ Think of the difference between watching a choir perform an anthem and a whole c
 
 ## Citations
 
-1. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) 7.5.23 — kīrtana as the second limb of navadhā bhakti
-2. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) 12.3.51 — saṅkīrtana of Hari as the yuga-dharma, the means proper to Kali-yuga
-3. [Nārada Bhakti Sūtra](/references/narada-bhakti-sutra.md) — the constant singing and hearing of the Lord's names and qualities as the devotee's life
+1. [Bhāgavata Purāṇa](../references/bhagavata-purana.md) 7.5.23 — kīrtana as the second limb of navadhā bhakti
+2. [Bhāgavata Purāṇa](../references/bhagavata-purana.md) 12.3.51 — saṅkīrtana of Hari as the yuga-dharma, the means proper to Kali-yuga
+3. [Nārada Bhakti Sūtra](../references/narada-bhakti-sutra.md) — the constant singing and hearing of the Lord's names and qualities as the devotee's life

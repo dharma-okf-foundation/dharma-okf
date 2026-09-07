@@ -45,7 +45,7 @@ Mantras are sequences of vibration originating in the subtlest levels of existen
 
 When repeated, a mantra "vibrates in every part of the practitioner's being and reorients within him the original reality from whence it came." Mantras are taught by rote in early childhood because "once installed in one's deep levels of consciousness, their full effect and benefits will manifest as experience over the course of time."
 
-Mantra energizes [Prāṇa](/concepts/prana.md). Healers can transfer prāṇa to patients; self-healing can be accomplished by concentrating prāṇa on affected areas using mantra. Benefits accrue not only to the chanter but "to all humanity and the cosmos at large."
+Mantra energizes [Prāṇa](prana.md). Healers can transfer prāṇa to patients; self-healing can be accomplished by concentrating prāṇa on affected areas using mantra. Benefits accrue not only to the chanter but "to all humanity and the cosmos at large."
 
 Children are given their name as a mantra — "A child is often carefully given an appropriate name so that it will internalize its name as vibration, and over time the effect of repeating the name will bring inner transformation in subtle ways."
 
@@ -64,5 +64,5 @@ A mantra is less like a sentence and more like a tuning fork. Striking the right
 ## Citations
 
 1. Sri Aurobindo on Mantra (multiple passages)
-2. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md)
+2. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md)
 3. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

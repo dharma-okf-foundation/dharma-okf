@@ -70,6 +70,6 @@ Think of the difference between a hired nurse and a daughter caring for an ailin
 
 ## Citations
 
-1. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) 7.5.23 — pāda-sevana as a limb of navadhā bhakti
-2. [Bhagavad Gītā](/references/bhagavad-gita.md) 9.27 — "whatever you do, offer it to Me": action transfigured into devotional service
-3. [Nārada Bhakti Sūtra](/references/narada-bhakti-sutra.md) — loving service as an expression of single-pointed devotion
+1. [Bhāgavata Purāṇa](../references/bhagavata-purana.md) 7.5.23 — pāda-sevana as a limb of navadhā bhakti
+2. [Bhagavad Gītā](../references/bhagavad-gita.md) 9.27 — "whatever you do, offer it to Me": action transfigured into devotional service
+3. [Nārada Bhakti Sūtra](../references/narada-bhakti-sutra.md) — loving service as an expression of single-pointed devotion

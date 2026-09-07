@@ -36,7 +36,7 @@ Literally "imperishable" (*a-kṣara* — that which does not perish) — the et
 
 The Ṛṣis are said to have *seen*, not just heard, the Vedas — "every letter is heard as a sound with a corresponding visual hue as it manifests." Sanskrit letters are primordial cosmic sounds with intrinsic reality — not arbitrary symbols chosen by convention.
 
-Sri Aurobindo: "Every one of its vowels and consonants has a particular inalienable force which exists by the nature of things and not by development or human choice; these are the fundamental sounds which lie at the base of the Tantric *bīja mantras* and constitute the efficacy of the [Mantra](/concepts/mantra.md) itself."
+Sri Aurobindo: "Every one of its vowels and consonants has a particular inalienable force which exists by the nature of things and not by development or human choice; these are the fundamental sounds which lie at the base of the Tantric *bīja mantras* and constitute the efficacy of the [Mantra](mantra.md) itself."
 
 ## Why "Letter" Fails
 

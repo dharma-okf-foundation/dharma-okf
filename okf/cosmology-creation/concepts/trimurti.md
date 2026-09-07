@@ -85,7 +85,7 @@ The Trimūrti is like the three phases of a breath: inhalation (Sṛṣṭi/Brah
 
 1. Bhāgavata Purāṇa 1.2.23 -- three Guṇas mapped to three cosmic functions; foundational Trimūrti framework
 2. Kūrma Purāṇa 1.2 -- Trimūrti as three aspects of one cosmic principle
-3. Devī Māhātmya (Mārkaṇḍeya Purāṇa 81-93) -- Śākta reading of Trimūrti as instruments of the Goddess; see references/markandeya-purana.md
+3. Devī Māhātmya (Mārkaṇḍeya Purāṇa 81-93) -- Śākta reading of Trimūrti as instruments of the Goddess; see [Mārkaṇḍeya Purāṇa](../references/markandeya-purana.md)
 
 ## Error Genealogy
 

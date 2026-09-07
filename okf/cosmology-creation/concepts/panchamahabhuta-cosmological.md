@@ -81,6 +81,6 @@ The five elements are like five layers of a painting being built up from the mos
 ## Citations
 
 1. Taittirīya Upaniṣad 2.1-5 -- the Upaniṣadic derivation sequence from Brahman through the five elements to the human body
-2. Sāṃkhya Kārikā 22-38 -- the five tanmātras and five mahābhūtas in the tattva evolution sequence; see references/samkhya-karika.md
-3. Bhāgavata Purāṇa 3.26.12-49 -- detailed Purāṇic treatment of the tattva sequence including element derivation; see references/bhagavata-purana.md
+2. Sāṃkhya Kārikā 22-38 -- the five tanmātras and five mahābhūtas in the tattva evolution sequence; see [Sāṃkhya Kārikā](../references/samkhya-karika.md)
+3. Bhāgavata Purāṇa 3.26.12-49 -- detailed Purāṇic treatment of the tattva sequence including element derivation; see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
 4. Pañcadaśī 1.15-28 (Vidyāraṇya) -- Pañcīkaraṇa: the fivefold combination process; Advaita Vedānta's systematic treatment

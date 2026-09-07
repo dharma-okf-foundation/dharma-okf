@@ -78,6 +78,6 @@ Imagine a four-legged table gradually losing its legs. With four legs (Satya Yug
 1. Bhāgavata Purāṇa 12.2-3 — detailed description of Kali Yuga conditions; the prophetic frame
 2. Bhāgavata Purāṇa 3.11.18-20 — Yuga durations in the cosmological framework
 3. Bhāgavata Purāṇa 12.3.51-52 — Yuga-dharma and the prescribed practices for each age
-4. Manu-Smṛti 1.61-87 — the locus classicus for Yuga durations and the four-legs of dharma; see references/manusmriti.md
+4. Manu-Smṛti 1.61-87 — the locus classicus for Yuga durations and the four-legs of dharma; see [Manu-Smṛti](../references/manusmriti.md)
 5. Mahābhārata, Śānti Parva 231 — Yugas and their characteristics
-6. See references/vishnu-purana.md — systematic Yuga treatment
+6. See [Viṣṇu Purāṇa](../references/vishnu-purana.md) — systematic Yuga treatment

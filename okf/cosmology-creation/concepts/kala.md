@@ -78,5 +78,5 @@ Not a river flowing from past to future. Kāla is better understood as a vast ro
 2. Bhāgavata Purāṇa 3.10.11 — Kāla as the twenty-sixth tattva; Viṣṇu's directive glance initiating Sṛṣṭi
 3. Bhagavad Gītā 11.32 — "Kālo'smi loka-kṣaya-kṛt pravṛddho" (Kṛṣṇa's declaration as Mahākāla)
 4. Viṣṇu Purāṇa 1.2-3 — Kāla in the cosmological time-reckoning system
-5. See references/rigveda-nasadiya.md — time before Kāla in the pre-creation state
-6. See references/bhagavata-purana.md — comprehensive Purāṇic treatment
+5. See [Nāsadīya Sūkta](../references/rigveda-nasadiya.md) — time before Kāla in the pre-creation state
+6. See [Bhāgavata Purāṇa](../references/bhagavata-purana.md) — comprehensive Purāṇic treatment

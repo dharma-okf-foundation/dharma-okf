@@ -76,6 +76,6 @@ Think of the standing relationships in a family: you are a daughter to your pare
 
 ## Citations
 
-1. [Bhakti-rasāmṛta-sindhu](/references/bhakti-rasamrita-sindhu.md) 1.3.1, 2.1.5 — bhāva as the dawning of prema; the architecture of bhakti-rasa
-2. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) 7.1.30 — the recognition that even adverse moods, when fixed on the Lord, become a path
-3. [Nārada Bhakti Sūtra](/references/narada-bhakti-sutra.md) 82 — the manifold expressions of single-pointed devotional love
+1. [Bhakti-rasāmṛta-sindhu](../references/bhakti-rasamrita-sindhu.md) 1.3.1, 2.1.5 — bhāva as the dawning of prema; the architecture of bhakti-rasa
+2. [Bhāgavata Purāṇa](../references/bhagavata-purana.md) 7.1.30 — the recognition that even adverse moods, when fixed on the Lord, become a path
+3. [Nārada Bhakti Sūtra](../references/narada-bhakti-sutra.md) 82 — the manifold expressions of single-pointed devotional love

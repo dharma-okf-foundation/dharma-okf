@@ -95,4 +95,4 @@ A master architect begins with a vision (Icchā) -- the spontaneous arising of "
 1. Tantrāloka 1.5-9 (Abhinavagupta) -- the most systematic philosophical treatment of Icchā-Jñāna-Kriyā Śakti in Kashmir Shaivism; the Parā / Parāparā / Aparā Śakti levels
 2. Śiva Sūtras 1.5 (*Udyamo Bhairavah* -- "the upsurge is Bhairava") -- Icchā-Śakti as the primary creative upsurge of Śiva-consciousness; Kashmir Shaivism's root text
 3. Vijñāna Bhairava Tantra -- the practical and cosmological implications of Śakti in its Icchā-Jñāna-Kriyā dimensions; 112 dhāraṇās as Kriyā-Śakti's applications
-4. Ṛg Veda 10.129.4 (Nāsadīya Sūkta) -- Kāma as the first seed: the earliest scriptural anticipation of Icchā-Śakti as the cosmological creative impulse; see references/rigveda-nasadiya.md
+4. Ṛg Veda 10.129.4 (Nāsadīya Sūkta) -- Kāma as the first seed: the earliest scriptural anticipation of Icchā-Śakti as the cosmological creative impulse; see [Nāsadīya Sūkta](../references/rigveda-nasadiya.md)

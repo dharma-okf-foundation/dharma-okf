@@ -81,7 +81,7 @@ Brahmā is like the project manager of a vast construction project: he organizes
 
 ## Citations
 
-1. Bhāgavata Purāṇa 2.5-9; 3.8-15 -- Brahmā's emergence and differentiation role within the Sṛṣṭi sequence; see references/bhagavata-purana.md
-2. Brahma Sūtra 1.1.1 -- "athāto brahma jijñāsā" -- inquiry into Brahman, not Brahmā; see references/brahmasutras.md
-3. Manu-Smṛti 1.1-19 -- Brahmā as progenitor of the first Manu and the cosmic order; see references/manusmriti.md
-4. Viṣṇu Purāṇa 1.4 -- Brahmā born from Viṣṇu's navel-lotus; see references/vishnu-purana.md
+1. Bhāgavata Purāṇa 2.5-9; 3.8-15 -- Brahmā's emergence and differentiation role within the Sṛṣṭi sequence; see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
+2. Brahma Sūtra 1.1.1 -- "athāto brahma jijñāsā" -- inquiry into Brahman, not Brahmā; see [Brahma Sūtras (Vedānta Sūtras)](../references/brahmasutras.md)
+3. Manu-Smṛti 1.1-19 -- Brahmā as progenitor of the first Manu and the cosmic order; see [Manu-Smṛti](../references/manusmriti.md)
+4. Viṣṇu Purāṇa 1.4 -- Brahmā born from Viṣṇu's navel-lotus; see [Viṣṇu Purāṇa](../references/vishnu-purana.md)

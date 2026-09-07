@@ -84,8 +84,8 @@ Think of the difference between being a *fan* of a musician and being a *member 
 
 ## Citations
 
-1. [Nārada Bhakti Sūtra](/references/narada-bhakti-sutra.md) 1-2 — bhakti as parama-prema-rūpā (of the nature of supreme love), immortal in nature
-2. [Śāṇḍilya Bhakti Sūtra](/references/shandilya-bhakti-sutra.md) 1 — bhakti as supreme attachment to the Lord (parānuraktir īśvare)
-3. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) 7.5.23 — the navadhā (ninefold) enumeration of bhakti
-4. [Bhagavad Gītā](/references/bhagavad-gita.md) 9.26, 9.31, 18.55 — the offering of devotion; the devotee never lost; bhakti as the means of truly knowing the Lord
-5. [Śvetāśvatara Upaniṣad](/references/shvetashvatara-upanishad.md) 6.23 — the śruti locus establishing parā bhakti as a Vedic category
+1. [Nārada Bhakti Sūtra](../references/narada-bhakti-sutra.md) 1-2 — bhakti as parama-prema-rūpā (of the nature of supreme love), immortal in nature
+2. [Śāṇḍilya Bhakti Sūtra](../references/shandilya-bhakti-sutra.md) 1 — bhakti as supreme attachment to the Lord (parānuraktir īśvare)
+3. [Bhāgavata Purāṇa](../references/bhagavata-purana.md) 7.5.23 — the navadhā (ninefold) enumeration of bhakti
+4. [Bhagavad Gītā](../references/bhagavad-gita.md) 9.26, 9.31, 18.55 — the offering of devotion; the devotee never lost; bhakti as the means of truly knowing the Lord
+5. [Śvetāśvatara Upaniṣad](../references/shvetashvatara-upanishad.md) 6.23 — the śruti locus establishing parā bhakti as a Vedic category

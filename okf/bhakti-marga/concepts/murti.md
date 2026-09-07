@@ -74,9 +74,9 @@ Consider how a video call lets a parent be genuinely *present* to a child across
 
 ## Citations
 
-1. [Pāñcarātra Āgama](/references/pancaratra.md) — the doctrine of arcā-avatāra and the rite of prāṇa-pratiṣṭhā
-2. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) 11.27 — the kriyā-yoga of worshipping the Lord in the consecrated form
-3. [Bhagavad Gītā](/references/bhagavad-gita.md) 12.5 — the embodied form is the more accessible refuge for embodied beings, against the harder path to the unmanifest
+1. [Pāñcarātra Āgama](../references/pancaratra.md) — the doctrine of arcā-avatāra and the rite of prāṇa-pratiṣṭhā
+2. [Bhāgavata Purāṇa](../references/bhagavata-purana.md) 11.27 — the kriyā-yoga of worshipping the Lord in the consecrated form
+3. [Bhagavad Gītā](../references/bhagavad-gita.md) 12.5 — the embodied form is the more accessible refuge for embodied beings, against the harder path to the unmanifest
 
 ## Error Genealogy
 

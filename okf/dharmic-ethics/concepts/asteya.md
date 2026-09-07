@@ -65,6 +65,6 @@ Think of how easily a meeting is stolen. No one takes an object; someone simply 
 
 ## Citations
 
-1. [Yoga Sūtra](/references/yoga-sutra.md) 2.30, 2.37 — asteya as the third yama; abundance arrives to the one established in non-stealing
-2. [Manusmṛti](/references/manusmriti.md) — theft in its gross and subtle forms among the conduct prohibitions
-3. [Mahābhārata](/references/mahabharata.md) — covetousness (lobha) as the root of taking, named across the dharma teachings
+1. [Yoga Sūtra](../references/yoga-sutra.md) 2.30, 2.37 — asteya as the third yama; abundance arrives to the one established in non-stealing
+2. [Manusmṛti](../references/manusmriti.md) — theft in its gross and subtle forms among the conduct prohibitions
+3. [Mahābhārata](../references/mahabharata.md) — covetousness (lobha) as the root of taking, named across the dharma teachings

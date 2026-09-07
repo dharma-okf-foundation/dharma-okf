@@ -74,8 +74,8 @@ Sṛṣṭi is like a seed becoming a tree. Nothing in the tree was absent from 
 
 ## Citations
 
-1. Bhāgavata Purāṇa 2.5-6 — the fundamental Sṛṣṭi sequence; see references/bhagavata-purana.md
+1. Bhāgavata Purāṇa 2.5-6 — the fundamental Sṛṣṭi sequence; see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
 2. Bhāgavata Purāṇa 3.5-12 — detailed cosmological derivation sequence
 3. Taittirīya Upaniṣad 2.6 — "From Brahman, verily, are born space, air, fire, water, earth..." (the Sṛṣṭi sequence in Upaniṣadic voice)
 4. Brahma Sūtra 1.1.2 — "Janmādyasya yataḥ" — "That from which arise the birth [etc.]" — Brahman as the source of Sṛṣṭi
-5. Sāṃkhya Kārikā (Īśvarakṛṣṇa) — Prakṛti's evolution as Sṛṣṭi without Puruṣa; see references/samkhya-karika.md
+5. Sāṃkhya Kārikā (Īśvarakṛṣṇa) — Prakṛti's evolution as Sṛṣṭi without Puruṣa; see [Sāṃkhya Kārikā](../references/samkhya-karika.md)

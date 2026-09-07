@@ -73,5 +73,5 @@ The Nāsadīya Sūkta is asking: what did the room look like before anyone was i
 
 ## Citations
 
-1. Ṛg Veda 10.129 -- the 7-verse Nāsadīya Sūkta; see references/rigveda-nasadiya.md
-2. Compared with BhP 2.5-6 (the Purāṇic cosmogonic sequence that gives the definitive Vaiṣṇava answer to the Nāsadīya's open question); see references/bhagavata-purana.md
+1. Ṛg Veda 10.129 -- the 7-verse Nāsadīya Sūkta; see [Nāsadīya Sūkta](../references/rigveda-nasadiya.md)
+2. Compared with BhP 2.5-6 (the Purāṇic cosmogonic sequence that gives the definitive Vaiṣṇava answer to the Nāsadīya's open question); see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)

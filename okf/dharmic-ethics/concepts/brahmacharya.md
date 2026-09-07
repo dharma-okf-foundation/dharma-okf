@@ -71,6 +71,6 @@ Think of a river and a hydroelectric dam. Left to spread across a flood plain, t
 
 ## Citations
 
-1. [Yoga Sūtra](/references/yoga-sutra.md) 2.30, 2.38 — brahmacarya as the fourth yama; vīrya is gained by the one established in it
-2. [Manusmṛti](/references/manusmriti.md) — the brahmacarya āśrama and the conduct of the student, distinct from the yama
-3. [Bhagavad Gītā](/references/bhagavad-gita.md) 6.14, 17.14 — brahmacarya among the disciplines of body and mind
+1. [Yoga Sūtra](../references/yoga-sutra.md) 2.30, 2.38 — brahmacarya as the fourth yama; vīrya is gained by the one established in it
+2. [Manusmṛti](../references/manusmriti.md) — the brahmacarya āśrama and the conduct of the student, distinct from the yama
+3. [Bhagavad Gītā](../references/bhagavad-gita.md) 6.14, 17.14 — brahmacarya among the disciplines of body and mind

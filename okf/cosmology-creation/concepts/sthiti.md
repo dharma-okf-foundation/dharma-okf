@@ -62,4 +62,4 @@ Sthiti is like a gardener who did not plant the garden (Sṛṣṭi) and will no
 
 1. Bhāgavad Gītā 4.7-8 — the Avatāra principle as expression of Sthiti
 2. Bhāgavata Purāṇa 1.2.23 — the three divine functions and Viṣṇu's Sattva-dominant maintaining role
-3. Viṣṇu Purāṇa 1.2 — Sthiti as Viṣṇu's cosmic function; see references/vishnu-purana.md
+3. Viṣṇu Purāṇa 1.2 — Sthiti as Viṣṇu's cosmic function; see [Viṣṇu Purāṇa](../references/vishnu-purana.md)

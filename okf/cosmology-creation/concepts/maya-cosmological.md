@@ -80,8 +80,8 @@ Māyā (cosmological) is like the screen in a cinema. The screen itself is pure,
 ## Citations
 
 1. Vivekacūḍāmaṇi 105-112 (Śaṅkarācārya) -- Māyā as anirvacanīya; the neither-real-nor-unreal doctrine
-2. Devī Māhātmya 1.55-78 (Mārkaṇḍeya Purāṇa) -- Mahāmāyā as the supreme Goddess; see references/markandeya-purana.md and references/devi-mahatmya.md
-3. Bhāgavata Purāṇa 2.5.18 -- Māyā-Śakti as the productive power of Brahman; see references/bhagavata-purana.md
+2. Devī Māhātmya 1.55-78 (Mārkaṇḍeya Purāṇa) -- Mahāmāyā as the supreme Goddess; see [Mārkaṇḍeya Purāṇa](../references/markandeya-purana.md) and [Devī Māhātmya (Durgā Saptaśatī)](../references/devi-mahatmya.md)
+3. Bhāgavata Purāṇa 2.5.18 -- Māyā-Śakti as the productive power of Brahman; see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
 4. Bhagavad Gītā 7.25 -- Yogamāyā as Viṣṇu's veiling-and-creating power
 
 ## Error Genealogy

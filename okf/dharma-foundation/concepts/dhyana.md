@@ -34,7 +34,7 @@ okf_version: "0.2"
 
 ## What It Actually Means
 
-Dhyāna is specifically the seventh limb of Patañjali's Aṣṭāṅga [Yoga](/concepts/yoga.md) — a precise technical stage between *dhāraṇā* (concentration, the 6th limb) and [Samādhi](/concepts/samadhi.md) (absorption, the 8th limb). In Dhyāna, the flow of attention to the object of meditation becomes unbroken — like oil poured from one vessel to another in a continuous stream.
+Dhyāna is specifically the seventh limb of Patañjali's Aṣṭāṅga [Yoga](yoga.md) — a precise technical stage between *dhāraṇā* (concentration, the 6th limb) and [Samādhi](samadhi.md) (absorption, the 8th limb). In Dhyāna, the flow of attention to the object of meditation becomes unbroken — like oil poured from one vessel to another in a continuous stream.
 
 The word "meditation" is used indiscriminately to denote the latter five limbs of yoga, collapsing many technical aspects of the *sādhana* into one ill-defined word. Each limb has a specific function, specific prerequisites, and specific experiential markers.
 
@@ -48,5 +48,5 @@ If the eight limbs of Yoga are levels in a game, Dhyāna is Level 7 — you can 
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 3.2
-2. [Bhagavad Gītā](/references/bhagavad-gita.md) chapter 6
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 3.2
+2. [Bhagavad Gītā](../references/bhagavad-gita.md) chapter 6

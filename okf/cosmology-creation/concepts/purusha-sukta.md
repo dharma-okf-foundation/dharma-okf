@@ -89,9 +89,9 @@ The Puruṣa Sūkta's cosmic sacrifice is like the sun emitting light: the sun d
 
 ## Citations
 
-1. Ṛg Veda 10.90 -- the original Puruṣa Sūkta; 24 verses; see references/rigveda-purusha-sukta.md
+1. Ṛg Veda 10.90 -- the original Puruṣa Sūkta; 24 verses; see [Puruṣa Sūkta](../references/rigveda-purusha-sukta.md)
 2. Śukla Yajurveda 31 -- the liturgically prevalent version; used in daily Vaiṣṇava ritual
-3. Bhāgavata Purāṇa 2.1.23-39 -- the cosmic body homology that parallels the Puruṣa Sūkta's structure; see references/bhagavata-purana.md
+3. Bhāgavata Purāṇa 2.1.23-39 -- the cosmic body homology that parallels the Puruṣa Sūkta's structure; see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
 
 ## Error Genealogy
 

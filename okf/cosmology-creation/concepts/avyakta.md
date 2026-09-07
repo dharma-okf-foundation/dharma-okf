@@ -76,7 +76,7 @@ Avyakta is like all the songs that could ever be written, existing as pure poten
 
 ## Citations
 
-1. Sāṃkhya Kārikā 2-3 -- Avyakta as Mūlaprakṛti; inferred from effects; Guṇa equilibrium; see references/samkhya-karika.md
+1. Sāṃkhya Kārikā 2-3 -- Avyakta as Mūlaprakṛti; inferred from effects; Guṇa equilibrium; see [Sāṃkhya Kārikā](../references/samkhya-karika.md)
 2. Bhagavad Gītā 8.18-20 -- dual Avyakta: cosmic causal state (lower) and Brahman (higher/eternal)
-3. Bhāgavata Purāṇa 3.5.24 -- Avyakta as the state of the cosmos at the beginning of Sṛṣṭi; see references/bhagavata-purana.md
+3. Bhāgavata Purāṇa 3.5.24 -- Avyakta as the state of the cosmos at the beginning of Sṛṣṭi; see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
 4. Katha Upaniṣad 3.11 -- cosmic hierarchy: senses < mind < intellect < Avyakta < Puruṣa

@@ -68,6 +68,6 @@ Think of how a living craft, like a particular school of pottery or a style of c
 
 ## Citations
 
-1. [Bhagavad Gītā](/references/bhagavad-gita.md) 4.1-2 — *evaṃ paramparā-prāptam*: the yoga received through the unbroken succession, and lost when the chain breaks
-2. [Guru Gītā](/references/guru-gita.md) — the guru as the living link to the source, to be honored as the lineage's continuity
-3. [Śvetāśvatara Upaniṣad](/references/shvetashvatara-upanishad.md) 6.23 — transmission validated by the disciple's devotion to guru and God
+1. [Bhagavad Gītā](../references/bhagavad-gita.md) 4.1-2 — *evaṃ paramparā-prāptam*: the yoga received through the unbroken succession, and lost when the chain breaks
+2. [Guru Gītā](../references/guru-gita.md) — the guru as the living link to the source, to be honored as the lineage's continuity
+3. [Śvetāśvatara Upaniṣad](../references/shvetashvatara-upanishad.md) 6.23 — transmission validated by the disciple's devotion to guru and God

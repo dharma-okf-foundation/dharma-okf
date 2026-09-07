@@ -72,9 +72,9 @@ Think of the grain in a piece of wood. A skilled carver does not impose a shape 
 
 ## Citations
 
-1. [Ṛgveda](/references/rigveda.md) 1.164, 4.23, 10.190 — ṛta as the cosmic order guarded by Varuṇa; from tapas and ṛta the ordered world is born
-2. [Taittirīya Upaniṣad](/references/taittiriya-upanishad.md) 1.11 — ṛta and satya named together in the charge to the departing student
-3. [Mahābhārata](/references/mahabharata.md) — dharma as the sustaining order, the later individualization of the Vedic ṛta
+1. [Ṛgveda](../references/rigveda.md) 1.164, 4.23, 10.190 — ṛta as the cosmic order guarded by Varuṇa; from tapas and ṛta the ordered world is born
+2. [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md) 1.11 — ṛta and satya named together in the charge to the departing student
+3. [Mahābhārata](../references/mahabharata.md) — dharma as the sustaining order, the later individualization of the Vedic ṛta
 
 ## Error Genealogy
 

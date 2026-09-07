@@ -41,7 +41,7 @@ Prakṛti is the primordial, unmanifest substrate from which the entire phenomen
 
 The evolution sequence from Prakṛti: first *Mahat/Buddhi* → *Ahaṃkāra* → *Manas* + *Indriyas* + *Tanmātras* → *Mahābhūtas*. All 24 tattvas of the manifest world are evolutes of Prakṛti.
 
-Critically, Prakṛti includes the MIND. [Manas](/concepts/manas.md), [Buddhi](/concepts/buddhi.md), [Ahankāra](/concepts/ahankara.md) are all products of Prakṛti — they are material, not spiritual. Only [Ātman](/concepts/atman.md)/Puruṣa is beyond Prakṛti.
+Critically, Prakṛti includes the MIND. [Manas](manas.md), [Buddhi](buddhi.md), [Ahankāra](ahankara.md) are all products of Prakṛti — they are material, not spiritual. Only [Ātman](atman.md)/Puruṣa is beyond Prakṛti.
 
 ### The Recursive Nature of Prakṛti / Vikṛti
 
@@ -49,7 +49,7 @@ Each evolute becomes the new "prakṛti" (material cause) for the next stage —
 
 ### Modern Science Operates Within Prakṛti
 
-This is a fundamental dissonance with the dharmic framework — not a disagreement about details, but about first principles. Modern science uses instruments of Prakṛti (mind, senses, instruments) to study Prakṛti. It cannot access Puruṣa ([Ātman](/concepts/atman.md)) from within this framework because Puruṣa is not an object — it is the witnessing consciousness that makes all observation possible.
+This is a fundamental dissonance with the dharmic framework — not a disagreement about details, but about first principles. Modern science uses instruments of Prakṛti (mind, senses, instruments) to study Prakṛti. It cannot access Puruṣa ([Ātman](atman.md)) from within this framework because Puruṣa is not an object — it is the witnessing consciousness that makes all observation possible.
 
 The Vedic śāstra-s were cognized by ṛṣi-s who transcended Prakṛti in Samādhi. The knowledge is therefore trans-Prakṛtic.
 
@@ -65,6 +65,6 @@ Prakṛti is like the complete hardware-and-software stack of a computer — mot
 
 ## Citations
 
-1. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa
-2. [Bhagavad Gītā](/references/bhagavad-gita.md) 13.19–23
-3. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) (on Prakṛti and Puruṣa)
+1. [Sāṃkhya Kārikā](../references/samkhya-karika.md) of Īśvarakṛṣṇa
+2. [Bhagavad Gītā](../references/bhagavad-gita.md) 13.19–23
+3. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) (on Prakṛti and Puruṣa)

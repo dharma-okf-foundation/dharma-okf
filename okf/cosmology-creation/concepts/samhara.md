@@ -73,6 +73,6 @@ Saṃhāra is like a breath being exhaled. The in-breath (Sṛṣṭi) draws in;
 ## Citations
 
 1. Bhagavad Gītā 9.7 — cosmic withdrawal and re-emission; "sarvabhūtāni... yānti māṃ kalpa-kṣaye"
-2. Bhāgavata Purāṇa 12.4 — description of Pralaya as the result of Saṃhāra; see references/bhagavata-purana.md
+2. Bhāgavata Purāṇa 12.4 — description of Pralaya as the result of Saṃhāra; see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
 3. Liṅga Purāṇa 1.1-2 — Śiva as Saṃhāra-agent and Naṭarāja cosmological significance
 4. Śiva Purāṇa — Saṃhāra in the Śaiva pañcakṛtya framework

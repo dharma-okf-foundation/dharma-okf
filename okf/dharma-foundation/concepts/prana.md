@@ -39,7 +39,7 @@ Prāṇa is the vital force that animates all living beings — operating in fiv
 
 Disease is "a deficiency of prāṇa in the affected part of the body." Prāṇa is present in food and air — both eating and breathing bring prāṇa into the body. Natural environments (ocean, mountains, rivers) have more prāṇa available, which is why they rejuvenate. Prāṇa is also obtained from loving relationships.
 
-[Mantra](/concepts/mantra.md) energizes prāṇa. *Prāṇāyāma* (the fourth limb of [Yoga](/concepts/yoga.md)) is the science of regulating prāṇa — not merely "breathing exercises."
+[Mantra](mantra.md) energizes prāṇa. *Prāṇāyāma* (the fourth limb of [Yoga](yoga.md)) is the science of regulating prāṇa — not merely "breathing exercises."
 
 ## Prāṇa and the Three-Tier Framework
 
@@ -48,20 +48,20 @@ Prāṇa should be understood at the *Adhyātmika* (microcosmic/self) level — 
 - **Adhibhautika Vāyu** — physical air, the gross element you breathe
 - **Adhyātmika Prāṇa** — the subtle life-force that operates at the level of the *Jīva* and specifically **connects Ātmā with the Jīva complex** (the subtle and gross bodies)
 
-Prāṇāyāma (the 4th limb of [Yoga](/concepts/yoga.md)) works at the Adhyātmika level — not the physical breath level. This is why "breathing exercises" misses the point entirely: the goal is to regulate the subtle Prāṇa that the breath carries, not merely to manipulate air volume.
+Prāṇāyāma (the 4th limb of [Yoga](yoga.md)) works at the Adhyātmika level — not the physical breath level. This is why "breathing exercises" misses the point entirely: the goal is to regulate the subtle Prāṇa that the breath carries, not merely to manipulate air volume.
 
 ## Why "Breath" or "Energy" Fails
 
 **"Breath"** reduces prāṇa to a single physical function. Prāṇa operates in digestion, circulation, speech, thought, and the process of death — none of which are "breathing."
 
-**"Energy"** in Western physics is a measurable, material quantity. Prāṇa is subtler than physical energy — it is the bridge between consciousness ([Ātman](/concepts/atman.md)) and matter ([Prakṛti](/concepts/prakriti.md)), the animating principle that makes inert matter appear alive.
+**"Energy"** in Western physics is a measurable, material quantity. Prāṇa is subtler than physical energy — it is the bridge between consciousness ([Ātman](atman.md)) and matter ([Prakṛti](prakriti.md)), the animating principle that makes inert matter appear alive.
 
 ## Audience Metaphor
 
-Prāṇa is like bandwidth in a network — it flows through different channels (the five forms), powers different applications (breathing, digestion, movement, speech, thought), and the system crashes when it's insufficient. [Yoga](/concepts/yoga.md) practice is upgrading your bandwidth.
+Prāṇa is like bandwidth in a network — it flows through different channels (the five forms), powers different applications (breathing, digestion, movement, speech, thought), and the system crashes when it's insufficient. [Yoga](yoga.md) practice is upgrading your bandwidth.
 
 ## Citations
 
-1. [Praśna Upaniṣad](/references/prashna-upanishad.md) (dedicated entirely to Prāṇa)
+1. [Praśna Upaniṣad](../references/prashna-upanishad.md) (dedicated entirely to Prāṇa)
 2. Haṭha Yoga Pradīpikā
 3. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

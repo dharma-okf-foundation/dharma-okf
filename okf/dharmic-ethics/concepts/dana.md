@@ -71,6 +71,6 @@ Think of two people who each give the same large sum to the same cause. The firs
 
 ## Citations
 
-1. [Bhagavad Gītā](/references/bhagavad-gita.md) 17.20-22 — dāna graded sāttvic, rājasic, and tāmasic by the manner of giving
-2. [Manusmṛti](/references/manusmriti.md) — dāna among the foremost duties; the worthy recipient (pātra) and the merit of right giving
-3. [Mahābhārata](/references/mahabharata.md) — the Anuśāsana Parva's extended teaching on dāna, its forms, and gupta-dāna
+1. [Bhagavad Gītā](../references/bhagavad-gita.md) 17.20-22 — dāna graded sāttvic, rājasic, and tāmasic by the manner of giving
+2. [Manusmṛti](../references/manusmriti.md) — dāna among the foremost duties; the worthy recipient (pātra) and the merit of right giving
+3. [Mahābhārata](../references/mahabharata.md) — the Anuśāsana Parva's extended teaching on dāna, its forms, and gupta-dāna

@@ -68,6 +68,6 @@ Think of a small gift a beloved grandmother presses into your hand as you leave:
 
 ## Citations
 
-1. [Bhagavad Gītā](/references/bhagavad-gita.md) 2.64-65 — prasāda as the serenity of grace that destroys sorrow and steadies the mind
-2. [Bhagavad Gītā](/references/bhagavad-gita.md) 18.56, 18.58 — attaining the eternal abode and crossing all obstacles *by His grace* (mat-prasādāt)
-3. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) — the sharing of the Lord's prasāda among devotees as an act of communion
+1. [Bhagavad Gītā](../references/bhagavad-gita.md) 2.64-65 — prasāda as the serenity of grace that destroys sorrow and steadies the mind
+2. [Bhagavad Gītā](../references/bhagavad-gita.md) 18.56, 18.58 — attaining the eternal abode and crossing all obstacles *by His grace* (mat-prasādāt)
+3. [Bhāgavata Purāṇa](../references/bhagavata-purana.md) — the sharing of the Lord's prasāda among devotees as an act of communion

@@ -71,9 +71,9 @@ Imagine the most beloved person in your life is coming to stay. You ready a room
 
 ## Citations
 
-1. [Pāñcarātra Āgama](/references/pancaratra.md) — the codification of temple pūjā and the sequence of upacāras
-2. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) 7.5.23 — arcana as a limb of navadhā bhakti
-3. [Bhagavad Gītā](/references/bhagavad-gita.md) 9.26 — the leaf, flower, fruit, or water offered with devotion accepted by the Lord
+1. [Pāñcarātra Āgama](../references/pancaratra.md) — the codification of temple pūjā and the sequence of upacāras
+2. [Bhāgavata Purāṇa](../references/bhagavata-purana.md) 7.5.23 — arcana as a limb of navadhā bhakti
+3. [Bhagavad Gītā](../references/bhagavad-gita.md) 9.26 — the leaf, flower, fruit, or water offered with devotion accepted by the Lord
 
 ## Error Genealogy
 

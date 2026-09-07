@@ -71,6 +71,6 @@ Think of how you learned to be a guest in someone's home, not from a manual but 
 
 ## Citations
 
-1. [Manusmṛti](/references/manusmriti.md) 1.108, 2.6, 2.18 — ācāra as the highest dharma and a root-source of dharma; the conduct of the śiṣṭas
-2. [Mahābhārata](/references/mahabharata.md) — sadācāra praised, and the hard cases where custom and dharma diverge
-3. [Taittirīya Upaniṣad](/references/taittiriya-upanishad.md) 1.11 — the graduate told to follow only the good conduct of the teachers, not their lapses
+1. [Manusmṛti](../references/manusmriti.md) 1.108, 2.6, 2.18 — ācāra as the highest dharma and a root-source of dharma; the conduct of the śiṣṭas
+2. [Mahābhārata](../references/mahabharata.md) — sadācāra praised, and the hard cases where custom and dharma diverge
+3. [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md) 1.11 — the graduate told to follow only the good conduct of the teachers, not their lapses

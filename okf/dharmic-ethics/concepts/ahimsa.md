@@ -71,6 +71,6 @@ Think of a surgeon's hands. The surgeon cuts, draws blood, breaks the body open,
 
 ## Citations
 
-1. [Yoga Sūtra](/references/yoga-sutra.md) 2.30, 2.35 — ahiṃsā as the first yama; enmity ceases in the presence of one established in it
-2. [Mahābhārata](/references/mahabharata.md) — ahiṃsā paramo dharmaḥ: non-harm as the highest dharma, held alongside the warrior's duty
-3. [Bhagavad Gītā](/references/bhagavad-gita.md) 13.7, 16.2 — ahiṃsā listed among the marks of knowledge and the divine endowment
+1. [Yoga Sūtra](../references/yoga-sutra.md) 2.30, 2.35 — ahiṃsā as the first yama; enmity ceases in the presence of one established in it
+2. [Mahābhārata](../references/mahabharata.md) — ahiṃsā paramo dharmaḥ: non-harm as the highest dharma, held alongside the warrior's duty
+3. [Bhagavad Gītā](../references/bhagavad-gita.md) 13.7, 16.2 — ahiṃsā listed among the marks of knowledge and the divine endowment

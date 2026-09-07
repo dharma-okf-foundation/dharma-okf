@@ -72,7 +72,7 @@ Hiraṇyagarbha is like the code before it compiles: all the logic of the progra
 
 ## Citations
 
-1. Ṛg Veda 10.121 -- Hiraṇyagarbha Sūkta; the oldest cosmogonic treatment; see references/rigveda-hiranyagarbha-sukta.md
+1. Ṛg Veda 10.121 -- Hiraṇyagarbha Sūkta; the oldest cosmogonic treatment; see [Hiraṇyagarbha Sūkta](../references/rigveda-hiranyagarbha-sukta.md)
 2. Chāndogya Upaniṣad 3.19 -- Hiraṇyagarbha as the cosmic egg; first differentiation by the sun
 3. Muṇḍaka Upaniṣad 2.1.2 -- identification with cosmic Prāṇa
-4. Bhāgavata Purāṇa 3.8.15 -- emergence of Brahmā from Hiraṇyagarbha (the golden egg on the cosmic waters); see references/bhagavata-purana.md
+4. Bhāgavata Purāṇa 3.8.15 -- emergence of Brahmā from Hiraṇyagarbha (the golden egg on the cosmic waters); see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)

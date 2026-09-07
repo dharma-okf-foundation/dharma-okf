@@ -36,9 +36,9 @@ okf_version: "0.2"
 
 ## What It Actually Means
 
-Samādhi is the eighth and final limb of [Yoga](/concepts/yoga.md) — derived from *sam* (complete/perfect) + *ā* + *dhā* (to hold). In Samādhi, the sādhaka (practitioner), the object of contemplation, and the act of contemplation lose their distinctions — the three collapse into one.
+Samādhi is the eighth and final limb of [Yoga](yoga.md) — derived from *sam* (complete/perfect) + *ā* + *dhā* (to hold). In Samādhi, the sādhaka (practitioner), the object of contemplation, and the act of contemplation lose their distinctions — the three collapse into one.
 
-Two broad types: *Samprajñāta samādhi* (with an object of consciousness — subtler forms of awareness where the object is still present) and *Asamprajñāta samādhi* (objectless — ego completely dissolved, pure awareness without content). *Samyama* — the simultaneous application of dhāraṇā + [Dhyāna](/concepts/dhyana.md) + Samādhi on one object — is the basis of yogic powers (*siddhis*).
+Two broad types: *Samprajñāta samādhi* (with an object of consciousness — subtler forms of awareness where the object is still present) and *Asamprajñāta samādhi* (objectless — ego completely dissolved, pure awareness without content). *Samyama* — the simultaneous application of dhāraṇā + [Dhyāna](dhyana.md) + Samādhi on one object — is the basis of yogic powers (*siddhis*).
 
 ## Why "Trance" Fails
 
@@ -50,6 +50,6 @@ In ordinary perception there is always a gap: a seer, a thing seen, and the act 
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.17–18, 3.3
-2. [Vivekacūḍāmaṇi](/references/vivekachudamani.md)
-3. [Māṇḍūkya Upaniṣad](/references/mandukya-upanishad.md)
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 1.17–18, 3.3
+2. [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+3. [Māṇḍūkya Upaniṣad](../references/mandukya-upanishad.md)

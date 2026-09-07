@@ -83,7 +83,7 @@ A master musician improvises. She has nothing to prove, no audience to impress, 
 
 ## Citations
 
-1. Brahma Sūtras 2.1.33 (*lokavat tu līlā kaivalyam*) -- the foundational philosophical statement that Brahman's creation is like sport, requiring no external justification; see references/brahmasutras.md
+1. Brahma Sūtras 2.1.33 (*lokavat tu līlā kaivalyam*) -- the foundational philosophical statement that Brahman's creation is like sport, requiring no external justification; see [Brahma Sūtras (Vedānta Sūtras)](../references/brahmasutras.md)
 2. Bhagavad Gītā 3.22-23 -- Kṛṣṇa's self-disclosure: he acts without need or purpose external to his own nature
-3. Bhāgavata Purāṇa 10.33.26 -- the Rāsa Pañcādhyāya; the devotional expression of Līlā in its most concentrated form; see references/bhagavata-purana.md
+3. Bhāgavata Purāṇa 10.33.26 -- the Rāsa Pañcādhyāya; the devotional expression of Līlā in its most concentrated form; see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
 4. Taittirīya Upaniṣad 3.6 -- *ānandaṃ brahmeti*: ānanda as Brahman's nature, the root of why creation as Līlā is coherent

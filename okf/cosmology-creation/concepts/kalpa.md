@@ -69,6 +69,6 @@ A Kalpa is like one complete day in Brahmā's cosmic working life. During the da
 ## Citations
 
 1. Bhāgavata Purāṇa 3.11.20-38 — definitive treatment of Kalpa structure and Brahmā's lifespan
-2. Manu-Smṛti 1.72-73 — Kalpa duration; Brahmā's day and night; see references/manusmriti.md
-3. Viṣṇu Purāṇa 1.3 — Kalpa within the nested time-scale; see references/vishnu-purana.md
-4. See references/bhagavata-purana.md for comprehensive cosmological framework
+2. Manu-Smṛti 1.72-73 — Kalpa duration; Brahmā's day and night; see [Manu-Smṛti](../references/manusmriti.md)
+3. Viṣṇu Purāṇa 1.3 — Kalpa within the nested time-scale; see [Viṣṇu Purāṇa](../references/vishnu-purana.md)
+4. See [Bhāgavata Purāṇa](../references/bhagavata-purana.md) for comprehensive cosmological framework

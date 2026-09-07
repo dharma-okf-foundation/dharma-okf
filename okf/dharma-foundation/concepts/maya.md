@@ -91,9 +91,9 @@ Māyā is like VR goggles that have been on so long you forgot they're there. Th
 
 ## Citations
 
-1. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) of Ādi Śaṅkarācārya
-2. [Māṇḍūkya Upaniṣad](/references/mandukya-upanishad.md) with Gauḍapāda's Kārikā
-3. [Bhagavad Gītā](/references/bhagavad-gita.md) 7.14 — "This divine Māyā of mine is difficult to cross"
+1. [Vivekacūḍāmaṇi](../references/vivekachudamani.md) of Ādi Śaṅkarācārya
+2. [Māṇḍūkya Upaniṣad](../references/mandukya-upanishad.md) with Gauḍapāda's Kārikā
+3. [Bhagavad Gītā](../references/bhagavad-gita.md) 7.14 — "This divine Māyā of mine is difficult to cross"
 4. Rajiv Malhotra, *Sanskrit Non-Translatabl
 
 ## Error Genealogy

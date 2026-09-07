@@ -67,6 +67,6 @@ The difference between a student and a śiṣya is the difference between auditi
 
 ## Citations
 
-1. [Bhagavad Gītā](/references/bhagavad-gita.md) 4.34 — the means of approaching a teacher: humble reverence, inquiry, and service
-2. [Guru Gītā](/references/guru-gita.md) — the disciple's reverence and service as the condition of receiving the guru's grace
-3. [Śvetāśvatara Upaniṣad](/references/shvetashvatara-upanishad.md) 6.23 — the disciple's parā bhakti for guru and God as the condition of realization
+1. [Bhagavad Gītā](../references/bhagavad-gita.md) 4.34 — the means of approaching a teacher: humble reverence, inquiry, and service
+2. [Guru Gītā](../references/guru-gita.md) — the disciple's reverence and service as the condition of receiving the guru's grace
+3. [Śvetāśvatara Upaniṣad](../references/shvetashvatara-upanishad.md) 6.23 — the disciple's parā bhakti for guru and God as the condition of realization

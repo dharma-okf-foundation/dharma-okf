@@ -76,6 +76,6 @@ Consider the difference between a person who loves a singer's voice and a parent
 
 ## Citations
 
-1. [Nārada Bhakti Sūtra](/references/narada-bhakti-sutra.md) 2, 19 — bhakti as parama-prema; the contrast of selfless love with self-directed desire
-2. [Bhakti-rasāmṛta-sindhu](/references/bhakti-rasamrita-sindhu.md) 1.4.1 — bhāva ripening into prema; the developmental intensities
-3. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) 10.29-33 — the gopīs' prema as the exemplar of desireless love for the Beloved
+1. [Nārada Bhakti Sūtra](../references/narada-bhakti-sutra.md) 2, 19 — bhakti as parama-prema; the contrast of selfless love with self-directed desire
+2. [Bhakti-rasāmṛta-sindhu](../references/bhakti-rasamrita-sindhu.md) 1.4.1 — bhāva ripening into prema; the developmental intensities
+3. [Bhāgavata Purāṇa](../references/bhagavata-purana.md) 10.29-33 — the gopīs' prema as the exemplar of desireless love for the Beloved

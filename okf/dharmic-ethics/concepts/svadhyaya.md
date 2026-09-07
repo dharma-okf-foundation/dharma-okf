@@ -71,6 +71,6 @@ Think of the difference between reading a recipe and learning to cook from your 
 
 ## Citations
 
-1. [Yoga Sūtra](/references/yoga-sutra.md) 2.1, 2.32, 2.44 — svādhyāya as a kriyā-yoga limb and the fourth niyama; communion with the chosen ideal as its fruit
-2. [Taittirīya Upaniṣad](/references/taittiriya-upanishad.md) 1.9 — svādhyāya and pravacana paired as standing duties
-3. [Bhagavad Gītā](/references/bhagavad-gita.md) 17.15 — recitation and study (abhyāsa / svādhyāya) among the tapas of speech
+1. [Yoga Sūtra](../references/yoga-sutra.md) 2.1, 2.32, 2.44 — svādhyāya as a kriyā-yoga limb and the fourth niyama; communion with the chosen ideal as its fruit
+2. [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md) 1.9 — svādhyāya and pravacana paired as standing duties
+3. [Bhagavad Gītā](../references/bhagavad-gita.md) 17.15 — recitation and study (abhyāsa / svādhyāya) among the tapas of speech

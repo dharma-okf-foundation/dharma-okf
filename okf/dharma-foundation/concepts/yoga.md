@@ -42,7 +42,7 @@ okf_version: "0.2"
 
 ## What It Actually Means
 
-Yoga is defined by Patañjali in the Yoga Sūtras (1.2) as *chitta-vṛtti-nirodha* — the cessation of the modifications of [Chitta](/concepts/chitta.md). It is the complete science of yoking individual consciousness to its source in [Brahman](/concepts/brahman.md).
+Yoga is defined by Patañjali in the Yoga Sūtras (1.2) as *chitta-vṛtti-nirodha* — the cessation of the modifications of [Chitta](chitta.md). It is the complete science of yoking individual consciousness to its source in [Brahman](brahman.md).
 
 The complete system is *Aṣṭāṅga Yoga* — eight limbs progressing from outer ethical discipline inward to pure consciousness:
 
@@ -54,12 +54,12 @@ The complete system is *Aṣṭāṅga Yoga* — eight limbs progressing from ou
 | 4 | **Prāṇāyāma** | Control of Prāṇa — not merely "breathing exercises" |
 | 5 | **Pratyāhāra** | Withdrawal of the Senses — turning attention inward |
 | 6 | **Dhāraṇā** | Fixing Consciousness on One Object — concentration |
-| 7 | **Dhyāna** | Unbroken Flow of Attention on One Object — [Meditation](/concepts/dhyana.md) |
+| 7 | **Dhyāna** | Unbroken Flow of Attention on One Object — [Meditation](dhyana.md) |
 | 8 | **Samādhi** | No Distinction between Object and Subject — unified consciousness |
 
 What the global fitness industry calls "yoga" is one-eighth of one limb (āsana) — the physical postures — stripped of the seven other limbs and the entire cosmological framework.
 
-The 3-step digestion: (1) Yoga was SEPARATED from Vedānta, [Karma](/concepts/karma.md), and the dharmic worldview. (2) Its context was SCRUBBED — secularized into "stretching and wellness." (3) It was RE-CONTEXTUALIZED as a Western fitness practice, with dharmic sources erased.
+The 3-step digestion: (1) Yoga was SEPARATED from Vedānta, [Karma](karma.md), and the dharmic worldview. (2) Its context was SCRUBBED — secularized into "stretching and wellness." (3) It was RE-CONTEXTUALIZED as a Western fitness practice, with dharmic sources erased.
 
 ## Why the Substitutes Fail
 
@@ -71,8 +71,8 @@ Imagine a smartphone. The global fitness industry took the flashlight app, calle
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) (complete text)
-2. [Bhagavad Gītā](/references/bhagavad-gita.md) chapters 2, 3, 6, 12, 18
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) (complete text)
+2. [Bhagavad Gītā](../references/bhagavad-gita.md) chapters 2, 3, 6, 12, 18
 3. Haṭha Yoga Pradīpikā
 
 ## Error Genealogy

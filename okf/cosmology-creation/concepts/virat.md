@@ -78,7 +78,7 @@ Virāṭ is like the entire internet considered as one body: all the servers, al
 
 ## Citations
 
-1. Ṛg Veda 10.90 -- Puruṣa Sūkta; cosmic body as the sacrificed Puruṣa; see references/rigveda-purusha-sukta.md
+1. Ṛg Veda 10.90 -- Puruṣa Sūkta; cosmic body as the sacrificed Puruṣa; see [Puruṣa Sūkta](../references/rigveda-purusha-sukta.md)
 2. Māṇḍūkya Upaniṣad 3 -- Vaiśvānara as cosmic-waking consciousness (= Virāṭ at the gross-cosmic level)
 3. Bhagavad Gītā 11.5-30 -- the Viśvarūpa as Virāṭ-darśana
-4. Bhāgavata Purāṇa 2.1.23-39 -- the cosmic body homology (sky = skull, sun = eyes, etc.); see references/bhagavata-purana.md
+4. Bhāgavata Purāṇa 2.1.23-39 -- the cosmic body homology (sky = skull, sun = eyes, etc.); see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)

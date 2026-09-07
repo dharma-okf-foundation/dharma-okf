@@ -72,7 +72,7 @@ The Brahmāṇḍa is like one bubble in an infinite ocean. Each bubble (Brahmā
 
 ## Citations
 
-1. Bhāgavata Purāṇa 5.20-26 -- structural description of the Brahmāṇḍa and its Loka-contents; see references/bhagavata-purana.md
+1. Bhāgavata Purāṇa 5.20-26 -- structural description of the Brahmāṇḍa and its Loka-contents; see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
 2. Bhāgavata Purāṇa 6.16.37 -- multiple Brahmāṇḍas visible from within one Brahmāṇḍa
-3. Viṣṇu Purāṇa 2.7 -- the concentric shells (āvaraṇas) of the Brahmāṇḍa; see references/vishnu-purana.md
+3. Viṣṇu Purāṇa 2.7 -- the concentric shells (āvaraṇas) of the Brahmāṇḍa; see [Viṣṇu Purāṇa](../references/vishnu-purana.md)
 4. Brahmāṇḍa Purāṇa 1.1 -- the text named after this concept; cosmological framework introduction

@@ -63,7 +63,7 @@ Dharma is like gravity — it's the fundamental force that keeps everything in i
 
 ## Citations
 
-1. [Bhagavad Gītā](/references/bhagavad-gita.md) (especially chapters 2–3, 18)
+1. [Bhagavad Gītā](../references/bhagavad-gita.md) (especially chapters 2–3, 18)
 2. Mahābhārata — Śānti Parva
 3. Manusmṛti (with Dharmic interpretive tradition)
 4. Rajiv Malhotra, *Being Different* (2011)

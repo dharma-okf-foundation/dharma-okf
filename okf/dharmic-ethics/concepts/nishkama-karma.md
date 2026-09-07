@@ -71,6 +71,6 @@ Think of a nurse on a long night shift who has learned not to ride the outcome o
 
 ## Citations
 
-1. [Bhagavad Gītā](/references/bhagavad-gita.md) 2.47-48, 2.50, 3.19, 5.10 — the right to action but not its fruits; yoga as skill in action; the lotus-leaf untouched
-2. [Mahābhārata](/references/mahabharata.md) — the karma-yoga teaching set within the epic's account of duty under pressure
-3. [Yoga Sūtra](/references/yoga-sutra.md) 2.1 — kriyā-yoga, where offered action (īśvara-praṇidhāna) meets desireless discipline
+1. [Bhagavad Gītā](../references/bhagavad-gita.md) 2.47-48, 2.50, 3.19, 5.10 — the right to action but not its fruits; yoga as skill in action; the lotus-leaf untouched
+2. [Mahābhārata](../references/mahabharata.md) — the karma-yoga teaching set within the epic's account of duty under pressure
+3. [Yoga Sūtra](../references/yoga-sutra.md) 2.1 — kriyā-yoga, where offered action (īśvara-praṇidhāna) meets desireless discipline

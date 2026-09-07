@@ -35,19 +35,19 @@ okf_version: "0.2"
 
 ## What It Actually Means
 
-Viveka is the technical ability to discriminate between *nitya* (eternal, unchanging — [Ātman](/concepts/atman.md)/[Brahman](/concepts/brahman.md)) and *anitya* (transient, changing — everything in [Prakṛti](/concepts/prakriti.md)). It is not everyday good judgment about which job to take or which restaurant to choose. It is the foundational capacity to see through the appearance of reality to what is actually real.
+Viveka is the technical ability to discriminate between *nitya* (eternal, unchanging — [Ātman](atman.md)/[Brahman](brahman.md)) and *anitya* (transient, changing — everything in [Prakṛti](prakriti.md)). It is not everyday good judgment about which job to take or which restaurant to choose. It is the foundational capacity to see through the appearance of reality to what is actually real.
 
-Paired with [Vairāgya](/concepts/vairagya.md) as the two primary prerequisites (*sādhana-catuṣṭaya*) for *Jñāna-yoga* — the path of Self-knowledge. Without Viveka, spiritual study remains intellectual entertainment; with Viveka, it becomes a path to [Mokṣa](/concepts/moksha.md).
+Paired with [Vairāgya](vairagya.md) as the two primary prerequisites (*sādhana-catuṣṭaya*) for *Jñāna-yoga* — the path of Self-knowledge. Without Viveka, spiritual study remains intellectual entertainment; with Viveka, it becomes a path to [Mokṣa](moksha.md).
 
 ## Why "Discernment" Fails
 
-"Discernment" in English applies to any domain — wine, character, aesthetics. Viveka has a precise scope: discriminating specifically between the eternal and the transient, Ātman from anātman, [Brahman](/concepts/brahman.md) from *Mithyā*. No English word carries this specific technical scope.
+"Discernment" in English applies to any domain — wine, character, aesthetics. Viveka has a precise scope: discriminating specifically between the eternal and the transient, Ātman from anātman, [Brahman](brahman.md) from *Mithyā*. No English word carries this specific technical scope.
 
 ## Audience Metaphor
 
-Viveka is like having a filter that separates signal from noise — except the "signal" is the one unchanging reality ([Ātman](/concepts/atman.md)) and the "noise" is everything that appears, changes, and disappears. Most people are drowning in noise and can't hear the signal. Viveka is learning to hear it.
+Viveka is like having a filter that separates signal from noise — except the "signal" is the one unchanging reality ([Ātman](atman.md)) and the "noise" is everything that appears, changes, and disappears. Most people are drowning in noise and can't hear the signal. Viveka is learning to hear it.
 
 ## Citations
 
-1. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) of Ādi Śaṅkarācārya (the entire text is about Viveka)
+1. [Vivekacūḍāmaṇi](../references/vivekachudamani.md) of Ādi Śaṅkarācārya (the entire text is about Viveka)
 2. Tattvabodha of Ādi Śaṅkarācārya (sādhana-catuṣṭaya)

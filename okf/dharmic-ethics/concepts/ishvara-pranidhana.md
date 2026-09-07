@@ -79,6 +79,6 @@ Think of a singer who finally stops watching the audience. As long as the perfor
 
 ## Citations
 
-1. [Yoga Sūtra](/references/yoga-sutra.md) 1.23, 2.1, 2.32, 2.45 — īśvara-praṇidhāna as a direct route, a kriyā-yoga limb, and the fifth niyama whose fruit is samādhi
-2. [Bhagavad Gītā](/references/bhagavad-gita.md) 9.27, 12.6-7 — offering all action to the Lord and the grace that meets it
-3. [Manusmṛti](/references/manusmriti.md) — the dedication of works to the Lord among the duties of the disciplined
+1. [Yoga Sūtra](../references/yoga-sutra.md) 1.23, 2.1, 2.32, 2.45 — īśvara-praṇidhāna as a direct route, a kriyā-yoga limb, and the fifth niyama whose fruit is samādhi
+2. [Bhagavad Gītā](../references/bhagavad-gita.md) 9.27, 12.6-7 — offering all action to the Lord and the grace that meets it
+3. [Manusmṛti](../references/manusmriti.md) — the dedication of works to the Lord among the duties of the disciplined

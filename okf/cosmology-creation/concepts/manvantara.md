@@ -73,6 +73,6 @@ Each Manvantara is like a new software instance on the same cosmic operating sys
 ## Citations
 
 1. Bhāgavata Purāṇa 8.1-24 — comprehensive treatment of all 14 Manvantaras; the most complete Purāṇic account
-2. Viṣṇu Purāṇa 3.1-2 — Manvantara structure and Manu lists; see references/vishnu-purana.md
-3. Manu-Smṛti 1.61-63 — Manu as progenitor and the time-scale framework; see references/manusmriti.md
-4. Matsya Purāṇa — detailed Manvantara tables; see references/matsya-purana.md
+2. Viṣṇu Purāṇa 3.1-2 — Manvantara structure and Manu lists; see [Viṣṇu Purāṇa](../references/vishnu-purana.md)
+3. Manu-Smṛti 1.61-63 — Manu as progenitor and the time-scale framework; see [Manu-Smṛti](../references/manusmriti.md)
+4. Matsya Purāṇa — detailed Manvantara tables; see [Matsya Purāṇa](../references/matsya-purana.md)

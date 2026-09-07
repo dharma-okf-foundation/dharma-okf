@@ -35,7 +35,7 @@ okf_version: "0.2"
 
 ## What It Actually Means
 
-Vairāgya is the absence of desire (*rāga*) toward worldly possessions, fame, and sensory pleasures — a required qualification alongside [Viveka](/concepts/viveka.md) for *Jñāna-yoga sādhana*. It is not the rejection of the world or withdrawal from life.
+Vairāgya is the absence of desire (*rāga*) toward worldly possessions, fame, and sensory pleasures — a required qualification alongside [Viveka](viveka.md) for *Jñāna-yoga sādhana*. It is not the rejection of the world or withdrawal from life.
 
 The critical distinction: "renunciation" implies leaving things behind — quitting your job, moving to an ashram, giving away possessions. Vairāgya is an *inner quality* of non-attachment that can be fully present in a householder. A person with Vairāgya may hold great wealth and responsibilities — they simply are not bound by them. Their sense of self does not depend on what they own, achieve, or are recognized for.
 
@@ -49,6 +49,6 @@ Vairāgya is like being a really good actor — fully immersed in the role, feel
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.15–16
-2. [Vivekacūḍāmaṇi](/references/vivekachudamani.md), Tattvabodha
-3. [Bhagavad Gītā](/references/bhagavad-gita.md) 6.35 — "Through practice and Vairāgya, the mind is restrained"
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 1.15–16
+2. [Vivekacūḍāmaṇi](../references/vivekachudamani.md), Tattvabodha
+3. [Bhagavad Gītā](../references/bhagavad-gita.md) 6.35 — "Through practice and Vairāgya, the mind is restrained"

@@ -73,9 +73,9 @@ The difference between a guru and a teacher is the difference between someone wh
 
 ## Citations
 
-1. [Guru Gītā](/references/guru-gita.md) — the gu-ru etymology; the guru as the form of the Divine, to be revered, not merely consulted
+1. [Guru Gītā](../references/guru-gita.md) — the gu-ru etymology; the guru as the form of the Divine, to be revered, not merely consulted
 2. Muṇḍaka Upaniṣad 1.2.12 — the seeker is enjoined to approach a guru learned in scripture and established in Brahman (plain citation; no in-bundle reference entry)
-3. [Śvetāśvatara Upaniṣad](/references/shvetashvatara-upanishad.md) 6.23 — devotion to the guru placed parallel to devotion to God
+3. [Śvetāśvatara Upaniṣad](../references/shvetashvatara-upanishad.md) 6.23 — devotion to the guru placed parallel to devotion to God
 
 ## Error Genealogy
 

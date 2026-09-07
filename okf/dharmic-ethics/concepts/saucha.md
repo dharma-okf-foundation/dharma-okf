@@ -65,6 +65,6 @@ Think of a camera lens smeared with fingerprints. You can own the finest optics 
 
 ## Citations
 
-1. [Yoga Sūtra](/references/yoga-sutra.md) 2.32, 2.40-41 — śauca as the first niyama; its outer and inner fruits, culminating in fitness for Self-vision
-2. [Bhagavad Gītā](/references/bhagavad-gita.md) 17.14-16 — purity of body, speech, and mind among the forms of tapas
-3. [Manusmṛti](/references/manusmriti.md) — outer purification practices in service of inner clarity
+1. [Yoga Sūtra](../references/yoga-sutra.md) 2.32, 2.40-41 — śauca as the first niyama; its outer and inner fruits, culminating in fitness for Self-vision
+2. [Bhagavad Gītā](../references/bhagavad-gita.md) 17.14-16 — purity of body, speech, and mind among the forms of tapas
+3. [Manusmṛti](../references/manusmriti.md) — outer purification practices in service of inner clarity

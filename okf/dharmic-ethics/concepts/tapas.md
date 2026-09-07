@@ -67,6 +67,6 @@ Think of forging a blade. The smith does not heat the iron to hurt it; the heat 
 
 ## Citations
 
-1. [Yoga Sūtra](/references/yoga-sutra.md) 2.1, 2.32, 2.43 — tapas as a kriyā-yoga limb and the third niyama; perfection of body and senses as its fruit
-2. [Bhagavad Gītā](/references/bhagavad-gita.md) 17.14-19 — the threefold tapas of body, speech, and mind, graded sāttvic / rājasic / tāmasic
-3. [Ṛgveda](/references/rigveda.md) 10.129 — tapas as a creative, world-generating heat
+1. [Yoga Sūtra](../references/yoga-sutra.md) 2.1, 2.32, 2.43 — tapas as a kriyā-yoga limb and the third niyama; perfection of body and senses as its fruit
+2. [Bhagavad Gītā](../references/bhagavad-gita.md) 17.14-19 — the threefold tapas of body, speech, and mind, graded sāttvic / rājasic / tāmasic
+3. [Ṛgveda](../references/rigveda.md) 10.129 — tapas as a creative, world-generating heat

@@ -67,6 +67,6 @@ Think of how a child holds a fistful of sand at the beach. Clench tight and the 
 
 ## Citations
 
-1. [Yoga Sūtra](/references/yoga-sutra.md) 2.30, 2.39 — aparigraha as the fifth yama; knowledge of the rounds of birth arises in the one established in it
-2. [Bhagavad Gītā](/references/bhagavad-gita.md) 6.10, 18.49 — the renunciation of possessiveness and the freedom of the unattached
-3. [Manusmṛti](/references/manusmriti.md) — moderation in acquisition among the conduct of the wise
+1. [Yoga Sūtra](../references/yoga-sutra.md) 2.30, 2.39 — aparigraha as the fifth yama; knowledge of the rounds of birth arises in the one established in it
+2. [Bhagavad Gītā](../references/bhagavad-gita.md) 6.10, 18.49 — the renunciation of possessiveness and the freedom of the unattached
+3. [Manusmṛti](../references/manusmriti.md) — moderation in acquisition among the conduct of the wise

@@ -79,7 +79,7 @@ Different traditions identify different primary aspects of cosmological Śakti:
 
 ## Citations
 
-1. Devī Māhātmya 1.74-78 (Mārkaṇḍeya Purāṇa) -- Śakti as the one who creates, maintains, and withdraws; see references/markandeya-purana.md and references/devi-mahatmya.md
+1. Devī Māhātmya 1.74-78 (Mārkaṇḍeya Purāṇa) -- Śakti as the one who creates, maintains, and withdraws; see [Mārkaṇḍeya Purāṇa](../references/markandeya-purana.md) and [Devī Māhātmya (Durgā Saptaśatī)](../references/devi-mahatmya.md)
 2. Śiva Sūtras 1.1 -- "Citir ātmā" (Consciousness is the Self) -- the Kashmir Shaivism foundation for Śiva-Śakti cosmology
 3. Vijñāna Bhairava Tantra -- Śakti as the dynamic expression of Śiva-consciousness; the vibratory (Spanda) framework
-4. Bhāgavata Purāṇa 1.2.23 -- Śakti as Viṣṇu's creative energy in Saguṇa manifestation; see references/bhagavata-purana.md
+4. Bhāgavata Purāṇa 1.2.23 -- Śakti as Viṣṇu's creative energy in Saguṇa manifestation; see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)

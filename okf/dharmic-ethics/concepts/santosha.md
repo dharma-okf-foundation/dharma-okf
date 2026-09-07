@@ -67,6 +67,6 @@ Think of two travelers caught in the same delayed flight. One paces, refreshes t
 
 ## Citations
 
-1. [Yoga Sūtra](/references/yoga-sutra.md) 2.32, 2.42 — santoṣa as the second niyama; unsurpassed happiness as its fruit
-2. [Bhagavad Gītā](/references/bhagavad-gita.md) 2.55, 12.13-14 — the sthitaprajña and the devotee content and steady in all conditions
-3. [Mahābhārata](/references/mahabharata.md) — contentment praised as a foremost source of happiness in the dharma teachings
+1. [Yoga Sūtra](../references/yoga-sutra.md) 2.32, 2.42 — santoṣa as the second niyama; unsurpassed happiness as its fruit
+2. [Bhagavad Gītā](../references/bhagavad-gita.md) 2.55, 12.13-14 — the sthitaprajña and the devotee content and steady in all conditions
+3. [Mahābhārata](../references/mahabharata.md) — contentment praised as a foremost source of happiness in the dharma teachings

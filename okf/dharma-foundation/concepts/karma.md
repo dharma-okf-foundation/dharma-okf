@@ -44,7 +44,7 @@ okf_version: "0.2"
 
 ## What It Actually Means
 
-Karma is the precise mechanism by which every action — physical, verbal, and mental — creates *saṃskāras* (impressions) stored in [Chitta](/concepts/chitta.md) that shape future experience across lifetimes. It is not a system of reward and punishment administered by an external judge. It is an impersonal law — as mechanical as gravity, as precise as chemistry.
+Karma is the precise mechanism by which every action — physical, verbal, and mental — creates *saṃskāras* (impressions) stored in [Chitta](chitta.md) that shape future experience across lifetimes. It is not a system of reward and punishment administered by an external judge. It is an impersonal law — as mechanical as gravity, as precise as chemistry.
 
 Three types operate simultaneously: *Sañchita* (the total accumulated storehouse from all past lives), *Prārabdha* (the portion allocated to this current life — already "ripening"), and *Kriyamāna* / *Āgāmi* (karma being created right now by current actions).
 
@@ -58,13 +58,13 @@ Karma is NOT sin. Sin in Abrahamic theology is a moral offense against God requi
 
 ## Audience Metaphor
 
-Karma is like compound interest on a cosmic bank account — every action is a deposit or withdrawal. The balance carries over when you "close" one account (death) and "open" another (rebirth). *Prārabdha* is this life's opening balance. *Kriyamāna* is what you're depositing right now. [Mokṣa](/concepts/moksha.md) is closing the account permanently.
+Karma is like compound interest on a cosmic bank account — every action is a deposit or withdrawal. The balance carries over when you "close" one account (death) and "open" another (rebirth). *Prārabdha* is this life's opening balance. *Kriyamāna* is what you're depositing right now. [Mokṣa](moksha.md) is closing the account permanently.
 
 ## Citations
 
-1. [Bhagavad Gītā](/references/bhagavad-gita.md) 4.17 — "The way of karma is unfathomable"
-2. [Bṛhadāraṇyaka Upaniṣad](/references/brihadaranyaka-upanishad.md) 4.4.5
-3. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) (2.12–14)
+1. [Bhagavad Gītā](../references/bhagavad-gita.md) 4.17 — "The way of karma is unfathomable"
+2. [Bṛhadāraṇyaka Upaniṣad](../references/brihadaranyaka-upanishad.md) 4.4.5
+3. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) (2.12–14)
 4. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
 
 ## Error Genealogy

@@ -80,5 +80,5 @@ An Avatāra is like the system developer directly entering the application envir
 ## Citations
 
 1. Bhagavad Gītā 4.6-8 -- the theological basis for Avatāra; "ātma-māyayā" and the dharma-restoration rationale
-2. Bhāgavata Purāṇa 1.3.1-28 -- the 22-Avatāra list; "avataras hy asaṃkhyeyāḥ" (innumerable Avatāras); see references/bhagavata-purana.md
-3. Viṣṇu Purāṇa 1.17 -- Avatāras and their cosmological function; see references/vishnu-purana.md
+2. Bhāgavata Purāṇa 1.3.1-28 -- the 22-Avatāra list; "avataras hy asaṃkhyeyāḥ" (innumerable Avatāras); see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
+3. Viṣṇu Purāṇa 1.17 -- Avatāras and their cosmological function; see [Viṣṇu Purāṇa](../references/vishnu-purana.md)

@@ -35,9 +35,9 @@ okf_version: "0.2"
 
 ## What It Actually Means
 
-Each Chakra represents a particular form of *consciousness* — not an "energy center" (a material, insentient concept with no well-defined connection to consciousness). Each Chakra corresponds to a [Loka](/concepts/loka.md) — the rise of *Kuṇḍalinī Śakti* brings the consciousness of the associated Loka.
+Each Chakra represents a particular form of *consciousness* — not an "energy center" (a material, insentient concept with no well-defined connection to consciousness). Each Chakra corresponds to a [Loka](loka.md) — the rise of *Kuṇḍalinī Śakti* brings the consciousness of the associated Loka.
 
-Each Chakra's petals represent Sanskrit syllabic sound vibrations ([Akṣara](/concepts/akshara.md)) — the sum of all syllabic sounds in the petals IS the [Mantra](/concepts/mantra.md) of that Chakra. The Chakra system is thus a bridge between the cosmology of Lokas, the science of Mantra, and the physiology of consciousness.
+Each Chakra's petals represent Sanskrit syllabic sound vibrations ([Akṣara](akshara.md)) — the sum of all syllabic sounds in the petals IS the [Mantra](mantra.md) of that Chakra. The Chakra system is thus a bridge between the cosmology of Lokas, the science of Mantra, and the physiology of consciousness.
 
 ### The Seven Chakras (Ascending)
 

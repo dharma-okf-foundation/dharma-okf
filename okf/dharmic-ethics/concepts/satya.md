@@ -71,6 +71,6 @@ Think of a tuning fork. A true note is not just a "correct" sound; it is a vibra
 
 ## Citations
 
-1. [Yoga Sūtra](/references/yoga-sutra.md) 2.30, 2.36 — satya as the second yama; the word of the truth-established becomes efficacious
-2. [Taittirīya Upaniṣad](/references/taittiriya-upanishad.md) 1.11 — satyaṃ vada, dharmaṃ cara: the graduating student's charge
-3. [Ṛgveda](/references/rigveda.md) — the ṛtaṃ-satyaṃ pairing: cosmic order and its truthful articulation
+1. [Yoga Sūtra](../references/yoga-sutra.md) 2.30, 2.36 — satya as the second yama; the word of the truth-established becomes efficacious
+2. [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md) 1.11 — satyaṃ vada, dharmaṃ cara: the graduating student's charge
+3. [Ṛgveda](../references/rigveda.md) — the ṛtaṃ-satyaṃ pairing: cosmic order and its truthful articulation

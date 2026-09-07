@@ -66,5 +66,5 @@ Western linguistics studies language the way you would study ripples on the surf
 
 1. Bhartṛhari's *Vākyapadīya*
 2. Pāṇini's Aṣṭādhyāyī
-3. [Brahma Sūtras](/references/brahma-sutras.md) 1.3.28 (*Śabda as pramāṇa*)
+3. [Brahma Sūtras](../references/brahma-sutras.md) 1.3.28 (*Śabda as pramāṇa*)
 4. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

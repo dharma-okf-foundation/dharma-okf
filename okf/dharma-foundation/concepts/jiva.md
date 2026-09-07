@@ -37,7 +37,7 @@ okf_version: "0.2"
 
 ## What It Actually Means
 
-Jīva is [Ātman](/concepts/atman.md) as it appears when conditioned by [Māyā](/concepts/maya.md) — the conscious being as it experiences itself while embodied. Jīva is not a separate entity FROM Ātman; it IS Ātman, but identified with a body-mind complex due to ignorance (*avidyā*).
+Jīva is [Ātman](atman.md) as it appears when conditioned by [Māyā](maya.md) — the conscious being as it experiences itself while embodied. Jīva is not a separate entity FROM Ātman; it IS Ātman, but identified with a body-mind complex due to ignorance (*avidyā*).
 
 > **All jīva-s are ātmā-s. Not all ātmā-s are jīva-s.**
 
@@ -76,7 +76,7 @@ Jīva is like a wave that thinks it's separate from the ocean. It has a shape, a
 
 ## Citations
 
-1. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) of Ādi Śaṅkarācārya
-2. [Brahma Sūtras](/references/brahma-sutras.md) 2.3.43–53
-3. [Bhagavad Gītā](/references/bhagavad-gita.md) 15.7 — "The Jīva is an eternal fragment of Myself"
+1. [Vivekacūḍāmaṇi](../references/vivekachudamani.md) of Ādi Śaṅkarācārya
+2. [Brahma Sūtras](../references/brahma-sutras.md) 2.3.43–53
+3. [Bhagavad Gītā](../references/bhagavad-gita.md) 15.7 — "The Jīva is an eternal fragment of Myself"
 4. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

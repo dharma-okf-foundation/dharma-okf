@@ -72,5 +72,5 @@ Patañjali's Yoga Sūtra (1.24) defines Īśvara as: "a special Puruṣa untouch
 
 1. Bṛhadāraṇyaka Upaniṣad 3.7 -- antaryāmin: Brahman/Īśvara as inner controller of all beings
 2. Yoga Sūtra 1.24-26 -- Īśvara as special Puruṣa; Praṇava (Oṃ) as his symbol; Īśvara-praṇidhāna as practice
-3. Bhāgavata Purāṇa 2.1-2 -- Īśvara as the cosmic lord whose form is the manifest universe; see references/bhagavata-purana.md
+3. Bhāgavata Purāṇa 2.1-2 -- Īśvara as the cosmic lord whose form is the manifest universe; see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
 4. Vivekacūḍāmaṇi (Śaṅkarācārya) -- Advaita treatment of Īśvara as Brahman + Māyā

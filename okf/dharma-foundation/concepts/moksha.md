@@ -45,7 +45,7 @@ okf_version: "0.2"
 
 ## What It Actually Means
 
-Mokṣa is the fourth and ultimate *puruṣārtha* (aim of human life) — the permanent cessation of [Saṃsāra](/concepts/samsara.md) through direct recognition that [Ātman](/concepts/atman.md) is [Brahman](/concepts/brahman.md). It is not "going somewhere" — it is recognizing what you already are and always were.
+Mokṣa is the fourth and ultimate *puruṣārtha* (aim of human life) — the permanent cessation of [Saṃsāra](samsara.md) through direct recognition that [Ātman](atman.md) is [Brahman](brahman.md). It is not "going somewhere" — it is recognizing what you already are and always were.
 
 **There is no Original Sin in Hinduism.** Every jīvātmā reaps the fruits of its own karma. The conditioning of the jīva is beginningless (*anādibaddha*) — not caused by anyone else's act. Liberation therefore requires no intercession, no belief in a savior, no judgment.
 
@@ -65,7 +65,7 @@ Liberation is not one-size-fits-all. The mokṣa śāstra-s describe **five** ty
 
 The five honor different temperaments: some seek dissolution into pure consciousness (*Kaivalya*), others seek loving eternal relationship with Bhagavān. Both paths are valid.
 
-Mokṣa is NOT earned — it is recognized. [Karma](/concepts/karma.md) cannot produce Mokṣa because Mokṣa is the nature of Ātman, which is already free. Karma can only remove obstacles (ignorance) that prevent recognition. The rope was never a snake; you just need to see clearly.
+Mokṣa is NOT earned — it is recognized. [Karma](karma.md) cannot produce Mokṣa because Mokṣa is the nature of Ātman, which is already free. Karma can only remove obstacles (ignorance) that prevent recognition. The rope was never a snake; you just need to see clearly.
 
 ## Why the Substitutes Fail
 
@@ -81,9 +81,9 @@ Mokṣa is like waking up from a dream. In the dream, you ran, suffered, fought,
 
 ## Citations
 
-1. [Vivekacūḍāmaṇi](/references/vivekachudamani.md), [Kaṭha Upaniṣad](/references/katha-upanishad.md), [Muṇḍaka Upaniṣad](/references/mundaka-upanishad.md)
-2. [Brahma Sūtras](/references/brahma-sutras.md) 4.4 (on liberation)
-3. [Bhagavad Gītā](/references/bhagavad-gita.md) chapters 2, 13, 18
+1. [Vivekacūḍāmaṇi](../references/vivekachudamani.md), [Kaṭha Upaniṣad](../references/katha-upanishad.md), [Muṇḍaka Upaniṣad](../references/mundaka-upanishad.md)
+2. [Brahma Sūtras](../references/brahma-sutras.md) 4.4 (on liberation)
+3. [Bhagavad Gītā](../references/bhagavad-gita.md) chapters 2, 13, 18
 4. Srimad Bhāgavatam 11.9.18 (Bhagavān as Kaivalya personified)
 
 ## Error Genealogy

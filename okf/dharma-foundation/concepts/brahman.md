@@ -76,11 +76,11 @@ The universe was not created *ex nihilo* (from nothing). The Vedāntic principle
 
 ## Audience Metaphor
 
-Brahman is the ocean. Every wave (individual being) rises from it, appears separate for a moment, and returns. The wave was never NOT the ocean — it just temporarily appeared to have a separate identity. [Mokṣa](/concepts/moksha.md) is the wave recognizing it was always the ocean.
+Brahman is the ocean. Every wave (individual being) rises from it, appears separate for a moment, and returns. The wave was never NOT the ocean — it just temporarily appeared to have a separate identity. [Mokṣa](moksha.md) is the wave recognizing it was always the ocean.
 
 ## Citations
 
-1. [Chāndogya Upaniṣad](/references/chandogya-upanishad.md), [Bṛhadāraṇyaka Upaniṣad](/references/brihadaranyaka-upanishad.md), [Taittirīya Upaniṣad](/references/taittiriya-upanishad.md)
-2. [Brahma Sūtras](/references/brahma-sutras.md) of Bādarāyaṇa
-3. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) of Ādi Śaṅkarācārya
+1. [Chāndogya Upaniṣad](../references/chandogya-upanishad.md), [Bṛhadāraṇyaka Upaniṣad](../references/brihadaranyaka-upanishad.md), [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md)
+2. [Brahma Sūtras](../references/brahma-sutras.md) of Bādarāyaṇa
+3. [Vivekacūḍāmaṇi](../references/vivekachudamani.md) of Ādi Śaṅkarācārya
 4. Rajiv Malhotra, *Sanskrit Non

@@ -70,6 +70,6 @@ The Gītā (17.3) states that a person is constituted by their śraddhā: "as is
 
 ## Citations
 
-1. [Bhagavad Gītā](/references/bhagavad-gita.md) 17.3 — "as is one's śraddhā, so is one"; faith as the constitution of the person
-2. [Bhakti-rasāmṛta-sindhu](/references/bhakti-rasamrita-sindhu.md) 1.4.15-16 — śraddhā as the first stage of sādhana-bhakti, leading through sādhu-saṅga to bhajana
-3. [Śvetāśvatara Upaniṣad](/references/shvetashvatara-upanishad.md) 6.23 — parā bhakti joined to trust in the Lord and the guru
+1. [Bhagavad Gītā](../references/bhagavad-gita.md) 17.3 — "as is one's śraddhā, so is one"; faith as the constitution of the person
+2. [Bhakti-rasāmṛta-sindhu](../references/bhakti-rasamrita-sindhu.md) 1.4.15-16 — śraddhā as the first stage of sādhana-bhakti, leading through sādhu-saṅga to bhajana
+3. [Śvetāśvatara Upaniṣad](../references/shvetashvatara-upanishad.md) 6.23 — parā bhakti joined to trust in the Lord and the guru

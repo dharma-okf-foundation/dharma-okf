@@ -35,9 +35,9 @@ okf_version: "0.2"
 
 ## What It Actually Means
 
-Saṃsāra is the beginningless (*anādi*) cycle of transmigration — [Jīva](/concepts/jiva.md) moving through countless embodiments driven by [Karma](/concepts/karma.md) stored in [Chitta](/concepts/chitta.md), sustained by [Māyā](/concepts/maya.md). It encompasses all realms of existence — not just human birth but birth in any of the 14 [Lokas](/concepts/loka.md).
+Saṃsāra is the beginningless (*anādi*) cycle of transmigration — [Jīva](jiva.md) moving through countless embodiments driven by [Karma](karma.md) stored in [Chitta](chitta.md), sustained by [Māyā](maya.md). It encompasses all realms of existence — not just human birth but birth in any of the 14 [Lokas](loka.md).
 
-Saṃsāra is not "bad" in a moral sense — it is a natural condition that persists as long as ignorance (*avidyā*) persists. It ends permanently with [Mokṣa](/concepts/moksha.md).
+Saṃsāra is not "bad" in a moral sense — it is a natural condition that persists as long as ignorance (*avidyā*) persists. It ends permanently with [Mokṣa](moksha.md).
 
 ## Why the Substitutes Fail
 
@@ -49,8 +49,8 @@ Saṃsāra is like switching between characters in an infinite video game — ea
 
 ## Citations
 
-1. [Bhagavad Gītā](/references/bhagavad-gita.md) 2.22 — "As a person discards worn-out clothes and puts on new ones"
-2. [Bṛhadāraṇyaka Upaniṣad](/references/brihadaranyaka-upanishad.md) 4.4.1–6
+1. [Bhagavad Gītā](../references/bhagavad-gita.md) 2.22 — "As a person discards worn-out clothes and puts on new ones"
+2. [Bṛhadāraṇyaka Upaniṣad](../references/brihadaranyaka-upanishad.md) 4.4.1–6
 
 ## Error Genealogy
 

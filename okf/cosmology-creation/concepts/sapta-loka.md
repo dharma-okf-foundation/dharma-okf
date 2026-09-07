@@ -86,7 +86,7 @@ The fourteen Lokas are like fourteen floors of a building, with Bhūrloka on the
 
 ## Citations
 
-1. Bhāgavata Purāṇa 5.17-26 -- the most detailed Purāṇic treatment of all 14 Lokas, cosmic geography, and Pātāla description; see references/bhagavata-purana.md
+1. Bhāgavata Purāṇa 5.17-26 -- the most detailed Purāṇic treatment of all 14 Lokas, cosmic geography, and Pātāla description; see [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
 2. Bhāgavata Purāṇa 5.24 -- Pātāla realms described as beautiful, not hellish
-3. Viṣṇu Purāṇa 2.1-9 -- structural description of Lokas within the Brahmāṇḍa; see references/vishnu-purana.md
-4. Manu-Smṛti 1.10 -- cosmological ordering; see references/manusmriti.md
+3. Viṣṇu Purāṇa 2.1-9 -- structural description of Lokas within the Brahmāṇḍa; see [Viṣṇu Purāṇa](../references/vishnu-purana.md)
+4. Manu-Smṛti 1.10 -- cosmological ordering; see [Manu-Smṛti](../references/manusmriti.md)

@@ -100,6 +100,6 @@ The four Pralayas are like four different things that can be called "closing":
 ## Citations
 
 1. Bhāgavata Purāṇa 12.4.3-6 -- canonical fourfold classification of Pralaya; the most precise Purāṇic source
-2. Viṣṇu Purāṇa 6.3-4 -- Mahā Pralaya and the dissolution of the manifest cosmos; see references/vishnu-purana.md
-3. Mārkaṇḍeya Purāṇa 81-93 -- Naimittika Pralaya and the cosmic ocean narrative; see references/markandeya-purana.md
+2. Viṣṇu Purāṇa 6.3-4 -- Mahā Pralaya and the dissolution of the manifest cosmos; see [Viṣṇu Purāṇa](../references/vishnu-purana.md)
+3. Mārkaṇḍeya Purāṇa 81-93 -- Naimittika Pralaya and the cosmic ocean narrative; see [Mārkaṇḍeya Purāṇa](../references/markandeya-purana.md)
 4. Bhāgavata Purāṇa 3.11 -- time-scale of Naimittika Pralaya within Brahmā's day-night cycle

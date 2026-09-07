@@ -70,5 +70,5 @@ The Mahāyuga is like a complete musical phrase that repeats throughout a sympho
 ## Citations
 
 1. Bhāgavata Purāṇa 3.11.18-20 — definitive Mahāyuga duration statement
-2. Manu-Smṛti 1.69-71 — Mahāyuga calculation; see references/manusmriti.md
-3. Viṣṇu Purāṇa 1.3 — Mahāyuga in the nested time-scale system; see references/vishnu-purana.md
+2. Manu-Smṛti 1.69-71 — Mahāyuga calculation; see [Manu-Smṛti](../references/manusmriti.md)
+3. Viṣṇu Purāṇa 1.3 — Mahāyuga in the nested time-scale system; see [Viṣṇu Purāṇa](../references/vishnu-purana.md)

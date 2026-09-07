@@ -68,6 +68,6 @@ Consider the difference between buying a candle and having yours lit from a flam
 
 ## Citations
 
-1. [Pāñcarātra Āgama](/references/pancaratra.md) — the structure of mantra-dīkṣā and consecration in the Vaiṣṇava Āgamic tradition
-2. [Guru Gītā](/references/guru-gita.md) — the guru as the giver of initiation and the destroyer of the disciple's darkness
-3. [Bhāgavata Purāṇa](/references/bhagavata-purana.md) — the disciple's taking of refuge in a guru as the start of devotional life (e.g. 11.3.21)
+1. [Pāñcarātra Āgama](../references/pancaratra.md) — the structure of mantra-dīkṣā and consecration in the Vaiṣṇava Āgamic tradition
+2. [Guru Gītā](../references/guru-gita.md) — the guru as the giver of initiation and the destroyer of the disciple's darkness
+3. [Bhāgavata Purāṇa](../references/bhagavata-purana.md) — the disciple's taking of refuge in a guru as the start of devotional life (e.g. 11.3.21)

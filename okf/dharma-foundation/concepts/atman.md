@@ -40,7 +40,7 @@ okf_version: "0.2"
 
 ## What It Actually Means
 
-Ātman is the eternal, all-pervading, self-luminous witness-consciousness (*sākṣī-caitanya*) that is the true nature of every being. It is not born, does not die, cannot be damaged, and is identical with [Brahman](/concepts/brahman.md) in the Advaita Vedānta understanding.
+Ātman is the eternal, all-pervading, self-luminous witness-consciousness (*sākṣī-caitanya*) that is the true nature of every being. It is not born, does not die, cannot be damaged, and is identical with [Brahman](brahman.md) in the Advaita Vedānta understanding.
 
 Ātman is *chetanā* — pure consciousness itself. It does not "have" consciousness the way a soul might "have" attributes. It IS consciousness. Key properties:
 
@@ -60,7 +60,7 @@ okf_version: "0.2"
 
 *Aṃśa* does not mean a spatial fragment — Paramātmā admits no spatial division. Being an *aṃśa* means Jīvātman is totally supported by and dependent on Paramātmā.
 
-The Kaṭha Upaniṣad (1.3.3) maps the inner architecture: Ātman is the rider in the chariot, [Buddhi](/concepts/buddhi.md) is the charioteer, [Manas](/concepts/manas.md) is the reins, and the senses are the horses. Ātman is always the knower (*kṣetrajña*), never the known (*kṣetra*).
+The Kaṭha Upaniṣad (1.3.3) maps the inner architecture: Ātman is the rider in the chariot, [Buddhi](buddhi.md) is the charioteer, [Manas](manas.md) is the reins, and the senses are the horses. Ātman is always the knower (*kṣetrajña*), never the known (*kṣetra*).
 
 ## Why the Substitutes Fail
 
@@ -76,7 +76,7 @@ Think of Ātman as the screen in a movie theater. Every character, every scene, 
 
 ## Citations
 
-1. [Bṛhadāraṇyaka Upaniṣad](/references/brihadaranyaka-upanishad.md), [Kaṭha Upaniṣad](/references/katha-upanishad.md), [Māṇḍūkya Upaniṣad](/references/mandukya-upanishad.md)
-2. [Bhagavad Gītā](/references/bhagavad-gita.md) 2.17–25 (Ātman's indestructibility)
-3. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) of Ādi Śaṅkarācārya
+1. [Bṛhadāraṇyaka Upaniṣad](../references/brihadaranyaka-upanishad.md), [Kaṭha Upaniṣad](../references/katha-upanishad.md), [Māṇḍūkya Upaniṣad](../references/mandukya-upanishad.md)
+2. [Bhagavad Gītā](../references/bhagavad-gita.md) 2.17–25 (Ātman's indestructibility)
+3. [Vivekacūḍāmaṇi](../references/vivekachudamani.md) of Ādi Śaṅkarācārya
 4. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

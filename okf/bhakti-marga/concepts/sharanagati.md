@@ -79,6 +79,6 @@ Picture a small child at the edge of a pool, and a trusted parent in the water w
 
 ## Citations
 
-1. [Bhagavad Gītā](/references/bhagavad-gita.md) 18.66 — the charama-śloka: "abandon all dharmas, take refuge in Me alone... do not grieve"
-2. [Pāñcarātra Āgama](/references/pancaratra.md) (Ahirbudhnya Saṃhitā 37) — the six limbs (ṣaḍ-aṅga) of prapatti
-3. [Śrī Bhāṣya](/references/sri-bhashya.md) — Rāmānuja on the soul as śeṣa to the Lord, the doctrinal ground of self-surrender
+1. [Bhagavad Gītā](../references/bhagavad-gita.md) 18.66 — the charama-śloka: "abandon all dharmas, take refuge in Me alone... do not grieve"
+2. [Pāñcarātra Āgama](../references/pancaratra.md) (Ahirbudhnya Saṃhitā 37) — the six limbs (ṣaḍ-aṅga) of prapatti
+3. [Śrī Bhāṣya](../references/sri-bhashya.md) — Rāmānuja on the soul as śeṣa to the Lord, the doctrinal ground of self-surrender
