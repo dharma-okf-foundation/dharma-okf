@@ -43,13 +43,13 @@ EXPECTED_TOTALS = {
     "pseudo_links": 0,
     "bare_path": 0,
     "concepts_without_links": 0,
-    "dirs_missing_index": 21,
+    "dirs_missing_index": 0,
     "dirs_with_concepts": 26,
     "related_absolute": 0,
     "related_relative": 1500,
     "escaping_links": 28,
 }
-EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 13, "2b": 0, "3": 0}
+EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 13, "2b": 13, "3": 0}
 EXPECTED_CORPUS = {"bundles": 13, "concepts": 310, "references": 132, "documents": 442}
 
 # The §3.1 gap, closed. Kept as a record of what the wave converted, and as
@@ -165,9 +165,23 @@ def test_all_thirteen_bundles_reach_level_2(report):
     assert all(not b["level_2_failures"] for b in report["bundles"])
 
 
-def test_no_bundle_reaches_level_2b_or_3(report):
-    """Unchanged by this step, and deliberately so — 2b is the index step."""
-    assert not any(b["level_2b"] for b in report["bundles"])
+def test_every_directory_holding_concepts_carries_an_index(report):
+    """PROFILE.md §3.4 — progressive disclosure, satisfied corpus-wide.
+
+    21 directories lacked one: every `concepts/` directory in all thirteen
+    bundles, plus `references/` in the eight bundles from upanishadic-core
+    onward. A 442-document corpus meant for context-window-bounded reading
+    could be navigated only from the bundle root, one hop, with nothing in
+    between.
+    """
+    offenders = {b["bundle"]: b["indexes"]["dirs_missing_index"]
+                 for b in report["bundles"] if b["indexes"]["dirs_missing_index"]}
+    assert offenders == {}
+    assert all(b["level_2b"] for b in report["bundles"])
+
+
+def test_level_3_is_still_untouched(report):
+    """The trust families are the next wave, not this one."""
     assert not any(b["level_3"] for b in report["bundles"])
 
 
@@ -246,13 +260,22 @@ def test_profile_strict_now_passes_at_level_two(report):
     assert r.returncode == 0, "all 13 bundles are Level 2 after the link step"
 
 
-def test_profile_strict_still_fails_at_level_2b(report):
-    """21 directories still have no index.md. That is the next step, not this one."""
+def test_profile_strict_now_passes_at_level_2b(report):
+    """All thirteen bundles clear the progressive-disclosure floor."""
     r = subprocess.run(
         [sys.executable, str(TOOL), str(OKF), "--corpus",
          "--profile-strict", "--require-level", "2b", "--quiet"],
         capture_output=True, text=True)
-    assert r.returncode == 1, "no bundle reaches Level 2b yet"
+    assert r.returncode == 0, "all 13 bundles are Level 2b after the index step"
+
+
+def test_profile_strict_still_fails_at_level_3(report):
+    """Level 3 is 0/13 and remains the corpus's open frontier."""
+    r = subprocess.run(
+        [sys.executable, str(TOOL), str(OKF), "--corpus",
+         "--profile-strict", "--require-level", "3", "--quiet"],
+        capture_output=True, text=True)
+    assert r.returncode == 1, "no bundle reaches Level 3 yet"
 
 
 def test_profile_strict_passes_at_level_one(report):

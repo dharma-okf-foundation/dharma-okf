@@ -37,7 +37,10 @@ def report() -> v.Report:
 
 def test_bundle_exists():
     assert BUNDLE.is_dir(), f"bundle not found: {BUNDLE}"
-    concepts = list((BUNDLE / "concepts").glob("*.md"))
+    # `*.md` also matches the directory index, so reserved names are excluded:
+    # the assertion counts CONCEPT DOCUMENTS, and must keep meaning that after
+    # PROFILE.md §3.4 put an index.md in every directory holding concepts.
+    concepts = [p for p in (BUNDLE / "concepts").glob("*.md") if p.name not in v.RESERVED]
     assert len(concepts) == 25, f"expected 25 concepts, found {len(concepts)}"
 
 
