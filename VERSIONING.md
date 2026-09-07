@@ -17,19 +17,21 @@ Nothing about in-place enrichment on main affects the meaning of a citation to a
 |------|-------|-------|
 | **Release tag** | git tags (`v0.8.0`) | A snapshot of the **whole repository** at a publication event, named after the bundle that occasioned it. **It does not isolate one bundle** — see Tag History below |
 | **`okf_profile`** | each file's frontmatter (`"dharma-okf/1.0"`) | The Dharma-OKF PROFILE version. See `PROFILE.md` §7 |
-| **`bundle_version`** | each file's frontmatter (`"0.8.0"`) | The bundle revision current **when that document was last edited**. Patch bumps (`0.1.1` → `0.1.2`) signal in-place enrichment. Because a wave touches a subset of files, one bundle may carry several values at once; the bundle-wide value is the one in its root `index.md` |
+| **`bundle_version`** | each file's frontmatter (`"0.8.0"`) | The bundle revision this document belongs to. **One value per bundle**: every document in a bundle carries the same one, and it matches the bundle's root `index.md`. A patch bump (`0.1.1` → `0.1.2`) signals an in-place enrichment wave over that bundle |
 | **`okf_version`** | each file's frontmatter (`"0.2"`) | The OKF FORMAT specification version. Changes only when the file format itself changes |
 
 ## Rules of Change
 
 1. **Corrections** (typos, broken links, factual errors): committed to main any time; noted in CHANGELOG.md if substantive.
-2. **Enrichments** (added genealogies, strengthened `not:` fields, new citations): committed to main in documented waves; every **file touched** gets a `bundle_version` patch bump and the bundle's root `index.md` is bumped to match; every wave gets a CHANGELOG.md entry naming the files and the nature of the change.
+2. **Enrichments** (added genealogies, strengthened `not:` fields, new citations): committed to main in documented waves; **a wave that touches a bundle bumps that bundle's `bundle_version` once, and the new value is written to every document in the bundle and to its root `index.md`**; every wave gets a CHANGELOG.md entry naming the files and the nature of the change.
 
-   > **Known gap — half closed, half open.** This rule was not applied consistently for much of the corpus's history.
+   > **Amended 2026-09-07.** The rule previously bumped only the files a wave touched, which left a bundle carrying two or three values at once and made `bundle_version` an edit marker rather than an identifier. Two costs decided it. A reader could not tell a bundle's revision from any document in it, only from the root index. And the 2026-09 normalization wave touched 390 of 442 documents, so the "subset" the rule assumed had stopped being one. Which wave last edited a file is recorded in `CHANGELOG.md` and in git, where it belongs.
+
+   > **Known gap — now closed.** This rule was not applied consistently for much of the corpus's history.
    >
    > **Closed 2026-08-06:** seven bundle-root indexes trailed their newest tag and have been reconciled — `dharma-foundation`, `yoga-darshana`, `vedanta-epistemology`, `bhakti-marga`, `dharmic-ethics`, `shakta-darshana`, `sankhya-darshana`. **All thirteen bundle-root indexes now match their bundle's newest release tag.** See `CHANGELOG.md`, *Bundle-root index reconciliation*.
    >
-   > **Still open:** **`dharma-foundation`'s 25 concept documents carry no `bundle_version` at all** — the bundle predates the key. That backfill is scheduled with the normalization pass. Bundle-root indexes also remain split between the `version:` and `bundle_version:` key names (twelve and one); unifying them is scheduled with the same pass, since `PROFILE.md` §1.1 discloses `version` by name and both must move together.
+   > **Closed 2026-09-07:** `dharma-foundation`'s documents carried no `bundle_version` at all — the bundle predates the key — as did 56 more across five other bundles, 93 in total. **All 442 documents now carry one.** The root-index key split is unified in the same pass: **six** indexes used `version:` and **seven** used `bundle_version:` (an earlier revision of this note said twelve and one, which was never measured), and all thirteen now use `bundle_version:`. `PROFILE.md` §1.1's disclosed key list moved with it.
 3. **New concepts or removals** within a live bundle: minor bump (`0.1.x` → `0.2.0` content version) + changelog + release note.
 4. **Tags never move.** A post-release fix means main advances; if the release must reference the fixed state, a new patch tag is created (`v0.8.1`); the old tag stays.
 5. **Slugs are permanent.** Concept filenames/IDs never change after publication (the bridge contract of the two-stack architecture). Disambiguation is done by suffix at creation time (`chakra-tantra`, `maya-shakta`), never by rename.

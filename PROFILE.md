@@ -36,7 +36,7 @@ Base §4.1 states that producers MAY include additional keys and that consumers 
 
 ### 1.1 A known deviation, disclosed
 
-Bundle-root `index.md` files in this corpus carry a frontmatter block richer than the single `okf_version` key base §8 contemplates (they also carry `type`, `title`, `description`, `version`, `tags`, `resource`, `authors`, `license`). Base §11 does not reject this, and upstream's own reference viewer skips `index.md` entirely when walking a bundle, so it is inert in practice. It is disclosed here rather than quietly relied upon, and is a candidate for simplification in a future profile revision.
+Bundle-root `index.md` files in this corpus carry a frontmatter block richer than the single `okf_version` key base §8 contemplates (they also carry `type`, `title`, `description`, `bundle_version`, `tags`, `resource`, `authors`, `license`). Base §11 does not reject this, and upstream's own reference viewer skips `index.md` entirely when walking a bundle, so it is inert in practice. It is disclosed here rather than quietly relied upon, and is a candidate for simplification in a future profile revision.
 
 ---
 
@@ -89,7 +89,7 @@ A list of mappings, each naming a specific mistranslation of the concept.
 | `iast` | recommended on `Concept` | IAST transliteration. |
 | `devanagari` | recommended on `Concept` | Devanāgarī script form. |
 | `bundle` | recommended | The owning bundle. |
-| `bundle_version` | recommended | **The bundle revision current at the time this document was last edited** — a per-document marker, not a bundle-wide constant. Enrichment waves touch a subset of a bundle's files, so a single bundle legitimately carries two or three distinct values at once; `sankhya-darshana` currently spans `0.13.0`–`0.13.2`. The bundle-wide value is the one in that bundle's root `index.md`. Distinct from the base `okf_version` and from the git release tag — see §7. |
+| `bundle_version` | recommended | **The bundle revision this document belongs to — one value per bundle, carried by every document in it.** Uniform from the 2026-09 normalization wave. The field identifies the revision a document is *part of*, not the wave in which it was last edited: that history lives in `CHANGELOG.md` and in git, which record it better than a frontmatter key can. Present on all 442 documents, and identical to the value in the bundle's root `index.md`. Distinct from the base `okf_version` and from the git release tag — see §7. |
 | `related` | recommended | Paths to sibling concepts, **written in the bundle-absolute form** (`/concepts/karma.md`) — 1,074 of 1,075 entries at this revision. This is the form §3.1 requires bodies *not* to use; the inconsistency is real and is disclosed rather than relied upon. It is inert because `related:` is not traversed. **Advisory only** — see the traversal note in §3.1. |
 | `reception_note` | optional | How a term is distorted in contemporary reception, where that distortion is a documented historical construction rather than a simple mistranslation. Used in bundles covering commercially or politically captured vocabulary. |
 
