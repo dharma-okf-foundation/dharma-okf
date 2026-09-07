@@ -1,7 +1,7 @@
 ---
 type: Bundle
 bundle: nyaya-vaisheshika
-bundle_version: "0.9.0"
+bundle_version: "0.9.1"
 title: "Nyāya-Vaiśeṣika — The Science of Inference and Debate"
 description: "OKF v0.9 bundle: the vocabulary of Nyāya inference and debate, grounded in Vaiśeṣika realist ontology. 27 concepts in 5 tiers + 10 primary-text references. The realist, pluralist counterweight to an Advaita-heavy corpus."
 darshana:

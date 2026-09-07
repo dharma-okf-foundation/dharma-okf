@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: sankhya-darshana
-bundle_version: 0.13.0
+bundle_version: "0.13.3"
 id: sattva
 title: Sattva
 iast: Sattva

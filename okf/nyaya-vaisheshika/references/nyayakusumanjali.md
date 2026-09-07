@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: nyaya-vaisheshika
-bundle_version: 0.9.0
+bundle_version: "0.9.1"
 id: nyayakusumanjali
 title: Nyāyakusumāñjali (Udayana)
 description: Udayana's classic work of rational theism, marshalling inferential arguments for the existence of Īśvara as the intelligent efficient cause of the world; with his Ātmatattvaviveka and Kiraṇāvalī, the high point of classical Nyāya-Vaiśeṣika.

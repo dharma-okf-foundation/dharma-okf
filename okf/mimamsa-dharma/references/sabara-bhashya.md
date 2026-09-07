@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: mimamsa-dharma
-bundle_version: 0.10.0
+bundle_version: "0.10.1"
 id: sabara-bhashya
 title: Śabara-Bhāṣya
 description: 'Śabarasvāmin''s commentary on the Mīmāṃsā Sūtra, the earliest surviving Bhāṣya and the text through which Jaimini''s sūtras were classically read; the common ground later divided by Kumārila and Prabhākara.'

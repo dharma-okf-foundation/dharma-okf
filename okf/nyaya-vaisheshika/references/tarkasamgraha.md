@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: nyaya-vaisheshika
-bundle_version: 0.9.0
+bundle_version: "0.9.1"
 id: tarkasamgraha
 title: Tarkasaṃgraha (Annambhaṭṭa)
 description: Annambhaṭṭa's concise late primer of Nyāya-Vaiśeṣika, the standard classroom introduction to the categories, the pramāṇas, inference, and the fallacies.

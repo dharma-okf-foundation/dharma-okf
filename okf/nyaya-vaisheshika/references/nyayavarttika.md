@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: nyaya-vaisheshika
-bundle_version: 0.9.0
+bundle_version: "0.9.1"
 id: nyayavarttika
 title: Nyāyavārttika (Uddyotakara)
 description: Uddyotakara's sub-commentary defending Nyāya realism, especially the five-membered inference and the enduring self, against Buddhist logico-epistemology.

@@ -1,7 +1,7 @@
 ---
 type: Bundle
 bundle: mimamsa-dharma
-bundle_version: "0.10.0"
+bundle_version: "0.10.1"
 title: "Mīmāṃsā-Dharma -- Ritual Injunction, Authorless Authority, and the Language of Action"
 description: "OKF v0.10 bundle: the technical vocabulary of Pūrva-Mīmāṃsā, the darśana of Vedic ritual exegesis. Dharma as codanā-lakṣaṇa, the authorless Veda (apauruṣeyatva), the unseen link (apūrva), and a proto-speech-act theory of injunction across the Bhāṭṭa and Prābhākara schools. 25 concepts in 5 tiers + 7 primary-text references, canonical OKF v0.2."
 darshana:

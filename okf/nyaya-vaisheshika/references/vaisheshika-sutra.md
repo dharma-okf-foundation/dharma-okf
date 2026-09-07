@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: nyaya-vaisheshika
-bundle_version: 0.9.0
+bundle_version: "0.9.1"
 id: vaisheshika-sutra
 title: Vaiśeṣika Sūtra
 description: The foundational sūtra text of the Vaiśeṣika school (Kaṇāda), which sets out the categories of being, the nine substances, the qualities and motions, and the atomist cosmology.

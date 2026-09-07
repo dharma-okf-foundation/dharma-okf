@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: mimamsa-dharma
-bundle_version: 0.10.0
+bundle_version: "0.10.1"
 id: tantravarttika
 title: Tantravārttika (Kumārila Bhaṭṭa)
 description: 'Kumārila''''s commentary on the later pādas of the Śabara-Bhāṣya, extending the Bhāṭṭa analysis of injunction, apūrva, the subordination of arthavāda and mantra, and the rules of ritual application.'

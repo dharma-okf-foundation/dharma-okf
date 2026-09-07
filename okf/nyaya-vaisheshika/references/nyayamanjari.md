@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: nyaya-vaisheshika
-bundle_version: 0.9.0
+bundle_version: "0.9.1"
 id: nyayamanjari
 title: Nyāyamañjarī (Jayanta Bhaṭṭa)
 description: Jayanta Bhaṭṭa's independent, discursive treatise on Nyāya epistemology, prized for its lucid defence of the four pramāṇas and the reliabilist account of testimony.

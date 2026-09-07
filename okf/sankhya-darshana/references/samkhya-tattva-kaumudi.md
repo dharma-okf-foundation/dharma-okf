@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: sankhya-darshana
-bundle_version: 0.13.0
+bundle_version: "0.13.3"
 id: samkhya-tattva-kaumudi
 title: Sāṃkhya-Tattva-Kaumudī
 description: Vachaspati Mishra's influential commentary on the Samkhya-Karika, a major secondary elaboration of classical Samkhya doctrine widely used to clarify Isvarakrishna's compact verses, including the causal arguments underlying satkaryavada and the structure of prakriti's avyakta phase.

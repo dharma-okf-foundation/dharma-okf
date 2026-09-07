@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: nyaya-vaisheshika
-bundle_version: 0.9.0
+bundle_version: "0.9.1"
 id: padarthadharmasamgraha
 title: Padārthadharmasaṃgraha (Praśastapāda)
 description: Praśastapāda's systematic exposition of the Vaiśeṣika categories, so authoritative that its author is called the 'second founder'; the classic source for the twenty-four qualities and the dyad-triad composition.

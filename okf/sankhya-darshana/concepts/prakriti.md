@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: sankhya-darshana
-bundle_version: 0.13.2
+bundle_version: "0.13.3"
 id: prakriti
 title: Prakṛti
 iast: Prakṛti

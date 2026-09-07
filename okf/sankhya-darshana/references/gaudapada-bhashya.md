@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: sankhya-darshana
-bundle_version: 0.13.0
+bundle_version: "0.13.3"
 id: gaudapada-bhashya
 title: Gauḍapāda-Bhāṣya (on the Sāṃkhya-Kārikā)
 description: An early commentary on the Samkhya-Karika attributed to Gaudapada, providing verse-by-verse elaboration used to ground the interpretation of purusha's plurality and the guna apparatus in this bundle.

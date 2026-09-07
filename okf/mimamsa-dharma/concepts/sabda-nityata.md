@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: mimamsa-dharma
-bundle_version: 0.10.0
+bundle_version: "0.10.1"
 id: sabda-nityata
 title: Śabda-nityatā
 iast: Śabda-nityatā

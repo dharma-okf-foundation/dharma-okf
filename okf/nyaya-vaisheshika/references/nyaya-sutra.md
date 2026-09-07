@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: nyaya-vaisheshika
-bundle_version: 0.9.0
+bundle_version: "0.9.1"
 id: nyaya-sutra
 title: Nyāya Sūtra
 description: The foundational sūtra text of the Nyāya school (Gautama / Akṣapāda), five books setting out the sixteen categories, the four pramāṇas, the theory of inference and debate, and the path to liberation through true knowledge.

@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: sankhya-darshana
-bundle_version: 0.13.0
+bundle_version: "0.13.3"
 id: yuktidipika
 title: Yuktidīpikā
 description: An anonymous, philosophically rich early commentary on the Samkhya-Karika, valued for its detailed engagement with rival schools' objections to Samkhya's causal and epistemological positions, useful background for this bundle's satkaryavada and pramana-samkhya treatments.

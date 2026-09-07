@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: sankhya-darshana
-bundle_version: 0.13.1
+bundle_version: "0.13.3"
 id: sesvara-samkhya
 title: Seśvara Sāṃkhya
 iast: Seśvara Sāṃkhya

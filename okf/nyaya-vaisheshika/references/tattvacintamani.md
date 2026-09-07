@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: nyaya-vaisheshika
-bundle_version: 0.9.0
+bundle_version: "0.9.1"
 id: tattvacintamani
 title: Tattvacintāmaṇi (Gaṅgeśa)
 description: Gaṅgeśa's founding text of Navya-Nyāya ('new logic'), which rebuilt the theory of inference and cognition with a rigorous technical vocabulary; cited here as the marker for the Navya-Nyāya layer deferred to a future bundle.

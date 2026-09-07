@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: nyaya-vaisheshika
-bundle_version: 0.9.0
+bundle_version: "0.9.1"
 id: nyaya-bhashya
 title: Nyāya Bhāṣya (Vātsyāyana)
 description: Vātsyāyana's commentary on the Nyāya Sūtra, the earliest surviving Bhāṣya, which fixed the classical readings of perception, inference, testimony, the self, and the theory of error for the whole tradition.

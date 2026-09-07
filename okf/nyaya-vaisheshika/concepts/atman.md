@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: nyaya-vaisheshika
-bundle_version: 0.9.0
+bundle_version: "0.9.1"
 id: atman
 title: Ātman (Nyāya-Vaiśeṣika)
 iast: Ātman

@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: mimamsa-dharma
-bundle_version: 0.10.0
+bundle_version: "0.10.1"
 id: brhati
 title: Bṛhatī (Prabhākara Miśra)
 description: 'Prabhākara Miśra''''s commentary on the Śabara-Bhāṣya, the founding text of the Prābhākara school, developing the injunction as niyoga and kārya, the anvitābhidhāna theory of sentence meaning, and the self as co-revealed knower.'

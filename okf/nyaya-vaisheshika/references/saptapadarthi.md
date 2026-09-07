@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: nyaya-vaisheshika
-bundle_version: 0.9.0
+bundle_version: "0.9.1"
 id: saptapadarthi
 title: Saptapadārthī (Śivāditya)
 description: Śivāditya's compact primer on the seven Vaiśeṣika categories, an accessible classical summary of the realist ontology.
