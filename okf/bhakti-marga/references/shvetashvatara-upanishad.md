@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.4.3"
 title: "Śvetāśvatara Upaniṣad"
 description: "A Yajurveda Upaniṣad; the locus classicus linking bhakti and guru (6.23)."
 darshana:

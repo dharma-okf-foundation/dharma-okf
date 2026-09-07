@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.2"
+bundle_version: "0.7.3"
 id: brahma-the-creator
 title: "Brahmā (The Creator) — ब्रह्मा"
 iast: "Brahmā"

@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.2"
+bundle_version: "0.4.3"
 id: nada-brahman
 title: "Nāda Brahman — Sound as Brahman"
 iast: "nāda-brahman"

@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: ayurveda-consciousness
-bundle_version: 0.11.0
+bundle_version: "0.11.1"
 id: charaka-samhita
 title: Charaka Saṃhitā
 description: 'The foundational compendium of internal medicine (kāyacikitsā), redacted by Charaka from the Agniveśa Tantra, source of the definitions of āyus, svastha conduct, prajñāpāradha, sattvāvajaya, and the therapeutic architecture this bundle cites most.'

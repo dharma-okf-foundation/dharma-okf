@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.3"
 id: pralaya
 title: "Pralaya — प्रलय"
 iast: "Pralaya"

@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.4.3"
 title: "Bhagavad Gītā"
 description: "Kṛṣṇa's teaching to Arjuna; chapters 7-12 develop bhakti-yoga, culminating in the surrender verse (18.66)."
 darshana:

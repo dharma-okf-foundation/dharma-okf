@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.4.3"
 title: "Guru Gītā"
 description: "A dialogue (within the Skanda Purāṇa) on the nature and worship of the guru; source of the gu-ru etymology."
 darshana:

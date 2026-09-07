@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.4.3"
 title: "Pāñcarātra Āgama (Sātvata / Ahirbudhnya Saṃhitā)"
 description: "The Vaiṣṇava Āgama corpus governing temple worship, mūrti consecration, and dīkṣā."
 darshana:

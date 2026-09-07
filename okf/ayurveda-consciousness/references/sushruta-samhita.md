@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: ayurveda-consciousness
-bundle_version: 0.11.0
+bundle_version: "0.11.1"
 id: sushruta-samhita
 title: Suśruta Saṃhitā
 description: 'The foundational compendium of the surgical school, source of the canonical positive definition of health (svastha, Sūtrasthāna 15.41), the doctrine of para and apara ojas, and the five-fold enumeration of purification that includes bloodletting.'

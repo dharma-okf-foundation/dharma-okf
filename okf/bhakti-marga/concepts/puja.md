@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.2"
+bundle_version: "0.4.3"
 id: puja
 title: "Pūjā — Ritual as Internalized Contemplation"
 iast: "pūjā"

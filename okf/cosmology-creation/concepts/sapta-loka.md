@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.3"
 id: sapta-loka
 title: "Sapta-Loka / Chaturdaśa-Loka — सप्त-लोक / चतुर्दश-लोक"
 iast: "Sapta-Loka"

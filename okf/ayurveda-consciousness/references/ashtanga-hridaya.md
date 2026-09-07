@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: ayurveda-consciousness
-bundle_version: 0.11.0
+bundle_version: "0.11.1"
 id: ashtanga-hridaya
 title: Aṣṭāṅga Hṛdaya (Vāgbhaṭa)
 description: 'Vāgbhaṭa synthesis of the Charaka and Suśruta traditions in polished verse, the standard teaching text, source of the tridoṣa summary, the daily and seasonal regimens, and the formation of āma.'

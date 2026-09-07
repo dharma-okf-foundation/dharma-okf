@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.4.3"
 title: "Bhāgavata Purāṇa (Śrīmad Bhāgavatam)"
 description: "The pre-eminent Vaiṣṇava Purāṇa; source of the navadhā (ninefold) bhakti taxonomy (7.5.23)."
 darshana:

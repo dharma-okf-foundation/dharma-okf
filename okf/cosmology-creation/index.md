@@ -1,7 +1,7 @@
 ---
 type: Index
 bundle: cosmology-creation
-bundle_version: "0.7.2"
+bundle_version: "0.7.3"
 release_tag: "v0.7.0"
 title: "OKF Bundle: cosmology-creation"
 description: "Vedic and Purāṇic vocabulary of time, cosmos, and manifestation: 26 concept files covering the complete cosmological framework from the Kāla time system through the mechanics of Sṛṣṭi-Sthiti-Saṃhāra-Pralaya, the cosmological agents (Brahmā, Trimūrti, Īśvara, Avatāra), the structures of the cosmos (Virāṭ, Brahmāṇḍa, Sapta-Loka), and the Śākta-Tāntric cosmological principles (Māyā, Śakti, Icchā-Jñāna-Kriyā, Līlā)."

@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.3"
 id: iccha-jnana-kriya-shakti
 title: "Icchā-Jñāna-Kriyā Śakti — इच्छा-ज्ञान-क्रिया शक्ति"
 iast: "Icchā-Jñāna-Kriyā Śakti"

@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.2"
+bundle_version: "0.7.3"
 id: mahayuga
 title: "Mahāyuga / Caturyuga — महायुग / चतुर्युग"
 iast: "Mahāyuga"

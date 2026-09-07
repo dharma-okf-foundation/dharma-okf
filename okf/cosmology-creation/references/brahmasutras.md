@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: cosmology-creation
-bundle_version: "0.7.2"
+bundle_version: "0.7.3"
 id: brahmasutras
 title: "Brahma Sūtras (Vedānta Sūtras)"
 description: "Badarayana's aphoristic systematization of Upanishadic teaching; the root text of Vedanta."

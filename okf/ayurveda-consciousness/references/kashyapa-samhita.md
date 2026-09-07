@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: ayurveda-consciousness
-bundle_version: 0.11.0
+bundle_version: "0.11.1"
 id: kashyapa-samhita
 title: Kāśyapa Saṃhitā
 description: 'The classical compendium of pediatrics and obstetrics (kaumārabhṛtya), witness to the breadth of the eight-limbed medicine and to constitution and nourishment doctrine applied from conception onward.'

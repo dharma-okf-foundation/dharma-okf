@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.4.3"
 title: "Śrī Bhāṣya (Rāmānuja)"
 description: "Rāmānuja's Viśiṣṭādvaita commentary on the Brahma Sūtras; the doctrinal ground for prapatti / śaraṇāgati."
 darshana:

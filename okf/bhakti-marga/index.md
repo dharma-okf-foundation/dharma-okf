@@ -2,7 +2,7 @@
 type: Collection
 title: "Bhakti-Mārga — The Vocabulary of Devotional Paths"
 description: "The vocabulary of the devotional path — 15 concepts across three tiers: devotion and its inner structure, the living guru-śiṣya lineage, and devotional practice with its sonic theology. Primary school Bhakti (Vaiṣṇava Vedānta), with Viśiṣṭādvaita, Gauḍīya, and Pāñcarātra/Āgama sharpenings."
-version: "0.4.2"
+bundle_version: "0.4.3"
 darshana:
   - Bhakti (Vaiṣṇava Vedānta)
   - Viśiṣṭādvaita

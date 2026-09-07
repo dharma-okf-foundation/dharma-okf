@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.2"
+bundle_version: "0.4.3"
 id: murti
 title: "Mūrti — The Deity's Accessible Form"
 iast: "mūrti"

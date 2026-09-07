@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: cosmology-creation
-bundle_version: "0.7.2"
+bundle_version: "0.7.3"
 id: bhagavata-purana
 title: "Bhāgavata Purāṇa"
 description: "Vaishnava maha-purana; Krishna's life and the dashavatara frame, a primary source for lila and creation accounts."

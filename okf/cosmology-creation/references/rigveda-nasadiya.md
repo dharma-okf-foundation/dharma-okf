@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: cosmology-creation
-bundle_version: "0.7.2"
+bundle_version: "0.7.3"
 id: rigveda-nasadiya
 title: "Nāsadīya Sūkta -- Ṛg Veda 10.129"
 description: "Rig Veda 10.129; the creation hymn that ends in cosmological agnosticism."

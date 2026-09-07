@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: ayurveda-consciousness
-bundle_version: 0.11.0
+bundle_version: "0.11.1"
 id: dosha
 title: Doṣa
 iast: Doṣa

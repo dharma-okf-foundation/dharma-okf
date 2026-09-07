@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.4.3"
 title: "Śāṇḍilya Bhakti Sūtra"
 description: "Śāṇḍilya's aphoristic text on bhakti; defines bhakti as supreme attachment to the Lord (parānuraktir īśvare)."
 darshana:

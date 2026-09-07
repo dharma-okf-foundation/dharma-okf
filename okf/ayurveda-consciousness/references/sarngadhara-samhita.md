@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: ayurveda-consciousness
-bundle_version: 0.11.0
+bundle_version: "0.11.1"
 id: sarngadhara-samhita
 title: Śārṅgadhara Saṃhitā
 description: 'The concise later compendium prized for pharmacy and physiology summaries, including the popular exposition of the doṣa clock of day, night, and life stages.'

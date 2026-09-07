@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: ayurveda-consciousness
-bundle_version: 0.11.0
+bundle_version: "0.11.1"
 id: prana-tejas-ojas
 title: Prāṇa-Tejas-Ojas
 iast: Prāṇa-Tejas-Ojas

@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: ayurveda-consciousness
-bundle_version: 0.11.0
+bundle_version: "0.11.1"
 id: madhava-nidana
 title: Mādhava Nidāna
 description: 'The classical manual of diagnosis and pathology (nidāna), standard reference for disease definition and the staging of pathogenesis the doṣa-āma-srotas vocabulary of this bundle feeds into.'

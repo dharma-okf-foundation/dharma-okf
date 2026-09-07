@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: cosmology-creation
-bundle_version: "0.7.2"
+bundle_version: "0.7.3"
 id: matsya-purana
 title: "Matsya Purāṇa"
 description: "Maha-purana of the fish avatara; the flood narrative and kalpa-manvantara reckonings."

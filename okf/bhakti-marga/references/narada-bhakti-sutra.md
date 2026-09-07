@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.4.3"
 title: "Nārada Bhakti Sūtra"
 description: "Nārada's aphoristic text on bhakti; defines bhakti as supreme love (parama-prema-rūpā) and contrasts it with kāma."
 darshana:

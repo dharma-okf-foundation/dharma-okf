@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.0"
+bundle_version: "0.4.3"
 id: shishya
 title: "Śiṣya — The Qualified Disciple"
 iast: "śiṣya"

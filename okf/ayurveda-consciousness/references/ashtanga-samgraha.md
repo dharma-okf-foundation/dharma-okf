@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: ayurveda-consciousness
-bundle_version: 0.11.0
+bundle_version: "0.11.1"
 id: ashtanga-samgraha
 title: Aṣṭāṅga Saṃgraha (Vāgbhaṭa)
 description: 'The longer prose-and-verse companion of the Aṣṭāṅga Hṛdaya, expanding the same synthesis of the Charaka and Suśruta traditions across the eight limbs of medicine.'

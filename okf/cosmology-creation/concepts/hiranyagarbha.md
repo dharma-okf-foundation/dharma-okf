@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: cosmology-creation
-bundle_version: "0.7.0"
+bundle_version: "0.7.3"
 id: hiranyagarbha
 title: "Hiraṇyagarbha — हिरण्यगर्भ"
 iast: "Hiraṇyagarbha"
