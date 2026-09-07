@@ -16,6 +16,7 @@ Two properties matter and are tested separately:
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -249,6 +250,63 @@ def test_no_unresolved_body_links(report):
 def test_subdirectory_indexes_carry_no_frontmatter(report):
     """PROFILE.md §3.4 asserts this; §1.1 exempts bundle roots only."""
     assert all(not b["indexes"]["subindex_with_frontmatter"] for b in report["bundles"])
+
+
+# --- the versioning contract, amended 2026-09-07 -----------------------------
+# VERSIONING.md rule 2: a wave bumps a bundle's version ONCE and writes it to
+# every document in the bundle and to its root index.md. Before the amendment a
+# bundle carried two or three values at once and 93 documents carried none.
+EXPECTED_BUNDLE_VERSION = {
+    "dharma-foundation": "0.1.4", "yoga-darshana": "0.2.2",
+    "vedanta-epistemology": "0.3.3", "bhakti-marga": "0.4.3",
+    "dharmic-ethics": "0.5.3", "upanishadic-core": "0.6.2",
+    "cosmology-creation": "0.7.3", "shakta-darshana": "0.8.2",
+    "nyaya-vaisheshika": "0.9.1", "mimamsa-dharma": "0.10.1",
+    "ayurveda-consciousness": "0.11.1", "jyotisha-kala": "0.12.1",
+    "sankhya-darshana": "0.13.3",
+}
+
+
+def _doc_versions(bundle: str):
+    """{bundle_version value: count} across the bundle's Concept/Reference docs."""
+    import okf_validate as v
+    out = {}
+    for p in sorted((OKF / bundle).rglob("*.md")):
+        if p.name in v.RESERVED:
+            continue
+        fm, _ = v._split_doc(p.read_text(encoding="utf-8"))
+        m = re.search(r"^type:\s*(.+)$", fm, re.M)
+        if (m.group(1).strip().strip("\"'") if m else "") not in ("Concept", "Reference"):
+            continue
+        mv = re.search(r"^bundle_version:\s*(.+)$", fm, re.M)
+        key = mv.group(1).strip().strip("\"'") if mv else "(absent)"
+        out[key] = out.get(key, 0) + 1
+    return out
+
+
+@pytest.mark.parametrize("bundle,expected", sorted(EXPECTED_BUNDLE_VERSION.items()))
+def test_bundle_version_is_uniform_across_the_bundle(bundle, expected):
+    got = _doc_versions(bundle)
+    assert got == {expected: sum(got.values())}, (
+        f"{bundle}: expected every document at {expected}, found {got}")
+
+
+@pytest.mark.parametrize("bundle,expected", sorted(EXPECTED_BUNDLE_VERSION.items()))
+def test_root_index_uses_bundle_version_and_matches(bundle, expected):
+    """One key name across all thirteen roots, and it agrees with the documents."""
+    import okf_validate as v
+    fm, _ = v._split_doc((OKF / bundle / "index.md").read_text(encoding="utf-8"))
+    assert not re.search(r"^version:", fm, re.M), (
+        f"{bundle}/index.md frontmatter still uses the legacy `version:` key")
+    m = re.search(r'^bundle_version:\s*"?([^"\n]+)"?\s*$', fm, re.M)
+    assert m and m.group(1).strip() == expected, (
+        f"{bundle}/index.md: expected bundle_version {expected}")
+
+
+def test_no_document_anywhere_lacks_a_bundle_version():
+    """93 documents carried none before this wave; dharma-foundation had zero."""
+    missing = {b: _doc_versions(b).get("(absent)", 0) for b in BUNDLES}
+    assert {k: v for k, v in missing.items() if v} == {}
 
 
 def test_profile_strict_now_passes_at_level_two(report):
