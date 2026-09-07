@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Yoga"
 description: "The complete eight-limbed science of union — not stretching, not exercise, not wellness."
 reception_note: "Present yoga as a discipline of mind whose home text is the Yoga Sutra, not as postural fitness; the exercise framing is a documented 20th-century export chain (Vivekananda 1896 -> physical culture -> global fitness) addressed in the not: field and Error Genealogy."

@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Mokṣa"
 description: "Liberation — the recognition that Ātman was never bound, ending the cycle of transmigration. Not salvation, not heaven."
 reception_note: "Present moksha as liberation through knowledge, not as 'salvation'; the salvation gloss is documented missionary lexicography (Serampore era; fixed by Monier-Williams 1899) addressed in the not: field and Error Genealogy."

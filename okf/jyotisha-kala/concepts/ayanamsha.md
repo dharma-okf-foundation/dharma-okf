@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: jyotisha-kala
-bundle_version: 0.12.0
+bundle_version: "0.12.1"
 id: ayanamsha
 title: Ayanāṃśa
 iast: Ayanāṃśa

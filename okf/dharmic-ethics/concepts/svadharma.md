@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: dharmic-ethics
-bundle_version: "0.5.2"
+bundle_version: "0.5.3"
 id: svadharma
 title: "Svadharma — One's Own Dharma, the Contextual Duty"
 iast: "svadharma"

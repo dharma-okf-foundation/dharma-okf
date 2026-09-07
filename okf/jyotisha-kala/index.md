@@ -1,7 +1,7 @@
 ---
 type: Bundle
 bundle: jyotisha-kala
-bundle_version: "0.12.0"
+bundle_version: "0.12.1"
 title: "Jyotiṣa-Kāla -- The Vocabulary of Time: Pañcāṅga, Kāla-Reckoning, and the Celestial Frame"
 description: "OKF v0.12 bundle: the Jyotiṣa vocabulary of time. The five-limb almanac (pañcāṅga), the measured kāla ladder, the sidereal celestial frame, and the Vedāṅga-gaṇita heritage, with gateway interception of the commercially captured horoscopic terms. 26 concepts in 5 tiers + 8 primary-text references, canonical OKF v0.2."
 darshana:

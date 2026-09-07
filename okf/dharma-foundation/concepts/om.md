@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Om / Praṇava / Omkāra"
 description: "The primordial sound identical with Brahman — Śabda Brahman — not Amen, not a universal sound equivalent."
 tags:

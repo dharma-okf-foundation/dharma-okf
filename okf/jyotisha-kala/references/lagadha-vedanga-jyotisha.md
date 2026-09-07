@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: jyotisha-kala
-bundle_version: 0.12.0
+bundle_version: "0.12.1"
 id: lagadha-vedanga-jyotisha
 title: Vedāṅga Jyotiṣa (Lagadha)
 description: 'The oldest extant Indian astronomical text, preserved in Ṛk and Yajus recensions: the arithmetic of a five-year yuga (1,830 days, 62 synodic months, 1,860 tithis) built to fix the times of Vedic ritual. Contains no horoscopy.'

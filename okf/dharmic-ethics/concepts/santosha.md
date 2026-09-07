@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: dharmic-ethics
-bundle_version: "0.5.0"
+bundle_version: "0.5.3"
 id: santosha
 title: "Santoṣa — Contentment Independent of Conditions"
 iast: "santoṣa"

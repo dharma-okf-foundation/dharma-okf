@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Ahankāra"
 description: "The self-arrogating principle that creates the sense of 'I' and 'mine' — not ego in the Freudian sense."
 tags:

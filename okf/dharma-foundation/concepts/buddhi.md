@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Buddhi"
 description: "The decisive intelligence faculty that determines action by comparing present perception with stored experience — not intellect."
 tags:

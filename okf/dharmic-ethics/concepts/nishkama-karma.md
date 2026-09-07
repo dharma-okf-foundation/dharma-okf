@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: dharmic-ethics
-bundle_version: "0.5.0"
+bundle_version: "0.5.3"
 id: nishkama-karma
 title: "Niṣkāma-Karma — Desireless Action (Karma-Yoga)"
 iast: "niṣkāma-karma"

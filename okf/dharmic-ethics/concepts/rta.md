@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: dharmic-ethics
-bundle_version: "0.5.2"
+bundle_version: "0.5.3"
 id: rta
 title: "Ṛta — The Cosmic Order, Root of Dharma"
 iast: "ṛta"

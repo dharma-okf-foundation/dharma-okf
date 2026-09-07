@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.1.4"
 title: "Yoga Sūtras of Patañjali"
 description: "The 196 aphorisms that define classical yoga as chitta-vṛtti-nirodha and lay out the eight limbs (aṣṭāṅga)."
 tags:

@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.1.4"
 title: "Kaṭha Upaniṣad"
 description: "The dialogue of Naciketā and Yama; source of the chariot analogy of the Self and the faculties."
 tags:

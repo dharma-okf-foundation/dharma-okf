@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Saṃsāra"
 description: "The beginningless cycle of birth, death, and rebirth driven by karma and sustained by ignorance."
 reception_note: "Present samsara as the beginningless cycle of conditioned existence, not as a punishment scheme attached to karma-as-fate; it inherits that distortion as a secondary node of the Blavatsky chain documented in the Error Genealogy."

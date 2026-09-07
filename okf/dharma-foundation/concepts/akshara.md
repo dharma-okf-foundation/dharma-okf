@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Akṣara"
 description: "The imperishable cosmic sound-letter — each Sanskrit phoneme is a primordial vibration with intrinsic reality."
 tags:

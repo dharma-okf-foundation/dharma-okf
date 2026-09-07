@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: jyotisha-kala
-bundle_version: 0.12.0
+bundle_version: "0.12.1"
 id: brihat-jataka
 title: Bṛhat Jātaka
 description: 'Varāhamihira’s compendium of horā: the classical Indian statement of the natal-chart apparatus, rāśi, lagna, bhāva, graha significations, with its acknowledgment of Yavana authorities.'

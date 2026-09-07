@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: dharmic-ethics
-bundle_version: "0.5.0"
+bundle_version: "0.5.3"
 id: ishvara-pranidhana
 title: "Īśvara-Praṇidhāna — Surrender of Action and Fruit to the Lord"
 iast: "īśvara-praṇidhāna"

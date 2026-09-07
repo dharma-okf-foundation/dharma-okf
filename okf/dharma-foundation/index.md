@@ -2,7 +2,7 @@
 type: Collection
 title: "Dharma Foundation — Sanskrit Non-Translatable Vocabulary"
 description: "The foundational vocabulary of Sanātana Dharma — 25 Sanskrit concepts that cannot be translated into English without loss of meaning. Each entry preserves etymology, precise definition, non-translation warnings, and cross-references. Designed as the gravitational core for AI agents, knowledge systems, and educators seeking authentic Dharmic knowledge."
-version: "0.1.3"
+bundle_version: "0.1.4"
 tags:
   - Sanskrit
   - Vedanta

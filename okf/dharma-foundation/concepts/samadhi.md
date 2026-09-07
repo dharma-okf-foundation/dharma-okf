@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Samādhi"
 description: "Total absorption where the meditator, the object, and the act of meditation dissolve into unity — not trance."
 tags:

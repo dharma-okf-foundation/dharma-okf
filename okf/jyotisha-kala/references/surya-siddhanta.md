@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: jyotisha-kala
-bundle_version: 0.12.0
+bundle_version: "0.12.1"
 id: surya-siddhanta
 title: Sūrya Siddhānta
 description: 'The most influential of the classical astronomical treatises: time divisions from truṭi to kalpa, mean and true planetary motions, eclipse computation, and the pañcāṅga quantities this bundle cites most.'

@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Śabda"
 description: "Sound as a valid means of knowledge — and the theory that sound and meaning are undifferentiated in their unmanifest essence."
 tags:

@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: jyotisha-kala
-bundle_version: 0.12.0
+bundle_version: "0.12.1"
 id: muhurta-chintamani
 title: Muhūrta Cintāmaṇi
 description: 'Rāma Daivajña’s manual (c. 1600 CE), the standard treatise of electional astrology: the pañcāṅga limbs, lagna, and graha positions applied to choosing times for named undertakings.'

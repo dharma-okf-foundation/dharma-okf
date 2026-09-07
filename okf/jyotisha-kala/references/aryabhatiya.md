@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: jyotisha-kala
-bundle_version: 0.12.0
+bundle_version: "0.12.1"
 id: aryabhatiya
 title: Āryabhaṭīya
 description: 'Āryabhaṭa’s compact system of 499 CE: the sine table, place-value arithmetic in verse, time reckoning (Kālakriyā), and the spherics (Gola) behind rising times and the ascendant.'

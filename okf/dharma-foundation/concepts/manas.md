@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Manas"
 description: "The feeling-doubting mind interface that qualifies every perception with like or dislike — not the mind."
 tags:

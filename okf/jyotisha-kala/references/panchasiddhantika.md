@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: jyotisha-kala
-bundle_version: 0.12.0
+bundle_version: "0.12.1"
 id: panchasiddhantika
 title: Pañcasiddhāntikā
 description: 'Varāhamihira’s sixth-century comparative summary of five earlier siddhāntas (Paitāmaha, Vāsiṣṭha, Pauliśa, Romaka, Saura), the key witness to the genre’s plurality and to pre-Sūrya-Siddhānta astronomy.'

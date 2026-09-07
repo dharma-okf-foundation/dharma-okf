@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Jīva"
 description: "The individual conscious being — Ātman conditioned by its embodiment through Māyā — not the soul."
 tags:

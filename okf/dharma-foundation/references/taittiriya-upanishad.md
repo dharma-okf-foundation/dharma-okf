@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.1.4"
 title: "Taittirīya Upaniṣad"
 description: "A Yajurveda Upaniṣad teaching the five sheaths (pañcakośa) and Brahman as Sat-Chit-Ānanda."
 tags:

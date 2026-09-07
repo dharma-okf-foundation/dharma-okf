@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Viveka"
 description: "The technical discrimination between the eternal (nitya) and the transient (anitya) — not mere discernment."
 tags:

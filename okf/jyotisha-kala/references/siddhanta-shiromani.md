@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: jyotisha-kala
-bundle_version: 0.12.0
+bundle_version: "0.12.1"
 id: siddhanta-shiromani
 title: Siddhānta Śiromaṇi
 description: 'Bhāskara II’s synthesis of 1150 CE in four parts (Līlāvatī, Bījagaṇita, Grahagaṇita, Golādhyāya): the mature statement of the gaṇita tradition, cited here for time units and precession.'

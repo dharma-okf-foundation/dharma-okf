@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.1.4"
 title: "Māṇḍūkya Upaniṣad"
 description: "The shortest Upaniṣad; a dedicated analysis of Om and the four states of consciousness, with Gauḍapāda's Kārikā."
 tags:

@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.1.4"
 title: "Praśna Upaniṣad"
 description: "An Atharvaveda Upaniṣad structured as six questions; dedicated in large part to prāṇa."
 tags:

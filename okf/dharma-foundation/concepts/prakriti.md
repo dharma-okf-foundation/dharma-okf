@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Prakṛti"
 description: "The primordial material substrate from which all physical and psychological phenomena evolve — not nature, not matter."
 tags:

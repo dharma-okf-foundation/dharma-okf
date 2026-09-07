@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.1.4"
 title: "Brahma Sūtras"
 description: "Bādarāyaṇa's aphoristic systematization of the Upaniṣadic teaching on Brahman; one of the prasthāna-trayī."
 tags:

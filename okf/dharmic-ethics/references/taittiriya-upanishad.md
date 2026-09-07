@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.5.3"
 title: "Taittirīya Upaniṣad"
 description: "A Yajurveda Upaniṣad; the locus of the graduate's charge satyaṃ vada, dharmaṃ cara (1.11) and of svādhyāya-pravacana as standing duties (1.9)."
 darshana:

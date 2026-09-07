@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.1.4"
 title: "Sāṃkhya Kārikā"
 description: "Īśvarakṛṣṇa's classical verse exposition of the Sāṃkhya darśana — Puruṣa, Prakṛti, the guṇas, and the 24 tattvas."
 tags:

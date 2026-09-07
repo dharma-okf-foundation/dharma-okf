@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.1.4"
 title: "Bhagavad Gītā"
 description: "The 700-verse dialogue between Kṛṣṇa and Arjuna in the Mahābhārata that synthesizes the paths of karma, jñāna, and bhakti."
 tags:

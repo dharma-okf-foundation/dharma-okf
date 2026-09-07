@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: jyotisha-kala
-bundle_version: 0.12.0
+bundle_version: "0.12.1"
 id: brihat-samhita
 title: Bṛhat Saṃhitā
 description: 'Varāhamihira’s encyclopedia of the saṃhitā skandha: planetary courses as public omens, the Rāhu chapter weighing eclipse causation against the demon narrative, and the sixty-year Jupiter cycle.'

@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Loka"
 description: "A plane of consciousness — not a physical location, not a planet, not a dimension."
 tags:

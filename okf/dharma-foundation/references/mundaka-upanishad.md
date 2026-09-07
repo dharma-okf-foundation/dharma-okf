@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.1.4"
 title: "Muṇḍaka Upaniṣad"
 description: "An Atharvaveda Upaniṣad distinguishing higher (parā) from lower (aparā) knowledge; the two-birds image."
 tags:

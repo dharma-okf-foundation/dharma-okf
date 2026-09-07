@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: dharmic-ethics
-bundle_version: "0.5.0"
+bundle_version: "0.5.3"
 id: ahimsa
 title: "Ahiṃsā — Harmlessness as the Ground of All Conduct"
 iast: "ahiṃsā"

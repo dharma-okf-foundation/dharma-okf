@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Dhyāna"
 description: "The seventh limb of Aṣṭāṅga Yoga — sustained meditative absorption on a single object — not generic meditation."
 tags:

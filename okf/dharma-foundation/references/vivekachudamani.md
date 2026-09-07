@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.1.4"
 title: "Vivekacūḍāmaṇi"
 description: "An Advaita prakaraṇa traditionally attributed to Ādi Śaṅkarācārya on discrimination (viveka) and the identity of Ātman and Brahman."
 tags:

@@ -1,5 +1,6 @@
 ---
 type: Concept
+bundle_version: "0.1.4"
 title: "Dharma"
 description: "The cosmic ordering principle, ethical duty, and inherent nature of reality — the most untranslatable word in Sanskrit."
 reception_note: "Present dharma as its own category, not through the colonial-era box 'religion' or its shadow renderings 'duty'/'law'; that boxing is a documented 19th-century construction (census categories; Monier-Williams 1899) addressed in the not: field and Error Genealogy."
