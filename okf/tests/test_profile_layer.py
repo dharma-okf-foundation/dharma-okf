@@ -31,31 +31,37 @@ BUNDLES = sorted(
     and (d / "index.md").exists()
 )
 
-# --- measured at 6015e11 -----------------------------------------------------
+# --- measured after the normalization wave's link step ----------------------
+# Before it (at 6015e11): absolute 400, relative 913, pseudo 97, bare 56,
+# concepts_without_links 50, Level 2 5/13. Those five gaps are now zero and
+# the 553 links they represent moved into the relative count: 913 + 400 + 97
+# + 56 + 1 hand-written = 1467. The +1 is sankhya-darshana/sesvara-samkhya.md,
+# the only concept in the corpus with no citation to convert.
 EXPECTED_TOTALS = {
-    "absolute_links": 400,
-    "relative_links": 913,
-    "pseudo_links": 97,
-    "bare_path": 56,
-    "concepts_without_links": 50,
+    "absolute_links": 0,
+    "relative_links": 1467,
+    "pseudo_links": 0,
+    "bare_path": 0,
+    "concepts_without_links": 0,
     "dirs_missing_index": 21,
     "dirs_with_concepts": 26,
     "related_absolute": 1499,
     "related_relative": 1,
     "escaping_links": 28,
 }
-EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 5, "2b": 0, "3": 0}
+EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 13, "2b": 0, "3": 0}
 EXPECTED_CORPUS = {"bundles": 13, "concepts": 310, "references": 132, "documents": 442}
 
-# per-bundle absolute-link distribution (§3.1 gap — the five oldest bundles)
-EXPECTED_ABSOLUTE = {
-    "dharma-foundation": 136, "vedanta-epistemology": 89, "yoga-darshana": 84,
-    "bhakti-marga": 46, "dharmic-ethics": 45,
+# The §3.1 gap, closed. Kept as a record of what the wave converted, and as
+# the shape any regression would take: dharma-foundation 136,
+# vedanta-epistemology 89, yoga-darshana 84, bhakti-marga 46,
+# dharmic-ethics 45 — 400 across the five bundles that predate the
+# convention change at upanishadic-core.
+FORMERLY_ABSOLUTE = {
+    "dharma-foundation", "vedanta-epistemology", "yoga-darshana",
+    "bhakti-marga", "dharmic-ethics",
 }
-EXPECTED_LEVEL_2_PASS = {
-    "ayurveda-consciousness", "jyotisha-kala", "mimamsa-dharma",
-    "nyaya-vaisheshika", "shakta-darshana",
-}
+EXPECTED_LEVEL_2_PASS = set(BUNDLES)          # all thirteen, from this wave on
 
 
 @pytest.fixture(scope="module")
@@ -106,41 +112,61 @@ def test_totals(report):
         {k: report["totals"][k] for k in EXPECTED_TOTALS} == EXPECTED_TOTALS
 
 
-@pytest.mark.parametrize("bundle,count", sorted(EXPECTED_ABSOLUTE.items()))
-def test_absolute_link_distribution(report, bundle, count):
+@pytest.mark.parametrize("bundle", sorted(FORMERLY_ABSOLUTE))
+def test_converted_bundles_carry_no_absolute_links(report, bundle):
+    """§3.1 requires the relative form in bodies. These five held all 400."""
     got = next(b for b in report["bundles"] if b["bundle"] == bundle)
-    assert got["links"]["absolute"] == count
+    assert got["links"]["absolute"] == 0
 
 
-def test_only_five_bundles_carry_absolute_links(report):
-    with_abs = {b["bundle"] for b in report["bundles"] if b["links"]["absolute"]}
-    assert with_abs == set(EXPECTED_ABSOLUTE)
+def test_no_bundle_anywhere_carries_an_absolute_body_link(report):
+    with_abs = {b["bundle"]: b["links"]["absolute"]
+                for b in report["bundles"] if b["links"]["absolute"]}
+    assert with_abs == {}
 
 
-def test_pseudo_links_confined_to_upanishadic_core(report):
-    """97 bracket-only [x.md] forms, all in one bundle. Audit finding A."""
+def test_no_bracket_only_pseudo_links_remain(report):
+    """`see [references/x.md]` renders as literal text and builds no edge.
+
+    97 of them, all in upanishadic-core, which is why that bundle had a
+    relationship graph of exactly zero edges while passing Layer 1.
+    """
     offenders = {b["bundle"]: b["links"]["pseudo"]
                  for b in report["bundles"] if b["links"]["pseudo"]}
-    assert offenders == {"upanishadic-core": 97}
+    assert offenders == {}
 
 
-def test_bare_path_distribution(report):
+def test_no_bare_path_citations_remain(report):
+    """`see references/x.md` — same defect, different spelling. 55 + 1."""
     offenders = {b["bundle"]: b["links"]["bare_path"]
                  for b in report["bundles"] if b["links"]["bare_path"]}
-    assert offenders == {"cosmology-creation": 55, "upanishadic-core": 1}
+    assert offenders == {}
 
 
-def test_level_2_presence_floor_drops_the_edgeless_bundles(report):
-    """The whole point of the re-spec: a bundle with no graph must not pass."""
-    passing = {b["bundle"] for b in report["bundles"] if b["level_2"]}
-    assert passing == EXPECTED_LEVEL_2_PASS
+def test_every_concept_now_carries_a_resolvable_body_link(report):
+    """The Level 2 presence floor, satisfied corpus-wide.
+
+    The three bundles that failed it — upanishadic-core 26, cosmology-creation
+    23, sankhya-darshana 1 — are the assertion. Their 49 came free with the
+    citation-form fix; sankhya's one had no citation to convert and was
+    written by hand.
+    """
+    offenders = {b["bundle"]: b["links"]["concepts_without_links"]
+                 for b in report["bundles"] if b["links"]["concepts_without_links"]}
+    assert offenders == {}
     for name in ("upanishadic-core", "cosmology-creation", "sankhya-darshana"):
         b = next(x for x in report["bundles"] if x["bundle"] == name)
-        assert not b["level_2"]
-        assert any("presence:" in f for f in b["level_2_failures"])
+        assert b["level_2"], b["level_2_failures"]
+
+
+def test_all_thirteen_bundles_reach_level_2(report):
+    passing = {b["bundle"] for b in report["bundles"] if b["level_2"]}
+    assert passing == EXPECTED_LEVEL_2_PASS
+    assert all(not b["level_2_failures"] for b in report["bundles"])
 
 
 def test_no_bundle_reaches_level_2b_or_3(report):
+    """Unchanged by this step, and deliberately so — 2b is the index step."""
     assert not any(b["level_2b"] for b in report["bundles"])
     assert not any(b["level_3"] for b in report["bundles"])
 
@@ -193,12 +219,22 @@ def test_subdirectory_indexes_carry_no_frontmatter(report):
     assert all(not b["indexes"]["subindex_with_frontmatter"] for b in report["bundles"])
 
 
-def test_profile_strict_fails_below_level_two(report):
+def test_profile_strict_now_passes_at_level_two(report):
+    """The wave's headline: --require-level 2 goes green for the first time."""
     r = subprocess.run(
         [sys.executable, str(TOOL), str(OKF), "--corpus",
          "--profile-strict", "--require-level", "2", "--quiet"],
         capture_output=True, text=True)
-    assert r.returncode == 1, "8 bundles are below Level 2; strict mode must fail"
+    assert r.returncode == 0, "all 13 bundles are Level 2 after the link step"
+
+
+def test_profile_strict_still_fails_at_level_2b(report):
+    """21 directories still have no index.md. That is the next step, not this one."""
+    r = subprocess.run(
+        [sys.executable, str(TOOL), str(OKF), "--corpus",
+         "--profile-strict", "--require-level", "2b", "--quiet"],
+        capture_output=True, text=True)
+    assert r.returncode == 1, "no bundle reaches Level 2b yet"
 
 
 def test_profile_strict_passes_at_level_one(report):
