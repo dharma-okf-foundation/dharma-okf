@@ -25,8 +25,8 @@ not:
 - term: 'a sideline'
   why: 'Without gaṇita no pañcāṅga can be produced and no eclipse predicted: the branch is the tradition’s engine room, and the tradition’s own taxonomy (siddhānta-gaṇita, horā, saṃhitā) gives it first place.'
 related:
-- /concepts/siddhanta.md
-- /concepts/kala-jyotisha.md
+- siddhanta.md
+- kala-jyotisha.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

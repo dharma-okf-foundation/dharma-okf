@@ -25,10 +25,10 @@ not:
 - term: formal invalidity (an invalid argument form)
   why: A hetvābhāsa can occur in an argument whose surface form looks fine; the failure is epistemic, in the mark's real relation to subject and target, not in a truth-functional schema. Formal validity is neither necessary nor sufficient for a Nyāya inference to be sound.
 related:
-- /concepts/hetu.md
-- /concepts/vyapti.md
-- /concepts/anumana.md
-- /concepts/nigrahasthana.md
+- hetu.md
+- vyapti.md
+- anumana.md
+- nigrahasthana.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -24,9 +24,9 @@ not:
 - term: 'historical record or chronicle'
   why: 'Narrative arthavāda (including much of what looks like history) is valued for its injunction-serving force, not as a report of past events. Its truth-status is governed by its subordination to the vidhi, not by correspondence to a historical record.'
 related:
-- /concepts/vidhi.md
-- /concepts/dharma.md
-- /concepts/codana.md
+- vidhi.md
+- dharma.md
+- codana.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

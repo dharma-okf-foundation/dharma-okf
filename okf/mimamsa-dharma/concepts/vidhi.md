@@ -24,10 +24,10 @@ not:
 - term: 'a descriptive rule'
   why: 'A rule may merely describe how things are done. A vidhi is irreducibly prescriptive: its whole function is to enjoin what is not otherwise established, which is why a sentence stating an accomplished fact is arthavāda, not vidhi.'
 related:
-- /concepts/dharma.md
-- /concepts/codana.md
-- /concepts/nisedha.md
-- /concepts/arthavada.md
+- dharma.md
+- codana.md
+- nisedha.md
+- arthavada.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

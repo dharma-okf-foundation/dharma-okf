@@ -28,10 +28,10 @@ not:
   - term: "social convention (as justification)"
     why: "ācāra is sometimes invoked to defend exclusion or hierarchy as time-honored; but conduct is dharmic only insofar as it traces ṛta and respects the sādhāraṇa-dharma binding on all, so convention alone cannot sanctify a practice"
 related:
-  - /concepts/rta.md
-  - /concepts/satya.md
-  - /concepts/svadharma.md
-  - /concepts/ahimsa.md
+  - rta.md
+  - satya.md
+  - svadharma.md
+  - ahimsa.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

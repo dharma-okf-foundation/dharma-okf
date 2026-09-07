@@ -25,10 +25,10 @@ not:
 - term: a stylistic scoring rubric
   why: Nigrahasthāna is not about eloquence or persuasiveness. It is a checklist of structural failures in maintaining and defending a position; a dull but coherent debater does not incur them, while a brilliant but self-contradicting one does.
 related:
-- /concepts/vada.md
-- /concepts/jalpa.md
-- /concepts/hetvabhasa.md
-- /concepts/shodasha-padartha.md
+- vada.md
+- jalpa.md
+- hetvabhasa.md
+- shodasha-padartha.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

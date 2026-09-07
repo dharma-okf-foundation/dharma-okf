@@ -25,11 +25,11 @@ not:
 - term: 'astrology-app luck copy'
   why: 'Commercial apps flatten five computed limbs into daily-luck one-liners. The limbs are recomputable astronomy; the luck copy is an overlay the classical almanac does not contain.'
 related:
-- /concepts/tithi.md
-- /concepts/vara.md
-- /concepts/nakshatra.md
-- /concepts/yoga-panchanga.md
-- /concepts/karana.md
+- tithi.md
+- vara.md
+- nakshatra.md
+- yoga-panchanga.md
+- karana.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

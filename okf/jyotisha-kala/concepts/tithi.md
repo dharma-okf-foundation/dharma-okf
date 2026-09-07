@@ -25,9 +25,9 @@ not:
 - term: 'a fixed length of time'
   why: 'Thirty tithis per synodic month makes the MEAN tithi about 23.6 hours, but no actual tithi need have that length. The unit is angular (12° of elongation), not temporal.'
 related:
-- /concepts/masa.md
-- /concepts/karana.md
-- /concepts/panchanga.md
+- masa.md
+- karana.md
+- panchanga.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

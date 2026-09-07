@@ -25,10 +25,10 @@ not:
 - term: a derivation in formal or symbolic logic
   why: Each member states a cognition about a specific subject (this hill, this smoke), not a schematic proposition. Rendering the form as a symbolic derivation drops the particular subject (pakṣa) and the example that Nyāya treats as essential.
 related:
-- /concepts/anumana.md
-- /concepts/hetu.md
-- /concepts/vyapti.md
-- /concepts/shodasha-padartha.md
+- anumana.md
+- hetu.md
+- vyapti.md
+- shodasha-padartha.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

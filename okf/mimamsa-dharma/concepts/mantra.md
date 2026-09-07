@@ -24,9 +24,9 @@ not:
 - term: 'a meaningless sacred syllable'
   why: 'For Mīmāṃsā mantras have meaning, and their meaning is precisely what does their ritual work, expressing the act''''s factors; they are not treated as meaningless.'
 related:
-- /concepts/arthavada.md
-- /concepts/viniyoga.md
-- /concepts/yaga.md
+- arthavada.md
+- viniyoga.md
+- yaga.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

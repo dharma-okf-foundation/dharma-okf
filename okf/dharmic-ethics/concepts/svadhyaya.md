@@ -28,10 +28,10 @@ not:
   - term: "śravaṇa-manana-nididhyāsana"
     why: "the Advaita threefold of hearing, reflection, and contemplation is the formal jñāna study-path (reserved for the upanishadic-core bundle); svādhyāya the niyama is the broader devotional-disciplinary study and recitation that any path employs, not that specific Vedāntic method"
 related:
-  - /concepts/tapas.md
-  - /concepts/ishvara-pranidhana.md
-  - /concepts/satya.md
-  - /concepts/saucha.md
+  - tapas.md
+  - ishvara-pranidhana.md
+  - satya.md
+  - saucha.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

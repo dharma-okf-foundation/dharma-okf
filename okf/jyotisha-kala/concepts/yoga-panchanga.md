@@ -26,9 +26,9 @@ not:
 - term: 'a loose union metaphor'
   why: 'Nothing unites in the almanac yoga; two numbers are added. The name records the operation (yoga as sum), not a mystical joining.'
 related:
-- /concepts/panchanga.md
-- /concepts/tithi.md
-- /concepts/nakshatra.md
+- panchanga.md
+- tithi.md
+- nakshatra.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

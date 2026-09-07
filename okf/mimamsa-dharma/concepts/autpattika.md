@@ -24,8 +24,8 @@ not:
 - term: 'etymological derivation'
   why: 'Autpattika is about the standing relation of word to meaning, not about deriving a word''''s sense from its roots.'
 related:
-- /concepts/sabda-nityata.md
-- /concepts/apauruseyatva.md
+- sabda-nityata.md
+- apauruseyatva.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

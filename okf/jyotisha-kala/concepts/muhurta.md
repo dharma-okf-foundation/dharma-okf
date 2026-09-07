@@ -26,10 +26,10 @@ not:
 - term: 'shubh-muhurat sales copy'
   why: 'Commercial date-selection services compress a rule-governed classical discipline into a purchasable blessing. The discipline has named texts, named rules, and named exclusions; the sales copy has none of them.'
 related:
-- /concepts/kala-jyotisha.md
-- /concepts/ghatika.md
-- /concepts/panchanga.md
-- /concepts/karana.md
+- kala-jyotisha.md
+- ghatika.md
+- panchanga.md
+- karana.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

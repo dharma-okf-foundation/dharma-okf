@@ -25,9 +25,9 @@ not:
 - term: 'an omen in isolation'
   why: 'Like the other limbs, the karaṇa is a computed quantity with codified electional uses. Read alone as a portent it loses the system that gives it meaning.'
 related:
-- /concepts/tithi.md
-- /concepts/panchanga.md
-- /concepts/muhurta.md
+- tithi.md
+- panchanga.md
+- muhurta.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -27,10 +27,10 @@ not:
 - term: a featureless point-particle of matter
   why: Paramāṇus are not bare quantities of stuff. Each bears real qualities and is individuated by a viśeṣa; earth-atoms are qualitatively unlike water-atoms. The concept is embedded in a categorial ontology (substance, quality, particularity), not a homogeneous matter-field.
 related:
-- /concepts/dravya.md
-- /concepts/dvyanuka-tryanuka.md
-- /concepts/samanya-vishesha.md
-- /concepts/ishvara.md
+- dravya.md
+- dvyanuka-tryanuka.md
+- samanya-vishesha.md
+- ishvara.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

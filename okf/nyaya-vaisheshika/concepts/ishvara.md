@@ -27,10 +27,10 @@ not:
 - term: the Yoga Īśvara (a special puruṣa)
   why: In Patañjali's Yoga, Īśvara is a distinct puruṣa untouched by affliction and action, an object of meditative devotion, and pointedly not the creator of the world. Nyāya's Īśvara is precisely a creator-orderer proved by causal inference. Same word, a different theological role.
 related:
-- /concepts/paramanu.md
-- /concepts/atman.md
-- /concepts/anumana.md
-- /concepts/shabda.md
+- paramanu.md
+- atman.md
+- anumana.md
+- shabda.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -28,10 +28,10 @@ not:
   - term: "the student stage (āśrama)"
     why: "brahmacarya also names the first of the four āśramas, the celibate-student period; that is a life-stage, while the yama is a discipline practicable in any stage, and reading the yama as merely the student years loses its general force"
 related:
-  - /concepts/tapas.md
-  - /concepts/aparigraha.md
-  - /concepts/santosha.md
-  - /concepts/svadhyaya.md
+  - tapas.md
+  - aparigraha.md
+  - santosha.md
+  - svadhyaya.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

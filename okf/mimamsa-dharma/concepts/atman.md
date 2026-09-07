@@ -24,9 +24,9 @@ not:
 - term: 'the body, the senses, or the mind'
   why: 'The ātman is the persisting substrate distinct from body and mind, since these perish while the enjoyer of a future fruit must persist.'
 related:
-- /concepts/phala.md
-- /concepts/apurva.md
-- /concepts/jati.md
+- phala.md
+- apurva.md
+- jati.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

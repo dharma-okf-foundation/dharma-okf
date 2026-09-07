@@ -24,9 +24,9 @@ not:
 - term: 'kārya as effect (the Nyāya sense)'
   why: 'In Nyāya-Vaiśeṣika kārya means effect, the correlate of cause. Same word, different technical object: the Prābhākara kārya is the enjoined to-be-done, not the effect-term of causation (see nyaya-vaisheshika v0.9).'
 related:
-- /concepts/niyoga.md
-- /concepts/vidhi.md
-- /concepts/anvitabhidhana.md
+- niyoga.md
+- vidhi.md
+- anvitabhidhana.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

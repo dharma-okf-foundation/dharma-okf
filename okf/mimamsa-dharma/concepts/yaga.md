@@ -25,10 +25,10 @@ not:
 - term: 'karma in the moral or the motion sense'
   why: 'This yāga-karma (ritual action) is a third technical sense of karma, distinct from moral action-and-consequence (dharma-foundation v0.1) and Vaiśeṣika physical motion (nyaya-vaisheshika v0.9). Same word, three darśana-relative objects.'
 related:
-- /concepts/anga-pradhana.md
-- /concepts/apurva.md
-- /concepts/phala.md
-- /concepts/viniyoga.md
+- anga-pradhana.md
+- apurva.md
+- phala.md
+- viniyoga.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

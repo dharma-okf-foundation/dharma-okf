@@ -24,9 +24,9 @@ not:
 - term: 'means versus end in the ethical sense'
   why: 'While kratvartha acts serve the rite and puruṣārtha names the agent''''s fruit, this is a technical account of ritual purpose-structure, not a general ethics of means and ends.'
 related:
-- /concepts/anga-pradhana.md
-- /concepts/phala.md
-- /concepts/dharma.md
+- anga-pradhana.md
+- phala.md
+- dharma.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

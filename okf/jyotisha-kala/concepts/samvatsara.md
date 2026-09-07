@@ -25,10 +25,10 @@ not:
 - term: 'a trivia list'
   why: 'The sixty names date real inscriptions and colophons across two millennia of Indian record-keeping. The cycle is an instrument of chronology, not an ornament.'
 related:
-- /concepts/masa.md
-- /concepts/ayana.md
-- /concepts/ritu.md
-- /concepts/kala-jyotisha.md
+- masa.md
+- ayana.md
+- ritu.md
+- kala-jyotisha.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

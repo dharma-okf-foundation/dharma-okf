@@ -26,11 +26,11 @@ not:
 - term: 'an endorsed predictive science'
   why: 'This corpus documents what horā’s terms mean and how the discipline is structured. Whether its predictions hold is an empirical question the corpus does not adjudicate, here or in any file.'
 related:
-- /concepts/jataka.md
-- /concepts/lagna.md
-- /concepts/bhava-jyotisha.md
-- /concepts/vara.md
-- /concepts/dasha.md
+- jataka.md
+- lagna.md
+- bhava-jyotisha.md
+- vara.md
+- dasha.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

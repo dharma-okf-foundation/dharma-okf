@@ -27,10 +27,10 @@ not:
 - term: probable inference or educated guessing
   why: A sound anumāna yields pramā (knowledge), not probability. With a true vyāpti and a genuine mark it delivers certainty about its object; the fallibility lives in the pseudo-marks (hetvābhāsa), not in the form being merely likely.
 related:
-- /concepts/vyapti.md
-- /concepts/panchavayava.md
-- /concepts/hetu.md
-- /concepts/pramana.md
+- vyapti.md
+- panchavayava.md
+- hetu.md
+- pramana.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -26,10 +26,10 @@ not:
 - term: a mere coherence or internal-consistency failure
   why: Error for Nyāya is a misplaced real relation between real things, detected and corrected by a subsequent valid cognition and by the failure of action (reaching for the silver, one grasps shell). It is not defined as incoherence within a web of beliefs; it is a specific misapprehension of a mind-independent world, undone by the world.
 related:
-- /concepts/pramanya.md
-- /concepts/pratyaksha.md
-- /concepts/atman.md
-- /concepts/pramana.md
+- pramanya.md
+- pratyaksha.md
+- atman.md
+- pramana.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

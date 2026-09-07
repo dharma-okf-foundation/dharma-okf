@@ -24,9 +24,9 @@ not:
 - term: 'a legal ban'
   why: 'A legal ban is enacted and enforced by a human authority through punishment. The force of a niṣedha is the demerit (pratyavāya) that accrues to the transgressor through the unseen order, not a sanction imposed by any court.'
 related:
-- /concepts/vidhi.md
-- /concepts/codana.md
-- /concepts/dharma.md
+- vidhi.md
+- codana.md
+- dharma.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

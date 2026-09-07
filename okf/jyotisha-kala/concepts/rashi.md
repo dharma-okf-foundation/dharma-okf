@@ -26,10 +26,10 @@ not:
 - term: 'a personality box'
   why: 'Sign-personality content is a commercial overlay on a coordinate grid. The classical use of rāśi is positional: where a graha or the lagna stands.'
 related:
-- /concepts/nakshatra.md
-- /concepts/ayanamsha.md
-- /concepts/lagna.md
-- /concepts/graha.md
+- nakshatra.md
+- ayanamsha.md
+- lagna.md
+- graha.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

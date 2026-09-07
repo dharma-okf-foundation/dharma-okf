@@ -28,10 +28,10 @@ not:
   - term: "sevā (bhakti service)"
     why: "sevā (bhakti-marga) is the same selflessness offered TO a Beloved as an act of love and relationship; niṣkāma-karma is action offered as discipline and duty, the fruit renounced; kindred and overlapping, but karma-yoga's posture is duty-without-craving where bhakti's is love-in-service"
 related:
-  - /concepts/ishvara-pranidhana.md
-  - /concepts/svadharma.md
-  - /concepts/santosha.md
-  - /concepts/dana.md
+  - ishvara-pranidhana.md
+  - svadharma.md
+  - santosha.md
+  - dana.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

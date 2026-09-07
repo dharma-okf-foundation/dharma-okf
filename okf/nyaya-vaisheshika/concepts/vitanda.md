@@ -25,10 +25,10 @@ not:
 - term: constructive criticism
   why: Constructive criticism aims to improve a view or replace it with a better one. Vitaṇḍā aims only to leave the opponent's view in ruins, offering nothing in its place; its whole strategic point is to hold no position that could be attacked in turn.
 related:
-- /concepts/vada.md
-- /concepts/jalpa.md
-- /concepts/nigrahasthana.md
-- /concepts/hetvabhasa.md
+- vada.md
+- jalpa.md
+- nigrahasthana.md
+- hetvabhasa.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

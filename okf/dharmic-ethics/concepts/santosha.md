@@ -28,10 +28,10 @@ not:
   - term: "dispassion (vairāgya)"
     why: "vairāgya (dharma-foundation) is the turning-away from objects of craving; santoṣa is the positive peace that fills the space dispassion opens, the contentment that remains when the grasping has gone"
 related:
-  - /concepts/aparigraha.md
-  - /concepts/saucha.md
-  - /concepts/ishvara-pranidhana.md
-  - /concepts/nishkama-karma.md
+  - aparigraha.md
+  - saucha.md
+  - ishvara-pranidhana.md
+  - nishkama-karma.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

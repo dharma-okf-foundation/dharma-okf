@@ -28,10 +28,10 @@ not:
   - term: "renunciation of all property"
     why: "the householder practices aparigraha without abandoning home or goods; it is the renunciation of the sense of mine, not necessarily of the objects, that the yama requires"
 related:
-  - /concepts/asteya.md
-  - /concepts/santosha.md
-  - /concepts/brahmacharya.md
-  - /concepts/dana.md
+  - asteya.md
+  - santosha.md
+  - brahmacharya.md
+  - dana.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

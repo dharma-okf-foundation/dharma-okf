@@ -25,10 +25,10 @@ not:
 - term: sophistry or mere argumentation
   why: Tarka is disciplined reductio in the service of truth, not clever wrangling. The victory-seeking forms of argument have their own names (jalpa, vitaṇḍā); tarka is the honest instrument that keeps inference from resting on an untested generalization.
 related:
-- /concepts/vyapti.md
-- /concepts/anumana.md
-- /concepts/shodasha-padartha.md
-- /concepts/vada.md
+- vyapti.md
+- anumana.md
+- shodasha-padartha.md
+- vada.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

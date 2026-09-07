@@ -29,10 +29,10 @@ not:
   - term: "universal dharma (sādhāraṇa-dharma)"
     why: "svadharma is the contextual pole; sādhāraṇa-dharma is the universal floor (ahiṃsā, satya, and the other yamas binding on all); they are two layers held together, and collapsing svadharma into the universal loses the irreducibly situated character of one's own duty"
 related:
-  - /concepts/rta.md
-  - /concepts/nishkama-karma.md
-  - /concepts/ahimsa.md
-  - /concepts/achara.md
+  - rta.md
+  - nishkama-karma.md
+  - ahimsa.md
+  - achara.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

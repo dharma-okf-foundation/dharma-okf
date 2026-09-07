@@ -28,10 +28,10 @@ not:
   - term: "almsgiving"
     why: "almsgiving frames the recipient as a beggar receiving from a superior; dāna to a worthy recipient is an honor to give, and the receiver of dāna may even confer grace by accepting, reversing the hierarchy charity assumes"
 related:
-  - /concepts/asteya.md
-  - /concepts/aparigraha.md
-  - /concepts/nishkama-karma.md
-  - /concepts/satya.md
+  - asteya.md
+  - aparigraha.md
+  - nishkama-karma.md
+  - satya.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

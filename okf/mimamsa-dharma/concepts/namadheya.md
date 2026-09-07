@@ -24,9 +24,9 @@ not:
 - term: 'a definition or description'
   why: 'A nāmadheya names; it does not define or describe the rite''''s nature.'
 related:
-- /concepts/vidhi.md
-- /concepts/arthavada.md
-- /concepts/viniyoga.md
+- vidhi.md
+- arthavada.md
+- viniyoga.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

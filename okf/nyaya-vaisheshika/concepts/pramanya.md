@@ -26,10 +26,10 @@ not:
 - term: truth as usefulness (pragmatism about truth)
   why: Successful action (pravṛtti-sāmarthya) is Nyāya's test for ascertaining validity, not its meaning. A cognition is valid because it matches its object; that it also enables successful action is the sign, not the definition, of its validity.
 related:
-- /concepts/pramana.md
-- /concepts/pratyaksha.md
-- /concepts/anyatha-khyati.md
-- /concepts/anumana.md
+- pramana.md
+- pratyaksha.md
+- anyatha-khyati.md
+- anumana.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

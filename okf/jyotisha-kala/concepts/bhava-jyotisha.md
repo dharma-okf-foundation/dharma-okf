@@ -26,10 +26,10 @@ not:
 - term: 'rooms of fate'
   why: 'House-domain assignments (wealth, siblings, and the rest) are horā significations, an interpretive layer. The bhāva itself is a division of the local sky; what it “means” is the school’s claim, not the geometry’s.'
 related:
-- /concepts/lagna.md
-- /concepts/rashi.md
-- /concepts/hora.md
-- /concepts/jataka.md
+- lagna.md
+- rashi.md
+- hora.md
+- jataka.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

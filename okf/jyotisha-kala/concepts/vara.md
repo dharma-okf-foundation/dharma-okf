@@ -25,9 +25,9 @@ not:
 - term: 'interchangeable with tithi'
   why: 'The vāra is solar and uniform; the tithi is lunar and elastic. The almanac needs both precisely because they measure different cycles.'
 related:
-- /concepts/panchanga.md
-- /concepts/hora.md
-- /concepts/tithi.md
+- panchanga.md
+- hora.md
+- tithi.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

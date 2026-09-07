@@ -26,9 +26,9 @@ not:
 - term: 'autonomous Kantian duty'
   why: 'Kantian duty is legislated by one''s own reason. Mīmāṃsā dharma is heteronomous to the Vedic word: its authority is the injunction, not the agent''s rational will. (Prabhākara''s kārya comes closest to duty-for-its-own-sake, but the source is still the impersonal directive, not autonomous reason.)'
 related:
-- /concepts/codana.md
-- /concepts/vidhi.md
-- /concepts/arthavada.md
+- codana.md
+- vidhi.md
+- arthavada.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

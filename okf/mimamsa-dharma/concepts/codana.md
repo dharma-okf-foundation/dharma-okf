@@ -24,9 +24,9 @@ not:
 - term: 'psychological motivation or persuasion'
   why: 'Motivation is a contingent mental state and persuasion works on desire. Codanā is a linguistic-imperative that constitutes the duty; the two schools dispute what it conveys (a result-producing force, or a binding directive), but neither reduces it to a feeling.'
 related:
-- /concepts/dharma.md
-- /concepts/vidhi.md
-- /concepts/nisedha.md
+- dharma.md
+- vidhi.md
+- nisedha.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

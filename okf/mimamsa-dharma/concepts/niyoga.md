@@ -24,10 +24,10 @@ not:
 - term: 'a psychological compulsion'
   why: 'Niyoga is a normative bond conveyed by the injunctive word, not a felt inner compulsion.'
 related:
-- /concepts/karya.md
-- /concepts/vidhi.md
-- /concepts/adhikara.md
-- /concepts/bhavana.md
+- karya.md
+- vidhi.md
+- adhikara.md
+- bhavana.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

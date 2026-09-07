@@ -28,10 +28,10 @@ not:
   - term: "resignation / fatalism"
     why: "fatalism abandons effort to fate; īśvara-praṇidhāna offers the fruit of full effort, so one acts completely and surrenders the result, the opposite of not acting"
 related:
-  - /concepts/tapas.md
-  - /concepts/svadhyaya.md
-  - /concepts/nishkama-karma.md
-  - /concepts/santosha.md
+  - tapas.md
+  - svadhyaya.md
+  - nishkama-karma.md
+  - santosha.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

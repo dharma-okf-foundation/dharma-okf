@@ -24,9 +24,9 @@ not:
 - term: 'free or associative connection'
   why: 'Connections are not made by resemblance or association but decided by the hierarchy of textual evidence.'
 related:
-- /concepts/anga-pradhana.md
-- /concepts/mantra.md
-- /concepts/namadheya.md
+- anga-pradhana.md
+- mantra.md
+- namadheya.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -26,10 +26,10 @@ not:
 - term: inference in disguise
   why: 'Rival schools reduce upamāna to anumāna or śabda. Nyāya resists: the knowledge that this animal is what the word denotes is got neither by a pervasion (inference) nor merely by the informant''s words (testimony) but by the perceived similarity linking the two, which is why it earns a separate slot.'
 related:
-- /concepts/pramana.md
-- /concepts/shabda.md
-- /concepts/anumana.md
-- /concepts/pratyaksha.md
+- pramana.md
+- shabda.md
+- anumana.md
+- pratyaksha.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

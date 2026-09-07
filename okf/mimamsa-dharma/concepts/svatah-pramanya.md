@@ -25,9 +25,9 @@ not:
 - term: 'the view that all cognitions are true'
   why: 'Error is real for Mīmāṃsā. Svataḥ-prāmāṇya holds we are entitled to a cognition until it is defeated, with the burden of proof on the doubter, not that nothing is ever false.'
 related:
-- /concepts/apauruseyatva.md
-- /concepts/dharma.md
-- /concepts/codana.md
+- apauruseyatva.md
+- dharma.md
+- codana.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -24,9 +24,9 @@ not:
 - term: 'divine reward'
   why: 'Mīmāṃsā is non-theistic about ritual efficacy: the result follows from apūrva by the Veda''''s own order, not because a god chooses to reward.'
 related:
-- /concepts/phala.md
-- /concepts/yaga.md
-- /concepts/niyoga.md
+- phala.md
+- yaga.md
+- niyoga.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

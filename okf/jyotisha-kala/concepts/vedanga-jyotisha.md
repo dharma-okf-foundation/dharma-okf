@@ -25,10 +25,10 @@ not:
 - term: 'a minor appendix'
   why: 'The tradition’s own verse ranks Jyotiṣa as the eye among the six Vedāṅgas: the limb by which the ritual system sees when to act. For a sacrifice-centered culture the calendar was not auxiliary; it was enabling.'
 related:
-- /concepts/kala-jyotisha.md
-- /concepts/tithi.md
-- /concepts/nakshatra.md
-- /concepts/ganita.md
+- kala-jyotisha.md
+- tithi.md
+- nakshatra.md
+- ganita.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

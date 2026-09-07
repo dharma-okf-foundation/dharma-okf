@@ -24,10 +24,10 @@ not:
 - term: 'Buddhist meditative cultivation'
   why: 'Same Sanskrit word, different technical object. Buddhist bhāvanā is meditative development; Mīmāṃsā bhāvanā is the productive force of an injunction. A cross-tradition false friend.'
 related:
-- /concepts/vidhi.md
-- /concepts/apurva.md
-- /concepts/niyoga.md
-- /concepts/codana.md
+- vidhi.md
+- apurva.md
+- niyoga.md
+- codana.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

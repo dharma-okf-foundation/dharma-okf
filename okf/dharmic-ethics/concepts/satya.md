@@ -28,10 +28,10 @@ not:
   - term: "sat / reality (ontological)"
     why: "sat is being itself, and the levels-of-reality analysis (pāramārthika, vyāvahārika) belongs to vedanta; satya the yama is the conduct of truthfulness, the human alignment to that real, not the metaphysics of the real"
 related:
-  - /concepts/ahimsa.md
-  - /concepts/rta.md
-  - /concepts/achara.md
-  - /concepts/svadhyaya.md
+  - ahimsa.md
+  - rta.md
+  - achara.md
+  - svadhyaya.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

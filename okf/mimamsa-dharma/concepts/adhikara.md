@@ -24,9 +24,9 @@ not:
 - term: 'caste status by itself'
   why: 'While classical texts tie some adhikāra to varṇa and āśrama, adhikāra is the technical structure of who-an-injunction-binds, defined by desire-for-result and capacity; reducing it to caste flattens a hermeneutic category into a sociological one.'
 related:
-- /concepts/phala.md
-- /concepts/niyoga.md
-- /concepts/vidhi.md
+- phala.md
+- niyoga.md
+- vidhi.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

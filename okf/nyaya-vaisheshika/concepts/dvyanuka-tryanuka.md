@@ -25,10 +25,10 @@ not:
 - term: emergence in the physicalist sense
   why: The gross object is not a novel property emerging from a physical base; it is a new whole (avayavin) that inheres in its parts by samavāya and really exists as one substance over them. Vaiśeṣika's part-whole realism is the opposite of reductive emergentism.
 related:
-- /concepts/paramanu.md
-- /concepts/dravya.md
-- /concepts/samavaya.md
-- /concepts/ishvara.md
+- paramanu.md
+- dravya.md
+- samavaya.md
+- ishvara.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

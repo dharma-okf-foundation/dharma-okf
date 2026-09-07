@@ -25,10 +25,10 @@ not:
 - term: glue, physical bonding, or spatial attachment
   why: Samavāya is not a physical connector holding pieces together in space; that would itself be a further relatum needing another relation (the regress Vaiśeṣika blocks by making inherence a single eternal category). It is the metaphysical inseparability of things that are found only together.
 related:
-- /concepts/saptapadartha.md
-- /concepts/dravya.md
-- /concepts/guna.md
-- /concepts/samanya-vishesha.md
+- saptapadartha.md
+- dravya.md
+- guna.md
+- samanya-vishesha.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

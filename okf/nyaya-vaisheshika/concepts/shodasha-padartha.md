@@ -26,10 +26,10 @@ not:
 - term: an arbitrary or unordered list
   why: 'The sixteen have a logic: the first nine cover valid inquiry (from the means of knowledge to settled conclusion), and the last seven cover debate and its pathologies. It is a deliberately structured curriculum, not a miscellany.'
 related:
-- /concepts/pramana.md
-- /concepts/vada.md
-- /concepts/tarka.md
-- /concepts/saptapadartha.md
+- pramana.md
+- vada.md
+- tarka.md
+- saptapadartha.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

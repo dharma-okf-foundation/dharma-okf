@@ -25,9 +25,9 @@ not:
 - term: 'irrelevant trivia'
   why: 'About 24 degrees is most of a sign: it is the entire difference between the tropical and sidereal answer to “where is the Sun.” Nothing sidereal is computable without declaring it.'
 related:
-- /concepts/rashi.md
-- /concepts/ayana.md
-- /concepts/nakshatra.md
+- rashi.md
+- ayana.md
+- nakshatra.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

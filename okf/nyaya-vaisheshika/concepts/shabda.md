@@ -26,10 +26,10 @@ not:
 - term: Śabda-Brahman / sound as ultimate reality
   why: 'In dharma-foundation and sound-metaphysics, śabda names primordial vibration and the Absolute as sound. Here śabda is a narrowly epistemic term: language as a source of knowledge through a reliable speaker. Same word, wholly different register; do not merge them.'
 related:
-- /concepts/pramana.md
-- /concepts/upamana.md
-- /concepts/anumana.md
-- /concepts/ishvara.md
+- pramana.md
+- upamana.md
+- anumana.md
+- ishvara.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

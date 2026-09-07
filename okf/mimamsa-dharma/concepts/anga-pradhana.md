@@ -24,9 +24,9 @@ not:
 - term: 'śeṣa as leftover or remainder'
   why: 'Here śeṣa means accessory, that which is subordinate to a principal (śeṣin), a relational role, not a physical remnant.'
 related:
-- /concepts/yaga.md
-- /concepts/viniyoga.md
-- /concepts/kratvartha-purusartha.md
+- yaga.md
+- viniyoga.md
+- kratvartha-purusartha.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

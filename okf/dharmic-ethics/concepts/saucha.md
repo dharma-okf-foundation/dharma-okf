@@ -26,10 +26,10 @@ not:
   - term: "purity-pollution social code"
     why: "śauca the niyama is a personal discipline of clarifying one's own body and mind; it is not a social ranking of persons as pure or polluted, and using the word to license such hierarchy inverts its purpose"
 related:
-  - /concepts/santosha.md
-  - /concepts/tapas.md
-  - /concepts/brahmacharya.md
-  - /concepts/svadhyaya.md
+  - santosha.md
+  - tapas.md
+  - brahmacharya.md
+  - svadhyaya.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

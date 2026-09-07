@@ -28,10 +28,10 @@ not:
   - term: "mortification of the flesh"
     why: "mortification treats the body as an enemy to be subdued; tapas can be bodily but aims to perfect the instrument, not to despise it, and the Gītā warns against austerities that torture the elements of the body"
 related:
-  - /concepts/svadhyaya.md
-  - /concepts/ishvara-pranidhana.md
-  - /concepts/brahmacharya.md
-  - /concepts/saucha.md
+  - svadhyaya.md
+  - ishvara-pranidhana.md
+  - brahmacharya.md
+  - saucha.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

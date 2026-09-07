@@ -24,9 +24,9 @@ not:
 - term: 'syntax or grammar'
   why: 'It is a semantic theory of how sentence-sense arises from word-senses, not an account of grammatical form.'
 related:
-- /concepts/anvitabhidhana.md
-- /concepts/jati.md
-- /concepts/sabda-nityata.md
+- anvitabhidhana.md
+- jati.md
+- sabda-nityata.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

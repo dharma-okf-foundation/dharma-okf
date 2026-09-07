@@ -26,10 +26,10 @@ not:
 - term: a cause or a clue in the loose sense
   why: Hetu is a technical role in inference, not causation in general. Smoke infers fire though smoke does not cause fire; the tie that matters is invariable concomitance (vyāpti), not the causal direction. Reading hetu as 'cause' inverts many valid inferences.
 related:
-- /concepts/anumana.md
-- /concepts/vyapti.md
-- /concepts/hetvabhasa.md
-- /concepts/panchavayava.md
+- anumana.md
+- vyapti.md
+- hetvabhasa.md
+- panchavayava.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -24,9 +24,9 @@ not:
 - term: 'onomatopoeia or natural resemblance'
   why: 'The eternal relation is not a resemblance between sound and thing; it is a fixed, inherent signifying relation (see autpattika).'
 related:
-- /concepts/apauruseyatva.md
-- /concepts/autpattika.md
-- /concepts/jati.md
+- apauruseyatva.md
+- autpattika.md
+- jati.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

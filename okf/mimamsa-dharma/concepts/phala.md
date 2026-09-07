@@ -24,9 +24,9 @@ not:
 - term: 'salvation or liberation (mokṣa)'
   why: 'The ritual phala is a positive attainment like svarga, within saṃsāra; it is not the liberation of Vedānta. Pūrva-Mīmāṃsā''''s classical horizon is the fruit of action, not release from action.'
 related:
-- /concepts/apurva.md
-- /concepts/adhikara.md
-- /concepts/yaga.md
+- apurva.md
+- adhikara.md
+- yaga.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -25,8 +25,8 @@ not:
 - term: 'karmic-point content'
   why: 'Modern copy sells Rāhu-Ketu as universal karmic axes of desire and detachment. Those are interpretive significations from horā, not the definition; the definition is orbital geometry.'
 related:
-- /concepts/graha.md
-- /concepts/rashi.md
+- graha.md
+- rashi.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -26,9 +26,9 @@ not:
 - term: a rope-strand or a mode of one substance
   why: '''Guṇa'' literally can mean a strand, and Sāṃkhya exploits that image; Vaiśeṣika does not. A Vaiśeṣika guṇa is not a strand of some deeper stuff nor a Spinozan mode of a single substance, but a distinct real category dependent on, yet ontologically other than, the substance it inheres in.'
 related:
-- /concepts/saptapadartha.md
-- /concepts/dravya.md
-- /concepts/samavaya.md
+- saptapadartha.md
+- dravya.md
+- samavaya.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

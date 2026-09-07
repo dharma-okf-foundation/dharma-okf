@@ -25,10 +25,10 @@ not:
 - term: debate as performance or rhetoric
   why: Vāda is not oratory judged by an audience's applause. It is constrained by epistemic norms, only valid pramāṇas count, and its success condition is a correct conclusion, not a persuaded crowd.
 related:
-- /concepts/jalpa.md
-- /concepts/vitanda.md
-- /concepts/nigrahasthana.md
-- /concepts/pramana.md
+- jalpa.md
+- vitanda.md
+- nigrahasthana.md
+- pramana.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

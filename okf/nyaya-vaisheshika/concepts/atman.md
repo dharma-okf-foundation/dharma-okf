@@ -27,10 +27,10 @@ not:
 - term: a stream or bundle of consciousness
   why: 'This is the Buddhist anātman alternative, no enduring self, only a succession of momentary mental events, which Nyāya explicitly refutes. The ātman is precisely the enduring substance that a bundle-view denies: the one thing that remembers, desires across time, and is reborn.'
 related:
-- /concepts/dravya.md
-- /concepts/pramanya.md
-- /concepts/ishvara.md
-- /concepts/anyatha-khyati.md
+- dravya.md
+- pramanya.md
+- ishvara.md
+- anyatha-khyati.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

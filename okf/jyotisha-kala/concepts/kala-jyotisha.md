@@ -26,10 +26,10 @@ not:
 - term: 'destroyer rhetoric'
   why: 'The Gītā’s kālo’smi and the kāla of doom belong to theology and epic. Quoting them to gloss a treatise’s unit table replaces arithmetic with atmosphere.'
 related:
-- /concepts/ghatika.md
-- /concepts/muhurta.md
-- /concepts/ayana.md
-- /concepts/samvatsara.md
+- ghatika.md
+- muhurta.md
+- ayana.md
+- samvatsara.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

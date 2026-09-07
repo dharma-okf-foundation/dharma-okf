@@ -25,10 +25,10 @@ not:
 - term: a pointless quarrel
   why: 'Jalpa has a recognised protective function in the tradition: a holder of a true view may need it to fend off a clever adversary who is playing to win. It is structured competitive debate, not aimless squabbling.'
 related:
-- /concepts/vada.md
-- /concepts/vitanda.md
-- /concepts/nigrahasthana.md
-- /concepts/hetvabhasa.md
+- vada.md
+- vitanda.md
+- nigrahasthana.md
+- hetvabhasa.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

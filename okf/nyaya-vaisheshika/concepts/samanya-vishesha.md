@@ -25,10 +25,10 @@ not:
 - term: specific difference (the differentia of a species)
   why: Viśeṣa is not the genus-species differentia of logic. It is the ultimate particularity that individuates the eternal simple substances, which have no parts to tell them apart, so that two otherwise identical atoms are still two. It answers 'what makes these numerically distinct?', not 'what kind is this?'
 related:
-- /concepts/saptapadartha.md
-- /concepts/dravya.md
-- /concepts/samavaya.md
-- /concepts/paramanu.md
+- saptapadartha.md
+- dravya.md
+- samavaya.md
+- paramanu.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

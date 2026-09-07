@@ -25,10 +25,10 @@ not:
 - term: 'a life-phase metaphor'
   why: 'Epic and devotional literature give uttarāyaṇa a valence (Bhīṣma waiting for it is the famous case). The calendrical object under the valence is an astronomical half-year, and this file documents that object.'
 related:
-- /concepts/ritu.md
-- /concepts/samvatsara.md
-- /concepts/ayanamsha.md
-- /concepts/kala-jyotisha.md
+- ritu.md
+- samvatsara.md
+- ayanamsha.md
+- kala-jyotisha.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

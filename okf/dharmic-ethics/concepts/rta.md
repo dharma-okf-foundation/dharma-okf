@@ -29,10 +29,10 @@ not:
   - term: "dharma (as identical)"
     why: "ṛta is the older, cosmic-universal order; dharma (dharma-foundation) is its later individualization into the sustaining duty of beings and societies, so dharma flows from ṛta but ṛta is the wider root, not a synonym"
 related:
-  - /concepts/satya.md
-  - /concepts/svadharma.md
-  - /concepts/achara.md
-  - /concepts/nishkama-karma.md
+  - satya.md
+  - svadharma.md
+  - achara.md
+  - nishkama-karma.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

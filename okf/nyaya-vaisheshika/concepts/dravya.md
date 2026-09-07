@@ -25,11 +25,11 @@ not:
 - term: a bare particular with no properties of its own
   why: A dravya is not a propertyless peg. It is the real locus that qualities and motions inhere in, and the atomic dravyas carry their own eternal ultimate particularity (viśeṣa). Substance and its inhering qualities are distinct categories bound by inherence, not a naked substratum plus a bundle.
 related:
-- /concepts/saptapadartha.md
-- /concepts/guna.md
-- /concepts/samavaya.md
-- /concepts/paramanu.md
-- /concepts/atman.md
+- saptapadartha.md
+- guna.md
+- samavaya.md
+- paramanu.md
+- atman.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

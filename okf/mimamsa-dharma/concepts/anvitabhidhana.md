@@ -24,9 +24,9 @@ not:
 - term: 'syntax-first grammar'
   why: 'Again a theory of meaning, of how the connected sense is primary, not an account of grammatical form.'
 related:
-- /concepts/abhihitanvaya.md
-- /concepts/karya.md
-- /concepts/niyoga.md
+- abhihitanvaya.md
+- karya.md
+- niyoga.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

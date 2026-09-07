@@ -26,10 +26,10 @@ not:
 - term: 'a personality type'
   why: 'Birth-star personality readings are a commercial overlay. The classical system dates rituals, names the Moon’s position, and seeds the daśā count; it does not type people.'
 related:
-- /concepts/rashi.md
-- /concepts/tithi.md
-- /concepts/panchanga.md
-- /concepts/ayanamsha.md
+- rashi.md
+- tithi.md
+- panchanga.md
+- ayanamsha.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

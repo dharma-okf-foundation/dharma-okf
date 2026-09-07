@@ -26,9 +26,9 @@ not:
 - term: 'an endorsed predictive method'
   why: 'Documenting the transit frame is not endorsing transit prediction; the corpus takes no position on efficacy.'
 related:
-- /concepts/graha.md
-- /concepts/rashi.md
-- /concepts/dasha.md
+- graha.md
+- rashi.md
+- dasha.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

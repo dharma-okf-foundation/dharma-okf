@@ -26,10 +26,10 @@ not:
   - term: "legal compliance"
     why: "compliance asks whether an act is permitted by law; asteya asks whether anything has been taken that was not given with a free heart, a standard the law cannot reach and does not try to"
 related:
-  - /concepts/ahimsa.md
-  - /concepts/aparigraha.md
-  - /concepts/dana.md
-  - /concepts/satya.md
+  - ahimsa.md
+  - aparigraha.md
+  - dana.md
+  - satya.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -26,10 +26,10 @@ not:
 - term: 'an endorsed predictive method'
   why: 'The corpus documents the genre’s structure and terms. It does not adjudicate whether natal configurations predict lives.'
 related:
-- /concepts/hora.md
-- /concepts/lagna.md
-- /concepts/bhava-jyotisha.md
-- /concepts/dasha.md
+- hora.md
+- lagna.md
+- bhava-jyotisha.md
+- dasha.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -24,9 +24,9 @@ not:
 - term: 'a nominal label (nominalism)'
   why: 'Mīmāṃsā explicitly rejects the Buddhist apoha view that generality is only a name or an exclusion; the universal is a positive real.'
 related:
-- /concepts/sabda-nityata.md
-- /concepts/autpattika.md
-- /concepts/atman.md
+- sabda-nityata.md
+- autpattika.md
+- atman.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

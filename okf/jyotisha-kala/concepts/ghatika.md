@@ -25,8 +25,8 @@ not:
 - term: 'interchangeable with muhurta'
   why: 'Two ghaṭikās make one muhūrta. They are adjacent rungs with different roles: the ghaṭikā is the instrument-grade unit, the muhūrta the electional one.'
 related:
-- /concepts/kala-jyotisha.md
-- /concepts/muhurta.md
+- kala-jyotisha.md
+- muhurta.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

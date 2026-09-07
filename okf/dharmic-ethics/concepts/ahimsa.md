@@ -28,10 +28,10 @@ not:
   - term: "passivity"
     why: "passivity is the failure to act; ahiṃsā is an active, demanding discipline of refusing harm in intention even under provocation, which is harder than inaction, not the same as it"
 related:
-  - /concepts/satya.md
-  - /concepts/asteya.md
-  - /concepts/nishkama-karma.md
-  - /concepts/svadharma.md
+  - satya.md
+  - asteya.md
+  - nishkama-karma.md
+  - svadharma.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -26,9 +26,9 @@ not:
 - term: 'an endorsed predictive method'
   why: 'The corpus documents the architecture, the sequence, spans, and nakṣatra seeding, without adjudicating whether period-based prediction holds.'
 related:
-- /concepts/graha.md
-- /concepts/nakshatra.md
-- /concepts/jataka.md
+- graha.md
+- nakshatra.md
+- jataka.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

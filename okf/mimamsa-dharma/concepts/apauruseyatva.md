@@ -24,10 +24,10 @@ not:
 - term: 'prophecy'
   why: 'Prophecy is a message a person receives from the divine and announces. There is no announcer and no divine message-sender in the Mīmāṃsā account; nothing is being communicated by anyone.'
 related:
-- /concepts/sabda-nityata.md
-- /concepts/autpattika.md
-- /concepts/svatah-pramanya.md
-- /concepts/dharma.md
+- sabda-nityata.md
+- autpattika.md
+- svatah-pramanya.md
+- dharma.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
 license: CC BY-SA 4.0

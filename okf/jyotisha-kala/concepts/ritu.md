@@ -25,9 +25,9 @@ not:
 - term: 'literary ornament only'
   why: 'Kāvya loves the seasons, but the sixfold wheel is load-bearing: Vedic ritual sequences, the almanac, and Āyurvedic seasonal regimen (ṛtucaryā, treated medically in ayurveda-consciousness v0.11) all run on it.'
 related:
-- /concepts/ayana.md
-- /concepts/masa.md
-- /concepts/samvatsara.md
+- ayana.md
+- masa.md
+- samvatsara.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

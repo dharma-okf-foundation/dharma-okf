@@ -25,10 +25,10 @@ not:
 - term: 'a single fixed canon'
   why: 'Varāhamihira’s Pañcasiddhāntikā already compares five rival siddhāntas in the sixth century and ranks their accuracy. Plurality and revision are the genre’s normal condition; “the Siddhānta” in the singular is a modern flattening.'
 related:
-- /concepts/ganita.md
-- /concepts/hora.md
-- /concepts/ayanamsha.md
-- /concepts/graha.md
+- ganita.md
+- hora.md
+- ayanamsha.md
+- graha.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

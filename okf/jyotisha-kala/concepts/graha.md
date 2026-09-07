@@ -25,10 +25,10 @@ not:
 - term: 'astrological energies'
   why: 'New-age idiom renders grahas as energies or vibrations. The classical texts assign them significations and compute their positions; the energy-substance talk is a modern import.'
 related:
-- /concepts/rahu-ketu.md
-- /concepts/rashi.md
-- /concepts/vara.md
-- /concepts/dasha.md
+- rahu-ketu.md
+- rashi.md
+- vara.md
+- dasha.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

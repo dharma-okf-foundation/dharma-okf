@@ -26,12 +26,12 @@ not:
 - term: a catalogue of substances only
   why: Substance (dravya) is just the first of seven. Qualities, motions, universals, ultimate particulars, inherence, and absence are equally real padārthas in their own right. Reducing the scheme to a list of stuffs drops most of the ontology, including the relations and the universals.
 related:
-- /concepts/dravya.md
-- /concepts/guna.md
-- /concepts/karma.md
-- /concepts/samanya-vishesha.md
-- /concepts/samavaya.md
-- /concepts/shodasha-padartha.md
+- dravya.md
+- guna.md
+- karma.md
+- samanya-vishesha.md
+- samavaya.md
+- shodasha-padartha.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

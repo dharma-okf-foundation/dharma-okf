@@ -25,10 +25,10 @@ not:
 - term: 'a whole horoscope'
   why: 'The lagna is one element, the axis. A jātaka chart is the full configuration read from it.'
 related:
-- /concepts/rashi.md
-- /concepts/bhava-jyotisha.md
-- /concepts/hora.md
-- /concepts/jataka.md
+- rashi.md
+- bhava-jyotisha.md
+- hora.md
+- jataka.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

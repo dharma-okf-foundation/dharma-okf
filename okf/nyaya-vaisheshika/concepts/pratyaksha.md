@@ -27,10 +27,10 @@ not:
 - term: perception that is ultimately unreal or sublated
   why: In Advaita, even correct perception is provisional and finally cancelled by non-dual knowledge. Nyāya grants perception standing, veridical, foundational knowledge of a real object; there is no higher cognition that unmasks it as false.
 related:
-- /concepts/pramana.md
-- /concepts/anumana.md
-- /concepts/dravya.md
-- /concepts/pramanya.md
+- pramana.md
+- anumana.md
+- dravya.md
+- pramanya.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

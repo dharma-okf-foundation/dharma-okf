@@ -25,9 +25,9 @@ not:
 - term: 'regionally uniform'
   why: 'Amānta months (ending at new moon) govern the south and west; pūrṇimānta months (ending at full moon) govern the north. The same tithi can sit in differently named months across regions, and calendar software that ignores the split misdates half the country’s observances.'
 related:
-- /concepts/tithi.md
-- /concepts/samvatsara.md
-- /concepts/ritu.md
+- tithi.md
+- samvatsara.md
+- ritu.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

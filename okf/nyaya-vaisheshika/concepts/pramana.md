@@ -27,11 +27,11 @@ not:
 - term: the Advaita pramāṇas that are ultimately sublated
   why: In Advaita the pramāṇas are valid only at the empirical level and are finally set aside in liberating knowledge. In Nyāya they are simply the standing sources of truth about a real, plural world; there is no higher standpoint that cancels them.
 related:
-- /concepts/pratyaksha.md
-- /concepts/anumana.md
-- /concepts/upamana.md
-- /concepts/shabda.md
-- /concepts/pramanya.md
+- pratyaksha.md
+- anumana.md
+- upamana.md
+- shabda.md
+- pramanya.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -26,10 +26,10 @@ not:
 - term: statistical association or high probability
   why: Vyāpti admits no exceptions. A property that usually accompanies another gives only a pseudo-mark (savyabhicāra, the deviating reason); the whole point of the concept is the difference between 'usually' and 'invariably'.
 related:
-- /concepts/anumana.md
-- /concepts/hetu.md
-- /concepts/tarka.md
-- /concepts/hetvabhasa.md
+- anumana.md
+- hetu.md
+- tarka.md
+- hetvabhasa.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
 license: CC BY-SA 4.0

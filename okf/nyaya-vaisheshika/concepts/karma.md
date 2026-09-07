@@ -26,9 +26,9 @@ not:
 - term: energy, force, or momentum (the physics reading)
   why: 'The atomism tempts a modern gloss, but Vaiśeṣika karma is not a conserved quantity or a vector cause. It is a category of being: a real, instantaneous, quality-like occupant of a substance that causes contact and separation. There is no magnitude that is conserved, no force law; motion here is a kind of thing that inheres, not a measure of a thing''s state.'
 related:
-- /concepts/saptapadartha.md
-- /concepts/dravya.md
-- /concepts/guna.md
+- saptapadartha.md
+- dravya.md
+- guna.md
 timestamp: '2026-07-03'
 okf_version: '0.2'
 license: CC BY-SA 4.0
