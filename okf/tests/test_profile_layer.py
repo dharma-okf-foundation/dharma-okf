@@ -45,8 +45,8 @@ EXPECTED_TOTALS = {
     "concepts_without_links": 0,
     "dirs_missing_index": 21,
     "dirs_with_concepts": 26,
-    "related_absolute": 1499,
-    "related_relative": 1,
+    "related_absolute": 0,
+    "related_relative": 1500,
     "escaping_links": 28,
 }
 EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 13, "2b": 0, "3": 0}
@@ -178,14 +178,32 @@ def test_related_parser_reads_unindented_lists(report):
     carrying `related:` write it flush against the margin, and five bundles
     therefore reported zero entries while holding 425 between them. Those five
     are the assertion: if the parser regresses, they go back to zero.
+
+    The entries have since been normalized to the relative form, so the count
+    that proves the parser sees them is now `related_relative`. Both list
+    styles survive the normalization — the rewrite preserved each file's own
+    indentation rather than imposing one.
     """
-    per = {b["bundle"]: b["links"]["related_absolute"] for b in report["bundles"]}
+    per = {b["bundle"]: b["links"]["related_relative"] for b in report["bundles"]}
     formerly_invisible = {
         "ayurveda-consciousness": 97, "jyotisha-kala": 91, "mimamsa-dharma": 79,
         "nyaya-vaisheshika": 110, "sankhya-darshana": 48,
     }
     assert {k: per[k] for k in formerly_invisible} == formerly_invisible
-    assert sum(per.values()) == 1499
+    assert sum(per.values()) == 1500
+
+
+def test_no_absolute_related_entries_remain(report):
+    """Finding C, closed by ruling: normalize rather than amend.
+
+    1,499 of 1,500 entries were bundle-absolute. Nothing traverses `related:`,
+    so this changes no graph — it removes the corpus's second link convention,
+    leaving one form in bodies and the same form in frontmatter.
+    """
+    offenders = {b["bundle"]: b["links"]["related_absolute"]
+                 for b in report["bundles"] if b["links"]["related_absolute"]}
+    assert offenders == {}
+    assert sum(b["links"]["related_relative"] for b in report["bundles"]) == 1500
 
 
 def test_escaping_links_are_reported_but_never_scored(report):
