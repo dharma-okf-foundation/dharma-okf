@@ -4,7 +4,7 @@ In-place change waves on `main`, newest first, per the contract in [VERSIONING.m
 
 ## 2026-09-07 — The normalization wave: Level 2 and Level 2b closed corpus-wide
 
-**Twenty-two commits, 487 distinct files. Level 2 moves 5/13 → 13/13; Level 2b moves 0/13 → 13/13.** Both were closed by mechanical repair, not by re-specification. Level 3 remains 0/13 and is the corpus's open frontier.
+**Twenty-five commits, 502 distinct files, counted through the commit carrying this entry. Level 2 moves 5/13 → 13/13; Level 2b moves 0/13 → 13/13.** Both were closed by mechanical repair, not by re-specification. Level 3 remains 0/13 and is the corpus's open frontier.
 
 ### What changed
 
@@ -37,6 +37,26 @@ Each of the thirteen bundles takes one patch bump for the wave: `dharma-foundati
 
 **§3.1's traversal note was false and has been rewritten.** It asserted that *"every relationship asserted in `related:` is also expressed as a body link."* Measured: **609 of 1,500 are, and 891 are not**, across 251 documents. Five bundles express none of their sibling relationships in bodies. The note now states the split, tells a consumer what a body-only read actually yields, and names the repair as future work rather than implying it has happened.
 
+### The visualizers were rebuilt from a generator that no longer existed
+
+The thirteen `viz.html` files were produced in 2026-07 by code removed with `okf/src/` in Wave 0. Regenerating them meant writing a new generator and proving it produced the *old* bytes before letting it produce new ones.
+
+`okf/tools/okf_viz.py` and `okf/tools/viz_template.html` are that generator. `okf/tests/test_viz_generator.py` is the proof: it pins the **thirteen 2026-07 commits** that produced the original artifacts as full SHAs, and asserts per bundle that regenerating from each of those trees reproduces that commit's `viz.html` byte for byte. The SHAs are pinned rather than resolved as *"the last commit that touched this file"*, because the second form silently becomes a freshness check the moment a regeneration lands. A proof that any future regeneration erases is not a proof.
+
+Three defects in the rebuilt generator were caught by that harness before anything was committed: YAML single-quote unescaping, a body's trailing newline, and node ordering by file path rather than by document id. The third is the reason the harness earns its keep — **`bhakti-marga` is the only bundle in the corpus where the two orders differ**, so twelve bundles would have passed a weaker test.
+
+**Eleven of the thirteen visualizers were then regenerated.** `jyotisha-kala` and `shakta-darshana` were already current: a bundle's `viz.html` embeds document bodies, so only the bundles this wave edited held stale graphs.
+
+### Thirteen namespaced release tags — the forward scheme is in force
+
+`VERSIONING.md` and `PROFILE.md` §7.1 have carried the namespaced `bundle/<name>/vX.Y.Z` scheme as a forward commitment since 2026-08-06. It is now in force. Thirteen tags, one per bundle, were cut at `17fd5da` on 2026-09-07:
+
+`bundle/dharma-foundation/v0.1.4` · `bundle/yoga-darshana/v0.2.2` · `bundle/vedanta-epistemology/v0.3.3` · `bundle/bhakti-marga/v0.4.3` · `bundle/dharmic-ethics/v0.5.3` · `bundle/upanishadic-core/v0.6.2` · `bundle/cosmology-creation/v0.7.3` · `bundle/shakta-darshana/v0.8.2` · `bundle/nyaya-vaisheshika/v0.9.1` · `bundle/mimamsa-dharma/v0.10.1` · `bundle/ayurveda-consciousness/v0.11.1` · `bundle/jyotisha-kala/v0.12.1` · `bundle/sankhya-darshana/v0.13.3`
+
+**The corpus now carries 42 tags resolving to 19 distinct commits.** The 29 legacy tags are untouched and still resolve to their original 18. The thirteen new ones share a single commit, but they share it *by construction* rather than by accident — one wave closed across every bundle at once — and each still names exactly one bundle, which is the whole point of the scheme. `bundle/mimamsa-dharma/v0.10.1` identifies a bundle no matter what else was published at that commit; `v0.10.1` never could.
+
+Each tag's version equals its bundle's `bundle_version`, on the bundle root `index.md` and on every document in it.
+
 ### Corrections to figures published in this log
 
 - **The `2026-09-06` RP-002 entry above states "the corpus's 442 date-only `timestamp:` values."** The corpus holds **430**; 442 is the document count, and twelve documents in `cosmology-creation/references/` already carried ISO datetimes. The entry is left as written — this log records what was believed at each date — and the correction is recorded here.
@@ -49,8 +69,12 @@ The three corpus commits of this wave's second step carry malformed subject line
 ### Not in this wave
 
 - **The 430 date-only timestamps.** Not a conformance obligation under the current base specification, no behavioural effect on this corpus, and the Level 3 trust retrofit writes `generated.at` and `verified.at` into the same frontmatter blocks. Doing both now would open every block twice.
-- **`viz.html` regeneration.** The thirteen visualizers are stale with respect to this wave's 553 repaired links. The generator that produced them was removed with `okf/src/` in Wave 0 and no longer exists in this repository; rebuilding it as a committed tool under `okf/tools/` is scheduled next.
-- **Release tags.** The thirteen namespaced `bundle/<name>/vX.Y.Z` tags are cut once, after the visualizers are rebuilt.
+- **The 891 `related:` entries not mirrored as body links.** Disclosed in `PROFILE.md` §3.1 and scoped to a later wave; see *Two disclosures added* above.
+- **Level 3.** 0 of 13 bundles, and the corpus's next frontier.
+
+### Amended later the same day
+
+This entry was first written at the wave's seventh commit and now describes twenty-five. Two items it listed as *not in this wave* — the `viz.html` regeneration and the release tags — were completed within it and are documented above; the list now carries only what genuinely remains. The headline count moved with them, from twenty-two commits and 487 distinct files to twenty-five and 502.
 
 ---
 

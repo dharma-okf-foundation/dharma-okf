@@ -42,26 +42,28 @@ A `not:` list in a file is a "do not enter" sign on an unlocked door. The model 
 
 ## Bundles — thirteen live, all on canonical OKF v0.2
 
-| Bundle | Release | Concepts | Refs | Theme | Viz |
+| Bundle | `bundle_version` | Concepts | Refs | Theme | Viz |
 |---|---|---|---|---|---|
-| `okf/dharma-foundation/` | v0.1.3 | 25 | 12 | Foundational Sanskrit non-translatable vocabulary | [graph](okf/dharma-foundation/viz.html) |
-| `okf/yoga-darshana/` | v0.2.1 | 26 | 6 | Patañjali's Yoga Sūtra technical lexicon | [graph](okf/yoga-darshana/viz.html) |
-| `okf/vedanta-epistemology/` | v0.3.2 | 27 | 19 | Pramāṇa-śāstra — Vedantic epistemology | [graph](okf/vedanta-epistemology/viz.html) |
-| `okf/bhakti-marga/` | v0.4.2 | 15 | 9 | The vocabulary of the devotional path | [graph](okf/bhakti-marga/viz.html) |
-| `okf/dharmic-ethics/` | v0.5.2 | 15 | 6 | Yama–Niyama and the ethical-social vocabulary of dharma | [graph](okf/dharmic-ethics/viz.html) |
-| `okf/upanishadic-core/` | v0.6.1 | 26 | 16 | Core Upaniṣadic vocabulary across the Vedānta schools — mahāvākyas, Ātman–Brahman, self-knowledge | [graph](okf/upanishadic-core/viz.html) |
-| `okf/cosmology-creation/` | v0.7.2 | 26 | 12 | Vedic & Purāṇic vocabulary of time, cosmos, and manifestation | [graph](okf/cosmology-creation/viz.html) |
-| `okf/shakta-darshana/` | v0.8.1 | 26 | 12 | Śākta-Tāntric metaphysics of Śakti, Devī, and consciousness-power | [graph](okf/shakta-darshana/viz.html) |
-| `okf/nyaya-vaisheshika/` | v0.9.0 | 27 | 10 | The science of inference and debate — Nyāya apparatus + Vaiśeṣika realist ontology | [graph](okf/nyaya-vaisheshika/viz.html) |
-| `okf/mimamsa-dharma/` | v0.10.0 | 25 | 7 | Mīmāṃsā ritual hermeneutics — vidhi, apūrva, and language-as-action | [graph](okf/mimamsa-dharma/viz.html) |
-| `okf/ayurveda-consciousness/` | v0.11.0 | 26 | 8 | Āyurvedic vocabulary of consciousness, constitution, and health | [graph](okf/ayurveda-consciousness/viz.html) |
-| `okf/jyotisha-kala/` | v0.12.0 | 26 | 8 | Jyotiṣa vocabulary of time — pañcāṅga, kāla-reckoning, and the sidereal celestial frame | [graph](okf/jyotisha-kala/viz.html) |
-| `okf/sankhya-darshana/` | v0.13.2 | 20 | 7 | Sāṃkhya's dualist causal theory and discriminative path to kaivalya — completes the six classical darśanas | [graph](okf/sankhya-darshana/viz.html) |
+| `okf/dharma-foundation/` | 0.1.4 | 25 | 12 | Foundational Sanskrit non-translatable vocabulary | [graph](okf/dharma-foundation/viz.html) |
+| `okf/yoga-darshana/` | 0.2.2 | 26 | 6 | Patañjali's Yoga Sūtra technical lexicon | [graph](okf/yoga-darshana/viz.html) |
+| `okf/vedanta-epistemology/` | 0.3.3 | 27 | 19 | Pramāṇa-śāstra — Vedantic epistemology | [graph](okf/vedanta-epistemology/viz.html) |
+| `okf/bhakti-marga/` | 0.4.3 | 15 | 9 | The vocabulary of the devotional path | [graph](okf/bhakti-marga/viz.html) |
+| `okf/dharmic-ethics/` | 0.5.3 | 15 | 6 | Yama–Niyama and the ethical-social vocabulary of dharma | [graph](okf/dharmic-ethics/viz.html) |
+| `okf/upanishadic-core/` | 0.6.2 | 26 | 16 | Core Upaniṣadic vocabulary across the Vedānta schools — mahāvākyas, Ātman–Brahman, self-knowledge | [graph](okf/upanishadic-core/viz.html) |
+| `okf/cosmology-creation/` | 0.7.3 | 26 | 12 | Vedic & Purāṇic vocabulary of time, cosmos, and manifestation | [graph](okf/cosmology-creation/viz.html) |
+| `okf/shakta-darshana/` | 0.8.2 | 26 | 12 | Śākta-Tāntric metaphysics of Śakti, Devī, and consciousness-power | [graph](okf/shakta-darshana/viz.html) |
+| `okf/nyaya-vaisheshika/` | 0.9.1 | 27 | 10 | The science of inference and debate — Nyāya apparatus + Vaiśeṣika realist ontology | [graph](okf/nyaya-vaisheshika/viz.html) |
+| `okf/mimamsa-dharma/` | 0.10.1 | 25 | 7 | Mīmāṃsā ritual hermeneutics — vidhi, apūrva, and language-as-action | [graph](okf/mimamsa-dharma/viz.html) |
+| `okf/ayurveda-consciousness/` | 0.11.1 | 26 | 8 | Āyurvedic vocabulary of consciousness, constitution, and health | [graph](okf/ayurveda-consciousness/viz.html) |
+| `okf/jyotisha-kala/` | 0.12.1 | 26 | 8 | Jyotiṣa vocabulary of time — pañcāṅga, kāla-reckoning, and the sidereal celestial frame | [graph](okf/jyotisha-kala/viz.html) |
+| `okf/sankhya-darshana/` | 0.13.3 | 20 | 7 | Sāṃkhya's dualist causal theory and discriminative path to kaivalya — completes the six classical darśanas | [graph](okf/sankhya-darshana/viz.html) |
 | **Total** | | **310** | **132** | **13 bundles spanning the six āstika darśanas + the devotional, ethical, cosmological, medical, and calendrical corpora** |  |
 
 ## Update contract & documented error genealogies
 
-Two consumption surfaces, both first-class, are declared in [`VERSIONING.md`](VERSIONING.md): **`main` is a living vocabulary** (concept files are enriched in place — sharper `not:` fields, added citations, documented genealogies — with `bundle_version` patch bumps), and **release tags are immutable archival snapshots** (`v0.1.0` … `v0.13.0`; pin a tag or SHA for citation stability). In-place enrichment waves are logged newest-first in [`CHANGELOG.md`](CHANGELOG.md).
+Two consumption surfaces, both first-class, are declared in [`VERSIONING.md`](VERSIONING.md): **`main` is a living vocabulary** (concept files are enriched in place — sharper `not:` fields, added citations, documented genealogies — with `bundle_version` patch bumps), and **release tags are immutable archival snapshots**. In-place enrichment waves are logged newest-first in [`CHANGELOG.md`](CHANGELOG.md).
+
+Each bundle above carries the tag `bundle/<name>/v<bundle_version>` — `okf/yoga-darshana/` at 0.2.2 is [`bundle/yoga-darshana/v0.2.2`](https://github.com/dharma-okf-foundation/dharma-okf/releases/tag/bundle%2Fyoga-darshana%2Fv0.2.2). Twenty-nine older repository-wide `vX.Y.Z` tags remain valid and unchanged. **A tag marks a whole-repository state, not a bundle's files**, and the legacy tags do not even name the bundle they were cut for: several share a commit. Cite the bundle name together with a commit SHA — see [`PROFILE.md`](PROFILE.md) §7.1, which documents this in full.
 
 [`GENEALOGIES.md`](GENEALOGIES.md) — *"Where the Errors Came From"* — documents the histories of the English mistranslations this corpus corrects: not just that a rendering is wrong, but **who introduced it, when, and how it propagated** into today's training data (e.g., karma-as-fate from Blavatsky 1889; yoga-as-posture via Vivekananda → Krishnamacharya → Singleton 2010; māyā-as-illusion via Schopenhauer 1818). A correction with a genealogy is harder to dismiss than one with only an assertion. The admission bar is strict: a named source, a date, and a documented propagation chain, or it is excluded. The affected concept files carry a matching **Error Genealogy** section linking back to the canonical entry.
 

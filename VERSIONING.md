@@ -7,7 +7,7 @@
 This repository deliberately offers two consumption surfaces, and both are first-class:
 
 1. **`main` is a living vocabulary.** Concept files on main are enriched over time: sharper `not:` fields, added citations, documented error genealogies, new cross-bundle warnings. If you want the best current state of the vocabulary, consume main. (This is the Schema.org model: published terms improve in place.)
-2. **Release tags are immutable archival snapshots.** `v0.1.0`, `v0.2.0`, ... mark the repository state at each bundle release. Tags are never moved, deleted, or rewritten after publication. If you need citation stability (academic reference, reproducible pipelines, dataset provenance), pin a tag or a commit SHA.
+2. **Release tags are immutable archival snapshots.** They mark the repository state at a publication event, in two forms: legacy `vX.Y.Z` (through 2026-08-06) and namespaced `bundle/<name>/vX.Y.Z` (from 2026-09-07 — see Tag History below). Tags are never moved, deleted, or rewritten after publication. If you need citation stability (academic reference, reproducible pipelines, dataset provenance), pin a commit SHA; a tag names a state, but only a namespaced tag also names a bundle.
 
 Nothing about in-place enrichment on main affects the meaning of a citation to a tag. That is the whole contract in one sentence.
 
@@ -15,7 +15,7 @@ Nothing about in-place enrichment on main affects the meaning of a citation to a
 
 | Axis | Where | Means |
 |------|-------|-------|
-| **Release tag** | git tags (`v0.8.0`) | A snapshot of the **whole repository** at a publication event, named after the bundle that occasioned it. **It does not isolate one bundle** — see Tag History below |
+| **Release tag** | git tags (`bundle/shakta-darshana/v0.8.2`; legacy `v0.8.0`) | A snapshot of the **whole repository** at a publication event. **No tag isolates one bundle's files**; a namespaced tag names which bundle it was cut for, a legacy tag does not — see Tag History below |
 | **`okf_profile`** | each file's frontmatter (`"dharma-okf/1.0"`) | The Dharma-OKF PROFILE version. See `PROFILE.md` §7 |
 | **`bundle_version`** | each file's frontmatter (`"0.8.0"`) | The bundle revision this document belongs to. **One value per bundle**: every document in a bundle carries the same one, and it matches the bundle's root `index.md`. A patch bump (`0.1.1` → `0.1.2`) signals an in-place enrichment wave over that bundle |
 | **`okf_version`** | each file's frontmatter (`"0.2"`) | The OKF FORMAT specification version. Changes only when the file format itself changes |
@@ -44,7 +44,7 @@ Nothing about in-place enrichment on main affects the meaning of a citation to a
 
 ## Tag History — a disclosed defect, not repaired
 
-Tags mark repository-wide publication events. Where one commit published or enriched several bundles, several tags were applied to that one commit. **29 tags resolve to 18 distinct commits; 16 of the 29 share just 5:**
+Tags mark repository-wide publication events. Where one commit published or enriched several bundles, several tags were applied to that one commit. **The 29 legacy tags resolve to 18 distinct commits; 16 of the 29 share just 5:**
 
 | Commit | Tags |
 |---|---|
@@ -56,7 +56,29 @@ Tags mark repository-wide publication events. Where one commit published or enri
 
 **Why they are not being fixed.** Rule 4 says tags never move. Rewriting sixteen published tags to correct a naming defect would break the only guarantee this contract makes, in order to tidy a cosmetic one. The defect is disclosed instead.
 
-**Forward scheme, from the next release.** Per-bundle tags are namespaced `bundle/<name>/vX.Y.Z`, so a tag names exactly one bundle and cannot collide. Repository-wide milestones keep the bare `vX.Y.Z` form. Legacy tags remain valid citations when paired with a bundle name.
+**Forward scheme — in force from 2026-09-07.** Per-bundle tags are namespaced `bundle/<name>/vX.Y.Z`, so a tag names exactly one bundle and cannot collide. Repository-wide milestones keep the bare `vX.Y.Z` form. Legacy tags stay exactly as they are and remain valid citations when paired with a bundle name.
+
+The scheme's first thirteen tags were cut at `17fd5da` at the close of the 2026-09 normalization wave, one per bundle, each at that bundle's `bundle_version`:
+
+| Bundle | Tag |
+|---|---|
+| `dharma-foundation` | `bundle/dharma-foundation/v0.1.4` |
+| `yoga-darshana` | `bundle/yoga-darshana/v0.2.2` |
+| `vedanta-epistemology` | `bundle/vedanta-epistemology/v0.3.3` |
+| `bhakti-marga` | `bundle/bhakti-marga/v0.4.3` |
+| `dharmic-ethics` | `bundle/dharmic-ethics/v0.5.3` |
+| `upanishadic-core` | `bundle/upanishadic-core/v0.6.2` |
+| `cosmology-creation` | `bundle/cosmology-creation/v0.7.3` |
+| `shakta-darshana` | `bundle/shakta-darshana/v0.8.2` |
+| `nyaya-vaisheshika` | `bundle/nyaya-vaisheshika/v0.9.1` |
+| `mimamsa-dharma` | `bundle/mimamsa-dharma/v0.10.1` |
+| `ayurveda-consciousness` | `bundle/ayurveda-consciousness/v0.11.1` |
+| `jyotisha-kala` | `bundle/jyotisha-kala/v0.12.1` |
+| `sankhya-darshana` | `bundle/sankhya-darshana/v0.13.3` |
+
+**What the new scheme does and does not fix.** These thirteen also share one commit, so the *repository-wide* nature of a tag is unchanged: `git diff bundle/yoga-darshana/v0.2.2 bundle/bhakti-marga/v0.4.3` is still empty, and checking out a namespaced tag still yields the whole corpus, not one bundle. What changes is that the tag name is now unambiguous on its own — `bundle/mimamsa-dharma/v0.10.1` says which bundle it was cut for and at which revision, which `v0.10.1` never did. Scope a diff to a bundle path as above; that guidance is unchanged and still necessary.
+
+**Corpus tag state, 2026-09-07:** 42 tags resolving to 19 distinct commits — 29 legacy across 18, and 13 namespaced at `17fd5da`.
 
 ## Changelog
 

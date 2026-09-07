@@ -282,13 +282,13 @@ Four independent axes. Conflating them has caused real confusion in this project
 | Base format | `okf_version: "0.2"` | The **upstream** specification version this document targets, at the commit pinned above. Not a Dharma-OKF version. |
 | Profile | `okf_profile: "dharma-okf/1.0"` | This profile's version. |
 | Bundle content | `bundle_version` | A bundle's content revision. Patch-bumped on enrichment; see `VERSIONING.md`. |
-| Release | git tag (`v0.13.0`) | An immutable snapshot of the **whole repository** at a publication event, named after the bundle that occasioned it. `main` is the living vocabulary; tags are frozen. **A tag does not isolate one bundle — see §7.1.** |
+| Release | git tag (`bundle/sankhya-darshana/v0.13.3`; legacy `v0.13.0`) | An immutable snapshot of the **whole repository** at a publication event. `main` is the living vocabulary; tags are frozen. **No tag isolates one bundle's files — see §7.1.** |
 
 ### 7.1 What a release tag does and does not identify — disclosed
 
 Earlier revisions of this document described a release tag as a *"per-bundle immutable snapshot."* **Measured against the remote, that is not what the tags are, and the description is withdrawn.**
 
-Tags here mark repository-wide publication events. When one commit published or enriched several bundles at once, several tags were applied to that single commit. **29 tags resolve to 18 distinct commits; 16 of the 29 share just 5 commits:**
+Tags here mark repository-wide publication events. When one commit published or enriched several bundles at once, several tags were applied to that single commit. **The 29 legacy tags resolve to 18 distinct commits; 16 of the 29 share just 5 commits:**
 
 | Commit | Tags |
 |---|---|
@@ -305,7 +305,11 @@ Two consequences a consumer must know:
 
 **These tags are not being repaired.** `VERSIONING.md` rule 4 states that tags never move, and rewriting sixteen published tags to fix a naming defect would break the one guarantee the contract actually makes. The defect is disclosed, the citation guidance is corrected to lead with the commit SHA, and the naming scheme changes going forward.
 
-**Forward scheme, from the next release.** Per-bundle tags are namespaced — `bundle/<name>/vX.Y.Z` — so a tag names exactly one bundle and cannot collide. Repository-wide milestones keep the bare `vX.Y.Z` form. Legacy tags stay exactly as they are and remain valid citations when paired with a bundle name.
+**Forward scheme — in force from 2026-09-07.** Per-bundle tags are namespaced — `bundle/<name>/vX.Y.Z` — so a tag names exactly one bundle and cannot collide. Repository-wide milestones keep the bare `vX.Y.Z` form. Legacy tags stay exactly as they are and remain valid citations when paired with a bundle name.
+
+The scheme's first thirteen tags were cut at `17fd5da` at the close of the 2026-09 normalization wave, one per bundle, each at that bundle's `bundle_version`: `bundle/dharma-foundation/v0.1.4`, `bundle/yoga-darshana/v0.2.2`, `bundle/vedanta-epistemology/v0.3.3`, `bundle/bhakti-marga/v0.4.3`, `bundle/dharmic-ethics/v0.5.3`, `bundle/upanishadic-core/v0.6.2`, `bundle/cosmology-creation/v0.7.3`, `bundle/shakta-darshana/v0.8.2`, `bundle/nyaya-vaisheshika/v0.9.1`, `bundle/mimamsa-dharma/v0.10.1`, `bundle/ayurveda-consciousness/v0.11.1`, `bundle/jyotisha-kala/v0.12.1`, `bundle/sankhya-darshana/v0.13.3`. **The corpus now carries 42 tags resolving to 19 distinct commits.**
+
+**What the scheme fixes, and what it does not.** Consequence 1 above is repaired going forward: a namespaced tag identifies a bundle without help. Consequence 2 is not, and the disclosure stands. These thirteen tags also share a commit — by construction this time, since one wave closed across every bundle at once — so `git diff bundle/yoga-darshana/v0.2.2 bundle/bhakti-marga/v0.4.3` is empty, and checking out any of them yields the whole corpus rather than one bundle. A tag here has never been a per-bundle artifact and still is not. It is now a per-bundle *name* for a repository-wide state.
 
 **How to cite this corpus.** Bundle name **and** commit SHA. The SHA is unambiguous across both schemes; a tag is not. See `VERSIONING.md` §Guidance for Consumers.
 
