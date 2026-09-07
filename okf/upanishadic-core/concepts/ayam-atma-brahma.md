@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: upanishadic-core
-bundle_version: "0.6.1"
+bundle_version: "0.6.2"
 id: ayam-atma-brahma
 title: "Ayam Ātmā Brahma"
 iast: "Ayam Ātmā Brahma"

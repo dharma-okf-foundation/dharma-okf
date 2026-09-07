@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: brahmasutra-bhashya
 title: "Brahmasūtra Bhāṣya"
 description: "Shankara's commentary on the Brahma Sutras; the systematic foundation of Advaita Vedanta."

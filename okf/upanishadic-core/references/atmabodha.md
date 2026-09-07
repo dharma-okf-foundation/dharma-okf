@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: atmabodha
 title: "Ātmabodha"
 description: "Short Advaita primer attributed to Shankara; self-knowledge as the sole means of liberation."

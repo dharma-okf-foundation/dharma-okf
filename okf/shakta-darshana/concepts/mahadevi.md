@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.2"
 id: mahadevi
 title: "Mahādevī — महादेवी"
 iast: "Mahādevī"

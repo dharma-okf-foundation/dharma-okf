@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.1"
+bundle_version: "0.8.2"
 id: tantra
 title: "Tantra — तन्त्र"
 iast: "Tantra"

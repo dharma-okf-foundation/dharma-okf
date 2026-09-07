@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: brhadaranyaka-upanishad
 title: "Bṛhadāraṇyaka Upaniṣad"
 description: "Oldest and largest principal Upanishad (Shukla Yajur Veda); source of aham brahmasmi and neti neti."

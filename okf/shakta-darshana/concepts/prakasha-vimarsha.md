@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.2"
 id: prakasha-vimarsha
 title: "Prakāśa-Vimarśa — प्रकाश-विमर्श"
 iast: "Prakāśa-Vimarśa"

@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: chandogya-upanishad
 title: "Chāndogya Upaniṣad"
 description: "Sama Veda principal Upanishad; source of tat tvam asi in the Uddalaka-Shvetaketu dialogue."

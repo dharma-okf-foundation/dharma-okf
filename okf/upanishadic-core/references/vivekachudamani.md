@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: vivekachudamani
 title: "Vivekacūḍāmaṇi"
 description: "Advaita classic attributed to Shankara; discrimination (viveka) between the real and the unreal."

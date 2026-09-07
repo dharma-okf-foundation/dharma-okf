@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.2"
 id: devi-upanishad
 title: "Devī Upaniṣad — देवी उपनिषद्"
 iast: "Devī Upaniṣad"

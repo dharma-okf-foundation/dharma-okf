@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.2"
 id: devi-bhagavata-purana
 title: "Devī-Bhāgavata Purāṇa — देवीभागवतपुराण"
 iast: "Devī-Bhāgavata Purāṇa"

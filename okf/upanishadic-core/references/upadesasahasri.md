@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: upadesasahasri
 title: "Upadesasāhasrī"
 description: "Shankara's Thousand Teachings; his major authenticated non-commentarial work."

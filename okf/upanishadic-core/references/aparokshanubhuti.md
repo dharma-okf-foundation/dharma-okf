@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: aparokshanubhuti
 title: "Aparokṣānubhūti"
 description: "Advaita manual attributed to Shankara on direct (aparoksha) realization through inquiry."

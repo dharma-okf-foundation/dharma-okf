@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: upanishadic-core
-bundle_version: "0.6.0"
+bundle_version: "0.6.2"
 id: sat-chit-ananda
 title: "Sat-Cit-Ānanda"
 iast: "Sat-Cit-Ānanda"

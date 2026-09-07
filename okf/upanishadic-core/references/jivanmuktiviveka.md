@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: jivanmuktiviveka
 title: "Jīvanmuktiviveka"
 description: "Vidyaranya's treatise on liberation while living (jivanmukti) and the discipline that secures it."

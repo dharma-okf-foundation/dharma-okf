@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: shakta-darshana
-bundle_version: "0.8.1"
+bundle_version: "0.8.2"
 id: shatchakranirupana
 title: "Ṣaṭcakranirūpaṇa — षट्चक्रनिरूपण"
 iast: "Ṣaṭcakranirūpaṇa"

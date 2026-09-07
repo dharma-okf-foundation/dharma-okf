@@ -1,7 +1,7 @@
 ---
 type: BundleIndex
 bundle: upanishadic-core
-bundle_version: "0.6.1"
+bundle_version: "0.6.2"
 release_tag: "v0.6.0"
 release_date: "2026-07-01"
 concept_count: 26

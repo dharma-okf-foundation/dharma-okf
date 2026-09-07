@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: taittiriya-upanishad
 title: "Taittirīya Upaniṣad"
 description: "Krishna Yajur Veda principal Upanishad; source of the pancha-kosha analysis."

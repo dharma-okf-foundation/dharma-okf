@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.2"
 id: devi-mahatmya
 title: "Devī Māhātmya — देवीमाहात्म्य (scoped re-reference)"
 iast: "Devī Māhātmya"

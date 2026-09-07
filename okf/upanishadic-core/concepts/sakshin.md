@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: upanishadic-core
-bundle_version: "0.6.1"
+bundle_version: "0.6.2"
 id: sakshin
 title: "Sākṣin"
 iast: "Sākṣin"

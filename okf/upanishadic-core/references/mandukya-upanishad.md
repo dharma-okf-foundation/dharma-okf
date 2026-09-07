@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: mandukya-upanishad
 title: "Māṇḍūkya Upaniṣad"
 description: "Shortest principal Upanishad; the analysis of Om and the four states, source of ayam atma brahma."

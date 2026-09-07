@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.2"
 id: sri-chakra
 title: "Śrī Cakra — श्रीचक्र"
 iast: "Śrī Cakra"

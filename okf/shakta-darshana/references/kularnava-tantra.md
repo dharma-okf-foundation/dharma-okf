@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.2"
 id: kularnava-tantra
 title: "Kulārṇava Tantra — कुलार्णवतन्त्र (descriptive citation)"
 iast: "Kulārṇava Tantra"

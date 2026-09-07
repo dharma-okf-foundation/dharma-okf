@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: bhagavad-gita
 title: "Bhagavad Gītā"
 description: "Krishna's teaching in the Mahabharata; synthesis of jnana, bhakti, and karma paths."

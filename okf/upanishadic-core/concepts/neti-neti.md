@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: upanishadic-core
-bundle_version: "0.6.1"
+bundle_version: "0.6.2"
 id: neti-neti
 title: "Neti Neti"
 iast: "Neti Neti"

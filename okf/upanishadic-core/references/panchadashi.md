@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: panchadashi
 title: "Pañcadaśī"
 description: "Vidyaranya's fifteen-chapter Advaita compendium; discrimination of the Self across koshas and states."

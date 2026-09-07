@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.1"
+bundle_version: "0.8.2"
 id: vamachara-dakshinachara
 title: "Vāmācāra / Dakṣiṇācāra — वामाचार / दक्षिणाचार"
 iast: "Vāmācāra / Dakṣiṇācāra"

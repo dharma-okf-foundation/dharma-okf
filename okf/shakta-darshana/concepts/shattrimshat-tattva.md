@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.2"
 id: shattrimshat-tattva
 title: "Ṣaṭtriṃśat-Tattva (the 36 Tattvas) — षट्त्रिंशत्तत्त्व"
 iast: "Ṣaṭtriṃśat-Tattva"

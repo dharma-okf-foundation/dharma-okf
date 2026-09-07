@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: upanishadic-core
-bundle_version: "0.6.0"
+bundle_version: "0.6.2"
 id: nirguna-brahman
 title: "Nirguṇa Brahman"
 iast: "Nirguṇa Brahman"

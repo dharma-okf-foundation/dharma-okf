@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.2"
 id: devi-sukta
 title: "Devī Sūkta (Ṛg Veda 10.125) — देवीसूक्त"
 iast: "Devī Sūkta"

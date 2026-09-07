@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.2"
 id: shiva-shakti
 title: "Śiva-Śakti — शिव-शक्ति"
 iast: "Śiva-Śakti"

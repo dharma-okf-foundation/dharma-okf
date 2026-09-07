@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: aitareya-upanishad
 title: "Aitareya Upaniṣad"
 description: "Rigvedic principal Upanishad; source of the mahavakya prajnanam brahma (consciousness is Brahman)."

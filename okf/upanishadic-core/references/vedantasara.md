@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: vedantasara
 title: "Vedāntasāra"
 description: "Sadananda's standard Advaita primer; the adhyaropa-apavada method and the fourfold qualification."

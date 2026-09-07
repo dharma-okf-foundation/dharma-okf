@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.2"
 id: srividya
 title: "Śrī-Vidyā — श्रीविद्या"
 iast: "Śrī-Vidyā"

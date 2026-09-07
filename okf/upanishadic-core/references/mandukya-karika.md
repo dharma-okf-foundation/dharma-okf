@@ -1,6 +1,7 @@
 ---
 type: Reference
 bundle: upanishadic-core
+bundle_version: "0.6.2"
 id: mandukya-karika
 title: "Māṇḍūkya Kārikā (Gauḍapādīya Kārikā)"
 description: "Gaudapada's verse commentary on the Mandukya Upanishad; earliest systematic Advaita text (ajativada)."

@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: upanishadic-core
-bundle_version: "0.6.0"
+bundle_version: "0.6.2"
 id: tat-tvam-asi
 title: "Tat Tvam Asi"
 iast: "Tat Tvam Asi"

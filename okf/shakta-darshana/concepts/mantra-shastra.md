@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: shakta-darshana
-bundle_version: "0.8.0"
+bundle_version: "0.8.2"
 id: mantra-shastra
 title: "Mantra-Śāstra — मन्त्रशास्त्र"
 iast: "Mantra-Śāstra"
