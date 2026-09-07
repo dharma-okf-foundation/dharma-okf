@@ -90,7 +90,7 @@ A list of mappings, each naming a specific mistranslation of the concept.
 | `devanagari` | recommended on `Concept` | Devanāgarī script form. |
 | `bundle` | recommended | The owning bundle. |
 | `bundle_version` | recommended | **The bundle revision this document belongs to — one value per bundle, carried by every document in it.** Uniform from the 2026-09 normalization wave. The field identifies the revision a document is *part of*, not the wave in which it was last edited: that history lives in `CHANGELOG.md` and in git, which record it better than a frontmatter key can. Present on all 442 documents, and identical to the value in the bundle's root `index.md`. Distinct from the base `okf_version` and from the git release tag — see §7. |
-| `related` | recommended | Paths to sibling concepts, **written in the bundle-absolute form** (`/concepts/karma.md`) — 1,074 of 1,075 entries at this revision. This is the form §3.1 requires bodies *not* to use; the inconsistency is real and is disclosed rather than relied upon. It is inert because `related:` is not traversed. **Advisory only** — see the traversal note in §3.1. |
+| `related` | recommended | Paths to sibling concepts, in the **relative form** §3.1 requires of bodies (`../concepts/karma.md`, `karma.md`) — 1,500 entries at this revision, normalized in the 2026-09 wave from a bundle-absolute form the corpus had used since Wave 0. One link convention now holds in bodies and frontmatter alike. **Advisory only, and not equivalent to the body-link graph** — see the traversal note in §3.1. |
 | `reception_note` | optional | How a term is distorted in contemporary reception, where that distortion is a documented historical construction rather than a simple mistranslation. Used in bundles covering commercially or politically captured vocabulary. |
 
 ### 2.4 Reference-document extensions
@@ -148,7 +148,11 @@ A bundle authored exactly as base §6.1 advises therefore renders with no edges 
 
 **Escaping-path note for consumers.** Sixty-two body links in this corpus resolve outside their bundle root: **thirty-six cross-bundle links** expressing school-relativity, where one Sanskrit term is a different technical object in a different darśana, and **twenty-six** pointing at the repository-root `GENEALOGIES.md`. Both are deliberate, and both lie outside what a bundle-scoped resolver is obliged to follow. Upstream's proposed fix for the viewer's link handling ([`open-knowledge-format#14`](https://github.com/GoogleCloudPlatform/open-knowledge-format/issues/14), acceptance criterion 5) rejects paths that escape the bundle root, so a base-conformant consumer may drop every one of them. The profile accepts that: these relationships hold *between* bundles, and a bundle-scoped graph cannot express them by definition. `okf_validate.py --profile` reports the count so this disclosure stays measurable, and never scores it.
 
-**Traversal note for consumers.** The `related:` key (§2.3) is frontmatter and is **not** traversed by link-graph consumers, which read bodies only. Every relationship asserted in `related:` is also expressed as a body link. Consumers building a graph should read bodies; `related:` is a convenience for readers and profile-aware tools.
+**Traversal note for consumers.** The `related:` key (§2.3) is frontmatter and is **not** traversed by link-graph consumers, which read bodies only. **The two views are not equivalent, and this revision stops claiming they are.** Measured at this revision: of 1,500 `related:` entries, **609 are also expressed as a body link and 891 are not**, across 251 documents. The gap is uneven. Five bundles — `ayurveda-consciousness`, `jyotisha-kala`, `mimamsa-dharma`, `nyaya-vaisheshika` and `upanishadic-core` — express **none** of their sibling relationships as body links; `dharmic-ethics` expresses all sixty of its own.
+
+**What that means in practice.** A consumer reading bodies alone sees a real but partial relationship graph. **179 of 310 `Concept` documents carry no concept-to-concept body link at all**, and satisfy the Level 2 presence floor (§5) on citations into `references/` instead. The remaining sibling relationships live only in `related:`. A consumer wanting the corpus's full asserted relationship graph must read both keys; one reading bodies only gets every relationship the graph can currently prove, and should not take it for the whole set.
+
+**Disclosed, not resolved.** Promoting the 891 into document bodies would make the two views agree, and is the obvious repair; it is scoped for a later wave rather than claimed here as done. The previous revision of this note asserted that every `related:` relationship was also a body link. That was never measured, and it is false.
 
 ### 3.2 A `references/` sub-bundle is required
 
@@ -168,7 +172,7 @@ Base §8 says an `index.md` **MAY** appear in any directory. This profile requir
 
 The reason is the corpus's primary consumer. An agent traversing a bundle one level at a time cannot see what a directory holds without an index; it must either load every file or guess. For a 442-document corpus intended for context-window-bounded consumption, progressive disclosure is not a nicety.
 
-**Measured state at this revision (machine-checked, §8): 18 of 39 directories carry an `index.md`; 21 do not.** Every `concepts/` directory in all thirteen bundles is missing one, as are the `references/` directories in the eight bundles from `upanishadic-core` forward. The five earliest bundles carry `references/index.md` but not `concepts/index.md`.
+**Measured state at this revision (machine-checked, §8): 39 of 39 directories carry an `index.md`.** The 2026-09 wave added the 21 that were missing — every `concepts/` directory in all thirteen bundles, and the `references/` directories in the eight bundles from `upanishadic-core` forward. Their 390 entries are generated from each document's own `title:` and `description:`, grouped and ordered as in the bundle root index.
 
 Bundle-root `index.md` files exist in all thirteen bundles and enumerate their concepts, so the corpus is navigable — but only from the root, in one hop, with no intermediate listing. Scheduled with the normalization work in §5.
 
@@ -208,25 +212,25 @@ Conformance is stated as levels, each independently checkable, with the corpus's
 |---|---|---|
 | **0 — Base** | Satisfies base §11 (parseable frontmatter, non-empty `type`, §8/§9 reserved files) | **13 / 13** |
 | **1 — Profile core** | Every `Concept` carries `not:` and `darshana:`; a `references/` sub-bundle is present (§2.1, §2.2, §3.2) | **13 / 13** |
-| **2 — Graph interoperable** | **(a) form** — body links use the relative form only (§3.1) · **(b) presence** — every `Concept` carries ≥1 resolvable body link · **(c) integrity** — zero bracket-only or bare-path citation forms | **5 / 13** |
-| **2b — Progressive disclosure** | Every directory holding concepts carries a base §8 `index.md` (§3.4) | **0 / 13** |
+| **2 — Graph interoperable** | **(a) form** — body links use the relative form only (§3.1) · **(b) presence** — every `Concept` carries ≥1 resolvable body link · **(c) integrity** — zero bracket-only or bare-path citation forms | **13 / 13** |
+| **2b — Progressive disclosure** | Every directory holding concepts carries a base §8 `index.md` (§3.4) | **13 / 13** |
 | **3 — Trust and provenance** | `generated:`, `verified: { by: human:… }`, `sources:` with footnote attribution, and `okf_profile:` present on every document (§2.5, §3.3) | **0 / 13** |
 
 **Level 2 re-specified 2026-09-06 — the presence floor.** The rule previously tested link *form* alone. It therefore awarded Level 2 to bundles that had **no links to get wrong**, and withheld it from the bundle with the largest relationship graph. Two of the eight bundles then scored conformant — `upanishadic-core` and `cosmology-creation` — contribute **no graph edges whatsoever**. A rule that rewards absence over a fixable defect is measuring the wrong thing, and clause (b) is the correction: it is the same logic as the Level 3 pilot gate (*edge count ≥ 90% of resolvable body links*), applied one level down where it belongs.
 
-**Level 2 gap (8 bundles), by failure mode:**
+**Level 2 closed by the 2026-09 normalization wave, all three clauses.** What was repaired:
 
-| Failure | Bundles | Measured |
+| Failure | Was | Now |
 |---|---|---|
-| **(a) form** — bundle-absolute body links | `dharma-foundation` 136 · `vedanta-epistemology` 89 · `yoga-darshana` 84 · `bhakti-marga` 46 · `dharmic-ethics` 45 | **400 links** |
-| **(b) presence** — `Concept` documents with no resolvable body link | `upanishadic-core` 26 · `cosmology-creation` 23 · `sankhya-darshana` 1 | **50 concepts** |
-| **(c) integrity** — citation forms that render as literal text and produce no edge | `upanishadic-core` 97 bracket-only + 1 bare-path · `cosmology-creation` 55 bare-path | **153 forms** |
+| **(a) form** — bundle-absolute body links | **400** across `dharma-foundation` 136 · `vedanta-epistemology` 89 · `yoga-darshana` 84 · `bhakti-marga` 46 · `dharmic-ethics` 45 | **0** |
+| **(b) presence** — `Concept` documents with no resolvable body link | **50** — `upanishadic-core` 26 · `cosmology-creation` 23 · `sankhya-darshana` 1 | **0** |
+| **(c) integrity** — citation forms that render as literal text and produce no edge | **153** — `upanishadic-core` 97 bracket-only + 1 bare-path · `cosmology-creation` 55 bare-path | **0** |
 
-**Conformant at Level 2:** `ayurveda-consciousness`, `jyotisha-kala`, `mimamsa-dharma`, `nyaya-vaisheshika`, `shakta-darshana`.
+The (b) and (c) gaps were one defect wearing two spellings: **a citation written `see [references/x.md]` or `see references/x.md` is not a link at all**, so §2.5's graph edges were never created. Repairing the citation form created the links, which closed the presence floor for 49 of the 50; the last, `sankhya-darshana/concepts/sesvara-samkhya.md`, had no citation to convert and was written by hand.
 
-The (a) gap is confined to the five bundles predating the convention change at `upanishadic-core`. The (b) and (c) gaps are a different and previously undisclosed defect: **a citation written `see [references/x.md]` or `see references/x.md` is not a link at all**, so §2.5's graph edges were never created. All three are mechanical and scheduled together in the normalization wave.
+> **What clause (b) does and does not certify.** The presence floor asks for **≥1 resolvable body link**, and a citation into `references/` satisfies it. It is therefore not a guarantee of a concept-to-concept graph: **179 of 310 `Concept` documents carry no concept-to-concept body link**, and pass on citations. See the traversal note in §3.1 for the measured split and what a body-only consumer should expect.
 
-**Level 2b gap (13 bundles, 21 directories).** No bundle is yet complete. The two gaps are inversely distributed — the five oldest bundles have `references/index.md` but absolute links; the eight newest have relative links but no sub-directory indexes. Both are mechanical and are scheduled together in the normalization wave, since they touch the same five-versus-eight split from opposite directions.
+**Level 2b closed in the same wave.** The 21 missing `index.md` files were added, taking directory coverage from 18 of 39 to **39 of 39** (§3.4).
 
 **Level 3 gap (all 13).** The trust and provenance families are adopted by this profile revision and applied bundle-by-bundle on the publication cadence, beginning with a single pilot bundle gated on a rendering and round-trip acceptance test. Until a bundle reaches Level 3, its documents carry the legacy `timestamp` key, which base §13.1 permits consumers to fall back to.
 

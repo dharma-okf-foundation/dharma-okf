@@ -79,13 +79,13 @@ if "://" in target or target.startswith("/"):
     continue
 ```
 
-Absolute links produce **no graph edge**. Eight of thirteen bundles are already clean; five legacy bundles carry 400 absolute links pending normalization. Author relative. If you see absolute links in a file you are editing for another reason, leave them — normalization is a scheduled wave with its own validation, not a drive-by fix.
+Absolute links produce **no graph edge**. The corpus carries **none**: the 2026-09 normalization wave converted the last 400, and `related:` frontmatter was normalized to the same relative form. Author relative. An absolute link appearing in a new file is a defect, not a legacy artifact.
 
 ---
 
 ## ⚠️ Index files
 
-Every directory holding concepts needs an `index.md` in base §8 form — **no frontmatter**, sections of `* [Title](file) - description.` bullets. Currently 18 of 39 directories have one; all 13 `concepts/` directories are missing theirs.
+Every directory holding concepts needs an `index.md` in base §8 form — **no frontmatter**, sections of `* [Title](file) - description.` bullets. **All 39 of 39 directories have one** since the 2026-09 wave. A new directory holding concepts needs one at creation.
 
 The **bundle-root** `index.md` is the sole exception permitted to carry frontmatter. Do not add frontmatter to any other index.
 

@@ -2,6 +2,58 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
+## 2026-09-07 — The normalization wave: Level 2 and Level 2b closed corpus-wide
+
+**Twenty-two commits, 487 distinct files. Level 2 moves 5/13 → 13/13; Level 2b moves 0/13 → 13/13.** Both were closed by mechanical repair, not by re-specification. Level 3 remains 0/13 and is the corpus's open frontier.
+
+### What changed
+
+| | |
+|---|---|
+| Bundle-absolute body links converted to the relative form §3.1 requires | **400** → 0 |
+| Bracket-only pseudo-links `see [references/x.md]` converted to real links | **97** → 0 |
+| Bare-path citations `see references/x.md` converted to real links | **56** → 0 |
+| `Concept` documents with no resolvable body link | **50** → 0 |
+| `related:` entries normalized from bundle-absolute to relative | **1,499** |
+| Directories carrying an `index.md` | 18 of 39 → **39 of 39** |
+| Cross-bundle links expressing school-relativity | **2** → **36** |
+| Documents carrying a `bundle_version` | 349 of 442 → **442 of 442** |
+
+**One link convention now holds across the corpus**, in document bodies and in `related:` frontmatter alike. Every citation that previously rendered as literal text is a link. Every directory a consumer can walk into announces what it holds.
+
+### The claim that was finally made true
+
+`README.md` has stated since Wave 0 that shared terms carry *"a `school_scope:` field, an index contrast note, and reciprocal cross-links."* The first two held. The third did not: the corpus contained **two** cross-bundle body links in 442 documents, so no link-graph consumer could see that `karma` names four different technical objects across `dharma-foundation`, `nyaya-vaisheshika`, `mimamsa-dharma` and `ayurveda-consciousness`. The 2026-08-06 audit called this its sharpest finding. `karma`, `guṇa` and `kaivalya` are now fully meshed — 34 new links across 11 documents — and school-relativity is machine-visible for the first time.
+
+### The versioning contract changed
+
+`bundle_version` was defined as *"the bundle revision current when that document was last edited"* — a per-document edit marker. A bundle therefore carried two or three values at once, and 93 documents carried none. **It is now an identifier: one value per bundle, on every document in it, matching the bundle root `index.md`.** `VERSIONING.md` rule 2 and the Version Axes table are amended, `PROFILE.md` §2.3 with them. The root indexes are also unified on the `bundle_version:` key; six had used `version:`.
+
+Each of the thirteen bundles takes one patch bump for the wave: `dharma-foundation` 0.1.4, `yoga-darshana` 0.2.2, `vedanta-epistemology` 0.3.3, `bhakti-marga` 0.4.3, `dharmic-ethics` 0.5.3, `upanishadic-core` 0.6.2, `cosmology-creation` 0.7.3, `shakta-darshana` 0.8.2, `nyaya-vaisheshika` 0.9.1, `mimamsa-dharma` 0.10.1, `ayurveda-consciousness` 0.11.1, `jyotisha-kala` 0.12.1, `sankhya-darshana` 0.13.3.
+
+### Two disclosures added, one false sentence removed
+
+**§3.1 gains an escaping-path note.** Sixty-two body links resolve outside their bundle root — 36 cross-bundle, 26 to the repository-root `GENEALOGIES.md`. Upstream's proposed viewer fix ([`open-knowledge-format#14`](https://github.com/GoogleCloudPlatform/open-knowledge-format/issues/14), acceptance criterion 5) rejects escaping paths, so a base-conformant consumer may drop all of them. The profile accepts that and now says so; `okf_validate.py --profile` reports the count.
+
+**§3.1's traversal note was false and has been rewritten.** It asserted that *"every relationship asserted in `related:` is also expressed as a body link."* Measured: **609 of 1,500 are, and 891 are not**, across 251 documents. Five bundles express none of their sibling relationships in bodies. The note now states the split, tells a consumer what a body-only read actually yields, and names the repair as future work rather than implying it has happened.
+
+### Corrections to figures published in this log
+
+- **The `2026-09-06` RP-002 entry above states "the corpus's 442 date-only `timestamp:` values."** The corpus holds **430**; 442 is the document count, and twelve documents in `cosmology-creation/references/` already carried ISO datetimes. The entry is left as written — this log records what was believed at each date — and the correction is recorded here.
+- **The `2026-08-06` entry states that `related:` was "1,074 of 1,075 entries" in the bundle-absolute form.** The true figure was **1,499 of 1,500**. The checker's `related:` parser required an indented YAML list item; 124 of the 322 files carrying the key write it flush against the margin, so five bundles reported zero while holding 425 between them. The parser was corrected before the normalize-or-amend decision was taken, which is the only reason that decision was taken against a true number.
+
+### Process note
+
+The three corpus commits of this wave's second step carry malformed subject lines: the commit message was rendered in two places in the upload instructions, and the copy taken included its markdown code fence. The content is correct and verified by hash; only the labels are affected. They are not being rewritten — published history stands — and the working rule is now that any text to be pasted exists in exactly one file.
+
+### Not in this wave
+
+- **The 430 date-only timestamps.** Not a conformance obligation under the current base specification, no behavioural effect on this corpus, and the Level 3 trust retrofit writes `generated.at` and `verified.at` into the same frontmatter blocks. Doing both now would open every block twice.
+- **`viz.html` regeneration.** The thirteen visualizers are stale with respect to this wave's 553 repaired links. The generator that produced them was removed with `okf/src/` in Wave 0 and no longer exists in this repository; rebuilding it as a committed tool under `okf/tools/` is scheduled next.
+- **Release tags.** The thirteen namespaced `bundle/<name>/vX.Y.Z` tags are cut once, after the visualizers are rebuilt.
+
+---
+
 ## 2026-09-06 — Base specification re-pinned to its new home (docs wave · RP-002)
 
 No concept document touched; no release tag.
