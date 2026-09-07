@@ -26,9 +26,9 @@ not:
 - term: 'vague qualities'
   why: 'The twenty are a closed, paired, technical list (Charaka Sūtrasthāna 25.36), operated through the like-increases-like principle. Treating them as loose adjectives dissolves the predictive machinery.'
 related:
-- /concepts/rasa.md
-- /concepts/dosha.md
-- /concepts/agni.md
+- rasa.md
+- dosha.md
+- agni.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

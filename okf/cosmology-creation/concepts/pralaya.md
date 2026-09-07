@@ -22,12 +22,12 @@ not:
   - term: "one single event (Doomsday model)"
     why: "The Purāṇic framework posits four different Pralayas operating at four different scales. Treating Pralaya as a singular apocalyptic event imposes the Abrahamic Judgment / Doomsday framework. In Purāṇic cosmology, Pralayas are as recurring and structural as Sṛṣṭis."
 related:
-  - /concepts/samhara.md
-  - /concepts/srishti.md
-  - /concepts/kalpa.md
-  - /concepts/kala.md
-  - /concepts/avyakta.md
-  - /concepts/trimurti.md
+  - samhara.md
+  - srishti.md
+  - kalpa.md
+  - kala.md
+  - avyakta.md
+  - trimurti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -23,11 +23,11 @@ not:
   - term: "the same concept as the yoga-darshana v0.4 treatment"
     why: "Cross-bundle warning: yoga-darshana v0.4 treats the Guṇas primarily in their epistemological and psychological dimension (how they affect consciousness, how yoga practice shifts Guṇa dominance, how Sattva supports meditation). v0.7 treats them in their cosmological dimension (how they constitute Avyakta, how their imbalance initiates Sṛṣṭi, how they map to the Trimūrti and the Yuga cycle). Both treatments are valid; they are the same concept at different levels of analysis."
 related:
-  - /concepts/avyakta.md
-  - /concepts/srishti.md
-  - /concepts/trimurti.md
-  - /concepts/yuga.md
-  - /concepts/panchamahabhuta-cosmological.md
+  - avyakta.md
+  - srishti.md
+  - trimurti.md
+  - yuga.md
+  - panchamahabhuta-cosmological.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

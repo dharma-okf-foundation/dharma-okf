@@ -24,14 +24,14 @@ not:
   - term: "A mistake"
     why: "Māyā is purposeful, not an error; it impels activity and ultimately brings bound jīvas home."
 related:
-  - /concepts/brahman.md
-  - /concepts/atman.md
-  - /concepts/jiva.md
-  - /concepts/prakriti.md
-  - /concepts/karma.md
-  - /concepts/moksha.md
-  - /concepts/ahankara.md
-  - /concepts/samsara.md
+  - brahman.md
+  - atman.md
+  - jiva.md
+  - prakriti.md
+  - karma.md
+  - moksha.md
+  - ahankara.md
+  - samsara.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

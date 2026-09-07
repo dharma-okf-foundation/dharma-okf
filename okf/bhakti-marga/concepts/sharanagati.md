@@ -31,10 +31,10 @@ not:
   - term: "blind obedience"
     why: "obedience is conformity to commands; śaraṇāgati is the gift of the whole self to one trusted to care for it, a relationship of love and refuge, not a posture of command-following"
 related:
-  - /concepts/bhakti.md
-  - /concepts/prema.md
-  - /concepts/shraddha.md
-  - /concepts/guru.md
+  - bhakti.md
+  - prema.md
+  - shraddha.md
+  - guru.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

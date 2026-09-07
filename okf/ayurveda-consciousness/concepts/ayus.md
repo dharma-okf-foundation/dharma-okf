@@ -25,10 +25,10 @@ not:
 - term: 'a longevity project'
   why: 'Longevity marketing optimizes the number. The classical frame asks what the extended time is a union OF, and grades life as hita or ahita, sukha or duḥkha: beneficial or harmful, happy or unhappy, an evaluative richness the number cannot carry.'
 related:
-- /concepts/svastha.md
-- /concepts/manas.md
-- /concepts/prakriti.md
-- /concepts/prana-tejas-ojas.md
+- svastha.md
+- manas.md
+- prakriti.md
+- prana-tejas-ojas.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

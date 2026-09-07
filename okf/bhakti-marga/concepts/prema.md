@@ -32,10 +32,10 @@ not:
   - term: "devotion (as mere intensity)"
     why: "prema is not just very strong devotion; it is devotion that has changed in kind, in which all self-interest has dissolved and the devotee exists for the Beloved alone; quantity of feeling is not the measure"
 related:
-  - /concepts/bhakti.md
-  - /concepts/bhava.md
-  - /concepts/sharanagati.md
-  - /concepts/kirtana.md
+  - bhakti.md
+  - bhava.md
+  - sharanagati.md
+  - kirtana.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

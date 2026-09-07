@@ -25,10 +25,10 @@ not:
 - term: 'moral vices'
   why: 'Reading rajas and tamas as sins moralizes a medical category. The frame is etiological: these are treatable derangements addressed by sattvāvajaya and conduct, not judgments of character.'
 related:
-- /concepts/manas.md
-- /concepts/prajnaparadha.md
-- /concepts/sattvavajaya.md
-- /concepts/dosha.md
+- manas.md
+- prajnaparadha.md
+- sattvavajaya.md
+- dosha.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

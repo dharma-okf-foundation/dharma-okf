@@ -21,10 +21,10 @@ not:
   - term: "Verbal testimony (reductive)"
     why: "Western testimony depends on human credibility; Śabda as pramāṇa is the apauruṣeya (authorless) testimony of the Vedas."
 related:
-  - /concepts/om.md
-  - /concepts/mantra.md
-  - /concepts/akshara.md
-  - /concepts/brahman.md
+  - om.md
+  - mantra.md
+  - akshara.md
+  - brahman.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

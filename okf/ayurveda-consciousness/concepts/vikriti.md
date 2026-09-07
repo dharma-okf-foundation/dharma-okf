@@ -24,9 +24,9 @@ not:
 - term: 'a permanent condition'
   why: 'Vikṛti is by definition what treatment changes. Freezing it into an identity (I am a vāta imbalance person) converts a correctable displacement into a life sentence the theory never issued.'
 related:
-- /concepts/prakriti.md
-- /concepts/dosha.md
-- /concepts/svastha.md
+- prakriti.md
+- dosha.md
+- svastha.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -24,11 +24,11 @@ not:
 - term: 'a personality category'
   why: 'Doṣa language does describe tendencies, but reading vāta, pitta, kapha as a personality typology strips the physiological theory and reduces a medical system to a horoscope register.'
 related:
-- /concepts/vata.md
-- /concepts/pitta.md
-- /concepts/kapha.md
-- /concepts/prakriti.md
-- /concepts/vikriti.md
+- vata.md
+- pitta.md
+- kapha.md
+- prakriti.md
+- vikriti.md
 reception_note: 'High commercial capture. The term circulates through quiz funnels and product marketing as a static consumer identity. Quote-out-of-context risk is high; the file describes the principle and makes no clinical claims.'
 timestamp: '2026-07-09'
 okf_version: '0.2'

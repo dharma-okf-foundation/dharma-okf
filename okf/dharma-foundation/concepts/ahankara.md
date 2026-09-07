@@ -20,11 +20,11 @@ not:
   - term: "Narcissism"
     why: "A pathology; Ahankāra is a universal faculty every sentient being is born with, not a disorder."
 related:
-  - /concepts/manas.md
-  - /concepts/buddhi.md
-  - /concepts/chitta.md
-  - /concepts/atman.md
-  - /concepts/maya.md
+  - manas.md
+  - buddhi.md
+  - chitta.md
+  - atman.md
+  - maya.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

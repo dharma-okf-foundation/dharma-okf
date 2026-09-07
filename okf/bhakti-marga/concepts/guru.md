@@ -32,12 +32,12 @@ not:
   - term: "guru (pop-culture sense)"
     why: "the borrowed English 'guru' means a trendy expert or thought-leader; the Sanskrit term names a realized spiritual preceptor in a transmission lineage, a sacred relationship, not a label for any authority on a topic"
 related:
-  - /concepts/shishya.md
-  - /concepts/guru-shishya-parampara.md
-  - /concepts/diksha.md
-  - /concepts/shraddha.md
-  - /concepts/seva.md
-  - /concepts/sharanagati.md
+  - shishya.md
+  - guru-shishya-parampara.md
+  - diksha.md
+  - shraddha.md
+  - seva.md
+  - sharanagati.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

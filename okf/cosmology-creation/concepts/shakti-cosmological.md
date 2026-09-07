@@ -23,11 +23,11 @@ not:
   - term: "separate from Brahman / the supreme"
     why: "In all traditions: Śakti is not separate from the divine but is the divine's own dynamic nature. Brahman without Śakti is Nirguṇa Brahman (potential without expression); Brahman with Śakti is Saguṇa Brahman/Īśvara (the active creative lord). Śiva without Śakti is described as 'a corpse' (śava) in Tantric texts -- unable to act or manifest. The inseparability of Śiva and Śakti (or Brahman and its Śakti) is a foundational principle."
 related:
-  - /concepts/maya-cosmological.md
-  - /concepts/ishvara-cosmological.md
-  - /concepts/iccha-jnana-kriya-shakti.md
-  - /concepts/srishti.md
-  - /concepts/trimurti.md
+  - maya-cosmological.md
+  - ishvara-cosmological.md
+  - iccha-jnana-kriya-shakti.md
+  - srishti.md
+  - trimurti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

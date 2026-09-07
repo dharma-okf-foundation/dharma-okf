@@ -21,11 +21,11 @@ not:
   - term: "equivalent to Virāṭ"
     why: "Brahmāṇḍa is the structural container (the egg-shell, with the 14 Lokas as its layers); Virāṭ is the gross-cosmic totality experienced as a conscious body. They overlap but emphasize different aspects: Brahmāṇḍa is architectural; Virāṭ is experiential. See virat.md."
 related:
-  - /concepts/sapta-loka.md
-  - /concepts/virat.md
-  - /concepts/hiranyagarbha.md
-  - /concepts/srishti.md
-  - /concepts/kalpa.md
+  - sapta-loka.md
+  - virat.md
+  - hiranyagarbha.md
+  - srishti.md
+  - kalpa.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

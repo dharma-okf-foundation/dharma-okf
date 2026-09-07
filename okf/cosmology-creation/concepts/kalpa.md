@@ -22,10 +22,10 @@ not:
   - term: "the universe's lifespan"
     why: "A Kalpa is the lifespan of the present Brahmā's day, not of the universe or of Brahman. At the end of a Kalpa, a Naimittika Pralaya occurs but Brahmā continues. Multiple Kalpas constitute Brahmā's lifespan. The universe in the fullest sense dissolves only at Mahā Pralaya (end of Brahmā's lifespan). See pralaya.md."
 related:
-  - /concepts/mahayuga.md
-  - /concepts/manvantara.md
-  - /concepts/pralaya.md
-  - /concepts/brahma-the-creator.md
+  - mahayuga.md
+  - manvantara.md
+  - pralaya.md
+  - brahma-the-creator.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

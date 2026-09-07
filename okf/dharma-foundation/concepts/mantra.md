@@ -26,11 +26,11 @@ not:
   - term: "Affirmation"
     why: "A self-talk statement working through conscious meaning; a Mantra works below conceptual meaning through sound itself."
 related:
-  - /concepts/om.md
-  - /concepts/shabda.md
-  - /concepts/akshara.md
-  - /concepts/prana.md
-  - /concepts/yoga.md
+  - om.md
+  - shabda.md
+  - akshara.md
+  - prana.md
+  - yoga.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

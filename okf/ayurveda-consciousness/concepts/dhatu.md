@@ -24,10 +24,10 @@ not:
 - term: 'the chakra system'
   why: 'Chakras belong to yogic and tantric subtle physiology (treated in dharma-foundation v0.1 and shakta-darshana v0.8). Dhātus are the flesh-and-bone tissue series of medicine; the two vocabularies answer different questions.'
 related:
-- /concepts/agni.md
-- /concepts/ojas.md
-- /concepts/rasa.md
-- /concepts/srotas.md
+- agni.md
+- ojas.md
+- rasa.md
+- srotas.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

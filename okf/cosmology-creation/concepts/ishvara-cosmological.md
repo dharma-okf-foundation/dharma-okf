@@ -23,11 +23,11 @@ not:
   - term: "Antaryāmin (Inner Controller) -- the same as Īśvara"
     why: "Antaryāmin (the inner controller, BṛU 3.7) is a closely related concept but names Brahman/Īśvara's presence within every being as the inner witness and controller. Īśvara is the macro-cosmic lord; Antaryāmin is the micro-cosmic inner controller in every individual. They are two dimensions of the same principle at different scales."
 related:
-  - /concepts/trimurti.md
-  - /concepts/srishti.md
-  - /concepts/avatara.md
-  - /concepts/brahma-the-creator.md
-  - /concepts/maya-cosmological.md
+  - trimurti.md
+  - srishti.md
+  - avatara.md
+  - brahma-the-creator.md
+  - maya-cosmological.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

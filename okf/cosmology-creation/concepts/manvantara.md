@@ -21,10 +21,10 @@ not:
   - term: "Manu-Smṛti's Manu = the cosmic Manu"
     why: "The Manu-Smṛti (Manu's law-code) presents its teachings as from Svāyambhuva Manu (the first), but the text is a Dharmaśāstra composed in the 2nd century BCE to 3rd century CE. The cosmological Manus (progenitors of each Manvantara) and the jurisprudential Manu are the same mythological figure but the texts attributed to them are distinct compositions."
 related:
-  - /concepts/kalpa.md
-  - /concepts/mahayuga.md
-  - /concepts/brahma-the-creator.md
-  - /concepts/avatara.md
+  - kalpa.md
+  - mahayuga.md
+  - brahma-the-creator.md
+  - avatara.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

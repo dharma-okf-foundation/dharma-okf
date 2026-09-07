@@ -24,11 +24,11 @@ not:
   - term: "the same as the bhakti-marga relational Līlā (Kṛṣṇa's Vṛndāvana play)"
     why: "Cross-bundle warning (bhakti-marga v0.5). The cosmological Līlā asks: why does Brahman create the cosmos at all? The relational Līlā of bhakti-marga asks: what is the nature of Kṛṣṇa's intimate relationship with his devotees in Vṛndāvana? The first is metaphysics; the second is theology of devotional relationship. The Vṛndāvana Līlā is one specific expression of the cosmological principle, but the cosmological principle cannot be reduced to the devotional expression. v0.7 treats the philosophical ground; v0.5 treats the theological fruit."
 related:
-  - /concepts/srishti.md
-  - /concepts/brahma-the-creator.md
-  - /concepts/ishvara-cosmological.md
-  - /concepts/maya-cosmological.md
-  - /concepts/shakti-cosmological.md
+  - srishti.md
+  - brahma-the-creator.md
+  - ishvara-cosmological.md
+  - maya-cosmological.md
+  - shakti-cosmological.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -24,9 +24,9 @@ not:
 - term: 'a nervous personality type'
   why: 'Pop-Āyurveda sells vāta as an anxious creative type. The classical referent is physiological: five functional subdivisions (prāṇa, udāna, vyāna, samāna, apāna vāyu) governing breath, speech, circulation, digestion-propulsion, and elimination.'
 related:
-- /concepts/dosha.md
-- /concepts/prana-tejas-ojas.md
-- /concepts/srotas.md
+- dosha.md
+- prana-tejas-ojas.md
+- srotas.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

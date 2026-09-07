@@ -19,11 +19,11 @@ not:
   - term: "Heart (metaphorical)"
     why: "Romantic-Western shorthand; Manas is a technical faculty (the eleventh indriya), not the metaphorical heart."
 related:
-  - /concepts/buddhi.md
-  - /concepts/ahankara.md
-  - /concepts/chitta.md
-  - /concepts/atman.md
-  - /concepts/prakriti.md
+  - buddhi.md
+  - ahankara.md
+  - chitta.md
+  - atman.md
+  - prakriti.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

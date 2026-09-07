@@ -24,15 +24,15 @@ not:
     why: "This is the single most critical conflation in all of OKF. Brahmā is a cosmological agent (the creator within a Kalpa, himself created); Brahman is the unconditioned absolute. They share a similar name in transliteration; they are ontologically opposed in the Vedāntic framework. See brahma-the-creator.md for full treatment."
     instead: "Distinguish consistently: 'Brahmā' (four-faced creator deity, short a at end) vs. 'Brahman' (neuter unconditioned absolute)."
 related:
-  - /concepts/srishti.md
-  - /concepts/sthiti.md
-  - /concepts/samhara.md
-  - /concepts/brahma-the-creator.md
-  - /concepts/avatara.md
-  - /concepts/ishvara-cosmological.md
-  - /concepts/pralaya.md
-  - /concepts/shakti-cosmological.md
-  - /concepts/trigunas-cosmological.md
+  - srishti.md
+  - sthiti.md
+  - samhara.md
+  - brahma-the-creator.md
+  - avatara.md
+  - ishvara-cosmological.md
+  - pralaya.md
+  - shakti-cosmological.md
+  - trigunas-cosmological.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

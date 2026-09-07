@@ -25,9 +25,9 @@ not:
 - term: 'a changeable body state'
   why: 'Prakṛti is by definition the fixed baseline set at conception. What changes with diet, season, and conduct is vikṛti. Marketing that promises to change your prakṛti has already lost the distinction the term exists to mark.'
 related:
-- /concepts/dosha.md
-- /concepts/vikriti.md
-- /concepts/ayus.md
+- dosha.md
+- vikriti.md
+- ayus.md
 reception_note: 'High commercial capture via constitution quizzes. The file describes the classical concept; it does not endorse self-typing instruments and makes no clinical claims.'
 timestamp: '2026-07-09'
 okf_version: '0.2'

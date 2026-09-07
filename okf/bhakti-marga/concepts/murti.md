@@ -33,10 +33,10 @@ not:
   - term: "symbol"
     why: "a symbol is a conventional sign whose meaning is assigned; the mūrti is not a sign of the Divine but, by consecration and the Lord's grace, a place where the Divine makes itself available to love and service"
 related:
-  - /concepts/puja.md
-  - /concepts/prasada.md
-  - /concepts/bhakti.md
-  - /concepts/nada-brahman.md
+  - puja.md
+  - prasada.md
+  - bhakti.md
+  - nada-brahman.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

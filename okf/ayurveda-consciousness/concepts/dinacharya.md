@@ -24,10 +24,10 @@ not:
 - term: 'a one-size ritual'
   why: 'Every element is adjusted to constitution, age, season, and strength. The published uniform checklist is precisely what the individualized system refuses to be.'
 related:
-- /concepts/ritucharya.md
-- /concepts/agni.md
-- /concepts/prakriti.md
-- /concepts/sadvritta.md
+- ritucharya.md
+- agni.md
+- prakriti.md
+- sadvritta.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

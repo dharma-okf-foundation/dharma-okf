@@ -24,10 +24,10 @@ not:
 - term: 'the full antaḥkaraṇa analysis of dharma-foundation v0.1'
   why: 'Cross-bundle boundary. The foundation bundle treats manas within the four-fold inner instrument of Vedantic psychology. The medical manas is leaner: what a physician needs, its atomicity, its singleness, its objects, and its two vitiating qualities.'
 related:
-- /concepts/ayus.md
-- /concepts/manasa-dosha.md
-- /concepts/prajnaparadha.md
-- /concepts/sattvavajaya.md
+- ayus.md
+- manasa-dosha.md
+- prajnaparadha.md
+- sattvavajaya.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

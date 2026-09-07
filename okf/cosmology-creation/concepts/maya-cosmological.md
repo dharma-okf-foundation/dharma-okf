@@ -24,13 +24,13 @@ not:
   - term: "deception / deliberate deception by God"
     why: "Māyā is not God deceiving creation. In Advaita, Māyā is Brahman's own beginningless power that generates the appearance of multiplicity; it does not imply ill intent. In Śākta cosmology, Māyā = the Goddess = the supreme creative reality -- she is not deceiving but manifesting. The 'deception' framing imports a moral category (intentional deception) into an ontological framework (the structure of appearance and reality)."
 related:
-  - /concepts/srishti.md
-  - /concepts/avyakta.md
-  - /concepts/shakti-cosmological.md
-  - /concepts/ishvara-cosmological.md
-  - /concepts/trigunas-cosmological.md
-  - /concepts/iccha-jnana-kriya-shakti.md
-  - /concepts/lila-cosmological.md
+  - srishti.md
+  - avyakta.md
+  - shakti-cosmological.md
+  - ishvara-cosmological.md
+  - trigunas-cosmological.md
+  - iccha-jnana-kriya-shakti.md
+  - lila-cosmological.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

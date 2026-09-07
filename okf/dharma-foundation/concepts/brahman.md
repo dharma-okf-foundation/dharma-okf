@@ -26,11 +26,11 @@ not:
   - term: "Pantheism"
     why: "Exhausts the divine in immanence; Brahman remains fully transcendent even as it is immanent."
 related:
-  - /concepts/atman.md
-  - /concepts/maya.md
-  - /concepts/moksha.md
-  - /concepts/om.md
-  - /concepts/prakriti.md
+  - atman.md
+  - maya.md
+  - moksha.md
+  - om.md
+  - prakriti.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

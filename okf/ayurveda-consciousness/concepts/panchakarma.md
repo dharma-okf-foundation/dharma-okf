@@ -25,10 +25,10 @@ not:
 - term: 'karma in the senses treated elsewhere in this corpus'
   why: 'Fourth distinct sense of the word in the corpus. Karma here means procedure, a therapeutic act, unrelated to moral action-and-consequence (dharma-foundation v0.1), Vaiśeṣika physical motion (nyaya-vaisheshika v0.9), and the enjoined ritual act (mimamsa-dharma v0.10).'
 related:
-- /concepts/ama.md
-- /concepts/srotas.md
-- /concepts/agni.md
-- /concepts/rasayana.md
+- ama.md
+- srotas.md
+- agni.md
+- rasayana.md
 reception_note: 'Heavily commercialized as detox tourism. The file names the classical procedures without any procedural instruction, preparation, or dosage, and makes no clinical claims.'
 timestamp: '2026-07-09'
 okf_version: '0.2'

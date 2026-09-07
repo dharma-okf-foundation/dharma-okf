@@ -24,12 +24,12 @@ not:
   - term: "Higher self"
     why: "A New Age framing implying a better version of the ego; Ātman is not an upgraded self but what remains when all self-identity is removed."
 related:
-  - /concepts/brahman.md
-  - /concepts/jiva.md
-  - /concepts/maya.md
-  - /concepts/moksha.md
-  - /concepts/chitta.md
-  - /concepts/buddhi.md
+  - brahman.md
+  - jiva.md
+  - maya.md
+  - moksha.md
+  - chitta.md
+  - buddhi.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

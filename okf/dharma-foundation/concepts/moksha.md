@@ -25,16 +25,16 @@ not:
   - term: "Kaivalya (Kaivalya is a specific type of mokṣa, not a synonym)"
     why: "Kaivalya is one type of liberation (isolation from Prakṛti, or merger into Brahman), not liberation as a whole."
 related:
-  - /concepts/atman.md
-  - /concepts/brahman.md
-  - /concepts/samsara.md
-  - /concepts/karma.md
-  - /concepts/maya.md
-  - /concepts/yoga.md
-  - /concepts/dharma.md
-  - /concepts/samadhi.md
-  - /concepts/vairagya.md
-  - /concepts/viveka.md
+  - atman.md
+  - brahman.md
+  - samsara.md
+  - karma.md
+  - maya.md
+  - yoga.md
+  - dharma.md
+  - samadhi.md
+  - vairagya.md
+  - viveka.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

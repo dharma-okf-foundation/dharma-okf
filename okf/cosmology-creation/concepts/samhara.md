@@ -23,11 +23,11 @@ not:
   - term: "Pralaya (the same as Saṃhāra)"
     why: "Saṃhāra is the act / function (the withdrawal); Pralaya is the resulting state (the dissolution). They are cause and effect within the same cosmic moment. Distinguishing them matters because Pralaya has four types (Nitya, Naimittika, Mahā, Ātyantika), while Saṃhāra names the agency. See pralaya.md."
 related:
-  - /concepts/srishti.md
-  - /concepts/sthiti.md
-  - /concepts/pralaya.md
-  - /concepts/trimurti.md
-  - /concepts/avyakta.md
+  - srishti.md
+  - sthiti.md
+  - pralaya.md
+  - trimurti.md
+  - avyakta.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

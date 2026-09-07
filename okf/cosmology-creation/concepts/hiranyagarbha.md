@@ -23,11 +23,11 @@ not:
   - term: "the Big Bang singularity"
     why: "Hiraṇyagarbha is the subtle-cosmic body (not a physical singularity), and it is not the absolute beginning -- Avyakta, Māyā, and Brahman precede it. The analogy to a cosmic singularity is tempting given the 'first emergence' framing but is structurally incorrect: the Big Bang singularity has no consciousness; Hiraṇyagarbha is the first form of cosmic consciousness (Cit) at the manifest level."
 related:
-  - /concepts/srishti.md
-  - /concepts/virat.md
-  - /concepts/avyakta.md
-  - /concepts/brahma-the-creator.md
-  - /concepts/brahmanda.md
+  - srishti.md
+  - virat.md
+  - avyakta.md
+  - brahma-the-creator.md
+  - brahmanda.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

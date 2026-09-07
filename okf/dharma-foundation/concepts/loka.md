@@ -20,10 +20,10 @@ not:
   - term: "Realm (fantasy)"
     why: "A fictional-world image; Lokas are a precise map of consciousness states with Bhūloka as the hub."
 related:
-  - /concepts/chakra.md
-  - /concepts/karma.md
-  - /concepts/samsara.md
-  - /concepts/jiva.md
+  - chakra.md
+  - karma.md
+  - samsara.md
+  - jiva.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

@@ -29,10 +29,10 @@ not:
   - term: "aesthetic affect"
     why: "though the rasa vocabulary is borrowed from Sanskrit dramaturgy, bhakti-bhāva is not the spectator's relished emotion at a play; it is a real transformation of the devotee's own being and relationship to God, not a savored representation of someone else's feeling"
 related:
-  - /concepts/prema.md
-  - /concepts/bhakti.md
-  - /concepts/seva.md
-  - /concepts/sharanagati.md
+  - prema.md
+  - bhakti.md
+  - seva.md
+  - sharanagati.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

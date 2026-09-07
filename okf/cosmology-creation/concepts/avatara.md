@@ -23,11 +23,11 @@ not:
   - term: "only ten Avatāras (Daśa-Avatāra is exhaustive)"
     why: "The Daśa-Avatāra list (Matsya, Kūrma, Varāha, Narasiṃha, Vāmana, Paraśurāma, Rāma, Kṛṣṇa/Balarāma, Buddha, Kalki) is the most common popular list but is not the only or exhaustive one. The Bhāgavata Purāṇa (1.3) lists 22 Avatāras by name and states: 'avataras hy asaṃkhyeyāḥ' -- 'the Avatāras are indeed innumerable.' Different Purāṇas give different lists."
 related:
-  - /concepts/sthiti.md
-  - /concepts/trimurti.md
-  - /concepts/ishvara-cosmological.md
-  - /concepts/kala.md
-  - /concepts/yuga.md
+  - sthiti.md
+  - trimurti.md
+  - ishvara-cosmological.md
+  - kala.md
+  - yuga.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

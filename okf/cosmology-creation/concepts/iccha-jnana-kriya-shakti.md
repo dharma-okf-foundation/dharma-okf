@@ -23,11 +23,11 @@ not:
   - term: "exclusively a Śaiva or Tāntric concept with no Vaiṣṇava or Vedāntic parallel"
     why: "While the explicit terminology (Icchā-Jñāna-Kriyā Śakti as a named triad) is most developed in Kashmir Shaivism and Śaiva Siddhānta, the underlying structure is recognizable across all traditions: Vaiṣṇava theology speaks of Bhagavān's Sandhini-Samvit-Hlādinī Śaktis (existence-consciousness-bliss powers); Advaita Vedānta's Brahman as sat-cit-ānanda maps structurally (sat=Kriyā's stable expression; cit=Jñāna; ānanda=Icchā's root); even the Brahma Sūtras' treatment of Brahman as omniscient and omnipotent (sarvajña, sarvashakti) entails the Jñāna and Kriyā dimensions."
 related:
-  - /concepts/shakti-cosmological.md
-  - /concepts/srishti.md
-  - /concepts/maya-cosmological.md
-  - /concepts/lila-cosmological.md
-  - /concepts/ishvara-cosmological.md
+  - shakti-cosmological.md
+  - srishti.md
+  - maya-cosmological.md
+  - lila-cosmological.md
+  - ishvara-cosmological.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

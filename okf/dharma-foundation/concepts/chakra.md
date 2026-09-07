@@ -20,11 +20,11 @@ not:
   - term: "Metaphorical concept"
     why: "Treats Chakras as mere symbols; they are precise loci bridging Loka cosmology, Mantra, and the physiology of consciousness."
 related:
-  - /concepts/loka.md
-  - /concepts/prana.md
-  - /concepts/mantra.md
-  - /concepts/yoga.md
-  - /concepts/akshara.md
+  - loka.md
+  - prana.md
+  - mantra.md
+  - yoga.md
+  - akshara.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

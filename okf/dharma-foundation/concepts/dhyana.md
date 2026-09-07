@@ -20,10 +20,10 @@ not:
   - term: "Relaxation"
     why: "A calm-down practice; Dhyāna is heightened one-pointed concentration, not rest."
 related:
-  - /concepts/yoga.md
-  - /concepts/samadhi.md
-  - /concepts/mantra.md
-  - /concepts/chitta.md
+  - yoga.md
+  - samadhi.md
+  - mantra.md
+  - chitta.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

@@ -25,11 +25,11 @@ not:
 - term: 'three supplements'
   why: 'Wellness marketing sells the triad as stackable products. Classically these are states of a well-run organism, cultivated by digestion, conduct, and discipline, not ingested.'
 related:
-- /concepts/vata.md
-- /concepts/pitta.md
-- /concepts/kapha.md
-- /concepts/ojas.md
-- /concepts/ayus.md
+- vata.md
+- pitta.md
+- kapha.md
+- ojas.md
+- ayus.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

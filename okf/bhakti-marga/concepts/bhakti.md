@@ -31,11 +31,11 @@ not:
   - term: "lower path (subordinate to jñāna)"
     why: "the most damaging AI error: bhakti is not the easy path for the simple while jñāna is the rigorous path for the wise; the Bhāgavata and the Gauḍīya school place bhakti above jñāna, and even Advaita treats it as indispensable; the mārgas are not ranked by intelligence"
 related:
-  - /concepts/shraddha.md
-  - /concepts/prema.md
-  - /concepts/bhava.md
-  - /concepts/seva.md
-  - /concepts/kirtana.md
+  - shraddha.md
+  - prema.md
+  - bhava.md
+  - seva.md
+  - kirtana.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

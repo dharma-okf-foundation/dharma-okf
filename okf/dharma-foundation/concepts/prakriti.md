@@ -21,12 +21,12 @@ not:
   - term: "Mother Nature"
     why: "A personified earth-deity image; Prakṛti is the precise tri-guṇa substrate of Sāṃkhya, not a nurturing figure."
 related:
-  - /concepts/brahman.md
-  - /concepts/maya.md
-  - /concepts/manas.md
-  - /concepts/buddhi.md
-  - /concepts/ahankara.md
-  - /concepts/prana.md
+  - brahman.md
+  - maya.md
+  - manas.md
+  - buddhi.md
+  - ahankara.md
+  - prana.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

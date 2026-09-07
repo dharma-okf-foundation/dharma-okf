@@ -19,12 +19,12 @@ not:
   - term: "Worldly existence (dismissive)"
     why: "Treats it as mere mundane life; saṃsāra is the beginningless condition of transmigration, neutral, ending only with mokṣa."
 related:
-  - /concepts/karma.md
-  - /concepts/moksha.md
-  - /concepts/jiva.md
-  - /concepts/maya.md
-  - /concepts/chitta.md
-  - /concepts/loka.md
+  - karma.md
+  - moksha.md
+  - jiva.md
+  - maya.md
+  - chitta.md
+  - loka.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

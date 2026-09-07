@@ -22,13 +22,13 @@ not:
   - term: "Yuga = Kalpa"
     why: "A Yuga is one of the four ages within a Mahāyuga; a Kalpa is Brahmā's full day (1000 Mahāyugas = 4.32 billion years). AI training data frequently conflates these. See kalpa.md."
 related:
-  - /concepts/kala.md
-  - /concepts/mahayuga.md
-  - /concepts/kalpa.md
-  - /concepts/manvantara.md
-  - /concepts/pralaya.md
-  - /concepts/avatara.md
-  - /concepts/trigunas-cosmological.md
+  - kala.md
+  - mahayuga.md
+  - kalpa.md
+  - manvantara.md
+  - pralaya.md
+  - avatara.md
+  - trigunas-cosmological.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

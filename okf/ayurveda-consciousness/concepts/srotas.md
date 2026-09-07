@@ -24,9 +24,9 @@ not:
 - term: 'metaphorical plumbing'
   why: 'The channel model does real diagnostic work: srotoduṣṭi (channel vitiation) has defined signs and treatment implications; it is a clinical category, not a figure of speech.'
 related:
-- /concepts/ama.md
-- /concepts/dhatu.md
-- /concepts/agni.md
+- ama.md
+- dhatu.md
+- agni.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

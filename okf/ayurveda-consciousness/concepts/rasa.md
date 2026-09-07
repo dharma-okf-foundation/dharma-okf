@@ -26,10 +26,10 @@ not:
 - term: 'juice generically'
   why: 'Rasa also names the first dhātu, the nutrient fluid formed directly from digested food. The file keeps both technical senses, taste and first tissue, and lets context select; neither is juice in the loose sense.'
 related:
-- /concepts/guna.md
-- /concepts/dhatu.md
-- /concepts/agni.md
-- /concepts/pitta.md
+- guna.md
+- dhatu.md
+- agni.md
+- pitta.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -20,11 +20,11 @@ not:
   - term: "preservation of the universe against destruction"
     why: "Sthiti is not in opposition to Saṃhāra; all three (Sṛṣṭi, Sthiti, Saṃhāra) are necessary parts of one cycle. Viṣṇu does not 'fight' Śiva. Sthiti maintains cosmic conditions within a Kalpa; Saṃhāra is the natural conclusion of that Kalpa. They are sequential phases, not opposing forces."
 related:
-  - /concepts/srishti.md
-  - /concepts/samhara.md
-  - /concepts/trimurti.md
-  - /concepts/avatara.md
-  - /concepts/pralaya.md
+  - srishti.md
+  - samhara.md
+  - trimurti.md
+  - avatara.md
+  - pralaya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

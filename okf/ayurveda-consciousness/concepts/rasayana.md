@@ -24,10 +24,10 @@ not:
 - term: 'a product category'
   why: 'Marketplaces sell rasāyanas as a shelf. The texts most striking move runs the other way: ācāra-rasāyana, conduct as rejuvenative, truthfulness, non-violence, calm, cleanliness, and respect stated to work as rasāyana without any substance at all.'
 related:
-- /concepts/ojas.md
-- /concepts/dhatu.md
-- /concepts/agni.md
-- /concepts/sadvritta.md
+- ojas.md
+- dhatu.md
+- agni.md
+- sadvritta.md
 reception_note: 'Heavily commercialized as anti-aging. The file describes the classical discipline, includes no preparations or dosages, and makes no efficacy or product claims.'
 timestamp: '2026-07-09'
 okf_version: '0.2'

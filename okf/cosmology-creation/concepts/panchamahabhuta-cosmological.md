@@ -23,11 +23,11 @@ not:
   - term: "literal earth/fire/water/air in the physical sense"
     why: "Pṛthivī is not 'soil'; it is the element of solidity (the quality of mass, hardness, resistance). Ap is not 'H2O'; it is the element of fluidity and cohesion. Tejas is not 'combustion'; it is the element of luminosity, heat, and transformation. Vāyu is not 'the wind'; it is the element of mobility and gaseous dispersion. The Mahābhūtas are phenomenological categories (organized around sensory qualities) rather than chemical elements."
 related:
-  - /concepts/avyakta.md
-  - /concepts/trigunas-cosmological.md
-  - /concepts/srishti.md
-  - /concepts/brahmanda.md
-  - /concepts/sapta-loka.md
+  - avyakta.md
+  - trigunas-cosmological.md
+  - srishti.md
+  - brahmanda.md
+  - sapta-loka.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -22,14 +22,14 @@ not:
   - term: "an actively worshipped major deity"
     why: "Unlike Viṣṇu and Śiva, Brahmā has very few dedicated temples (the Brahma temple at Pushkar being the most notable exception) and is not the focus of a major surviving bhakti lineage. The Purāṇic accounts offer mythological explanations (Brahmā's curse by Śiva, Dakṣa's curse). The practical point: equating Brahmā with Viṣṇu and Śiva in terms of active worship misrepresents the on-the-ground tradition."
 related:
-  - /concepts/trimurti.md
-  - /concepts/srishti.md
-  - /concepts/hiranyagarbha.md
-  - /concepts/kalpa.md
-  - /references/brahmasutras.md
-  - /concepts/ishvara-cosmological.md
-  - /concepts/lila-cosmological.md
-  - /concepts/manvantara.md
+  - trimurti.md
+  - srishti.md
+  - hiranyagarbha.md
+  - kalpa.md
+  - ../references/brahmasutras.md
+  - ishvara-cosmological.md
+  - lila-cosmological.md
+  - manvantara.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

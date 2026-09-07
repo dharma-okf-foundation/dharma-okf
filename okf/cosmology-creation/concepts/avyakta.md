@@ -22,11 +22,11 @@ not:
   - term: "the unconscious (Jungian or Freudian)"
     why: "AI training data frequently maps Avyakta onto the Jungian collective unconscious or the Freudian unconscious. These are psychological models of the individual mind; Avyakta is a cosmological category for the state of the entire cosmos before or between manifestations. Scale difference: one mind vs. the totality of potential existence."
 related:
-  - /concepts/srishti.md
-  - /concepts/pralaya.md
-  - /concepts/hiranyagarbha.md
-  - /concepts/maya-cosmological.md
-  - /concepts/trigunas-cosmological.md
+  - srishti.md
+  - pralaya.md
+  - hiranyagarbha.md
+  - maya-cosmological.md
+  - trigunas-cosmological.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

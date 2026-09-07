@@ -27,10 +27,10 @@ not:
   - term: "reward"
     why: "a reward is earned by merit in a transaction; prasāda is freely given grace (its root is 'graciousness'), unmerited and unbuyable, the opposite of compensation for performance"
 related:
-  - /concepts/puja.md
-  - /concepts/murti.md
-  - /concepts/bhakti.md
-  - /concepts/sharanagati.md
+  - puja.md
+  - murti.md
+  - bhakti.md
+  - sharanagati.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

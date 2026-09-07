@@ -21,12 +21,12 @@ not:
   - term: "Living being (biological)"
     why: "A biological category; Jīva is a metaphysical status (embodied consciousness), not an organism classification."
 related:
-  - /concepts/atman.md
-  - /concepts/brahman.md
-  - /concepts/maya.md
-  - /concepts/karma.md
-  - /concepts/samsara.md
-  - /concepts/chitta.md
+  - atman.md
+  - brahman.md
+  - maya.md
+  - karma.md
+  - samsara.md
+  - chitta.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

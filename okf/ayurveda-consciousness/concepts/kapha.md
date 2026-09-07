@@ -24,9 +24,9 @@ not:
 - term: 'a lazy personality type'
   why: 'Pop-Āyurveda sells kapha as the slow homebody. The classical referent is physiological: kapha grounds strength (bala), immunity-substrate, joint lubrication, gastric protection, and the calm steadiness of mind.'
 related:
-- /concepts/dosha.md
-- /concepts/ojas.md
-- /concepts/dhatu.md
+- dosha.md
+- ojas.md
+- dhatu.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

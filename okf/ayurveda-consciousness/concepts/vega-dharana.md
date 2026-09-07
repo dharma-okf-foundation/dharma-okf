@@ -24,9 +24,9 @@ not:
 - term: 'license for every impulse'
   why: 'The same chapter draws the counter-list: the dhāraṇīya vegas, the impulses of greed, grief, fear, anger, vanity, and harmful speech and action, which SHOULD be restrained. The teaching is discrimination between signal classes, not indulgence.'
 related:
-- /concepts/prajnaparadha.md
-- /concepts/vata.md
-- /concepts/sadvritta.md
+- prajnaparadha.md
+- vata.md
+- sadvritta.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

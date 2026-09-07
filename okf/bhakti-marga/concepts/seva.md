@@ -27,10 +27,10 @@ not:
   - term: "unpaid labor"
     why: "framing sevā as unpaid labor imports an economic lens of exploited or donated work-hours; sevā is a chosen spiritual discipline whose 'compensation' is the deepening of devotion, not a labor relation at all"
 related:
-  - /concepts/bhakti.md
-  - /concepts/bhava.md
-  - /concepts/guru.md
-  - /concepts/prema.md
+  - bhakti.md
+  - bhava.md
+  - guru.md
+  - prema.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

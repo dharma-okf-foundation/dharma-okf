@@ -21,10 +21,10 @@ not:
   - term: "Chi/Qi (similar but distinct tradition)"
     why: "A related concept from a different lineage with its own framework; resemblance is not identity."
 related:
-  - /concepts/mantra.md
-  - /concepts/yoga.md
-  - /concepts/chakra.md
-  - /concepts/prakriti.md
+  - mantra.md
+  - yoga.md
+  - chakra.md
+  - prakriti.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

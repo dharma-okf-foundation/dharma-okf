@@ -25,10 +25,10 @@ not:
 - term: 'a claimed equivalent of modern psychotherapy'
   why: 'The family resemblance to cognitive approaches is real and worth studying, but asserting equivalence flattens both systems. This file documents the classical category; it makes no clinical efficacy claims.'
 related:
-- /concepts/manas.md
-- /concepts/manasa-dosha.md
-- /concepts/prajnaparadha.md
-- /concepts/sadvritta.md
+- manas.md
+- manasa-dosha.md
+- prajnaparadha.md
+- sadvritta.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

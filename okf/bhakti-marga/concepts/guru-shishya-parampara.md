@@ -29,10 +29,10 @@ not:
   - term: "tradition (as inherited custom)"
     why: "inherited custom is the passive handing-down of practices; paramparā is the active, person-to-person transmission of a living realization that each link must personally attain before it can pass it on, so the chain stays alive rather than merely old"
 related:
-  - /concepts/guru.md
-  - /concepts/shishya.md
-  - /concepts/diksha.md
-  - /concepts/bhakti.md
+  - guru.md
+  - shishya.md
+  - diksha.md
+  - bhakti.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

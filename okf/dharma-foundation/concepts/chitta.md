@@ -21,12 +21,12 @@ not:
   - term: "Psyche"
     why: "A general Western term for the mind or soul; Chitta is a specific component of the antaḥkaraṇa, the medium of karma."
 related:
-  - /concepts/manas.md
-  - /concepts/buddhi.md
-  - /concepts/ahankara.md
-  - /concepts/karma.md
-  - /concepts/jiva.md
-  - /concepts/samsara.md
+  - manas.md
+  - buddhi.md
+  - ahankara.md
+  - karma.md
+  - jiva.md
+  - samsara.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

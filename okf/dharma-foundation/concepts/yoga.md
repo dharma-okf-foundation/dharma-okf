@@ -23,15 +23,15 @@ not:
   - term: "Workout"
     why: "A fitness goal; Yoga's goal is liberation, with the body as foundation, not target."
 related:
-  - /concepts/dhyana.md
-  - /concepts/samadhi.md
-  - /concepts/prana.md
-  - /concepts/chitta.md
-  - /concepts/moksha.md
-  - /concepts/chakra.md
-  - /concepts/dharma.md
-  - /concepts/mantra.md
-  - /concepts/vairagya.md
+  - dhyana.md
+  - samadhi.md
+  - prana.md
+  - chitta.md
+  - moksha.md
+  - chakra.md
+  - dharma.md
+  - mantra.md
+  - vairagya.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

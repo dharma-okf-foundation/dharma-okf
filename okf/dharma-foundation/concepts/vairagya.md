@@ -21,10 +21,10 @@ not:
   - term: "Asceticism"
     why: "A regime of external austerity; Vairāgya is an inner quality, not a lifestyle of self-denial."
 related:
-  - /concepts/viveka.md
-  - /concepts/moksha.md
-  - /concepts/yoga.md
-  - /concepts/dharma.md
+  - viveka.md
+  - moksha.md
+  - yoga.md
+  - dharma.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

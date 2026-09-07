@@ -25,10 +25,10 @@ not:
 - term: 'religious commandment'
   why: 'Elements overlap with dharmic ethics (the corpus treats ācāra and the yamas in dharmic-ethics v0.5), but sadvṛtta is issued on medical authority for a medical end, health of āyus in all four of its constituents, not as scriptural command.'
 related:
-- /concepts/sattvavajaya.md
-- /concepts/prajnaparadha.md
-- /concepts/dinacharya.md
-- /concepts/rasayana.md
+- sattvavajaya.md
+- prajnaparadha.md
+- dinacharya.md
+- rasayana.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

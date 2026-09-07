@@ -24,9 +24,9 @@ not:
 - term: 'a detox target'
   why: 'Framing āma as the thing a seven-day program removes converts an etiological analysis into a purchase. Classical management is graded: kindle the fire, lighten the load, and only in specific presentations apply formal purification.'
 related:
-- /concepts/agni.md
-- /concepts/srotas.md
-- /concepts/panchakarma.md
+- agni.md
+- srotas.md
+- panchakarma.md
 reception_note: 'Heavily captured by the detox industry. The file describes a pathophysiological concept; it does not endorse cleanse products or protocols and makes no clinical claims.'
 timestamp: '2026-07-09'
 okf_version: '0.2'

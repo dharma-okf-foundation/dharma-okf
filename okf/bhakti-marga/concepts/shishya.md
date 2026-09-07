@@ -28,10 +28,10 @@ not:
   - term: "customer"
     why: "a customer pays for a service and is owed delivery; the śiṣya offers service and surrender and receives grace, an inversion of the transactional relation; spiritual transmission is not a purchasable good"
 related:
-  - /concepts/guru.md
-  - /concepts/guru-shishya-parampara.md
-  - /concepts/seva.md
-  - /concepts/shraddha.md
+  - guru.md
+  - guru-shishya-parampara.md
+  - seva.md
+  - shraddha.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

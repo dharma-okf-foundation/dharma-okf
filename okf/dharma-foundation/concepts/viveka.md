@@ -20,11 +20,11 @@ not:
   - term: "Discrimination (everyday)"
     why: "The ordinary sense of telling things apart; Viveka discriminates Ātman from anātman specifically."
 related:
-  - /concepts/vairagya.md
-  - /concepts/atman.md
-  - /concepts/brahman.md
-  - /concepts/buddhi.md
-  - /concepts/moksha.md
+  - vairagya.md
+  - atman.md
+  - brahman.md
+  - buddhi.md
+  - moksha.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

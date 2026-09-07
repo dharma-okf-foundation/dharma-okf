@@ -25,10 +25,10 @@ not:
 - term: 'moralized lifestyle mistakes'
   why: 'Wellness discourse converts this into blame for bad choices. The classical analysis runs the other way: it explains why choice fails, and hands the failure to therapy (sattvāvajaya) and regimen, not to shame.'
 related:
-- /concepts/manas.md
-- /concepts/sattvavajaya.md
-- /concepts/manasa-dosha.md
-- /concepts/vega-dharana.md
+- manas.md
+- sattvavajaya.md
+- manasa-dosha.md
+- vega-dharana.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

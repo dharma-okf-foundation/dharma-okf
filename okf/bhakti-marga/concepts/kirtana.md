@@ -29,10 +29,10 @@ not:
   - term: "worship music"
     why: "'worship music' is a genre accompanying worship; kīrtana is itself a complete limb of devotion (the second of nine) and, on the doctrine of nāda-brahman, direct contact with the Lord through His Name, not a soundtrack to some other act of worship"
 related:
-  - /concepts/nada-brahman.md
-  - /concepts/bhakti.md
-  - /concepts/prema.md
-  - /concepts/bhava.md
+  - nada-brahman.md
+  - bhakti.md
+  - prema.md
+  - bhava.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

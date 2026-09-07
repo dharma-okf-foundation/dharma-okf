@@ -22,11 +22,11 @@ not:
   - term: "the Viśvarūpa is Virāṭ-darśana only"
     why: "The Viśvarūpa shown to Arjuna in BG 11 is the Virāṭ-rūpa of Kṛṣṇa -- the cosmic form -- but within the specific Vaiṣṇava cosmological context where Virāṭ IS Viṣṇu/Kṛṣṇa's gross-cosmic body. The Viśvarūpa is thus both a Virāṭ disclosure AND a theophany (a direct disclosure of divine nature). Reading it purely as 'cosmic form' misses the Vaiṣṇava identification; reading it purely as theophany misses the cosmological content."
 related:
-  - /concepts/hiranyagarbha.md
-  - /concepts/srishti.md
-  - /concepts/brahmanda.md
-  - /concepts/sapta-loka.md
-  - /concepts/purusha-sukta.md
+  - hiranyagarbha.md
+  - srishti.md
+  - brahmanda.md
+  - sapta-loka.md
+  - purusha-sukta.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

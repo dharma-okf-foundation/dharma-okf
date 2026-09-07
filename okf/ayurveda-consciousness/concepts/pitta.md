@@ -24,9 +24,9 @@ not:
 - term: 'an angry personality type'
   why: 'Pop-Āyurveda sells pitta as the intense achiever. The classical referent is the conversion function, with named subdivisions for digestion (pācaka), vision (ālocaka), complexion (bhrājaka), discrimination (sādhaka), and coloration (rañjaka).'
 related:
-- /concepts/dosha.md
-- /concepts/agni.md
-- /concepts/rasa.md
+- dosha.md
+- agni.md
+- rasa.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

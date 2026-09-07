@@ -24,11 +24,11 @@ not:
   - term: "Morality"
     why: "Reduces Dharma to ethics; it also denotes the inherent nature of a thing (the dharma of fire is to burn)."
 related:
-  - /concepts/karma.md
-  - /concepts/moksha.md
-  - /concepts/viveka.md
-  - /concepts/yoga.md
-  - /concepts/vairagya.md
+  - karma.md
+  - moksha.md
+  - viveka.md
+  - yoga.md
+  - vairagya.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

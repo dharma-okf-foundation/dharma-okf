@@ -19,10 +19,10 @@ not:
   - term: "one Kalpa"
     why: "A Kalpa equals 1000 Mahāyugas (plus junction periods), not one Mahāyuga. The scale difference is three orders of magnitude: 4.32 million years (Mahāyuga) vs 4.32 billion years (Kalpa). Conflating them collapses the nested hierarchy of Purāṇic time."
 related:
-  - /concepts/yuga.md
-  - /concepts/kalpa.md
-  - /concepts/manvantara.md
-  - /concepts/kala.md
+  - yuga.md
+  - kalpa.md
+  - manvantara.md
+  - kala.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -29,10 +29,10 @@ not:
   - term: "ordination"
     why: "ordination authorizes a person to hold religious office and perform sacraments for others; dīkṣā empowers the disciple's own inner practice and may carry no office at all; the two answer different questions (who may serve vs who may now practice)"
 related:
-  - /concepts/guru.md
-  - /concepts/shishya.md
-  - /concepts/guru-shishya-parampara.md
-  - /concepts/bhakti.md
+  - guru.md
+  - shishya.md
+  - guru-shishya-parampara.md
+  - bhakti.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

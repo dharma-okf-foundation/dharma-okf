@@ -24,11 +24,11 @@ not:
   - term: "describing only one deity (Viṣṇu or Brahmā)"
     why: "The Puruṣa of the Sūkta is a cosmic principle prior to sectarian attribution. Vaiṣṇava tradition identifies this Puruṣa with Viṣṇu/Nārāyaṇa; Śaiva tradition identifies him with Śiva; the Vedāntic reading treats him as Brahman-in-manifestation. All these readings are sectarian overlays on a hymn that pre-dates these sectarian distinctions."
 related:
-  - /concepts/virat.md
-  - /concepts/srishti.md
-  - /concepts/hiranyagarbha.md
-  - /concepts/trigunas-cosmological.md
-  - /references/rigveda-purusha-sukta.md
+  - virat.md
+  - srishti.md
+  - hiranyagarbha.md
+  - trigunas-cosmological.md
+  - ../references/rigveda-purusha-sukta.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

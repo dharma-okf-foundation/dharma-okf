@@ -27,13 +27,13 @@ not:
     why: "In Nyāya-Vaiśeṣika ontology (nyaya-vaisheshika v0.9), karma is one of the seven categories of being and means bare physical motion of five kinds, not moral causation at all; that school files ethical desert under adṛṣṭa. The same word names an unrelated technical object."
     instead: "For the moral law across lives keep this dharma-foundation sense; for the motion-category, see karma in nyaya-vaisheshika v0.9."
 related:
-  - /concepts/dharma.md
-  - /concepts/samsara.md
-  - /concepts/moksha.md
-  - /concepts/jiva.md
-  - /concepts/chitta.md
-  - /concepts/loka.md
-  - /concepts/maya.md
+  - dharma.md
+  - samsara.md
+  - moksha.md
+  - jiva.md
+  - chitta.md
+  - loka.md
+  - maya.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

@@ -30,10 +30,10 @@ not:
   - term: "magic spell"
     why: "a spell coerces an outcome through formula; mantra and Name in bhakti are means of loving contact and remembrance, effective through grace and devotion, not mechanical incantations that compel results"
 related:
-  - /concepts/kirtana.md
-  - /concepts/murti.md
-  - /concepts/bhakti.md
-  - /concepts/prema.md
+  - kirtana.md
+  - murti.md
+  - bhakti.md
+  - prema.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

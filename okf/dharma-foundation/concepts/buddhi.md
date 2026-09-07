@@ -21,11 +21,11 @@ not:
   - term: "Wisdom"
     why: "An outcome word; Buddhi is the faculty, not the accumulated quality."
 related:
-  - /concepts/manas.md
-  - /concepts/ahankara.md
-  - /concepts/chitta.md
-  - /concepts/atman.md
-  - /concepts/prakriti.md
+  - manas.md
+  - ahankara.md
+  - chitta.md
+  - atman.md
+  - prakriti.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

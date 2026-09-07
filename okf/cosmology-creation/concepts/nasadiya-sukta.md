@@ -21,10 +21,10 @@ not:
   - term: "nihilistic / saying nothing exists"
     why: "The opening verse is not nihilistic. 'Neither non-being nor being was then' is not a denial of existence but a statement that the pre-cosmic state transcends the binary of existence/non-existence. This is consistent with the Vedāntic concept of Brahman as sat-cit-ānanda -- which is pure being but not 'being' in the sense of conditioned existence, and not 'non-being' in the sense of nothingness."
 related:
-  - /concepts/avyakta.md
-  - /concepts/srishti.md
-  - /concepts/hiranyagarbha.md
-  - /references/rigveda-nasadiya.md
+  - avyakta.md
+  - srishti.md
+  - hiranyagarbha.md
+  - ../references/rigveda-nasadiya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

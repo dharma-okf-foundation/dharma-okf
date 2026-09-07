@@ -24,10 +24,10 @@ not:
 - term: 'weather folklore'
   why: 'The system states testable regularities: cold dry wind accumulates vāta which the rains aggravate; summer heat accumulates pitta which autumn aggravates. Folkloric readings miss that this is the preventive arm of a formal etiology.'
 related:
-- /concepts/dinacharya.md
-- /concepts/dosha.md
-- /concepts/agni.md
-- /concepts/vikriti.md
+- dinacharya.md
+- dosha.md
+- agni.md
+- vikriti.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

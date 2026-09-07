@@ -23,14 +23,14 @@ not:
   - term: "Brahmā creates everything"
     why: "Brahmā is the secondary agent of Sṛṣṭi — he differentiates and populates what Hiraṇyagarbha (the first manifestation) has already provided. Brahmā himself is created within the Sṛṣṭi cycle. The ultimate source of Sṛṣṭi is Brahman through Hiraṇyagarbha and Virāṭ; Brahmā operates within that framework. See brahma-the-creator.md."
 related:
-  - /concepts/sthiti.md
-  - /concepts/samhara.md
-  - /concepts/pralaya.md
-  - /concepts/hiranyagarbha.md
-  - /concepts/virat.md
-  - /concepts/avyakta.md
-  - /concepts/brahma-the-creator.md
-  - /concepts/trimurti.md
+  - sthiti.md
+  - samhara.md
+  - pralaya.md
+  - hiranyagarbha.md
+  - virat.md
+  - avyakta.md
+  - brahma-the-creator.md
+  - trimurti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

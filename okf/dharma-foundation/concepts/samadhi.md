@@ -21,11 +21,11 @@ not:
   - term: "Deep meditation"
     why: "Names intensity of Dhyāna; Samādhi is a distinct stage where subject-object distinction dissolves."
 related:
-  - /concepts/yoga.md
-  - /concepts/dhyana.md
-  - /concepts/moksha.md
-  - /concepts/atman.md
-  - /concepts/brahman.md
+  - yoga.md
+  - dhyana.md
+  - moksha.md
+  - atman.md
+  - brahman.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

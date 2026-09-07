@@ -22,10 +22,10 @@ not:
   - term: "Sacred syllable (reductive)"
     why: "Names only the form; Om is the primordial sonic consciousness identical with Brahman."
 related:
-  - /concepts/shabda.md
-  - /concepts/mantra.md
-  - /concepts/brahman.md
-  - /concepts/akshara.md
+  - shabda.md
+  - mantra.md
+  - brahman.md
+  - akshara.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
 ---

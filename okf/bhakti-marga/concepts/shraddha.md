@@ -29,10 +29,10 @@ not:
   - term: "creed"
     why: "a creed is a fixed doctrinal formula defining membership; śraddhā is an inner readiness that precedes and exceeds any formula, present wherever the heart turns trustingly toward the Real"
 related:
-  - /concepts/bhakti.md
-  - /concepts/prema.md
-  - /concepts/guru.md
-  - /concepts/sharanagati.md
+  - bhakti.md
+  - prema.md
+  - guru.md
+  - sharanagati.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

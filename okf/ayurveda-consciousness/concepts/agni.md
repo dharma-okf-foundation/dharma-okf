@@ -24,10 +24,10 @@ not:
 - term: 'the Vedic fire deity'
   why: 'Same word, different register. The deity Agni of the Veda receives oblations; the Āyurvedic agni is a physiological principle. The bundle treats only the medical referent.'
 related:
-- /concepts/ama.md
-- /concepts/dhatu.md
-- /concepts/pitta.md
-- /concepts/ojas.md
+- ama.md
+- dhatu.md
+- pitta.md
+- ojas.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

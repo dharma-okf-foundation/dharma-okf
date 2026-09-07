@@ -22,10 +22,10 @@ not:
   - term: "Bhūrloka is the lowest realm"
     why: "Bhūrloka is the third of the seven upper realms (Bhūr, Bhuvar, Svar are the three lower of the seven upper realms). Seven additional Pātāla realms exist below Bhūrloka. Earth (Bhūrloka) is the middle realm in a vertical structure of 14, not the lowest. This matters because it positions human existence at the hinge-point: accessible to both higher and lower realms."
 related:
-  - /concepts/brahmanda.md
-  - /concepts/virat.md
-  - /concepts/kala.md
-  - /concepts/pralaya.md
+  - brahmanda.md
+  - virat.md
+  - kala.md
+  - pralaya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

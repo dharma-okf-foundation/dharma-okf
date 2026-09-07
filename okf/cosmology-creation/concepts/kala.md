@@ -23,12 +23,12 @@ not:
   - term: "Kali (Kali Yuga / goddess Kālī)"
     why: "Kāla (long ā) = time-principle; Kali (short a) = the fourth Yuga; Kālī (long ā, feminine) = the goddess. AI training data routinely conflates these three orthographically related terms. They share etymology (from kāla = time/black) but are distinct concepts."
 related:
-  - /concepts/yuga.md
-  - /concepts/kalpa.md
-  - /concepts/pralaya.md
-  - /concepts/mahayuga.md
-  - /concepts/avatara.md
-  - /concepts/sapta-loka.md
+  - yuga.md
+  - kalpa.md
+  - pralaya.md
+  - mahayuga.md
+  - avatara.md
+  - sapta-loka.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

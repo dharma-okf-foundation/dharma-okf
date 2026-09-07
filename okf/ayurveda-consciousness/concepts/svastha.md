@@ -25,10 +25,10 @@ not:
 - term: 'normal lab values'
   why: 'Population norms measure against the average person. The svastha standard is indexed to the individual constitution: balance means balanced FOR THAT prakṛti, which is why one persons normal is anothers early disease.'
 related:
-- /concepts/ayus.md
-- /concepts/prakriti.md
-- /concepts/vikriti.md
-- /concepts/agni.md
+- ayus.md
+- prakriti.md
+- vikriti.md
+- agni.md
 timestamp: '2026-07-09'
 okf_version: '0.2'
 license: CC BY-SA 4.0

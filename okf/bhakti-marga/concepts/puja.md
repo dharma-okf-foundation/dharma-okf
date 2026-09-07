@@ -30,10 +30,10 @@ not:
   - term: "superstition"
     why: "'superstition' implies irrational belief in mechanical efficacy; pūjā is a contemplative discipline in which outer acts carry inner meanings, culminating in mānasa-pūjā where the whole ritual is performed in awareness alone"
 related:
-  - /concepts/murti.md
-  - /concepts/prasada.md
-  - /concepts/bhakti.md
-  - /concepts/seva.md
+  - murti.md
+  - prasada.md
+  - bhakti.md
+  - seva.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

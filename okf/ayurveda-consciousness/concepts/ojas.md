@@ -24,10 +24,10 @@ not:
 - term: 'a supplement target'
   why: 'No substance is ojas in a bottle. Classically ojas is built by complete digestion, conduct, rest, and rasāyana discipline; the shortcut framing inverts the causal story.'
 related:
-- /concepts/dhatu.md
-- /concepts/agni.md
-- /concepts/kapha.md
-- /concepts/prana-tejas-ojas.md
+- dhatu.md
+- agni.md
+- kapha.md
+- prana-tejas-ojas.md
 reception_note: 'Marketed as immunity in supplement copy. The file describes the classical concept and makes no product or clinical claims.'
 timestamp: '2026-07-09'
 okf_version: '0.2'
