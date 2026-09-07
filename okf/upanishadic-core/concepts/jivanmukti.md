@@ -74,7 +74,7 @@ A surgeon operates under bright lights. The lights illuminate the operating fiel
 
 ## Citations
 
-1. Vivekacūḍāmaṇi vv. 428–570 (Śaṅkarācārya) — the Jīvanmukta described; see [references/vivekachudamani.md]
-2. Jīvanmuktiviveka (Vidyāraṇya) — the full treatise on Jīvanmukti; see [references/jivanmuktiviveka.md]
-3. Bṛhadāraṇyaka Upaniṣad 4.4.6 — the knower of Brahman becomes Brahman; see [references/brhadaranyaka-upanishad.md]
-4. Bhagavad Gītā 2.54–72 — Sthitaprajña as the practical portrait of the Jīvanmukta; see [references/bhagavad-gita.md]
+1. Vivekacūḍāmaṇi vv. 428–570 (Śaṅkarācārya) — the Jīvanmukta described; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+2. Jīvanmuktiviveka (Vidyāraṇya) — the full treatise on Jīvanmukti; see [Jīvanmuktiviveka](../references/jivanmuktiviveka.md)
+3. Bṛhadāraṇyaka Upaniṣad 4.4.6 — the knower of Brahman becomes Brahman; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+4. Bhagavad Gītā 2.54–72 — Sthitaprajña as the practical portrait of the Jīvanmukta; see [Bhagavad Gītā](../references/bhagavad-gita.md)

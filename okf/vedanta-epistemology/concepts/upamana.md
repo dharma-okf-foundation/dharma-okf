@@ -106,7 +106,7 @@ Like being told 'the new visiting professor looks like her more famous sibling' 
 
 ## Citations
 
-1. [Tarkasaṃgraha](/references/tarkasangraha.md) §§21–22 — Annambhaṭṭa's concise analysis of upamāna and its classic example (gavaya recognition)
-2. [Vedāntaparibhāṣā](/references/vedantaparibhasha.md) Ch.4 — Dharmarāja Adhvarin's treatment of upamāna as a genuine pramāṇa in Advaita
+1. [Tarkasaṃgraha](../references/tarkasangraha.md) §§21–22 — Annambhaṭṭa's concise analysis of upamāna and its classic example (gavaya recognition)
+2. [Vedāntaparibhāṣā](../references/vedantaparibhasha.md) Ch.4 — Dharmarāja Adhvarin's treatment of upamāna as a genuine pramāṇa in Advaita
 3. Nyāyadarśana 1.1.6 — Gautama's definition of upamāna as knowledge of a referent through resemblance to a known
-4. [Ślokavarttika](/references/slokavarttika.md) — Kumārila Bhaṭṭa's Mīmāṃsā analysis of upamāna and its difference from inference
+4. [Ślokavarttika](../references/slokavarttika.md) — Kumārila Bhaṭṭa's Mīmāṃsā analysis of upamāna and its difference from inference

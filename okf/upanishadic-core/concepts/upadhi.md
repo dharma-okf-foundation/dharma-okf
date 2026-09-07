@@ -72,7 +72,7 @@ A microphone placed near a speaker produces feedback — the speaker's sound ent
 
 ## Citations
 
-1. Vivekacūḍāmaṇi vv. 118–127 (Śaṅkarācārya) — Upādhi and the three bodies; crystal analogy; see [references/vivekachudamani.md]
-2. Pañcadaśī 3.1–15 (Vidyāraṇya) — Upādhi of Brahman in creation; see [references/panchadashi.md]
-3. Vedāntasāra 60–68 (Sadānanda) — systematic analysis of Upādhi; see [references/vedantasara.md]
-4. Bṛhadāraṇyaka Upaniṣad 2.3.1–6 — the two forms of Brahman (mortal/immortal) as proto-Upādhi analysis; see [references/brhadaranyaka-upanishad.md]
+1. Vivekacūḍāmaṇi vv. 118–127 (Śaṅkarācārya) — Upādhi and the three bodies; crystal analogy; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+2. Pañcadaśī 3.1–15 (Vidyāraṇya) — Upādhi of Brahman in creation; see [Pañcadaśī](../references/panchadashi.md)
+3. Vedāntasāra 60–68 (Sadānanda) — systematic analysis of Upādhi; see [Vedāntasāra](../references/vedantasara.md)
+4. Bṛhadāraṇyaka Upaniṣad 2.3.1–6 — the two forms of Brahman (mortal/immortal) as proto-Upādhi analysis; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)

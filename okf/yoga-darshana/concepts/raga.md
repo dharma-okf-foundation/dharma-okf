@@ -119,6 +119,6 @@ Rāga is the phone's recommendation algorithm applied to experience: the system 
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 2.7
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 2.7
-3. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 2.7
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 2.7
+3. [Sāṃkhya Kārikā](../references/samkhya-karika.md) of Īśvarakṛṣṇa

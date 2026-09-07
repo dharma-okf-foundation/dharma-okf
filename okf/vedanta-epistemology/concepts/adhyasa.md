@@ -124,7 +124,7 @@ Like wearing glasses you've forgotten you have on — not prescription glasses t
 
 ## Citations
 
-1. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) — Adhyāsa-bhāṣya — Śaṅkara's introduction to the Brahmasūtra Bhāṣya; the most precise technical definition of adhyāsa in the Advaita corpus; definition, the nacre-silver example, mutual superimposition, the role of adhyāsa in making Vedānta inquiry necessary
-2. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) vv.131–137 — Śaṅkara on adhyāsa as the co-mingling (mithyāmadhyāropita) of Ātman and anātman; the body-mind-intellect complex taken as 'I'
-3. [Pañcadaśī](/references/panchadashi.md) 1.7–8 (Vidyāraṇya) — adhyāsa producing ahaṃkāra (ego) and the cycle of saṃsāra
-4. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) 2.1.14 — Śaṅkara on why pramāṇas operate within the frame of adhyāsa and therefore cannot dissolve it
+1. [Brahmasūtra Bhāṣya](../references/brahmasutra-bhasya.md) — Adhyāsa-bhāṣya — Śaṅkara's introduction to the Brahmasūtra Bhāṣya; the most precise technical definition of adhyāsa in the Advaita corpus; definition, the nacre-silver example, mutual superimposition, the role of adhyāsa in making Vedānta inquiry necessary
+2. [Vivekacūḍāmaṇi](../references/vivekachudamani.md) vv.131–137 — Śaṅkara on adhyāsa as the co-mingling (mithyāmadhyāropita) of Ātman and anātman; the body-mind-intellect complex taken as 'I'
+3. [Pañcadaśī](../references/panchadashi.md) 1.7–8 (Vidyāraṇya) — adhyāsa producing ahaṃkāra (ego) and the cycle of saṃsāra
+4. [Brahmasūtra Bhāṣya](../references/brahmasutra-bhasya.md) 2.1.14 — Śaṅkara on why pramāṇas operate within the frame of adhyāsa and therefore cannot dissolve it

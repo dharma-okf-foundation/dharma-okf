@@ -68,6 +68,6 @@ A man raised in an orphanage discovers documentation proving his biological heri
 
 ## Citations
 
-1. Chāndogya Upaniṣad 6.8.7–6.16.3 — source text; repeated dialogue of Uddālaka and Śvetaketu; see [references/chandogya-upanishad.md]
-2. Brahmasūtra Bhāṣya 1.1.4 (Śaṅkarācārya) — jahadajahallakṣaṇā as interpretive method; see [references/brahmasutra-bhashya.md]
-3. Vivekacūḍāmaṇi vv. 256–257 (Śaṅkarācārya) — Mahāvākya in pedagogical sequence; see [references/vivekachudamani.md]
+1. Chāndogya Upaniṣad 6.8.7–6.16.3 — source text; repeated dialogue of Uddālaka and Śvetaketu; see [Chāndogya Upaniṣad](../references/chandogya-upanishad.md)
+2. Brahmasūtra Bhāṣya 1.1.4 (Śaṅkarācārya) — jahadajahallakṣaṇā as interpretive method; see [Brahmasūtra Bhāṣya](../references/brahmasutra-bhashya.md)
+3. Vivekacūḍāmaṇi vv. 256–257 (Śaṅkarācārya) — Mahāvākya in pedagogical sequence; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)

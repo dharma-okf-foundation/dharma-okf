@@ -74,7 +74,7 @@ A traveler on a long journey stops at a rest house. While resting, they are unaw
 
 ## Citations
 
-1. Māṇḍūkya Upaniṣad 5 — Suṣupti and Prājña; see [references/mandukya-upanishad.md]
-2. Māṇḍūkya Kārikā 1.9–14 (Gauḍapāda) — analysis of the deep-sleep state; see [references/mandukya-karika.md]
-3. Taittirīya Upaniṣad 2.5 — Ānandamaya Koṣa as the causal sheath corresponding to Suṣupti; see [references/taittiriya-upanishad.md]
-4. Pañcadaśī 7.1–10 (Vidyāraṇya) — witness of Suṣupti as evidence for Sākṣin; see [references/panchadashi.md]
+1. Māṇḍūkya Upaniṣad 5 — Suṣupti and Prājña; see [Māṇḍūkya Upaniṣad](../references/mandukya-upanishad.md)
+2. Māṇḍūkya Kārikā 1.9–14 (Gauḍapāda) — analysis of the deep-sleep state; see [Māṇḍūkya Kārikā (Gauḍapādīya Kārikā)](../references/mandukya-karika.md)
+3. Taittirīya Upaniṣad 2.5 — Ānandamaya Koṣa as the causal sheath corresponding to Suṣupti; see [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md)
+4. Pañcadaśī 7.1–10 (Vidyāraṇya) — witness of Suṣupti as evidence for Sākṣin; see [Pañcadaśī](../references/panchadashi.md)

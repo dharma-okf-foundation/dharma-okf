@@ -67,6 +67,6 @@ A movie director watching their own film gets fully immersed — the fear is rea
 
 ## Citations
 
-1. Māṇḍūkya Upaniṣad 4 — Svapna and Taijasa; see [references/mandukya-upanishad.md]
-2. Māṇḍūkya Kārikā 1.6–8 (Gauḍapāda) — dream and waking as structurally parallel; see [references/mandukya-karika.md]
-3. Pañcadaśī 1.16–25 (Vidyāraṇya) — Prātibhāsika reality of dream and its implications for Māyā; see [references/panchadashi.md]
+1. Māṇḍūkya Upaniṣad 4 — Svapna and Taijasa; see [Māṇḍūkya Upaniṣad](../references/mandukya-upanishad.md)
+2. Māṇḍūkya Kārikā 1.6–8 (Gauḍapāda) — dream and waking as structurally parallel; see [Māṇḍūkya Kārikā (Gauḍapādīya Kārikā)](../references/mandukya-karika.md)
+3. Pañcadaśī 1.16–25 (Vidyāraṇya) — Prātibhāsika reality of dream and its implications for Māyā; see [Pañcadaśī](../references/panchadashi.md)

@@ -124,7 +124,7 @@ Pariṇāma is like water changing state: liquid water, ice, and steam are not t
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 3.9-3.16
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 3.9-3.16
-3. [Sāṃkhya Kārikā](/references/samkhya-karika.md) on satkāryavāda (kārikā 9-11)
-4. [Tattvavaiśāradī](/references/tattvavaisharadi.md) of Vācaspatimiśra on the three pariṇāma-s
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 3.9-3.16
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 3.9-3.16
+3. [Sāṃkhya Kārikā](../references/samkhya-karika.md) on satkāryavāda (kārikā 9-11)
+4. [Tattvavaiśāradī](../references/tattvavaisharadi.md) of Vācaspatimiśra on the three pariṇāma-s

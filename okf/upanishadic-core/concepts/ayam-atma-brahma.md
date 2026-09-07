@@ -70,6 +70,6 @@ A student searches the entire library for a book, not realizing it is in their h
 
 ## Citations
 
-1. Māṇḍūkya Upaniṣad 1.2 — source text; see [references/mandukya-upanishad.md]
-2. Māṇḍūkya Kārikā (Gauḍapāda) 1.1–2 — Ajātivāda and the four states; see [references/mandukya-karika.md]
-3. Vivekacūḍāmaṇi vv. 257–258 (Śaṅkarācārya) — Mahāvākya schema; see [references/vivekachudamani.md]
+1. Māṇḍūkya Upaniṣad 1.2 — source text; see [Māṇḍūkya Upaniṣad](../references/mandukya-upanishad.md)
+2. Māṇḍūkya Kārikā (Gauḍapāda) 1.1–2 — Ajātivāda and the four states; see [Māṇḍūkya Kārikā (Gauḍapādīya Kārikā)](../references/mandukya-karika.md)
+3. Vivekacūḍāmaṇi vv. 257–258 (Śaṅkarācārya) — Mahāvākya schema; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)

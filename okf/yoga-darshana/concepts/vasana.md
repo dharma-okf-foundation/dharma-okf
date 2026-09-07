@@ -121,7 +121,7 @@ Vāsanā is the magnetic bias baked into a compass. The compass (citta) can swin
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 4.8-4.9, 4.24
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 4.8-4.9
-3. [Sāṃkhya Kārikā](/references/samkhya-karika.md) (kārikā 44) on subtle body and vāsanā
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 4.8-4.9, 4.24
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 4.8-4.9
+3. [Sāṃkhya Kārikā](../references/samkhya-karika.md) (kārikā 44) on subtle body and vāsanā
 4. Bṛhadāraṇyaka Upaniṣad 4.4.5-6 (vāsanā and rebirth)

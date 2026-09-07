@@ -103,7 +103,7 @@ Sattva is clean glass in a window. With thick Tamas-glass, you can't see outside
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 3.35, 3.49-3.56
-2. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa (kārikā 12-13)
-3. [Bhagavad Gītā](/references/bhagavad-gita.md) 14.6-9
-4. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 3.49
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 3.35, 3.49-3.56
+2. [Sāṃkhya Kārikā](../references/samkhya-karika.md) of Īśvarakṛṣṇa (kārikā 12-13)
+3. [Bhagavad Gītā](../references/bhagavad-gita.md) 14.6-9
+4. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 3.49

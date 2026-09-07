@@ -113,6 +113,6 @@ Samāpatti is what happens when a perfectly clear diamond is placed on a red clo
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.41-1.46
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 1.41
-3. [Tattvavaiśāradī](/references/tattvavaisharadi.md) of Vācaspatimiśra on YS 1.41
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 1.41-1.46
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 1.41
+3. [Tattvavaiśāradī](../references/tattvavaisharadi.md) of Vācaspatimiśra on YS 1.41

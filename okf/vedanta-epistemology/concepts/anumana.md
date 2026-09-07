@@ -129,10 +129,10 @@ Like seeing smoke on a distant mountain and knowing there must be fire — not b
 
 ## Citations
 
-1. [Tarkasaṃgraha](/references/tarkasangraha.md) §§14–20 — Annambhaṭṭa's analysis of anumāna, the five-membered argument (pañcāvayava), and the types of hetu (reason)
-2. [Vedāntaparibhāṣā](/references/vedantaparibhasha.md) Ch.3 — Dharmarāja Adhvarin's treatment of anumāna within Advaita epistemology, including its scope and limits relative to Brahman-knowledge
+1. [Tarkasaṃgraha](../references/tarkasangraha.md) §§14–20 — Annambhaṭṭa's analysis of anumāna, the five-membered argument (pañcāvayava), and the types of hetu (reason)
+2. [Vedāntaparibhāṣā](../references/vedantaparibhasha.md) Ch.3 — Dharmarāja Adhvarin's treatment of anumāna within Advaita epistemology, including its scope and limits relative to Brahman-knowledge
 3. Nyāyadarśana 1.1.5 — Gautama's definition of anumāna
-4. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) 2.1.6 — Śaṅkara on the limits of anumāna in establishing Brahman's nature
+4. [Brahmasūtra Bhāṣya](../references/brahmasutra-bhasya.md) 2.1.6 — Śaṅkara on the limits of anumāna in establishing Brahman's nature
 
 ## Cross-Darśana Note (Nyāya anumāna)
 

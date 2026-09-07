@@ -72,6 +72,6 @@ Imagine someone who has forgotten their name due to amnesia and has been calling
 
 ## Citations
 
-1. Bṛhadāraṇyaka Upaniṣad 1.4.10 — source text; Śaṅkara's Bhāṣya; see [references/brhadaranyaka-upanishad.md]
-2. Vivekacūḍāmaṇi vv. 254–255 (Śaṅkarācārya) — Mahāvākya schema and the identity of Ātman and Brahman; see [references/vivekachudamani.md]
-3. Upadesasāhasrī 2.1 (Śaṅkarācārya) — direct inquiry into the "I" referent; see [references/upadesasahasri.md]
+1. Bṛhadāraṇyaka Upaniṣad 1.4.10 — source text; Śaṅkara's Bhāṣya; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+2. Vivekacūḍāmaṇi vv. 254–255 (Śaṅkarācārya) — Mahāvākya schema and the identity of Ātman and Brahman; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+3. Upadesasāhasrī 2.1 (Śaṅkarācārya) — direct inquiry into the "I" referent; see [Upadesasāhasrī](../references/upadesasahasri.md)

@@ -70,6 +70,6 @@ An orchestra is playing. Every instrument is making sound because of the acousti
 
 ## Citations
 
-1. Bṛhadāraṇyaka Upaniṣad 3.7.1–23 — the full Antaryāmin teaching; see [references/brhadaranyaka-upanishad.md]
-2. Brahmasūtra Bhāṣya 1.2.18–20 (Śaṅkarācārya) — Antaryāmin as Brahman; see [references/brahmasutra-bhashya.md]
-3. Pañcadaśī 7.1–10 (Vidyāraṇya) — Sākṣin as the Antaryāmin recognized through inquiry; see [references/panchadashi.md]
+1. Bṛhadāraṇyaka Upaniṣad 3.7.1–23 — the full Antaryāmin teaching; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+2. Brahmasūtra Bhāṣya 1.2.18–20 (Śaṅkarācārya) — Antaryāmin as Brahman; see [Brahmasūtra Bhāṣya](../references/brahmasutra-bhashya.md)
+3. Pañcadaśī 7.1–10 (Vidyāraṇya) — Sākṣin as the Antaryāmin recognized through inquiry; see [Pañcadaśī](../references/panchadashi.md)

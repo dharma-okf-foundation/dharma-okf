@@ -129,6 +129,6 @@ Nirodha is not turning off the projector. It is recognizing that the screen was 
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.2, 1.12-1.16, 1.51, 3.9-3.10
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 1.2 and 3.9
-3. [Tattvavaiśāradī](/references/tattvavaisharadi.md) of Vācaspatimiśra on YS 1.2
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 1.2, 1.12-1.16, 1.51, 3.9-3.10
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 1.2 and 3.9
+3. [Tattvavaiśāradī](../references/tattvavaisharadi.md) of Vācaspatimiśra on YS 1.2

@@ -109,6 +109,6 @@ Pratyāhāra is like a general who has been sending scouts out in all directions
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 2.54-2.55
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 2.54
-3. [Hatha Yoga Pradīpikā](/references/hatha-yoga-pradipika.md) 4.1-4.9 (on pratyāhāra as prerequisite for prāṇāyāma-nāḍī-śuddhi)
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 2.54-2.55
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 2.54
+3. [Hatha Yoga Pradīpikā](../references/hatha-yoga-pradipika.md) 4.1-4.9 (on pratyāhāra as prerequisite for prāṇāyāma-nāḍī-śuddhi)

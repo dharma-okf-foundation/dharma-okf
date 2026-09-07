@@ -71,6 +71,6 @@ A detective needs to establish a suspect's alibi. They check all three possible 
 
 ## Citations
 
-1. Māṇḍūkya Upaniṣad 2–7 — source text for the three states and Turīya; see [references/mandukya-upanishad.md]
-2. Māṇḍūkya Kārikā 1.1–16 (Gauḍapāda) — Avasthātraya as the laboratory of Ajātivāda inquiry; see [references/mandukya-karika.md]
-3. Pañcadaśī 1.1–15 (Vidyāraṇya) — three-states analysis as a method of witness-identification; see [references/panchadashi.md]
+1. Māṇḍūkya Upaniṣad 2–7 — source text for the three states and Turīya; see [Māṇḍūkya Upaniṣad](../references/mandukya-upanishad.md)
+2. Māṇḍūkya Kārikā 1.1–16 (Gauḍapāda) — Avasthātraya as the laboratory of Ajātivāda inquiry; see [Māṇḍūkya Kārikā (Gauḍapādīya Kārikā)](../references/mandukya-karika.md)
+3. Pañcadaśī 1.1–15 (Vidyāraṇya) — three-states analysis as a method of witness-identification; see [Pañcadaśī](../references/panchadashi.md)

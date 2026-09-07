@@ -71,7 +71,7 @@ A doctor can give a diagnosis in a crowded waiting room, but it lands differentl
 
 ## Citations
 
-1. Bṛhadāraṇyaka Upaniṣad 2.4.5 — Yājñavalkya's formulation; see [references/brhadaranyaka-upanishad.md]
-2. Brahmasūtra Bhāṣya 1.1.4 (Śaṅkarācārya) — Śabda as the pramāṇa for Brahma-jñāna; see [references/brahmasutra-bhashya.md]
-3. Vivekacūḍāmaṇi vv. 364–366 (Śaṅkarācārya) — the triad in relation to liberation; see [references/vivekachudamani.md]
-4. Upadesasāhasrī 1.1 (Śaṅkarācārya) — Guru's instruction as condition for Śravaṇa; see [references/upadesasahasri.md]
+1. Bṛhadāraṇyaka Upaniṣad 2.4.5 — Yājñavalkya's formulation; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+2. Brahmasūtra Bhāṣya 1.1.4 (Śaṅkarācārya) — Śabda as the pramāṇa for Brahma-jñāna; see [Brahmasūtra Bhāṣya](../references/brahmasutra-bhashya.md)
+3. Vivekacūḍāmaṇi vv. 364–366 (Śaṅkarācārya) — the triad in relation to liberation; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+4. Upadesasāhasrī 1.1 (Śaṅkarācārya) — Guru's instruction as condition for Śravaṇa; see [Upadesasāhasrī](../references/upadesasahasri.md)

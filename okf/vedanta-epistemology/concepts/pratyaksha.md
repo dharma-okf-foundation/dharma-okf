@@ -115,7 +115,7 @@ Like the difference between raw video footage of an unfamiliar face (nirvikalpak
 
 ## Citations
 
-1. [Vedāntaparibhāṣā](/references/vedantaparibhasha.md) Ch.2 — Dharmarāja Adhvarin's full analysis of pratyakṣa in Advaita, including external and internal (mānasa) pratyakṣa
-2. [Advaitasiddhi](/references/advaitasiddhi.md) — Madhusūdana Sarasvatī on nirvikalpaka pratyakṣa and its status as genuine pramāṇa
+1. [Vedāntaparibhāṣā](../references/vedantaparibhasha.md) Ch.2 — Dharmarāja Adhvarin's full analysis of pratyakṣa in Advaita, including external and internal (mānasa) pratyakṣa
+2. [Advaitasiddhi](../references/advaitasiddhi.md) — Madhusūdana Sarasvatī on nirvikalpaka pratyakṣa and its status as genuine pramāṇa
 3. Nyāyadarśana 1.1.4 — Gautama's definition of pratyakṣa as indriya-artha-sannikarṣa-ja (born of sense-object contact)
-4. [Tarkasaṃgraha](/references/tarkasangraha.md) §§6–13 — Annambhaṭṭa's detailed analysis of the six types of sannikarṣa (contact relations)
+4. [Tarkasaṃgraha](../references/tarkasangraha.md) §§6–13 — Annambhaṭṭa's detailed analysis of the six types of sannikarṣa (contact relations)

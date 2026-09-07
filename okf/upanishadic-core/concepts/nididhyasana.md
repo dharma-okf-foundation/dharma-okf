@@ -74,7 +74,7 @@ A person who has learned to ride a bicycle still falls occasionally when they ar
 
 ## Citations
 
-1. Bṛhadāraṇyaka Upaniṣad 2.4.5 — Yājñavalkya's formulation; see [references/brhadaranyaka-upanishad.md]
-2. Vivekacūḍāmaṇi vv. 362–366 (Śaṅkarācārya) — the triad and the removal of viparīta-bhāvanā; see [references/vivekachudamani.md]
-3. Brahmasūtra Bhāṣya 1.1.4 (Śaṅkarācārya) — the stages of inquiry and the role of Śravaṇa-Manana-Nididhyāsana; see [references/brahmasutra-bhashya.md]
-4. Upadesasāhasrī 2.1–3 (Śaṅkarācārya) — Nididhyāsana and the Guru's role in its completion; see [references/upadesasahasri.md]
+1. Bṛhadāraṇyaka Upaniṣad 2.4.5 — Yājñavalkya's formulation; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+2. Vivekacūḍāmaṇi vv. 362–366 (Śaṅkarācārya) — the triad and the removal of viparīta-bhāvanā; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+3. Brahmasūtra Bhāṣya 1.1.4 (Śaṅkarācārya) — the stages of inquiry and the role of Śravaṇa-Manana-Nididhyāsana; see [Brahmasūtra Bhāṣya](../references/brahmasutra-bhashya.md)
+4. Upadesasāhasrī 2.1–3 (Śaṅkarācārya) — Nididhyāsana and the Guru's role in its completion; see [Upadesasāhasrī](../references/upadesasahasri.md)

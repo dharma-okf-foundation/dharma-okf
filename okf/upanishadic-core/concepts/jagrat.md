@@ -63,5 +63,5 @@ A person wakes up and immediately assumes the waking-world is "the real one." Bu
 
 ## Citations
 
-1. Māṇḍūkya Upaniṣad 3 — Jāgrat and Viśva; see [references/mandukya-upanishad.md]
-2. Māṇḍūkya Kārikā 1.1–6 (Gauḍapāda) — the waking state as structurally parallel to dream; see [references/mandukya-karika.md]
+1. Māṇḍūkya Upaniṣad 3 — Jāgrat and Viśva; see [Māṇḍūkya Upaniṣad](../references/mandukya-upanishad.md)
+2. Māṇḍūkya Kārikā 1.1–6 (Gauḍapāda) — the waking state as structurally parallel to dream; see [Māṇḍūkya Kārikā (Gauḍapādīya Kārikā)](../references/mandukya-karika.md)

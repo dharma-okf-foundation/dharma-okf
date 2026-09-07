@@ -106,6 +106,6 @@ Citta is a still lake and citta-vṛttis are the waves. When wind blows (sensory
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.2, 1.5-1.11, 1.17-1.18, 4.18-4.19
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 1.2 and 1.5
-3. [Vyāsabhāṣya](/references/yoga-bhasya.md) on the definition and enumeration of vṛttis
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 1.2, 1.5-1.11, 1.17-1.18, 4.18-4.19
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 1.2 and 1.5
+3. [Vyāsabhāṣya](../references/yoga-bhasya.md) on the definition and enumeration of vṛttis

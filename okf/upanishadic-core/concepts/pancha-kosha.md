@@ -82,7 +82,7 @@ A traveler searching for a treasure follows a map that describes the treasure as
 
 ## Citations
 
-1. Taittirīya Upaniṣad 2.1–5 — the five Kośas; see [references/taittiriya-upanishad.md]
-2. Taittirīya Upaniṣad 2.8–9 — the Ānanda-Mīmāṃsā and its conclusion; see [references/taittiriya-upanishad.md]
-3. Vivekacūḍāmaṇi vv. 150–230 (Śaṅkarācārya) — systematic analysis of each Kośa as Anātman; see [references/vivekachudamani.md]
-4. Ātmabodha vv. 14–19 (attributed Śaṅkarācārya) — the five sheaths and the Ātman; see [references/atmabodha.md]
+1. Taittirīya Upaniṣad 2.1–5 — the five Kośas; see [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md)
+2. Taittirīya Upaniṣad 2.8–9 — the Ānanda-Mīmāṃsā and its conclusion; see [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md)
+3. Vivekacūḍāmaṇi vv. 150–230 (Śaṅkarācārya) — systematic analysis of each Kośa as Anātman; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+4. Ātmabodha vv. 14–19 (attributed Śaṅkarācārya) — the five sheaths and the Ātman; see [Ātmabodha](../references/atmabodha.md)

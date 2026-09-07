@@ -76,8 +76,8 @@ A cinema screen has no color of its own. A red scene appears on it — the scree
 
 ## Citations
 
-1. Bṛhadāraṇyaka Upaniṣad 3.9.26 — Neti Neti as the approach to Nirguṇa; see [references/brhadaranyaka-upanishad.md]
-2. Bṛhadāraṇyaka Upaniṣad 4.4.22 — "vijñātaraṃ are kena vijānīyāt" — by what would you know the knower?; see [references/brhadaranyaka-upanishad.md]
-3. Māṇḍūkya Upaniṣad 7 — Turīya as Nirguṇa; see [references/mandukya-upanishad.md]
-4. Taittirīya Upaniṣad 2.4 — yato vāco nivartante; see [references/taittiriya-upanishad.md]
-5. Brahmasūtra Bhāṣya 1.1.4 (Śaṅkarācārya) — on the self-luminous and attributeless Brahman; see [references/brahmasutra-bhashya.md]
+1. Bṛhadāraṇyaka Upaniṣad 3.9.26 — Neti Neti as the approach to Nirguṇa; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+2. Bṛhadāraṇyaka Upaniṣad 4.4.22 — "vijñātaraṃ are kena vijānīyāt" — by what would you know the knower?; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+3. Māṇḍūkya Upaniṣad 7 — Turīya as Nirguṇa; see [Māṇḍūkya Upaniṣad](../references/mandukya-upanishad.md)
+4. Taittirīya Upaniṣad 2.4 — yato vāco nivartante; see [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md)
+5. Brahmasūtra Bhāṣya 1.1.4 (Śaṅkarācārya) — on the self-luminous and attributeless Brahman; see [Brahmasūtra Bhāṣya](../references/brahmasutra-bhashya.md)

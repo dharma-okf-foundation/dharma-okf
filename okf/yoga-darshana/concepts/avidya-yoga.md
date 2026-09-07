@@ -105,7 +105,7 @@ Avidyā is like seeing a rope in dim light and mistaking it for a snake — but 
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 2.4–2.5
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 2.4–2.5
-3. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa (kārikā 44)
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 2.4–2.5
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 2.4–2.5
+3. [Sāṃkhya Kārikā](../references/samkhya-karika.md) of Īśvarakṛṣṇa (kārikā 44)
 4. Rajiv Malhotra — Sanskrit Non-Translatables (2020)

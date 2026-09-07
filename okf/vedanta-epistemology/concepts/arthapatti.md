@@ -104,7 +104,7 @@ Like discovering that a student's exam score is top of the class, yet they never
 
 ## Citations
 
-1. [Vedāntaparibhāṣā](/references/vedantaparibhasha.md) Ch.5 — Dharmarāja Adhvarin's analysis of arthāpatti as the fifth Advaita pramāṇa; definition and distinction from anumāna
-2. [Mīmāṃsāsūtra](/references/mimamsa-sutra.md) 1.1.5 — Jaimini on postulation in the context of Vedic interpretation; arthāpatti as the operative instrument when injunction and observed fact conflict
-3. [Ślokavarttika](/references/slokavarttika.md) — Arthāpattipariccheda — Kumārila Bhaṭṭa's extensive defence of arthāpatti as irreducible to anumāna
-4. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) 2.1.14 — Śaṅkara's use of arthāpatti-type reasoning in reconciling apparently contradictory Upaniṣadic passages
+1. [Vedāntaparibhāṣā](../references/vedantaparibhasha.md) Ch.5 — Dharmarāja Adhvarin's analysis of arthāpatti as the fifth Advaita pramāṇa; definition and distinction from anumāna
+2. [Mīmāṃsāsūtra](../references/mimamsa-sutra.md) 1.1.5 — Jaimini on postulation in the context of Vedic interpretation; arthāpatti as the operative instrument when injunction and observed fact conflict
+3. [Ślokavarttika](../references/slokavarttika.md) — Arthāpattipariccheda — Kumārila Bhaṭṭa's extensive defence of arthāpatti as irreducible to anumāna
+4. [Brahmasūtra Bhāṣya](../references/brahmasutra-bhasya.md) 2.1.14 — Śaṅkara's use of arthāpatti-type reasoning in reconciling apparently contradictory Upaniṣadic passages

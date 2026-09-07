@@ -87,7 +87,7 @@ A cinema projector illuminates the screen — the images appear because of the l
 
 ## Citations
 
-1. Pañcadaśī 7.1–10 (Vidyāraṇya) — Sākṣin as distinct from Pramātā; self-luminosity; see [references/panchadashi.md]
-2. Vivekacūḍāmaṇi vv. 316–322 (Śaṅkarācārya) — the witness and its qualities; see [references/vivekachudamani.md]
-3. Bṛhadāraṇyaka Upaniṣad 3.7.23 — the Antaryāmin passage as proto-Sākṣin formulation; see [references/brhadaranyaka-upanishad.md]
-4. Aparokṣānubhūti vv. 12–16 (attributed Śaṅkarācārya) — direct inquiry into Sākṣin; see [references/aparokshanubhuti.md]
+1. Pañcadaśī 7.1–10 (Vidyāraṇya) — Sākṣin as distinct from Pramātā; self-luminosity; see [Pañcadaśī](../references/panchadashi.md)
+2. Vivekacūḍāmaṇi vv. 316–322 (Śaṅkarācārya) — the witness and its qualities; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+3. Bṛhadāraṇyaka Upaniṣad 3.7.23 — the Antaryāmin passage as proto-Sākṣin formulation; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+4. Aparokṣānubhūti vv. 12–16 (attributed Śaṅkarācārya) — direct inquiry into Sākṣin; see [Aparokṣānubhūti](../references/aparokshanubhuti.md)

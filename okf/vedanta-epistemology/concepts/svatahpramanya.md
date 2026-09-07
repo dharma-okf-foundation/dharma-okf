@@ -129,6 +129,6 @@ When you open your eyes in good light and see a mango on the table, you do not t
 
 ## Citations
 
-1. [Ślokavārttika](/references/slokavarttika.md), Sūtra 2 (Kumārila Bhaṭṭa) — the locus classicus: 'svataḥ sarvasya prāmāṇyam' (the validity of all cognitions arises intrinsically); prāmāṇya co-arises with the cognition from the same causal factors; aprāmāṇya (invalidity) arises from external doṣas (defects); the two-part thesis
-2. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) 1.1.3 (Śaṅkara) — Śruti (Vedic testimony) is svataḥprāmāṇya: its authority is self-originating, not dependent on a human author's credibility or on external verification; this grounds the Advaita use of Mahāvākyas as autonomous pramāṇa
-3. Nyāyasūtra 2.1.16 and [Nyāyabhāṣya](/references/nyaya-bhasya.md) (Gautama / Vātsyāyana) — paratahprāmāṇya: validity is established by something external to the cognition (verification, correspondence, successful action); the rival position that defines svataḥprāmāṇya by contrast
+1. [Ślokavārttika](../references/slokavarttika.md), Sūtra 2 (Kumārila Bhaṭṭa) — the locus classicus: 'svataḥ sarvasya prāmāṇyam' (the validity of all cognitions arises intrinsically); prāmāṇya co-arises with the cognition from the same causal factors; aprāmāṇya (invalidity) arises from external doṣas (defects); the two-part thesis
+2. [Brahmasūtra Bhāṣya](../references/brahmasutra-bhasya.md) 1.1.3 (Śaṅkara) — Śruti (Vedic testimony) is svataḥprāmāṇya: its authority is self-originating, not dependent on a human author's credibility or on external verification; this grounds the Advaita use of Mahāvākyas as autonomous pramāṇa
+3. Nyāyasūtra 2.1.16 and [Nyāyabhāṣya](../references/nyaya-bhasya.md) (Gautama / Vātsyāyana) — paratahprāmāṇya: validity is established by something external to the cognition (verification, correspondence, successful action); the rival position that defines svataḥprāmāṇya by contrast

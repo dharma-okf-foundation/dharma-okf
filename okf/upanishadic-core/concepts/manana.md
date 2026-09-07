@@ -71,6 +71,6 @@ A lawyer receives a credible witness statement (Śravaṇa) and prepares for cro
 
 ## Citations
 
-1. Bṛhadāraṇyaka Upaniṣad 2.4.5 — Yājñavalkya's formulation of the triad; see [references/brhadaranyaka-upanishad.md]
-2. Vivekacūḍāmaṇi vv. 364–367 (Śaṅkarācārya) — the triad and the role of doubt-removal; see [references/vivekachudamani.md]
-3. Aparokṣānubhūti vv. 1–8 (attributed to Śaṅkarācārya) — the role of Manana in the path to direct recognition; see [references/aparokshanubhuti.md]
+1. Bṛhadāraṇyaka Upaniṣad 2.4.5 — Yājñavalkya's formulation of the triad; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+2. Vivekacūḍāmaṇi vv. 364–367 (Śaṅkarācārya) — the triad and the role of doubt-removal; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+3. Aparokṣānubhūti vv. 1–8 (attributed to Śaṅkarācārya) — the role of Manana in the path to direct recognition; see [Aparokṣānubhūti](../references/aparokshanubhuti.md)

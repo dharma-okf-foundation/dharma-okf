@@ -124,7 +124,7 @@ In the dream, there is a fire that burns a house. The fire is real within the dr
 
 ## Citations
 
-1. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) 1.1.2 (Śaṅkara) — jijñāsā (inquiry into Brahman); Brahman as sat, cit, ānanda; pāramārthika status as the issue all of Vedānta addresses
-2. [Māṇḍūkya Kārikā](/references/mandukya-karika.md) 3.18 (Gauḍapāda) — ajāti (no-origination doctrine); Brahman as never undergoing birth, change, or dissolution; the pāramārthika is precisely what survives all sublation
-3. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) v.20 (Śaṅkara) — brahma satyaṃ jagat mithyā: Brahman is satyam (real, pāramārthika); the world is mithyā (vyāvahārika-prātibhāsika)
-4. [Pañcadaśī](/references/panchadashi.md) 1.7 (Vidyāraṇya) — explicit three-level taxonomy: pāramārthika, vyāvahārika, prātibhāsika
+1. [Brahmasūtra Bhāṣya](../references/brahmasutra-bhasya.md) 1.1.2 (Śaṅkara) — jijñāsā (inquiry into Brahman); Brahman as sat, cit, ānanda; pāramārthika status as the issue all of Vedānta addresses
+2. [Māṇḍūkya Kārikā](../references/mandukya-karika.md) 3.18 (Gauḍapāda) — ajāti (no-origination doctrine); Brahman as never undergoing birth, change, or dissolution; the pāramārthika is precisely what survives all sublation
+3. [Vivekacūḍāmaṇi](../references/vivekachudamani.md) v.20 (Śaṅkara) — brahma satyaṃ jagat mithyā: Brahman is satyam (real, pāramārthika); the world is mithyā (vyāvahārika-prātibhāsika)
+4. [Pañcadaśī](../references/panchadashi.md) 1.7 (Vidyāraṇya) — explicit three-level taxonomy: pāramārthika, vyāvahārika, prātibhāsika

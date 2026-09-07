@@ -140,6 +140,6 @@ Imagine seeing a face in a cloud formation. The face is really there as an appea
 
 ## Citations
 
-1. [Pañcadaśī](/references/panchadashi.md) 1.7 (Vidyāraṇya) — explicit three-level taxonomy: prātibhāsika (snake-rope, dream), vyāvahārika (waking world), pāramārthika (Brahman)
-2. [Māṇḍūkya Kārikā](/references/mandukya-karika.md) 2.3–5 (Gauḍapāda) — dream objects as real within the dream-state and sublated by waking; the waking-dream parallel as the key argument for vyāvahārika being similarly mithyā
-3. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) 2.1.14 (Śaṅkara) — snake-rope example as the paradigm for ontological analysis; the three-valued ontology implicit in the treatment of anirvacanīya
+1. [Pañcadaśī](../references/panchadashi.md) 1.7 (Vidyāraṇya) — explicit three-level taxonomy: prātibhāsika (snake-rope, dream), vyāvahārika (waking world), pāramārthika (Brahman)
+2. [Māṇḍūkya Kārikā](../references/mandukya-karika.md) 2.3–5 (Gauḍapāda) — dream objects as real within the dream-state and sublated by waking; the waking-dream parallel as the key argument for vyāvahārika being similarly mithyā
+3. [Brahmasūtra Bhāṣya](../references/brahmasutra-bhasya.md) 2.1.14 (Śaṅkara) — snake-rope example as the paradigm for ontological analysis; the three-valued ontology implicit in the treatment of anirvacanīya

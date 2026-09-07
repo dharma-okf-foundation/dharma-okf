@@ -122,7 +122,7 @@ Prakṛti is the original codebase from which every program, operating system, h
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 2.18-2.19, 4.2-4.3
-2. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa (kārikā 3-13)
-3. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 2.18
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 2.18-2.19, 4.2-4.3
+2. [Sāṃkhya Kārikā](../references/samkhya-karika.md) of Īśvarakṛṣṇa (kārikā 3-13)
+3. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 2.18
 4. Rajiv Malhotra — Sanskrit Non-Translatables (2020)

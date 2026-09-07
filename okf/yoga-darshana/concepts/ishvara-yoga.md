@@ -161,7 +161,7 @@ Imagine a dojo with an instructor who has never been a beginner — not because 
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.23-1.29
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 1.23-1.29
-3. [Tattvavaiśāradī](/references/tattvavaisharadi.md) of Vācaspatimiśra on YS 1.24
-4. [Sāṃkhya Kārikā](/references/samkhya-karika.md) — for context of Sāṃkhya-without-Īśvara contrast
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 1.23-1.29
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 1.23-1.29
+3. [Tattvavaiśāradī](../references/tattvavaisharadi.md) of Vācaspatimiśra on YS 1.24
+4. [Sāṃkhya Kārikā](../references/samkhya-karika.md) — for context of Sāṃkhya-without-Īśvara contrast

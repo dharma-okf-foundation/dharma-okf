@@ -97,7 +97,7 @@ The kleśa-s are the OS-level bugs in the citta's firmware. You can patch indivi
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 2.3–2.9
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 2.3
-3. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 2.3–2.9
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 2.3
+3. [Sāṃkhya Kārikā](../references/samkhya-karika.md) of Īśvarakṛṣṇa
 4. Light on the Yoga Sūtras — B.K.S. Iyengar

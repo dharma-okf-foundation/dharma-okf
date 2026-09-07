@@ -130,7 +130,7 @@ Like trusting a master ceramicist's description of how to center clay — not be
 
 ## Citations
 
-1. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) 1.1.3 — Śaṅkara's argument that Vedic testimony is the only valid pramāṇa for Brahman-knowledge; neither perception nor inference can reach Brahman's nature
+1. [Brahmasūtra Bhāṣya](../references/brahmasutra-bhasya.md) 1.1.3 — Śaṅkara's argument that Vedic testimony is the only valid pramāṇa for Brahman-knowledge; neither perception nor inference can reach Brahman's nature
 2. Upadesasāhasrī 1.1 — Śaṅkara on how Śruti functions as upadeśa (instruction) that operates directly on the student's understanding to produce brahma-jñāna
-3. [Vedāntaparibhāṣā](/references/vedantaparibhasha.md) Ch.6 — Dharmarāja Adhvarin's formal analysis of śabda-pramāṇa, including the āpta-vākya requirement
-4. [Mīmāṃsāsūtra](/references/mimamsa-sutra.md) 1.1.2 — Jaimini's definition: codanālakṣaṇo'rtho dharmaḥ — dharma is what is indicated by Vedic injunction; grounds Mīmāṃsā claim for Śruti's independence as pramāṇa
+3. [Vedāntaparibhāṣā](../references/vedantaparibhasha.md) Ch.6 — Dharmarāja Adhvarin's formal analysis of śabda-pramāṇa, including the āpta-vākya requirement
+4. [Mīmāṃsāsūtra](../references/mimamsa-sutra.md) 1.1.2 — Jaimini's definition: codanālakṣaṇo'rtho dharmaḥ — dharma is what is indicated by Vedic injunction; grounds Mīmāṃsā claim for Śruti's independence as pramāṇa

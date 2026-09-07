@@ -74,7 +74,7 @@ A teacher says: "The brilliant student in this room — the one who has already 
 
 ## Citations
 
-1. Brahmasūtra Bhāṣya 1.1.1–4 (Śaṅkarācārya) — definition of Brahman and the role of Lakṣaṇa; see [references/brahmasutra-bhashya.md]
-2. Taittirīya Upaniṣad 2.1 — satyam jñānam anantam brahma as Svarūpa Lakṣaṇa; see [references/taittiriya-upanishad.md]
-3. Pañcadaśī 1.6–8 (Vidyāraṇya) — Taṭastha vs. Svarūpa Lakṣaṇa of consciousness; see [references/panchadashi.md]
-4. Upadesasāhasrī 17.1–5 (Śaṅkarācārya) — Svarūpa Lakṣaṇa as the instrument of Ātma-jñāna; see [references/upadesasahasri.md]
+1. Brahmasūtra Bhāṣya 1.1.1–4 (Śaṅkarācārya) — definition of Brahman and the role of Lakṣaṇa; see [Brahmasūtra Bhāṣya](../references/brahmasutra-bhashya.md)
+2. Taittirīya Upaniṣad 2.1 — satyam jñānam anantam brahma as Svarūpa Lakṣaṇa; see [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md)
+3. Pañcadaśī 1.6–8 (Vidyāraṇya) — Taṭastha vs. Svarūpa Lakṣaṇa of consciousness; see [Pañcadaśī](../references/panchadashi.md)
+4. Upadesasāhasrī 17.1–5 (Śaṅkarācārya) — Svarūpa Lakṣaṇa as the instrument of Ātma-jñāna; see [Upadesasāhasrī](../references/upadesasahasri.md)

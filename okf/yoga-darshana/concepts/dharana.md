@@ -116,6 +116,6 @@ Dhāraṇā is like threading a needle. You need good light (pratyāhāra — se
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 3.1-3.3
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 3.1-3.3
-3. [Tattvavaiśāradī](/references/tattvavaisharadi.md) of Vācaspatimiśra on saṃyama
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 3.1-3.3
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 3.1-3.3
+3. [Tattvavaiśāradī](../references/tattvavaisharadi.md) of Vācaspatimiśra on saṃyama

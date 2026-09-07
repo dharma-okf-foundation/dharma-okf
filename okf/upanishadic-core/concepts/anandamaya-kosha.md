@@ -74,7 +74,7 @@ A jeweler searches for a diamond inside five concentric boxes. The innermost box
 
 ## Citations
 
-1. Taittirīya Upaniṣad 2.5 — Ānandamaya Kośa as the fifth sheath; see [references/taittiriya-upanishad.md]
-2. Vivekacūḍāmaṇi vv. 218–230 (Śaṅkarācārya) — systematic rejection of Ānandamaya Kośa as Ātman; see [references/vivekachudamani.md]
-3. Māṇḍūkya Upaniṣad 5 — Prājña and the Ānandamaya in Suṣupti; see [references/mandukya-upanishad.md]
-4. Pañcadaśī 3.15–25 (Vidyāraṇya) — the causal body as Upādhi; see [references/panchadashi.md]
+1. Taittirīya Upaniṣad 2.5 — Ānandamaya Kośa as the fifth sheath; see [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md)
+2. Vivekacūḍāmaṇi vv. 218–230 (Śaṅkarācārya) — systematic rejection of Ānandamaya Kośa as Ātman; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+3. Māṇḍūkya Upaniṣad 5 — Prājña and the Ānandamaya in Suṣupti; see [Māṇḍūkya Upaniṣad](../references/mandukya-upanishad.md)
+4. Pañcadaśī 3.15–25 (Vidyāraṇya) — the causal body as Upādhi; see [Pañcadaśī](../references/panchadashi.md)

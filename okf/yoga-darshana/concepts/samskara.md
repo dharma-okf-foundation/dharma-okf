@@ -122,6 +122,6 @@ Saṃskāras are ruts carved into a dirt road by repeated wheels. A fresh field 
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.18, 3.9-3.10, 3.18, 4.8-4.9
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 1.18 and 3.9
-3. [Sāṃkhya Kārikā](/references/samkhya-karika.md) (kārikā 39-40) on saṃskāra as puruṣārtha
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 1.18, 3.9-3.10, 3.18, 4.8-4.9
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 1.18 and 3.9
+3. [Sāṃkhya Kārikā](../references/samkhya-karika.md) (kārikā 39-40) on saṃskāra as puruṣārtha

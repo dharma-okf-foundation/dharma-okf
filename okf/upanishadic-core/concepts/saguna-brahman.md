@@ -77,7 +77,7 @@ Ocean water can be experienced in two ways: as waves (with form, force, temperat
 
 ## Citations
 
-1. Bṛhadāraṇyaka Upaniṣad 3.7 — Antaryāmin as Saguṇa Brahman; see [references/brhadaranyaka-upanishad.md]
-2. Chāndogya Upaniṣad 3.14 — sarvam khalvidam brahma; see [references/chandogya-upanishad.md]
-3. Muṇḍaka Upaniṣad 1.1.9 — Parāvidyā and Aparāvidyā; see [references/mundaka-upanishad.md]
-4. Brahmasūtra Bhāṣya 1.1.11 (Śaṅkarācārya) — Saguṇa Upāsanā and its purpose; see [references/brahmasutra-bhashya.md]
+1. Bṛhadāraṇyaka Upaniṣad 3.7 — Antaryāmin as Saguṇa Brahman; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+2. Chāndogya Upaniṣad 3.14 — sarvam khalvidam brahma; see [Chāndogya Upaniṣad](../references/chandogya-upanishad.md)
+3. Muṇḍaka Upaniṣad 1.1.9 — Parāvidyā and Aparāvidyā; see [Muṇḍaka Upaniṣad](../references/mundaka-upanishad.md)
+4. Brahmasūtra Bhāṣya 1.1.11 (Śaṅkarācārya) — Saguṇa Upāsanā and its purpose; see [Brahmasūtra Bhāṣya](../references/brahmasutra-bhashya.md)

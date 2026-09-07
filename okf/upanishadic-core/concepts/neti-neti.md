@@ -77,6 +77,6 @@ Someone looking for their glasses — which are on their face — searches the e
 
 ## Citations
 
-1. Bṛhadāraṇyaka Upaniṣad 2.3.6; 3.9.26; 4.2.4 — three appearances; see [references/brhadaranyaka-upanishad.md]
-2. Brahmasūtra Bhāṣya 3.2.22 (Śaṅkarācārya) — Neti Neti as the definitive Upaniṣadic method for Brahman inquiry; see [references/brahmasutra-bhashya.md]
-3. Vivekacūḍāmaṇi vv. 240–250 (Śaṅkarācārya) — the negation method and Adhyāsa removal; see [references/vivekachudamani.md]
+1. Bṛhadāraṇyaka Upaniṣad 2.3.6; 3.9.26; 4.2.4 — three appearances; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+2. Brahmasūtra Bhāṣya 3.2.22 (Śaṅkarācārya) — Neti Neti as the definitive Upaniṣadic method for Brahman inquiry; see [Brahmasūtra Bhāṣya](../references/brahmasutra-bhashya.md)
+3. Vivekacūḍāmaṇi vv. 240–250 (Śaṅkarācārya) — the negation method and Adhyāsa removal; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)

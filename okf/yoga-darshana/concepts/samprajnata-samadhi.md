@@ -130,7 +130,7 @@ Samprajñāta samādhi is like the moment when a master craftsperson working wit
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.17-1.18, 1.41-1.46
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 1.17
-3. [Tattvavaiśāradī](/references/tattvavaisharadi.md) of Vācaspatimiśra on YS 1.17
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 1.17-1.18, 1.41-1.46
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 1.17
+3. [Tattvavaiśāradī](../references/tattvavaisharadi.md) of Vācaspatimiśra on YS 1.17
 4. Vyāsa's four stages: vitarka/vicāra/ānanda/asmitā

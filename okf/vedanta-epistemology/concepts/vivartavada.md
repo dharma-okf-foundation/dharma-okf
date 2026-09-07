@@ -129,6 +129,6 @@ A rope lies coiled on the floor in dim light. You see a snake. The 'snake-causin
 
 ## Citations
 
-1. [Māṇḍūkya Kārikā](/references/mandukya-karika.md) 3.27–28 (Gauḍapāda) — ajātivāda (no-origination): from the pāramārthika standpoint, nothing is ever born, nothing is ever created; the appearance of origination is itself a vivarta; the most radical statement of the vivartavāda position
-2. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) 2.1.26–27 (Śaṅkara) — explicit rejection of pariṇāmavāda (Sāṃkhya-style real transformation) as applied to Brahman; argument: a nirguṇa, nirvikāra cause cannot undergo real modification; the effect must therefore be appearance (vivarta) not transformation
-3. [Vivekacūḍāmaṇi](/references/vivekachudamani.md) v.108 (Śaṅkara) — rope-snake as canonical vivarta illustration; the snake is not produced from the rope, it merely appears in the rope; rope is unchanged; this is the structural analog of Brahman-world
+1. [Māṇḍūkya Kārikā](../references/mandukya-karika.md) 3.27–28 (Gauḍapāda) — ajātivāda (no-origination): from the pāramārthika standpoint, nothing is ever born, nothing is ever created; the appearance of origination is itself a vivarta; the most radical statement of the vivartavāda position
+2. [Brahmasūtra Bhāṣya](../references/brahmasutra-bhasya.md) 2.1.26–27 (Śaṅkara) — explicit rejection of pariṇāmavāda (Sāṃkhya-style real transformation) as applied to Brahman; argument: a nirguṇa, nirvikāra cause cannot undergo real modification; the effect must therefore be appearance (vivarta) not transformation
+3. [Vivekacūḍāmaṇi](../references/vivekachudamani.md) v.108 (Śaṅkara) — rope-snake as canonical vivarta illustration; the snake is not produced from the rope, it merely appears in the rope; rope is unchanged; this is the structural analog of Brahman-world

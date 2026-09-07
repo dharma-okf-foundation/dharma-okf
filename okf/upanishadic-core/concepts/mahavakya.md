@@ -72,8 +72,8 @@ Think of a Mahāvākya the way you might think of the moment someone says your n
 
 ## Citations
 
-1. Bṛhadāraṇyaka Upaniṣad 1.4.10 — home of Ahaṃ Brahmāsmi; see [references/brhadaranyaka-upanishad.md]
-2. Chāndogya Upaniṣad 6.8.7 — home of Tat Tvam Asi; see [references/chandogya-upanishad.md]
-3. Aitareya Upaniṣad 3.3 — home of Prajñānam Brahma; see [references/aitareya-upanishad.md]
-4. Māṇḍūkya Upaniṣad 1.2 — home of Ayam Ātmā Brahma; see [references/mandukya-upanishad.md]
-5. Vivekacūḍāmaṇi vv. 254–258 (Śaṅkarācārya) — fourfold schema and pedagogical role of the Mahāvākyas; see [references/vivekachudamani.md]
+1. Bṛhadāraṇyaka Upaniṣad 1.4.10 — home of Ahaṃ Brahmāsmi; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+2. Chāndogya Upaniṣad 6.8.7 — home of Tat Tvam Asi; see [Chāndogya Upaniṣad](../references/chandogya-upanishad.md)
+3. Aitareya Upaniṣad 3.3 — home of Prajñānam Brahma; see [Aitareya Upaniṣad](../references/aitareya-upanishad.md)
+4. Māṇḍūkya Upaniṣad 1.2 — home of Ayam Ātmā Brahma; see [Māṇḍūkya Upaniṣad](../references/mandukya-upanishad.md)
+5. Vivekacūḍāmaṇi vv. 254–258 (Śaṅkarācārya) — fourfold schema and pedagogical role of the Mahāvākyas; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)

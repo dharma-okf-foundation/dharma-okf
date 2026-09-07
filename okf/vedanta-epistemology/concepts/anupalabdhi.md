@@ -125,7 +125,7 @@ Like checking a classroom for an absent student — you don't simply fail to see
 
 ## Citations
 
-1. [Vedāntaparibhāṣā](/references/vedantaparibhasha.md) Ch.6 — Dharmarāja Adhvarin's formal treatment of anupalabdhi as the sixth Advaita pramāṇa; the perceptibility condition; distinction from pratyakṣa
-2. [Advaitasiddhi](/references/advaitasiddhi.md) — Madhusūdana Sarasvatī on anupalabdhi in the context of cognizing the absence of avidyā in liberation
-3. [Ślokavarttika](/references/slokavarttika.md) — Kumārila Bhaṭṭa's defence of anupalabdhi as independent from pratyakṣa in Mīmāṃsā
+1. [Vedāntaparibhāṣā](../references/vedantaparibhasha.md) Ch.6 — Dharmarāja Adhvarin's formal treatment of anupalabdhi as the sixth Advaita pramāṇa; the perceptibility condition; distinction from pratyakṣa
+2. [Advaitasiddhi](../references/advaitasiddhi.md) — Madhusūdana Sarasvatī on anupalabdhi in the context of cognizing the absence of avidyā in liberation
+3. [Ślokavarttika](../references/slokavarttika.md) — Kumārila Bhaṭṭa's defence of anupalabdhi as independent from pratyakṣa in Mīmāṃsā
 4. Nyāyadarśana commentary — Vātsyāyana on why Nyāya reduces absence-cognition to pratyakṣa

@@ -78,7 +78,7 @@ A cinema screen is present in every scene of every film shown on it. When the fi
 
 ## Citations
 
-1. Māṇḍūkya Upaniṣad 7 — the description of Turīya; see [references/mandukya-upanishad.md]
-2. Māṇḍūkya Kārikā 1.7–16 (Gauḍapāda) — Turīya as the ground; Ajātivāda; see [references/mandukya-karika.md]
-3. Pañcadaśī 7.1–10 (Vidyāraṇya) — witness consciousness and Turīya; see [references/panchadashi.md]
-4. Vivekacūḍāmaṇi vv. 316–322 (Śaṅkarācārya) — Sākṣin and Turīya; see [references/vivekachudamani.md]
+1. Māṇḍūkya Upaniṣad 7 — the description of Turīya; see [Māṇḍūkya Upaniṣad](../references/mandukya-upanishad.md)
+2. Māṇḍūkya Kārikā 1.7–16 (Gauḍapāda) — Turīya as the ground; Ajātivāda; see [Māṇḍūkya Kārikā (Gauḍapādīya Kārikā)](../references/mandukya-karika.md)
+3. Pañcadaśī 7.1–10 (Vidyāraṇya) — witness consciousness and Turīya; see [Pañcadaśī](../references/panchadashi.md)
+4. Vivekacūḍāmaṇi vv. 316–322 (Śaṅkarācārya) — Sākṣin and Turīya; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)

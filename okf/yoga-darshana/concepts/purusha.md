@@ -117,7 +117,7 @@ Puruṣa is the screen in a cinema: pure, still, and unchanged whether the film 
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.3, 2.17-2.20, 3.35, 4.18-4.20
-2. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa (kārikā 11-19)
-3. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 2.17-2.20
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 1.3, 2.17-2.20, 3.35, 4.18-4.20
+2. [Sāṃkhya Kārikā](../references/samkhya-karika.md) of Īśvarakṛṣṇa (kārikā 11-19)
+3. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 2.17-2.20
 4. Rajiv Malhotra — Sanskrit Non-Translatables (2020)

@@ -128,7 +128,7 @@ Viveka-khyāti is what happens when you've been looking at a magic-eye poster yo
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 2.26-2.28, 3.35, 3.55
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 2.26
-3. [Tattvavaiśāradī](/references/tattvavaisharadi.md) of Vācaspatimiśra on YS 2.26
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 2.26-2.28, 3.35, 3.55
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 2.26
+3. [Tattvavaiśāradī](../references/tattvavaisharadi.md) of Vācaspatimiśra on YS 2.26
 4. YS 3.55: vivekajam jñānam as tāraka

@@ -135,6 +135,6 @@ The five vṛtti-types are like five different kinds of marks a stylus can make 
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.5-1.11
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 1.5-1.11
-3. Āgama Pramāṇa discussion in [Vyāsabhāṣya](/references/yoga-bhasya.md) on YS 1.7
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 1.5-1.11
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 1.5-1.11
+3. Āgama Pramāṇa discussion in [Vyāsabhāṣya](../references/yoga-bhasya.md) on YS 1.7

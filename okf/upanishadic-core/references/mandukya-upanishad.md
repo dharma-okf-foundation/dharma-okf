@@ -43,7 +43,7 @@ The shortest major Upaniṣad — twelve verses — and, in Gauḍapāda's asses
 
 ## The Gauḍapāda Commentary
 
-The Māṇḍūkya Kārikā (by Gauḍapāda, pre-600 CE) is the authoritative commentary and is frequently cited alongside the Upaniṣad itself. See references/mandukya-karika.md for details.
+The Māṇḍūkya Kārikā (by Gauḍapāda, pre-600 CE) is the authoritative commentary and is frequently cited alongside the Upaniṣad itself. See [Māṇḍūkya Kārikā (Gauḍapādīya Kārikā)](mandukya-karika.md) for details.
 
 ## Recommended Editions
 

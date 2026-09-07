@@ -80,7 +80,7 @@ A river runs from the mountains to the sea. While flowing, the river has its own
 
 ## Citations
 
-1. Brahmasūtra 4.1.12–19 with Śaṅkara Bhāṣya — Prārabdha and the continuation of the body post-Jñāna; see [references/brahmasutra-bhashya.md]
-2. Vivekacūḍāmaṇi vv. 564–580 (Śaṅkarācārya) — the Jīvanmukta and what remains at Videhamukti; see [references/vivekachudamani.md]
-3. Bṛhadāraṇyaka Upaniṣad 4.4.6 — "brahmaiva san brahmāpyeti"; see [references/brhadaranyaka-upanishad.md]
-4. Jīvanmuktiviveka (Vidyāraṇya) — the full treatment of both Jīvanmukti and Videhamukti; see [references/jivanmuktiviveka.md]
+1. Brahmasūtra 4.1.12–19 with Śaṅkara Bhāṣya — Prārabdha and the continuation of the body post-Jñāna; see [Brahmasūtra Bhāṣya](../references/brahmasutra-bhashya.md)
+2. Vivekacūḍāmaṇi vv. 564–580 (Śaṅkarācārya) — the Jīvanmukta and what remains at Videhamukti; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+3. Bṛhadāraṇyaka Upaniṣad 4.4.6 — "brahmaiva san brahmāpyeti"; see [Bṛhadāraṇyaka Upaniṣad](../references/brhadaranyaka-upanishad.md)
+4. Jīvanmuktiviveka (Vidyāraṇya) — the full treatment of both Jīvanmukti and Videhamukti; see [Jīvanmuktiviveka](../references/jivanmuktiviveka.md)

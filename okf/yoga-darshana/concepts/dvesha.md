@@ -114,6 +114,6 @@ Dveṣa is the spam filter citta has built from every painful experience: certai
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 2.8
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 2.8
-3. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 2.8
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 2.8
+3. [Sāṃkhya Kārikā](../references/samkhya-karika.md) of Īśvarakṛṣṇa

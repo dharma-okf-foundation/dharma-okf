@@ -72,8 +72,8 @@ A gold ring does not "have" goldness as an attribute it acquired — it is gold.
 
 ## Citations
 
-1. Taittirīya Upaniṣad 2.1 — "satyam jñānam anantam brahma"; see [references/taittiriya-upanishad.md]
-2. Taittirīya Upaniṣad 2.8–9 — the Ānanda-Mīmāṃsā (bliss investigation); see [references/taittiriya-upanishad.md]
-3. Chāndogya Upaniṣad 6.2.1 — "sad eva somya idam agra āsīt"; see [references/chandogya-upanishad.md]
-4. Vivekacūḍāmaṇi vv. 238–240 (Śaṅkarācārya) — Sat-Cit-Ānanda as Svarūpa Lakṣaṇa; see [references/vivekachudamani.md]
-5. Pañcadaśī 1.6–10 (Vidyāraṇya) — on the self-luminous Cit; see [references/panchadashi.md]
+1. Taittirīya Upaniṣad 2.1 — "satyam jñānam anantam brahma"; see [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md)
+2. Taittirīya Upaniṣad 2.8–9 — the Ānanda-Mīmāṃsā (bliss investigation); see [Taittirīya Upaniṣad](../references/taittiriya-upanishad.md)
+3. Chāndogya Upaniṣad 6.2.1 — "sad eva somya idam agra āsīt"; see [Chāndogya Upaniṣad](../references/chandogya-upanishad.md)
+4. Vivekacūḍāmaṇi vv. 238–240 (Śaṅkarācārya) — Sat-Cit-Ānanda as Svarūpa Lakṣaṇa; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+5. Pañcadaśī 1.6–10 (Vidyāraṇya) — on the self-luminous Cit; see [Pañcadaśī](../references/panchadashi.md)

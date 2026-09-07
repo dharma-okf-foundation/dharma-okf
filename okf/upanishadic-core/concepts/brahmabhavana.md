@@ -80,7 +80,7 @@ A person who has been told all their life that they are an employee of a company
 
 ## Citations
 
-1. Vivekacūḍāmaṇi vv. 360–380 (Śaṅkarācārya) — Nididhyāsana and the cultivation of Brahman-identity; see [references/vivekachudamani.md]
-2. Pañcadaśī 9.1–25 (Vidyāraṇya) — Ātma-Tattva-Viveka: the Brahmabhāvanā stage; see [references/panchadashi.md]
-3. Upadesasāhasrī 18.1–10 (Śaṅkarācārya) — the process of stabilizing Brahma-jñāna as identity; see [references/upadesasahasri.md]
-4. Bhagavad Gītā 18.37 — knowledge that is initially difficult becoming natural; see [references/bhagavad-gita.md]
+1. Vivekacūḍāmaṇi vv. 360–380 (Śaṅkarācārya) — Nididhyāsana and the cultivation of Brahman-identity; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+2. Pañcadaśī 9.1–25 (Vidyāraṇya) — Ātma-Tattva-Viveka: the Brahmabhāvanā stage; see [Pañcadaśī](../references/panchadashi.md)
+3. Upadesasāhasrī 18.1–10 (Śaṅkarācārya) — the process of stabilizing Brahma-jñāna as identity; see [Upadesasāhasrī](../references/upadesasahasri.md)
+4. Bhagavad Gītā 18.37 — knowledge that is initially difficult becoming natural; see [Bhagavad Gītā](../references/bhagavad-gita.md)

@@ -107,7 +107,7 @@ Rajas in citta is like WiFi in a building: you cannot see it, but every device i
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 2.18, 4.13-4.14
-2. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa (kārikā 12-13)
-3. [Bhagavad Gītā](/references/bhagavad-gita.md) 14.7-9, 14.12
-4. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 2.18
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 2.18, 4.13-4.14
+2. [Sāṃkhya Kārikā](../references/samkhya-karika.md) of Īśvarakṛṣṇa (kārikā 12-13)
+3. [Bhagavad Gītā](../references/bhagavad-gita.md) 14.7-9, 14.12
+4. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 2.18

@@ -68,7 +68,7 @@ Consider light in a room. All objects in the room are seen by light, but light i
 
 ## Citations
 
-1. Aitareya Upaniṣad 3.3 — source text; see [references/aitareya-upanishad.md]
-2. Brahmasūtra Bhāṣya 1.1.1 (Śaṅkarācārya) — Brahman as the ground to be known; Prajñānam in context of cit-svarūpa; see [references/brahmasutra-bhashya.md]
-3. Vivekacūḍāmaṇi v. 254 (Śaṅkarācārya) — four Mahāvākyas; see [references/vivekachudamani.md]
-4. Pañcadaśī 1.6–8 (Vidyāraṇya) — self-luminosity of consciousness; see [references/panchadashi.md]
+1. Aitareya Upaniṣad 3.3 — source text; see [Aitareya Upaniṣad](../references/aitareya-upanishad.md)
+2. Brahmasūtra Bhāṣya 1.1.1 (Śaṅkarācārya) — Brahman as the ground to be known; Prajñānam in context of cit-svarūpa; see [Brahmasūtra Bhāṣya](../references/brahmasutra-bhashya.md)
+3. Vivekacūḍāmaṇi v. 254 (Śaṅkarācārya) — four Mahāvākyas; see [Vivekacūḍāmaṇi](../references/vivekachudamani.md)
+4. Pañcadaśī 1.6–8 (Vidyāraṇya) — self-luminosity of consciousness; see [Pañcadaśī](../references/panchadashi.md)

@@ -99,6 +99,6 @@ Asmitā is like a cinema screen that, in the darkness of the theatre, appears to
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 2.6
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 2.6
-3. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 2.6
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 2.6
+3. [Sāṃkhya Kārikā](../references/samkhya-karika.md) of Īśvarakṛṣṇa

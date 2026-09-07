@@ -124,6 +124,6 @@ Like the operating rules of a dream that, from within the dream, are completely 
 
 ## Citations
 
-1. [Māṇḍūkya Kārikā](/references/mandukya-karika.md) 2.16 (Gauḍapāda) — the empirical world as consistently experienced in waking state; the vyāvahārika-prātibhāsika distinction via waking-dream comparison
-2. [Pañcadaśī](/references/panchadashi.md) 1.7–8 (Vidyāraṇya) — formal statement of the three-level ontology; vyāvahārika as real within its frame, sublated at liberation
-3. [Brahmasūtra Bhāṣya](/references/brahmasutra-bhasya.md) 2.1.14 (Śaṅkara) — anirvacanīya (indescribable-as-sat-or-asat) status of the empirical world; why this avoids both nihilism and naive realism
+1. [Māṇḍūkya Kārikā](../references/mandukya-karika.md) 2.16 (Gauḍapāda) — the empirical world as consistently experienced in waking state; the vyāvahārika-prātibhāsika distinction via waking-dream comparison
+2. [Pañcadaśī](../references/panchadashi.md) 1.7–8 (Vidyāraṇya) — formal statement of the three-level ontology; vyāvahārika as real within its frame, sublated at liberation
+3. [Brahmasūtra Bhāṣya](../references/brahmasutra-bhasya.md) 2.1.14 (Śaṅkara) — anirvacanīya (indescribable-as-sat-or-asat) status of the empirical world; why this avoids both nihilism and naive realism

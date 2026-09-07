@@ -134,8 +134,8 @@ The three Guṇa-s are like the three primary colors of light (red, green, blue)
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 2.18-2.19, 4.13-4.14
-2. [Sāṃkhya Kārikā](/references/samkhya-karika.md) of Īśvarakṛṣṇa (kārikā 12-16)
-3. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 2.18
-4. [Bhagavad Gītā](/references/bhagavad-gita.md) Chs. 14, 17, 18 (Guṇa-traya vibhāga)
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 2.18-2.19, 4.13-4.14
+2. [Sāṃkhya Kārikā](../references/samkhya-karika.md) of Īśvarakṛṣṇa (kārikā 12-16)
+3. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 2.18
+4. [Bhagavad Gītā](../references/bhagavad-gita.md) Chs. 14, 17, 18 (Guṇa-traya vibhāga)
 5. Cross-bundle note: the doctrinal SOURCE of the triguṇa is sankhya-darshana v0.13's guna-samkhya.md; this file is a downstream/applied treatment (epistemological-psychological dimension), not a peer or competing definition

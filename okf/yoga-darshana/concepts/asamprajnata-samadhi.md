@@ -120,7 +120,7 @@ Asamprajñāta samādhi is the moment when a fire that has been burning through 
 
 ## Citations
 
-1. [Yoga Sūtras of Patañjali](/references/yoga-sutras.md) 1.18, 1.51, 3.8
-2. [Yoga Bhāṣya of Vyāsa](/references/yoga-bhasya.md) on YS 1.18 and 1.51
-3. [Tattvavaiśāradī](/references/tattvavaisharadi.md) of Vācaspatimiśra on the seed/seedless distinction
+1. [Yoga Sūtras of Patañjali](../references/yoga-sutras.md) 1.18, 1.51, 3.8
+2. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 1.18 and 1.51
+3. [Tattvavaiśāradī](../references/tattvavaisharadi.md) of Vācaspatimiśra on the seed/seedless distinction
 4. Vyāsa on dagdhabīja (burned seeds) in YS 3.9
