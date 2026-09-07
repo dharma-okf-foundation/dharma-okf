@@ -100,6 +100,32 @@ def test_layer1_strict_still_passes(bundle):
 
 # --- property 2: Layer 2 reproduces the measurements ------------------------
 
+def test_profile_section_5_matches_the_checker(report):
+    """§5 says it is generated, not maintained. This is what enforces it.
+
+    Until 2026-09-07 nothing did. The table was pasted from the checker by
+    hand and a later edit could drift from it silently — which is exactly the
+    failure §5 was re-specified to prevent on 2026-09-06, one layer up. The
+    parse is deliberately literal: the level rows of the §5 table, read out of
+    PROFILE.md, compared to a live run.
+    """
+    doc = (OKF.parent / "PROFILE.md").read_text(encoding="utf-8")
+    rows = {
+        "0":  r"\*\*0 — Base\*\*.*?\*\*(\d+) / 13\*\*",
+        "1":  r"\*\*1 — Profile core\*\*.*?\*\*(\d+) / 13\*\*",
+        "2":  r"\*\*2 — Graph interoperable\*\*.*?\*\*(\d+) / 13\*\*",
+        "2b": r"\*\*2b — Progressive disclosure\*\*.*?\*\*(\d+) / 13\*\*",
+        "3":  r"\*\*3 — Trust and provenance\*\*.*?\*\*(\d+) / 13\*\*",
+    }
+    documented = {}
+    for level, pat in rows.items():
+        m = re.search(pat, doc, re.S)
+        assert m, f"§5 has no readable row for level {level}"
+        documented[level] = int(m.group(1))
+    assert documented == report["levels"], (
+        f"PROFILE.md §5 says {documented}, the checker says {report['levels']}")
+
+
 def test_corpus_shape(report):
     assert report["corpus"] == EXPECTED_CORPUS
 

@@ -43,7 +43,7 @@ okf_version: "0.2"
 
 # Dharma Foundation — Sanskrit Non-Translatable Vocabulary
 
-The first open-standard vocabulary of Sanātana Dharma concepts published in [Open Knowledge Format (OKF)](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md).
+The first open-standard vocabulary of Sanātana Dharma concepts published in [Open Knowledge Format (OKF)](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/ad30107c31c06aec8a7d5636e0d1058118604e6f/SPEC.md).
 
 ## Why This Exists
 
