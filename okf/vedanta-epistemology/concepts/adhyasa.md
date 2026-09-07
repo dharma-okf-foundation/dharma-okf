@@ -38,11 +38,11 @@ not:
   - term: "superimposition (in Western philosophy)"
     why: "in some Western uses, 'superimposition' means one conceptual framework overlaid on another (Kuhn's paradigm layer); Śaṅkara's adhyāsa is an ontological-epistemological operation — the non-self literally appears AS the Self and vice versa, not merely a conceptual overlay"
 related:
-  - /concepts/mithya.md
-  - /concepts/avidya.md
-  - /concepts/pratyaksha.md
-  - /concepts/badha-badhita.md
-  - /concepts/shabda-pramana.md
+  - mithya.md
+  - avidya.md
+  - pratyaksha.md
+  - badha-badhita.md
+  - shabda-pramana.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

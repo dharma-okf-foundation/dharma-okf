@@ -32,11 +32,11 @@ not:
   - term: "individuality"
     why: "individuality is a downstream consequence, not the mechanism itself"
 related:
-  - /concepts/klesha.md
-  - /concepts/avidya-yoga.md
-  - /concepts/purusha.md
-  - /concepts/viveka-khyati.md
-  - /concepts/kaivalya.md
+  - klesha.md
+  - avidya-yoga.md
+  - purusha.md
+  - viveka-khyati.md
+  - kaivalya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

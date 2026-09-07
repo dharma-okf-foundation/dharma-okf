@@ -33,12 +33,12 @@ not:
   - term: "nirvikalpa-samādhi (Pātañjala Yoga)"
     why: "Pātañjala Yoga uses nirvikalpa to describe a meditative state beyond all content; this is different from Nyāya's nirvikalpaka pratyakṣa (a stage of ordinary perception) and from Advaita's nirvikalpa brahma-jñāna; the three uses of \"nirvikalpa\" in these three traditions are distinct; see yoga-darśana bundle for the Pātañjala usage"
 related:
-  - /concepts/pratyaksha.md
-  - /concepts/pramana.md
-  - /concepts/prama.md
-  - /concepts/anumana.md
-  - /concepts/aparoksha-anubhuti.md
-  - /concepts/sphota.md
+  - pratyaksha.md
+  - pramana.md
+  - prama.md
+  - anumana.md
+  - aparoksha-anubhuti.md
+  - sphota.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -32,14 +32,14 @@ not:
   - term: "spirit"
     why: "spirit implies something that can move, inspire, or act; Puruṣa is absolutely still; all movement belongs to Prakṛti"
 related:
-  - /concepts/prakriti-yoga.md
-  - /concepts/avidya-yoga.md
-  - /concepts/asmita.md
-  - /concepts/klesha.md
-  - /concepts/kaivalya.md
-  - /concepts/viveka-khyati.md
-  - /concepts/samprajnata-samadhi.md
-  - /concepts/asamprajnata-samadhi.md
+  - prakriti-yoga.md
+  - avidya-yoga.md
+  - asmita.md
+  - klesha.md
+  - kaivalya.md
+  - viveka-khyati.md
+  - samprajnata-samadhi.md
+  - asamprajnata-samadhi.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -31,12 +31,12 @@ not:
   - term: "unknowing"
     why: "too passive; avidyā actively substitutes a false self-concept for the true witness"
 related:
-  - /concepts/klesha.md
-  - /concepts/asmita.md
-  - /concepts/purusha.md
-  - /concepts/prakriti-yoga.md
-  - /concepts/viveka-khyati.md
-  - /concepts/samskara.md
+  - klesha.md
+  - asmita.md
+  - purusha.md
+  - prakriti-yoga.md
+  - viveka-khyati.md
+  - samskara.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

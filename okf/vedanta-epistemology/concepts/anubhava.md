@@ -31,13 +31,13 @@ not:
   - term: "empirical experience"
     why: "anubhava in Advaita ranges across the vyāvahārika level (ordinary perceptual experience) and the pāramārthika (aparokṣa-anubhūti — brahma-jñāna); calling it 'empirical experience' locks it at the vyāvahārika level and fails to capture why Śaṅkara designates brahma-jñāna itself as anubhava; the Advaita usage explicitly extends anubhava beyond the empirical"
 related:
-  - /concepts/jnana.md
-  - /concepts/pratyaksha.md
-  - /concepts/aparoksha-anubhuti.md
-  - /concepts/prama.md
-  - /concepts/pramana.md
-  - /concepts/shabda-pramana.md
-  - /concepts/adhyasa.md
+  - jnana.md
+  - pratyaksha.md
+  - aparoksha-anubhuti.md
+  - prama.md
+  - pramana.md
+  - shabda-pramana.md
+  - adhyasa.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

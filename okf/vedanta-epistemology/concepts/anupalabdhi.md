@@ -36,11 +36,11 @@ not:
   - term: "negative perception"
     why: "'negative perception' in English philosophy of mind refers to perceived darkness, silence, etc.; anupalabdhi is specifically about cognizing the absence of an object that would be perceptible if present, not about perceiving negative sensory states"
 related:
-  - /concepts/pramana.md
-  - /concepts/pratyaksha.md
-  - /concepts/arthapatti.md
-  - /concepts/avidya.md
-  - /concepts/badha-badhita.md
+  - pramana.md
+  - pratyaksha.md
+  - arthapatti.md
+  - avidya.md
+  - badha-badhita.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

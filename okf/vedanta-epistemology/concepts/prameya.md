@@ -32,14 +32,14 @@ not:
   - term: "Brahman (as prameya"
     why: "the most important NOT) — Brahman is not a prameya in the ordinary sense; ordinary prameyas are objects that face a cognizing subject; Brahman is the ātman — the very subject — and cannot stand over against a subject as an object to be cognized from outside; saying \"Brahman is the prameya of Vedānta inquiry\" requires immediate qualification: the Mahāvākya does not deliver a cognition of Brahman-as-external-object but redirects the jīva's consciousness toward recognizing its own nature as Brahman; the Vedāntaparibhāṣā account: śabda-pramāṇa (Mahāvākya-śabda) produces the pramā \"aham brahmāsmi\" — but this is a unique pramā where the prameya (Brahman) is identical with the pramātṛ (the jīva-as-ātman); no other pramāṇa-event has this structure"
 related:
-  - /concepts/pramana.md
-  - /concepts/prama.md
-  - /concepts/pramata.md
-  - /concepts/pratyaksha.md
-  - /concepts/anumana.md
-  - /concepts/shabda-pramana.md
-  - /concepts/adhyasa.md
-  - /concepts/mithya.md
+  - pramana.md
+  - prama.md
+  - pramata.md
+  - pratyaksha.md
+  - anumana.md
+  - shabda-pramana.md
+  - adhyasa.md
+  - mithya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

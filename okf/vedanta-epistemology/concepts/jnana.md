@@ -37,14 +37,14 @@ not:
   - term: "jñāna-yoga (Gītā usage without qualification)"
     why: "in the Bhagavad Gītā's three-mārga framework (Śaṅkara's Gītā Bhāṣya), jñāna-yoga is a sādhana (preparatory practice) involving discrimination (viveka), renunciation, and enquiry that culminates in brahma-jñāna; it is not identical with brahma-jñāna itself; jñāna-yoga as path ≠ brahma-jñāna as the realization at the path's end; the yoga-darśana bundle treats jñāna-yoga; this file treats the realization it aims at"
 related:
-  - /concepts/adhyasa.md
-  - /concepts/avidya.md
-  - /concepts/mithya.md
-  - /concepts/shabda-pramana.md
-  - /concepts/svatahpramanya.md
-  - /concepts/badha-badhita.md
-  - /concepts/aparoksha-anubhuti.md
-  - /concepts/prama.md
+  - adhyasa.md
+  - avidya.md
+  - mithya.md
+  - shabda-pramana.md
+  - svatahpramanya.md
+  - badha-badhita.md
+  - aparoksha-anubhuti.md
+  - prama.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

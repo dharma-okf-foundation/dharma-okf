@@ -31,14 +31,14 @@ not:
   - term: "negative emotion"
     why: "kleśa-s are not emotions; emotions are their downstream symptoms"
 related:
-  - /concepts/avidya-yoga.md
-  - /concepts/asmita.md
-  - /concepts/raga.md
-  - /concepts/dvesha.md
-  - /concepts/abhinivesha.md
-  - /concepts/samskara.md
-  - /concepts/viveka-khyati.md
-  - /concepts/kaivalya.md
+  - avidya-yoga.md
+  - asmita.md
+  - raga.md
+  - dvesha.md
+  - abhinivesha.md
+  - samskara.md
+  - viveka-khyati.md
+  - kaivalya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

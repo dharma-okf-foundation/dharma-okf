@@ -37,12 +37,12 @@ not:
   - term: "a priori knowledge (Kantian)"
     why: "Kant's a priori knowledge is possible prior to and independent of experience, grounded in the cognitive apparatus of the knowing subject; svataḥprāmāṇya is not about a priori vs. a posteriori knowledge but about whether validity is intrinsic to any cognition (whether perceptual, inferential, or testimony-based) or requires external confirmation; svataḥprāmāṇya applies to perceptual knowledge as readily as to inferential"
 related:
-  - /concepts/shabda-pramana.md
-  - /concepts/pramana.md
-  - /concepts/anumana.md
-  - /concepts/pratyaksha.md
-  - /concepts/badha-badhita.md
-  - /concepts/adhyasa.md
+  - shabda-pramana.md
+  - pramana.md
+  - anumana.md
+  - pratyaksha.md
+  - badha-badhita.md
+  - adhyasa.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

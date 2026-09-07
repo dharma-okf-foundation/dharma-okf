@@ -35,13 +35,13 @@ not:
   - term: "cancellation (as sufficient)"
     why: "while bādha is sometimes translated as 'cancellation,' this misses the essential structure: what makes bādha philosophically significant in Advaita is the persistence of the substratum through the cancellation; 'cancellation' by itself could suggest the object simply ceases (asat — was never there); Advaita's point is that the rope (substratum) was always there and is what the snake appeared in — bādha reveals this, it does not merely cancel the snake-cognition into a void"
 related:
-  - /concepts/mithya.md
-  - /concepts/adhyasa.md
-  - /concepts/pratibhasika.md
-  - /concepts/vyavaharika.md
-  - /concepts/paramarthika.md
-  - /concepts/vivartavada.md
-  - /concepts/svatahpramanya.md
+  - mithya.md
+  - adhyasa.md
+  - pratibhasika.md
+  - vyavaharika.md
+  - paramarthika.md
+  - vivartavada.md
+  - svatahpramanya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

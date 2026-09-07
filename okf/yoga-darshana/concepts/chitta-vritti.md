@@ -32,14 +32,14 @@ not:
   - term: "consciousness"
     why: "citta is Prakṛtic; it is an evolute of Prakṛti, not consciousness (Puruṣa). Treating citta as consciousness is precisely the asmitā error"
 related:
-  - /concepts/vritti.md
-  - /concepts/nirodha.md
-  - /concepts/samskara.md
-  - /concepts/purusha.md
-  - /concepts/prakriti-yoga.md
-  - /concepts/asmita.md
-  - /concepts/guna.md
-  - /concepts/samprajnata-samadhi.md
+  - vritti.md
+  - nirodha.md
+  - samskara.md
+  - purusha.md
+  - prakriti-yoga.md
+  - asmita.md
+  - guna.md
+  - samprajnata-samadhi.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

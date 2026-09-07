@@ -33,14 +33,14 @@ not:
   - term: "parokṣa-jñāna"
     why: "the most important NOT: parokṣa-jñāna (indirect, conceptual knowledge-about Brahman) is a preparatory stage, not aparokṣa-anubhūti itself; a student who can explain advaita philosophically, debate its positions, recite the Mahāvākyas, and understand the argument against vivartavāda has parokṣa-jñāna; this is necessary but not sufficient; aparokṣa-anubhūti is the qualitative shift in which the conceptual understanding becomes direct recognition — and this shift is what the Vivekacūḍāmaṇi and Aparokṣānubhūti are pointing toward"
 related:
-  - /concepts/jnana.md
-  - /concepts/anubhava.md
-  - /concepts/adhyasa.md
-  - /concepts/mithya.md
-  - /concepts/shabda-pramana.md
-  - /concepts/svatahpramanya.md
-  - /concepts/badha-badhita.md
-  - /concepts/pratyaksha.md
+  - jnana.md
+  - anubhava.md
+  - adhyasa.md
+  - mithya.md
+  - shabda-pramana.md
+  - svatahpramanya.md
+  - badha-badhita.md
+  - pratyaksha.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

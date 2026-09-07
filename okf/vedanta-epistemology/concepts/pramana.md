@@ -39,15 +39,15 @@ not:
   - term: "justification condition"
     why: "translates pramāṇa into the JTB (Justified True Belief) framework; Advaita pramāṇa theory is not a theory of belief-justification but a theory of knowledge-production"
 related:
-  - /concepts/prama.md
-  - /concepts/pratyaksha.md
-  - /concepts/anumana.md
-  - /concepts/shabda-pramana.md
-  - /concepts/upamana.md
-  - /concepts/arthapatti.md
-  - /concepts/anupalabdhi.md
-  - /concepts/pramata.md
-  - /concepts/prameya.md
+  - prama.md
+  - pratyaksha.md
+  - anumana.md
+  - shabda-pramana.md
+  - upamana.md
+  - arthapatti.md
+  - anupalabdhi.md
+  - pramata.md
+  - prameya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

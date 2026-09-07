@@ -32,10 +32,10 @@ not:
   - term: "logos (Greek)"
     why: "the Greek logos has a long philosophical history (Heraclitus, Plato, the Gospel of John, Stoic pneuma) and has been compared to śabda-Brahman; there are genuine structural analogies (primordial word as cosmic principle; the role of language in constituting reality); but logos does not carry the same grammatical-philosophical specificity (the dhvani-sphoṭa distinction, the sentence-primacy thesis, the anumāna-free status of śabda-jñāna) as Bhartṛhari's śabda-tattva; the comparison is useful for introduction but should not be taken as an identification"
 related:
-  - /concepts/shabda-pramana.md
-  - /concepts/pratyaksha.md
-  - /concepts/anumana.md
-  - /concepts/svatahpramanya.md
+  - shabda-pramana.md
+  - pratyaksha.md
+  - anumana.md
+  - svatahpramanya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

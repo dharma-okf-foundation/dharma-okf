@@ -35,13 +35,13 @@ not:
   - term: "illusion (as a sufficient translation)"
     why: "while the world is not ultimately real in vivartavāda, calling it an 'illusion' imports a simple binary (real/illusory) and suggests the world has no causal or experiential reality; the correct Advaita position is that the world is mithyā — real at the vyāvahārika level, dependent on Brahman as its substratum, but without independent pāramārthika reality; 'illusion' misses both the positive vyāvahārika reality and the Brahman-substratum"
 related:
-  - /concepts/parinamavada.md
-  - /concepts/mithya.md
-  - /concepts/paramarthika.md
-  - /concepts/vyavaharika.md
-  - /concepts/pratibhasika.md
-  - /concepts/adhyasa.md
-  - /concepts/badha-badhita.md
+  - parinamavada.md
+  - mithya.md
+  - paramarthika.md
+  - vyavaharika.md
+  - pratibhasika.md
+  - adhyasa.md
+  - badha-badhita.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

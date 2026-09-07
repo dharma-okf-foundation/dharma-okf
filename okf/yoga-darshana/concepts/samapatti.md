@@ -30,12 +30,12 @@ not:
   - term: "trance"
     why: "trance implies reduced awareness; samāpatti is heightened, refined engagement with an object to the point of maximum clarity"
 related:
-  - /concepts/samprajnata-samadhi.md
-  - /concepts/chitta-vritti.md
-  - /concepts/purusha.md
-  - /concepts/prakriti-yoga.md
-  - /concepts/nirodha.md
-  - /concepts/parinama.md
+  - samprajnata-samadhi.md
+  - chitta-vritti.md
+  - purusha.md
+  - prakriti-yoga.md
+  - nirodha.md
+  - parinama.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

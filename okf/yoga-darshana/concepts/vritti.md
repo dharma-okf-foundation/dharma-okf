@@ -30,12 +30,12 @@ not:
   - term: "impression"
     why: "impressions (saṃskāras) are the residues that vṛttis leave; vṛtti is the active wave; saṃskāra is what the wave carves into the lake bed"
 related:
-  - /concepts/chitta-vritti.md
-  - /concepts/nirodha.md
-  - /concepts/samskara.md
-  - /concepts/vasana.md
-  - /concepts/samprajnata-samadhi.md
-  - /concepts/avidya-yoga.md
+  - chitta-vritti.md
+  - nirodha.md
+  - samskara.md
+  - vasana.md
+  - samprajnata-samadhi.md
+  - avidya-yoga.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

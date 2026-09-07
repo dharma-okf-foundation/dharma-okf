@@ -32,14 +32,14 @@ not:
   - term: "dislike"
     why: "too mild and too experiential; dveṣa is an ontological tilt in citta, not a momentary subjective feeling"
 related:
-  - /concepts/klesha.md
-  - /concepts/avidya-yoga.md
-  - /concepts/asmita.md
-  - /concepts/raga.md
-  - /concepts/abhinivesha.md
-  - /concepts/samskara.md
-  - /concepts/vasana.md
-  - /concepts/nirodha.md
+  - klesha.md
+  - avidya-yoga.md
+  - asmita.md
+  - raga.md
+  - abhinivesha.md
+  - samskara.md
+  - vasana.md
+  - nirodha.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

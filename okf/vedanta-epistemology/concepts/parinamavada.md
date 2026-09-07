@@ -39,12 +39,12 @@ not:
   - term: "pantheism"
     why: "when brahma-pariṇāmavāda (Viśiṣṭādvaita) is described, the temptation is to call it pantheism (God = the universe); Viśiṣṭādvaita's position is that the world is the body (śarīra) of Brahman (ātman), not that God and the universe are simply identical; Brahman remains the controlling ātman while the world is the dependent śarīra; this is panentheism (God includes but transcends the world) closer to the Śarīra-Ātman model, not pantheist identity"
 related:
-  - /concepts/vivartavada.md
-  - /concepts/mithya.md
-  - /concepts/paramarthika.md
-  - /concepts/vyavaharika.md
-  - /concepts/adhyasa.md
-  - /concepts/badha-badhita.md
+  - vivartavada.md
+  - mithya.md
+  - paramarthika.md
+  - vyavaharika.md
+  - adhyasa.md
+  - badha-badhita.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -33,13 +33,13 @@ not:
   - term: "māyā (as strict synonym)"
     why: "avidyā and māyā are related but technically distinct in Advaita usage; māyā (from Advaita's perspective) is the cosmic-level creative power associated with Brahman-qua-Īśvara — the power by which the apparent multiplicity of the world arises; avidyā is the individual-level cognitive distortion by which the jīva misapprehends its own nature and the world; the relation is complex: in some usages (particularly in Vivekacūḍāmaṇi) they overlap; in more precise treatments (Pañcadaśī, VP), avidyā is the jīva-level ignorance and māyā the cosmic-level creative power; both operate via āvaraṇa and vikṣepa-śakti at their respective levels"
 related:
-  - /concepts/adhyasa.md
-  - /concepts/mithya.md
-  - /concepts/badha-badhita.md
-  - /concepts/jnana.md
-  - /concepts/aparoksha-anubhuti.md
-  - /concepts/prama.md
-  - /concepts/pramata.md
+  - adhyasa.md
+  - mithya.md
+  - badha-badhita.md
+  - jnana.md
+  - aparoksha-anubhuti.md
+  - prama.md
+  - pramata.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

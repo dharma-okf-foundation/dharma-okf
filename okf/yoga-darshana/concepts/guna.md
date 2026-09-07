@@ -33,14 +33,14 @@ not:
   - term: "energies"
     why: "energy in physics is a measurable quantity; Guṇa-s are qualitative principles that precede any quantitative measurement"
 related:
-  - /concepts/prakriti-yoga.md
-  - /concepts/sattva.md
-  - /concepts/rajas.md
-  - /concepts/tamas.md
-  - /concepts/purusha.md
-  - /concepts/chitta-vritti.md
-  - /concepts/kaivalya.md
-  - /concepts/samskara.md
+  - prakriti-yoga.md
+  - sattva.md
+  - rajas.md
+  - tamas.md
+  - purusha.md
+  - chitta-vritti.md
+  - kaivalya.md
+  - samskara.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

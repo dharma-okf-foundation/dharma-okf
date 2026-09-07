@@ -35,12 +35,12 @@ not:
   - term: "phenomenal (when used to contrast with noumenal)"
     why: "in Kantian usage, phenomena are objects as they appear to a knowing subject structured by the forms of intuition; prātibhāsika is not a Kantian category — it refers to a specific, lower level within the three-valued ontology where the object's very appearance is dependent on cognitive error, not a domain of all sensory experience"
 related:
-  - /concepts/mithya.md
-  - /concepts/vyavaharika.md
-  - /concepts/paramarthika.md
-  - /concepts/badha-badhita.md
-  - /concepts/adhyasa.md
-  - /concepts/pratyaksha.md
+  - mithya.md
+  - vyavaharika.md
+  - paramarthika.md
+  - badha-badhita.md
+  - adhyasa.md
+  - pratyaksha.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

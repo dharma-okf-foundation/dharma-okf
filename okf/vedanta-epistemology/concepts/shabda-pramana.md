@@ -39,11 +39,11 @@ not:
   - term: "authoritative source"
     why: "this collapses pramāṇa into the Western 'appeal to authority' fallacy; śabda-pramāṇa is not 'trust the authority' but a specific operative instrument for a specific domain"
 related:
-  - /concepts/pramana.md
-  - /concepts/aptavakya.md
-  - /concepts/svatahpramanya.md
-  - /concepts/adhyasa.md
-  - /concepts/anumana.md
+  - pramana.md
+  - aptavakya.md
+  - svatahpramanya.md
+  - adhyasa.md
+  - anumana.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

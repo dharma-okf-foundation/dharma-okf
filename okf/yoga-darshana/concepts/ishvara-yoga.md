@@ -33,14 +33,14 @@ not:
   - term: "Allah / God of theism"
     why: "Abrahamic monotheism holds that God created from nothing, wills events in history, and judges beings; Yoga's Īśvara neither creates, judges, nor intervenes; Īśvara is eternal like all Puruṣa-s but is eternally pure — a model and teacher, not a ruler"
 related:
-  - /concepts/purusha.md
-  - /concepts/prakriti-yoga.md
-  - /concepts/avidya-yoga.md
-  - /concepts/klesha.md
-  - /concepts/vasana.md
-  - /concepts/samskara.md
-  - /concepts/asamprajnata-samadhi.md
-  - /concepts/kaivalya.md
+  - purusha.md
+  - prakriti-yoga.md
+  - avidya-yoga.md
+  - klesha.md
+  - vasana.md
+  - samskara.md
+  - asamprajnata-samadhi.md
+  - kaivalya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -31,13 +31,13 @@ not:
   - term: "development"
     why: "similar issue; pariṇāma includes both the transformations in citta during samādhi and the transformations of Prakṛti in general, not just developmental sequences"
 related:
-  - /concepts/chitta-vritti.md
-  - /concepts/nirodha.md
-  - /concepts/samprajnata-samadhi.md
-  - /concepts/samapatti.md
-  - /concepts/kaivalya.md
-  - /concepts/guna.md
-  - /concepts/prakriti-yoga.md
+  - chitta-vritti.md
+  - nirodha.md
+  - samprajnata-samadhi.md
+  - samapatti.md
+  - kaivalya.md
+  - guna.md
+  - prakriti-yoga.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -33,14 +33,14 @@ not:
   - term: "unconscious"
     why: "the Freudian/Jungian unconscious is a psychoanalytic construct; vāsanā is a metaphysical concept in the Sāṃkhya-Yoga framework referring to a functional tendency stored in the subtle body"
 related:
-  - /concepts/samskara.md
-  - /concepts/vritti.md
-  - /concepts/raga.md
-  - /concepts/dvesha.md
-  - /concepts/klesha.md
-  - /concepts/nirodha.md
-  - /concepts/asamprajnata-samadhi.md
-  - /concepts/kaivalya.md
+  - samskara.md
+  - vritti.md
+  - raga.md
+  - dvesha.md
+  - klesha.md
+  - nirodha.md
+  - asamprajnata-samadhi.md
+  - kaivalya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

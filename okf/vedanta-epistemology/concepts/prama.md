@@ -34,14 +34,14 @@ not:
   - term: "apramā (invalid cognition)"
     why: "the critical negative case: apramā is cognition that does not correspond to its object (anyathākhyāti — a cognition of something as other than it is); the snake-cognition in poor light is apramā; adhyāsa-produced cognitions are apramā; the entire Advaita analysis of avidyā depends on the pramā/apramā distinction — avidyā produces systematic apramā (the jīva as separate self in a real world); brahma-jñāna is the pramā that bādhita-s all prior apramā about the nature of the self"
 related:
-  - /concepts/pramana.md
-  - /concepts/pramata.md
-  - /concepts/prameya.md
-  - /concepts/anubhava.md
-  - /concepts/svatahpramanya.md
-  - /concepts/badha-badhita.md
-  - /concepts/adhyasa.md
-  - /concepts/avidya.md
+  - pramana.md
+  - pramata.md
+  - prameya.md
+  - anubhava.md
+  - svatahpramanya.md
+  - badha-badhita.md
+  - adhyasa.md
+  - avidya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

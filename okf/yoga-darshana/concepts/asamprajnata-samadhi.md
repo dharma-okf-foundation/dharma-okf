@@ -33,13 +33,13 @@ not:
   - term: "enlightenment"
     why: "asamprajñāta samādhi is the proximate cause of kaivalya; but kaivalya (permanent separation of Puruṣa from Prakṛti) is the liberation, not the samādhi itself"
 related:
-  - /concepts/samprajnata-samadhi.md
-  - /concepts/nirodha.md
-  - /concepts/samskara.md
-  - /concepts/kaivalya.md
-  - /concepts/purusha.md
-  - /concepts/viveka-khyati.md
-  - /concepts/parinama.md
+  - samprajnata-samadhi.md
+  - nirodha.md
+  - samskara.md
+  - kaivalya.md
+  - purusha.md
+  - viveka-khyati.md
+  - parinama.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

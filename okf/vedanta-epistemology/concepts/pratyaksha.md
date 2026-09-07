@@ -36,11 +36,11 @@ not:
   - term: "phenomenal experience"
     why: "the category of phenomenal experience belongs to philosophy of mind and consciousness studies; pratyakṣa is a pramāṇa, a knowledge-producing instrument, not a description of what experience is like"
 related:
-  - /concepts/pramana.md
-  - /concepts/anumana.md
-  - /concepts/nirvikalpaka-savikalpaka.md
-  - /concepts/adhyasa.md
-  - /concepts/mithya.md
+  - pramana.md
+  - anumana.md
+  - nirvikalpaka-savikalpaka.md
+  - adhyasa.md
+  - mithya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

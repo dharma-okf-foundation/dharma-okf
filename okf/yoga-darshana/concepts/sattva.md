@@ -32,13 +32,13 @@ not:
   - term: "virtue"
     why: "virtue is the common dictionary meaning of *guṇa* but in the three-Guṇa context Sattva is a constituent principle, not a moral attribute"
 related:
-  - /concepts/guna.md
-  - /concepts/rajas.md
-  - /concepts/tamas.md
-  - /concepts/prakriti-yoga.md
-  - /concepts/chitta-vritti.md
-  - /concepts/viveka-khyati.md
-  - /concepts/samprajnata-samadhi.md
+  - guna.md
+  - rajas.md
+  - tamas.md
+  - prakriti-yoga.md
+  - chitta-vritti.md
+  - viveka-khyati.md
+  - samprajnata-samadhi.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

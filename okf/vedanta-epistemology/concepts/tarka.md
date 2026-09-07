@@ -33,11 +33,11 @@ not:
   - term: "speculation"
     why: "in ordinary Indian usage, tarka sometimes means \"speculation\" or \"idle reasoning\" (as in the warning \"na tarkeṇa matir āpanīyā\" — \"the Self cannot be obtained by reasoning alone\" — Kaṭhopaniṣad 1.2.9); this pejorative sense is different from tarka as a technical epistemological device; the technical device is a legitimate and necessary component of epistemological method; the ordinary/pejorative sense concerns unmoored speculation without scriptural foundation"
 related:
-  - /concepts/anumana.md
-  - /concepts/pramana.md
-  - /concepts/shabda-pramana.md
-  - /concepts/svatahpramanya.md
-  - /concepts/aptavakya.md
+  - anumana.md
+  - pramana.md
+  - shabda-pramana.md
+  - svatahpramanya.md
+  - aptavakya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

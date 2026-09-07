@@ -30,12 +30,12 @@ not:
   - term: "shutting down"
     why: "the senses do not shut down in pratyāhāra; they continue to receive stimuli at the perceptual level; what changes is that citta no longer engages with (moves toward) those stimuli"
 related:
-  - /concepts/dharana.md
-  - /concepts/chitta-vritti.md
-  - /concepts/nirodha.md
-  - /concepts/guna.md
-  - /concepts/samprajnata-samadhi.md
-  - /concepts/prakriti-yoga.md
+  - dharana.md
+  - chitta-vritti.md
+  - nirodha.md
+  - guna.md
+  - samprajnata-samadhi.md
+  - prakriti-yoga.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

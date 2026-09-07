@@ -32,13 +32,13 @@ not:
   - term: "witness (sākṣin)"
     why: "the sākṣin (witness-consciousness) in Advaita is sometimes conflated with the pramātṛ but is technically distinct; the sākṣin is the pure awareness that witnesses all cognitive states without being affected by them — it does not actively use pramāṇas; the pramātṛ is the empirical cognizer who actively employs pramāṇas; the sākṣin is the ātman (pāramārthika); the pramātṛ is the jīva (vyāvahārika); conflating them misses the layered Advaita ontology"
 related:
-  - /concepts/pramana.md
-  - /concepts/prama.md
-  - /concepts/prameya.md
-  - /concepts/adhyasa.md
-  - /concepts/avidya.md
-  - /concepts/anubhava.md
-  - /concepts/aparoksha-anubhuti.md
+  - pramana.md
+  - prama.md
+  - prameya.md
+  - adhyasa.md
+  - avidya.md
+  - anubhava.md
+  - aparoksha-anubhuti.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

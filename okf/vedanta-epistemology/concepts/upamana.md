@@ -35,11 +35,11 @@ not:
   - term: "inference from similarity"
     why: "this collapses upamāna into anumāna; the critical distinction is that anumāna operates via vyāpti (invariable concomitance), while upamāna involves a prior description and a current resemblance-perception without the vyāpti structure"
 related:
-  - /concepts/pramana.md
-  - /concepts/pratyaksha.md
-  - /concepts/anumana.md
-  - /concepts/arthapatti.md
-  - /concepts/shabda-pramana.md
+  - pramana.md
+  - pratyaksha.md
+  - anumana.md
+  - arthapatti.md
+  - shabda-pramana.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

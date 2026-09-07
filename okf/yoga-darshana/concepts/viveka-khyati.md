@@ -34,14 +34,14 @@ not:
   - term: "discrimination alone"
     why: "discrimination in ordinary English often refers to distinguishing between objects in the external world; viveka-khyāti is the specific discriminative wisdom that distinguishes Puruṣa from Prakṛti — the most fundamental distinction in the Sāṃkhya-Yoga system"
 related:
-  - /concepts/avidya-yoga.md
-  - /concepts/purusha.md
-  - /concepts/prakriti-yoga.md
-  - /concepts/kaivalya.md
-  - /concepts/sattva.md
-  - /concepts/samprajnata-samadhi.md
-  - /concepts/asamprajnata-samadhi.md
-  - /concepts/klesha.md
+  - avidya-yoga.md
+  - purusha.md
+  - prakriti-yoga.md
+  - kaivalya.md
+  - sattva.md
+  - samprajnata-samadhi.md
+  - asamprajnata-samadhi.md
+  - klesha.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

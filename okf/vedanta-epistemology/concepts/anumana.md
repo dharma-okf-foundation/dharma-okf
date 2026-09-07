@@ -35,11 +35,11 @@ not:
   - term: "Mill's methods"
     why: "Mill's methods (Agreement, Difference, etc.) aim at inductive discovery of causal laws; vyāpti is not established by any of Mill's five methods, which assume the very uniformity of nature that Indian logic explains differently"
 related:
-  - /concepts/pramana.md
-  - /concepts/pratyaksha.md
-  - /concepts/arthapatti.md
-  - /concepts/tarka.md
-  - /concepts/shabda-pramana.md
+  - pramana.md
+  - pratyaksha.md
+  - arthapatti.md
+  - tarka.md
+  - shabda-pramana.md
   - ../../nyaya-vaisheshika/concepts/anumana.md
 timestamp: "2026-06-20"
 okf_version: "0.2"

@@ -32,14 +32,14 @@ not:
   - term: "Maya"
     why: "critical error; Māyā is the Advaita Vedānta term for the power of illusion-projection; Prakṛti in Yoga Darśana is ontologically real, not illusory — the world produced by Prakṛti is genuinely real within this framework"
 related:
-  - /concepts/purusha.md
-  - /concepts/guna.md
-  - /concepts/sattva.md
-  - /concepts/rajas.md
-  - /concepts/tamas.md
-  - /concepts/avidya-yoga.md
-  - /concepts/chitta-vritti.md
-  - /concepts/kaivalya.md
+  - purusha.md
+  - guna.md
+  - sattva.md
+  - rajas.md
+  - tamas.md
+  - avidya-yoga.md
+  - chitta-vritti.md
+  - kaivalya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

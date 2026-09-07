@@ -32,11 +32,11 @@ not:
   - term: "speculation"
     why: "speculation implies tentativeness and open alternatives; arthāpatti produces knowledge that is as certain as the two established facts that necessitate it"
 related:
-  - /concepts/pramana.md
-  - /concepts/anumana.md
-  - /concepts/anupalabdhi.md
-  - /concepts/badha-badhita.md
-  - /concepts/shabda-pramana.md
+  - pramana.md
+  - anumana.md
+  - anupalabdhi.md
+  - badha-badhita.md
+  - shabda-pramana.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

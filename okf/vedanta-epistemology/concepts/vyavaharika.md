@@ -34,12 +34,12 @@ not:
   - term: "social construction"
     why: "social construction theory holds that natural categories are human-made; vyāvahārika includes natural-world categories (fire burns, water flows, bodies are born and die) that are not constructed; its mithyātva is a pāramārthika-level claim about ontological dependency, not a claim that experience is constructed"
 related:
-  - /concepts/mithya.md
-  - /concepts/paramarthika.md
-  - /concepts/pratibhasika.md
-  - /concepts/pramana.md
-  - /concepts/badha-badhita.md
-  - /concepts/adhyasa.md
+  - mithya.md
+  - paramarthika.md
+  - pratibhasika.md
+  - pramana.md
+  - badha-badhita.md
+  - adhyasa.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

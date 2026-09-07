@@ -32,13 +32,13 @@ not:
   - term: "negativity"
     why: "negativity is an experiential judgement; Tamas is an ontological principle necessary at all levels of existence"
 related:
-  - /concepts/guna.md
-  - /concepts/sattva.md
-  - /concepts/rajas.md
-  - /concepts/prakriti-yoga.md
-  - /concepts/avidya-yoga.md
-  - /concepts/samskara.md
-  - /concepts/vasana.md
+  - guna.md
+  - sattva.md
+  - rajas.md
+  - prakriti-yoga.md
+  - avidya-yoga.md
+  - samskara.md
+  - vasana.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

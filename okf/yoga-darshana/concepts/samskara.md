@@ -33,15 +33,15 @@ not:
   - term: "conditioning"
     why: "conditioning is the closest behavioral science equivalent but loses the metaphysical precision: saṃskāras are stored in citta as ontological modifications, not merely reinforced behavioral patterns"
 related:
-  - /concepts/chitta-vritti.md
-  - /concepts/vritti.md
-  - /concepts/vasana.md
-  - /concepts/raga.md
-  - /concepts/dvesha.md
-  - /concepts/abhinivesha.md
-  - /concepts/nirodha.md
-  - /concepts/asamprajnata-samadhi.md
-  - /concepts/kaivalya.md
+  - chitta-vritti.md
+  - vritti.md
+  - vasana.md
+  - raga.md
+  - dvesha.md
+  - abhinivesha.md
+  - nirodha.md
+  - asamprajnata-samadhi.md
+  - kaivalya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

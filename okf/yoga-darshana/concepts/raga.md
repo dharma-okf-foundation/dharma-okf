@@ -32,14 +32,14 @@ not:
   - term: "passion"
     why: "passion in English connotes intensity but not necessarily error; rāga is structurally erroneous regardless of intensity"
 related:
-  - /concepts/klesha.md
-  - /concepts/avidya-yoga.md
-  - /concepts/asmita.md
-  - /concepts/dvesha.md
-  - /concepts/abhinivesha.md
-  - /concepts/samskara.md
-  - /concepts/vasana.md
-  - /concepts/kaivalya.md
+  - klesha.md
+  - avidya-yoga.md
+  - asmita.md
+  - dvesha.md
+  - abhinivesha.md
+  - samskara.md
+  - vasana.md
+  - kaivalya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

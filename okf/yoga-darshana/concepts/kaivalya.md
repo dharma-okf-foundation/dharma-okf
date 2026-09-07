@@ -33,14 +33,14 @@ not:
   - term: "oneness"
     why: "oneness implies non-duality; kaivalya is the stabilization of duality — Puruṣa isolated (*kevala*) in its aloneness; it is the many-ness of Puruṣa-s each in their own kaivalya that makes Yoga Darśana fundamentally different from Advaita"
 related:
-  - /concepts/purusha.md
-  - /concepts/prakriti-yoga.md
-  - /concepts/asamprajnata-samadhi.md
-  - /concepts/viveka-khyati.md
-  - /concepts/nirodha.md
-  - /concepts/guna.md
-  - /concepts/klesha.md
-  - /concepts/abhinivesha.md
+  - purusha.md
+  - prakriti-yoga.md
+  - asamprajnata-samadhi.md
+  - viveka-khyati.md
+  - nirodha.md
+  - guna.md
+  - klesha.md
+  - abhinivesha.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

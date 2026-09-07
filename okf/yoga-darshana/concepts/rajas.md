@@ -32,14 +32,14 @@ not:
   - term: "activity"
     why: "activity is the closest English approximation but loses the sense that Rajas is ontological: it is what makes Sattva and Tamas active, not merely one result of activity"
 related:
-  - /concepts/guna.md
-  - /concepts/sattva.md
-  - /concepts/tamas.md
-  - /concepts/prakriti-yoga.md
-  - /concepts/samskara.md
-  - /concepts/raga.md
-  - /concepts/dvesha.md
-  - /concepts/nirodha.md
+  - guna.md
+  - sattva.md
+  - tamas.md
+  - prakriti-yoga.md
+  - samskara.md
+  - raga.md
+  - dvesha.md
+  - nirodha.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

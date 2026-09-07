@@ -30,12 +30,12 @@ not:
   - term: "mindfulness"
     why: "mindfulness (particularly in its Buddhist usage) is awareness of the present moment's arising and passing; dhāraṇā is the deliberate single-pointed binding to a chosen object; the quality of attention and the relationship to the object are structurally different"
 related:
-  - /concepts/pratyahara.md
-  - /concepts/samprajnata-samadhi.md
-  - /concepts/samapatti.md
-  - /concepts/nirodha.md
-  - /concepts/chitta-vritti.md
-  - /concepts/parinama.md
+  - pratyahara.md
+  - samprajnata-samadhi.md
+  - samapatti.md
+  - nirodha.md
+  - chitta-vritti.md
+  - parinama.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

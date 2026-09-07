@@ -34,14 +34,14 @@ not:
   - term: "bliss"
     why: "ānanda is the third stage of samprajñāta samādhi but is not its defining characteristic; using \"bliss\" for samādhi generalizes one stage and often misattributes the experience to Puruṣa rather than a refined Sattvic vṛtti"
 related:
-  - /concepts/asamprajnata-samadhi.md
-  - /concepts/samapatti.md
-  - /concepts/chitta-vritti.md
-  - /concepts/nirodha.md
-  - /concepts/kaivalya.md
-  - /concepts/sattva.md
-  - /concepts/viveka-khyati.md
-  - /concepts/dharana.md
+  - asamprajnata-samadhi.md
+  - samapatti.md
+  - chitta-vritti.md
+  - nirodha.md
+  - kaivalya.md
+  - sattva.md
+  - viveka-khyati.md
+  - dharana.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

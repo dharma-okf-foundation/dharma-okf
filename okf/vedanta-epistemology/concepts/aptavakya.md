@@ -35,12 +35,12 @@ not:
   - term: "hearsay"
     why: "hearsay (in legal usage) is testimony about what another person said, treated with epistemic suspicion because it inserts an unverifiable chain; āpta-vākya is the opposite: it is the gold standard of testimony precisely because the āpta has direct knowledge of the matter and is not reporting what they heard from others"
 related:
-  - /concepts/shabda-pramana.md
-  - /concepts/pramana.md
-  - /concepts/svatahpramanya.md
-  - /concepts/aparoksha-anubhuti.md
-  - /concepts/tarka.md
-  - /concepts/anumana.md
+  - shabda-pramana.md
+  - pramana.md
+  - svatahpramanya.md
+  - aparoksha-anubhuti.md
+  - tarka.md
+  - anumana.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -32,15 +32,15 @@ not:
   - term: "silence"
     why: "silence is a helpful experiential metaphor but not the definition; external silence can coexist with a highly agitated citta; nirodha is a modification of the citta's fundamental activity, not an auditory state"
 related:
-  - /concepts/chitta-vritti.md
-  - /concepts/vritti.md
-  - /concepts/samskara.md
-  - /concepts/asamprajnata-samadhi.md
-  - /concepts/samprajnata-samadhi.md
-  - /concepts/kaivalya.md
-  - /concepts/purusha.md
-  - /concepts/pratyahara.md
-  - /concepts/dharana.md
+  - chitta-vritti.md
+  - vritti.md
+  - samskara.md
+  - asamprajnata-samadhi.md
+  - samprajnata-samadhi.md
+  - kaivalya.md
+  - purusha.md
+  - pratyahara.md
+  - dharana.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

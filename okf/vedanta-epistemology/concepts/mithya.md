@@ -38,19 +38,19 @@ not:
   - term: "śūnya / emptiness"
     why: "Buddhist śūnyatā asserts that phenomena lack inherent existence (svabhāva) — they are dependently originated but have no permanent nature; Advaita's mithyā asserts dependent existence on Brahman, a positive conscious ground; the Advaita critique of Buddhist śūnyavāda is precisely that śūnya leaves no positive reality (no adhiṣṭhāna) — for Advaita, Brahman is the adhiṣṭhāna on which all mithyā rests"
 related:
-  - /concepts/adhyasa.md
-  - /concepts/vyavaharika.md
-  - /concepts/paramarthika.md
-  - /concepts/pratibhasika.md
-  - /concepts/vivartavada.md
-  - /concepts/badha-badhita.md
-  - /concepts/pramana.md
-  - /concepts/aparoksha-anubhuti.md
-  - /concepts/avidya.md
-  - /concepts/jnana.md
-  - /concepts/parinamavada.md
-  - /concepts/prameya.md
-  - /concepts/pratyaksha.md
+  - adhyasa.md
+  - vyavaharika.md
+  - paramarthika.md
+  - pratibhasika.md
+  - vivartavada.md
+  - badha-badhita.md
+  - pramana.md
+  - aparoksha-anubhuti.md
+  - avidya.md
+  - jnana.md
+  - parinamavada.md
+  - prameya.md
+  - pratyaksha.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

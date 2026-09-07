@@ -32,14 +32,14 @@ not:
   - term: "anxiety"
     why: "anxiety is a psychological symptom; abhiniveśa is the metaphysical root from which death-anxiety arises"
 related:
-  - /concepts/klesha.md
-  - /concepts/avidya-yoga.md
-  - /concepts/asmita.md
-  - /concepts/raga.md
-  - /concepts/dvesha.md
-  - /concepts/samskara.md
-  - /concepts/kaivalya.md
-  - /concepts/purusha.md
+  - klesha.md
+  - avidya-yoga.md
+  - asmita.md
+  - raga.md
+  - dvesha.md
+  - samskara.md
+  - kaivalya.md
+  - purusha.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

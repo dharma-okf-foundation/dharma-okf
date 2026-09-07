@@ -36,12 +36,12 @@ not:
   - term: "ultimate reality (generic)"
     why: "when used as a generic translation, 'ultimate reality' loses the specific technical criterion — trikālābādhita — that defines pāramārthika in Advaita; the phrase can apply to anything a philosophy calls most fundamental, erasing the precision of the definition"
 related:
-  - /concepts/mithya.md
-  - /concepts/vyavaharika.md
-  - /concepts/pratibhasika.md
-  - /concepts/shabda-pramana.md
-  - /concepts/adhyasa.md
-  - /concepts/vivartavada.md
+  - mithya.md
+  - vyavaharika.md
+  - pratibhasika.md
+  - shabda-pramana.md
+  - adhyasa.md
+  - vivartavada.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
