@@ -126,21 +126,21 @@ Read this before consuming any concept file.
 
 **Four critical deduplication notes for users of multiple OKF bundles:**
 
-### 1. Brahmā ≠ Brahman (upanishadic-core v0.5 and cosmology-creation v0.7)
+### 1. Brahmā ≠ Brahman (upanishadic-core v0.6 and cosmology-creation v0.7)
 
-This is the single most critical conflation in all OKF. Brahmā (ब्रह्मा, masculine) is the four-faced creator deity with a finite lifespan, treated in cosmology-creation/brahma-the-creator.md. Brahman (ब्रह्मन्, neuter) is the uncreated, infinite, attributeless absolute, treated in upanishadic-core v0.5. The Brahma Sūtras open with the inquiry into Brahman (not Brahmā); this distinction is grammatically marked in Sanskrit (masculine vs. neuter) but invisible in most English transliterations unless IAST is used. Every OKF file distinguishes these terms in its not: entries.
+This is the single most critical conflation in all OKF. Brahmā (ब्रह्मा, masculine) is the four-faced creator deity with a finite lifespan, treated in cosmology-creation/brahma-the-creator.md. Brahman (ब्रह्मन्, neuter) is the uncreated, infinite, attributeless absolute, treated in upanishadic-core v0.6. The Brahma Sūtras open with the inquiry into Brahman (not Brahmā); this distinction is grammatically marked in Sanskrit (masculine vs. neuter) but invisible in most English transliterations unless IAST is used. Every OKF file distinguishes these terms in its not: entries.
 
-### 2. Māyā at Two Levels (upanishadic-core v0.5 and cosmology-creation v0.7)
+### 2. Māyā at Two Levels (upanishadic-core v0.6 and cosmology-creation v0.7)
 
 Mahāmāyā (cosmological Māyā) operates at the level of Brahman's own creative power and generates the cosmic Sṛṣṭi -- this is v0.7 territory (maya-cosmological.md). Avidyā (individual ignorance / individual Māyā) operates at the level of the jīva and generates individual bondage -- this is v0.5 territory (upanishadic-core). The two are structurally related (Mahāmāyā creates the conditions within which avidyā operates) but ontologically distinct: Mahāmāyā is projective (Brahman projects the cosmos); avidyā is obscuring (the jīva fails to see Brahman).
 
-### 3. Triguṇas at Two Levels (yoga-darshana v0.4 and cosmology-creation v0.7)
+### 3. Triguṇas at Two Levels (yoga-darshana v0.2 and cosmology-creation v0.7)
 
-The Triguṇa doctrine originates in Sāṃkhya and functions at two levels of analysis. yoga-darshana v0.4 treats the Guṇas in their epistemological and psychological dimension: how Guṇa-dominance affects consciousness, how yoga practice shifts Guṇa balance, how Sattva supports meditation. cosmology-creation v0.7 (trigunas-cosmological.md) treats the Guṇas in their cosmological dimension: how they constitute Avyakta, how their disturbance initiates Sṛṣṭi, how they map to the Trimūrti (BhP 1.2.23) and the Yuga cycle. These are the same concept at different levels of analysis.
+The Triguṇa doctrine originates in Sāṃkhya and functions at two levels of analysis. yoga-darshana v0.2 treats the Guṇas in their epistemological and psychological dimension: how Guṇa-dominance affects consciousness, how yoga practice shifts Guṇa balance, how Sattva supports meditation. cosmology-creation v0.7 (trigunas-cosmological.md) treats the Guṇas in their cosmological dimension: how they constitute Avyakta, how their disturbance initiates Sṛṣṭi, how they map to the Trimūrti (BhP 1.2.23) and the Yuga cycle. These are the same concept at different levels of analysis.
 
-### 4. Līlā at Two Levels (bhakti-marga v0.5 and cosmology-creation v0.7)
+### 4. Līlā at Two Levels (bhakti-marga v0.4 and cosmology-creation v0.7)
 
-The cosmological Līlā ([lila-cosmological.md](concepts/lila-cosmological.md)) addresses the metaphysical question: why does Brahman create at all? Answer: as the free, spontaneous, self-sufficient expression of infinite ānanda (Brahma Sūtra 2.1.33). The relational Līlā in bhakti-marga v0.5 addresses the theological-devotional question: what is the nature of Kṛṣṇa's intimate play with devotees in Vṛndāvana? The Vṛndāvana Līlā is one specific (and highly elaborated) expression of the cosmological principle. v0.7 is the philosophical ground; v0.5 is the theological flowering.
+The cosmological Līlā ([lila-cosmological.md](concepts/lila-cosmological.md)) addresses the metaphysical question: why does Brahman create at all? Answer: as the free, spontaneous, self-sufficient expression of infinite ānanda (Brahma Sūtra 2.1.33). The relational Līlā in bhakti-marga v0.4 addresses the theological-devotional question: what is the nature of Kṛṣṇa's intimate play with devotees in Vṛndāvana? The Vṛndāvana Līlā is one specific (and highly elaborated) expression of the cosmological principle. v0.7 is the philosophical ground; v0.4 is the theological flowering.
 
 ---
 

@@ -139,3 +139,14 @@ The three Guṇa-s are like the three primary colors of light (red, green, blue)
 3. [Yoga Bhāṣya of Vyāsa](../references/yoga-bhasya.md) on YS 2.18
 4. [Bhagavad Gītā](../references/bhagavad-gita.md) Chs. 14, 17, 18 (Guṇa-traya vibhāga)
 5. Cross-bundle note: the doctrinal SOURCE of the triguṇa is sankhya-darshana v0.13's guna-samkhya.md; this file is a downstream/applied treatment (epistemological-psychological dimension), not a peer or competing definition
+
+## Cross-Darśana Note — guṇa across five treatments
+
+`guṇa` names a different technical object in each school that carries it. Here it is the triguṇa in its psychological register, where guṇa-dominance shapes citta and practice. The other treatments in this corpus:
+
+- [Guṇa (Sāṃkhya)](../../sankhya-darshana/concepts/guna-samkhya.md) — sankhya-darshana v0.13: the doctrinal source, where the three constituents of prakṛti are defined — sattva, rajas and tamas
+- [Guṇa](../../nyaya-vaisheshika/concepts/guna.md) — nyaya-vaisheshika v0.9: an inhering quality, one of some twenty-four, unrelated to the triguṇa
+- [Triguṇas (Cosmological)](../../cosmology-creation/concepts/trigunas-cosmological.md) — cosmology-creation v0.7: the triguṇa in its cosmological register, constituting avyakta, initiating sṛṣṭi and mapped to Trimūrti and yuga
+- [Guṇa](../../ayurveda-consciousness/concepts/guna.md) — ayurveda-consciousness v0.11: the twenty gurvādi pharmacological properties, neither the Vaiśeṣika category nor the cosmic strands
+
+Same word, different darśana. School-contrast, not duplication.

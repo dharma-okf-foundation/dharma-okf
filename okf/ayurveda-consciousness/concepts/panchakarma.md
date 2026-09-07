@@ -51,3 +51,13 @@ A city does not dredge its river as a festival, and dredging is not sweeping the
 
 1. Charaka Saṃhitā Sūtrasthāna 2 on the five procedures and their preparations -- see [references/charaka-samhita.md](../references/charaka-samhita.md)
 2. Suśruta Saṃhitā Cikitsāsthāna on the five karmas including raktamokṣaṇa -- see [references/sushruta-samhita.md](../references/sushruta-samhita.md)
+
+## Cross-Darśana Note — karma across four darśanas
+
+`karma` names a different technical object in each school that carries it. Here it is karma as therapeutic procedure, the five physician-governed purifications. The other treatments in this corpus:
+
+- [Karma](../../dharma-foundation/concepts/karma.md) — dharma-foundation v0.1: the moral law of action and consequence across lifetimes
+- [Karma](../../nyaya-vaisheshika/concepts/karma.md) — nyaya-vaisheshika v0.9: bare physical motion, one of the seven padārthas, not the moral law
+- [Yāga / Yajña](../../mimamsa-dharma/concepts/yaga.md) — mimamsa-dharma v0.10: the enjoined ritual act
+
+Same word, different darśana. School-contrast, not duplication.

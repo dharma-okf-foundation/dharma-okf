@@ -45,3 +45,11 @@ Kaivalya is less like arriving somewhere and more like realizing you were never 
 
 1. Samkhya-Karika 68 -- see [references/samkhya-karika.md](../references/samkhya-karika.md)
 2. Cross-bundle warning: kaivalya in yoga-darshana v0.2 -- same word, reached via nirodha rather than viveka-khyati; reciprocal related: link patched into v0.2's kaivalya.md per this bundle's concept-lock
+
+## Cross-Darśana Note — kaivalya across two darśanas
+
+Sāṃkhya and Yoga share the puruṣa-prakṛti metaphysics, so `kaivalya` is one terminus reached by two routes rather than two different objects. Here it is reached by discriminative knowledge alone, without a practice ladder. The other treatment in this corpus:
+
+- [Kaivalya](../../yoga-darshana/concepts/kaivalya.md) — yoga-darshana v0.2: reached by practiced cessation; the guṇa-s return to equilibrium at YS 4.34
+
+Same terminus, different route. School-contrast, not duplication.

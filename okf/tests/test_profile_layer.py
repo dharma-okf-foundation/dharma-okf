@@ -40,7 +40,7 @@ BUNDLES = sorted(
 # the only concept in the corpus with no citation to convert.
 EXPECTED_TOTALS = {
     "absolute_links": 0,
-    "relative_links": 1467,
+    "relative_links": 1501,
     "pseudo_links": 0,
     "bare_path": 0,
     "concepts_without_links": 0,
@@ -48,7 +48,7 @@ EXPECTED_TOTALS = {
     "dirs_with_concepts": 26,
     "related_absolute": 0,
     "related_relative": 1500,
-    "escaping_links": 28,
+    "escaping_links": 62,
 }
 EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 13, "2b": 13, "3": 0}
 EXPECTED_CORPUS = {"bundles": 13, "concepts": 310, "references": 132, "documents": 442}
@@ -224,18 +224,22 @@ def test_no_absolute_related_entries_remain(report):
 def test_escaping_links_are_reported_but_never_scored(report):
     """§3.1 discloses that some body links leave the bundle root.
 
-    26 point at the repository-root GENEALOGIES.md; 2 are cross-bundle. A
-    base-conformant resolver may drop all of them (open-knowledge-format#14,
-    acceptance criterion 5). The profile permits them; the count is what keeps
-    the disclosure honest. It must never affect a level.
+    26 point at the repository-root GENEALOGIES.md; 36 are cross-bundle links
+    expressing school-relativity, added by the 2026-09 wave. A base-conformant
+    resolver may drop all of them (open-knowledge-format#14, acceptance
+    criterion 5), which is why PROFILE.md §3.1 discloses them by count. The
+    profile permits them; this number is what keeps the disclosure true. It
+    must never affect a level.
     """
     per = {b["bundle"]: b["links"]["escaping"]
            for b in report["bundles"] if b["links"]["escaping"]}
     assert per == {
-        "bhakti-marga": 4, "cosmology-creation": 3, "dharma-foundation": 8,
-        "dharmic-ethics": 2, "shakta-darshana": 9, "vedanta-epistemology": 2,
+        "ayurveda-consciousness": 7, "bhakti-marga": 4, "cosmology-creation": 7,
+        "dharma-foundation": 11, "dharmic-ethics": 2, "mimamsa-dharma": 3,
+        "nyaya-vaisheshika": 7, "sankhya-darshana": 5, "shakta-darshana": 9,
+        "vedanta-epistemology": 2, "yoga-darshana": 5,
     }
-    assert sum(per.values()) == 28
+    assert sum(per.values()) == 62
     # scoring is untouched: five bundles still pass Level 2, and two of the
     # bundles carrying escaping links are among them.
     passing = {b["bundle"] for b in report["bundles"] if b["level_2"]}

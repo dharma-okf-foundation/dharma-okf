@@ -52,3 +52,14 @@ Guṇa, quality, is the second Vaiśeṣika category: a property that inheres in
 2. Praśastapāda, Padārthadharmasaṃgraha (the twenty-four qualities) -- see [references/padarthadharmasamgraha.md](../references/padarthadharmasamgraha.md)
 3. Cross-bundle warning: triguṇa in dharma-foundation v0.1, yoga-darshana v0.2, cosmology-creation v0.7 -- a wholly different scheme; never merge
 4. Cross-bundle note: the triguṇa's doctrinal source-school treatment now has its own dedicated file, sankhya-darshana v0.13's guna-samkhya.md -- still unrelated to this Vaiśeṣika ontological category, shared word only
+
+## Cross-Darśana Note — guṇa across five treatments
+
+`guṇa` names a different technical object in each school that carries it. Here it is an inhering quality, one of some twenty-four, unrelated to the triguṇa. The other treatments in this corpus:
+
+- [Guṇa (Sāṃkhya)](../../sankhya-darshana/concepts/guna-samkhya.md) — sankhya-darshana v0.13: the doctrinal source, where the three constituents of prakṛti are defined — sattva, rajas and tamas
+- [Guṇa-s](../../yoga-darshana/concepts/guna.md) — yoga-darshana v0.2: the triguṇa in its psychological register, where guṇa-dominance shapes citta and practice
+- [Triguṇas (Cosmological)](../../cosmology-creation/concepts/trigunas-cosmological.md) — cosmology-creation v0.7: the triguṇa in its cosmological register, constituting avyakta, initiating sṛṣṭi and mapped to Trimūrti and yuga
+- [Guṇa](../../ayurveda-consciousness/concepts/guna.md) — ayurveda-consciousness v0.11: the twenty gurvādi pharmacological properties, neither the Vaiśeṣika category nor the cosmic strands
+
+Same word, different darśana. School-contrast, not duplication.

@@ -124,3 +124,11 @@ Kaivalya is like the moment when you realize that what you took to be your refle
 3. [Tattvavaiśāradī](../references/tattvavaisharadi.md) of Vācaspatimiśra on YS 4.34
 4. Rajiv Malhotra — Being Different (2011), Ch. 3 (differences in liberation concepts)
 5. Cross-bundle warning: sankhya-darshana v0.13's kaivalya-samkhya.md treats the same end-state word reached via viveka-khyāti alone (no nirodha, no eight-limb path, no Īśvara) — school-scoped, not a duplicate of this entry
+
+## Cross-Darśana Note — kaivalya across two darśanas
+
+Sāṃkhya and Yoga share the puruṣa-prakṛti metaphysics, so `kaivalya` is one terminus reached by two routes rather than two different objects. Here it is reached by practiced cessation; the guṇa-s return to equilibrium at YS 4.34. The other treatment in this corpus:
+
+- [Kaivalya (Sāṃkhya)](../../sankhya-darshana/concepts/kaivalya-samkhya.md) — sankhya-darshana v0.13: reached by discriminative knowledge alone, without a practice ladder
+
+Same terminus, different route. School-contrast, not duplication.

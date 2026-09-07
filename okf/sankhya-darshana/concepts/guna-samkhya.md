@@ -48,3 +48,14 @@ Think of the three guṇas as three dials on a single mixing board -- brightness
 1. Samkhya-Karika 11-13 -- see [references/samkhya-karika.md](../references/samkhya-karika.md)
 2. Cross-bundle note (source framing, D4): downstream/applied referents in bhakti-marga v0.4, cosmology-creation v0.7 (trigunas-cosmological), ayurveda-consciousness v0.11 (third referent) all trace to this doctrine
 3. Cross-bundle warning: unrelated ontological sense in nyaya-vaisheshika v0.9's guna.md -- shared word, no shared doctrine
+
+## Cross-Darśana Note — guṇa across five treatments
+
+`guṇa` names a different technical object in each school that carries it. Here it is the doctrinal source, where the three constituents of prakṛti are defined — sattva, rajas and tamas. The other treatments in this corpus:
+
+- [Guṇa](../../nyaya-vaisheshika/concepts/guna.md) — nyaya-vaisheshika v0.9: an inhering quality, one of some twenty-four, unrelated to the triguṇa
+- [Guṇa-s](../../yoga-darshana/concepts/guna.md) — yoga-darshana v0.2: the triguṇa in its psychological register, where guṇa-dominance shapes citta and practice
+- [Triguṇas (Cosmological)](../../cosmology-creation/concepts/trigunas-cosmological.md) — cosmology-creation v0.7: the triguṇa in its cosmological register, constituting avyakta, initiating sṛṣṭi and mapped to Trimūrti and yuga
+- [Guṇa](../../ayurveda-consciousness/concepts/guna.md) — ayurveda-consciousness v0.11: the twenty gurvādi pharmacological properties, neither the Vaiśeṣika category nor the cosmic strands
+
+Same word, different darśana. School-contrast, not duplication.

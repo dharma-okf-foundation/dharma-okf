@@ -51,3 +51,14 @@ Twenty sliders on a mixing desk, in ten linked pairs: push one up and its partne
 1. Charaka Saṃhitā Sūtrasthāna 25.36 listing the twenty śārīra guṇas -- see [references/charaka-samhita.md](../references/charaka-samhita.md)
 2. Charaka Saṃhitā Sūtrasthāna 1.44 on samānya and viśeṣa, like increasing like -- see [references/charaka-samhita.md](../references/charaka-samhita.md)
 3. Cross-bundle note: the cosmological triguṇa this file distinguishes itself from (item 2 in the not: field) now has its doctrinal source-school treatment at sankhya-darshana v0.13's guna-samkhya.md -- still a fourth, unrelated referent to this Āyurvedic pharmacological sense
+
+## Cross-Darśana Note — guṇa across five treatments
+
+`guṇa` names a different technical object in each school that carries it. Here it is the twenty gurvādi pharmacological properties, neither the Vaiśeṣika category nor the cosmic strands. The other treatments in this corpus:
+
+- [Guṇa (Sāṃkhya)](../../sankhya-darshana/concepts/guna-samkhya.md) — sankhya-darshana v0.13: the doctrinal source, where the three constituents of prakṛti are defined — sattva, rajas and tamas
+- [Guṇa](../../nyaya-vaisheshika/concepts/guna.md) — nyaya-vaisheshika v0.9: an inhering quality, one of some twenty-four, unrelated to the triguṇa
+- [Guṇa-s](../../yoga-darshana/concepts/guna.md) — yoga-darshana v0.2: the triguṇa in its psychological register, where guṇa-dominance shapes citta and practice
+- [Triguṇas (Cosmological)](../../cosmology-creation/concepts/trigunas-cosmological.md) — cosmology-creation v0.7: the triguṇa in its cosmological register, constituting avyakta, initiating sṛṣṭi and mapped to Trimūrti and yuga
+
+Same word, different darśana. School-contrast, not duplication.

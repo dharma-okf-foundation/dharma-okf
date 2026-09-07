@@ -51,3 +51,13 @@ A stagehand and a judge both speak of 'a motion,' and mean nothing alike: one me
 1. Vaiśeṣika Sūtra 1.1.7 (the five motions) -- see [references/vaisheshika-sutra.md](../references/vaisheshika-sutra.md)
 2. Praśastapāda, Padārthadharmasaṃgraha (karma among the categories; adṛṣṭa as the seat of moral desert) -- see [references/padarthadharmasamgraha.md](../references/padarthadharmasamgraha.md)
 3. Cross-bundle warning: the moral law of karma in dharma-foundation v0.1 -- a wholly different scheme (ethical causation across lives, borne by adṛṣṭa here); never merge
+
+## Cross-Darśana Note — karma across four darśanas
+
+`karma` names a different technical object in each school that carries it. Here it is bare physical motion, one of the seven padārthas, not the moral law. The other treatments in this corpus:
+
+- [Karma](../../dharma-foundation/concepts/karma.md) — dharma-foundation v0.1: the moral law of action and consequence across lifetimes
+- [Yāga / Yajña](../../mimamsa-dharma/concepts/yaga.md) — mimamsa-dharma v0.10: the enjoined ritual act
+- [Pañcakarma](../../ayurveda-consciousness/concepts/panchakarma.md) — ayurveda-consciousness v0.11: karma as therapeutic procedure, the five physician-governed purifications
+
+Same word, different darśana. School-contrast, not duplication.

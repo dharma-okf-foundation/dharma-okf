@@ -50,3 +50,13 @@ Think of a precisely notarised procedure whose legal effect follows from doing e
 
 1. Mīmāṃsā Sūtra 2.1 and 4.2 on the sacrificial act -- see [references/mimamsa-sutra.md](../references/mimamsa-sutra.md)
 2. Śāstra-dīpikā on yāga and devatā -- see [references/sastra-dipika.md](../references/sastra-dipika.md)
+
+## Cross-Darśana Note — karma across four darśanas
+
+`karma` names a different technical object in each school that carries it. Here it is the enjoined ritual act. The other treatments in this corpus:
+
+- [Karma](../../dharma-foundation/concepts/karma.md) — dharma-foundation v0.1: the moral law of action and consequence across lifetimes
+- [Karma](../../nyaya-vaisheshika/concepts/karma.md) — nyaya-vaisheshika v0.9: bare physical motion, one of the seven padārthas, not the moral law
+- [Pañcakarma](../../ayurveda-consciousness/concepts/panchakarma.md) — ayurveda-consciousness v0.11: karma as therapeutic procedure, the five physician-governed purifications
+
+Same word, different darśana. School-contrast, not duplication.

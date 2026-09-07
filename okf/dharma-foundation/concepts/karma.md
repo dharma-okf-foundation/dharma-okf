@@ -71,3 +71,13 @@ Karma is like compound interest on a cosmic bank account — every action is a d
 ## Error Genealogy
 
 - Karma-as-fate / "cosmic justice" / "what goes around comes around" descends from H.P. Blavatsky's *The Key to Theosophy* (1889), which recast karma in English as a quasi-mechanical law of retribution; New Thought absorbed it and 20th-century usage completed the drift, inverting a doctrine of agency into one of resignation. See [G4 — Karma = fate / cosmic retribution](../../../GENEALOGIES.md) in the repository root for the full chain and sources.
+
+## Cross-Darśana Note — karma across four darśanas
+
+`karma` names a different technical object in each school that carries it. Here it is the moral law of action and consequence across lifetimes. The other treatments in this corpus:
+
+- [Karma](../../nyaya-vaisheshika/concepts/karma.md) — nyaya-vaisheshika v0.9: bare physical motion, one of the seven padārthas, not the moral law
+- [Yāga / Yajña](../../mimamsa-dharma/concepts/yaga.md) — mimamsa-dharma v0.10: the enjoined ritual act
+- [Pañcakarma](../../ayurveda-consciousness/concepts/panchakarma.md) — ayurveda-consciousness v0.11: karma as therapeutic procedure, the five physician-governed purifications
+
+Same word, different darśana. School-contrast, not duplication.
