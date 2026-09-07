@@ -23,11 +23,11 @@ not:
   - term: "'the divine feminine' (archetype vocabulary)"
     why: "Jungian-New Age 'divine feminine' language treats Devī as a psychological archetype present in everyone's psyche. Whatever its therapeutic uses, it is a modern Western frame: Śākta darśana claims Devī as the metaphysical ultimate, not an archetype in the unconscious."
 related:
-  - /concepts/mahadevi.md
-  - /concepts/shakti.md
-  - /concepts/kali.md
-  - /concepts/tripurasundari.md
-  - /concepts/dasha-mahavidya.md
+  - mahadevi.md
+  - shakti.md
+  - kali.md
+  - tripurasundari.md
+  - dasha-mahavidya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

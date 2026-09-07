@@ -24,11 +24,11 @@ not:
   - term: "the same as Upāsanā (qualified Brahman meditation)"
     why: "Upāsanā is meditation on Saguṇa Brahman (Brahman with attributes) — a qualified form is taken as the object of sustained contemplation. This produces Citta-śuddhi (mental purification) and may lead to Brahmaloka. Brahmabhāvanā is the Nirguṇa equivalent: it is not meditation on a form of Brahman but the repeated recognition 'I am (Nirguṇa) Brahman' — functioning as the dissolution of Viparīta-bhāvanā rather than as an Upāsanā practice."
 related:
-  - /concepts/nididhyasana.md
-  - /concepts/jivanmukti.md
-  - /concepts/sakshin.md
-  - /concepts/nirguna-brahman.md
-  - /concepts/manana.md
+  - nididhyasana.md
+  - jivanmukti.md
+  - sakshin.md
+  - nirguna-brahman.md
+  - manana.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

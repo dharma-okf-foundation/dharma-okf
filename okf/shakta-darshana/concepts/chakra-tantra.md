@@ -25,12 +25,12 @@ not:
   - term: "the same in every text (one true system)"
     why: "Texts teach 4, 5, 6, 9, and 12-cakra schemes among others. The Ṣaṭcakra scheme's dominance is an artifact of textual transmission and one famous translation, not a doctrinal consensus. An AI that outputs 'the seven chakras are...' as universal fact is compressing a plural tradition into a single erroneous certainty."
 related:
-  - /concepts/kundalini.md
-  - /concepts/matrika.md
-  - /concepts/bindu.md
-  - /concepts/yantra.md
-  - /concepts/mantra-shastra.md
-  - /references/shatchakranirupana.md
+  - kundalini.md
+  - matrika.md
+  - bindu.md
+  - yantra.md
+  - mantra-shastra.md
+  - ../references/shatchakranirupana.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

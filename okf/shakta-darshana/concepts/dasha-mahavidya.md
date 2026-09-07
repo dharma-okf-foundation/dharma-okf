@@ -22,10 +22,10 @@ not:
   - term: "archetypes / a tarot-like deck of feminine energies"
     why: "New Age reception treats the ten as psychological archetypes or card-deck energies to 'work with.' The tradition presents them as vidyās: each is a complete revelation of the one reality with its own mantra, yantra, and initiatory worship. The archetype frame converts theology into self-help taxonomy."
 related:
-  - /concepts/kali.md
-  - /concepts/tripurasundari.md
-  - /concepts/mahadevi.md
-  - /concepts/devi.md
+  - kali.md
+  - tripurasundari.md
+  - mahadevi.md
+  - devi.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

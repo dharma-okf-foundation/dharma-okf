@@ -23,11 +23,11 @@ not:
   - term: "a fixed sect division (two denominations)"
     why: "The ācāra classifications are fluid and text-relative: some texts list seven ācāras in a graded ladder, some place vāma above dakṣiṇa, some the reverse, and one lineage's 'left' is another's mainstream. Treating the pair as two fixed denominations (like a schism) misreads a classificatory spectrum as an org chart."
 related:
-  - /concepts/pancha-makara.md
-  - /concepts/tantra.md
-  - /concepts/kali.md
-  - /concepts/srividya.md
-  - /references/kularnava-tantra.md
+  - pancha-makara.md
+  - tantra.md
+  - kali.md
+  - srividya.md
+  - ../references/kularnava-tantra.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

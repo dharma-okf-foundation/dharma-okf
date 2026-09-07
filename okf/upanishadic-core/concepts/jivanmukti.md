@@ -24,11 +24,11 @@ not:
   - term: "the same as videhamukti (liberation at death)"
     why: "Advaita distinguishes Jīvanmukti (liberation while embodied) from Videhamukti (liberation upon the dissolution of the body). The Jīvanmukta has the knowledge already — the liberation is complete — but the Prārabdha body continues. On the exhaustion of Prārabdha, the body drops and Videhamukti occurs. The knowledge is the same in both; the distinction is whether the body continues as a Prārabdha vehicle or not."
 related:
-  - /concepts/videhamukti.md
-  - /concepts/turiya.md
-  - /concepts/brahmabhavana.md
-  - /concepts/nididhyasana.md
-  - /concepts/sakshin.md
+  - videhamukti.md
+  - turiya.md
+  - brahmabhavana.md
+  - nididhyasana.md
+  - sakshin.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

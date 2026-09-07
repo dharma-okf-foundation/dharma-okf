@@ -11,9 +11,9 @@ text_type: "Vedic sūkta (8 verses)"
 period: "Ṛg Veda, maṇḍala 10"
 tags: [devi-sukta, rigveda, vak, devi, shakti, reference]
 related:
-  - /concepts/devi.md
-  - /concepts/shakti.md
-  - /concepts/matrika.md
+  - ../concepts/devi.md
+  - ../concepts/shakti.md
+  - ../concepts/matrika.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

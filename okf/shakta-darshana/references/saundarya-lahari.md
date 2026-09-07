@@ -11,10 +11,10 @@ text_type: "Stotra (100 verses; first 41 'Ānanda Laharī' doctrinally denser)"
 period: "Attributed to Ādi Śaṅkara by tradition; scholarly dating and attribution contested"
 tags: [saundarya-lahari, shankara, tripurasundari, shiva-shakti, sri-chakra, reference]
 related:
-  - /concepts/shiva-shakti.md
-  - /concepts/shakti.md
-  - /concepts/sri-chakra.md
-  - /concepts/tripurasundari.md
+  - ../concepts/shiva-shakti.md
+  - ../concepts/shakti.md
+  - ../concepts/sri-chakra.md
+  - ../concepts/tripurasundari.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

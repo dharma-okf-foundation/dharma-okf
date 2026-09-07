@@ -26,11 +26,11 @@ not:
   - term: "Saguṇa/Nirguṇa Brahman by another name"
     why: "Cross-bundle precision (see upanishadic-core v0.6): Saguṇa/Nirguṇa are two STANCES toward one Brahman (with and without attributes) in Vedāntic analysis. Śiva-Śakti is a different distinction: not attribute-stances but the light/self-awareness structure internal to consciousness itself. Trika explicitly rejects the actionless-absolute reading that the Nirguṇa framing can suggest. Mapping one pair onto the other collapses two darśanas' distinct claims."
 related:
-  - /concepts/shakti.md
-  - /concepts/prakasha-vimarsha.md
-  - /concepts/cit-shakti.md
-  - /concepts/spanda.md
-  - /concepts/devi.md
+  - shakti.md
+  - prakasha-vimarsha.md
+  - cit-shakti.md
+  - spanda.md
+  - devi.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

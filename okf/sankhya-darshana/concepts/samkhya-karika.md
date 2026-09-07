@@ -18,8 +18,8 @@ not:
 - term: a late or minor Samkhya text
   why: The Samkhya-Karika is the single most important extant systematic text of classical Samkhya -- not a late derivative summary but the foundational systematization against which nearly all later Samkhya commentary (Gaudapada, Vachaspati Mishra's Tattva-Kaumudi) is written.
 related:
-- /concepts/kapila.md
-- /concepts/satkaryavada.md
+- kapila.md
+- satkaryavada.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

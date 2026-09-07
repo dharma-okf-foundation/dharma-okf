@@ -22,10 +22,10 @@ not:
   - term: "a literal temporal sequence (first Siva, then Sakti, then...)"
     why: "The unfolding is logical-ontological, not chronological: all 36 are simultaneously operative in every moment of experience. Reading it as a creation timeline recreates the ex nihilo error the satkaryavada doctrine (cosmology-creation v0.7) already blocks."
 related:
-  - /concepts/kanchuka.md
-  - /concepts/maya-shakta.md
-  - /concepts/shiva-shakti.md
-  - /concepts/cit-shakti.md
+  - kanchuka.md
+  - maya-shakta.md
+  - shiva-shakti.md
+  - cit-shakti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

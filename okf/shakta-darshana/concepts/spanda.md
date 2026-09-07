@@ -22,12 +22,12 @@ not:
   - term: "an energy field emanating from consciousness"
     why: "Spanda is not something consciousness emits; it is consciousness's own nature as self-aware dynamism (vimarśa in motion-language; see prakasha-vimarsha.md). Emanation-field language reintroduces the substance/property split the doctrine exists to deny."
 related:
-  - /concepts/prakasha-vimarsha.md
-  - /concepts/cit-shakti.md
-  - /concepts/shiva-shakti.md
-  - /concepts/matrika.md
-  - /concepts/pratyabhijna.md
-  - /references/spanda-karikas.md
+  - prakasha-vimarsha.md
+  - cit-shakti.md
+  - shiva-shakti.md
+  - matrika.md
+  - pratyabhijna.md
+  - ../references/spanda-karikas.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

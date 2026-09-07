@@ -22,10 +22,10 @@ not:
   - term: "a meditation state or peak experience"
     why: "States arise and pass within consciousness; recognition concerns what is present in and as every state (see spanda.md on extreme states). The school explicitly subordinates technique: Kṣemarāja wrote the Pratyabhijñāhṛdayam as the doctrine for those without capacity for rigorous discipline, because recognition is not manufactured by practice, though practice may occasion it (see shaktipata.md on grace)."
 related:
-  - /concepts/cit-shakti.md
-  - /concepts/prakasha-vimarsha.md
-  - /concepts/shaktipata.md
-  - /concepts/spanda.md
+  - cit-shakti.md
+  - prakasha-vimarsha.md
+  - shaktipata.md
+  - spanda.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

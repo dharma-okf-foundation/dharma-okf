@@ -22,10 +22,10 @@ not:
   - term: "interchangeable with 'Sri Yantra' pop-numerology (golden ratio claims, 'most powerful yantra' listicles)"
     why: "Claims that the Śrī Cakra encodes the golden ratio or pi are modern enthusiasm, not textual doctrine; 'most powerful' rankings are marketing. The tradition's own superlative is theological (it is Tripurasundarī herself), which needs no geometry-mysticism subsidy."
 related:
-  - /concepts/yantra.md
-  - /concepts/bindu.md
-  - /concepts/tripurasundari.md
-  - /concepts/srividya.md
+  - yantra.md
+  - bindu.md
+  - tripurasundari.md
+  - srividya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

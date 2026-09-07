@@ -24,9 +24,9 @@ not:
 - term: a creator or moral agent
   why: Purusha does nothing and creates nothing. It is a mistake to read purusha as a doer who is rewarded or punished; bondage and liberation are, strictly, apparent conditions of prakriti's proximity to purusha, not events purusha undergoes.
 related:
-- /concepts/prakriti.md
-- /concepts/viveka-khyati.md
-- /concepts/kaivalya-samkhya.md
+- prakriti.md
+- viveka-khyati.md
+- kaivalya-samkhya.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -25,11 +25,11 @@ not:
   why: "Prakriti's evolutes include buddhi, ahankara, and manas (Samkhya-Karika 22), so mind itself is prakriti. Rendering prakriti as 'matter' imports a dichotomy the school does not draw; Samkhya's line runs between consciousness (purusha) and everything else, mind included."
   instead: "Keep prakriti untranslated; gloss as the unconscious pole of the dualism, comprising both the material and the mental"
 related:
-- /concepts/purusha.md
-- /concepts/vyakta-avyakta.md
-- /concepts/guna-samkhya.md
-- /concepts/satkaryavada.md
-- /concepts/parinamavada.md
+- purusha.md
+- vyakta-avyakta.md
+- guna-samkhya.md
+- satkaryavada.md
+- parinamavada.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

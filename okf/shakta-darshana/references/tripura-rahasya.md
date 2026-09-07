@@ -11,9 +11,9 @@ text_type: "Śākta jñāna treatise (Jñāna Khaṇḍa, 22 chapters, is the ex
 period: "Post-classical Śākta literature"
 tags: [tripura-rahasya, jnana, tripurasundari, consciousness, reference]
 related:
-  - /concepts/tripurasundari.md
-  - /concepts/cit-shakti.md
-  - /concepts/pratyabhijna.md
+  - ../concepts/tripurasundari.md
+  - ../concepts/cit-shakti.md
+  - ../concepts/pratyabhijna.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

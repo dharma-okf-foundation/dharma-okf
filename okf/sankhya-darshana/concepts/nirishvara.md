@@ -21,10 +21,10 @@ not:
 - term: Yoga-darshana's Ishvara-inclusive framing (v0.2)
   why: Yoga-darshana (v0.2), while sharing Samkhya's metaphysics closely, introduces Ishvara as an optional object of surrender (Ishvara-pranidhana) and an accelerant to samadhi. Classical Samkhya's nirishvara stance admits no such figure at any stage of its own soteriology (viveka-khyati alone suffices).
 related:
-- /concepts/purusha.md
-- /concepts/sesvara-samkhya.md
-- /concepts/samkhya-pravacana-sutra.md
-- /concepts/kaivalya-samkhya.md
+- purusha.md
+- sesvara-samkhya.md
+- samkhya-pravacana-sutra.md
+- kaivalya-samkhya.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

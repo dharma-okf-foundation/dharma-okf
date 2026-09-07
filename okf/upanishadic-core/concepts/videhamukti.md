@@ -22,10 +22,10 @@ not:
   - term: "a superior or more complete liberation than Jīvanmukti"
     why: "The Jīvanmukti and Videhamukti distinction is not a hierarchy of liberation. The Jīvanmukta is already completely liberated — the Brahma-jñāna is complete, the bondage dissolved. Videhamukti is the same liberation minus the Prārabdha body that continued after Jñāna arose. Adding 'Videha' (bodyless) does not add to the liberation; it describes the absence of the Prārabdha vehicle."
 related:
-  - /concepts/jivanmukti.md
-  - /concepts/upadhi.md
-  - /concepts/brahmabhavana.md
-  - /concepts/turiya.md
+  - jivanmukti.md
+  - upadhi.md
+  - brahmabhavana.md
+  - turiya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

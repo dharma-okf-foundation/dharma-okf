@@ -22,11 +22,11 @@ not:
   - term: "consciousness as emergent property with causal powers (philosophy-of-mind frame)"
     why: "In the Pratyabhijñā analysis citi is svatantrā (absolutely independent) and the cause of all manifestation (viśvasiddhi-hetu); it emerges from nothing and depends on nothing. Mapping it onto emergentism or panpsychism debates imports a physicalist ontology the doctrine explicitly denies. Flag the difference; do not blend the frameworks."
 related:
-  - /concepts/prakasha-vimarsha.md
-  - /concepts/shakti.md
-  - /concepts/shiva-shakti.md
-  - /concepts/spanda.md
-  - /concepts/pratyabhijna.md
+  - prakasha-vimarsha.md
+  - shakti.md
+  - shiva-shakti.md
+  - spanda.md
+  - pratyabhijna.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

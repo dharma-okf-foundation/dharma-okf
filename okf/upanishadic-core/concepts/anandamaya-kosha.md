@@ -22,11 +22,11 @@ not:
   - term: "the causal plane or higher causal body in New Age frameworks"
     why: "Theosophical and New Age traditions use 'causal body' to name the karmic-vehicle that persists across incarnations, associated with individuality at a high subtle level. The Ānandamaya Kośa (= Kāraṇa Śarīra in the Vedāntic Śarīra model) is the seed-body of the Jīva — the undifferentiated causal storage of all Saṃskāras that produces the next manifestation. It is not a 'higher plane' in which a more evolved self resides; it is the thinnest Upādhi through which the Ātman appears limited."
 related:
-  - /concepts/pancha-kosha.md
-  - /concepts/sushupti.md
-  - /concepts/sat-chit-ananda.md
-  - /concepts/upadhi.md
-  - /concepts/sakshin.md
+  - pancha-kosha.md
+  - sushupti.md
+  - sat-chit-ananda.md
+  - upadhi.md
+  - sakshin.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

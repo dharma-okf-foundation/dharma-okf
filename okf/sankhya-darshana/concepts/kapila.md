@@ -18,8 +18,8 @@ not:
 - term: a deity or divine avatara
   why: Some Puranic sources associate a figure named Kapila with divine or avataric status, distinct from the philosophical founder-figure credited with founding the Samkhya darshana. This concept file refers specifically to the darshana's traditional founder, not to any Puranic Kapila-as-deity narrative, which is out of scope for this bundle.
 related:
-- /concepts/samkhya-as-enumeration.md
-- /concepts/samkhya-pravacana-sutra.md
+- samkhya-as-enumeration.md
+- samkhya-pravacana-sutra.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

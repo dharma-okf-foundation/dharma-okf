@@ -22,10 +22,10 @@ not:
   - term: "a description of Brahman from the outside"
     why: "This Mahāvākya functions as Svarūpa Lakṣaṇa — the intrinsic definition of Brahman, not a description made by an observer. Brahman is not being characterized by an external viewer; the Upaniṣad is disclosing what Brahman IS from within the non-dual recognition."
 related:
-  - /concepts/mahavakya.md
-  - /concepts/sat-chit-ananda.md
-  - /concepts/laksana-brahman.md
-  - /concepts/nirguna-brahman.md
+  - mahavakya.md
+  - sat-chit-ananda.md
+  - laksana-brahman.md
+  - nirguna-brahman.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

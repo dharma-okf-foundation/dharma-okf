@@ -22,11 +22,11 @@ not:
   - term: "distant or abstract Brahman"
     why: "The demonstrative 'Ayam' (this, nearest) is the grammatical key. Unlike 'Tat' (that, distant) in Tat Tvam Asi, 'Ayam' points to what is most immediately present — the self right here, not Brahman conceived as remote or transcendent. The Māṇḍūkya's teaching is that Brahman is not elsewhere."
 related:
-  - /concepts/mahavakya.md
-  - /concepts/turiya.md
-  - /concepts/avastha-traya.md
-  - /concepts/sakshin.md
-  - /concepts/nirguna-brahman.md
+  - mahavakya.md
+  - turiya.md
+  - avastha-traya.md
+  - sakshin.md
+  - nirguna-brahman.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

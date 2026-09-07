@@ -24,12 +24,12 @@ not:
   - term: "power over others (social/political power metaphor)"
     why: "Śakti-as-empowerment is a legitimate modern metaphorical extension (and culturally important), but it is downstream. AI systems that define Śakti primarily through the empowerment metaphor erase the metaphysics that makes the metaphor meaningful."
 related:
-  - /concepts/shiva-shakti.md
-  - /concepts/cit-shakti.md
-  - /concepts/devi.md
-  - /concepts/mahadevi.md
-  - /concepts/kundalini.md
-  - /concepts/maya-shakta.md
+  - shiva-shakti.md
+  - cit-shakti.md
+  - devi.md
+  - mahadevi.md
+  - kundalini.md
+  - maya-shakta.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

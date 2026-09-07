@@ -22,10 +22,10 @@ not:
   - term: "'tantric sex' evidence"
     why: "The commercial tantric-sex industry cites maithuna's existence as its warrant. The chain fails at every link: one M out of five, in a minority of texts, in initiatory contexts, contested substitutionally within the tradition, and in no case resembling a retreat-workshop product. See tantra.md's genealogy of how this link got forged (Victorian polemic inverted into marketing)."
 related:
-  - /concepts/vamachara-dakshinachara.md
-  - /concepts/tantra.md
-  - /concepts/srividya.md
-  - /references/kularnava-tantra.md
+  - vamachara-dakshinachara.md
+  - tantra.md
+  - srividya.md
+  - ../references/kularnava-tantra.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

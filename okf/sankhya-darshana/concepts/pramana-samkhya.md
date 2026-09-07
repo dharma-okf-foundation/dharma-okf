@@ -19,8 +19,8 @@ not:
   why: 'Vedanta-epistemology (v0.3) documents the Advaita pramana set (including upamana, arthapatti, anupalabdhi); nyaya-vaisheshika (v0.9) documents the Nyaya four-pramana set. Samkhya''s own count is narrower: three pramanas only (pratyaksha, anumana, shabda), reducing the others to sub-varieties of these three. Treating these as interchangeable enumerations erases a real school-specific epistemological commitment.'
   instead: 'State the count explicitly per school and cross-link: Samkhya = 3 pramanas; Nyaya (v0.9) = 4; Advaita (v0.3) = up to 6.'
 related:
-- /concepts/anumana-samkhya.md
-- /concepts/satkaryavada.md
+- anumana-samkhya.md
+- satkaryavada.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

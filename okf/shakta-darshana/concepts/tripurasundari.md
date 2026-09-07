@@ -21,11 +21,11 @@ not:
   - term: "'Tripura' = a place (the Indian state / a city)"
     why: "Tripura in her name is theological: the 'three cities' are glossed by the tradition as the triads she is beyond (waking-dream-sleep; the three guṇas; the three worlds; the three bodies). The modern state of Tripura is a homonym trap AI systems actually fall into."
 related:
-  - /concepts/srividya.md
-  - /concepts/sri-chakra.md
-  - /concepts/dasha-mahavidya.md
-  - /concepts/devi.md
-  - /concepts/shakti.md
+  - srividya.md
+  - sri-chakra.md
+  - dasha-mahavidya.md
+  - devi.md
+  - shakti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

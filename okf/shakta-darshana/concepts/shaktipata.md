@@ -23,10 +23,10 @@ not:
   - term: "guru magic / a power the guru possesses"
     why: "In the doctrine the guru does not own śaktipāta; intense śaktipāta may even bypass the human guru entirely (the tradition allows for direct, guru-less awakening in its highest grades). This preserves both the dignity of the guru-function and the absolute's freedom, and it is precisely the check against personality cults that the modern usage removes."
 related:
-  - /concepts/pratyabhijna.md
-  - /concepts/kundalini.md
-  - /concepts/cit-shakti.md
-  - /concepts/srividya.md
+  - pratyabhijna.md
+  - kundalini.md
+  - cit-shakti.md
+  - srividya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -24,11 +24,11 @@ not:
   - term: "God without form (as in apophatic theology)"
     why: "Apophatic (negative) theology in Western traditions (Pseudo-Dionysius, Meister Eckhart, etc.) describes God via negation because God exceeds all categories. This is structurally similar but not identical. Christian apophatic theology still maintains the distinction between God and the soul; Advaita does not. Nirguṇa Brahman is the Ātman — the recognition collapses the creator-creature distinction entirely."
 related:
-  - /concepts/saguna-brahman.md
-  - /concepts/sat-chit-ananda.md
-  - /concepts/neti-neti.md
-  - /concepts/laksana-brahman.md
-  - /concepts/mahavakya.md
+  - saguna-brahman.md
+  - sat-chit-ananda.md
+  - neti-neti.md
+  - laksana-brahman.md
+  - mahavakya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

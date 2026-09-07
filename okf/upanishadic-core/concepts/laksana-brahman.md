@@ -22,11 +22,11 @@ not:
   - term: "a name or description applicable to Brahman as an object"
     why: "A name or description implies the speaker is outside the named object, describing it from a third-person position. The Mahāvākyas (which the Svarūpa Lakṣaṇa governs) use first-person pointing: 'I am Brahman,' 'That art thou.' The Svarūpa Lakṣaṇa is the instrument by which the student recognizes their own nature — not a third-person description of an external object."
 related:
-  - /concepts/sat-chit-ananda.md
-  - /concepts/nirguna-brahman.md
-  - /concepts/saguna-brahman.md
-  - /concepts/mahavakya.md
-  - /concepts/tat-tvam-asi.md
+  - sat-chit-ananda.md
+  - nirguna-brahman.md
+  - saguna-brahman.md
+  - mahavakya.md
+  - tat-tvam-asi.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

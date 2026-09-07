@@ -23,8 +23,8 @@ not:
   why: 'Nyaya-Vaisheshika holds the direct opposite: an effect (e.g. a pot) is a genuinely new entity, arambha, arising fresh from the collocation of causes (e.g. clay atoms), never pre-existing in the cause. This is not a variant reading of satkaryavada -- it is Samkhya''s named philosophical opponent on causation.'
   instead: 'When both are discussed, name the school-contrast explicitly: Samkhya/Yoga/Vedanta = satkaryavada (effect pre-exists); Nyaya-Vaisheshika = asatkaryavada/arambhavada (effect is new).'
 related:
-- /concepts/parinamavada.md
-- /concepts/prakriti.md
+- parinamavada.md
+- prakriti.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

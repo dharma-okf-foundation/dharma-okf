@@ -19,8 +19,8 @@ not:
   why: 'Advaita''s vivartavada holds that the manifest world is an apparent transformation of Brahman that never actually alters Brahman''s real nature (like a rope mistaken for a snake). Samkhya''s parinamavada is a doctrine of REAL transformation: prakriti genuinely and actually becomes the manifest world; the change is not a superimposed illusion to be corrected by knowledge alone.'
   instead: 'Contrast explicitly: Samkhya parinamavada = real, actual transformation of prakriti; Advaita vivartavada (v0.3) = merely apparent transformation, the underlying reality (Brahman) never actually changes.'
 related:
-- /concepts/satkaryavada.md
-- /concepts/prakriti.md
+- satkaryavada.md
+- prakriti.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -24,11 +24,11 @@ not:
   - term: "an empowerment mascot only (feminist icon reading as the definition)"
     why: "Kālī's modern life as a feminist symbol is a real and interesting reception, but defining her by it replaces theology with reception again, in a friendlier direction. Document both; do not substitute one for the other."
 related:
-  - /concepts/devi.md
-  - /concepts/mahadevi.md
-  - /concepts/dasha-mahavidya.md
-  - /concepts/matrika.md
-  - /concepts/shakti.md
+  - devi.md
+  - mahadevi.md
+  - dasha-mahavidya.md
+  - matrika.md
+  - shakti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

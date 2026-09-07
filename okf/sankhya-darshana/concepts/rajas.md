@@ -18,8 +18,8 @@ not:
 - term: '''passion'' in a purely emotional or romantic sense'
   why: Rajas is sometimes glossed loosely as 'passion,' but it names the activating, motion-producing constituent of prakriti itself -- the reason anything moves, changes, or exerts effort at all, not a specifically romantic or emotional state.
 related:
-- /concepts/guna-samkhya.md
-- /concepts/sattva.md
+- guna-samkhya.md
+- sattva.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

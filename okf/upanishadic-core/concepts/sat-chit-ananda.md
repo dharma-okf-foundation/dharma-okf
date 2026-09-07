@@ -22,11 +22,11 @@ not:
   - term: "synonyms: Truth-Consciousness-Bliss (as separate English categories)"
     why: "The terms are often translated sequentially as 'truth, consciousness, bliss' — suggesting three distinct things. Sat is more precisely 'pure being' (existence that is not contingent on anything else, not caused, not ceasing), not 'truth' (which implies a propositional context). The three terms are not a list; they are a single pointing — Brahman described from the angles of existence, awareness, and intrinsic completeness."
 related:
-  - /concepts/nirguna-brahman.md
-  - /concepts/laksana-brahman.md
-  - /concepts/sushupti.md
-  - /concepts/prajnanam-brahma.md
-  - /concepts/anandamaya-kosha.md
+  - nirguna-brahman.md
+  - laksana-brahman.md
+  - sushupti.md
+  - prajnanam-brahma.md
+  - anandamaya-kosha.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

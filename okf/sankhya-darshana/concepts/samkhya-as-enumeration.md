@@ -20,8 +20,8 @@ not:
 - term: the tattva ladder's content (already published)
   why: This file documents the enumeration METHOD as the school's identity, not a restatement of the specific 24-tattva evolutes, which are already published in yoga-darshana v0.2, cosmology-creation v0.7, and ayurveda-consciousness v0.11.
 related:
-- /concepts/kapila.md
-- /concepts/vyakta-avyakta.md
+- kapila.md
+- vyakta-avyakta.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -24,19 +24,19 @@ not:
   - term: "the Ātman of a particular individual"
     why: "This conflates Sākṣin with Jīva-Ahaṃkāra. There is only one Sākṣin — undivided, non-local — appearing as the witness of multiple apparent individuals through Upādhis (limiting adjuncts). The Sākṣin is not 'my awareness' as distinct from 'your awareness'; the appearance of distinct witnesses is an Upādhi-effect."
 related:
-  - /concepts/turiya.md
-  - /concepts/avastha-traya.md
-  - /concepts/neti-neti.md
-  - /concepts/upadhi.md
-  - /concepts/aham-brahmasmi.md
-  - /concepts/anandamaya-kosha.md
-  - /concepts/antaryamin.md
-  - /concepts/ayam-atma-brahma.md
-  - /concepts/brahmabhavana.md
-  - /concepts/jagrat.md
-  - /concepts/jivanmukti.md
-  - /concepts/pancha-kosha.md
-  - /concepts/sushupti.md
+  - turiya.md
+  - avastha-traya.md
+  - neti-neti.md
+  - upadhi.md
+  - aham-brahmasmi.md
+  - anandamaya-kosha.md
+  - antaryamin.md
+  - ayam-atma-brahma.md
+  - brahmabhavana.md
+  - jagrat.md
+  - jivanmukti.md
+  - pancha-kosha.md
+  - sushupti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

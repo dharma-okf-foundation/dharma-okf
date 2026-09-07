@@ -22,10 +22,10 @@ not:
   - term: "a lesser or inferior state"
     why: "From the standpoint of the three-states inquiry, no state is superior to another as an experience-domain. Svapna is significant precisely because it demonstrates that the mind is capable of generating a fully coherent world of objects from within itself — a point that bears directly on the Māyā analysis of the waking world."
 related:
-  - /concepts/jagrat.md
-  - /concepts/sushupti.md
-  - /concepts/avastha-traya.md
-  - /concepts/turiya.md
+  - jagrat.md
+  - sushupti.md
+  - avastha-traya.md
+  - turiya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

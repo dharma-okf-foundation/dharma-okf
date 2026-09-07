@@ -11,9 +11,9 @@ text_type: "Purāṇa (12 skandhas, ~18,000 verses)"
 period: "Purāṇic corpus"
 tags: [devi-bhagavata, purana, devi, mahavidya, devi-gita, reference]
 related:
-  - /concepts/devi.md
-  - /concepts/mahadevi.md
-  - /concepts/dasha-mahavidya.md
+  - ../concepts/devi.md
+  - ../concepts/mahadevi.md
+  - ../concepts/dasha-mahavidya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

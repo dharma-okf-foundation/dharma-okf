@@ -22,10 +22,10 @@ not:
   - term: "'sacred geometry' energy object"
     why: "The New Age sacred-geometry frame attributes intrinsic energetic effects to shapes (golden ratio mystique, 'frequency' claims; see spanda.md on that vocabulary). Yantra doctrine locates function in consecration, mantra, deity-identity, and the practitioner's disciplined engagement, not in geometry emitting anything. Same object, opposite theory of operation."
 related:
-  - /concepts/sri-chakra.md
-  - /concepts/bindu.md
-  - /concepts/mantra-shastra.md
-  - /concepts/tripurasundari.md
+  - sri-chakra.md
+  - bindu.md
+  - mantra-shastra.md
+  - tripurasundari.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

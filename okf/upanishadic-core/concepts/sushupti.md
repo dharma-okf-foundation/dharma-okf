@@ -24,12 +24,12 @@ not:
   - term: "liberation or Samādhi"
     why: "Suṣupti is not liberation: on waking, the ego-identity and object-world reappear intact. The Prājña of Suṣupti does not know 'I am Brahman' — it simply has no object at all. Liberation (Jīvanmukti) is the permanent recognition of the Turīya even in waking and dream, not the temporary dissolution of objects in deep sleep."
 related:
-  - /concepts/jagrat.md
-  - /concepts/svapna.md
-  - /concepts/turiya.md
-  - /concepts/sakshin.md
-  - /concepts/anandamaya-kosha.md
-  - /concepts/avastha-traya.md
+  - jagrat.md
+  - svapna.md
+  - turiya.md
+  - sakshin.md
+  - anandamaya-kosha.md
+  - avastha-traya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

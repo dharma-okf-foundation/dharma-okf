@@ -24,11 +24,11 @@ not:
   - term: "a separate practice from Śravaṇa and Manana"
     why: "The triad is a single integrated path. Some students with great purity of mind may achieve the recognition fully in Śravaṇa; for others, Manana and Nididhyāsana are necessary. But all three point at the same event: the unobstructed arising of Brahma-jñāna. Nididhyāsana is not a separate retreat practice — it is the maturation phase of the same inquiry."
 related:
-  - /concepts/shravana.md
-  - /concepts/manana.md
-  - /concepts/mahavakya.md
-  - /concepts/jivanmukti.md
-  - /concepts/brahmabhavana.md
+  - shravana.md
+  - manana.md
+  - mahavakya.md
+  - jivanmukti.md
+  - brahmabhavana.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

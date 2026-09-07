@@ -22,9 +22,9 @@ not:
   - term: "psychological complexes / cognitive biases"
     why: "Complexes and biases are contents WITHIN a limited mind; the kañcukas are the conditions FOR a limited mind. The therapy mapping shrinks transcendental structure into psychology (same error-class as the prakasha-vimarsha psychology mapping)."
 related:
-  - /concepts/maya-shakta.md
-  - /concepts/shattrimshat-tattva.md
-  - /concepts/cit-shakti.md
+  - maya-shakta.md
+  - shattrimshat-tattva.md
+  - cit-shakti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

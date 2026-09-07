@@ -23,10 +23,10 @@ not:
   - term: "a form limited to bhakti paths"
     why: "While Saguṇa Brahman is the primary reference point for Bhakti (see bhakti-marga bundle, v0.4), it is also the Brahman known through cosmology, through the Antaryāmin teaching (Bṛhadāraṇyaka 3.7), and through the Upāsanā (meditation on qualified Brahman) prescribed for those not yet ready for the Nirguṇa inquiry."
 related:
-  - /concepts/nirguna-brahman.md
-  - /concepts/antaryamin.md
-  - /concepts/sat-chit-ananda.md
-  - /concepts/upadhi.md
+  - nirguna-brahman.md
+  - antaryamin.md
+  - sat-chit-ananda.md
+  - upadhi.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -20,9 +20,9 @@ not:
   why: 'Yoga-darshana''s path to kaivalya runs through chitta-vritti-nirodha, the progressive cessation of mental modifications cultivated through the eight limbs (yama through samadhi) -- an experiential, practice-based method. Samkhya''s viveka-khyati is primarily an act of intellectual discernment: correctly distinguishing purusha from every form prakriti takes, including the subtlest ones (buddhi itself). The two schools share the destination word, kaivalya, but not the road.'
   instead: 'State the contrast plainly wherever kaivalya is discussed: Samkhya reaches it via viveka-khyati (discriminative knowledge); Yoga reaches the same word via nirodha (practiced cessation) -- see the reciprocal cross-link in yoga-darshana v0.2''s kaivalya.md.'
 related:
-- /concepts/purusha.md
-- /concepts/kaivalya-samkhya.md
-- /concepts/avidya-samkhya.md
+- purusha.md
+- kaivalya-samkhya.md
+- avidya-samkhya.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

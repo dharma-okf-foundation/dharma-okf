@@ -23,9 +23,9 @@ not:
 - term: a moral or virtue framework
   why: Guna in this sense is not a virtue system; sattva, rajas, and tamas are ontological constituents of matter itself, not ethical categories, even though their psychological effects (clarity, restlessness, inertia) are sometimes moralized in derivative or popular usage.
 related:
-- /concepts/prakriti.md
-- /concepts/sattva.md
-- /concepts/rajas.md
+- prakriti.md
+- sattva.md
+- rajas.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

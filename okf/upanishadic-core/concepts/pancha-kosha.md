@@ -22,11 +22,11 @@ not:
   - term: "a progression from lower to higher selves"
     why: "Popular spirituality sometimes presents the Kośas as layers of self from a 'lower physical self' to a 'higher spiritual self,' implying the Ānandamaya Koṣa is the highest self. Advaita explicitly denies this: the Ānandamaya Koṣa (the bliss sheath) is still Anātman — still an Upādhi. The Ātman is not inside the Ānandamaya Koṣa; it is the witness of the Ānandamaya Koṣa."
 related:
-  - /concepts/anandamaya-kosha.md
-  - /concepts/upadhi.md
-  - /concepts/neti-neti.md
-  - /concepts/sushupti.md
-  - /concepts/sakshin.md
+  - anandamaya-kosha.md
+  - upadhi.md
+  - neti-neti.md
+  - sushupti.md
+  - sakshin.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

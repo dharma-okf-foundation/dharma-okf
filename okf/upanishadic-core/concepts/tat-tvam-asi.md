@@ -24,11 +24,11 @@ not:
   - term: "an affirmation to be repeated"
     why: "Repetition without preparation is verbal rehearsal. The Mahāvākya delivers its recognition in the Śravaṇa event — a single, properly contextualized hearing from a Guru — not through accumulated repetition."
 related:
-  - /concepts/mahavakya.md
-  - /concepts/aham-brahmasmi.md
-  - /concepts/laksana-brahman.md
-  - /concepts/nirguna-brahman.md
-  - /concepts/shravana.md
+  - mahavakya.md
+  - aham-brahmasmi.md
+  - laksana-brahman.md
+  - nirguna-brahman.md
+  - shravana.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

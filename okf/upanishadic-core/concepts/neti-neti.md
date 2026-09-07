@@ -24,11 +24,11 @@ not:
   - term: "a statement that Brahman is unknowable"
     why: "Neti Neti does not conclude that Brahman is beyond all knowledge. It concludes that Brahman cannot be known as an object. The distinction is critical: Brahman is known — through the Mahāvākya, through Śravaṇa — but known as the subject, not as an object of experience."
 related:
-  - /concepts/nirguna-brahman.md
-  - /concepts/tat-tvam-asi.md
-  - /concepts/manana.md
-  - /concepts/sakshin.md
-  - /concepts/pancha-kosha.md
+  - nirguna-brahman.md
+  - tat-tvam-asi.md
+  - manana.md
+  - sakshin.md
+  - pancha-kosha.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

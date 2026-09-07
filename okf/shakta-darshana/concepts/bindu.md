@@ -22,11 +22,11 @@ not:
   - term: "the bindi (forehead mark) as the definition"
     why: "The bindi is a living cultural cognate (and in devotional context deliberately evokes the metaphysics), but defining bindu BY the forehead mark reverses the derivation and reduces doctrine to costume. Document the connection; do not substitute it."
 related:
-  - /concepts/sri-chakra.md
-  - /concepts/yantra.md
-  - /concepts/mantra-shastra.md
-  - /concepts/matrika.md
-  - /concepts/tripurasundari.md
+  - sri-chakra.md
+  - yantra.md
+  - mantra-shastra.md
+  - matrika.md
+  - tripurasundari.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -24,10 +24,10 @@ not:
   - term: "deception / trickery (moral reading)"
     why: "No one is being tricked: māyā-tattva is consciousness freely contracting itself (svātantrya), glossed by the tradition as play (līlā at the metaphysical level; cross-bundle: lila-cosmological.md v0.7). The deception reading imports an adversary the system does not contain."
 related:
-  - /concepts/kanchuka.md
-  - /concepts/shattrimshat-tattva.md
-  - /concepts/shakti.md
-  - /concepts/cit-shakti.md
+  - kanchuka.md
+  - shattrimshat-tattva.md
+  - shakti.md
+  - cit-shakti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -20,8 +20,8 @@ not:
 - term: sat / existence (unrelated homophone-adjacent root)
   why: Sattva shares a root sense with sat (being, existence, truth) but functions here as a specific technical term for one of the three gunas, not as a general philosophical claim about existence or reality.
 related:
-- /concepts/guna-samkhya.md
-- /concepts/rajas.md
+- guna-samkhya.md
+- rajas.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -21,9 +21,9 @@ not:
   why: Yoga-darshana's kaivalya.md already documents this term reached through the eight-limbed practice of nirodha, with Ishvara-pranidhana as an available accelerant. This file's kaivalya is reached through viveka-khyati alone and, per classical Samkhya's nirishvara stance, involves no Ishvara at any stage.
   instead: school_scope this file explicitly to Samkhya and cross-link reciprocally to v0.2's kaivalya.md, naming the shared word and the differing method.
 related:
-- /concepts/viveka-khyati.md
-- /concepts/purusha.md
-- /concepts/nirishvara.md
+- viveka-khyati.md
+- purusha.md
+- nirishvara.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

@@ -11,10 +11,10 @@ text_type: "Sūtra text (20 sūtras) with the author's own commentary"
 period: "Kṣemarāja, 10th-11th century CE"
 tags: [pratyabhijnahridayam, kshemaraja, pratyabhijna, citi, trika, reference]
 related:
-  - /concepts/pratyabhijna.md
-  - /concepts/cit-shakti.md
-  - /concepts/prakasha-vimarsha.md
-  - /concepts/shaktipata.md
+  - ../concepts/pratyabhijna.md
+  - ../concepts/cit-shakti.md
+  - ../concepts/prakasha-vimarsha.md
+  - ../concepts/shaktipata.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

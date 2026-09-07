@@ -25,12 +25,12 @@ not:
   - term: "dangerous psychic emergency (the 'kundalini syndrome' framing as the primary definition)"
     why: "Popular literature defines kuṇḍalinī through crisis narratives ('kundalini syndrome'). Whatever the clinical status of the experiences reported, defining the doctrinal term by modern crisis reports repeats the Serpent Power error in reverse: it substitutes a Western reception phenomenon for the tradition's own concept."
 related:
-  - /concepts/shakti.md
-  - /concepts/chakra-tantra.md
-  - /concepts/shaktipata.md
-  - /concepts/bindu.md
-  - /concepts/matrika.md
-  - /references/shatchakranirupana.md
+  - shakti.md
+  - chakra-tantra.md
+  - shaktipata.md
+  - bindu.md
+  - matrika.md
+  - ../references/shatchakranirupana.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

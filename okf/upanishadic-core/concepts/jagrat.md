@@ -20,11 +20,11 @@ not:
   - term: "the only valid state for knowledge"
     why: "Epistemological systems that privilege waking over dreaming (treating dream experiences as epistemically void) are not Vedāntic. Svapna and Suṣupti both yield valid Vedāntic data: the dream state demonstrates that the mind can create an entire world from within, and deep sleep demonstrates that awareness persists without objects."
 related:
-  - /concepts/avastha-traya.md
-  - /concepts/svapna.md
-  - /concepts/sushupti.md
-  - /concepts/turiya.md
-  - /concepts/sakshin.md
+  - avastha-traya.md
+  - svapna.md
+  - sushupti.md
+  - turiya.md
+  - sakshin.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -24,9 +24,9 @@ not:
   - term: "a stage that can be skipped"
     why: "Without Manana, doubts remain latent. Even if the Mahāvākya is received in Śravaṇa, residual saṃskāras (contrary-to-knowledge habits of mind) will generate counter-arguments during Nididhyāsana. Manana clears the field; Nididhyāsana deepens the recognition in cleared ground."
 related:
-  - /concepts/shravana.md
-  - /concepts/nididhyasana.md
-  - /concepts/mahavakya.md
+  - shravana.md
+  - nididhyasana.md
+  - mahavakya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -20,8 +20,8 @@ not:
   why: This file names only the two-phase structure (unmanifest / manifest) that underlies Samkhya's causal claims. The detailed evolutes -- mahat, ahamkara, the eleven indriyas, the five tanmatras, the five mahabhutas -- are already published as concept content in yoga-darshana (v0.2), cosmology-creation (v0.7), and ayurveda-consciousness (v0.11); this bundle deliberately does not re-author that ladder.
   instead: 'Point readers to the existing published treatments via related: links for the detailed evolutes; use this file only for the avyakta/vyakta distinction itself.'
 related:
-- /concepts/prakriti.md
-- /concepts/satkaryavada.md
+- prakriti.md
+- satkaryavada.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

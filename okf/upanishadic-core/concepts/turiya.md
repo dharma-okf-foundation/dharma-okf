@@ -26,13 +26,13 @@ not:
   - term: "identical to Suṣupti"
     why: "Both Turīya and Suṣupti appear contentless. But Suṣupti is characterized by Prājña — an experiencer resting in the bliss of no-objects. Turīya is the witness of Prājña (and of Viśva and Taijasa). Suṣupti ends on waking; Turīya is present throughout waking. The key distinction: Suṣupti is a state; Turīya is not."
 related:
-  - /concepts/avastha-traya.md
-  - /concepts/sakshin.md
-  - /concepts/jagrat.md
-  - /concepts/svapna.md
-  - /concepts/sushupti.md
-  - /concepts/ayam-atma-brahma.md
-  - /concepts/jivanmukti.md
+  - avastha-traya.md
+  - sakshin.md
+  - jagrat.md
+  - svapna.md
+  - sushupti.md
+  - ayam-atma-brahma.md
+  - jivanmukti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

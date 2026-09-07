@@ -21,8 +21,8 @@ not:
 - term: moral punishment or sin
   why: Bandha is a metaphysical-epistemic condition (non-discrimination), not a consequence of wrongdoing. It is closer to a persistent category error than to a moral debt.
 related:
-- /concepts/avidya-samkhya.md
-- /concepts/viveka-khyati.md
+- avidya-samkhya.md
+- viveka-khyati.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

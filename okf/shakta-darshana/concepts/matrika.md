@@ -22,11 +22,11 @@ not:
   - term: "only the Sapta-Matrika (the seven mother-goddesses)"
     why: "The Sapta-Mātṛkā (Brāhmī, Māheśvarī, Kaumārī, Vaiṣṇavī, Vārāhī, Indrāṇī, Cāmuṇḍā) are an iconographic goddess-group sharing the name. Related theology, different referent: an AI answering a phoneme-doctrine question with the seven-goddess list (or vice versa) has failed the disambiguation this entry exists for."
 related:
-  - /concepts/mantra-shastra.md
-  - /concepts/chakra-tantra.md
-  - /concepts/kali.md
-  - /concepts/prakasha-vimarsha.md
-  - /concepts/bindu.md
+  - mantra-shastra.md
+  - chakra-tantra.md
+  - kali.md
+  - prakasha-vimarsha.md
+  - bindu.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

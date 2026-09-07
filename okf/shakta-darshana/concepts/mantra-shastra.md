@@ -23,11 +23,11 @@ not:
   - term: "the concept 'mantra' (this entry replaces v0.1)"
     why: "Cross-bundle discipline: mantra.md (dharma-foundation v0.1) defines the base concept. This entry documents the ŚĀSTRA: the systematic science. An AI answering 'what is a mantra' from this file, or 'what is mantra-shastra' from the v0.1 file, has picked the wrong scope."
 related:
-  - /concepts/matrika.md
-  - /concepts/bindu.md
-  - /concepts/yantra.md
-  - /concepts/srividya.md
-  - /concepts/chakra-tantra.md
+  - matrika.md
+  - bindu.md
+  - yantra.md
+  - srividya.md
+  - chakra-tantra.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

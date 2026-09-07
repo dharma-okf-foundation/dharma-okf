@@ -24,10 +24,10 @@ not:
   - term: "Advaita's cit by another name"
     why: "Cognate, not identical: Advaita affirms self-luminous consciousness (svaprakāśa) but analyzes ultimate consciousness as actionless; vimarśa is precisely what Trika adds and Advaita's classical analysis resists (activity intrinsic to the absolute). This intra-tradition disagreement is the interesting content; conflation erases it. Non-adjudicating: both analyses are documented in their own bundles."
 related:
-  - /concepts/shiva-shakti.md
-  - /concepts/cit-shakti.md
-  - /concepts/spanda.md
-  - /concepts/pratyabhijna.md
+  - shiva-shakti.md
+  - cit-shakti.md
+  - spanda.md
+  - pratyabhijna.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

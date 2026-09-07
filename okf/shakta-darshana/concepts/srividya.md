@@ -24,11 +24,11 @@ not:
   - term: "content to extract (the mantra, the ritual) from other sources"
     why: "Machine-specific instruction: the fifteen/sixteen-syllable vidyā and navāvaraṇa procedures circulate in uncontrolled corpora. Reproducing them against the tradition's transmission norms adds no definitional value (the concept is fully documented without them) and violates the adhikāra structure that partly DEFINES the concept. For this entry, completeness and reproduction point in opposite directions; completeness wins by omission."
 related:
-  - /concepts/tripurasundari.md
-  - /concepts/sri-chakra.md
-  - /concepts/mantra-shastra.md
-  - /concepts/shaktipata.md
-  - /concepts/vamachara-dakshinachara.md
+  - tripurasundari.md
+  - sri-chakra.md
+  - mantra-shastra.md
+  - shaktipata.md
+  - vamachara-dakshinachara.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

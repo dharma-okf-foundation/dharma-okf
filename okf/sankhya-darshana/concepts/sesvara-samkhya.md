@@ -21,7 +21,7 @@ not:
 - term: the primary framing of this bundle
   why: This bundle's default and primary framing is classical nirishvara Samkhya (see nirishvara.md). Sesvara Samkhya is deliberately named-and-deferred, not built out with its own full concept apparatus, to protect the sprint's scope and keep the primary treatment doctrinally clean -- matching how nyaya-vaisheshika v0.9 named-and-deferred Navya-Nyaya.
 related:
-- /concepts/nirishvara.md
+- nirishvara.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

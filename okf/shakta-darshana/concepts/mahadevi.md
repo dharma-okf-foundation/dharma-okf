@@ -21,10 +21,10 @@ not:
   - term: "Hindu monotheism (or proof Hinduism is 'really' polytheistic)"
     why: "The monotheism/polytheism binary is a Western taxonomy that fails here. The Śākta position is aspectual non-dualism: one ultimate, really many forms, without the forms being false and without the one being a jealous singular. Forcing the binary produces confident nonsense in both directions."
 related:
-  - /concepts/devi.md
-  - /concepts/shakti.md
-  - /concepts/dasha-mahavidya.md
-  - /concepts/kali.md
+  - devi.md
+  - shakti.md
+  - dasha-mahavidya.md
+  - kali.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

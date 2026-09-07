@@ -11,9 +11,9 @@ text_type: "Śākta Upaniṣad"
 period: "Later Upaniṣadic corpus (one of the Śākta Upaniṣads attached to the Atharva Veda)"
 tags: [devi-upanishad, shakta-upanishad, devi, brahman, reference]
 related:
-  - /concepts/devi.md
-  - /concepts/mahadevi.md
-  - /concepts/shakti.md
+  - ../concepts/devi.md
+  - ../concepts/mahadevi.md
+  - ../concepts/shakti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

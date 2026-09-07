@@ -18,8 +18,8 @@ not:
 - term: the earliest or most historically primary Samkhya text
   why: Despite being attributed to Kapila, the Samkhya-Pravacana-Sutra as an extant text is a later compilation, not confidently datable to the founder's own hand. It is nonetheless the clearest and most explicit textual source for the nirishvara argument (1.92), and stands alongside the earlier Samkhya-Karika as this bundle's dual anchor texts.
 related:
-- /concepts/nirishvara.md
-- /concepts/kapila.md
+- nirishvara.md
+- kapila.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

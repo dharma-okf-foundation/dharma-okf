@@ -23,15 +23,15 @@ not:
   - term: "four equivalent or interchangeable statements"
     why: "Each Mahāvākya comes from a different Upaniṣad with a different grammatical structure and a different angle of approach to the same non-dual recognition. Prajñānam Brahma defines by quality; Ahaṃ Brahmāsmi is first-person identity; Tat Tvam Asi is second-person identity; Ayam Ātmā Brahma is third-person identity. These are not four ways of saying the same thing — they are four complementary facets."
 related:
-  - /concepts/aham-brahmasmi.md
-  - /concepts/tat-tvam-asi.md
-  - /concepts/prajnanam-brahma.md
-  - /concepts/ayam-atma-brahma.md
-  - /concepts/shravana.md
-  - /concepts/laksana-brahman.md
-  - /concepts/manana.md
-  - /concepts/nididhyasana.md
-  - /concepts/nirguna-brahman.md
+  - aham-brahmasmi.md
+  - tat-tvam-asi.md
+  - prajnanam-brahma.md
+  - ayam-atma-brahma.md
+  - shravana.md
+  - laksana-brahman.md
+  - manana.md
+  - nididhyasana.md
+  - nirguna-brahman.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

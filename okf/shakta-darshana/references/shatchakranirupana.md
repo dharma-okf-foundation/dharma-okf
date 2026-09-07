@@ -11,10 +11,10 @@ text_type: "Tāntric treatise (55 verses; part of Pūrṇānanda's Śrītattvaci
 period: "Pūrṇānanda Giri, 16th century CE (Bengal)"
 tags: [shatchakranirupana, chakra, kundalini, serpent-power, avalon, reference, error-genealogy]
 related:
-  - /concepts/chakra-tantra.md
-  - /concepts/kundalini.md
-  - /concepts/matrika.md
-  - /concepts/bindu.md
+  - ../concepts/chakra-tantra.md
+  - ../concepts/kundalini.md
+  - ../concepts/matrika.md
+  - ../concepts/bindu.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

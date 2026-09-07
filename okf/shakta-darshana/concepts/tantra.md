@@ -26,15 +26,15 @@ not:
   - term: "opposite of Vedic religion"
     why: "Tantra self-identifies as āgama, revealed alongside the Vedic corpus (nigama), and tantric traditions engage Vedic categories constantly. Some tantras claim to supersede Vedic ritual for the current age; that is an intra-tradition claim about efficacy, not evidence of a separate religion. The 'Tantra vs. Veda' binary is a scholarly construction the traditions themselves complicate."
 related:
-  - /concepts/shakti.md
-  - /concepts/shiva-shakti.md
-  - /concepts/mantra-shastra.md
-  - /concepts/yantra.md
-  - /concepts/vamachara-dakshinachara.md
-  - /concepts/srividya.md
-  - /concepts/pancha-makara.md
-  - /references/kularnava-tantra.md
-  - /references/tantraloka.md
+  - shakti.md
+  - shiva-shakti.md
+  - mantra-shastra.md
+  - yantra.md
+  - vamachara-dakshinachara.md
+  - srividya.md
+  - pancha-makara.md
+  - ../references/kularnava-tantra.md
+  - ../references/tantraloka.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -11,9 +11,9 @@ text_type: "Kārikā collection (53 verses) + commentarial tradition"
 period: "9th century CE (Vasugupta/Kallaṭa); Kṣemarāja's commentary 10th-11th c."
 tags: [spanda-karikas, spanda, kashmir-shaivism, trika, vasugupta, reference]
 related:
-  - /concepts/spanda.md
-  - /concepts/shiva-shakti.md
-  - /concepts/cit-shakti.md
+  - ../concepts/spanda.md
+  - ../concepts/shiva-shakti.md
+  - ../concepts/cit-shakti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

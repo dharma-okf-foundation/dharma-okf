@@ -23,10 +23,10 @@ not:
   - term: "a homunculus or a soul 'inside' the body"
     why: "The Antaryāmin does not reside inside the body as a smaller entity inside a larger container. The metaphor of interiority is functional, not spatial. Antaryāmin is the ruling principle — the consciousness that makes the body function — not a localized entity within it. The BU passage applies the same formula to earth, water, fire, air, sky, sun, moon, and directions — none of which have 'insides' in the body-sense."
 related:
-  - /concepts/saguna-brahman.md
-  - /concepts/sakshin.md
-  - /concepts/nirguna-brahman.md
-  - /concepts/aham-brahmasmi.md
+  - saguna-brahman.md
+  - sakshin.md
+  - nirguna-brahman.md
+  - aham-brahmasmi.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

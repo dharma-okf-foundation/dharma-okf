@@ -24,9 +24,9 @@ not:
   - term: "a one-time event"
     why: "The Bṛhadāraṇyaka passage (2.4.5) emphasizes continuous, sustained hearing (nityaṃ śrotavyaḥ). Śravaṇa is a practice — the repeated exposure to the teaching until the student can receive the Mahāvākya without residual contradiction arising."
 related:
-  - /concepts/manana.md
-  - /concepts/nididhyasana.md
-  - /concepts/mahavakya.md
+  - manana.md
+  - nididhyasana.md
+  - mahavakya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

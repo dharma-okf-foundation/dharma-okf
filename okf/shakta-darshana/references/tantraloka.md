@@ -11,10 +11,10 @@ text_type: "Encyclopedic śāstra (37 āhnikas), with Jayaratha's Viveka comment
 period: "Abhinavagupta, c. 975-1025 CE"
 tags: [tantraloka, abhinavagupta, trika, kashmir-shaivism, reference, structural-only]
 related:
-  - /concepts/shaktipata.md
-  - /concepts/shattrimshat-tattva.md
-  - /concepts/tantra.md
-  - /concepts/mantra-shastra.md
+  - ../concepts/shaktipata.md
+  - ../concepts/shattrimshat-tattva.md
+  - ../concepts/tantra.md
+  - ../concepts/mantra-shastra.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

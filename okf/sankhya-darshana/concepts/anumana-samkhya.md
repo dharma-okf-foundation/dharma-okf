@@ -19,8 +19,8 @@ not:
   why: 'Nyaya-vaisheshika (v0.9) is the lead, most technically developed treatment of anumana in this corpus -- the five-membered syllogism, vyapti, hetvabhasa. Samkhya''s use of anumana is comparatively brief: mainly deployed to argue for the existence of the unmanifest (avyakta) and of purusha itself, without developing an equally elaborate formal apparatus.'
   instead: 'Treat this file as a brief pointer, not a competing full treatment: for the developed technical apparatus of inference, defer to nyaya-vaisheshika v0.9''s anumana.md.'
 related:
-- /concepts/pramana-samkhya.md
-- /concepts/purusha.md
+- pramana-samkhya.md
+- purusha.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

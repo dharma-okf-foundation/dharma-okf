@@ -22,11 +22,11 @@ not:
   - term: "ego or false self"
     why: "Upādhi and Ahaṃkāra (ego-sense) are related but distinct. Ahaṃkāra is itself one Upādhi — the self-attribution function within the subtle body (Sūkṣma Śarīra). But Upādhi is a broader category: the three bodies (Sthūla, Sūkṣma, Kāraṇa) and the five sheaths (Pañcakośa) are all Upādhis. The gross body is an Upādhi even though it is not the ego."
 related:
-  - /concepts/pancha-kosha.md
-  - /concepts/saguna-brahman.md
-  - /concepts/nirguna-brahman.md
-  - /concepts/sakshin.md
-  - /concepts/jivanmukti.md
+  - pancha-kosha.md
+  - saguna-brahman.md
+  - nirguna-brahman.md
+  - sakshin.md
+  - jivanmukti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -11,10 +11,10 @@ text_type: "Purāṇic scripture (13 chapters, ~700 verses; also called Durgā S
 period: "Mārkaṇḍeya Purāṇa 81-93"
 tags: [devi-mahatmya, durga-saptashati, chandi, devi, kali, reference, cross-bundle]
 related:
-  - /concepts/devi.md
-  - /concepts/mahadevi.md
-  - /concepts/kali.md
-  - /concepts/shakti.md
+  - ../concepts/devi.md
+  - ../concepts/mahadevi.md
+  - ../concepts/kali.md
+  - ../concepts/shakti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -19,8 +19,8 @@ not:
   why: 'Upanishadic-core''s avidya is the failure to recognize the non-dual identity of atman and brahman, within a system where only one ultimate reality exists. Samkhya''s avidya is structurally different: it is the failure to discriminate two genuinely distinct, really-existing principles (purusha and prakriti) from each other -- a dualist error, not a non-dual one.'
   instead: 'When both appear, name the contrast: Samkhya avidya = mistaking two real, distinct things for one; upanishadic-core avidya (v0.6) = mistaking an apparent duality for what is really non-dual.'
 related:
-- /concepts/viveka-khyati.md
-- /concepts/bandha-samkhya.md
+- viveka-khyati.md
+- bandha-samkhya.md
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0

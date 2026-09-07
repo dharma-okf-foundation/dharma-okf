@@ -22,12 +22,12 @@ not:
   - term: "sequential stages (waking leads to dream leads to deep sleep toward liberation)"
     why: "The three states cycle continuously and involuntarily. They are not a path toward Turīya — Turīya is the witness of all three simultaneously. The sequence of the Māṇḍūkya's analysis moves from Jāgrat to Svapna to Suṣupti to Turīya pedagogically, but this is an analytical sequence, not a teleological one."
 related:
-  - /concepts/jagrat.md
-  - /concepts/svapna.md
-  - /concepts/sushupti.md
-  - /concepts/turiya.md
-  - /concepts/sakshin.md
-  - /concepts/ayam-atma-brahma.md
+  - jagrat.md
+  - svapna.md
+  - sushupti.md
+  - turiya.md
+  - sakshin.md
+  - ayam-atma-brahma.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

@@ -11,10 +11,10 @@ text_type: "Kaula tantra (17 ullāsas)"
 period: "Kaula corpus (commonly dated c. 10th-14th century CE)"
 tags: [kularnava, kaula, diksha, guru, vamachara, achara, reference, descriptive-only]
 related:
-  - /concepts/tantra.md
-  - /concepts/vamachara-dakshinachara.md
-  - /concepts/pancha-makara.md
-  - /concepts/mantra-shastra.md
+  - ../concepts/tantra.md
+  - ../concepts/vamachara-dakshinachara.md
+  - ../concepts/pancha-makara.md
+  - ../concepts/mantra-shastra.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"

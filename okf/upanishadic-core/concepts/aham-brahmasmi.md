@@ -27,12 +27,12 @@ not:
     why: "A mantra works through repetition and sound; a Mahāvākya works through understood meaning. Treating Ahaṃ Brahmāsmi as japa material converts Śabda-pramāṇa (knowledge-bearing testimony) into liturgical recitation and defers the recognition it exists to deliver. The body Not: line has carried this ban since authoring; this entry gives it the machine-readable counterpart."
     instead: "Present it as a sentence to be understood through Śravaṇa-Manana-Nididhyāsana, not recited"
 related:
-  - /concepts/mahavakya.md
-  - /concepts/sakshin.md
-  - /concepts/nirguna-brahman.md
-  - /concepts/shravana.md
-  - /concepts/antaryamin.md
-  - /concepts/tat-tvam-asi.md
+  - mahavakya.md
+  - sakshin.md
+  - nirguna-brahman.md
+  - shravana.md
+  - antaryamin.md
+  - tat-tvam-asi.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
 license: "CC BY-SA 4.0"
