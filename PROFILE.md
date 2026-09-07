@@ -146,6 +146,8 @@ if "://" in target or target.startswith("/"):
 
 A bundle authored exactly as base §6.1 advises therefore renders with no edges between its concepts. Since the profile's value depends on the relationship graph being visible to consumers, the profile follows the implementation rather than the recommendation, and discloses that it is doing so. This rule will be revisited if upstream resolves the discrepancy in either direction.
 
+**Escaping-path note for consumers.** Sixty-two body links in this corpus resolve outside their bundle root: **thirty-six cross-bundle links** expressing school-relativity, where one Sanskrit term is a different technical object in a different darśana, and **twenty-six** pointing at the repository-root `GENEALOGIES.md`. Both are deliberate, and both lie outside what a bundle-scoped resolver is obliged to follow. Upstream's proposed fix for the viewer's link handling ([`open-knowledge-format#14`](https://github.com/GoogleCloudPlatform/open-knowledge-format/issues/14), acceptance criterion 5) rejects paths that escape the bundle root, so a base-conformant consumer may drop every one of them. The profile accepts that: these relationships hold *between* bundles, and a bundle-scoped graph cannot express them by definition. `okf_validate.py --profile` reports the count so this disclosure stays measurable, and never scores it.
+
 **Traversal note for consumers.** The `related:` key (§2.3) is frontmatter and is **not** traversed by link-graph consumers, which read bodies only. Every relationship asserted in `related:` is also expressed as a body link. Consumers building a graph should read bodies; `related:` is a convenience for readers and profile-aware tools.
 
 ### 3.2 A `references/` sub-bundle is required
