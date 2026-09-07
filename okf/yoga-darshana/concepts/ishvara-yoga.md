@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: yoga-darshana
-bundle_version: "0.2.0"
+bundle_version: "0.2.2"
 id: ishvara-yoga
 title: "Īśvara (Yoga Darśana)"
 iast: "Īśvara"

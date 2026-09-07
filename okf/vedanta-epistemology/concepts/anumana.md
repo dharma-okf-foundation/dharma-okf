@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.1"
+bundle_version: "0.3.3"
 id: anumana
 title: "Anumāna — Inferential Cognition"
 iast: "anumāna"

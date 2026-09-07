@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.0"
+bundle_version: "0.3.3"
 id: pramata
 title: "Pramātṛ — The Knowing Subject (Cognitive Subject in the Pramāṇa-Triad)"
 iast: "pramātṛ"

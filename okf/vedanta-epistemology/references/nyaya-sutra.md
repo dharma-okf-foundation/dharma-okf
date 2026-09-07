@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Nyāya Sūtra (Gautama)"
 description: "Gautama's root text of the Nyāya darśana; the canonical definitions of the pramāṇas."
 darshana:

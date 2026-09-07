@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Māṇḍūkya Kārikā (Gauḍapāda)"
 description: "Gauḍapāda's kārikā on the Māṇḍūkya Upaniṣad; ajātivāda and the levels of reality."
 darshana:

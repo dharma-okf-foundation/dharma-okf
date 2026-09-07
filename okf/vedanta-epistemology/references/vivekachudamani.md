@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Vivekacūḍāmaṇi"
 description: "Advaita prakaraṇa attributed to Śaṅkara on discrimination (viveka) and Ātman-Brahman identity."
 darshana:

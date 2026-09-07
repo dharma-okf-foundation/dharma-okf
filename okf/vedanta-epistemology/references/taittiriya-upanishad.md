@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Taittirīya Upaniṣad"
 description: "A Yajurveda Upaniṣad; Brahman as Sat-Chit-Ānanda and the pañcakośa."
 darshana:

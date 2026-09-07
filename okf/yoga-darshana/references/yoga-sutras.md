@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.2.2"
 title: "Yoga Sūtras of Patañjali"
 description: "The 196 aphorisms by Patañjali that define classical Yoga as chitta-vṛtti-nirodha and lay out the eight limbs (aṣṭāṅga); the root text of the Yoga darśana."
 darshana:

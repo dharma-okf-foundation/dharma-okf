@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.0"
+bundle_version: "0.3.3"
 id: nirvikalpaka-savikalpaka
 title: "Nirvikalpaka / Savikalpaka — Indeterminate and Determinate Perception"
 iast: "nirvikalpaka / savikalpaka"

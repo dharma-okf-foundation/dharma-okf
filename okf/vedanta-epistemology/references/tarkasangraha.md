@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Tarkasaṃgraha (Annambhaṭṭa)"
 description: "Annambhaṭṭa's primer of Nyāya-Vaiśeṣika logic and epistemology."
 darshana:

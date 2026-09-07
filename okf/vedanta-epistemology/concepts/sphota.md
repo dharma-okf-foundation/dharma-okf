@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.0"
+bundle_version: "0.3.3"
 id: sphota
 title: "Sphoṭa — The Eternal Linguistic Unit (Philosophy of Language, Bhartṛhari)"
 iast: "sphoṭa"

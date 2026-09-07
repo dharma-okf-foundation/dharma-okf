@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.0"
+bundle_version: "0.3.3"
 id: anubhava
 title: "Anubhava — Direct Experience as Epistemological Category"
 iast: "anubhava"

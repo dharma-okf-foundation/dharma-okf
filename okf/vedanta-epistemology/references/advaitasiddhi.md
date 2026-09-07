@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Advaitasiddhi (Madhusūdana Sarasvatī)"
 description: "Madhusūdana's defense of Advaita; absence-cognition and the reality-levels."
 darshana:

@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.2.2"
 title: "Bhagavad Gītā"
 description: "The 700-verse dialogue in the Mahābhārata synthesizing the paths of karma, jñāna, and bhakti; a cross-darśana source for the guṇas and yoga."
 darshana:

@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.2.2"
 title: "Yoga Bhāṣya of Vyāsa"
 description: "The foundational classical commentary on the Yoga Sūtras (attributed to Vyāsa); the traditional lens through which Pātañjala Yoga is read."
 darshana:

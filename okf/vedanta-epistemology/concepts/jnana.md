@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.0"
+bundle_version: "0.3.3"
 id: jnana
 title: "Jñāna — Liberative Knowledge (Brahma-Jñāna / Ātma-Jñāna)"
 iast: "jñāna"

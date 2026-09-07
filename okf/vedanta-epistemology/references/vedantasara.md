@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Vedāntasāra (Sadānanda)"
 description: "Sadānanda's concise Advaita primer; the standard definition of mithyātva as traikālika-bādha."
 darshana:

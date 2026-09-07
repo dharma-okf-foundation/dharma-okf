@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Upadeśasāhasrī (Śaṅkara)"
 description: "Śaṅkara's independent Advaita treatise; the guru-śiṣya transmission of brahma-jñāna."
 darshana:

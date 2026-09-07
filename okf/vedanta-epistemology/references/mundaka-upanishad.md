@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Muṇḍaka Upaniṣad"
 description: "An Atharvaveda Upaniṣad; 'the knower of Brahman becomes Brahman' (3.2.9)."
 darshana:

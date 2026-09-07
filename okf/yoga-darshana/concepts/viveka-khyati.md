@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: yoga-darshana
-bundle_version: "0.2.0"
+bundle_version: "0.2.2"
 id: viveka-khyati
 title: "Viveka-Khyāti"
 iast: "Viveka-Khyāti"

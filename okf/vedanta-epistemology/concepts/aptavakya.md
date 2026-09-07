@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.0"
+bundle_version: "0.3.3"
 id: aptavakya
 title: "Āpta-vākya — Testimony of a Trustworthy Person (Verified Authoritative Testimony)"
 iast: "āpta-vākya"

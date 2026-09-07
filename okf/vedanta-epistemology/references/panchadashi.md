@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Pañcadaśī (Vidyāraṇya)"
 description: "Vidyāraṇya's verse manual of Advaita; the three-level ontology and the two powers of avidyā."
 darshana:

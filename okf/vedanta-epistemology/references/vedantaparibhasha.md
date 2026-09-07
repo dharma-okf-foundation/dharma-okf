@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Vedāntaparibhāṣā (Dharmarāja Adhvarin)"
 description: "Dharmarāja Adhvarin's systematic manual of Advaita epistemology — the pramāṇas in the Advaita frame."
 darshana:

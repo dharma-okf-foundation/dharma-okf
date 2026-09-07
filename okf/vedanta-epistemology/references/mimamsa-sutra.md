@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Mīmāṃsā Sūtra (Jaimini)"
 description: "Jaimini's root text of Pūrva-Mīmāṃsā; the source of apauruṣeyatva and svataḥprāmāṇya."
 darshana:

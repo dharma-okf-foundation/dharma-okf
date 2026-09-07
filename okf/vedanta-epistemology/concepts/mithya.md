@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.2"
+bundle_version: "0.3.3"
 id: mithya
 title: "Mithyā — Dependent Existence (Neither Real Nor Non-Existent)"
 iast: "mithyā"

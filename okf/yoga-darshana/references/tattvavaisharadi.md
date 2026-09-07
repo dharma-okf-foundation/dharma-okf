@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.2.2"
 title: "Tattvavaiśāradī of Vācaspatimiśra"
 description: "Vācaspatimiśra's sub-commentary on the Yoga Bhāṣya; a key scholastic gloss clarifying Yoga technical terms."
 darshana:

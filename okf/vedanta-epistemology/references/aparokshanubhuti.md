@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Aparokṣānubhūti (Śaṅkara)"
 description: "Short prakaraṇa attributed to Śaṅkara; aparokṣa-anubhūti as the liberating direct recognition."
 darshana:

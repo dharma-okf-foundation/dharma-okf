@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Nyāya Bhāṣya (Vātsyāyana)"
 description: "Vātsyāyana's commentary on the Nyāya Sūtras; the nirvikalpaka/savikalpaka exposition."
 darshana:

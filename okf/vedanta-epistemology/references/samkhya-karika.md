@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Sāṃkhya Kārikā (Īśvarakṛṣṇa)"
 description: "Īśvarakṛṣṇa's classical Sāṃkhya text; satkāryavāda and pariṇāmavāda."
 darshana:

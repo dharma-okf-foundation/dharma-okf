@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.0"
+bundle_version: "0.3.3"
 id: shabda-pramana
 title: "Śabda / Āgama (as Pramāṇa) — Verbal Testimony as Instrument of Valid Knowledge"
 iast: "śabda / āgama (pramāṇa)"

@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.2.2"
 title: "Sāṃkhya Kārikā"
 description: "Īśvarakṛṣṇa's classical verse exposition of Sāṃkhya — Puruṣa, Prakṛti, the guṇas, and the tattvas — the metaphysical base Yoga builds on."
 darshana:

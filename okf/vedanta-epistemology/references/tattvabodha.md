@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Tattvabodha (Śaṅkara)"
 description: "Introductory Advaita primer attributed to Śaṅkara; the pramāṇa-triad."
 darshana:

@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.2.2"
 title: "Haṭha Yoga Pradīpikā"
 description: "Svātmārāma's classical manual of Haṭha Yoga — āsana, prāṇāyāma, and mudrā — preparatory to the inner limbs of Pātañjala Yoga."
 darshana:

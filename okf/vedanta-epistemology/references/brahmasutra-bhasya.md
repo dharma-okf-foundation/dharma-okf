@@ -1,5 +1,6 @@
 ---
 type: Reference
+bundle_version: "0.3.3"
 title: "Brahmasūtra Bhāṣya (Śaṅkara)"
 description: "Śaṅkara's commentary on the Brahma Sūtras; the foundational Advaita text, opening with the Adhyāsa-bhāṣya."
 darshana:

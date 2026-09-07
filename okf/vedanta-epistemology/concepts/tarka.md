@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: vedanta-epistemology
-bundle_version: "0.3.0"
+bundle_version: "0.3.3"
 id: tarka
 title: "Tarka — Hypothetical Reasoning (Indirect Reasoning Supporting Inference)"
 iast: "tarka"
