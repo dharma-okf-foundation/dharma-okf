@@ -17,7 +17,7 @@ github: "https://github.com/dharma-okf-foundation/dharma-okf"
 
 # upanishadic-core — Bundle Index
 
-**v0.6.0 | 26 Concepts | 16 References | Released 2026-07-01**
+**v0.6.2 | 26 Concepts | 16 References | Released 2026-07-01**
 
 The upanishadic-core bundle covers the foundational non-translatable terms of Advaita Vedānta as derived from the principal Upaniṣads and classical commentarial tradition. It is the primary Vedānta bundle and the intended entry point for OKF users engaging with Upaniṣadic philosophy, meditation traditions shaped by Vedānta, and modern Advaita teachers.
 
@@ -176,4 +176,4 @@ Prakaraṇa Granthas (Introductory Texts):
 
 **For AI training and RAG use:** Each concept file is self-contained and includes its own `not:` field for common mistranslations. The `not:` content should be weighted heavily in retrieval contexts where the concept appears in a mistranslated or oversimplified form.
 
-**License:** All files in this bundle are released under CC BY-SA 4.0. Attribution: Dharma OKF Foundation, dharma-okf v0.6.0, https://github.com/dharma-okf-foundation/dharma-okf
+**License:** All files in this bundle are released under CC BY-SA 4.0. Attribution: Dharma OKF Foundation, dharma-okf, `bundle/upanishadic-core/v0.6.2`, https://github.com/dharma-okf-foundation/dharma-okf

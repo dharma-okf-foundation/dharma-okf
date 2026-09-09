@@ -12,11 +12,11 @@ timestamp: "2026-07-01"
 license: "CC BY-SA 4.0"
 ---
 
-# OKF Bundle: cosmology-creation (v0.7.0)
+# OKF Bundle: cosmology-creation (v0.7.3)
 
 **Theme**: Vedic and Purāṇic vocabulary of time, cosmos, and manifestation
 
-**Release tag**: v0.7.0
+**Release tag**: `bundle/cosmology-creation/v0.7.3`
 
 **Concept count**: 26 | **Reference count**: 12
 
@@ -202,4 +202,4 @@ Sapta-Loka (7 upper) + 7 Pātāla (lower) = 14 Lokas total
 
 ---
 
-*Target GitHub path: `okf/cosmology-creation/` | Release: v0.7.0 | Built: 2026-07-01*
+*Target GitHub path: `okf/cosmology-creation/` | Release: v0.7.3 | Built: 2026-07-01*

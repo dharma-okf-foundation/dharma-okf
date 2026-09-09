@@ -20,7 +20,7 @@ okf_version: "0.2"
 ---
 # bhakti-marga — Bundle Index
 
-Authored directly on the canonical OKF v0.2 format. This is bundle release **v0.4.0**; the format spec it conforms to is **okf_version 0.2**. (Format version and release tag are distinct axes: see the project SPEC.md §12.)
+Authored directly on the canonical OKF v0.2 format. This is bundle release **v0.4.3**; the format spec it conforms to is **okf_version 0.2**. (Format version and release tag are distinct axes: see the project SPEC.md §12.)
 
 ## The Framing Tension: Bhakti Is Not the "Lower" Path
 
@@ -127,8 +127,8 @@ An AI agent holding more than one bundle must keep the ontology, the epistemolog
 
 | Bundle | Relation |
 |--------|---------|
-| `okf/dharma-foundation/` (v0.1.1) | Contains `shabda.md` (sound as ontological-linguistic category) and `mantra.md` — distinct from this bundle's `nada-brahman.md` (sound as devotional presence) |
-| `okf/vedanta-epistemology/` (v0.3.0) | Contains `shabda-pramana.md` (sound as epistemological instrument) and the Upadeśasāhasrī reference (the Advaita jñāna-guru) |
+| `okf/dharma-foundation/` (v0.1) | Contains `shabda.md` (sound as ontological-linguistic category) and `mantra.md` — distinct from this bundle's `nada-brahman.md` (sound as devotional presence) |
+| `okf/vedanta-epistemology/` (v0.3) | Contains `shabda-pramana.md` (sound as epistemological instrument) and the Upadeśasāhasrī reference (the Advaita jñāna-guru) |
 | `okf/dharmic-ethics/` (v0.5, planned) | Will treat `seva` from the karma-yoga / niṣkāma-karma angle reserved out of this bundle |
 | `okf/upanishadic-core/` (v0.6, planned) | Will treat saguṇa/nirguṇa and the mahāvākyas, deferred from here |
 
@@ -138,4 +138,4 @@ A vocabulary bundle cannot transmit bhakti; devotion is caught in lived relation
 
 ---
 
-*Bundle built: 2026-06-25 | Guru | Three tiers complete (5 + 5 + 5 = 15 concepts) + 9 references | OKF format v0.2 | release v0.4.0 | bhakti-marga*
+*Bundle built: 2026-06-25 | Guru | Three tiers complete (5 + 5 + 5 = 15 concepts) + 9 references | OKF format v0.2 | release v0.4.3 | bhakti-marga*

@@ -13,7 +13,7 @@ license: "CC BY-SA 4.0"
 
 # Mīmāṃsā-Dharma -- Ritual Injunction, Authorless Authority, and the Language of Action
 
-**Bundle v0.10.0 | 25 concepts in 5 tiers | 7 primary-text references | canonical OKF v0.2**
+**Bundle v0.10.1 | 25 concepts in 5 tiers | 7 primary-text references | canonical OKF v0.2**
 
 ## What This Bundle Does Not Claim
 

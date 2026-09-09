@@ -20,7 +20,7 @@ okf_version: "0.2"
 ---
 # dharmic-ethics — Bundle Index
 
-Authored directly on the canonical OKF v0.2 format. This is bundle release **v0.5.0**; the format spec it conforms to is **okf_version 0.2**. (Format version and release tag are distinct axes: see the project SPEC.md §12.)
+Authored directly on the canonical OKF v0.2 format. This is bundle release **v0.5.3**; the format spec it conforms to is **okf_version 0.2**. (Format version and release tag are distinct axes: see the project SPEC.md §12.)
 
 ## The Framing Tension: Ethics as Alignment, Not Commandment
 
@@ -130,10 +130,10 @@ An AI agent holding more than one bundle must keep the metaphysics, the devotion
 
 | Bundle | Relation |
 |--------|---------|
-| `okf/yoga-darshana/` (v0.2.0) | Source of the aṣṭāṅga frame; names svādhyāya and the niyamas without unfolding them, and treats the *metaphysics* of Īśvara (`ishvara-yoga`) distinct from this bundle's `ishvara-pranidhana` |
-| `okf/dharma-foundation/` (v0.1.1) | Contains `dharma`, `karma`, and `vairagya` — the roots that `svadharma`, `nishkama-karma`, and `santosha` individualize or contrast |
-| `okf/vedanta-epistemology/` (v0.3.0) | The truth-cluster (`prama`, `pratyaksha`, levels of reality) from which ethical `satya` must be kept distinct |
-| `okf/bhakti-marga/` (v0.4.0) | Its `seva.md` reserved the karma-yoga treatment for this bundle's `nishkama-karma`; its `sharanagati` is the devotional cousin of `ishvara-pranidhana` |
+| `okf/yoga-darshana/` (v0.2) | Source of the aṣṭāṅga frame; names svādhyāya and the niyamas without unfolding them, and treats the *metaphysics* of Īśvara (`ishvara-yoga`) distinct from this bundle's `ishvara-pranidhana` |
+| `okf/dharma-foundation/` (v0.1) | Contains `dharma`, `karma`, and `vairagya` — the roots that `svadharma`, `nishkama-karma`, and `santosha` individualize or contrast |
+| `okf/vedanta-epistemology/` (v0.3) | The truth-cluster (`prama`, `pratyaksha`, levels of reality) from which ethical `satya` must be kept distinct |
+| `okf/bhakti-marga/` (v0.4) | Its `seva.md` reserved the karma-yoga treatment for this bundle's `nishkama-karma`; its `sharanagati` is the devotional cousin of `ishvara-pranidhana` |
 | `okf/upanishadic-core/` (v0.6, planned) | Will treat śravaṇa-manana-nididhyāsana and the mahāvākyas, deferred from here |
 
 ## An Honesty Note (the Council's preserved dissent)
@@ -142,4 +142,4 @@ An ethics vocabulary risks being read as a rulebook no matter how it is framed, 
 
 ---
 
-*Bundle built: 2026-06-25 | Guru | Three tiers complete (5 + 5 + 5 = 15 concepts) + 6 references | OKF format v0.2 | release v0.5.0 | dharmic-ethics*
+*Bundle built: 2026-06-25 | Guru | Three tiers complete (5 + 5 + 5 = 15 concepts) + 6 references | OKF format v0.2 | release v0.5.3 | dharmic-ethics*

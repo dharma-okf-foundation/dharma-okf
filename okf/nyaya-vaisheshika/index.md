@@ -14,7 +14,7 @@ license: "CC BY-SA 4.0"
 
 # Nyāya-Vaiśeṣika -- The Science of Inference and Debate
 
-**Bundle v0.9.0 | 27 concepts, 5 tiers | 10 primary-text references | canonical OKF v0.2**
+**Bundle v0.9.1 | 27 concepts, 5 tiers | 10 primary-text references | canonical OKF v0.2**
 
 ## What This Bundle Does Not Claim
 

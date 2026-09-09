@@ -15,7 +15,7 @@ license: CC BY-SA 4.0
 
 # Sāṃkhya-Darśana -- सांख्यदर्शन
 
-**Bundle v0.13.0** -- completes the six classical darśanas (Yoga v0.2, Vedānta-epistemology v0.3 + Upaniṣadic-core v0.6, Mīmāṃsā v0.10, Nyāya-Vaiśeṣika v0.9, Sāṃkhya v0.13).
+**Bundle v0.13.3** -- completes the six classical darśanas (Yoga v0.2, Vedānta-epistemology v0.3 + Upaniṣadic-core v0.6, Mīmāṃsā v0.10, Nyāya-Vaiśeṣika v0.9, Sāṃkhya v0.13).
 
 ## What This Bundle Does NOT Claim
 

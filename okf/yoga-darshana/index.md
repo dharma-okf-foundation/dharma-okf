@@ -19,7 +19,7 @@ okf_version: "0.2"
 # Yoga Darśana OKF Bundle — Index
 
 **Bundle:** `yoga-darshana`  
-**Version:** `0.2.0`  
+**Version:** `0.2.2`  
 **License:** CC BY-SA 4.0  
 **Darśana:** Yoga (Patañjali's Yoga Sūtras)  
 **Related Darśana:** Sāṃkhya  

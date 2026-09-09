@@ -13,7 +13,7 @@ license: "CC BY-SA 4.0"
 
 # Āyurveda-Consciousness -- Constitution, Vitality, and the Medicine That Includes the Mind
 
-**Bundle v0.11.0 | 26 concepts in 5 tiers | 8 primary-text references | canonical OKF v0.2**
+**Bundle v0.11.1 | 26 concepts in 5 tiers | 8 primary-text references | canonical OKF v0.2**
 
 ## What This Bundle Does Not Claim
 
