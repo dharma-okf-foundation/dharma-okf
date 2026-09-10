@@ -95,7 +95,8 @@ _BARE_LINK = re.compile(r"\]\(([^/.\s)][^)\s]*\.md)\)")
 # Any non-ASCII codepoint — slugs/filenames/link paths must stay ASCII for URL
 # portability (a non-ASCII filename broke the fetch tooling on vedanta).
 _NONASCII = re.compile(r"[^\x00-\x7f]")
-PROFILE_CHECKER_VERSION = "2.1"
+PROFILE_CHECKER_VERSION = "2.2"
+PROFILE_ID = "dharma-okf/1.0"
 
 
 # --- severity bookkeeping --------------------------------------------------
@@ -363,6 +364,107 @@ def _related_entries(fm: str) -> list[str]:
     return re.findall(r"-\s*(\S+)", m.group(1)) if m else []
 
 
+# --- Level 3: trust and provenance (PROFILE.md §5, §2.5, §3.3) -------------
+#
+# Until 2026-09-10 this module did not measure Level 3 at all. It returned the
+# constant `"level_3": False`, and two tests asserted that constant against
+# itself. The consequence was proved, not assumed: 21 dharmic-ethics documents
+# were given all four families in a scratch clone, and the coverage table still
+# read L3 0/13 while the whole suite passed. A conformance table cannot be
+# "generated, not maintained" (§5) while one of its rows is a literal.
+#
+# GATED, because §5 names exactly these four:
+#   generated:        present
+#   verified:         present, with at least one `human:` actor (§3.3 makes
+#                     machine-only verification insufficient for this profile)
+#   sources:          present and non-empty
+#   okf_profile:      present
+#
+# REPORTED, NOT GATED, following this module's existing split (escaping links
+# and `related:` form are reported and never scored):
+#   generated.by absent            base §5.2 makes it REQUIRED within generated
+#   `at` not an ISO 8601 datetime  base §5 preamble requires an explicit offset;
+#                                  PROFILE §3.3's `<date>` is looser than the base
+#   sources[] entry with no resource   base §5.1 makes it REQUIRED within an entry
+#   footnote label matching no sources[].id   §2.5's join key, silently broken
+#   okf_profile value mismatch
+#
+# Footnotes are NOT gated. §2.5 is conditional ("Where a body claim rests on a
+# specific source"), so a document with no such claim is conformant without one.
+# Gating on them would invent a rule §5 does not state.
+
+_HUMAN_ACTOR = re.compile(r"^human:\S")
+_ISO_DT = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$")
+_FOOTNOTE_DEF = re.compile(r"^\[\^([^\]]+)\]:", re.M)
+TRUST_FAMILIES = ("generated", "verified", "sources", "okf_profile")
+
+
+def _parse_fm(fm: str) -> dict:
+    """Frontmatter as a mapping. Unparseable frontmatter scores as empty."""
+    try:
+        d = yaml.safe_load(fm)
+    except Exception:
+        return {}
+    return d if isinstance(d, dict) else {}
+
+
+def _verified_events(v: Any) -> list[dict]:
+    """base §5.2: a list of {by, at}; a bare mapping is a one-element list."""
+    if isinstance(v, dict):
+        return [v]
+    if isinstance(v, list):
+        return [e for e in v if isinstance(e, dict)]
+    return []
+
+
+def trust_check(fm_text: str, body: str) -> tuple[set, list[str]]:
+    """One document against §5 Level 3. Returns (families_present, findings)."""
+    fm = _parse_fm(fm_text)
+    present: set = set()
+    findings: list[str] = []
+
+    gen = fm.get("generated")
+    if gen is not None:
+        present.add("generated")
+        if not isinstance(gen, dict) or not str(gen.get("by") or "").strip():
+            findings.append("generated.by absent (base §5.2 REQUIRED)")
+        at = str(gen.get("at") or "") if isinstance(gen, dict) else ""
+        if at and not _ISO_DT.match(at):
+            findings.append(f"generated.at is not an ISO 8601 datetime: {at}")
+
+    events = _verified_events(fm.get("verified"))
+    if events:
+        if any(_HUMAN_ACTOR.match(str(e.get("by") or "")) for e in events):
+            present.add("verified")
+        else:
+            findings.append("verified carries no human: actor (§3.3)")
+        for e in events:
+            at = str(e.get("at") or "")
+            if at and not _ISO_DT.match(at):
+                findings.append(f"verified.at is not an ISO 8601 datetime: {at}")
+
+    src = fm.get("sources")
+    ids: set = set()
+    if isinstance(src, list) and src:
+        present.add("sources")
+        for i, s in enumerate(src):
+            if not isinstance(s, dict) or not str(s.get("resource") or "").strip():
+                findings.append(f"sources[{i}] has no resource (base §5.1 REQUIRED)")
+            elif s.get("id"):
+                ids.add(str(s["id"]))
+
+    prof = fm.get("okf_profile")
+    if prof is not None:
+        present.add("okf_profile")
+        if str(prof) != PROFILE_ID:
+            findings.append(f'okf_profile is "{prof}", expected "{PROFILE_ID}"')
+
+    for label in sorted(set(_FOOTNOTE_DEF.findall(body)) - ids):
+        findings.append(f"footnote [^{label}] matches no sources[].id (§2.5)")
+
+    return present, findings
+
+
 def profile_check(bundle: Path) -> dict:
     """Score one bundle against PROFILE.md §5. Detection only; changes nothing."""
     name = bundle.name
@@ -374,6 +476,10 @@ def profile_check(bundle: Path) -> dict:
     escaping: list[str] = []
     dirs_with_concepts: set[Path] = set()
     fm_in_subindex: list[str] = []
+    trust_docs = 0
+    trust_have = {f: 0 for f in TRUST_FAMILIES}
+    trust_complete = 0
+    trust_findings: list[str] = []
 
     for path in sorted(bundle.rglob("*.md")):
         if path.name in RESERVED:
@@ -396,6 +502,15 @@ def profile_check(bundle: Path) -> dict:
 
         dirs_with_concepts.add(path.parent)
         where = str(path.relative_to(bundle))
+
+        # --- Level 3: trust and provenance ---------------------------------
+        trust_docs += 1
+        present, tf = trust_check(fm, body)
+        for fam in present:
+            trust_have[fam] += 1
+        if len(present) == len(TRUST_FAMILIES):
+            trust_complete += 1
+        trust_findings.extend(f"{where}: {m}" for m in tf)
 
         # --- R1: link form -------------------------------------------------
         links = _body_links(body)
@@ -442,13 +557,22 @@ def profile_check(bundle: Path) -> dict:
     if bare:
         l2_failures.append(f"integrity: {bare} bare-path citation(s)")
 
+    l3_failures = []
+    for fam in TRUST_FAMILIES:
+        n = trust_have[fam]
+        if n < trust_docs:
+            label = "verified (human:)" if fam == "verified" else fam
+            l3_failures.append(f"{label}: absent on {trust_docs - n} of {trust_docs} document(s)")
+    if trust_docs == 0:
+        l3_failures.append("no Concept or Reference documents to score")
+
     return {
         "bundle": name,
         "level_0": True,          # base conformance is Layer 1's verdict
         "level_1": True,          # not: + darshana + references/ — Layer 1 WARNs cover it
         "level_2": not l2_failures,
         "level_2b": not missing_index,
-        "level_3": False,         # no okf_profile/verified/generated/sources yet
+        "level_3": trust_docs > 0 and not l3_failures,
         "concepts": concepts,
         "references": references,
         "links": {
@@ -469,10 +593,18 @@ def profile_check(bundle: Path) -> dict:
             "subindex_with_frontmatter": fm_in_subindex,
         },
         "level_2_failures": l2_failures,
+        "level_3_failures": l3_failures,
+        "trust": {
+            "documents": trust_docs,
+            "complete": trust_complete,
+            **{f"has_{f}": trust_have[f] for f in TRUST_FAMILIES},
+            "findings": len(trust_findings),
+        },
         "detail": {
             "concepts_without_links": no_link_concepts[:20],
             "unresolved_links": unresolved[:20],
             "escaping_links": escaping[:40],
+            "trust_findings": trust_findings[:40],
         },
     }
 
@@ -504,6 +636,13 @@ def profile_report(results: list[dict]) -> dict:
             "related_relative": sum(r["links"]["related_relative"] for r in results),
             "dirs_missing_index": sum(r["indexes"]["dirs_missing_index"] for r in results),
             "dirs_with_concepts": sum(r["indexes"]["dirs_with_concepts"] for r in results),
+        },
+        "trust": {
+            "documents": sum(r["trust"]["documents"] for r in results),
+            "complete": sum(r["trust"]["complete"] for r in results),
+            **{f"has_{f}": sum(r["trust"][f"has_{f}"] for r in results)
+               for f in TRUST_FAMILIES},
+            "findings": sum(r["trust"]["findings"] for r in results),
         },
         "bundles": results,
     }
@@ -537,10 +676,22 @@ def print_profile_table(rep: dict) -> None:
           f"{t['related_relative']} relative  (reported, not scored — §3.1 traversal note)")
     print(f"escaping: {t['escaping_links']} body link(s) resolve outside their bundle root "
           f"(reported, not scored — §3.1 disclosure)")
+    tr = rep["trust"]
+    print(f"trust:    generated {tr['has_generated']}/{tr['documents']} · "
+          f"verified(human:) {tr['has_verified']}/{tr['documents']} · "
+          f"sources {tr['has_sources']}/{tr['documents']} · "
+          f"okf_profile {tr['has_okf_profile']}/{tr['documents']} · "
+          f"all four {tr['complete']}/{tr['documents']}")
+    if tr["findings"]:
+        print(f"          {tr['findings']} trust finding(s) (reported, not scored)")
     for r in rep["bundles"]:
         if r["level_2_failures"]:
             print(f"\n  {r['bundle']} — Level 2:")
             for f in r["level_2_failures"]:
+                print(f"      ✗ {f}")
+        if r["level_3_failures"]:
+            print(f"\n  {r['bundle']} — Level 3:")
+            for f in r["level_3_failures"]:
                 print(f"      ✗ {f}")
 
 def _inject_not_line(body: str, line: str) -> str:

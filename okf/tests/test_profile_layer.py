@@ -207,9 +207,31 @@ def test_every_directory_holding_concepts_carries_an_index(report):
     assert all(b["level_2b"] for b in report["bundles"])
 
 
-def test_level_3_is_still_untouched(report):
-    """The trust families are the next wave, not this one."""
+def test_level_3_is_measured_against_the_corpus(report):
+    """Level 3 is 0/13 because it was MEASURED as 0/13, not because it is a literal.
+
+    Until 2026-09-10 `okf_validate.py` returned the constant `"level_3": False`
+    and this test asserted that constant against itself. It could not fail, and
+    it could not detect progress. Proved in a scratch clone: 21 dharmic-ethics
+    documents were given all four trust families and the table still read
+    L3 0/13 with the whole suite green.
+
+    This replacement asserts the MEASUREMENT: the per-family counters exist,
+    they are zero across all 442 documents, and every bundle names all four
+    families as its reason. `test_level_3_can_be_reached` below is the other
+    half, and is what makes this one falsifiable.
+    """
+    tr = report["trust"]
+    assert tr["documents"] == 442, tr
+    for fam in ("generated", "verified", "sources", "okf_profile"):
+        assert tr[f"has_{fam}"] == 0, f"{fam}: {tr[f'has_{fam}']}"
+    assert tr["complete"] == 0
     assert not any(b["level_3"] for b in report["bundles"])
+    for b in report["bundles"]:
+        reasons = " ".join(b["level_3_failures"])
+        assert b["trust"]["documents"] > 0, b["bundle"]
+        for fam in ("generated", "verified", "sources", "okf_profile"):
+            assert fam in reasons, f"{b['bundle']} does not name {fam}: {reasons}"
 
 
 def test_related_parser_reads_unindented_lists(report):
@@ -357,13 +379,24 @@ def test_profile_strict_now_passes_at_level_2b(report):
     assert r.returncode == 0, "all 13 bundles are Level 2b after the index step"
 
 
-def test_profile_strict_still_fails_at_level_3(report):
-    """Level 3 is 0/13 and remains the corpus's open frontier."""
+def test_profile_strict_fails_at_level_3_and_says_why(report):
+    """--require-level 3 exits 1, and the run names the missing families.
+
+    The exit code alone was the old assertion. An exit code is what a constant
+    produces too; the reason is what a measurement produces.
+    """
     r = subprocess.run(
         [sys.executable, str(TOOL), str(OKF), "--corpus",
          "--profile-strict", "--require-level", "3", "--quiet"],
         capture_output=True, text=True)
     assert r.returncode == 1, "no bundle reaches Level 3 yet"
+
+    loud = subprocess.run(
+        [sys.executable, str(TOOL), str(OKF), "--corpus", "--profile"],
+        capture_output=True, text=True)
+    assert "trust:" in loud.stdout, "the trust line is not printed"
+    assert "generated 0/442" in loud.stdout, loud.stdout[-400:]
+    assert "— Level 3:" in loud.stdout, "no per-bundle Level 3 reason printed"
 
 
 def test_profile_strict_passes_at_level_one(report):
@@ -372,3 +405,101 @@ def test_profile_strict_passes_at_level_one(report):
          "--profile-strict", "--require-level", "1", "--quiet"],
         capture_output=True, text=True)
     assert r.returncode == 0, "all 13 bundles are Level 1"
+
+
+# ---------------------------------------------------------------------------
+# Level 3 in the other direction.
+#
+# A check that has only ever returned False is indistinguishable from a
+# constant. These four build synthetic bundles and assert the gate opens, the
+# §3.3 human requirement holds, and the reported-not-scored split is real.
+# ---------------------------------------------------------------------------
+
+import importlib.util as _ilu
+import tempfile
+
+_spec = _ilu.spec_from_file_location("okf_validate", TOOL)
+_ov = _ilu.module_from_spec(_spec)
+# Register before exec: @dataclass resolves string annotations through
+# sys.modules[cls.__module__], and a module executed without being registered
+# raises AttributeError at import time. Caught by running the new tests against
+# the OLD checker, where collection aborted instead of failing cleanly.
+sys.modules["okf_validate"] = _ov
+_spec.loader.exec_module(_ov)
+
+_TRUST_BLOCK = """generated: {{ by: "dharma-okf-curation/1.0", at: "2026-09-10T00:00:00Z" }}
+verified: {{ by: "{verifier}", at: "2026-09-10T00:00:00Z" }}
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: sk-64
+    resource: references/samkhya-karika.md
+    title: "Sāṃkhya Kārikā"
+"""
+
+
+def _synthetic_bundle(root, *, verifier="human:sanjay@dharmaokf.foundation",
+                      trust=True, body_extra=""):
+    """A minimal two-document bundle, optionally carrying the trust families."""
+    bundle = Path(root) / "synthetic"
+    (bundle / "concepts").mkdir(parents=True)
+    (bundle / "references").mkdir(parents=True)
+    block = _TRUST_BLOCK.format(verifier=verifier) if trust else ""
+    (bundle / "concepts" / "kaivalya.md").write_text(
+        f'---\ntype: Concept\ntitle: "Kaivalya"\n{block}---\n\n'
+        f'# Kaivalya\n\nSee [the text](../references/samkhya-karika.md).{body_extra}\n',
+        encoding="utf-8")
+    (bundle / "references" / "samkhya-karika.md").write_text(
+        f'---\ntype: Reference\ntitle: "Sāṃkhya Kārikā"\n{block}---\n\n'
+        f'# Sāṃkhya Kārikā\n\nPrimary text.\n', encoding="utf-8")
+    return bundle
+
+
+def test_level_3_can_be_reached():
+    """All four families present on every document opens the gate.
+
+    This is the test the old pair could not contain. Without it, `level_3`
+    could be reinstated as a constant tomorrow and nothing would notice.
+    """
+    with tempfile.TemporaryDirectory() as d:
+        r = _ov.profile_check(_synthetic_bundle(d))
+        assert r["trust"]["documents"] == 2
+        assert r["trust"]["complete"] == 2
+        assert r["level_3"] is True, r["level_3_failures"]
+        assert r["level_3_failures"] == []
+
+
+def test_level_3_requires_a_human_verifier():
+    """§3.3: machine-only verification does not satisfy this profile."""
+    with tempfile.TemporaryDirectory() as d:
+        r = _ov.profile_check(_synthetic_bundle(d, verifier="process:nightly"))
+        assert r["level_3"] is False
+        assert any("verified" in f for f in r["level_3_failures"]), r["level_3_failures"]
+        assert r["trust"]["has_generated"] == 2, "the other three families still count"
+        assert r["trust"]["has_verified"] == 0
+
+
+def test_level_3_absent_families_are_named_individually():
+    """A bundle carrying none of the four names all four, not a single verdict."""
+    with tempfile.TemporaryDirectory() as d:
+        r = _ov.profile_check(_synthetic_bundle(d, trust=False))
+        assert r["level_3"] is False
+        reasons = " ".join(r["level_3_failures"])
+        for fam in ("generated", "verified", "sources", "okf_profile"):
+            assert fam in reasons, reasons
+
+
+def test_trust_findings_are_reported_not_scored():
+    """An orphan footnote is a finding, not a Level 3 failure (§2.5 is conditional).
+
+    §2.5 attributes a claim "where a body claim rests on a specific source".
+    A document with no such claim is conformant without a footnote, so gating
+    on footnotes would invent a rule §5 does not state. A footnote whose label
+    matches no `sources[].id` is still silent misattribution, and is reported.
+    """
+    with tempfile.TemporaryDirectory() as d:
+        bundle = _synthetic_bundle(
+            d, body_extra="\n\nA claim.[^no-such-id]\n\n[^no-such-id]: Dangling\n")
+        r = _ov.profile_check(bundle)
+        assert r["level_3"] is True, "an orphan footnote must not close the gate"
+        assert r["trust"]["findings"] >= 1
+        assert any("no-such-id" in f for f in r["detail"]["trust_findings"])
