@@ -57,14 +57,21 @@ _FRONTMATTER_VERSION = re.compile(r'^bundle_version:\s*"?([\d.]+)"?', re.M)
 
 
 def _split(path: Path) -> tuple[str, list[tuple[int, str]]]:
-    """Return (bundle_version, [(line_no, line)]) for the body only."""
+    """Return (bundle_version, [(line_no, line)]) for the WHOLE file.
+
+    Frontmatter was excluded in the first revision of this module, and the
+    2026-09-09 commit paid for it: `cosmology-creation` had its body line
+    corrected to the namespaced tag while `release_tag: "v0.7.0"` sat
+    fourteen lines above it in frontmatter, unread and unchanged, leaving
+    the file contradicting itself. `bundle_version` itself is invisible to
+    both patterns below because it carries no `v` prefix, so no exclusion
+    is needed.
+    """
     text = path.read_text(encoding="utf-8")
     match = _FRONTMATTER_VERSION.search(text)
     assert match, f"{path} carries no bundle_version"
     lines = text.splitlines()
-    fences = [i for i, line in enumerate(lines) if line.strip() == "---"]
-    start = fences[1] + 1 if len(fences) >= 2 else 0
-    return match.group(1), [(i + 1, lines[i]) for i in range(start, len(lines))]
+    return match.group(1), [(i + 1, lines[i]) for i in range(len(lines))]
 
 
 def _claims(bundle: str):
@@ -115,4 +122,35 @@ def test_cross_bundle_references_use_minor_series(bundle):
         if other is not None
     ]
     assert offenders == [], ("patch-level cross-bundle reference(s):\n  "
+                             + "\n  ".join(offenders))
+
+
+@pytest.mark.parametrize("bundle", BUNDLES)
+def test_no_index_calls_a_shipped_bundle_planned(bundle):
+    """No index describes a bundle that exists as planned or forthcoming.
+
+    Publishing lessons §22 rule 2: a forward-looking claim "becomes false by
+    being honoured, which is the one failure mode nobody re-reads for." Three
+    such rows survived the 2026-09-09 commit -- `bhakti-marga` calling
+    `dharmic-ethics` (v0.5) and `upanishadic-core` (v0.6) planned, and
+    `dharmic-ethics` saying the same of `upanishadic-core` -- while the rows
+    directly above them in the same tables were being corrected.
+
+    A forward reference to a bundle that genuinely does not exist yet is
+    legitimate and is deliberately not flagged: the test fires only when the
+    named bundle is present in the corpus.
+    """
+    forward = re.compile(r"(?i)\b(planned|forthcoming|will treat|will cover|not yet built)\b")
+    _, lines = _split(OKF / bundle / "index.md")
+    offenders = []
+    for line_no, line in lines:
+        if not forward.search(line):
+            continue
+        for other in _OTHER_BUNDLE.finditer(line):
+            name = other.group(1)
+            if name != bundle and (OKF / name).is_dir():
+                offenders.append(
+                    f"{bundle}/index.md:{line_no} calls {name} planned, but it "
+                    f"is published | {line.strip()[:80]}")
+    assert offenders == [], ("forward-looking claim(s) already honoured:\n  "
                              + "\n  ".join(offenders))

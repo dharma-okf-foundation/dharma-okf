@@ -129,8 +129,8 @@ An AI agent holding more than one bundle must keep the ontology, the epistemolog
 |--------|---------|
 | `okf/dharma-foundation/` (v0.1) | Contains `shabda.md` (sound as ontological-linguistic category) and `mantra.md` — distinct from this bundle's `nada-brahman.md` (sound as devotional presence) |
 | `okf/vedanta-epistemology/` (v0.3) | Contains `shabda-pramana.md` (sound as epistemological instrument) and the Upadeśasāhasrī reference (the Advaita jñāna-guru) |
-| `okf/dharmic-ethics/` (v0.5, planned) | Will treat `seva` from the karma-yoga / niṣkāma-karma angle reserved out of this bundle |
-| `okf/upanishadic-core/` (v0.6, planned) | Will treat saguṇa/nirguṇa and the mahāvākyas, deferred from here |
+| `okf/dharmic-ethics/` (v0.5) | Treats `seva` from the karma-yoga / niṣkāma-karma angle reserved out of this bundle |
+| `okf/upanishadic-core/` (v0.6) | Treats saguṇa/nirguṇa and the mahāvākyas, deferred from here |
 
 ## An Honesty Note (the Council's preserved dissent)
 

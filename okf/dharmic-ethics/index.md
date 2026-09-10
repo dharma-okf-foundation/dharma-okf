@@ -134,7 +134,7 @@ An AI agent holding more than one bundle must keep the metaphysics, the devotion
 | `okf/dharma-foundation/` (v0.1) | Contains `dharma`, `karma`, and `vairagya` — the roots that `svadharma`, `nishkama-karma`, and `santosha` individualize or contrast |
 | `okf/vedanta-epistemology/` (v0.3) | The truth-cluster (`prama`, `pratyaksha`, levels of reality) from which ethical `satya` must be kept distinct |
 | `okf/bhakti-marga/` (v0.4) | Its `seva.md` reserved the karma-yoga treatment for this bundle's `nishkama-karma`; its `sharanagati` is the devotional cousin of `ishvara-pranidhana` |
-| `okf/upanishadic-core/` (v0.6, planned) | Will treat śravaṇa-manana-nididhyāsana and the mahāvākyas, deferred from here |
+| `okf/upanishadic-core/` (v0.6) | Treats śravaṇa-manana-nididhyāsana and the mahāvākyas, deferred from here |
 
 ## An Honesty Note (the Council's preserved dissent)
 
