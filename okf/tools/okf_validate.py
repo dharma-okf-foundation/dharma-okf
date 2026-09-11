@@ -383,8 +383,10 @@ def _related_entries(fm: str) -> list[str]:
 # REPORTED, NOT GATED, following this module's existing split (escaping links
 # and `related:` form are reported and never scored):
 #   generated.by absent            base §5.2 makes it REQUIRED within generated
-#   `at` not an ISO 8601 datetime  base §5 preamble requires an explicit offset;
-#                                  PROFILE §3.3's `<date>` is looser than the base
+#   `at` not an ISO 8601 datetime  base §5 preamble requires an explicit offset.
+#                                  PROFILE §3.3 wrote `<date>` until 2026-09-11
+#                                  and now states the base form; this check was
+#                                  written against the base either way
 #   sources[] entry with no resource   base §5.1 makes it REQUIRED within an entry
 #   footnote label matching no sources[].id   §2.5's join key, silently broken
 #   okf_profile value mismatch

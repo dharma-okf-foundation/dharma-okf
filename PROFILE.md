@@ -160,7 +160,9 @@ Base §6.3 makes `references/` a convention. This profile makes it a requirement
 
 ### 3.3 Human verification is required for published concepts
 
-See §5, Level 3. A Dharma-OKF concept asserts doctrinal content; the profile requires that a human tradition-bearer has confirmed it, recorded as `verified: { by: human:<id>, at: <date> }` (base §5.2). Machine-only verification does not satisfy this profile, though it satisfies the base.
+See §5, Level 3. A Dharma-OKF concept asserts doctrinal content; the profile requires that a human tradition-bearer has confirmed it, recorded as `verified: { by: human:<id>, at: <ISO 8601 datetime with an explicit UTC offset> }` (base §5.2). Machine-only verification does not satisfy this profile, though it satisfies the base.
+
+> **The `at` form is the base's, not a looser one.** Earlier revisions of this section wrote `at: <date>`. Base §5 is explicit that *"Every timestamp-valued key in OKF is an ISO 8601 datetime with an explicit UTC offset"*, and a profile may constrain what the base permits but not relax it. Followed literally, `<date>` would have reproduced the corpus's date-only `timestamp` problem inside the key that supersedes it. Corrected 2026-09-11; `okf_validate.py` reports a non-conforming `at` as a finding.
 
 This is the profile's strictest rule and the one it most cares about. Base §5.3 derives a trust tier from `verified`, and a `human:` actor yields the `human-reviewed` tier. Rendered in frontmatter, that field carries the claim a transmitted tradition has always made: a person who holds the teaching has checked it.
 
@@ -208,13 +210,15 @@ Conformance is stated as levels, each independently checkable, with the corpus's
 
 **It is generated, not maintained.** Every figure below is emitted by `okf/tools/okf_validate.py --corpus --profile --json` (§8) and pasted without edit. Until 2026-09-06 it was kept by hand and had drifted — Level 2 read 8/13 while two of those eight bundles had no relationship graph at all. A hand-maintained conformance table is a claim; a generated one is a measurement.
 
+> **The Level 3 row was neither, until 2026-09-10.** The checker returned the literal `"level_3": False`, and two tests asserted that literal against itself. Proved rather than argued: twenty-one `dharmic-ethics` documents were given all four trust families in a scratch clone, and this table still read **L3 0/13** with the whole suite green. A row that cannot change is not a measurement even when its value is correct. `okf_validate.py` 2.2 scores the four families per document and the same experiment now moves the row to 1/13; a `process:` verifier in place of a `human:` one moves it back. The figure below is 0/13 because it was counted.
+
 | Level | Requirement | Bundles conformant |
 |---|---|---|
 | **0 — Base** | Satisfies base §11 (parseable frontmatter, non-empty `type`, §8/§9 reserved files) | **13 / 13** |
 | **1 — Profile core** | Every `Concept` carries `not:` and `darshana:`; a `references/` sub-bundle is present (§2.1, §2.2, §3.2) | **13 / 13** |
 | **2 — Graph interoperable** | **(a) form** — body links use the relative form only (§3.1) · **(b) presence** — every `Concept` carries ≥1 resolvable body link · **(c) integrity** — zero bracket-only or bare-path citation forms | **13 / 13** |
 | **2b — Progressive disclosure** | Every directory holding concepts carries a base §8 `index.md` (§3.4) | **13 / 13** |
-| **3 — Trust and provenance** | `generated:`, `verified: { by: human:… }`, `sources:` with footnote attribution, and `okf_profile:` present on every document (§2.5, §3.3) | **0 / 13** |
+| **3 — Trust and provenance** | `generated:`, `verified:` with at least one `human:` actor, `sources:`, and `okf_profile:` present on every `Concept` and `Reference` document (§2.5, §3.3) | **0 / 13** |
 
 **Level 2 re-specified 2026-09-06 — the presence floor.** The rule previously tested link *form* alone. It therefore awarded Level 2 to bundles that had **no links to get wrong**, and withheld it from the bundle with the largest relationship graph. Two of the eight bundles then scored conformant — `upanishadic-core` and `cosmology-creation` — contribute **no graph edges whatsoever**. A rule that rewards absence over a fixable defect is measuring the wrong thing, and clause (b) is the correction: it is the same logic as the Level 3 pilot gate (*edge count ≥ 90% of resolvable body links*), applied one level down where it belongs.
 
@@ -232,7 +236,17 @@ The (b) and (c) gaps were one defect wearing two spellings: **a citation written
 
 **Level 2b closed in the same wave.** The 21 missing `index.md` files were added, taking directory coverage from 18 of 39 to **39 of 39** (§3.4).
 
-**Level 3 gap (all 13).** The trust and provenance families are adopted by this profile revision and applied bundle-by-bundle on the publication cadence, beginning with a single pilot bundle gated on a rendering and round-trip acceptance test. Until a bundle reaches Level 3, its documents carry the legacy `timestamp` key, which base §13.1 permits consumers to fall back to.
+**Level 3 gap (all 13).** The trust and provenance families are adopted by this profile revision and applied bundle-by-bundle on the publication cadence, beginning with a single pilot bundle gated on a rendering and round-trip acceptance test. Measured across the corpus: **0 of 442 documents carry any of the four**, and there are **0 footnote definitions** corpus-wide, so no bundle is nearer than any other.
+
+**Scope: the 442 `Concept` and `Reference` documents.** The thirteen bundle-root `index.md` files are outside Level 3, as they are outside every other figure this table reports. They are already a disclosed deviation (§1.1) and a candidate for simplification rather than for four more keys, and they do not agree among themselves on `type:` — five say `Bundle`, five `Collection`, two `Index`, one `BundleIndex` — so a trust family applied to them would produce metadata no consumer could query. Sub-directory indexes carry no frontmatter at all (§3.4) and are out by construction.
+
+**What Level 3 gates, and what it only reports.** The four families above are the gate. Everything else is reported and never scored, on the same principle as the escaping-link and `related:` disclosures: a missing `generated.by` (base §5.2 makes it REQUIRED), an `at` that is not an ISO 8601 datetime, a `sources` entry with no `resource` (base §5.1 makes it REQUIRED), a footnote label matching no `sources[].id`, and an `okf_profile` value that is not this profile's. **Footnotes are deliberately not gated:** §2.5 attributes a claim *where a body claim rests on a specific source*, so a document with no such claim is conformant without one, and gating on them would impose a rule this section does not state.
+
+**`verified` ships as a bare mapping.** Base §5.2 defines `verified` as a list of `{ by, at }` events and requires consumers to treat a bare mapping as a one-element list. Both forms are conformant; this profile writes the bare mapping, because this corpus records one human confirmation per document and a single-element list is ceremony. A document with genuinely independent checks may use the list form.
+
+**`timestamp` is retained at Level 3, and frozen.** Base §13.1 supersedes `timestamp` with `generated.at` and permits a consumer to fall back to the legacy key when `generated` is absent, so nothing requires its removal. This profile keeps it, for the same reason §2.5 keeps the `## Citations` body sections when adopting `sources`: base §13.1 supersedes both mechanisms in one clause with identical permissive language, and this profile has already ruled that adoption is additive. It is also the corpus's only record of each document's real last content change, and `generated.at` is derived **from** it; deleting the source after deriving from it would remove the only way to audit the derivation.
+
+**It is deliberately not reformatted.** 430 of the 442 documents carry a date-only `timestamp` and the remaining twelve, all in `cosmology-creation/references/`, carry ISO datetimes. Rewriting the 430 into datetimes would invent a time of day that was never recorded. The date-only values stand as written; `generated.at` is where the ISO form lives. **The 430 close by supersession, not as a deferred defect.** `okf_validate.py` reports them at INFO and will continue to.
 
 **Verifier identity.** This profile's human verifier actor is `human:sanjay@dharmaokf.foundation`. The domain-qualified form is used deliberately: these documents are intended for third-party ingestion and citation, and a bare local identifier would be permanently ambiguous outside this repository.
 
@@ -352,6 +366,8 @@ python3 okf/tools/okf_validate.py okf --corpus --json report.json
 **Three rules Layer 1 does not carry**, each enforcing a §3 requirement that was previously unenforced: link **form** (§3.1), citation **integrity** — bracket-only `[x.md]` and bare-path forms that render as literal text and produce no graph edge — and `index.md` **presence** (§3.4). Their absence is why §3.1 and §3.4 were, by this section's own standard, preferences rather than rules until this revision.
 
 `okf/tests/test_profile_layer.py` locks every figure in §5 against the corpus, so the table cannot drift without a test failing.
+
+> **That sentence was false for the Level 3 row until 2026-09-10, and it was this document that said it.** The row was a constant, and the two tests covering it asserted the constant rather than the corpus, so nothing could have failed whatever the documents carried. Both are replaced, and four tests now build synthetic bundles and assert Level 3 is *reached* — a check that has only ever returned False cannot be told apart from a literal, which is how the original defect survived a full audit.
 
 Base consumers need none of this. A bundle that fails every profile rule in §3 is still a conformant OKF bundle under base §11, and will still load, render, and be useful. That is the point of profiling rather than forking.
 
