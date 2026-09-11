@@ -37,7 +37,7 @@ id: dharma
 iast: "Dharma"
 devanagari: "धर्म"
 bundle: dharma-foundation
-bundle_version: "0.1.3"
+bundle_version: "0.1.4"
 darshana:                          # REQUIRED on Concept. A list. Doctrinal claim, not a tag.
   - Pan-dharmic
 school_scope: "…"                  # optional prose nuance
@@ -51,6 +51,8 @@ not:                               # REQUIRED on Concept. Structured. Never stri
     why: "Strips the cosmic dimension, reducing Dharma to social obligation."
 related:
   - ../concepts/karma.md
+timestamp: "2026-06-18"            # RETAINED at Level 3 and frozen (PROFILE.md §5).
+                                   # generated.at derives FROM it. Never reformat it.
 generated: { by: "<producer>/<version>", at: "<ISO 8601>" }
 okf_version: "0.2"                 # UPSTREAM spec version. Not ours.
 okf_profile: "dharma-okf/1.0"      # Ours.
@@ -98,7 +100,7 @@ The **bundle-root** `index.md` is the sole exception permitted to carry frontmat
 | `okf_version: "0.2"` | **Upstream's** spec version, at the pinned commit. Never ours. |
 | `okf_profile: "dharma-okf/1.0"` | This profile. |
 | `bundle_version` | A bundle's content revision. Patch-bump on enrichment. |
-| git tag `v0.13.0` | Per-bundle immutable release snapshot. |
+| git tag `bundle/sankhya-darshana/v0.13.3` (legacy `v0.13.0`) | An immutable snapshot of the **whole repository** at a publication event. **No tag isolates one bundle's files** — see `PROFILE.md` §7.1. |
 
 Conflating these has caused real confusion in this project's history. `okf_version` is **not** a release number.
 
