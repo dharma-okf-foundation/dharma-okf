@@ -207,6 +207,30 @@ def test_every_directory_holding_concepts_carries_an_index(report):
     assert all(b["level_2b"] for b in report["bundles"])
 
 
+def _count_trust_keys_on_disk() -> dict:
+    """Count Concept/Reference documents carrying each trust key, from the files.
+
+    Exists so the corpus test can compare a measurement against a measurement
+    instead of against a number somebody typed. A hand-typed expectation is the
+    thing this whole section of the suite was written to stop.
+    """
+    counts = {"generated": 0, "verified": 0, "sources": 0, "okf_profile": 0}
+    for path in OKF.rglob("*.md"):
+        if path.name == "index.md":
+            continue
+        text = path.read_text(encoding="utf-8")
+        m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
+        if not m:
+            continue
+        fm = m.group(1)
+        if not re.search(r"^type:\s*(Concept|Reference)\s*$", fm, re.M):
+            continue
+        for key in counts:
+            if re.search(rf"^{key}:", fm, re.M):
+                counts[key] += 1
+    return counts
+
+
 def test_level_3_is_measured_against_the_corpus(report):
     """Level 3 is 0/13 because it was MEASURED as 0/13, not because it is a literal.
 
@@ -216,22 +240,40 @@ def test_level_3_is_measured_against_the_corpus(report):
     documents were given all four trust families and the table still read
     L3 0/13 with the whole suite green.
 
-    This replacement asserts the MEASUREMENT: the per-family counters exist,
-    they are zero across all 442 documents, and every bundle names all four
-    families as its reason. `test_level_3_can_be_reached` below is the other
-    half, and is what makes this one falsifiable.
+    This replacement asserts the MEASUREMENT rather than a literal.
+    `test_level_3_can_be_reached` below is the other half, and is what makes
+    this one falsifiable.
+
+    **Rewritten 2026-09-22.** The first version froze the corpus at all-zeros.
+    That was true on 2026-09-10 and stopped being true the moment the
+    dharmic-ethics pilot landed 21 documents carrying three of the four
+    families — this test went red on a commit that was entirely correct. A test
+    that must be hand-edited every time the work it measures makes progress is a
+    snapshot, not an invariant, and it will eventually be "fixed" by deleting
+    the assertion. What is asserted now is the thing that stays true while
+    Level 3 is open, plus a count re-derived from disk for the families that
+    legitimately move.
     """
     tr = report["trust"]
     assert tr["documents"] == 442, tr
-    for fam in ("generated", "verified", "sources", "okf_profile"):
-        assert tr[f"has_{fam}"] == 0, f"{fam}: {tr[f'has_{fam}']}"
+
+    # The invariant that holds for as long as Level 3 is open: `verified` is the
+    # family §3.3 forbids tooling from writing, so it is zero corpus-wide, no
+    # bundle reaches Level 3, and every bundle names it as a reason.
+    assert tr["has_verified"] == 0, tr["has_verified"]
     assert tr["complete"] == 0
     assert not any(b["level_3"] for b in report["bundles"])
     for b in report["bundles"]:
         reasons = " ".join(b["level_3_failures"])
         assert b["trust"]["documents"] > 0, b["bundle"]
-        for fam in ("generated", "verified", "sources", "okf_profile"):
-            assert fam in reasons, f"{b['bundle']} does not name {fam}: {reasons}"
+        assert "verified" in reasons, f"{b['bundle']} does not name verified: {reasons}"
+
+    # The other three move as bundles are retrofitted, so they are checked
+    # against a count re-derived from the files rather than a frozen number.
+    on_disk = _count_trust_keys_on_disk()
+    for fam in ("generated", "sources", "okf_profile"):
+        assert tr[f"has_{fam}"] == on_disk[fam], (fam, tr[f"has_{fam}"], on_disk[fam])
+    assert on_disk["verified"] == 0, on_disk
 
 
 def test_related_parser_reads_unindented_lists(report):
@@ -395,7 +437,11 @@ def test_profile_strict_fails_at_level_3_and_says_why(report):
         [sys.executable, str(TOOL), str(OKF), "--corpus", "--profile"],
         capture_output=True, text=True)
     assert "trust:" in loud.stdout, "the trust line is not printed"
-    assert "generated 0/442" in loud.stdout, loud.stdout[-400:]
+    # `generated` moves as bundles are retrofitted; `verified` does not, because
+    # §3.3 forbids tooling from writing it. Assert the one that is invariant.
+    # (Was `generated 0/442` until 2026-09-22, which went stale on the first
+    # bundle to carry the key.)
+    assert "verified(human:) 0/442" in loud.stdout, loud.stdout[-400:]
     assert "— Level 3:" in loud.stdout, "no per-bundle Level 3 reason printed"
 
 

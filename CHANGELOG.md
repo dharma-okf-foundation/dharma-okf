@@ -24,7 +24,17 @@ The earlier reading of this constraint had concluded that Level 3 was blocked fo
 
 Twenty-one `dharmic-ethics` documents were given the narrowed set in a scratch clone: the row stayed **0/13**, held closed by `verified`, which only a human may supply (§3.3). Twenty-one simulated `human:` verifications moved it to **1/13**; downgrading one verifier to `process:` moved it back, naming *"absent on 1 of 21"*. Against the previous checker the same corpus fails on *"sources: absent on 6 of 21 document(s)"* — the behaviour removed here.
 
-Acceptance test from §5, run in advance: `viz.html` regenerates **byte-identical** over the pilot and base Layer 1 reports **0 fail / 0 warn**. Suite **195 → 199**.
+Acceptance test from §5, run in advance: `viz.html` regenerates **byte-identical** over the pilot and base Layer 1 reports **0 fail / 0 warn**.
+
+> **Amended in place, disclosed.** This entry first read *"Suite 195 → 199"*. On the tree carrying both commits the suite was **197 passed, 2 failed**. The figure had been measured on a tree with the spec commit applied and the 21 documents absent, then published as an expectation for the state after they landed — not the same tree. Both failures were 2026-09-10 tests asserting the corpus at all-zero trust keys, which the pilot correctly changed; neither commit was at fault. Repaired in the follow-up below. The suite is **199** at `main` once that lands. Corrected here rather than quietly replaced, per the practice this log set on 2026-09-07.
+
+### Follow-up: two stale corpus assertions
+
+`test_level_3_is_measured_against_the_corpus` asserted `has_generated == 0` and that every bundle names all four families; `test_profile_strict_fails_at_level_3_and_says_why` asserted the literal string `"generated 0/442"`. Both froze the corpus as it stood on 2026-09-10. They went red on a commit that was entirely correct, which is the signature of a snapshot masquerading as an invariant — and a test that must be hand-edited whenever the work progresses is one that eventually gets "fixed" by deleting its assertion.
+
+Both now assert what stays true while Level 3 is open: `verified` is zero corpus-wide because §3.3 forbids tooling from writing it, no bundle reaches Level 3, and every bundle names `verified` as its reason. The three families that legitimately move are checked against a count **re-derived from the files**, so the test compares a measurement with a measurement rather than with a number somebody typed.
+
+Proved both ways: retrofitting five further documents in a scratch clone leaves the suite at **199 passed** (it tracks progress), while writing a single unauthorised `verified:` block fails **both** tests (the gate still bites).
 
 ### Not in this wave
 
