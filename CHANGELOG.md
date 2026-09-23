@@ -2,6 +2,34 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
+## 2026-09-22 — Level 3 scoped to where it is meaningful; the `dharmic-ethics` pilot staged
+
+**The Level 3 required set is now type-dependent: three trust families on every document, plus `sources` on `Concept` documents only. Level 3 reads 0/13 before and after — the amendment moves no published figure.**
+
+### Why
+
+Base §5.1 records what *"a **concept** derives from"*, and separates sources that point at another OKF document from *"external leaf sources [which] carry only their intrinsic signals"*. A `type: Reference` document is this corpus's leaf: all **761** linked citations point at one and none points onward. Requiring `sources` there asks a leaf to name a parent, and since **0 of 132** References record a published edition, the requirement could only be met by inventing one. Full reasoning in `PROFILE.md` §5.
+
+The earlier reading of this constraint had concluded that Level 3 was blocked for every bundle. That was wrong in its premise, and the correction is recorded here rather than silently: base §5.1 names *"a path into a `references/` subdirectory"* as a conformant `resource`, and `PROFILE.md` §2.5's own worked example has always used exactly that form. Nothing had to be invented for the 310 `Concept` documents; their `sources` derive mechanically from citation links that were already written.
+
+### What changed
+
+| File | Substance |
+|---|---|
+| `PROFILE.md` | §5 Level 3 row narrowed; amendment note with the base-spec grounding and the measured experiment; §4.3 now names itself as the home for edition provenance |
+| `okf/tools/okf_validate.py` | `TRUST_REQUIRED_BY_TYPE` replaces a single required set; `sources` is reported against its real denominator (Concepts) instead of all documents |
+| `okf/tests/test_profile_layer.py` | Four tests. Three of them fail against the previous checker |
+
+### Proved, not argued
+
+Twenty-one `dharmic-ethics` documents were given the narrowed set in a scratch clone: the row stayed **0/13**, held closed by `verified`, which only a human may supply (§3.3). Twenty-one simulated `human:` verifications moved it to **1/13**; downgrading one verifier to `process:` moved it back, naming *"absent on 1 of 21"*. Against the previous checker the same corpus fails on *"sources: absent on 6 of 21 document(s)"* — the behaviour removed here.
+
+Acceptance test from §5, run in advance: `viz.html` regenerates **byte-identical** over the pilot and base Layer 1 reports **0 fail / 0 warn**. Suite **195 → 199**.
+
+### Not in this wave
+
+`verified:` is written on no document. §3.3 forbids tooling from writing it; those twenty-one review events belong to the human verifier, and Level 3 stays 0/13 until they are made. Footnote attribution (§2.5) remains a later pass. The other twelve bundles are untouched.
+
 ## 2026-09-07 — The normalization wave: Level 2 and Level 2b closed corpus-wide
 
 **Twenty-five commits, 502 distinct files, counted through the commit carrying this entry. Level 2 moves 5/13 → 13/13; Level 2b moves 0/13 → 13/13.** Both were closed by mechanical repair, not by re-specification. Level 3 remains 0/13 and is the corpus's open frontier.

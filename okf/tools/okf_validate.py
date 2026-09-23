@@ -373,12 +373,32 @@ def _related_entries(fm: str) -> list[str]:
 # read L3 0/13 while the whole suite passed. A conformance table cannot be
 # "generated, not maintained" (§5) while one of its rows is a literal.
 #
-# GATED, because §5 names exactly these four:
+# GATED, and the required set depends on the document's type (§5, amended
+# 2026-09-22):
+#   Concept    generated · verified(human:) · sources · okf_profile
+#   Reference  generated · verified(human:) · okf_profile
+#
 #   generated:        present
 #   verified:         present, with at least one `human:` actor (§3.3 makes
 #                     machine-only verification insufficient for this profile)
-#   sources:          present and non-empty
+#   sources:          present and non-empty — CONCEPTS ONLY
 #   okf_profile:      present
+#
+# Why `sources` is not required on a Reference. Base §5.1 opens "`sources`
+# records the materials a CONCEPT derives from", and its lineage paragraph
+# distinguishes sources that point at another OKF document from "external leaf
+# sources [which] carry only their intrinsic signals". A `type: Reference`
+# document is this corpus's leaf: all 761 linked citations in the corpus point
+# AT one, and none points onward. Requiring `sources` on a leaf asks it to name
+# a parent it does not have, and the only way to satisfy that is to name an
+# edition nobody recorded — fabricated provenance inside a corpus whose purpose
+# is refusing exactly that. PROFILE §4.3 already routes the edition question to
+# a top-level `resource` in a future revision, which is where it belongs.
+#
+# This narrows a requirement to where it is meaningful; it does not lower a
+# bar. Concepts are unchanged at four families, and References still carry
+# three. §5 already scopes Level 3 away from the thirteen bundle-root indexes
+# for a stated reason, so the precedent sits in the same section.
 #
 # REPORTED, NOT GATED, following this module's existing split (escaping links
 # and `related:` form are reported and never scored):
@@ -399,6 +419,15 @@ _HUMAN_ACTOR = re.compile(r"^human:\S")
 _ISO_DT = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$")
 _FOOTNOTE_DEF = re.compile(r"^\[\^([^\]]+)\]:", re.M)
 TRUST_FAMILIES = ("generated", "verified", "sources", "okf_profile")
+# §5 (amended 2026-09-22): the gate is type-dependent. Read the type, never a
+# document count — the same discipline additions item 11a learned the hard way.
+TRUST_REQUIRED_BY_TYPE = {
+    "Concept": ("generated", "verified", "sources", "okf_profile"),
+    "Reference": ("generated", "verified", "okf_profile"),
+}
+# Families that are only ever required on some types, with the type that bears
+# them. Used to report an honest denominator instead of a corpus-wide one.
+TRUST_FAMILY_SCOPE = {"sources": "Concept"}
 
 
 def _parse_fm(fm: str) -> dict:
@@ -479,6 +508,7 @@ def profile_check(bundle: Path) -> dict:
     dirs_with_concepts: set[Path] = set()
     fm_in_subindex: list[str] = []
     trust_docs = 0
+    trust_docs_by_type: dict = {}
     trust_have = {f: 0 for f in TRUST_FAMILIES}
     trust_complete = 0
     trust_findings: list[str] = []
@@ -507,10 +537,12 @@ def profile_check(bundle: Path) -> dict:
 
         # --- Level 3: trust and provenance ---------------------------------
         trust_docs += 1
+        trust_docs_by_type[doctype] = trust_docs_by_type.get(doctype, 0) + 1
         present, tf = trust_check(fm, body)
         for fam in present:
             trust_have[fam] += 1
-        if len(present) == len(TRUST_FAMILIES):
+        required = TRUST_REQUIRED_BY_TYPE.get(doctype, TRUST_FAMILIES)
+        if present.issuperset(required):
             trust_complete += 1
         trust_findings.extend(f"{where}: {m}" for m in tf)
 
@@ -561,10 +593,13 @@ def profile_check(bundle: Path) -> dict:
 
     l3_failures = []
     for fam in TRUST_FAMILIES:
+        scope = TRUST_FAMILY_SCOPE.get(fam)
+        denom = trust_docs_by_type.get(scope, 0) if scope else trust_docs
         n = trust_have[fam]
-        if n < trust_docs:
+        if n < denom:
             label = "verified (human:)" if fam == "verified" else fam
-            l3_failures.append(f"{label}: absent on {trust_docs - n} of {trust_docs} document(s)")
+            where = f" {scope} document(s)" if scope else " document(s)"
+            l3_failures.append(f"{label}: absent on {denom - n} of {denom}{where}")
     if trust_docs == 0:
         l3_failures.append("no Concept or Reference documents to score")
 
@@ -598,6 +633,7 @@ def profile_check(bundle: Path) -> dict:
         "level_3_failures": l3_failures,
         "trust": {
             "documents": trust_docs,
+            "documents_by_type": dict(trust_docs_by_type),
             "complete": trust_complete,
             **{f"has_{f}": trust_have[f] for f in TRUST_FAMILIES},
             "findings": len(trust_findings),
@@ -641,6 +677,10 @@ def profile_report(results: list[dict]) -> dict:
         },
         "trust": {
             "documents": sum(r["trust"]["documents"] for r in results),
+            "documents_by_type": {
+                t: sum(r["trust"]["documents_by_type"].get(t, 0) for r in results)
+                for t in ("Concept", "Reference")
+            },
             "complete": sum(r["trust"]["complete"] for r in results),
             **{f"has_{f}": sum(r["trust"][f"has_{f}"] for r in results)
                for f in TRUST_FAMILIES},
@@ -679,11 +719,12 @@ def print_profile_table(rep: dict) -> None:
     print(f"escaping: {t['escaping_links']} body link(s) resolve outside their bundle root "
           f"(reported, not scored — §3.1 disclosure)")
     tr = rep["trust"]
+    n_con = tr.get("documents_by_type", {}).get("Concept", tr["documents"])
     print(f"trust:    generated {tr['has_generated']}/{tr['documents']} · "
           f"verified(human:) {tr['has_verified']}/{tr['documents']} · "
-          f"sources {tr['has_sources']}/{tr['documents']} · "
+          f"sources {tr['has_sources']}/{n_con} (Concepts; §5 exempts References) · "
           f"okf_profile {tr['has_okf_profile']}/{tr['documents']} · "
-          f"all four {tr['complete']}/{tr['documents']}")
+          f"required set {tr['complete']}/{tr['documents']}")
     if tr["findings"]:
         print(f"          {tr['findings']} trust finding(s) (reported, not scored)")
     for r in rep["bundles"]:

@@ -503,3 +503,102 @@ def test_trust_findings_are_reported_not_scored():
         assert r["level_3"] is True, "an orphan footnote must not close the gate"
         assert r["trust"]["findings"] >= 1
         assert any("no-such-id" in f for f in r["detail"]["trust_findings"])
+
+
+# ---------------------------------------------------------------------------
+# §5 amended 2026-09-22: the Level 3 required set is type-dependent.
+#   Concept    generated · verified(human:) · sources · okf_profile
+#   Reference  generated · verified(human:) · okf_profile
+#
+# These four tests were run against the PREVIOUS checker before being committed:
+# THREE of the four fail there — `test_reference_without_sources_reaches_level_3`,
+# `test_concept_without_sources_still_fails_level_3` (the old checker does not
+# emit the "Concept document(s)" scope) and `test_sources_denominator_is_concepts_only`.
+# Only `test_reference_missing_a_shared_family_still_fails` passes both, which is
+# correct: it guards behaviour the amendment deliberately leaves alone. They
+# therefore measure the change rather than accompany it — the same standard the
+# 2026-09-10 Level 3 tests were held to. (Drafted as "two of four"; corrected to
+# three after actually running it, per the standing rule against publishing an
+# unmeasured count.)
+# ---------------------------------------------------------------------------
+
+def _typed_bundle(root, *, concept_sources=True, reference_sources=False):
+    """Two documents carrying every family except the one under test."""
+    bundle = Path(root) / "typed"
+    (bundle / "concepts").mkdir(parents=True)
+    (bundle / "references").mkdir(parents=True)
+
+    def block(with_sources):
+        s = (
+            "generated:\n"
+            "  by: guru/2026-06\n"
+            "  at: 2026-06-25T00:00:00Z\n"
+            "verified:\n"
+            "  by: human:sanjay@dharmaokf.foundation\n"
+            "  at: 2026-09-22T00:00:00Z\n"
+            'okf_profile: "dharma-okf/1.0"\n'
+        )
+        if with_sources:
+            s += ("sources:\n"
+                  "  - id: samkhya-karika\n"
+                  "    resource: references/samkhya-karika.md\n"
+                  '    title: "Sāṃkhya Kārikā"\n')
+        return s
+
+    (bundle / "concepts" / "kaivalya.md").write_text(
+        f'---\ntype: Concept\ntitle: "Kaivalya"\n{block(concept_sources)}---\n\n'
+        f'# Kaivalya\n\nSee [the text](../references/samkhya-karika.md).\n',
+        encoding="utf-8")
+    (bundle / "references" / "samkhya-karika.md").write_text(
+        f'---\ntype: Reference\ntitle: "Sāṃkhya Kārikā"\n{block(reference_sources)}---\n\n'
+        f'# Sāṃkhya Kārikā\n\nPrimary text.\n', encoding="utf-8")
+    return bundle
+
+
+def test_reference_without_sources_reaches_level_3():
+    """A Reference is the leaf of the citation graph; it has no parent to name.
+
+    Base §5.1 records what "a CONCEPT derives from" and distinguishes leaf
+    sources, which "carry only their intrinsic signals". Requiring `sources`
+    on a Reference can only be satisfied by naming an edition nobody recorded.
+    """
+    with tempfile.TemporaryDirectory() as d:
+        r = _ov.profile_check(_typed_bundle(d, reference_sources=False))
+        assert r["level_3"] is True, r["level_3_failures"]
+        assert r["trust"]["complete"] == 2
+        assert r["trust"]["has_sources"] == 1          # the Concept only
+        assert r["trust"]["documents_by_type"] == {"Concept": 1, "Reference": 1}
+
+
+def test_concept_without_sources_still_fails_level_3():
+    """Narrowing the gate must not weaken it where it applies."""
+    with tempfile.TemporaryDirectory() as d:
+        r = _ov.profile_check(_typed_bundle(d, concept_sources=False))
+        assert r["level_3"] is False
+        reasons = " ".join(r["level_3_failures"])
+        assert "sources" in reasons, reasons
+        assert "Concept document(s)" in reasons, reasons
+
+
+def test_sources_denominator_is_concepts_only():
+    """A missing `sources` is reported against Concepts, never all documents.
+
+    The old checker said "absent on 1 of 2 document(s)" for this bundle, which
+    invited the reader to think a Reference was owed one.
+    """
+    with tempfile.TemporaryDirectory() as d:
+        r = _ov.profile_check(_typed_bundle(d, concept_sources=False))
+        line = [f for f in r["level_3_failures"] if f.startswith("sources")]
+        assert line == ["sources: absent on 1 of 1 Concept document(s)"], line
+
+
+def test_reference_missing_a_shared_family_still_fails():
+    """The three families References DO carry are still gated on References."""
+    with tempfile.TemporaryDirectory() as d:
+        b = _typed_bundle(d)
+        ref = b / "references" / "samkhya-karika.md"
+        ref.write_text(ref.read_text(encoding="utf-8")
+                       .replace('okf_profile: "dharma-okf/1.0"\n', ""), encoding="utf-8")
+        r = _ov.profile_check(b)
+        assert r["level_3"] is False
+        assert any("okf_profile" in f for f in r["level_3_failures"]), r["level_3_failures"]

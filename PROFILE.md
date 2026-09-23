@@ -200,7 +200,7 @@ Base §10 defines `type: Attested Computation` with `runtime`, `parameters`, `co
 
 ### 4.3 `resource` — largely unused
 
-Base §4.1 recommends `resource` as a URI for the underlying asset a concept describes. Dharma-OKF concepts describe ideas rather than resolvable assets; base §4.1 explicitly contemplates this ("absent for concepts that describe abstract ideas"). `Reference` documents describing published texts are the natural place for it and may adopt it in a future revision.
+Base §4.1 recommends `resource` as a URI for the underlying asset a concept describes. Dharma-OKF concepts describe ideas rather than resolvable assets; base §4.1 explicitly contemplates this ("absent for concepts that describe abstract ideas"). `Reference` documents describing published texts are the natural place for it and may adopt it in a future revision. **This is also where the edition-provenance question lands** after §5's 2026-09-22 amendment exempted `Reference` documents from `sources`: a published text's edition is a property of the text, recorded in a top-level `resource`, not a claim about what the document derives from.
 
 ---
 
@@ -218,7 +218,7 @@ Conformance is stated as levels, each independently checkable, with the corpus's
 | **1 — Profile core** | Every `Concept` carries `not:` and `darshana:`; a `references/` sub-bundle is present (§2.1, §2.2, §3.2) | **13 / 13** |
 | **2 — Graph interoperable** | **(a) form** — body links use the relative form only (§3.1) · **(b) presence** — every `Concept` carries ≥1 resolvable body link · **(c) integrity** — zero bracket-only or bare-path citation forms | **13 / 13** |
 | **2b — Progressive disclosure** | Every directory holding concepts carries a base §8 `index.md` (§3.4) | **13 / 13** |
-| **3 — Trust and provenance** | `generated:`, `verified:` with at least one `human:` actor, `sources:`, and `okf_profile:` present on every `Concept` and `Reference` document (§2.5, §3.3) | **0 / 13** |
+| **3 — Trust and provenance** | `generated:`, `verified:` with at least one `human:` actor, and `okf_profile:` present on every `Concept` and `Reference` document; `sources:` present and non-empty on every `Concept` (§2.5, §3.3) | **0 / 13** |
 
 **Level 2 re-specified 2026-09-06 — the presence floor.** The rule previously tested link *form* alone. It therefore awarded Level 2 to bundles that had **no links to get wrong**, and withheld it from the bundle with the largest relationship graph. Two of the eight bundles then scored conformant — `upanishadic-core` and `cosmology-creation` — contribute **no graph edges whatsoever**. A rule that rewards absence over a fixable defect is measuring the wrong thing, and clause (b) is the correction: it is the same logic as the Level 3 pilot gate (*edge count ≥ 90% of resolvable body links*), applied one level down where it belongs.
 
@@ -237,6 +237,16 @@ The (b) and (c) gaps were one defect wearing two spellings: **a citation written
 **Level 2b closed in the same wave.** The 21 missing `index.md` files were added, taking directory coverage from 18 of 39 to **39 of 39** (§3.4).
 
 **Level 3 gap (all 13).** The trust and provenance families are adopted by this profile revision and applied bundle-by-bundle on the publication cadence, beginning with a single pilot bundle gated on a rendering and round-trip acceptance test. Measured across the corpus: **0 of 442 documents carry any of the four**, and there are **0 footnote definitions** corpus-wide, so no bundle is nearer than any other.
+
+**`sources` narrowed to `Concept` documents — amended 2026-09-22.** The Level 3 row previously required all four families on every `Concept` *and* `Reference`. It is now three families on both and `sources` on Concepts only.
+
+The reason is in the base specification's own wording. Base §5.1 opens: *"`sources` records the materials a **concept** derives from."* Its lineage paragraph then separates two cases — *"when a `resource` points at another OKF concept, the derivation edge already exists in the bundle graph"*, whereas *"external leaf sources carry only their intrinsic signals."* A `type: Reference` document is this corpus's leaf. Measured: **all 761 linked citations in the corpus point at a Reference document, and not one points onward** — References are where the citation graph terminates by construction.
+
+Requiring `sources` on a leaf asks it to name a parent it does not have. The only way to satisfy that requirement is to name a published edition, and **0 of the 132 Reference documents records one** — so it would be supplied by invention. A corpus whose stated purpose is refusing flattened and fabricated representation cannot manufacture textual provenance to pass its own gate.
+
+**This narrows a requirement to where it is meaningful; it does not lower a bar.** Concepts are unchanged at four families and References still carry three, so every one of the 442 documents is still gated. §5 already scopes Level 3 away from the thirteen bundle-root indexes for a stated reason, so the precedent sits in this same section. The edition question is not abandoned: §4.3 already records that `Reference` documents *"are the natural place for [a top-level `resource`] and may adopt it in a future revision"*, which is where provenance for a published text belongs.
+
+**Why this is not the Level 2 re-specification again.** That revision on 2026-09-06 moved a published figure **down**, from 8/13 to 5/13, because the old rule measured the wrong thing. This one moves no figure at all: Level 3 read 0/13 before the amendment and reads 0/13 after it, because the gate is held closed by `verified`, which only a human can supply. The amendment was proved rather than argued — 21 `dharmic-ethics` documents were given the narrowed set in a scratch clone and the row stayed **0/13**; adding 21 simulated `human:` verifications moved it to **1/13**; downgrading a single verifier to `process:` moved it back to **0/13**, naming *"absent on 1 of 21"*. The same experiment run against the previous checker fails `dharmic-ethics` on *"sources: absent on 6 of 21 document(s)"*, which is the behaviour this amendment removes.
 
 **Scope: the 442 `Concept` and `Reference` documents.** The thirteen bundle-root `index.md` files are outside Level 3, as they are outside every other figure this table reports. They are already a disclosed deviation (§1.1) and a candidate for simplification rather than for four more keys, and they do not agree among themselves on `type:` — five say `Bundle`, five `Collection`, two `Index`, one `BundleIndex` — so a trust family applied to them would produce metadata no consumer could query. Sub-directory indexes carry no frontmatter at all (§3.4) and are out by construction.
 
