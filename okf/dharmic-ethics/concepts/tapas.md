@@ -34,6 +34,20 @@ related:
   - saucha.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-25T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: yoga-sutra
+    resource: references/yoga-sutra.md
+    title: "Yoga Sūtra"
+  - id: bhagavad-gita
+    resource: references/bhagavad-gita.md
+    title: "Bhagavad Gītā"
+  - id: rigveda
+    resource: references/rigveda.md
+    title: "Ṛgveda"
 license: "CC BY-SA 4.0"
 ---
 

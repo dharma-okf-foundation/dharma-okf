@@ -32,6 +32,20 @@ related:
   - satya.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-25T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: yoga-sutra
+    resource: references/yoga-sutra.md
+    title: "Yoga Sūtra"
+  - id: manusmriti
+    resource: references/manusmriti.md
+    title: "Manusmṛti"
+  - id: mahabharata
+    resource: references/mahabharata.md
+    title: "Mahābhārata"
 license: "CC BY-SA 4.0"
 ---
 
