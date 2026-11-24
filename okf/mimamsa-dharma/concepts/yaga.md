@@ -31,6 +31,17 @@ related:
 - viniyoga.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
+generated:
+  by: guru/2026-07
+  at: 2026-07-08T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: mimamsa-sutra
+    resource: references/mimamsa-sutra.md
+    title: "Mīmāṃsā Sūtra (Jaimini)"
+  - id: sastra-dipika
+    resource: references/sastra-dipika.md
+    title: "Śāstra-dīpikā (Pārthasārathi Miśra)"
 license: CC BY-SA 4.0
 ---
 

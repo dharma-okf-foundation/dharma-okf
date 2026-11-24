@@ -32,6 +32,23 @@ related:
   - maya-shakta.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: devi-sukta
+    resource: references/devi-sukta.md
+    title: "Devī Sūkta (Ṛg Veda 10.125) — देवीसूक्त"
+  - id: devi-mahatmya
+    resource: references/devi-mahatmya.md
+    title: "Devī Māhātmya — देवीमाहात्म्य (scoped re-reference)"
+  - id: saundarya-lahari
+    resource: references/saundarya-lahari.md
+    title: "Saundarya Laharī — सौन्दर्यलहरी"
+  - id: pratyabhijnahridayam
+    resource: references/pratyabhijnahridayam.md
+    title: "Pratyabhijñāhṛdayam — प्रत्यभिज्ञाहृदयम्"
 license: "CC BY-SA 4.0"
 ---
 

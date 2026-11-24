@@ -38,6 +38,26 @@ related:
   - viveka.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-18T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: vivekachudamani
+    resource: references/vivekachudamani.md
+    title: "Vivekacūḍāmaṇi"
+  - id: katha-upanishad
+    resource: references/katha-upanishad.md
+    title: "Kaṭha Upaniṣad"
+  - id: mundaka-upanishad
+    resource: references/mundaka-upanishad.md
+    title: "Muṇḍaka Upaniṣad"
+  - id: brahma-sutras
+    resource: references/brahma-sutras.md
+    title: "Brahma Sūtras"
+  - id: bhagavad-gita
+    resource: references/bhagavad-gita.md
+    title: "Bhagavad Gītā"
 ---
 
 # Mokṣa

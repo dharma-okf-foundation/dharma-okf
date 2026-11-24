@@ -34,6 +34,26 @@ related:
   - nirguna-brahman.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: brhadaranyaka-upanishad
+    resource: references/brhadaranyaka-upanishad.md
+    title: "Bṛhadāraṇyaka Upaniṣad"
+  - id: chandogya-upanishad
+    resource: references/chandogya-upanishad.md
+    title: "Chāndogya Upaniṣad"
+  - id: aitareya-upanishad
+    resource: references/aitareya-upanishad.md
+    title: "Aitareya Upaniṣad"
+  - id: mandukya-upanishad
+    resource: references/mandukya-upanishad.md
+    title: "Māṇḍūkya Upaniṣad"
+  - id: vivekachudamani
+    resource: references/vivekachudamani.md
+    title: "Vivekacūḍāmaṇi"
 license: "CC BY-SA 4.0"
 ---
 

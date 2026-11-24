@@ -27,6 +27,10 @@ related:
   - jiva.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-18T00:00:00Z
+okf_profile: "dharma-okf/1.0"
 ---
 
 # Loka

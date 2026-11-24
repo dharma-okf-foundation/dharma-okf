@@ -34,6 +34,26 @@ related:
   - prakriti.md
 timestamp: "2026-06-18"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-18T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: chandogya-upanishad
+    resource: references/chandogya-upanishad.md
+    title: "Chāndogya Upaniṣad"
+  - id: brihadaranyaka-upanishad
+    resource: references/brihadaranyaka-upanishad.md
+    title: "Bṛhadāraṇyaka Upaniṣad"
+  - id: taittiriya-upanishad
+    resource: references/taittiriya-upanishad.md
+    title: "Taittirīya Upaniṣad"
+  - id: brahma-sutras
+    resource: references/brahma-sutras.md
+    title: "Brahma Sūtras"
+  - id: vivekachudamani
+    resource: references/vivekachudamani.md
+    title: "Vivekacūḍāmaṇi"
 ---
 
 # Brahman

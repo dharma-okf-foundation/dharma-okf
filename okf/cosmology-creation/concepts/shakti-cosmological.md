@@ -30,6 +30,20 @@ related:
   - trimurti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: markandeya-purana
+    resource: references/markandeya-purana.md
+    title: "Mārkaṇḍeya Purāṇa"
+  - id: devi-mahatmya
+    resource: references/devi-mahatmya.md
+    title: "Devī Māhātmya (Durgā Saptaśatī)"
+  - id: bhagavata-purana
+    resource: references/bhagavata-purana.md
+    title: "Bhāgavata Purāṇa"
 license: "CC BY-SA 4.0"
 ---
 

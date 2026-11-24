@@ -31,6 +31,23 @@ related:
   - manana.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: vivekachudamani
+    resource: references/vivekachudamani.md
+    title: "Vivekacūḍāmaṇi"
+  - id: panchadashi
+    resource: references/panchadashi.md
+    title: "Pañcadaśī"
+  - id: upadesasahasri
+    resource: references/upadesasahasri.md
+    title: "Upadesasāhasrī"
+  - id: bhagavad-gita
+    resource: references/bhagavad-gita.md
+    title: "Bhagavad Gītā"
 license: "CC BY-SA 4.0"
 ---
 

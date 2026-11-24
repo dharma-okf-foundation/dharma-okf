@@ -30,6 +30,17 @@ related:
   - trimurti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: vishnu-purana
+    resource: references/vishnu-purana.md
+    title: "Viṣṇu Purāṇa"
+  - id: markandeya-purana
+    resource: references/markandeya-purana.md
+    title: "Mārkaṇḍeya Purāṇa"
 license: "CC BY-SA 4.0"
 ---
 

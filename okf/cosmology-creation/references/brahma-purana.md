@@ -14,6 +14,10 @@ language: "Classical Sanskrit"
 approximate_date: "c. 400-700 CE"
 tags: [purana, brahma, cosmology, creation, brahmanda, tirtha]
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
 license: "CC BY-SA 4.0"
 ---
 

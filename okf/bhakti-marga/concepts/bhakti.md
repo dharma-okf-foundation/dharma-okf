@@ -38,6 +38,26 @@ related:
   - kirtana.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-25T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: narada-bhakti-sutra
+    resource: references/narada-bhakti-sutra.md
+    title: "Nārada Bhakti Sūtra"
+  - id: shandilya-bhakti-sutra
+    resource: references/shandilya-bhakti-sutra.md
+    title: "Śāṇḍilya Bhakti Sūtra"
+  - id: bhagavata-purana
+    resource: references/bhagavata-purana.md
+    title: "Bhāgavata Purāṇa (Śrīmad Bhāgavatam)"
+  - id: bhagavad-gita
+    resource: references/bhagavad-gita.md
+    title: "Bhagavad Gītā"
+  - id: shvetashvatara-upanishad
+    resource: references/shvetashvatara-upanishad.md
+    title: "Śvetāśvatara Upaniṣad"
 license: "CC BY-SA 4.0"
 ---
 

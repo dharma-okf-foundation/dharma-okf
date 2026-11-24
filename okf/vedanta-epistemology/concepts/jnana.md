@@ -47,6 +47,23 @@ related:
   - prama.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-20T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: vivekachudamani
+    resource: references/vivekachudamani.md
+    title: "Vivekacūḍāmaṇi"
+  - id: brahmasutra-bhasya
+    resource: references/brahmasutra-bhasya.md
+    title: "Brahmasūtra Bhāṣya (Śaṅkara)"
+  - id: mundaka-upanishad
+    resource: references/mundaka-upanishad.md
+    title: "Muṇḍaka Upaniṣad"
+  - id: taittiriya-upanishad
+    resource: references/taittiriya-upanishad.md
+    title: "Taittirīya Upaniṣad"
 license: "CC BY-SA 4.0"
 ---
 

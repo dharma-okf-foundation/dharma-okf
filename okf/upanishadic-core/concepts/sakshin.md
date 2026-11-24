@@ -39,6 +39,23 @@ related:
   - sushupti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: panchadashi
+    resource: references/panchadashi.md
+    title: "Pañcadaśī"
+  - id: vivekachudamani
+    resource: references/vivekachudamani.md
+    title: "Vivekacūḍāmaṇi"
+  - id: brhadaranyaka-upanishad
+    resource: references/brhadaranyaka-upanishad.md
+    title: "Bṛhadāraṇyaka Upaniṣad"
+  - id: aparokshanubhuti
+    resource: references/aparokshanubhuti.md
+    title: "Aparokṣānubhūti"
 license: "CC BY-SA 4.0"
 ---
 

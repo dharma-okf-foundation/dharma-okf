@@ -42,6 +42,23 @@ related:
   - nirodha.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-20T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: yoga-sutras
+    resource: references/yoga-sutras.md
+    title: "Yoga Sūtras of Patañjali"
+  - id: samkhya-karika
+    resource: references/samkhya-karika.md
+    title: "Sāṃkhya Kārikā"
+  - id: bhagavad-gita
+    resource: references/bhagavad-gita.md
+    title: "Bhagavad Gītā"
+  - id: yoga-bhasya
+    resource: references/yoga-bhasya.md
+    title: "Yoga Bhāṣya of Vyāsa"
 license: "CC BY-SA 4.0"
 ---
 

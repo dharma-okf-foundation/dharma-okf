@@ -33,6 +33,20 @@ related:
   - prema.md
 timestamp: "2026-06-25"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-25T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: bhagavata-purana
+    resource: references/bhagavata-purana.md
+    title: "Bhāgavata Purāṇa (Śrīmad Bhāgavatam)"
+  - id: bhagavad-gita
+    resource: references/bhagavad-gita.md
+    title: "Bhagavad Gītā"
+  - id: narada-bhakti-sutra
+    resource: references/narada-bhakti-sutra.md
+    title: "Nārada Bhakti Sūtra"
 license: "CC BY-SA 4.0"
 ---
 

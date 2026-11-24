@@ -30,6 +30,17 @@ related:
 reception_note: 'Heavily captured by the detox industry. The file describes a pathophysiological concept; it does not endorse cleanse products or protocols and makes no clinical claims.'
 timestamp: '2026-07-09'
 okf_version: '0.2'
+generated:
+  by: guru/2026-07
+  at: 2026-07-09T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: ashtanga-hridaya
+    resource: references/ashtanga-hridaya.md
+    title: "Aṣṭāṅga Hṛdaya (Vāgbhaṭa)"
+  - id: charaka-samhita
+    resource: references/charaka-samhita.md
+    title: "Charaka Saṃhitā"
 license: CC BY-SA 4.0
 ---
 

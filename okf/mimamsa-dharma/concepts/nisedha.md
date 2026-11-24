@@ -29,6 +29,17 @@ related:
 - dharma.md
 timestamp: '2026-07-08'
 okf_version: '0.2'
+generated:
+  by: guru/2026-07
+  at: 2026-07-08T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: mimamsa-sutra
+    resource: references/mimamsa-sutra.md
+    title: "Mīmāṃsā Sūtra (Jaimini)"
+  - id: sabara-bhashya
+    resource: references/sabara-bhashya.md
+    title: "Śabara-Bhāṣya"
 license: CC BY-SA 4.0
 ---
 

@@ -27,6 +27,17 @@ related:
   - kali.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: devi-mahatmya
+    resource: references/devi-mahatmya.md
+    title: "Devī Māhātmya — देवीमाहात्म्य (scoped re-reference)"
+  - id: devi-bhagavata-purana
+    resource: references/devi-bhagavata-purana.md
+    title: "Devī-Bhāgavata Purāṇa — देवीभागवतपुराण"
 license: "CC BY-SA 4.0"
 ---
 

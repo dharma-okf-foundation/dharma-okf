@@ -14,6 +14,10 @@ language: "Vedic Sanskrit"
 approximate_date: "c. 1200-800 BCE (core verses); later 8 verses possibly added)"
 tags: [vedic, rig-veda, purusha-sukta, cosmogony, sacrifice, varna]
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
 license: "CC BY-SA 4.0"
 ---
 

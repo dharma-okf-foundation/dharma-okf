@@ -43,6 +43,23 @@ related:
   - pratyaksha.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-20T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: aparokshanubhuti
+    resource: references/aparokshanubhuti.md
+    title: "Aparokṣānubhūti (Śaṅkara)"
+  - id: vivekachudamani
+    resource: references/vivekachudamani.md
+    title: "Vivekacūḍāmaṇi"
+  - id: brahmasutra-bhasya
+    resource: references/brahmasutra-bhasya.md
+    title: "Brahmasūtra Bhāṣya (Śaṅkara)"
+  - id: vedantasara
+    resource: references/vedantasara.md
+    title: "Vedāntasāra (Sadānanda)"
 license: "CC BY-SA 4.0"
 ---
 

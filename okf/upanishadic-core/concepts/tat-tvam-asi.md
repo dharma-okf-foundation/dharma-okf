@@ -31,6 +31,20 @@ related:
   - shravana.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: chandogya-upanishad
+    resource: references/chandogya-upanishad.md
+    title: "Chāndogya Upaniṣad"
+  - id: brahmasutra-bhashya
+    resource: references/brahmasutra-bhashya.md
+    title: "Brahmasūtra Bhāṣya"
+  - id: vivekachudamani
+    resource: references/vivekachudamani.md
+    title: "Vivekacūḍāmaṇi"
 license: "CC BY-SA 4.0"
 ---
 

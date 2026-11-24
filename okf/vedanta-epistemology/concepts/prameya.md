@@ -42,6 +42,23 @@ related:
   - mithya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-20T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: nyaya-sutra
+    resource: references/nyaya-sutra.md
+    title: "Nyāya Sūtra (Gautama)"
+  - id: tattvabodha
+    resource: references/tattvabodha.md
+    title: "Tattvabodha (Śaṅkara)"
+  - id: brahmasutra-bhasya
+    resource: references/brahmasutra-bhasya.md
+    title: "Brahmasūtra Bhāṣya (Śaṅkara)"
+  - id: vedantaparibhasha
+    resource: references/vedantaparibhasha.md
+    title: "Vedāntaparibhāṣā (Dharmarāja Adhvarin)"
 license: "CC BY-SA 4.0"
 ---
 

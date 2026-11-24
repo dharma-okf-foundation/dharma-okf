@@ -28,6 +28,14 @@ related:
   - srividya.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: saundarya-lahari
+    resource: references/saundarya-lahari.md
+    title: "Saundarya Laharī — सौन्दर्यलहरी"
 license: "CC BY-SA 4.0"
 ---
 

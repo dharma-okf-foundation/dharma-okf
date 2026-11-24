@@ -28,6 +28,14 @@ related:
   - cit-shakti.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: tantraloka
+    resource: references/tantraloka.md
+    title: "Tantrāloka — तन्त्रालोक (structural citation)"
 license: "CC BY-SA 4.0"
 ---
 

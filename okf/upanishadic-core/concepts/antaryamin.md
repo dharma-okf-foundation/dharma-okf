@@ -29,6 +29,20 @@ related:
   - aham-brahmasmi.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: brhadaranyaka-upanishad
+    resource: references/brhadaranyaka-upanishad.md
+    title: "Bṛhadāraṇyaka Upaniṣad"
+  - id: brahmasutra-bhashya
+    resource: references/brahmasutra-bhashya.md
+    title: "Brahmasūtra Bhāṣya"
+  - id: panchadashi
+    resource: references/panchadashi.md
+    title: "Pañcadaśī"
 license: "CC BY-SA 4.0"
 ---
 

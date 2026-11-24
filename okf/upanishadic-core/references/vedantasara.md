@@ -12,6 +12,10 @@ approximate_date: "c. 15th century CE"
 key_concepts_in_bundle: [upadhi, pancha-kosha, shravana, manana, nididhyasana]
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
 license: "CC BY-SA 4.0"
 ---
 

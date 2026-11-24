@@ -40,6 +40,17 @@ related:
   - aptavakya.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-20T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: nyaya-bhasya
+    resource: references/nyaya-bhasya.md
+    title: "Nyāya Bhāṣya (Vātsyāyana)"
+  - id: vivekachudamani
+    resource: references/vivekachudamani.md
+    title: "Vivekacūḍāmaṇi"
 license: "CC BY-SA 4.0"
 ---
 

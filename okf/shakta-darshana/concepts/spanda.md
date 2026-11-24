@@ -30,6 +30,14 @@ related:
   - ../references/spanda-karikas.md
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: spanda-karikas
+    resource: references/spanda-karikas.md
+    title: "Spanda Kārikās — स्पन्दकारिका"
 license: "CC BY-SA 4.0"
 ---
 

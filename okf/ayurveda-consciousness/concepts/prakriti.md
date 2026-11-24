@@ -31,6 +31,17 @@ related:
 reception_note: 'High commercial capture via constitution quizzes. The file describes the classical concept; it does not endorse self-typing instruments and makes no clinical claims.'
 timestamp: '2026-07-09'
 okf_version: '0.2'
+generated:
+  by: guru/2026-07
+  at: 2026-07-09T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: charaka-samhita
+    resource: references/charaka-samhita.md
+    title: "Charaka Saṃhitā"
+  - id: sushruta-samhita
+    resource: references/sushruta-samhita.md
+    title: "Suśruta Saṃhitā"
 license: CC BY-SA 4.0
 ---
 

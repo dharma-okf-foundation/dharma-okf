@@ -41,6 +41,23 @@ related:
   - aparoksha-anubhuti.md
 timestamp: "2026-06-20"
 okf_version: "0.2"
+generated:
+  by: guru/2026-06
+  at: 2026-06-20T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: brahmasutra-bhasya
+    resource: references/brahmasutra-bhasya.md
+    title: "Brahmasūtra Bhāṣya (Śaṅkara)"
+  - id: tattvabodha
+    resource: references/tattvabodha.md
+    title: "Tattvabodha (Śaṅkara)"
+  - id: vedantaparibhasha
+    resource: references/vedantaparibhasha.md
+    title: "Vedāntaparibhāṣā (Dharmarāja Adhvarin)"
+  - id: panchadashi
+    resource: references/panchadashi.md
+    title: "Pañcadaśī (Vidyāraṇya)"
 license: "CC BY-SA 4.0"
 ---
 

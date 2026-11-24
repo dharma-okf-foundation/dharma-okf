@@ -32,6 +32,17 @@ related:
 reception_note: 'High commercial capture. The term circulates through quiz funnels and product marketing as a static consumer identity. Quote-out-of-context risk is high; the file describes the principle and makes no clinical claims.'
 timestamp: '2026-07-09'
 okf_version: '0.2'
+generated:
+  by: guru/2026-07
+  at: 2026-07-09T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: ashtanga-hridaya
+    resource: references/ashtanga-hridaya.md
+    title: "Aṣṭāṅga Hṛdaya (Vāgbhaṭa)"
+  - id: charaka-samhita
+    resource: references/charaka-samhita.md
+    title: "Charaka Saṃhitā"
 license: CC BY-SA 4.0
 ---
 

@@ -12,6 +12,10 @@ approximate_date: "c. 500–700 CE"
 key_concepts_in_bundle: [turiya, avastha-traya, svapna, sushupti, ayam-atma-brahma]
 timestamp: "2026-07-01"
 okf_version: "0.2"
+generated:
+  by: guru/2026-07
+  at: 2026-07-01T00:00:00Z
+okf_profile: "dharma-okf/1.0"
 license: "CC BY-SA 4.0"
 ---
 

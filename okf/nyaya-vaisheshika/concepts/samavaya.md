@@ -31,6 +31,20 @@ related:
 - samanya-vishesha.md
 timestamp: '2026-07-02'
 okf_version: '0.2'
+generated:
+  by: guru/2026-07
+  at: 2026-07-02T00:00:00Z
+okf_profile: "dharma-okf/1.0"
+sources:
+  - id: vaisheshika-sutra
+    resource: references/vaisheshika-sutra.md
+    title: "Vaiśeṣika Sūtra"
+  - id: padarthadharmasamgraha
+    resource: references/padarthadharmasamgraha.md
+    title: "Padārthadharmasaṃgraha (Praśastapāda)"
+  - id: saptapadarthi
+    resource: references/saptapadarthi.md
+    title: "Saptapadārthī (Śivāditya)"
 license: CC BY-SA 4.0
 ---
 
