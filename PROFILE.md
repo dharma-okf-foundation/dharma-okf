@@ -236,7 +236,9 @@ The (b) and (c) gaps were one defect wearing two spellings: **a citation written
 
 **Level 2b closed in the same wave.** The 21 missing `index.md` files were added, taking directory coverage from 18 of 39 to **39 of 39** (§3.4).
 
-**Level 3 gap (all 13).** The trust and provenance families are adopted by this profile revision and applied bundle-by-bundle on the publication cadence, beginning with a single pilot bundle gated on a rendering and round-trip acceptance test. Measured across the corpus: **0 of 442 documents carry any of the four**, and there are **0 footnote definitions** corpus-wide, so no bundle is nearer than any other.
+**Level 3 gap (all 13) — measured at `a76c43b`, 2026-11-24.** The trust and provenance families are adopted by this profile revision. Tooling applied the three it may write in two waves: the `dharmic-ethics` pilot (2026-09-22, gated on the rendering and round-trip acceptance test) and the remaining twelve bundles (2026-11-24, same test). Measured across the corpus: `generated` and `okf_profile` on **442 of 442** documents, `sources` on **306 of 310** `Concept` documents, `verified` on **0 of 442**, and **0 footnote definitions**. **Eleven bundles now fail Level 3 on one family alone — `verified (human:)`, which only the human verifier may supply (§3.3).** `dharma-foundation` and `sankhya-darshana` fail on `sources` as well, absent on 3 and 1 `Concept` documents whose bodies carry no citation link into `references/`. A `sources` list is derived only from such links, never inferred, so those four wait for a citation to be authored.
+
+> **Corrected in place, disclosed.** Until 2026-11-24 this paragraph read *"0 of 442 documents carry any of the four … so no bundle is nearer than any other."* It was true when written and stale from 2026-09-23, when twenty-one `dharmic-ethics` documents received three families.
 
 **`sources` narrowed to `Concept` documents — amended 2026-09-22.** The Level 3 row previously required all four families on every `Concept` *and* `Reference`. It is now three families on both and `sources` on Concepts only.
 

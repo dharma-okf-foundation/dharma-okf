@@ -2,6 +2,29 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
+## 2026-11-24 — Level 3 machine families on the remaining twelve bundles
+
+**`generated` and `okf_profile` now on 442 of 442 documents; `sources` on 306 of 310 Concepts. Level 3 reads 0/13 before and after — held closed by `verified`, as §3.3 requires. Eleven bundles now name `verified (human:)` as their only missing family.**
+
+### What changed
+
+| Commit | Substance |
+|---|---|
+| `a76c43b` | `generated:` and `okf_profile:` on the 421 documents of the twelve bundles that carried none; `sources:` on 291 of their 295 Concepts (693 entries). Frontmatter lines inserted after `okf_version:` only — 4,054 added, 0 removed. |
+| this entry | `PROFILE.md` §5 Level 3 gap paragraph re-measured; this CHANGELOG entry, which `a76c43b` shipped without |
+
+The method is the `dharmic-ethics` pilot's (2026-09-22), unchanged. `generated.by` is `guru/<YYYY-MM of the document's own timestamp>`, and `generated.at` derives from that `timestamp` — the twelve `cosmology-creation/references/` datetimes are used as written, the rest take the `00:00:00Z` floor. Neither is the run date. A Concept's `sources` lists the `references/` files its body already links to, in order of first link; nothing is drawn from `related:`, tags or `text_source`.
+
+### Proved, not argued
+
+Staged tree and published tree, byte-identical after push: `okf_validate --strict` **0 fail / 0 warn**, output identical to the baseline · `viz.html` byte-identical in all thirteen bundles · zero `verified:` lines anywhere · `pytest okf/tests` **199 passed** · clone-diff against the mirror empty both directions.
+
+### Not in this wave
+
+- **`verified:`** — on no document. Those 442 review events belong to the human verifier.
+- **Four Concepts without `sources`** — `dharma-foundation/concepts/{akshara,chakra,loka}.md` and `sankhya-darshana/concepts/sesvara-samkhya.md` have no body link into `references/`. A citation is authored content, so it is not generated here. Those two bundles stay short of Level 3 until each cites a source.
+- **`bundle_version` and tags** — unchanged. Each bundle is versioned and tagged when its human verification closes it, as `dharmic-ethics` will be.
+
 ## 2026-09-22 — Level 3 scoped to where it is meaningful; the `dharmic-ethics` pilot staged
 
 **The Level 3 required set is now type-dependent: three trust families on every document, plus `sources` on `Concept` documents only. Level 3 reads 0/13 before and after — the amendment moves no published figure.**
