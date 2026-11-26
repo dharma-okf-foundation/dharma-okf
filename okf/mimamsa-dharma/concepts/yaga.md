@@ -21,7 +21,7 @@ not:
   why: 'Yāga is not bhakti. The deity in Mīmāṃsā is largely the grammatical dative of the offering, not a personal object of love who must be pleased; efficacy lies in the correctly performed act and its apūrva, not in devotion.'
   instead: 'Render yāga as the enjoined sacrificial act whose efficacy lies in correct performance, not devotional worship.'
 - term: 'magic (compelling a result by occult power)'
-  why: 'Magic bends nature by a hidden force the operator wields; yāga works by the Veda''''s own enjoined order through apūrva, an impersonal normative-causal link, not an operator''''s power.'
+  why: 'Magic bends nature by a hidden force the operator wields; yāga works by the Veda''s own enjoined order through apūrva, an impersonal normative-causal link, not an operator''s power.'
 - term: 'karma in the moral or the motion sense'
   why: 'This yāga-karma (ritual action) is a third technical sense of karma, distinct from moral action-and-consequence (dharma-foundation v0.1) and Vaiśeṣika physical motion (nyaya-vaisheshika v0.9). Same word, three darśana-relative objects.'
 related:
@@ -55,7 +55,7 @@ In Mīmāṃsā, "karma" first means the enjoined ritual act, the yāga. A yāga
 
 ## Audience Metaphor
 
-Think of a precisely notarised procedure whose legal effect follows from doing every step correctly, not from anyone''s goodwill. A yāga is that kind of act: efficacious by correct enactment under the rule, not by devotion and not by magic.
+Think of a precisely notarised procedure whose legal effect follows from doing every step correctly, not from anyone's goodwill. A yāga is that kind of act: efficacious by correct enactment under the rule, not by devotion and not by magic.
 
 ## Citations
 

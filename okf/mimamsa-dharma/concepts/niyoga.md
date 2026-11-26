@@ -17,7 +17,7 @@ tags:
 - deontology
 not:
 - term: 'a result-oriented incentive'
-  why: 'This is the crux against the Bhāṭṭas. For Prabhākara the injunction does not primarily promise a result; it binds. One acts because one is enjoined (the sense of ought is itself the motive), not to secure a fruit. Reading niyoga as an incentive collapses the school''''s duty-for-its-own-sake ethics into Bhāṭṭa consequentialism.'
+  why: 'This is the crux against the Bhāṭṭas. For Prabhākara the injunction does not primarily promise a result; it binds. One acts because one is enjoined (the sense of ought is itself the motive), not to secure a fruit. Reading niyoga as an incentive collapses the school''s duty-for-its-own-sake ethics into Bhāṭṭa consequentialism.'
   instead: 'Render niyoga as the binding directive obeyed as duty, not an incentive toward a reward.'
 - term: 'a request or wish'
   why: 'A request can be declined and a wish carries no obligation; niyoga binds the qualified agent categorically.'
@@ -50,7 +50,7 @@ license: CC BY-SA 4.0
 
 ## What It Actually Means
 
-Prabhākara''s analysis makes the ought primary. The meaning of vidhi is niyoga, a directive that binds; correlatively the agent grasps a kārya, a to-be-done (see karya), and acts from the recognition of being bound, not from desire for a fruit. This yields the famous Prābhākara ethics: duty performed for duty''s sake, with the sense of obligation as the sufficient motive. It is the sharpest Indian articulation of deontology, and it is why the Bhāṭṭa/Prābhākara split matters beyond ritual: it is a disagreement about what obligation itself is.
+Prabhākara's analysis makes the ought primary. The meaning of vidhi is niyoga, a directive that binds; correlatively the agent grasps a kārya, a to-be-done (see karya), and acts from the recognition of being bound, not from desire for a fruit. This yields the famous Prābhākara ethics: duty performed for duty's sake, with the sense of obligation as the sufficient motive. It is the sharpest Indian articulation of deontology, and it is why the Bhāṭṭa/Prābhākara split matters beyond ritual: it is a disagreement about what obligation itself is.
 
 ## School Divergence (Bhāṭṭa / Prābhākara)
 

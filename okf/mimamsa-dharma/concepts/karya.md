@@ -49,7 +49,7 @@ license: CC BY-SA 4.0
 
 ## What It Actually Means
 
-For Prabhākara, to understand a vidhi is to apprehend a kārya, a to-be-accomplished, and to be thereby bound (niyoga). The kārya is not read off from a stated result; it is given in the injunction as the very shape of what one must do. Prabhākara''s account of how a child first learns language, from overhearing commands and seeing them obeyed, makes the injunctive kārya the primary unit of meaning, which feeds his anvitābhidhāna theory of sentence sense (see anvitabhidhana).
+For Prabhākara, to understand a vidhi is to apprehend a kārya, a to-be-accomplished, and to be thereby bound (niyoga). The kārya is not read off from a stated result; it is given in the injunction as the very shape of what one must do. Prabhākara's account of how a child first learns language, from overhearing commands and seeing them obeyed, makes the injunctive kārya the primary unit of meaning, which feeds his anvitābhidhāna theory of sentence sense (see anvitabhidhana).
 
 ## Audience Metaphor
 
@@ -57,5 +57,5 @@ When a duty-bound nurse reads "administer the dose at once," what she grasps is 
 
 ## Citations
 
-1. Prabhākara, Bṛhatī; Śālikanātha''s Prakaraṇapañcikā -- see [references/brhati.md](../references/brhati.md)
+1. Prabhākara, Bṛhatī; Śālikanātha's Prakaraṇapañcikā -- see [references/brhati.md](../references/brhati.md)
 2. Contrast in Śāstra-dīpikā -- see [references/sastra-dipika.md](../references/sastra-dipika.md)

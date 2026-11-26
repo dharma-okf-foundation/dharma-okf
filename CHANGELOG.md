@@ -2,6 +2,17 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
+## 2026-11-26 — `mimamsa-dharma`: over-escaped apostrophes corrected
+
+**Correction (VERSIONING.md, change type 1). No `bundle_version` change; the bundle stays at 0.10.1.** The verifier found the defect during the human review of `mimamsa-dharma` ("edit conductor''s to conductor's"). A corpus scan then showed how far it went.
+
+Since the bundle was added (`d7f85d3`), every apostrophe in it had been escaped one time too many. Readers saw `conductor''s` in the body. In single-quoted YAML values, `injunction''''s` parsed to `injunction''s`. The bundle's two directory indexes also repeated the descriptions with `''''`.
+
+- **Fixed:** 104 places in 28 Markdown files: 20 Concepts, 5 References, the bundle `index.md` and the two directory indexes. `viz.html` was regenerated.
+- **Text only:** the diff changes apostrophes and nothing else. Each file's parsed frontmatter equals its old value with `''` read as `'`.
+- **Other bundles:** the other 12 had none of this.
+- **Review tooling:** it now refuses to present a bundle that shows the reader a doubled apostrophe.
+
 ## 2026-11-25 — `dharmic-ethics` 0.5.4: human-verified, the first bundle at Level 3
 
 **The human verifier reviewed all 21 `dharmic-ethics` documents and recorded `verified:` on each. `verified(human:)` moves 0/442 → 21/442; Level 3 moves 0/13 → 1/13.** Released as `bundle/dharmic-ethics/v0.5.4`.

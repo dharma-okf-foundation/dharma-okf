@@ -22,7 +22,7 @@ not:
 - term: 'an arbitrary label of no consequence'
   why: 'Identifying a word as nāmadheya is consequential: it blocks a mis-parse that would otherwise multiply rites or duties, so the category does real interpretive work even though the word only names.'
 - term: 'a definition or description'
-  why: 'A nāmadheya names; it does not define or describe the rite''''s nature.'
+  why: 'A nāmadheya names; it does not define or describe the rite''s nature.'
 related:
 - vidhi.md
 - arthavada.md
@@ -53,7 +53,7 @@ Interpretation must decide, of a given Vedic word, what job it does: does it enj
 
 ## Audience Metaphor
 
-A dish called "Sunday roast" is named, not instructed; reading the name as a command to do something extra called "Sunday" would be a parsing error. Nāmadheya is Mīmāṃsā''s guard against exactly that error in the Veda: this word only names the rite, so do not invent a duty from it.
+A dish called "Sunday roast" is named, not instructed; reading the name as a command to do something extra called "Sunday" would be a parsing error. Nāmadheya is Mīmāṃsā's guard against exactly that error in the Veda: this word only names the rite, so do not invent a duty from it.
 
 ## Citations
 

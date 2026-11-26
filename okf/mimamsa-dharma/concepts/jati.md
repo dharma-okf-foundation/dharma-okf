@@ -17,7 +17,7 @@ tags:
 - realism
 not:
 - term: 'a concept or mental abstraction'
-  why: 'For Mīmāṃsā the universal is real and mind-independent, not a construct of thought. It is what makes many particulars genuinely one in kind and what a general word eternally denotes; treating it as a mere concept flattens the school''''s realism.'
+  why: 'For Mīmāṃsā the universal is real and mind-independent, not a construct of thought. It is what makes many particulars genuinely one in kind and what a general word eternally denotes; treating it as a mere concept flattens the school''s realism.'
   instead: 'Render jāti as a real, mind-independent universal inhering in its particulars, not a mental concept.'
 - term: 'a class understood as the collection of its members'
   why: 'A universal is not the set of individuals; it is the single repeatable property present in each, ontologically prior to any collection.'
@@ -46,7 +46,7 @@ license: CC BY-SA 4.0
 
 ## What It Actually Means
 
-Why does the word "cow" mean the same eternally (see sabda-nityata, autpattika)? Because it denotes a real universal, gotva or cowness, which is one, eternal, and present in every cow. Mīmāṃsā, like Nyāya, is realist about such universals and argues against the Buddhist apoha theory that generality is mere exclusion-by-name. The realism about jāti undergirds the realism about language: eternal words denote eternal universals, part of why the Veda''s meanings are stable and authorless. Nyāya-Vaiśeṣika also treats sāmānya as a real universal; the treatments are kin, both realist.
+Why does the word "cow" mean the same eternally (see sabda-nityata, autpattika)? Because it denotes a real universal, gotva or cowness, which is one, eternal, and present in every cow. Mīmāṃsā, like Nyāya, is realist about such universals and argues against the Buddhist apoha theory that generality is mere exclusion-by-name. The realism about jāti undergirds the realism about language: eternal words denote eternal universals, part of why the Veda's meanings are stable and authorless. Nyāya-Vaiśeṣika also treats sāmānya as a real universal; the treatments are kin, both realist.
 
 ## Audience Metaphor
 

@@ -6,7 +6,7 @@ id: sabda-nityata
 title: Śabda-nityatā
 iast: Śabda-nityatā
 devanagari: शब्दनित्यता
-description: 'The doctrine that the word (śabda) and its meaning-bearing relation are eternal, manifested rather than created by each utterance; the metaphysical ground of the Veda''''s authorlessness; NOT the claim that a spoken noise lasts forever, NOT sound mysticism.'
+description: 'The doctrine that the word (śabda) and its meaning-bearing relation are eternal, manifested rather than created by each utterance; the metaphysical ground of the Veda''s authorlessness; NOT the claim that a spoken noise lasts forever, NOT sound mysticism.'
 darshana:
 - Pūrva-Mīmāṃsā
 text_source: Mīmāṃsā Sūtra 1.1.18
@@ -49,7 +49,7 @@ license: CC BY-SA 4.0
 
 ## What It Actually Means
 
-Against the Nyāya view that words are produced and their meanings conventional, Mīmāṃsā argues that the word and its power to mean are eternal. When two people say "cow," they manifest the one eternal word, not two new ones, and that word''s capacity to convey its meaning was never instituted at a time. This eternality is what lets the Veda be authorless: if words and meanings are beginningless, the Veda''s sentences need no composer. Śabda-nityatā is thus the load-bearing metaphysics beneath apauruṣeyatva.
+Against the Nyāya view that words are produced and their meanings conventional, Mīmāṃsā argues that the word and its power to mean are eternal. When two people say "cow," they manifest the one eternal word, not two new ones, and that word's capacity to convey its meaning was never instituted at a time. This eternality is what lets the Veda be authorless: if words and meanings are beginningless, the Veda's sentences need no composer. Śabda-nityatā is thus the load-bearing metaphysics beneath apauruṣeyatva.
 
 ## Audience Metaphor
 

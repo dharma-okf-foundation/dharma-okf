@@ -49,11 +49,11 @@ license: CC BY-SA 4.0
 
 ## What It Actually Means
 
-Once a rite''s structure is known, one must decide what goes where: which mantra accompanies which offering, which subsidiary belongs to which principal. Viniyoga is this application, and Mīmāṃsā''s signal contribution is the ordered sextet of means for establishing it: śruti (direct statement) is strongest, then liṅga (a word''s indicatory capacity), vākya (syntactic unity), prakaraṇa (context and mutual need), sthāna (position and sequence), and samākhyā (name), each yielding to the one before. This ranked-evidence method is a genuine hermeneutic algorithm, and it later shaped Indian legal and textual interpretation broadly.
+Once a rite's structure is known, one must decide what goes where: which mantra accompanies which offering, which subsidiary belongs to which principal. Viniyoga is this application, and Mīmāṃsā's signal contribution is the ordered sextet of means for establishing it: śruti (direct statement) is strongest, then liṅga (a word's indicatory capacity), vākya (syntactic unity), prakaraṇa (context and mutual need), sthāna (position and sequence), and samākhyā (name), each yielding to the one before. This ranked-evidence method is a genuine hermeneutic algorithm, and it later shaped Indian legal and textual interpretation broadly.
 
 ## Audience Metaphor
 
-A strict rule of evidence in court, where an eyewitness statement outranks circumstantial position, which outranks a mere label, decides what attaches to what. Viniyoga is ritual''s rules of evidence: six ranked tests that assign every mantra and material its rightful place.
+A strict rule of evidence in court, where an eyewitness statement outranks circumstantial position, which outranks a mere label, decides what attaches to what. Viniyoga is ritual's rules of evidence: six ranked tests that assign every mantra and material its rightful place.
 
 ## Citations
 

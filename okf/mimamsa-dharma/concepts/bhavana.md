@@ -17,10 +17,10 @@ tags:
 - bhatta
 not:
 - term: 'manifestation (willing an outcome into being)'
-  why: 'The popular ''''manifestation'''' sense imports mind-over-matter wish-fulfilment. Bhāvanā is a technical analysis of what an injunctive sentence means: the efficient urging toward an act-to-be-accomplished, with its object, instrument, and method. It is a theory of imperative meaning, not a self-help practice.'
-  instead: 'Render bhāvanā as the injunction''''s productive urging toward a result, analysed by its object, instrument, and procedure, not as manifestation.'
+  why: 'The popular ''manifestation'' sense imports mind-over-matter wish-fulfilment. Bhāvanā is a technical analysis of what an injunctive sentence means: the efficient urging toward an act-to-be-accomplished, with its object, instrument, and method. It is a theory of imperative meaning, not a self-help practice.'
+  instead: 'Render bhāvanā as the injunction''s productive urging toward a result, analysed by its object, instrument, and procedure, not as manifestation.'
 - term: 'emotion or feeling'
-  why: 'Bhāvanā is not an affect. Kumārila distinguishes śābdī bhāvanā, the urging carried by the injunctive suffix, from ārthī bhāvanā, the agent''''s resulting effort; both are force-contents of the injunction, not moods.'
+  why: 'Bhāvanā is not an affect. Kumārila distinguishes śābdī bhāvanā, the urging carried by the injunctive suffix, from ārthī bhāvanā, the agent''s resulting effort; both are force-contents of the injunction, not moods.'
 - term: 'Buddhist meditative cultivation'
   why: 'Same Sanskrit word, different technical object. Buddhist bhāvanā is meditative development; Mīmāṃsā bhāvanā is the productive force of an injunction. A cross-tradition false friend.'
 related:
@@ -53,7 +53,7 @@ license: CC BY-SA 4.0
 
 ## What It Actually Means
 
-For the Bhāṭṭas the heart of an injunction like "one should sacrifice" is a bhāvanā, a bringing-about. Kumārila analyses it into two: śābdī bhāvanā (the urging carried by the injunctive suffix itself) and ārthī bhāvanā (the agent''s own activity that the urging sets in motion). Each bhāvanā has three questions built in: what is to be brought about (sādhya), by what means (sādhana), and how (itikartavyatā). This is one of the earliest systematic analyses of imperative meaning anywhere.
+For the Bhāṭṭas the heart of an injunction like "one should sacrifice" is a bhāvanā, a bringing-about. Kumārila analyses it into two: śābdī bhāvanā (the urging carried by the injunctive suffix itself) and ārthī bhāvanā (the agent's own activity that the urging sets in motion). Each bhāvanā has three questions built in: what is to be brought about (sādhya), by what means (sādhana), and how (itikartavyatā). This is one of the earliest systematic analyses of imperative meaning anywhere.
 
 ## School Divergence (Bhāṭṭa / Prābhākara)
 
@@ -61,7 +61,7 @@ The Bhāṭṭa centres the injunction on bhāvanā, on result-production. The P
 
 ## Audience Metaphor
 
-An injunction, for the Bhāṭṭa, works like a coach''s "score!": not a description and not a feeling, but a structured urging that packs in what to achieve, by what means, and how. Bhāvanā names that packed, productive push inside the command.
+An injunction, for the Bhāṭṭa, works like a coach's "score!": not a description and not a feeling, but a structured urging that packs in what to achieve, by what means, and how. Bhāvanā names that packed, productive push inside the command.
 
 ## Citations
 

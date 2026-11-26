@@ -4,7 +4,7 @@ bundle: mimamsa-dharma
 bundle_version: "0.10.1"
 id: artha-samgraha
 title: Artha-saṃgraha (Laugākṣi Bhāskara)
-description: 'Laugākṣi Bhāskara''''s concise primer of Pūrva-Mīmāṃsā, the standard short introduction to injunction, prohibition, arthavāda, mantra, and the means of ritual application.'
+description: 'Laugākṣi Bhāskara''s concise primer of Pūrva-Mīmāṃsā, the standard short introduction to injunction, prohibition, arthavāda, mantra, and the means of ritual application.'
 tags:
 - reference
 - artha-samgraha

@@ -49,11 +49,11 @@ license: CC BY-SA 4.0
 
 ## What It Actually Means
 
-A great sacrifice is a hierarchy of acts. The pradhāna is the principal, enjoined for its own phala; its aṅgas are subsidiary acts enjoined for the sake of the principal. The general relation is śeṣa-śeṣin: the accessory (śeṣa) exists for the principal (śeṣin). Determining this relation is one of Mīmāṃsā''s central tasks, because it fixes which act carries the fruit, which mantras and materials attach where (see viniyoga), and whether an act is done for the sacrifice or for the person (see kratvartha-purusartha).
+A great sacrifice is a hierarchy of acts. The pradhāna is the principal, enjoined for its own phala; its aṅgas are subsidiary acts enjoined for the sake of the principal. The general relation is śeṣa-śeṣin: the accessory (śeṣa) exists for the principal (śeṣin). Determining this relation is one of Mīmāṃsā's central tasks, because it fixes which act carries the fruit, which mantras and materials attach where (see viniyoga), and whether an act is done for the sacrifice or for the person (see kratvartha-purusartha).
 
 ## Audience Metaphor
 
-In a symphony the tuning, the page-turns, and the conductor''s upbeat all exist for the sake of the performance, not the other way round. Aṅga-pradhāna is the score''s grammar of what-serves-what: which acts are the music and which are in service of it.
+In a symphony the tuning, the page-turns, and the conductor's upbeat all exist for the sake of the performance, not the other way round. Aṅga-pradhāna is the score's grammar of what-serves-what: which acts are the music and which are in service of it.
 
 ## Citations
 

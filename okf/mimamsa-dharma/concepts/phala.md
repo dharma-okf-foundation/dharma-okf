@@ -6,7 +6,7 @@ id: phala
 title: Phala
 iast: Phala
 devanagari: फल
-description: 'The result an enjoined act is performed to yield, paradigmatically svarga, delivered through the act''''s unseen potency and specifying who has adhikāra; NOT a divine reward, NOT the immediate physical outcome, NOT liberation (mokṣa).'
+description: 'The result an enjoined act is performed to yield, paradigmatically svarga, delivered through the act''s unseen potency and specifying who has adhikāra; NOT a divine reward, NOT the immediate physical outcome, NOT liberation (mokṣa).'
 darshana:
 - Pūrva-Mīmāṃsā
 text_source: Mīmāṃsā Sūtra 4.3.1
@@ -22,7 +22,7 @@ not:
 - term: 'the immediate physical effect of the ritual'
   why: 'The phala (for example svarga) is typically unseen and deferred; the visible events of the rite are not the phala. This gap is exactly what apūrva is posited to bridge.'
 - term: 'salvation or liberation (mokṣa)'
-  why: 'The ritual phala is a positive attainment like svarga, within saṃsāra; it is not the liberation of Vedānta. Pūrva-Mīmāṃsā''''s classical horizon is the fruit of action, not release from action.'
+  why: 'The ritual phala is a positive attainment like svarga, within saṃsāra; it is not the liberation of Vedānta. Pūrva-Mīmāṃsā''s classical horizon is the fruit of action, not release from action.'
 related:
 - apurva.md
 - adhikara.md
@@ -53,7 +53,7 @@ The phala is the result for whose sake a desire-based rite is enjoined; the stoc
 
 ## Audience Metaphor
 
-The "fruit" of planting is the harvest months later, not the dirt on your hands today, and no one hands it to you; it comes by the seed''s own working. Phala is the rite''s harvest, delivered by the act''s unseen potency, not by a giver.
+The "fruit" of planting is the harvest months later, not the dirt on your hands today, and no one hands it to you; it comes by the seed's own working. Phala is the rite's harvest, delivered by the act's unseen potency, not by a giver.
 
 ## Citations
 

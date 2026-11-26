@@ -46,7 +46,7 @@ license: CC BY-SA 4.0
 
 ## What It Actually Means
 
-Mīmāṃsā''s self is a working posit of its whole system. Because an enjoined act''s fruit (phala, via apūrva) is often reaped long after the act, even in another life, there must be one enduring agent who acts and later enjoys; hence a permanent, individual ātman, and as many ātmans as there are agents. Kumārila and Prabhākara differ on how the self is known (for Prabhākara it is co-revealed in every cognition as the knower; for Kumārila it is the object of a self-directed cognition), but both hold it real, plural, and permanent. This realist, pluralist self is the sharpest contrast with Advaita in the whole corpus.
+Mīmāṃsā's self is a working posit of its whole system. Because an enjoined act's fruit (phala, via apūrva) is often reaped long after the act, even in another life, there must be one enduring agent who acts and later enjoys; hence a permanent, individual ātman, and as many ātmans as there are agents. Kumārila and Prabhākara differ on how the self is known (for Prabhākara it is co-revealed in every cognition as the knower; for Kumārila it is the object of a self-directed cognition), but both hold it real, plural, and permanent. This realist, pluralist self is the sharpest contrast with Advaita in the whole corpus.
 
 ## Audience Metaphor
 

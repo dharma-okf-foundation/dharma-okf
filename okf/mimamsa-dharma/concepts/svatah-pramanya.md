@@ -6,7 +6,7 @@ id: svatah-pramanya
 title: Svataḥ-prāmāṇya
 iast: Svataḥ-prāmāṇya
 devanagari: स्वतःप्रामाण्य
-description: 'The doctrine that a cognition''''s validity is intrinsic, arising with the cognition itself and holding unless a defeater appears; Mīmāṃsā''''s guarantee of the Veda''''s self-authority. School-scoped from its Mīmāṃsā source; NOT blind faith, NOT circular self-certification, NOT the claim that all cognitions are true.'
+description: 'The doctrine that a cognition''s validity is intrinsic, arising with the cognition itself and holding unless a defeater appears; Mīmāṃsā''s guarantee of the Veda''s self-authority. School-scoped from its Mīmāṃsā source; NOT blind faith, NOT circular self-certification, NOT the claim that all cognitions are true.'
 darshana:
 - Pūrva-Mīmāṃsā
 school_scope: 'Treated here from its Mīmāṃsā source, where it secures the self-validity of Vedic knowledge and grounds apauruṣeyatva. vedanta-epistemology v0.3 covers svataḥ-prāmāṇya within Advaita, which inherits it for the self-validity of the liberating śruti. School-scoped and cross-linked, not duplicated.'

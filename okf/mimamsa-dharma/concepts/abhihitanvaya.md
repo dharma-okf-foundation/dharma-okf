@@ -49,7 +49,7 @@ license: CC BY-SA 4.0
 
 ## What It Actually Means
 
-How does a sentence mean? The Bhāṭṭa answer is abhihitānvaya, connection of the already-denoted: each word first delivers its own meaning, and then a further operation relates these meanings into the unified import of the sentence. Word-meaning is thus logically prior; sentence-meaning is a construction upon it. This pairs with the Bhāṭṭa taste for analysis, as with bhāvanā and apūrva, and stands against the Prābhākara anvitābhidhāna (see anvitabhidhana), making the two schools'' theories of language as sharply opposed as their theories of duty.
+How does a sentence mean? The Bhāṭṭa answer is abhihitānvaya, connection of the already-denoted: each word first delivers its own meaning, and then a further operation relates these meanings into the unified import of the sentence. Word-meaning is thus logically prior; sentence-meaning is a construction upon it. This pairs with the Bhāṭṭa taste for analysis, as with bhāvanā and apūrva, and stands against the Prābhākara anvitābhidhāna (see anvitabhidhana), making the two schools' theories of language as sharply opposed as their theories of duty.
 
 ## Audience Metaphor
 

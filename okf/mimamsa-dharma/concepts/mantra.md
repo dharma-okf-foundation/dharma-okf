@@ -17,12 +17,12 @@ tags:
 - prakashana
 not:
 - term: 'a magic spell (a sound that compels a result)'
-  why: 'Mīmāṃsā''''s account of mantra is deflationary: a mantra functions to denote and recall the ritual factors at the right moment; it is not an occult force that produces the result. The result comes from the correctly performed act via apūrva, not from the mantra''''s power.'
-  instead: 'Render mantra as a Vedic formula that expresses and recalls the ritual''''s elements in performance, not a magic spell.'
+  why: 'Mīmāṃsā''s account of mantra is deflationary: a mantra functions to denote and recall the ritual factors at the right moment; it is not an occult force that produces the result. The result comes from the correctly performed act via apūrva, not from the mantra''s power.'
+  instead: 'Render mantra as a Vedic formula that expresses and recalls the ritual''s elements in performance, not a magic spell.'
 - term: 'a mystically powerful vibration'
   why: 'That register, mantra as sonic power, belongs to Tantric and devotional traditions (see nāda in bhakti-marga). The Mīmāṃsā mantra is a meaning-bearing formula with a ritual job, not a vibration with intrinsic force.'
 - term: 'a meaningless sacred syllable'
-  why: 'For Mīmāṃsā mantras have meaning, and their meaning is precisely what does their ritual work, expressing the act''''s factors; they are not treated as meaningless.'
+  why: 'For Mīmāṃsā mantras have meaning, and their meaning is precisely what does their ritual work, expressing the act''s factors; they are not treated as meaningless.'
 related:
 - arthavada.md
 - viniyoga.md
@@ -53,7 +53,7 @@ What is a mantra for, if the deity need not be persuaded and the sound has no ma
 
 ## Audience Metaphor
 
-A pilot''s spoken checklist, "flaps set, speed checked," does not fly the plane; it brings each required element to mind at the right moment so the procedure is done rightly. The Mīmāṃsā mantra is that checklist within the rite: it names and recalls, it does not conjure.
+A pilot's spoken checklist, "flaps set, speed checked," does not fly the plane; it brings each required element to mind at the right moment so the procedure is done rightly. The Mīmāṃsā mantra is that checklist within the rite: it names and recalls, it does not conjure.
 
 ## Citations
 

@@ -17,7 +17,7 @@ tags:
 - ritual-agent
 not:
 - term: 'authority or power over others'
-  why: 'In ordinary speech adhikāra means authority or jurisdiction. In Mīmāṃsā it means the agent''''s qualification to undertake an enjoined act, who the injunction is addressed to, not power wielded over anyone.'
+  why: 'In ordinary speech adhikāra means authority or jurisdiction. In Mīmāṃsā it means the agent''s qualification to undertake an enjoined act, who the injunction is addressed to, not power wielded over anyone.'
   instead: 'Render adhikāra as eligibility or qualification to perform a rite, not authority over others.'
 - term: 'a legal right or entitlement-claim'
   why: 'It is not a claim held against others; it is the standing that makes an injunction binding on this agent, typically desire for the stated fruit plus capacity plus the absence of a bar.'
@@ -49,7 +49,7 @@ license: CC BY-SA 4.0
 
 ## What It Actually Means
 
-An injunction like "one who desires heaven should sacrifice" does not bind everyone; it binds whoever satisfies the adhikāra, here desiring heaven and being capable of the rite. Adhikāra thus answers "to whom does this apply?" and is fixed by the injunction''s own terms, chiefly the desire for the result and the capacity to perform, with disqualifications removing it. It is the hinge between the impersonal injunction and the particular agent it obligates.
+An injunction like "one who desires heaven should sacrifice" does not bind everyone; it binds whoever satisfies the adhikāra, here desiring heaven and being capable of the rite. Adhikāra thus answers "to whom does this apply?" and is fixed by the injunction's own terms, chiefly the desire for the result and the capacity to perform, with disqualifications removing it. It is the hinge between the impersonal injunction and the particular agent it obligates.
 
 ## Audience Metaphor
 
