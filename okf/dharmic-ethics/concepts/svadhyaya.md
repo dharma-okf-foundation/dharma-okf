@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: dharmic-ethics
-bundle_version: "0.5.3"
+bundle_version: "0.5.4"
 id: svadhyaya
 title: "Svādhyāya — Study That Returns One to the Self"
 iast: "svādhyāya"
@@ -38,6 +38,9 @@ generated:
   by: guru/2026-06
   at: 2026-06-25T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-25T20:01:16-05:00
 sources:
   - id: yoga-sutra
     resource: references/yoga-sutra.md

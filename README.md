@@ -48,7 +48,7 @@ A `not:` list in a file is a "do not enter" sign on an unlocked door. The model 
 | `okf/yoga-darshana/` | 0.2.2 | 26 | 6 | Patañjali's Yoga Sūtra technical lexicon | [graph](okf/yoga-darshana/viz.html) |
 | `okf/vedanta-epistemology/` | 0.3.3 | 27 | 19 | Pramāṇa-śāstra — Vedantic epistemology | [graph](okf/vedanta-epistemology/viz.html) |
 | `okf/bhakti-marga/` | 0.4.3 | 15 | 9 | The vocabulary of the devotional path | [graph](okf/bhakti-marga/viz.html) |
-| `okf/dharmic-ethics/` | 0.5.3 | 15 | 6 | Yama–Niyama and the ethical-social vocabulary of dharma | [graph](okf/dharmic-ethics/viz.html) |
+| `okf/dharmic-ethics/` | 0.5.4 | 15 | 6 | Yama–Niyama and the ethical-social vocabulary of dharma — **human-verified, Profile Level 3** ([§5](PROFILE.md#5-conformance-levels-and-current-coverage)) | [graph](okf/dharmic-ethics/viz.html) |
 | `okf/upanishadic-core/` | 0.6.2 | 26 | 16 | Core Upaniṣadic vocabulary across the Vedānta schools — mahāvākyas, Ātman–Brahman, self-knowledge | [graph](okf/upanishadic-core/viz.html) |
 | `okf/cosmology-creation/` | 0.7.3 | 26 | 12 | Vedic & Purāṇic vocabulary of time, cosmos, and manifestation | [graph](okf/cosmology-creation/viz.html) |
 | `okf/shakta-darshana/` | 0.8.2 | 26 | 12 | Śākta-Tāntric metaphysics of Śakti, Devī, and consciousness-power | [graph](okf/shakta-darshana/viz.html) |

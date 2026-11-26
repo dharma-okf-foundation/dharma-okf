@@ -1,6 +1,6 @@
 ---
 type: Reference
-bundle_version: "0.5.3"
+bundle_version: "0.5.4"
 title: "Bhagavad Gītā"
 description: "Kṛṣṇa's teaching to Arjuna; the locus of karma-yoga (2.47-48), svadharma (3.35, 18.47), and the threefold typologies of tapas and dāna (17.14-22)."
 darshana:
@@ -16,6 +16,9 @@ generated:
   by: guru/2026-06
   at: 2026-06-25T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-25T20:11:20-05:00
 license: "CC BY-SA 4.0"
 ---
 

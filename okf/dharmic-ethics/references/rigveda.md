@@ -1,6 +1,6 @@
 ---
 type: Reference
-bundle_version: "0.5.3"
+bundle_version: "0.5.4"
 title: "Ṛgveda"
 description: "The oldest Veda; the locus of ṛta, the cosmic-moral order guarded by Varuṇa, and of the ṛta-tapas cosmogony (10.190)."
 darshana:
@@ -15,6 +15,9 @@ generated:
   by: guru/2026-06
   at: 2026-06-25T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-25T20:15:38-05:00
 license: "CC BY-SA 4.0"
 ---
 

@@ -1,6 +1,6 @@
 ---
 type: Reference
-bundle_version: "0.5.3"
+bundle_version: "0.5.4"
 title: "Yoga Sūtra (Patañjali)"
 description: "Patañjali's aphorisms on yoga; the locus of the yama-niyama list (2.30-45) and of kriyā-yoga (2.1), with Vyāsa's bhāṣya as the authoritative gloss."
 darshana:
@@ -15,6 +15,9 @@ generated:
   by: guru/2026-06
   at: 2026-06-25T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-25T20:14:40-05:00
 license: "CC BY-SA 4.0"
 ---
 

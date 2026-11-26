@@ -1,6 +1,6 @@
 ---
 type: Reference
-bundle_version: "0.5.3"
+bundle_version: "0.5.4"
 title: "Mahābhārata"
 description: "The great epic and dharma-encyclopedia; source of ahiṃsā paramo dharmaḥ, the Anuśāsana Parva's teaching on dāna, and the hard cases that test svadharma."
 darshana:
@@ -15,6 +15,9 @@ generated:
   by: guru/2026-06
   at: 2026-06-25T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-25T20:12:44-05:00
 license: "CC BY-SA 4.0"
 ---
 

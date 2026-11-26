@@ -50,7 +50,17 @@ EXPECTED_TOTALS = {
     "related_relative": 1500,
     "escaping_links": 62,
 }
-EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 13, "2b": 13, "3": 0}
+EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 13, "2b": 13, "3": 1}
+
+# Bundles whose documents carry `verified:`. §3.3 forbids tooling from writing
+# that key, so a bundle enters this set only in the commit that releases the
+# human verifier's review of it, and never in a mechanical wave. Any `verified:`
+# found elsewhere fails the corpus test below: this set is the gate that
+# `has_verified == 0` was until the first verification landed.
+#   dharmic-ethics — 21 of 21 documents, reviewed 2026-11-25 at 7c78a6a,
+#                    released as bundle/dharmic-ethics/v0.5.4.
+VERIFIED_BUNDLES = {"dharmic-ethics"}
+HUMAN_VERIFIER = "human:sanjay@dharmaokf.foundation"     # PROFILE.md §5
 EXPECTED_CORPUS = {"bundles": 13, "concepts": 310, "references": 132, "documents": 442}
 
 # The §3.1 gap, closed. Kept as a record of what the wave converted, and as
@@ -215,7 +225,33 @@ def _count_trust_keys_on_disk() -> dict:
     thing this whole section of the suite was written to stop.
     """
     counts = {"generated": 0, "verified": 0, "sources": 0, "okf_profile": 0}
-    for path in OKF.rglob("*.md"):
+    for path, fm in _trust_documents():
+        for key in counts:
+            if re.search(rf"^{key}:", fm, re.M):
+                counts[key] += 1
+    return counts
+
+
+def _verified_on_disk() -> dict:
+    """{bundle: [(path, by-actors)]} for every document carrying `verified:`.
+
+    Reads the block that follows the key, in either form base §5.2 allows: the
+    bare mapping this profile writes, or a list of `{ by, at }` events.
+    """
+    out = {}
+    for path, fm in _trust_documents():
+        m = re.search(r"^verified:[^\n]*\n((?:[ \t]+[^\n]*\n?)*)", fm, re.M)
+        if not m:
+            continue
+        actors = re.findall(r"^[ \t]+(?:-[ \t]+)?by:[ \t]*[\"']?([^\"'\s]+)", m.group(1), re.M)
+        bundle = path.relative_to(OKF).parts[0]
+        out.setdefault(bundle, []).append((path, actors))
+    return out
+
+
+def _trust_documents():
+    """(path, frontmatter) for every Concept/Reference document in the corpus."""
+    for path in sorted(OKF.rglob("*.md")):
         if path.name == "index.md":
             continue
         text = path.read_text(encoding="utf-8")
@@ -225,10 +261,7 @@ def _count_trust_keys_on_disk() -> dict:
         fm = m.group(1)
         if not re.search(r"^type:\s*(Concept|Reference)\s*$", fm, re.M):
             continue
-        for key in counts:
-            if re.search(rf"^{key}:", fm, re.M):
-                counts[key] += 1
-    return counts
+        yield path, fm
 
 
 def test_level_3_is_measured_against_the_corpus(report):
@@ -253,27 +286,46 @@ def test_level_3_is_measured_against_the_corpus(report):
     the assertion. What is asserted now is the thing that stays true while
     Level 3 is open, plus a count re-derived from disk for the families that
     legitimately move.
+
+    **Rewritten 2026-11-25**, when the first human verification landed. The
+    gate was `has_verified == 0`; it is now `VERIFIED_BUNDLES`, a declared set
+    edited only in a commit that releases a verifier's review. Everything else
+    is still measured: a `verified:` outside that set fails, a non-`human:`
+    actor fails, a verified bundle with an unverified document fails, and the
+    level is re-derived rather than typed.
     """
     tr = report["trust"]
     assert tr["documents"] == 442, tr
 
-    # The invariant that holds for as long as Level 3 is open: `verified` is the
-    # family §3.3 forbids tooling from writing, so it is zero corpus-wide, no
-    # bundle reaches Level 3, and every bundle names it as a reason.
-    assert tr["has_verified"] == 0, tr["has_verified"]
-    assert tr["complete"] == 0
-    assert not any(b["level_3"] for b in report["bundles"])
+    # §3.3 gate: `verified` appears only in bundles a release declared, on every
+    # document of each such bundle, and every actor is the profile's human one.
+    verified = _verified_on_disk()
+    assert set(verified) == VERIFIED_BUNDLES, (
+        f"`verified:` found in {sorted(verified)}; declared {sorted(VERIFIED_BUNDLES)}")
+    for bundle, docs in verified.items():
+        for path, actors in docs:
+            assert actors and all(a == HUMAN_VERIFIER for a in actors), (path, actors)
+    per = {b["bundle"]: b for b in report["bundles"]}
+    for bundle in VERIFIED_BUNDLES:
+        assert len(verified[bundle]) == per[bundle]["trust"]["documents"], bundle
+        assert per[bundle]["trust"]["has_verified"] == per[bundle]["trust"]["documents"], bundle
+
+    # The checker agrees with the files, family by family, verified included.
+    on_disk = _count_trust_keys_on_disk()
+    for fam in ("generated", "verified", "sources", "okf_profile"):
+        assert tr[f"has_{fam}"] == on_disk[fam], (fam, tr[f"has_{fam}"], on_disk[fam])
+    assert on_disk["verified"] == sum(len(d) for d in verified.values())
+
+    # A bundle is at Level 3 exactly when it names no failure, and any bundle
+    # whose documents are not all verified names `verified` as a reason.
     for b in report["bundles"]:
         reasons = " ".join(b["level_3_failures"])
         assert b["trust"]["documents"] > 0, b["bundle"]
-        assert "verified" in reasons, f"{b['bundle']} does not name verified: {reasons}"
-
-    # The other three move as bundles are retrofitted, so they are checked
-    # against a count re-derived from the files rather than a frozen number.
-    on_disk = _count_trust_keys_on_disk()
-    for fam in ("generated", "sources", "okf_profile"):
-        assert tr[f"has_{fam}"] == on_disk[fam], (fam, tr[f"has_{fam}"], on_disk[fam])
-    assert on_disk["verified"] == 0, on_disk
+        assert b["level_3"] == (not b["level_3_failures"]), (b["bundle"], reasons)
+        if b["trust"]["has_verified"] < b["trust"]["documents"]:
+            assert "verified" in reasons, f"{b['bundle']} does not name verified: {reasons}"
+    assert sum(b["level_3"] for b in report["bundles"]) == report["levels"]["3"]
+    assert tr["complete"] == sum(b["trust"]["complete"] for b in report["bundles"])
 
 
 def test_related_parser_reads_unindented_lists(report):
@@ -353,7 +405,7 @@ def test_subdirectory_indexes_carry_no_frontmatter(report):
 EXPECTED_BUNDLE_VERSION = {
     "dharma-foundation": "0.1.4", "yoga-darshana": "0.2.2",
     "vedanta-epistemology": "0.3.3", "bhakti-marga": "0.4.3",
-    "dharmic-ethics": "0.5.3", "upanishadic-core": "0.6.2",
+    "dharmic-ethics": "0.5.4", "upanishadic-core": "0.6.2",
     "cosmology-creation": "0.7.3", "shakta-darshana": "0.8.2",
     "nyaya-vaisheshika": "0.9.1", "mimamsa-dharma": "0.10.1",
     "ayurveda-consciousness": "0.11.1", "jyotisha-kala": "0.12.1",
@@ -431,17 +483,18 @@ def test_profile_strict_fails_at_level_3_and_says_why(report):
         [sys.executable, str(TOOL), str(OKF), "--corpus",
          "--profile-strict", "--require-level", "3", "--quiet"],
         capture_output=True, text=True)
-    assert r.returncode == 1, "no bundle reaches Level 3 yet"
+    assert r.returncode == 1, "not every bundle reaches Level 3 yet"
 
     loud = subprocess.run(
         [sys.executable, str(TOOL), str(OKF), "--corpus", "--profile"],
         capture_output=True, text=True)
     assert "trust:" in loud.stdout, "the trust line is not printed"
-    # `generated` moves as bundles are retrofitted; `verified` does not, because
-    # §3.3 forbids tooling from writing it. Assert the one that is invariant.
-    # (Was `generated 0/442` until 2026-09-22, which went stale on the first
-    # bundle to carry the key.)
-    assert "verified(human:) 0/442" in loud.stdout, loud.stdout[-400:]
+    # The printed `verified` figure must equal the count re-derived from disk.
+    # (Was the literal `verified(human:) 0/442` until 2026-11-25, and
+    # `generated 0/442` before 2026-09-22; each went stale on the first bundle
+    # to carry the key.)
+    n = _count_trust_keys_on_disk()["verified"]
+    assert f"verified(human:) {n}/442" in loud.stdout, loud.stdout[-400:]
     assert "— Level 3:" in loud.stdout, "no per-bundle Level 3 reason printed"
 
 

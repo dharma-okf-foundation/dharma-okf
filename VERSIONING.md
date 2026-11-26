@@ -80,6 +80,12 @@ The scheme's first thirteen tags were cut at `17fd5da` at the close of the 2026-
 
 **Corpus tag state, 2026-09-07:** 42 tags resolving to 19 distinct commits — 29 legacy across 18, and 13 namespaced at `17fd5da`.
 
+**Later namespaced tags.** The table above records the scheme's first cut and is not rewritten. Tags cut since are listed here, newest first:
+
+| Date | Tag | Event |
+|---|---|---|
+| 2026-11-25 | `bundle/dharmic-ethics/v0.5.4` | Human verification of all 21 documents; first bundle at Profile Level 3 (`PROFILE.md` §5) |
+
 ## Changelog
 
 In-place change waves are logged in [CHANGELOG.md](CHANGELOG.md), newest first. The first entry under this contract is the Genealogy Update (see [GENEALOGIES.md](GENEALOGIES.md)).

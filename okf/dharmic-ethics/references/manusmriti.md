@@ -1,6 +1,6 @@
 ---
 type: Reference
-bundle_version: "0.5.3"
+bundle_version: "0.5.4"
 title: "Manusmṛti (Mānava Dharmaśāstra)"
 description: "The most cited Dharmaśāstra; a primary source for ācāra (1.108, conduct as the highest dharma), the sources of dharma, and the duties of station and stage."
 darshana:
@@ -16,6 +16,9 @@ generated:
   by: guru/2026-06
   at: 2026-06-25T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-25T20:13:23-05:00
 license: "CC BY-SA 4.0"
 ---
 

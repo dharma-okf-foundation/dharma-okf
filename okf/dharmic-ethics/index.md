@@ -2,7 +2,7 @@
 type: Collection
 title: "Dharmic-Ethics — Yama-Niyama and the Ethical-Social Vocabulary of Dharma"
 description: "The vocabulary of dharmic ethics: 15 concepts across three tiers — the five yamas (universal restraints), the five niyamas (inner observances), and dharma in action (the cosmic and social frame). Pan-dharmic (sādhāraṇa-dharma), anchored in Yoga Darśana, the Bhagavad Gītā, Dharmaśāstra, and the Vedic conception of ṛta. Ethics as alignment, not commandment."
-bundle_version: "0.5.3"
+bundle_version: "0.5.4"
 darshana:
   - pan-dharmic (sādhāraṇa-dharma)
   - Yoga Darśana
@@ -20,7 +20,7 @@ okf_version: "0.2"
 ---
 # dharmic-ethics — Bundle Index
 
-Authored directly on the canonical OKF v0.2 format. This is bundle release **v0.5.3**; the format spec it conforms to is **okf_version 0.2**. (Format version and release tag are distinct axes: see the project SPEC.md §12.)
+Authored directly on the canonical OKF v0.2 format. This is bundle release **v0.5.4**; the format spec it conforms to is **okf_version 0.2**. (Format version and release tag are distinct axes: see the project SPEC.md §12.)
 
 ## The Framing Tension: Ethics as Alignment, Not Commandment
 
@@ -142,4 +142,4 @@ An ethics vocabulary risks being read as a rulebook no matter how it is framed, 
 
 ---
 
-*Bundle built: 2026-06-25 | Guru | Three tiers complete (5 + 5 + 5 = 15 concepts) + 6 references | OKF format v0.2 | release v0.5.3 | dharmic-ethics*
+*Bundle built: 2026-06-25 | Guru | Three tiers complete (5 + 5 + 5 = 15 concepts) + 6 references | OKF format v0.2 | release v0.5.4 | dharmic-ethics*

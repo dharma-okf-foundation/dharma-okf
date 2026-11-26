@@ -2,6 +2,48 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
+## 2026-11-25 — `dharmic-ethics` 0.5.4: human-verified, the first bundle at Level 3
+
+**The human verifier reviewed all 21 `dharmic-ethics` documents and recorded `verified:` on each. `verified(human:)` moves 0/442 → 21/442; Level 3 moves 0/13 → 1/13.** Released as `bundle/dharmic-ethics/v0.5.4`.
+
+### The review
+
+Each of the 15 Concepts and 6 References was read in full against its text as published at `7c78a6a` — frontmatter, `not:` entries with their reasons, body, citations — and confirmed between 19:06 and 20:15 (−05:00) on 2026-11-25. Each decision was recorded bound to the git blob of the file reviewed, so a later edit to the text cannot inherit the confirmation.
+
+Each block was **pasted by the verifier**, not written by tooling (§3.3):
+
+```yaml
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-25T19:06:22-05:00      # per document, the time of that review
+```
+
+Tooling only checked: every block's `by` and `at` equal the recorded decision, every file is byte-identical to its reviewed text apart from the three lines, and no line ending or byte-order mark changed. One `at` carried the previous document's time on the first check; the verifier corrected it before anything else was done.
+
+### What changed
+
+| File | Substance |
+|---|---|
+| `okf/dharmic-ethics/**` (21) | `verified:` block after `okf_profile:` — 3 lines each, by the verifier. `bundle_version` 0.5.3 → 0.5.4 |
+| `okf/dharmic-ethics/index.md` | `bundle_version` 0.5.4 and the two release mentions |
+| `PROFILE.md` | §5 Level 3 row **1 / 13**, from the checker; a paragraph recording the first bundle closed |
+| `okf/tests/test_profile_layer.py` | Level 3 gate rewritten (below); `EXPECTED_LEVELS` and the bundle-version map updated |
+| `README.md`, `VERSIONING.md` | Bundle row at 0.5.4; the new tag listed |
+
+### The gate, rewritten rather than loosened
+
+`test_level_3_is_measured_against_the_corpus` held §3.3 with `has_verified == 0` — correct for as long as no human had verified anything, and wrong the moment one did. Deleting that assertion would have left nothing between a mechanical wave and an unauthorised `verified:` block. It is replaced by **`VERIFIED_BUNDLES`**, a declared set changed only in a commit that releases a verifier's review, plus measurements: `verified:` outside the set fails; an actor other than the profile's `human:` verifier fails; a declared bundle with any unverified document fails; the checker's `verified` count must equal a count re-derived from the files; and Level 3 must hold exactly where a bundle names no failure. `test_profile_strict_fails_at_level_3_and_says_why` now compares the printed `verified(human:)` figure with that re-derived count instead of the literal `0/442`.
+
+Proved both ways in scratch copies: unchanged tree **passes**; a `verified:` block added to one `yoga-darshana` Concept **fails**; one `dharmic-ethics` actor changed to `process:nightly` **fails both tests**; one `dharmic-ethics` block removed **fails**.
+
+### Proved, not argued
+
+`okf_validate --corpus --profile`: `dharmic-ethics` ✓ at every level, **L3 1/13**, trust line `verified(human:) 21/442 · required set 21/442` · `okf_validate --strict` **0 fail / 0 warn** on all thirteen bundles · `okf_viz.py --check` **current** on all thirteen (`viz.html` embeds no frontmatter version or trust key) · `pytest okf/tests` **199 passed**.
+
+### Not in this release
+
+The other twelve bundles: ten wait only for their human review; `dharma-foundation` and `sankhya-darshana` also wait for a citation on 3 and 1 Concepts. Footnote attribution (§2.5) remains a later pass.
+
 ## 2026-11-24 — Level 3 machine families on the remaining twelve bundles
 
 **`generated` and `okf_profile` now on 442 of 442 documents; `sources` on 306 of 310 Concepts. Level 3 reads 0/13 before and after — held closed by `verified`, as §3.3 requires. Eleven bundles now name `verified (human:)` as their only missing family.**
