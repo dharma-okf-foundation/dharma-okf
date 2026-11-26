@@ -1,6 +1,6 @@
 ---
 type: Reference
-bundle_version: "0.4.3"
+bundle_version: "0.4.4"
 title: "Bhakti-rasāmṛta-sindhu (Rūpa Gosvāmī)"
 description: "Rūpa Gosvāmī's systematic theology of bhakti-rasa; defines uttamā bhakti and maps the five primary rasas."
 darshana:
@@ -15,6 +15,9 @@ generated:
   by: guru/2026-06
   at: 2026-06-25T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-26T17:17:28-05:00
 license: "CC BY-SA 4.0"
 ---
 

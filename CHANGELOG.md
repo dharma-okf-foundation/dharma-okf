@@ -2,6 +2,34 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
+## 2026-11-26 — `bhakti-marga` 0.4.4: human-verified, the third bundle at Level 3
+
+**The human verifier reviewed all 24 `bhakti-marga` documents and recorded `verified:` on each. `verified(human:)` moves 53/448 → 77/448; Level 3 moves 2/13 → 3/13.** Released as `bundle/bhakti-marga/v0.4.4`.
+
+### The review
+
+Each of the 15 Concepts and 9 References was read in full against its text at `6da6b27`, using the same blob-bound procedure as the two releases before it. Confirmations ran between 16:50 and 17:21 (−05:00) on 2026-11-26. The review returned no change requests, and the bundle passed the apostrophe pre-flight before it was presented.
+
+Each block was **pasted by the verifier**, not written by tooling (§3.3). Tooling checked that every block's `by` and `at` equal the recorded decision, that every file is its reviewed text plus exactly those three lines, and that no line ending or byte-order mark changed. All 24 passed the first time.
+
+### What changed
+
+| File | Substance |
+|---|---|
+| `okf/bhakti-marga/**` (24) | `verified:` block after `okf_profile:`, 3 lines each, by the verifier. `bundle_version` 0.4.3 → 0.4.4 |
+| `okf/bhakti-marga/index.md` | `bundle_version` 0.4.4 and the two release mentions |
+| `PROFILE.md` | §5 Level 3 row **3 / 13**, from the checker; a paragraph recording the third bundle closed |
+| `okf/tests/test_profile_layer.py` | `VERIFIED_BUNDLES` adds `bhakti-marga`; `EXPECTED_LEVELS` and the bundle-version map updated. The gate logic is unchanged |
+| `README.md`, `VERSIONING.md` | Bundle row at 0.4.4; the new tag listed |
+
+### Proved, not argued
+
+`okf_validate --corpus --profile`: `bhakti-marga` ✓ at every level, **L3 3/13**, trust line `verified(human:) 77/448 · required set 77/448` · `okf_validate --strict` **0 fail / 0 warn** on all thirteen bundles · `okf_viz.py --check` **current** on all thirteen · `pytest okf/tests` **199 passed**.
+
+### Not in this release
+
+The other ten bundles wait only for their human review.
+
 ## 2026-11-26 — `dharma-foundation` 0.1.5, `sankhya-darshana` 0.13.4: citations for the last four Concepts
 
 **`sources` now on 310 of 310 Concepts (was 306). Six new `type: Reference` documents take the corpus from 442 to 448 documents. Eleven bundles now wait on `verified (human:)` alone.** Level 3 stays at 2/13, because §3.3 leaves `verified` to the human verifier.

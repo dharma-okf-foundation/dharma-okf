@@ -2,7 +2,7 @@
 type: Collection
 title: "Bhakti-Mārga — The Vocabulary of Devotional Paths"
 description: "The vocabulary of the devotional path — 15 concepts across three tiers: devotion and its inner structure, the living guru-śiṣya lineage, and devotional practice with its sonic theology. Primary school Bhakti (Vaiṣṇava Vedānta), with Viśiṣṭādvaita, Gauḍīya, and Pāñcarātra/Āgama sharpenings."
-bundle_version: "0.4.3"
+bundle_version: "0.4.4"
 darshana:
   - Bhakti (Vaiṣṇava Vedānta)
   - Viśiṣṭādvaita
@@ -20,7 +20,7 @@ okf_version: "0.2"
 ---
 # bhakti-marga — Bundle Index
 
-Authored directly on the canonical OKF v0.2 format. This is bundle release **v0.4.3**; the format spec it conforms to is **okf_version 0.2**. (Format version and release tag are distinct axes: see the project SPEC.md §12.)
+Authored directly on the canonical OKF v0.2 format. This is bundle release **v0.4.4**; the format spec it conforms to is **okf_version 0.2**. (Format version and release tag are distinct axes: see the project SPEC.md §12.)
 
 ## The Framing Tension: Bhakti Is Not the "Lower" Path
 
@@ -138,4 +138,4 @@ A vocabulary bundle cannot transmit bhakti; devotion is caught in lived relation
 
 ---
 
-*Bundle built: 2026-06-25 | Guru | Three tiers complete (5 + 5 + 5 = 15 concepts) + 9 references | OKF format v0.2 | release v0.4.3 | bhakti-marga*
+*Bundle built: 2026-06-25 | Guru | Three tiers complete (5 + 5 + 5 = 15 concepts) + 9 references | OKF format v0.2 | release v0.4.4 | bhakti-marga*

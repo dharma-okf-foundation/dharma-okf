@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: bhakti-marga
-bundle_version: "0.4.3"
+bundle_version: "0.4.4"
 id: kirtana
 title: "Kīrtana — Participatory Sonic Devotion"
 iast: "kīrtana"
@@ -39,6 +39,9 @@ generated:
   by: guru/2026-06
   at: 2026-06-25T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-26T17:07:42-05:00
 sources:
   - id: bhagavata-purana
     resource: references/bhagavata-purana.md

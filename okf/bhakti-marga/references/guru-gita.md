@@ -1,6 +1,6 @@
 ---
 type: Reference
-bundle_version: "0.4.3"
+bundle_version: "0.4.4"
 title: "Guru Gītā"
 description: "A dialogue (within the Skanda Purāṇa) on the nature and worship of the guru; source of the gu-ru etymology."
 darshana:
@@ -16,6 +16,9 @@ generated:
   by: guru/2026-06
   at: 2026-06-25T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-26T17:18:22-05:00
 license: "CC BY-SA 4.0"
 ---
 
