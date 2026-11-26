@@ -2,6 +2,39 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
+## 2026-11-26 — `mimamsa-dharma` 0.10.2: human-verified, the second bundle at Level 3
+
+**The human verifier reviewed all 32 `mimamsa-dharma` documents and recorded `verified:` on each. `verified(human:)` moves 21/442 → 53/442; Level 3 moves 1/13 → 2/13.** Released as `bundle/mimamsa-dharma/v0.10.2`.
+
+### The review
+
+Each of the 25 Concepts and 7 References was read in full: frontmatter, `not:` entries with their reasons, body and citations. The review used the same blob-bound procedure as `dharmic-ethics` 0.5.4, and confirmations ran between 07:55 and 16:15 (−05:00) on 2026-11-26.
+
+The first pass at `a69da37` returned seven "needs changes" notes. All seven named one defect, over-escaped apostrophes, which was corrected at `f5f2f53` (entry below). Every confirmation on a file the correction changed no longer matched its blob, so it was set aside and made again against the corrected text. The four documents the correction did not touch (`arthavada`, `codana`, `dharma`, `nisedha`) kept their confirmations, because their blobs are identical at both commits. All 32 decisions are therefore bound to the text as it stands at `f5f2f53`.
+
+Each block was **pasted by the verifier**, not written by tooling (§3.3). Tooling only checked three things: every block's `by` and `at` equal the recorded decision; every file is the text at `f5f2f53` plus exactly those three lines; and no line ending or byte-order mark changed. On the first check, one `at` (`sastra-dipika`) carried the time of an earlier confirmation, and the verifier corrected it before anything else was done.
+
+### What changed
+
+| File | Substance |
+|---|---|
+| `okf/mimamsa-dharma/**` (32) | `verified:` block after `okf_profile:`, 3 lines each, written by the verifier. `bundle_version` 0.10.1 → 0.10.2 |
+| `okf/mimamsa-dharma/index.md` | `bundle_version` 0.10.2 and the release line. The closing note, which still read "staged for owner spot-check; nothing … uploaded" four months after publication, now records the publication and this release. It no longer points at a planning file outside the repository. |
+| `PROFILE.md` | §5 Level 3 row **2 / 13**, from the checker; a paragraph recording the second bundle closed |
+| `okf/tests/test_profile_layer.py` | `VERIFIED_BUNDLES` adds `mimamsa-dharma`; `EXPECTED_LEVELS` and the bundle-version map updated. The gate's logic is unchanged |
+| `README.md`, `VERSIONING.md` | Bundle row at 0.10.2; the new tag listed |
+
+### Proved, not argued
+
+- `okf_validate --corpus --profile`: `mimamsa-dharma` passes at every level, **L3 2/13**. The trust figures are `verified(human:) 53/442` and `required set 53/442`.
+- `okf_validate --strict`: **0 fail / 0 warn** on all thirteen bundles.
+- `okf_viz.py --check`: **current** on all thirteen.
+- `pytest okf/tests`: **199 passed**.
+
+### Not in this release
+
+The other eleven bundles: nine wait only for their human review. `dharma-foundation` and `sankhya-darshana` also wait for a citation on 3 Concepts and 1 Concept respectively.
+
 ## 2026-11-26 — `mimamsa-dharma`: over-escaped apostrophes corrected
 
 **Correction (VERSIONING.md, change type 1). No `bundle_version` change; the bundle stays at 0.10.1.** The verifier found the defect during the human review of `mimamsa-dharma` ("edit conductor''s to conductor's"). A corpus scan then showed how far it went.

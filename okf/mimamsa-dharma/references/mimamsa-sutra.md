@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: mimamsa-dharma
-bundle_version: "0.10.1"
+bundle_version: "0.10.2"
 id: mimamsa-sutra
 title: Mīmāṃsā Sūtra (Jaimini)
 description: 'Jaimini''s Pūrva-Mīmāṃsā Sūtra, the root text of the school, opening with the definition of dharma as codanā-lakṣaṇa and setting out the rules for reading Vedic injunctions.'
@@ -15,6 +15,9 @@ generated:
   by: guru/2026-07
   at: 2026-07-08T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-26T16:13:55-05:00
 license: CC BY-SA 4.0
 ---
 

@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: mimamsa-dharma
-bundle_version: "0.10.1"
+bundle_version: "0.10.2"
 id: sastra-dipika
 title: Śāstra-dīpikā (Pārthasārathi Miśra)
 description: 'Pārthasārathi Miśra''s systematic Bhāṭṭa manual, a standard later exposition of the whole Mīmāṃsā system used to present the Bhāṭṭa positions and their contrast with the Prābhākara.'
@@ -16,6 +16,9 @@ generated:
   by: guru/2026-07
   at: 2026-07-08T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-26T16:15:42-05:00
 license: CC BY-SA 4.0
 ---
 

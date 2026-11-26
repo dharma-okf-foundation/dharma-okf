@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: mimamsa-dharma
-bundle_version: "0.10.1"
+bundle_version: "0.10.2"
 id: slokavarttika
 title: Ślokavārttika (Kumārila Bhaṭṭa)
 description: 'Kumārila Bhaṭṭa''s verse commentary on the first pāda of the Śabara-Bhāṣya, the founding text of the Bhāṭṭa school, developing perception, inference, testimony, intrinsic validity, the eternal word, and the realist self.'
@@ -16,6 +16,9 @@ generated:
   by: guru/2026-07
   at: 2026-07-08T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-26T16:15:20-05:00
 license: CC BY-SA 4.0
 ---
 

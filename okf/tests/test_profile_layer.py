@@ -50,7 +50,7 @@ EXPECTED_TOTALS = {
     "related_relative": 1500,
     "escaping_links": 62,
 }
-EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 13, "2b": 13, "3": 1}
+EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 13, "2b": 13, "3": 2}
 
 # Bundles whose documents carry `verified:`. §3.3 forbids tooling from writing
 # that key, so a bundle enters this set only in the commit that releases the
@@ -59,7 +59,11 @@ EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 13, "2b": 13, "3": 1}
 # `has_verified == 0` was until the first verification landed.
 #   dharmic-ethics — 21 of 21 documents, reviewed 2026-11-25 at 7c78a6a,
 #                    released as bundle/dharmic-ethics/v0.5.4.
-VERIFIED_BUNDLES = {"dharmic-ethics"}
+#   mimamsa-dharma — 32 of 32 documents, reviewed 2026-11-26 at f5f2f53
+#                    (4 decisions made at a69da37, on blobs the
+#                    f5f2f53 correction left unchanged),
+#                    released as bundle/mimamsa-dharma/v0.10.2.
+VERIFIED_BUNDLES = {"dharmic-ethics", "mimamsa-dharma"}
 HUMAN_VERIFIER = "human:sanjay@dharmaokf.foundation"     # PROFILE.md §5
 EXPECTED_CORPUS = {"bundles": 13, "concepts": 310, "references": 132, "documents": 442}
 
@@ -407,7 +411,7 @@ EXPECTED_BUNDLE_VERSION = {
     "vedanta-epistemology": "0.3.3", "bhakti-marga": "0.4.3",
     "dharmic-ethics": "0.5.4", "upanishadic-core": "0.6.2",
     "cosmology-creation": "0.7.3", "shakta-darshana": "0.8.2",
-    "nyaya-vaisheshika": "0.9.1", "mimamsa-dharma": "0.10.1",
+    "nyaya-vaisheshika": "0.9.1", "mimamsa-dharma": "0.10.2",
     "ayurveda-consciousness": "0.11.1", "jyotisha-kala": "0.12.1",
     "sankhya-darshana": "0.13.3",
 }

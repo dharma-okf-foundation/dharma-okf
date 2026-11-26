@@ -1,7 +1,7 @@
 ---
 type: Bundle
 bundle: mimamsa-dharma
-bundle_version: "0.10.1"
+bundle_version: "0.10.2"
 title: "Mīmāṃsā-Dharma -- Ritual Injunction, Authorless Authority, and the Language of Action"
 description: "OKF v0.10 bundle: the technical vocabulary of Pūrva-Mīmāṃsā, the darśana of Vedic ritual exegesis. Dharma as codanā-lakṣaṇa, the authorless Veda (apauruṣeyatva), the unseen link (apūrva), and a proto-speech-act theory of injunction across the Bhāṭṭa and Prābhākara schools. 25 concepts in 5 tiers + 7 primary-text references, canonical OKF v0.2."
 darshana:
@@ -13,7 +13,7 @@ license: "CC BY-SA 4.0"
 
 # Mīmāṃsā-Dharma -- Ritual Injunction, Authorless Authority, and the Language of Action
 
-**Bundle v0.10.1 | 25 concepts in 5 tiers | 7 primary-text references | canonical OKF v0.2**
+**Bundle v0.10.2 | 25 concepts in 5 tiers | 7 primary-text references | canonical OKF v0.2**
 
 ## What This Bundle Does Not Claim
 
@@ -79,4 +79,4 @@ Mīmāṃsā is the **source school** for several terms the corpus already treat
 
 Primary texts in `references/`: mīmāṃsā-sūtra (Jaimini), śābara-bhāṣya, ślokavārttika and tantravārttika (Kumārila, Bhāṭṭa), bṛhatī (Prabhākara), śāstra-dīpikā (Pārthasārathi), artha-saṃgraha (Laugākṣi Bhāskara).
 
-*Concept-lock frozen 2026-07-08 (see ../mimamsa-dharma-planning/concept-lock-FROZEN.md). Staged for owner spot-check; nothing folded into the mirror or uploaded (owner-gated).*
+*Concept-lock frozen 2026-07-08. Published 2026-07-09 as v0.10. Release v0.10.2, 2026-11-26: all 32 documents (25 Concept, 7 Reference) human-verified, Profile Level 3 (PROFILE.md §5).*

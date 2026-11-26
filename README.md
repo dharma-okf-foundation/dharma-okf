@@ -53,7 +53,7 @@ A `not:` list in a file is a "do not enter" sign on an unlocked door. The model 
 | `okf/cosmology-creation/` | 0.7.3 | 26 | 12 | Vedic & Purāṇic vocabulary of time, cosmos, and manifestation | [graph](okf/cosmology-creation/viz.html) |
 | `okf/shakta-darshana/` | 0.8.2 | 26 | 12 | Śākta-Tāntric metaphysics of Śakti, Devī, and consciousness-power | [graph](okf/shakta-darshana/viz.html) |
 | `okf/nyaya-vaisheshika/` | 0.9.1 | 27 | 10 | The science of inference and debate — Nyāya apparatus + Vaiśeṣika realist ontology | [graph](okf/nyaya-vaisheshika/viz.html) |
-| `okf/mimamsa-dharma/` | 0.10.1 | 25 | 7 | Mīmāṃsā ritual hermeneutics — vidhi, apūrva, and language-as-action | [graph](okf/mimamsa-dharma/viz.html) |
+| `okf/mimamsa-dharma/` | 0.10.2 | 25 | 7 | Mīmāṃsā ritual hermeneutics — vidhi, apūrva, and language-as-action — **human-verified, Profile Level 3** ([§5](PROFILE.md#5-conformance-levels-and-current-coverage)) | [graph](okf/mimamsa-dharma/viz.html) |
 | `okf/ayurveda-consciousness/` | 0.11.1 | 26 | 8 | Āyurvedic vocabulary of consciousness, constitution, and health | [graph](okf/ayurveda-consciousness/viz.html) |
 | `okf/jyotisha-kala/` | 0.12.1 | 26 | 8 | Jyotiṣa vocabulary of time — pañcāṅga, kāla-reckoning, and the sidereal celestial frame | [graph](okf/jyotisha-kala/viz.html) |
 | `okf/sankhya-darshana/` | 0.13.3 | 20 | 7 | Sāṃkhya's dualist causal theory and discriminative path to kaivalya — completes the six classical darśanas | [graph](okf/sankhya-darshana/viz.html) |

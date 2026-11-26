@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: mimamsa-dharma
-bundle_version: "0.10.1"
+bundle_version: "0.10.2"
 id: autpattika
 title: Autpattika
 iast: Autpattika
@@ -32,6 +32,9 @@ generated:
   by: guru/2026-07
   at: 2026-07-08T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-26T15:53:43-05:00
 sources:
   - id: mimamsa-sutra
     resource: references/mimamsa-sutra.md
