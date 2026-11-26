@@ -1,6 +1,6 @@
 ---
 type: Concept
-bundle_version: "0.1.4"
+bundle_version: "0.1.5"
 title: "Loka"
 description: "A plane of consciousness — not a physical location, not a planet, not a dimension."
 tags:
@@ -31,6 +31,13 @@ generated:
   by: guru/2026-06
   at: 2026-06-18T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+sources:
+  - id: vishnu-purana
+    resource: references/vishnu-purana.md
+    title: "Viṣṇu Purāṇa"
+  - id: bhagavata-purana
+    resource: references/bhagavata-purana.md
+    title: "Bhāgavata Purāṇa"
 ---
 
 # Loka
@@ -55,6 +62,6 @@ Lokas are like different channels on a radio — they all broadcast simultaneous
 
 ## Citations
 
-1. Viṣṇu Purāṇa (14-Loka cosmology)
-2. Bhāgavata Purāṇa
+1. [Viṣṇu Purāṇa](../references/vishnu-purana.md) (14-Loka cosmology)
+2. [Bhāgavata Purāṇa](../references/bhagavata-purana.md)
 3. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

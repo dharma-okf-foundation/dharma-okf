@@ -1,6 +1,6 @@
 ---
 type: Concept
-bundle_version: "0.1.4"
+bundle_version: "0.1.5"
 title: "Brahman"
 description: "The absolute, non-dual reality — infinite existence-consciousness-bliss that is the ground of all that exists. Not God, not The Absolute."
 tags:

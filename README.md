@@ -2,7 +2,7 @@
 
 A structured, machine-readable knowledge base of Sanskrit concepts that resist accurate translation into English, built for AI agents, educators, researchers, and technologists working with dharmic knowledge systems.
 
-**13 bundles · 310 concept documents · 132 primary-source reference documents — every file conformant with the Open Knowledge Format v0.2, validated 0-fail.**
+**13 bundles · 310 concept documents · 138 primary-source reference documents — every file conformant with the Open Knowledge Format v0.2, validated 0-fail.**
 
 ## What's New
 
@@ -44,7 +44,7 @@ A `not:` list in a file is a "do not enter" sign on an unlocked door. The model 
 
 | Bundle | `bundle_version` | Concepts | Refs | Theme | Viz |
 |---|---|---|---|---|---|
-| `okf/dharma-foundation/` | 0.1.4 | 25 | 12 | Foundational Sanskrit non-translatable vocabulary | [graph](okf/dharma-foundation/viz.html) |
+| `okf/dharma-foundation/` | 0.1.5 | 25 | 17 | Foundational Sanskrit non-translatable vocabulary | [graph](okf/dharma-foundation/viz.html) |
 | `okf/yoga-darshana/` | 0.2.2 | 26 | 6 | Patañjali's Yoga Sūtra technical lexicon | [graph](okf/yoga-darshana/viz.html) |
 | `okf/vedanta-epistemology/` | 0.3.3 | 27 | 19 | Pramāṇa-śāstra — Vedantic epistemology | [graph](okf/vedanta-epistemology/viz.html) |
 | `okf/bhakti-marga/` | 0.4.3 | 15 | 9 | The vocabulary of the devotional path | [graph](okf/bhakti-marga/viz.html) |
@@ -56,8 +56,8 @@ A `not:` list in a file is a "do not enter" sign on an unlocked door. The model 
 | `okf/mimamsa-dharma/` | 0.10.2 | 25 | 7 | Mīmāṃsā ritual hermeneutics — vidhi, apūrva, and language-as-action — **human-verified, Profile Level 3** ([§5](PROFILE.md#5-conformance-levels-and-current-coverage)) | [graph](okf/mimamsa-dharma/viz.html) |
 | `okf/ayurveda-consciousness/` | 0.11.1 | 26 | 8 | Āyurvedic vocabulary of consciousness, constitution, and health | [graph](okf/ayurveda-consciousness/viz.html) |
 | `okf/jyotisha-kala/` | 0.12.1 | 26 | 8 | Jyotiṣa vocabulary of time — pañcāṅga, kāla-reckoning, and the sidereal celestial frame | [graph](okf/jyotisha-kala/viz.html) |
-| `okf/sankhya-darshana/` | 0.13.3 | 20 | 7 | Sāṃkhya's dualist causal theory and discriminative path to kaivalya — completes the six classical darśanas | [graph](okf/sankhya-darshana/viz.html) |
-| **Total** | | **310** | **132** | **13 bundles spanning the six āstika darśanas + the devotional, ethical, cosmological, medical, and calendrical corpora** |  |
+| `okf/sankhya-darshana/` | 0.13.4 | 20 | 8 | Sāṃkhya's dualist causal theory and discriminative path to kaivalya — completes the six classical darśanas | [graph](okf/sankhya-darshana/viz.html) |
+| **Total** | | **310** | **138** | **13 bundles spanning the six āstika darśanas + the devotional, ethical, cosmological, medical, and calendrical corpora** |  |
 
 ## Update contract & documented error genealogies
 

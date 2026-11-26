@@ -1,6 +1,6 @@
 ---
 type: Concept
-bundle_version: "0.1.4"
+bundle_version: "0.1.5"
 title: "Vairāgya"
 description: "Non-attachment as an inner quality — indifference to worldly possessions and fame — not renunciation of the world."
 tags:

@@ -38,9 +38,12 @@ BUNDLES = sorted(
 # the 553 links they represent moved into the relative count: 913 + 400 + 97
 # + 56 + 1 hand-written = 1467. The +1 is sankhya-darshana/sesvara-samkhya.md,
 # the only concept in the corpus with no citation to convert.
+# 2026-11-26: 1501 -> 1507. Six citations were linked to six new Reference
+# documents so the last four Concepts could carry `sources:` (akshara 1,
+# chakra 2, loka 2 in dharma-foundation; sesvara-samkhya 1).
 EXPECTED_TOTALS = {
     "absolute_links": 0,
-    "relative_links": 1501,
+    "relative_links": 1507,
     "pseudo_links": 0,
     "bare_path": 0,
     "concepts_without_links": 0,
@@ -65,7 +68,9 @@ EXPECTED_LEVELS = {"0": 13, "1": 13, "2": 13, "2b": 13, "3": 2}
 #                    released as bundle/mimamsa-dharma/v0.10.2.
 VERIFIED_BUNDLES = {"dharmic-ethics", "mimamsa-dharma"}
 HUMAN_VERIFIER = "human:sanjay@dharmaokf.foundation"     # PROFILE.md §5
-EXPECTED_CORPUS = {"bundles": 13, "concepts": 310, "references": 132, "documents": 442}
+# 2026-11-26: references 132 -> 138, documents 442 -> 448 (six new Reference
+# documents: five in dharma-foundation, one in sankhya-darshana).
+EXPECTED_CORPUS = {"bundles": 13, "concepts": 310, "references": 138, "documents": 448}
 
 # The §3.1 gap, closed. Kept as a record of what the wave converted, and as
 # the shape any regression would take: dharma-foundation 136,
@@ -299,7 +304,7 @@ def test_level_3_is_measured_against_the_corpus(report):
     level is re-derived rather than typed.
     """
     tr = report["trust"]
-    assert tr["documents"] == 442, tr
+    assert tr["documents"] == EXPECTED_CORPUS["documents"], tr
 
     # §3.3 gate: `verified` appears only in bundles a release declared, on every
     # document of each such bundle, and every actor is the profile's human one.
@@ -407,13 +412,13 @@ def test_subdirectory_indexes_carry_no_frontmatter(report):
 # every document in the bundle and to its root index.md. Before the amendment a
 # bundle carried two or three values at once and 93 documents carried none.
 EXPECTED_BUNDLE_VERSION = {
-    "dharma-foundation": "0.1.4", "yoga-darshana": "0.2.2",
+    "dharma-foundation": "0.1.5", "yoga-darshana": "0.2.2",
     "vedanta-epistemology": "0.3.3", "bhakti-marga": "0.4.3",
     "dharmic-ethics": "0.5.4", "upanishadic-core": "0.6.2",
     "cosmology-creation": "0.7.3", "shakta-darshana": "0.8.2",
     "nyaya-vaisheshika": "0.9.1", "mimamsa-dharma": "0.10.2",
     "ayurveda-consciousness": "0.11.1", "jyotisha-kala": "0.12.1",
-    "sankhya-darshana": "0.13.3",
+    "sankhya-darshana": "0.13.4",
 }
 
 
@@ -498,7 +503,7 @@ def test_profile_strict_fails_at_level_3_and_says_why(report):
     # `generated 0/442` before 2026-09-22; each went stale on the first bundle
     # to carry the key.)
     n = _count_trust_keys_on_disk()["verified"]
-    assert f"verified(human:) {n}/442" in loud.stdout, loud.stdout[-400:]
+    assert f"verified(human:) {n}/{EXPECTED_CORPUS['documents']}" in loud.stdout, loud.stdout[-400:]
     assert "— Level 3:" in loud.stdout, "no per-bundle Level 3 reason printed"
 
 

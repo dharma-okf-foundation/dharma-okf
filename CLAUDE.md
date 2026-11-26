@@ -3,7 +3,7 @@
 This repository publishes **Dharma-OKF**, a profile of the Open Knowledge Format. Read `PROFILE.md` before changing anything; it is normative and this file is its operational summary. Where the two disagree, `PROFILE.md` wins and this file is the bug.
 
 **Base spec:** OKF v0.2 at `GoogleCloudPlatform/open-knowledge-format@ad30107`. **Profile:** `dharma-okf/1.0`.
-**Corpus:** 442 concept documents in 13 bundles — 310 `type: Concept`, 132 `type: Reference`.
+**Corpus:** 448 concept documents in 13 bundles — 310 `type: Concept`, 138 `type: Reference`.
 
 ---
 

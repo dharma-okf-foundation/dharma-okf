@@ -1,6 +1,6 @@
 ---
 type: Reference
-bundle_version: "0.1.4"
+bundle_version: "0.1.5"
 title: "Chāndogya Upaniṣad"
 description: "A major Sāmaveda Upaniṣad; source of the mahāvākya 'tat tvam asi.'"
 tags:

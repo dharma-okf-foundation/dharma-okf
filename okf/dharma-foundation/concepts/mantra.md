@@ -1,6 +1,6 @@
 ---
 type: Concept
-bundle_version: "0.1.4"
+bundle_version: "0.1.5"
 title: "Mantra"
 description: "Vibrational sequences originating in the subtlest levels of existence — not chants, not prayers, not spells."
 tags:

@@ -1,6 +1,6 @@
 ---
 type: Concept
-bundle_version: "0.1.4"
+bundle_version: "0.1.5"
 title: "Ātman"
 description: "The eternal, self-luminous witness-consciousness present in every form of life — not the soul, not the self, not the spirit."
 tags:

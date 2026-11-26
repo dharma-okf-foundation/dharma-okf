@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: sankhya-darshana
-bundle_version: "0.13.3"
+bundle_version: "0.13.4"
 id: pramana-samkhya
 title: Pramāṇa (Sāṃkhya)
 iast: Pramāṇa

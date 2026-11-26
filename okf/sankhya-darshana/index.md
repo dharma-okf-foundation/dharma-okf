@@ -1,7 +1,7 @@
 ---
 type: Index
 bundle: sankhya-darshana
-bundle_version: "0.13.3"
+bundle_version: "0.13.4"
 title: Sāṃkhya-Darśana -- Dharma-OKF Bundle v0.13
 description: The dualist, enumerative darshana of Kapila -- purusha-prakriti causation and the discriminative path to kaivalya, completing the six classical darshanas.
 darshana:
@@ -15,7 +15,7 @@ license: CC BY-SA 4.0
 
 # Sāṃkhya-Darśana -- सांख्यदर्शन
 
-**Bundle v0.13.3** -- completes the six classical darśanas (Yoga v0.2, Vedānta-epistemology v0.3 + Upaniṣadic-core v0.6, Mīmāṃsā v0.10, Nyāya-Vaiśeṣika v0.9, Sāṃkhya v0.13).
+**Bundle v0.13.4** -- completes the six classical darśanas (Yoga v0.2, Vedānta-epistemology v0.3 + Upaniṣadic-core v0.6, Mīmāṃsā v0.10, Nyāya-Vaiśeṣika v0.9, Sāṃkhya v0.13).
 
 ## What This Bundle Does NOT Claim
 

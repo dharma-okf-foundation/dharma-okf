@@ -2,6 +2,32 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
+## 2026-11-26 — `dharma-foundation` 0.1.5, `sankhya-darshana` 0.13.4: citations for the last four Concepts
+
+**`sources` now on 310 of 310 Concepts (was 306). Six new `type: Reference` documents take the corpus from 442 to 448 documents. Eleven bundles now wait on `verified (human:)` alone.** Level 3 stays at 2/13, because §3.3 leaves `verified` to the human verifier.
+
+### Why References, not inferred sources
+
+A `sources` list is derived only from body links into `references/` (§2.5). The four Concepts already named their primary texts in `## Citations`, but as plain text, because no Reference document existed to link to. Each named text now has one, and each citation links to it. Nothing was inferred, and no citation was added that the Concept did not already make. Modern secondary works (Malhotra, Woodroffe, Aurobindo) stay as plain-text citations: in this corpus a Reference is a primary text.
+
+### What changed
+
+| File | Substance |
+|---|---|
+| `dharma-foundation/references/` (5 new) | `maheshvara-sutras`, `sat-cakra-nirupana`, `siva-samhita`, `vishnu-purana`, `bhagavata-purana` |
+| `sankhya-darshana/references/kapila-gita.md` (new) | Bhāgavata Purāṇa 3.25-33 |
+| `akshara.md` | Citation linked, and relabelled: it read "Śiva Sūtras (Māheśvara Sūtras)", which joins two different texts. The phoneme list that opens Pāṇini's grammar is the Māheśvara Sūtras; the Śiva Sūtras of Vasugupta are a Kashmir Śaiva text. The citation now names the first and says it is not the second. |
+| `chakra.md`, `loka.md` | Two citations each linked; `sources:` added |
+| `sesvara-samkhya.md` | Citation linked; `sources:` added. The chapter range corrected from 3.24-33 to 3.25-33: chapter 24 narrates Kapila's birth, and the dialogue with Devahūti runs from 25 to 33. **The concept-lock's deferral stands.** The Reference identifies the text and does not treat the Seśvara strand. |
+| both `references/index.md` | Entries for the new documents; `sankhya-darshana`'s count goes from 7 to 8 |
+| all documents of both bundles + root indexes | `bundle_version` 0.1.4 → 0.1.5 and 0.13.3 → 0.13.4 (VERSIONING.md rule 2) |
+| both `viz.html` | Regenerated |
+| `PROFILE.md` | §1 and §5 corpus figures; a paragraph recording `sources` closed |
+| `okf/tests/test_profile_layer.py` | Corpus 448 / 138 References; relative links 1501 → 1507; bundle versions; the trust total read from `EXPECTED_CORPUS`, not typed |
+| `README.md`, `CLAUDE.md`, `NOTICE` | Counts |
+
+The new References are not `verified:`. Each will be read with its bundle when that bundle is reviewed.
+
 ## 2026-11-26 — `mimamsa-dharma` 0.10.2: human-verified, the second bundle at Level 3
 
 **The human verifier reviewed all 32 `mimamsa-dharma` documents and recorded `verified:` on each. `verified(human:)` moves 21/442 → 53/442; Level 3 moves 1/13 → 2/13.** Released as `bundle/mimamsa-dharma/v0.10.2`.

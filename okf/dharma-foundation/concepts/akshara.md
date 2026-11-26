@@ -1,6 +1,6 @@
 ---
 type: Concept
-bundle_version: "0.1.4"
+bundle_version: "0.1.5"
 title: "Akṣara"
 description: "The imperishable cosmic sound-letter — each Sanskrit phoneme is a primordial vibration with intrinsic reality."
 tags:
@@ -29,6 +29,10 @@ generated:
   by: guru/2026-06
   at: 2026-06-18T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+sources:
+  - id: maheshvara-sutras
+    resource: references/maheshvara-sutras.md
+    title: "Māheśvara Sūtras"
 ---
 
 # Akṣara
@@ -53,6 +57,6 @@ An ordinary letter is like a paint-by-number label — the symbol 'A' is just a 
 
 ## Citations
 
-1. Śiva Sūtras (Māheśvara Sūtras)
+1. [Māheśvara Sūtras](../references/maheshvara-sutras.md) (also called Śiva Sūtras; not the Śiva Sūtras of Vasugupta)
 2. Sri Aurobindo on Sanskrit phonemes
 3. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)

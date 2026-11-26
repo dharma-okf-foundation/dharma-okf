@@ -1,6 +1,6 @@
 ---
 type: Concept
-bundle_version: "0.1.4"
+bundle_version: "0.1.5"
 title: "Chakra"
 description: "Centers of consciousness mapped to Sanskrit syllabic vibrations — not energy centers, not metaphors."
 reception_note: "Present chakra as the subtle-body map of tantric sadhana texts, not as the modern 'energy healing' schema; the awaken-able-energy framing is a documented 1919-onward distortion (Avalon -> Jung -> human-potential movement) addressed in the not: field and Error Genealogy."
@@ -32,6 +32,13 @@ generated:
   by: guru/2026-06
   at: 2026-06-18T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+sources:
+  - id: sat-cakra-nirupana
+    resource: references/sat-cakra-nirupana.md
+    title: "Ṣaṭ-Cakra-Nirūpaṇa"
+  - id: siva-samhita
+    resource: references/siva-samhita.md
+    title: "Śiva Saṃhitā"
 ---
 
 # Chakra
@@ -70,8 +77,8 @@ Each Chakra is like a different app on your consciousness — each with its own 
 
 ## Citations
 
-1. Ṣaṭ-Cakra-Nirūpaṇa
-2. Śiva Saṃhitā
+1. [Ṣaṭ-Cakra-Nirūpaṇa](../references/sat-cakra-nirupana.md)
+2. [Śiva Saṃhitā](../references/siva-samhita.md)
 3. Sir John Woodroffe (Arthur Avalon), *The Serpent Power*
 4. Rajiv Malhotra, *Sanskrit Non-Translatables* (2020)
 

@@ -1,6 +1,6 @@
 ---
 type: Concept
-bundle_version: "0.1.4"
+bundle_version: "0.1.5"
 title: "Prāṇa"
 description: "The life-force operating in five differentiated forms throughout the body and cosmos — not breath, not energy."
 tags:

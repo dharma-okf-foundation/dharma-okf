@@ -1,6 +1,6 @@
 ---
 type: Concept
-bundle_version: "0.1.4"
+bundle_version: "0.1.5"
 title: "Chitta"
 description: "The storehouse of impressions (saṃskāras) that persists across lifetimes — not the unconscious mind."
 tags:

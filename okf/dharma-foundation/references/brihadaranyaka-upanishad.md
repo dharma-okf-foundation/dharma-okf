@@ -1,6 +1,6 @@
 ---
 type: Reference
-bundle_version: "0.1.4"
+bundle_version: "0.1.5"
 title: "Bṛhadāraṇyaka Upaniṣad"
 description: "The oldest and largest Upaniṣad; source of 'neti, neti' and core teachings on Ātman and transmigration."
 tags:
