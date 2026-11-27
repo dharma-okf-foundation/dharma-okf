@@ -2,6 +2,34 @@
 
 In-place change waves on `main`, newest first, per the contract in [VERSIONING.md](VERSIONING.md). Release tags remain immutable snapshots; this log covers what changes between them.
 
+## 2026-11-26 — `sankhya-darshana` 0.13.5: human-verified, the fourth bundle at Level 3
+
+**The human verifier reviewed all 28 `sankhya-darshana` documents and recorded `verified:` on each. `verified(human:)` moves 77/448 → 105/448; Level 3 moves 3/13 → 4/13.** Released as `bundle/sankhya-darshana/v0.13.5`.
+
+### The review
+
+Each of the 20 Concepts and 8 References, including the Kapila Gītā Reference added at `6da6b27`, was read in full against its text at `76188f3`, using the same blob-bound procedure as the three releases before it. Confirmations ran between 18:29 and 20:55 (−05:00) on 2026-11-26. The review returned no change requests, and the bundle passed the apostrophe pre-flight before it was presented.
+
+Each block was **pasted by the verifier**, not written by tooling (§3.3). Tooling checked that every block's `by` and `at` equal the recorded decision, that every file is its reviewed text plus exactly those three lines, and that no line ending or byte-order mark changed. The first check passed on 26 of 28. `bhagavad-gita-ch13.md` carried the `at` of an earlier Confirm, and `samkhya-tattva-kaumudi.md` carried a second block. The verifier corrected both by hand, and the recheck passed on 28 of 28.
+
+### What changed
+
+| File | Substance |
+|---|---|
+| `okf/sankhya-darshana/**` (28) | `verified:` block after `okf_profile:`, 3 lines each, by the verifier. `bundle_version` 0.13.4 → 0.13.5 |
+| `okf/sankhya-darshana/index.md` | `bundle_version` 0.13.5 and the release mention; two stale notes corrected: `reference_count` 7 → 8 (the Kapila Gītā Reference), and the *Queued Next* line naming a v0.14 that is not decided, replaced by a release line |
+| `PROFILE.md` | §5 Level 3 row **4 / 13**, from the checker; a paragraph recording the fourth bundle closed |
+| `okf/tests/test_profile_layer.py` | `VERIFIED_BUNDLES` adds `sankhya-darshana`; `EXPECTED_LEVELS` and the bundle-version map updated. The gate logic is unchanged |
+| `README.md`, `VERSIONING.md` | Bundle row at 0.13.5; the new tag listed |
+
+### Proved, not argued
+
+`okf_validate --corpus --profile`: `sankhya-darshana` ✓ at every level, **L3 4/13**, trust line `verified(human:) 105/448 · required set 105/448` · `okf_validate --strict` **0 fail / 0 warn** on all thirteen bundles · `okf_viz.py --check` **current** on all thirteen · `pytest okf/tests` **199 passed**.
+
+### Not in this release
+
+The other nine bundles wait only for their human review.
+
 ## 2026-11-26 — `bhakti-marga` 0.4.4: human-verified, the third bundle at Level 3
 
 **The human verifier reviewed all 24 `bhakti-marga` documents and recorded `verified:` on each. `verified(human:)` moves 53/448 → 77/448; Level 3 moves 2/13 → 3/13.** Released as `bundle/bhakti-marga/v0.4.4`.

@@ -1,7 +1,7 @@
 ---
 type: Concept
 bundle: sankhya-darshana
-bundle_version: "0.13.4"
+bundle_version: "0.13.5"
 id: avidya-samkhya
 title: Avidyā (Sāṃkhya)
 iast: Avidyā
@@ -27,6 +27,9 @@ generated:
   by: guru/2026-07
   at: 2026-07-10T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-26T18:30:28-05:00
 sources:
   - id: samkhya-karika
     resource: references/samkhya-karika.md

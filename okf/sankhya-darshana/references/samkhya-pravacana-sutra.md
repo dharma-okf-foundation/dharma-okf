@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: sankhya-darshana
-bundle_version: "0.13.4"
+bundle_version: "0.13.5"
 id: samkhya-pravacana-sutra
 title: Sāṃkhya-Pravacana-Sūtra
 description: A sutra-format collection attributed to the Kapila tradition of Samkhya, extant as a later compilation. Verse 1.92 states directly that Ishvara is unproved, anchoring classical Samkhya's nirishvara doctrine. This bundle's secondary textual anchor for nirishvara, sesvara-samkhya, and kapila.
@@ -16,6 +16,9 @@ generated:
   by: guru/2026-07
   at: 2026-07-10T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-26T20:53:22-05:00
 license: CC BY-SA 4.0
 ---
 

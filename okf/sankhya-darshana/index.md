@@ -1,13 +1,13 @@
 ---
 type: Index
 bundle: sankhya-darshana
-bundle_version: "0.13.4"
+bundle_version: "0.13.5"
 title: Sāṃkhya-Darśana -- Dharma-OKF Bundle v0.13
 description: The dualist, enumerative darshana of Kapila -- purusha-prakriti causation and the discriminative path to kaivalya, completing the six classical darshanas.
 darshana:
 - Samkhya
 concept_count: 20
-reference_count: 7
+reference_count: 8
 timestamp: '2026-07-10'
 okf_version: '0.2'
 license: CC BY-SA 4.0
@@ -15,7 +15,7 @@ license: CC BY-SA 4.0
 
 # Sāṃkhya-Darśana -- सांख्यदर्शन
 
-**Bundle v0.13.4** -- completes the six classical darśanas (Yoga v0.2, Vedānta-epistemology v0.3 + Upaniṣadic-core v0.6, Mīmāṃsā v0.10, Nyāya-Vaiśeṣika v0.9, Sāṃkhya v0.13).
+**Bundle v0.13.5** -- completes the six classical darśanas (Yoga v0.2, Vedānta-epistemology v0.3 + Upaniṣadic-core v0.6, Mīmāṃsā v0.10, Nyāya-Vaiśeṣika v0.9, Sāṃkhya v0.13).
 
 ## What This Bundle Does NOT Claim
 
@@ -67,6 +67,4 @@ This bundle deliberately does not re-derive the full 24/25-tattva evolution ladd
 7. **satkāryavāda** -- directly opposed to nyaya-vaisheshika v0.9's asatkāryavāda/ārambhavāda; named philosophical opponents on causation, not variant readings.
 8. **pariṇāmavāda** -- contrasted with vedanta-epistemology v0.3's vivartavāda (real transformation vs. apparent transformation).
 
-## Queued Next
-
-**v0.14 -- itihasa-epic-vocabulary** (audience-facing, feeds the Satyanarayan Katha course). Not yet concept-locked; needs its own dedicated Gate-1 pass.
+*Release v0.13.5, 2026-11-26: all 28 documents (20 Concept, 8 Reference) human-verified, Profile Level 3 (PROFILE.md §5).*

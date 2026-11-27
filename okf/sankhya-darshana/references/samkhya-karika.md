@@ -1,7 +1,7 @@
 ---
 type: Reference
 bundle: sankhya-darshana
-bundle_version: "0.13.4"
+bundle_version: "0.13.5"
 id: samkhya-karika
 title: Sāṃkhya-Kārikā
 description: The foundational extant systematic text of classical Samkhya, composed by Isvarakrishna circa the 4th-5th century CE. Its 72 teaching stanzas state the satkaryavada argument (Karika 9), the 25-tattva structure with purusha's plurality, the triguna apparatus, and the viveka-khyati path to kaivalya. This bundle's primary textual anchor for purusha, prakriti, satkaryavada, parinamavada, vyakta-avyakta, guna-samkhya, sattva, rajas, viveka-khyati, kaivalya-samkhya, avidya-samkhya, bandha-samkhya, pramana-samkhya, anumana-samkhya, and samkhya-as-enumeration.
@@ -16,6 +16,9 @@ generated:
   by: guru/2026-07
   at: 2026-07-10T00:00:00Z
 okf_profile: "dharma-okf/1.0"
+verified:
+  by: human:sanjay@dharmaokf.foundation
+  at: 2026-11-26T20:52:46-05:00
 license: CC BY-SA 4.0
 ---
 

@@ -84,6 +84,7 @@ The scheme's first thirteen tags were cut at `17fd5da` at the close of the 2026-
 
 | Date | Tag | Event |
 |---|---|---|
+| 2026-11-26 | `bundle/sankhya-darshana/v0.13.5` | Human verification of all 28 documents; fourth bundle at Profile Level 3 (`PROFILE.md` §5) |
 | 2026-11-26 | `bundle/bhakti-marga/v0.4.4` | Human verification of all 24 documents; third bundle at Profile Level 3 (`PROFILE.md` §5) |
 | 2026-11-26 | `bundle/mimamsa-dharma/v0.10.2` | Human verification of all 32 documents; second bundle at Profile Level 3 (`PROFILE.md` §5) |
 | 2026-11-25 | `bundle/dharmic-ethics/v0.5.4` | Human verification of all 21 documents; first bundle at Profile Level 3 (`PROFILE.md` §5) |
